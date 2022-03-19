@@ -1,4 +1,5 @@
 import html
+import pandas as pd
 
 def unescape_text(text):
     text = html.unescape(text) # &amp;#x200B; => &#x200B;
@@ -232,4 +233,41 @@ def profile_probabilities(counters,text,max_n,debug=False):
         de_list.append((i,sym,prob,back_prob))
     return de_list
 
+# https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
+def profile_freedoms(model,text,max_n,debug=False):
+    length = len(text)
+    de_list = []
+    for i in range(1,length-1):
+        sym = text[i]
+        #forward
+        counters = model[1]
+        start = i - (max_n-1)
+        if start < 0:
+            start = 0
+        #gram = text[start:i]
+        forw_gram = text[start:i+1]
+        forw_freedom = len(counters[forw_gram]) if forw_gram in counters else 0
+        #backward
+        counters = model[2]
+        end = i + max_n
+        if end > length:
+            end = length
+        #gram = text[i+1:end]
+        back_gram = text[i:end]
+        back_freedom = len(counters[back_gram]) if back_gram in counters else 0
+        if debug:
+            print("Forw {}-{}:'{}':{}=>{}".format(start,i,forw_gram,sym,forw_freedom))
+            print("Back {}-{}:'{}':{}=>{}".format(i,end,back_gram,sym,back_freedom))
+        de_list.append((i,sym,forw_freedom,back_freedom))
+    return de_list
+
+
+def profile_freedoms_df(model,text,n,debug=False):
+    df = pd.DataFrame(profile_freedoms(model,text,n,debug=debug),columns=['pos','char','f+','f-'])
+    df['f+|f-']=df['f+'] + df['f-']
+    df['f+&f-']=df['f+'] * df['f-']
+    df['df+'] = df['f+'].diff().shift(-1)
+    df['df-'] = df['f-'].diff()
+    df['df-df+'] = df['df-'] - df['df+']
+    return df
 
