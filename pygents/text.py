@@ -94,7 +94,7 @@ def merge_grams_at(grams,pos):
         return grams[:pos-1] + [  grams[pos-1][:-1] + grams[pos] + grams[pos+1][1:] ] + grams[pos+2:] 
         
         
-def marge_grams(counter,text,n_start,n_cycles):
+def merge_grams(counter,text,n_start,n_cycles):
     grams = get_grams(text,n_start)
     for cycle in range(n_cycles):
         max_freq = 0
@@ -187,19 +187,13 @@ def model_grams_count_with_char_freedoms(texts,max_n,debug=False):
 
         
 #kinda unit test
-counters1 = counters_init(2)
-assert str(counters1) == '([{}, {}], [{}, {}], [{}, {}])'
+test_counters1 = counters_init(2)
+assert str(test_counters1) == '([{}, {}], [{}, {}], [{}, {}])'
 
-grams_count_with_char_freedoms(counters1[0],counters1[1],counters1[2],list("abaxb"),1)
-grams_count_with_char_freedoms(counters1[0],counters1[1],counters1[2],list("abaxb"),2)
-#print(counters1[0])
-#print(counters1[1])
-#print(counters1[2])
-#print([merge_dicts(d) for d in counters1])
-assert str([merge_dicts(d) for d in counters1]) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 2}, 'b': {'b': 1}, 'x': {'b': 1}, 'ab': {'b': 1}, 'ba': {'b': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
-#print(model_grams_count_with_char_freedoms(["abaxb"],2))
+grams_count_with_char_freedoms(test_counters1[0],test_counters1[1],test_counters1[2],list("abaxb"),1)
+grams_count_with_char_freedoms(test_counters1[0],test_counters1[1],test_counters1[2],list("abaxb"),2)
+assert str([merge_dicts(d) for d in test_counters1]) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 2}, 'b': {'b': 1}, 'x': {'b': 1}, 'ab': {'b': 1}, 'ba': {'b': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
 assert str(model_grams_count_with_char_freedoms(["abaxb"],2)) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 2}, 'b': {'b': 1}, 'x': {'b': 1}, 'ab': {'b': 1}, 'ba': {'b': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
-#print(model_grams_count_with_char_freedoms(["abaxb","abaxb"],2))
 assert str(model_grams_count_with_char_freedoms(["abaxb","abaxb"],2)) == "[{'a': 4, 'b': 4, 'x': 2, 'ab': 2, 'ba': 2, 'ax': 2, 'xb': 2}, {'a': {'b': 4}, 'b': {'b': 2}, 'x': {'b': 2}, 'ab': {'b': 2}, 'ba': {'b': 2}, 'ax': {'b': 2}}, {'b': {'a': 2, 'x': 2}, 'a': {'b': 2}, 'x': {'a': 2}, 'ba': {'a': 2}, 'ax': {'b': 2}, 'xb': {'a': 2}}]"
 
 

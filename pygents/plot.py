@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from pygents.text import *
 
 def plot_profile(df,text,h=3,title=None):
     plt.rcParams["figure.figsize"] = (20,h)
@@ -56,7 +57,7 @@ def plot_profile_avg_freedom(model,text,n_min,n_max,col):
         else:
             sdf[col] = sdf[col] + df[col]
 
-    sdf[c] = sdf[col] / sdf[col].max()
+    sdf[col] = sdf[col] / sdf[col].max()
     plot_profile(sdf[['char',col]],text,title='1-7 '+col)
     
 
