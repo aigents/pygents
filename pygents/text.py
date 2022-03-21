@@ -11,7 +11,7 @@ def preprocess_text(text):
     text = html.unescape(text) # &amp;#x200B; =>  
     return text.lower()
 
-def count(dic,arg,cnt=1):
+def dictcount(dic,arg,cnt=1):
     if arg in dic:
         dic[arg] = dic[arg] + cnt
     else:
@@ -28,7 +28,7 @@ def grams_count(counter,chars,n):
         for j in range(n):
             gram = chars[i+j] if gram is None else gram + chars[i+j]
             #print(i,j,gram)
-        count(freqs,gram)
+        dictcount(freqs,gram)
 
 def text_grams_count(counter,text,max_n):
     chars = list(text)
@@ -122,8 +122,8 @@ def counts2mis(bigram_counts,debug=False):
         y = bigram[1]
         n_xy = bigram_counts[bigram]
         n += n_xy
-        count(n_x_,x,n_xy)
-        count(n__y,y,n_xy)
+        dictcount(n_x_,x,n_xy)
+        dictcount(n__y,y,n_xy)
     #c = 0
     for bigram in bigram_counts:
         x = bigram[0]
@@ -143,13 +143,13 @@ def countcount(dic,arg,subarg,cnt=1):
         subdic = dic[arg]
     else:
         dic[arg] = subdic = {}
-    count(subdic,subarg,cnt)
+    dictcount(subdic,subarg,cnt)
 
 def counters_init(max_n):  
     return [{} for n in range(max_n)], [{} for n in range(max_n)], [{} for n in range(max_n)]
 
 def merge_dicts(dicts):
-    merged = {}
+    merged={}
     for d in dicts:
         merged.update(d)
     return merged
@@ -166,11 +166,11 @@ def grams_count_with_char_freedoms(gram_counter,forth_freedom_counter,back_freed
             gram = chars[i+j] if gram is None else gram + chars[i+j]
         if debug:
             print(gram)
-        count(freqs,gram)
+        dictcount(freqs,gram)
         if i < (length - n):
             if debug:
                 print('+',gram,chars[i+n])
-            countcount(forth_freedoms,gram,chars[length-1])
+            countcount(forth_freedoms,gram,chars[i+n])
         if i > 0:
             if debug:
                 print('-',gram,chars[i-1])
@@ -185,16 +185,15 @@ def model_grams_count_with_char_freedoms(texts,max_n,debug=False):
             grams_count_with_char_freedoms(model[0],model[1],model[2],chars,n+1)
     return [merge_dicts(d) for d in model]
 
-        
+ 
 #kinda unit test
-test_counters1 = counters_init(2)
-assert str(test_counters1) == '([{}, {}], [{}, {}], [{}, {}])'
-
-grams_count_with_char_freedoms(test_counters1[0],test_counters1[1],test_counters1[2],list("abaxb"),1)
-grams_count_with_char_freedoms(test_counters1[0],test_counters1[1],test_counters1[2],list("abaxb"),2)
-assert str([merge_dicts(d) for d in test_counters1]) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 2}, 'b': {'b': 1}, 'x': {'b': 1}, 'ab': {'b': 1}, 'ba': {'b': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
-assert str(model_grams_count_with_char_freedoms(["abaxb"],2)) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 2}, 'b': {'b': 1}, 'x': {'b': 1}, 'ab': {'b': 1}, 'ba': {'b': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
-assert str(model_grams_count_with_char_freedoms(["abaxb","abaxb"],2)) == "[{'a': 4, 'b': 4, 'x': 2, 'ab': 2, 'ba': 2, 'ax': 2, 'xb': 2}, {'a': {'b': 4}, 'b': {'b': 2}, 'x': {'b': 2}, 'ab': {'b': 2}, 'ba': {'b': 2}, 'ax': {'b': 2}}, {'b': {'a': 2, 'x': 2}, 'a': {'b': 2}, 'x': {'a': 2}, 'ba': {'a': 2}, 'ax': {'b': 2}, 'xb': {'a': 2}}]"
+_test_counters1 = counters_init(2)
+assert str(_test_counters1) == '([{}, {}], [{}, {}], [{}, {}])'
+grams_count_with_char_freedoms(_test_counters1[0],_test_counters1[1],_test_counters1[2],list("abaxb"),1)
+grams_count_with_char_freedoms(_test_counters1[0],_test_counters1[1],_test_counters1[2],list("abaxb"),2)
+assert str([merge_dicts(d) for d in _test_counters1]) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 1, 'x': 1}, 'b': {'a': 1}, 'x': {'b': 1}, 'ab': {'a': 1}, 'ba': {'x': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
+assert str(model_grams_count_with_char_freedoms(["abaxb"],2)) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 1, 'x': 1}, 'b': {'a': 1}, 'x': {'b': 1}, 'ab': {'a': 1}, 'ba': {'x': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
+assert str(model_grams_count_with_char_freedoms(["abaxb","abaxb"],2)) == "[{'a': 4, 'b': 4, 'x': 2, 'ab': 2, 'ba': 2, 'ax': 2, 'xb': 2}, {'a': {'b': 2, 'x': 2}, 'b': {'a': 2}, 'x': {'b': 2}, 'ab': {'a': 2}, 'ba': {'x': 2}, 'ax': {'b': 2}}, {'b': {'a': 2, 'x': 2}, 'a': {'b': 2}, 'x': {'a': 2}, 'ba': {'a': 2}, 'ax': {'b': 2}, 'xb': {'a': 2}}]"
 
 
 def profile_probabilities(counters,text,max_n,debug=False):
