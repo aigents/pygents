@@ -222,8 +222,7 @@ def profile_freedoms(model,text,max_n,debug=False):
         back_gram = text[i:end]
         back_freedom = len(counters[back_gram]) if back_gram in counters else 0
         if debug:
-            print("Forw {}-{}:'{}':{}=>{}".format(start,i,forw_gram,sym,forw_freedom))
-            print("Back {}-{}:'{}':{}=>{}".format(i,end,back_gram,sym,back_freedom))
+            print("+{}-{}:\t'{}'=>{}\t{}\t-{}-{}:\t'{}'=>{}\t{}".format(start,i,forw_gram,sym,forw_freedom,i,end,back_gram,sym,back_freedom))
         de_list.append((i,sym,forw_freedom,back_freedom))
     return de_list
 

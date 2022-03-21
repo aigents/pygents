@@ -9,9 +9,22 @@ def plot_profile(df,text,h=3,title=None):
     if title is not None:
         plt.title(title)
 
-def plot_bar(df,labels,values,title=None):
+def plot_hbar(df,labels,values,title=None):
     plt.rcParams["figure.figsize"] = (20,round(len(df)/5))
     p = df[[labels,values]].plot.barh(x=labels); p.invert_yaxis();
+    if title is not None:
+        plt.title(title)
+
+def plot_hbars(df,labels,values,title=None):
+    plt.rcParams["figure.figsize"] = (20,round(len(df)/5))
+    p = df[[labels]+values].plot.barh(x=labels); p.invert_yaxis();
+    if title is not None:
+        plt.title(title)
+
+def plot_bars(df,labels,values,title=None):
+    plt.rcParams["figure.figsize"] = (20,3)
+    p = df[[labels]+values].plot.bar(x=labels);
+    p = plt.xticks(rotation='horizontal',fontsize=1+round(60*20/len(df)))
     if title is not None:
         plt.title(title)
 
@@ -59,5 +72,3 @@ def plot_profile_avg_freedom(model,text,n_min,n_max,col):
 
     sdf[col] = sdf[col] / sdf[col].max()
     plot_profile(sdf[['char',col]],text,title='1-7 '+col)
-    
-
