@@ -1,5 +1,6 @@
 import html
 import pandas as pd
+from pygents.util import dictcount, merge_two_dicts, countcount, counters_init, merge_dicts
 
 def unescape_text(text):
     text = html.unescape(text) # &amp;#x200B; => &#x200B;
@@ -10,12 +11,6 @@ def preprocess_text(text):
     text = html.unescape(text) # &amp;#x200B; => &#x200B;
     text = html.unescape(text) # &amp;#x200B; =>  
     return text.lower()
-
-def dictcount(dic,arg,cnt=1):
-    if arg in dic:
-        dic[arg] = dic[arg] + cnt
-    else:
-        dic[arg] = cnt
 
 def grams_init(max_n):  
     return [{} for n in range(max_n)]
@@ -34,12 +29,6 @@ def text_grams_count(counter,text,max_n):
     chars = list(text)
     for n in range(max_n):
         grams_count(counter,chars,n+1)
-
-def merge_two_dicts(x, y):
-    """Given two dictionaries, merge them into a new dict as a shallow copy."""
-    z = x.copy()
-    z.update(y)
-    return z
 
 def tokenize_with_lexicon(alphalex,text):
     alex = list(alphalex) #TODO precompile
@@ -137,22 +126,6 @@ def counts2mis(bigram_counts,debug=False):
         #    break
     return mis
 
-
-def countcount(dic,arg,subarg,cnt=1):
-    if arg in dic:
-        subdic = dic[arg]
-    else:
-        dic[arg] = subdic = {}
-    dictcount(subdic,subarg,cnt)
-
-def counters_init(max_n):  
-    return [{} for n in range(max_n)], [{} for n in range(max_n)], [{} for n in range(max_n)]
-
-def merge_dicts(dicts):
-    merged={}
-    for d in dicts:
-        merged.update(d)
-    return merged
 
 def grams_count_with_char_freedoms(gram_counter,forth_freedom_counter,back_freedom_counter,chars,n,debug=False):
     freqs = gram_counter[n-1]
