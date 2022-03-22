@@ -1,6 +1,19 @@
 import html
 import pandas as pd
+import urllib.request
 from pygents.util import dictcount, merge_two_dicts, countcount, counters_init, merge_dicts
+
+def url_text(url,debug = True):
+    text = ''
+    lines = 0
+    for line in urllib.request.urlopen(url):
+        utf8 = line.decode('utf-8')
+        #print(utf8)
+        lines += 1
+        text += utf8.replace('\r',' ').replace('\n','')
+    if debug:
+        print(lines)
+    return text
 
 def unescape_text(text):
     text = html.unescape(text) # &amp;#x200B; => &#x200B;
