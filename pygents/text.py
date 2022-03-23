@@ -3,7 +3,7 @@ import pandas as pd
 import urllib.request
 from pygents.util import dictcount, merge_two_dicts, countcount, counters_init, merge_dicts
 
-def url_text(url,debug = True):
+def url_text(url,debug = False):
     text = ''
     lines = 0
     for line in urllib.request.urlopen(url):
@@ -180,6 +180,63 @@ grams_count_with_char_freedoms(_test_counters1[0],_test_counters1[1],_test_count
 assert str([merge_dicts(d) for d in _test_counters1]) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 1, 'x': 1}, 'b': {'a': 1}, 'x': {'b': 1}, 'ab': {'a': 1}, 'ba': {'x': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
 assert str(model_grams_count_with_char_freedoms(["abaxb"],2)) == "[{'a': 2, 'b': 2, 'x': 1, 'ab': 1, 'ba': 1, 'ax': 1, 'xb': 1}, {'a': {'b': 1, 'x': 1}, 'b': {'a': 1}, 'x': {'b': 1}, 'ab': {'a': 1}, 'ba': {'x': 1}, 'ax': {'b': 1}}, {'b': {'a': 1, 'x': 1}, 'a': {'b': 1}, 'x': {'a': 1}, 'ba': {'a': 1}, 'ax': {'b': 1}, 'xb': {'a': 1}}]"
 assert str(model_grams_count_with_char_freedoms(["abaxb","abaxb"],2)) == "[{'a': 4, 'b': 4, 'x': 2, 'ab': 2, 'ba': 2, 'ax': 2, 'xb': 2}, {'a': {'b': 2, 'x': 2}, 'b': {'a': 2}, 'x': {'b': 2}, 'ab': {'a': 2}, 'ba': {'x': 2}, 'ax': {'b': 2}}, {'b': {'a': 2, 'x': 2}, 'a': {'b': 2}, 'x': {'a': 2}, 'ba': {'a': 2}, 'ax': {'b': 2}, 'xb': {'a': 2}}]"
+
+
+def grams_count_with_gram_freedoms(counters,text,n,debug=False):
+    freqs = counters[0][n-1]
+    forth_freedoms = counters[1][n-1]
+    back_freedoms = counters[2][n-1]
+    #print(chars,n)
+    length = len(text)
+    for i in range(length - (n-1)):
+        #count grams
+        gram = text[i:i+n]
+        if debug:
+            print("\t{}".format(gram))
+        dictcount(freqs,gram)
+        #count backs
+        #"""
+        if i > 0:
+            back = i - n
+            if back < 0:
+                back = 0
+            gram_back = text[back:i]
+            if debug:
+                print("-\t{}\t{}".format(gram,gram_back))
+            countcount(back_freedoms,gram,gram_back)
+        #"""
+        #count forths
+        if i < (length - n):
+            forth = i + n + n
+            if forth > length:
+                forth = length
+            gram_forth = text[i+n:forth]
+            if debug:
+                print("+\t{}\t{}".format(gram,gram_forth))
+            countcount(forth_freedoms,gram,gram_forth)
+#kinda unit test
+_test_m = counters_init(1)
+grams_count_with_gram_freedoms(_test_m,"abcd",1,debug=False)            
+#print(_test_m[0])
+#print(_test_m[1])
+#print(_test_m[2])
+#print(_test_m)
+assert str(_test_m) == "([{'a': 1, 'b': 1, 'c': 1, 'd': 1}], [{'a': {'b': 1}, 'b': {'c': 1}, 'c': {'d': 1}}], [{'b': {'a': 1}, 'c': {'b': 1}, 'd': {'c': 1}}])"
+#print()
+_test_m = counters_init(2)
+grams_count_with_gram_freedoms(_test_m,"abcde",2,debug=False)            
+#print(_test_m[0])
+#print(_test_m[1])
+#print(_test_m[2])
+#print(_test_m)
+assert str(_test_m) == "([{}, {'ab': 1, 'bc': 1, 'cd': 1, 'de': 1}], [{}, {'ab': {'cd': 1}, 'bc': {'de': 1}, 'cd': {'e': 1}}], [{}, {'bc': {'a': 1}, 'cd': {'ab': 1}, 'de': {'bc': 1}}])"
+_test_m = counters_init(3)
+grams_count_with_gram_freedoms(_test_m,"abcdef",3,debug=False)            
+#print(_test_m[0])
+#print(_test_m[1])
+#print(_test_m[2])
+#print(_test_m)
+assert str(_test_m) == "([{}, {}, {'abc': 1, 'bcd': 1, 'cde': 1, 'def': 1}], [{}, {}, {'abc': {'def': 1}, 'bcd': {'ef': 1}, 'cde': {'f': 1}}], [{}, {}, {'bcd': {'a': 1}, 'cde': {'ab': 1}, 'def': {'abc': 1}}])"
 
 
 def profile_probabilities(counters,text,max_n,debug=False):
