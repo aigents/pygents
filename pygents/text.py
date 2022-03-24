@@ -269,11 +269,12 @@ def profile_probabilities(counters,text,max_n,debug=False):
         de_list.append((i,sym,prob,back_prob))
     return de_list
 
+
 # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
 def profile_freedoms(model,text,max_n,debug=False):
     length = len(text)
     de_list = []
-    for i in range(1,length-1):
+    for i in range(length):
         sym = text[i]
         #forward
         counters = model[1]
