@@ -34,13 +34,14 @@ def tokenize_detaching_tail(text,chars="'\":,;.!?}])"):
         if found >= 0:
             tokens.append(chars[found])
         else:
+            tokens.reverse()
             return tokens, text[:tail + 1]
+    tokens.reverse()
     return tokens, None
-
 assert str(tokenize_detaching_tail("test")) == "([], 'test')"
 assert str(tokenize_detaching_tail("test'")) == "([\"'\"], 'test')"
-assert str(tokenize_detaching_tail("test.\"")) == "(['\"', '.'], 'test')"
-assert str(tokenize_detaching_tail("test').\"")) == "(['\"', '.', ')', \"'\"], 'test')"
+assert str(tokenize_detaching_tail("test.\"")) == "(['.', '\"'], 'test')"
+assert str(tokenize_detaching_tail("test').\"")) == "([\"'\", ')', '.', '\"'], 'test')"
 
     
 def tokenize_split_with_delimiters_and_quotes(text):
@@ -58,5 +59,5 @@ def tokenize_split_with_delimiters_and_quotes(text):
             tokens.extend(tail)
     return tokens
 assert str(tokenize_split_with_delimiters_and_quotes("man says hi")) == "['man', ' ', 'says', ' ', 'hi']"
-assert str(tokenize_split_with_delimiters_and_quotes("man (tom) says 'hi there!' to me.")) == "['man', ' ', '(', 'tom', ')', ' ', 'says', ' ', \"'\", 'hi', ' ', 'there', \"'\", '!', ' ', 'to', ' ', 'me', '.']"
+assert str(tokenize_split_with_delimiters_and_quotes("man (tom) says 'hi there!' to me.")) == "['man', ' ', '(', 'tom', ')', ' ', 'says', ' ', \"'\", 'hi', ' ', 'there', '!', \"'\", ' ', 'to', ' ', 'me', '.']"
 
