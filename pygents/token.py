@@ -1,6 +1,10 @@
 import abc
+import pickle
+import pandas as pd  
+
 from pygents.util import count_subelements, dictcount, calc_f1, counters_init
-from pygents.text import preprocess_text, grams_count_with_char_freedoms
+from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms, profile_freedoms
+
 
 # Basic Tokenizer
 class Tokenizer(abc.ABC):
