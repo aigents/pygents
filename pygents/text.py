@@ -15,6 +15,27 @@ def url_text(url,debug = False):
         print(lines)
     return text
 
+def url_text_lines(url,debug = False):
+    lines = []
+    for line in urllib.request.urlopen(url):
+        utf8 = line.decode('utf-8')
+        lines.append( utf8.replace('\r',' ').replace('\n','') )
+    return lines
+
+def text_lines_sample(text_lines,required_count,excluded_prefixes):
+    delta = round(len(text_lines)/(required_count+1)) # advance 1 to enable skips within the delta 
+    sample = []
+    for i in range(required_count):
+        line = i * delta
+        while True:
+            text = text_lines[line].lower()
+            if len(text) == 0 or text.startswith(tuple(excluded_prefixes)) and line+1 < len(text_lines): # skip
+                line += 1
+            else:
+                sample.append(text)
+                break
+    return sample
+
 def unescape_text(text):
     text = html.unescape(text) # &amp;#x200B; => &#x200B;
     text = html.unescape(text) # &amp;#x200B; =>  
