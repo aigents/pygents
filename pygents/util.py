@@ -1,4 +1,8 @@
 
+def remove_all(collection,item):
+    while item in collection:
+        collection.remove(item)
+
 def dictcount(dic,arg,cnt=1):
     if arg in dic:
         dic[arg] = dic[arg] + cnt

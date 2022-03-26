@@ -1,4 +1,6 @@
 import abc
+from pygents.util import count_subelements, dictcount, calc_f1, counters_init
+from pygents.text import preprocess_text, grams_count_with_char_freedoms
 
 # Basic Tokenizer
 class Tokenizer(abc.ABC):
@@ -133,6 +135,41 @@ def tokenize_with_opposite_metrics(model,text,back,forw,nlist,threshold=0.5,debu
     if len(token) > 0:
             tokens.append(token)
     return tokens
+
+ 
+def profile_freedoms_ex_df(model,text,n,debug=False):
+    df = pd.DataFrame(profile_freedoms(model,text,n,debug=debug),columns=['pos','gram','f+','f-'])
+    df['ddf+'] = (df['f+'] - df['f+'].mean()).clip(lower=0)
+    df['ddf-'] = (df['f-'] - df['f-'].mean()).clip(lower=0)
+    df['ddf+|ddf-'] = df['ddf+'] + df['ddf-'].shift(-1)
+    df['ddf+&ddf-'] = df['ddf+'] * df['ddf-'].shift(-1)
+    df['df+'] = df['f+'].diff() 
+    df['df-'] = -df['f-'].diff().shift(-1)
+    df['df+|df-'] = df['df+'] + df['df-']
+    df['df+&df-'] = df['df+'] * df['df-']
+    # We assigned a “peak” value to each character transition, 
+    # computed by adding the value of the preceding increase in freedom to the following decrease in freedom. 
+    # We characterized token boundaries based on the sum of their forward- and backward-reading peak values.
+    df['peak+'] = df['df+'] - df['df+'].shift(-1)
+    df['peak-'] = df['df-'] - df['df-'].shift(1)
+    df['f+|f-'] = df['f+'] + df['f-'].shift(-1)
+    df['f+&f-'] = df['f+'] * df['f-'].shift(-1)
+    return df
+
+
+def profile_freedoms_avg_df(model,text,metrics,nlist,debug=False):
+    res_df = None
+    for n in nlist:
+        df = profile_freedoms_ex_df(model,text,n)
+        if res_df is None:
+            res_df = df[['pos','gram']+metrics].copy()
+        else:
+            for m in metrics:
+                res_df[m] = res_df[m] + df[m]
+    for m in metrics:
+        res_df[m] = res_df[m]/res_df[m].max()
+    return res_df
+
 
 
 
