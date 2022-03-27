@@ -1,5 +1,7 @@
 # TODO
 
+## First
+
 - Diary
 - if "generated quoted words" lexicon improves the situation!? 
 - Corpora stats review
@@ -11,23 +13,25 @@
 - beat UT SOTA with SUT 
 - token/ngram graph analysis and scenario mining for tokenization and morphology.  
 
-#--------
-#TODO pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) generated dates
+## Next
 
-#TODO tokenize by clustering words in the sentence by gram counts - using MUTUAL INFORMATION!!!
-
-#TODO how to split endings delimiters away from words!?
-
-#TODO inhibit frequencies from higher-order to lower-order?
-
-#TODO decapitalization?
-
-#TODO decode '\u200b'
+- pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) generated dates
+- tokenize by clustering words in the sentence by gram counts - using MUTUAL INFORMATION!!!
+- how to split endings delimiters away from words!?
+- inhibit frequencies from higher-order to lower-order?
+- decapitalization?
+- decode '\u200b'
 
 
 # DONE
 
-- TODO
+- Metrics...
+- "Freeedom" ...
+- Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora with ddf+ or ddf- metrics (top F1 on tokens woth no spaces)
+-- B => F1=0.91 (n=[1,2], t=0.4)
+-- GC, GA, GC+GA => F1=0.78 (n=[1], t=0.4-0.8)
+-- B+GC+GA => F1=0.91 (n=[1,2], t=0.4)
+
 
 # References
 
