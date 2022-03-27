@@ -2,7 +2,7 @@ import abc
 import pickle
 import pandas as pd  
 
-from pygents.util import count_subelements, dictcount, calc_f1, counters_init
+from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all
 from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms, profile_freedoms
 
 
@@ -87,7 +87,7 @@ class FreedomTokenizer(Tokenizer):
             if self.mode == 'grams':
                 for n in range(max_n):
                     grams_count_with_gram_freedoms(model,text,n+1,debug=self.debug)
-            else: # 'chars' - legacy
+            else: # 'chars' - legacy, woorks better on Brown corpus!
                 chars = list(text)
                 for n in range(max_n):
                     grams_count_with_char_freedoms(model[0],model[1],model[2],chars,n+1,debug=self.debug)
@@ -139,6 +139,44 @@ def tokenize_with_opposite_metrics(model,text,back,forw,nlist,threshold=0.5,debu
     if len(token) > 0:
             tokens.append(token)
     return tokens
+
+
+def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,debug=False):
+    tokens = []
+    token = ''
+    df = profile_freedoms_avg_df(model,text,[forw],nlist)
+    length = len(df)
+    for i in range(length):
+        brk_forw = True if df.loc[i][forw] >= threshold else False
+        token += df.loc[i]['gram']
+        if debug:
+            print("{}\t{}\t{}\t{}\t{}".format(df.loc[i]['gram'],'+' if brk_forw else '',round(df.loc[i][back],2),round(df.loc[i][forw],2),token))
+        if len(token) > 0 and brk_forw:
+            tokens.append(token)
+            token = ''
+    if len(token) > 0:
+            tokens.append(token)
+    return tokens
+
+
+def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,spaces=False,debug=False):
+    f1_avg = 0
+    for text in texts:
+        tokens = tokenize_with_opposite_metrics(model,text,forw,back,nlist,threshold=threshold) if back is not None else tokenize_with_forward_metric(model,text,forw,nlist,threshold=threshold)
+        tokens_ref = tokenize_split_with_delimiters_and_quotes(text)
+        if not spaces:
+            remove_all(tokens,' ')
+            remove_all(tokens_ref,' ')
+        f1 = calc_f1(tokens_ref,tokens) 
+        f1_avg += f1
+        if debug:
+            print(f1)
+            print(text)
+            print(calc_diff(tokens,tokens_ref))
+            print(str(tokens_ref))
+            print(str(tokens))
+            print()
+    print("{}\t{}\t{}".format(nlist,threshold,round(f1_avg/len(texts),2)))
 
  
 def profile_freedoms_ex_df(model,text,n,debug=False):
