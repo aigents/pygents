@@ -3,6 +3,7 @@
 ## First
 
 - Diary
+- train and test on crypto corpus
 - if "generated quoted words" lexicon improves the situation!? 
 - Corpora stats review
 - Explore "surprizeness" measure to split!? 
@@ -27,7 +28,7 @@
 
 - Metrics...
 - "Freeedom" ...
-- Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora with ddf+ or ddf- metrics (top F1 on tokens woth no spaces)
+- Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora with ddf+ or ddf- metrics (top F1 on tokens with no spaces)
   - B => F1=0.91 (n=[1,2], t=0.4)
   - GC, GA, GC+GA => F1=0.78 (n=[1], t=0.4-0.8)
   - B+GC+GA => F1=0.91 (n=[1,2], t=0.4)
