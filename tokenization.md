@@ -1,31 +1,31 @@
 # TODO
 
-## First
+## Tasks
 
-- if "generated quoted words" lexicon improves the situation!? 
-- use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokeniize based on EITHER of + and - as in case of ddf+, ddf- 
+- if "generated quoted words" lexicon improves the situation with F1 (detach framing double quotes " from the words)!? 
+- use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
-- evaluate all metrics based on same corpus and "referenced" sentence
-- tokenize based on true lexicon.txt, count frequencies of non-present words, see what to do next
-- when counting smaller ngrams, denominate them for being part of larger ngrams?  
+- evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
+- tokenize based on true lexicon.txt ("curriculum learning" concept), count frequencies of non-present words, see what to do next
+- when counting smaller ngrams based on p+/p-, denominate them for being part of larger ngrams?  
+  - "inhibit frequencies" (or rather ""boost) from higher-order to lower-order?
 - Corpora stats review
-- Explore "surprizeness" measure to split!? 
-- merge tokens in a way minimizing freedom 
+- Explore "surprizeness" measure to split as extension to "freedom"/"uncertainty"!?
+- tokenize by clustering words in the sentence 
+  - by gram counts - using MUTUAL INFORMATION!!! (does not work? double-check)
+  - merge tokens in a way minimizing "freedom"/"uncertainty" (maximaly certain tree or MCT)
 - consider other metrics
-- find best parameters tokenizer parameters and find SOTA 
-- implement semi-supervised tokenizer, trained on word/character corpus (SST))
-- beat UT SOTA with SUT 
-- token/ngram graph analysis and scenario mining for tokenization and morphology.  
+- find best parameters tokenizer parameters and find new SOTA above F1=0.91
+- beat unsupervized tokenizer (UT) SOTA with semi-supervised tokenizer (SST) 
+  - implement semi-supervised tokenizer, trained on word/character corpus (SST))
+  - pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) generated dates
+- further token/ngram graph analysis and scenario mining for tokenization and morphology extending to sentence segmentation  
 
-## Next
+## Problems
 
-- pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) generated dates
-- tokenize by clustering words in the sentence by gram counts - using MUTUAL INFORMATION!!!
-- how to split endings delimiters away from words!?
-- inhibit frequencies from higher-order to lower-order?
-- decapitalization?
-- decode '\u200b'
-
+- how to split endings quotes delimiters away from reegular words, keeping the slashes, points and periods being parts of websites and numbers as parrt of tokens!?
+- unsupervised decapitalization/capitalization?
+- how to decode special chars like '\u200b' from input corpus data (other than just ignoring like we do now)
 
 # DONE
 
@@ -62,7 +62,7 @@
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb (see "counts2mis")
   - Hoping to cluster tokens based on pointise mutual information (PMI) did not lead to any promising results  
 - Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora to train models based on ddf+ or ddf- metrics (top F1 on tokens with no spaces) tested on B corpus https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
-  - B => F1=0.91 (n=[1,2], t=0.4) - the best!!!
+  - B => F1=0.91 (n=[1,2], t=0.4) - the best (most errors are caused with unability to detach framing double quotes " from the words)!!!
   - GC, GA, GC+GA => F1=0.78 (n=[1], t=0.4-0.8)
   - B+GC+GA => F1=0.91 (n=[1,2], t=0.4) - same as on B!
   - SM => F1=0.78 (n=[1], t=0.2-0.8)
