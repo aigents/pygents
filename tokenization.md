@@ -1,4 +1,4 @@
-# Uns
+# Unsupervised Text Segmentaion and Tokenization
 
 - Original task singnet/language-learning#255
 
