@@ -8,6 +8,7 @@
 - if "generated quoted words" lexicon improves the situation!? 
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokeniize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
+- evaluate all metrics based on same corpus and "referenced" sentence
 - tokenize based on true lexicon.txt, count frequencies of non-present words, see what to do next
 - when counting smaller ngrams, denominate them for being part of larger ngrams?  
 - Corpora stats review
@@ -31,12 +32,14 @@
 
 # DONE
 
-- Trained 7 on different corpora https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer-Corpora.ipynb
+- Trained 7 on different corpora
+  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer-Corpora.ipynb
   - Brown (B) - 6M
   - Gutenberg Children (GC) - 29M
   - Gutenberg Adullt (GA) - 140M
   - Social Media (SM) - 65M
-- Explored frequencies on SM corpus https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb
+- Explored frequencies on SM corpus
+  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb
   - All N-grams (n=[1..7])
     - top 1-gram ' ' - gets outstanding score, next are 't' and 'e' (from 'the')
     - top 2-gram 'in' - after ' t' and 'e ' (from 'the')
@@ -46,16 +49,22 @@
     - top 6/7-grams 'https:', 'https:/'
   - Token N-grams based on space-tokenizer
     - top 'the', 'to', 'and', 'a', 'of', ...
-  - Logarithmic distributions still apppear Zipfian 
+  - Logarithmic distributions still apppear Zipfian
+- Explored models based on different metrics according to https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/ using SM corpus only
   - Conditional probabilities on N-to-N+1-gram transitions forward p+ and backward p- 
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb
     - appear correlated with spaces and morphology (both!)
     - also have sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
-    - TODO
-- Explored word counts
-  - TODO
-- Explored models based on different metrics according to https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/ https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
-  - "Freedom" TODO...
-- Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora with ddf+ or ddf- metrics (top F1 on tokens with no spaces)  https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
+  - Transitional "freedom" (uncertainty) forward p+ and backward p- (on gram-to-char and gram-to-gram basis for different N-s)
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
+    - appear more impressively connected with punctuation than p+ or p- 
+    - also have sums (|) and productions (&) across f+ and f- metrics with different N=[1..7] and directions +/- - all appear more impressive than based on p+ and p-
+    - also have deviations ddf+ and ddf- capped above zero - appear even more impressively connected with punctuation, so used in tokenizatioon  
+- Explored MI using SM corpus, applied to bigram according to https://arxiv.org/pdf/cmp-lg/9805009.pdf (page 40)
+  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb (see "counts2mis")
+  - Hoping to cluster tokens based on pointise mutual information (PMI) did not lead to any promising results  
+- Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora to train models based on ddf+ or ddf- metrics (top F1 on tokens with no spaces) tested on B corpus https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
   - B => F1=0.91 (n=[1,2], t=0.4) - the best!!!
   - GC, GA, GC+GA => F1=0.78 (n=[1], t=0.4-0.8)
   - B+GC+GA => F1=0.91 (n=[1,2], t=0.4) - same as on B!

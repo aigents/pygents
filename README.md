@@ -1,5 +1,6 @@
 # pygents
-Machine Learning experiments in Python for Aigents project
+
+Machine Learning experiments in Python for Aigents project - at thee moment, primarily fundamental NLP research grounding further production development in https://github.com/aigents/aigents-java-nlp    
 
 ## Setting up Jupyter on remote Ubuntu server in the cloud and run it locally
 
@@ -18,6 +19,25 @@ Machine Learning experiments in Python for Aigents project
 
 1. `ssh -i <yourkey>.pem -N -f -L localhost:9999:localhost:8887 <yourusername>@<yourhost>` (do this in terminal)
 1. http://localhost:9999/ (access this in the browser)
+
+## Matters of Study
+
+### Unsupervised Text Segmentaion and Tokenization 
+
+1. Original task https://github.com/singnet/language-learning/issues/255
+1. Current progress [tokenization.md](./tokenization.md)
+
+### Unsupervised Language Grammar and Ontology Learning 
+
+1. *TODO*
+
+### Unsupervised Text Generation 
+
+1. *TODO*
+
+### Unsupervised Question Answering  and Conversational Intelligence
+
+1. *TODO*
 
 ## References
 https://hostadvice.com/how-to/how-to-install-jupyter-notebook-on-ubuntu-18-04-vps-or-dedicated-server/
