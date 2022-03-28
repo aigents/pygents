@@ -26,12 +26,19 @@
 
 # DONE
 
-- Metrics...
-- "Freeedom" ...
+- Metrics TODO...
+- "Freeedom" TODO...
+- Train 7 on different corpora
+  - Brown (B) - 6M
+  - Gutenberg Children (GC) - 29M
+  - Gutenberg Adullt (GA) - 140M
+  - Social Media (SM) - 65M
 - Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora with ddf+ or ddf- metrics (top F1 on tokens with no spaces)
-  - B => F1=0.91 (n=[1,2], t=0.4)
+  - B => F1=0.91 (n=[1,2], t=0.4) - the best!!!
   - GC, GA, GC+GA => F1=0.78 (n=[1], t=0.4-0.8)
-  - B+GC+GA => F1=0.91 (n=[1,2], t=0.4)
+  - B+GC+GA => F1=0.91 (n=[1,2], t=0.4) - same as on B!
+  - SM => F1=0.78 (n=[1], t=0.2-0.8)
+  - B+GC+GA+SM => F1=0.78 (n=[1], t=0.2-0.8) - same as on SM!
 
 
 # References
