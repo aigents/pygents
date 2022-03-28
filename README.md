@@ -1,6 +1,6 @@
 # pygents
 
-Machine Learning experiments in Python for Aigents project - at thee moment, primarily fundamental NLP research grounding further production development in https://github.com/aigents/aigents-java-nlp    
+Machine Learning experiments in Python for Aigents project - at the moment, primarily fundamental NLP research grounding further production development in https://github.com/aigents/aigents-java-nlp under the umbrella of Interpretable Natural Language Processing paradigm, see https://aigents.github.io/inlp/
 
 ## Setting up Jupyter on remote Ubuntu server in the cloud and run it locally
 
@@ -29,15 +29,16 @@ Machine Learning experiments in Python for Aigents project - at thee moment, pri
 
 ### Unsupervised Language Grammar and Ontology Learning 
 
-1. *TODO*
+1. Original task https://github.com/singnet/language-learning/issues/220
+2. Curent progress http://langlearn.singularitynet.io/
 
 ### Unsupervised Text Generation 
 
-1. *TODO*
+1. See https://aigents.github.io/inlp/2021/
 
 ### Unsupervised Question Answering  and Conversational Intelligence
 
-1. *TODO*
+1. See https://aigents.github.io/inlp/2021/
 
 ## References
 https://hostadvice.com/how-to/how-to-install-jupyter-notebook-on-ubuntu-18-04-vps-or-dedicated-server/
