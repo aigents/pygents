@@ -2,9 +2,6 @@
 
 ## First
 
-- Diary PROGREESS
-  - Tokenizer.ipynb
-  - TokenizerTest.ipynb
 - if "generated quoted words" lexicon improves the situation!? 
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokeniize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
