@@ -1,4 +1,6 @@
-# TODO
+# Uns
+
+- Original task singnet/language-learning#255
 
 ## Tasks
 
@@ -69,9 +71,9 @@
   - B+GC+GA+SM => F1=0.78 (n=[1], t=0.2-0.8) - same as on SM!
 
 
-# References
+## References
 
-## Tokenization
+### Tokenization
 
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
 - https://lena-voita.github.io/nlp_course/language_modeling.html
