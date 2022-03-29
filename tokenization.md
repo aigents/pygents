@@ -4,14 +4,6 @@
 
 ## Tasks
 
-- if "generated quoted words" lexicon improves the situation with F1 (detach framing double quotes " from the words)!?
-	- PROGRESS: 
-		- https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
-		- it does not work so far - incremental training is not working
-		 	- dict .update issue fixed!!!
-		 	- RE-RUN TokenizerTest-Runs.ipynb
-		 	- COMMIT!
-
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
 - evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
@@ -70,7 +62,9 @@
 - Explored MI using SM corpus, applied to bigram according to https://arxiv.org/pdf/cmp-lg/9805009.pdf (page 40)
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb (see "counts2mis")
   - Hoping to cluster tokens based on pointise mutual information (PMI) did not lead to any promising results  
-- Trying Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora to train models based on ddf+ or ddf- metrics (top F1 on tokens with no spaces) tested on B corpus https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
+- Tried extended "generated quoted words" lexicon to improves the situation with F1 (detach framing double quotes " from the words)
+  - Does not help to "resolve" doublequotes, detaching them away from words, the Brown corpus has enough quotes connected with word letters, but since the spaces are adjacent to many other punctuations, they have f+/f- much higher than doublequotes, so can not be resolved by threshold compared to word letters.
+- Tried Brown (B) Gutenberg Children (GC) and Gutenberg Adult corpora to train models based on ddf+ or ddf- metrics (top F1 on tokens with no spaces) tested on B corpus https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
   - B => F1=0.91 (n=[1,2], t=0.4) - the best (most errors are caused with unability to detach framing double quotes " from the words)!!!
   - GC, GA, GC+GA => F1=0.78 (n=[1], t=0.4-0.8)
   - B+GC+GA => F1=0.91 (n=[1,2], t=0.4) - same as on B!
