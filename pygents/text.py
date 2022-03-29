@@ -262,31 +262,38 @@ assert str(_test_m) == "([{}, {}, {'abc': 1, 'bcd': 1, 'cde': 1, 'def': 1}], [{}
 
 def profile_probabilities(counters,text,max_n,debug=False):
     length = len(text)
+    length_minus = length - 1
     de_list = []
-    for i in range(1,length-1):
+    for i in range(0,length):
         sym = text[i]
         #forward
-        start = i - (max_n-1)
-        if start < 0:
-            start = 0
-        pre_gram = text[start:i]
-        post_gram = text[start:i+1]
-        pre_prob = counters[pre_gram] if pre_gram in counters else 1
-        post_prob = counters[post_gram] if post_gram in counters else 0
-        prob = post_prob / pre_prob
+        if i == 0:
+            prob = 0
+        else:
+            start = i - (max_n-1)
+            if start < 0:
+                start = 0
+            pre_gram = text[start:i]
+            post_gram = text[start:i+1]
+            pre_prob = counters[pre_gram] if pre_gram in counters else 1
+            post_prob = counters[post_gram] if post_gram in counters else 0
+            prob = post_prob / pre_prob
+            if debug:
+                print("Forw {}-{}:'{}'-'{}'={}=>{}".format(start,i,post_gram,pre_gram,sym,prob))
         #backward
-        end = i + max_n
-        if end > length:
-            end = length
-        back_pre_gram = text[i+1:end]
-        back_post_gram = text[i:end]
-        back_pre_prob = counters[back_pre_gram] if back_pre_gram in counters else 1
-        back_post_prob = counters[back_post_gram] if back_post_gram in counters else 0
-        back_prob = back_post_prob / back_pre_prob
-
-        if debug:
-            print("Forw {}-{}:'{}'-'{}'={}=>{}".format(start,i,post_gram,pre_gram,sym,prob))
-            print("Back {}-{}:'{}'-'{}'={}=>{}".format(i,end,back_post_gram,back_pre_gram,sym,back_prob))
+        if i == length_minus:
+             back_prob = 0
+        else:
+            end = i + max_n
+            if end > length:
+                end = length
+            back_pre_gram = text[i+1:end]
+            back_post_gram = text[i:end]
+            back_pre_prob = counters[back_pre_gram] if back_pre_gram in counters else 1
+            back_post_prob = counters[back_post_gram] if back_post_gram in counters else 0
+            back_prob = back_post_prob / back_pre_prob
+            if debug:
+                print("Back {}-{}:'{}'-'{}'={}=>{}".format(i,end,back_post_gram,back_pre_gram,sym,back_prob))
         de_list.append((i,sym,prob,back_prob))
     return de_list
 

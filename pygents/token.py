@@ -3,7 +3,7 @@ import pickle
 import pandas as pd  
 
 from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update
-from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms, profile_freedoms
+from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms, profile_freedoms, profile_probabilities
 
 
 # Basic Tokenizer
@@ -122,64 +122,6 @@ assert _test_tokenizer.count_params() == 28
 assert str(_test_tokenizer.model) == "[{'d': 2, 'i': 1, 'n': 2, 'g': 2, 'o': 1, 'di': 1, 'in': 1, 'ng': 2, 'do': 1, 'on': 1}, {'d': {'i': 1, 'o': 1}, 'i': {'n': 1}, 'n': {'g': 2}, 'o': {'n': 1}, 'di': {'n': 1}, 'in': {'g': 1}, 'do': {'n': 1}, 'on': {'g': 1}}, {'i': {'d': 1}, 'n': {'i': 1, 'o': 1}, 'g': {'n': 2}, 'o': {'d': 1}, 'in': {'d': 1}, 'ng': {'i': 1, 'o': 1}, 'on': {'d': 1}}]"
 
 
-def tokenize_with_opposite_metrics(model,text,back,forw,nlist,threshold=0.5,debug=False):
-    tokens = []
-    token = ''
-    df = profile_freedoms_avg_df(model,text,[forw,back],nlist)
-    length = len(df)
-    for i in range(length):
-        iplus1 = i+1
-        brk_back = True if iplus1 < length and df.loc[iplus1][back] >= threshold else False
-        brk_forw = True if df.loc[i][forw] >= threshold else False
-        token += df.loc[i]['gram']
-        if debug:
-            print("{}\t{}\t{}\t{}\t{}\t{}".format(df.loc[i]['gram'],'-' if brk_back else '', '+' if brk_forw else '',round(df.loc[i][back],2),round(df.loc[i][forw],2),token))
-        if len(token) > 0 and (brk_back or brk_forw):
-            tokens.append(token)
-            token = ''
-    if len(token) > 0:
-            tokens.append(token)
-    return tokens
-
-
-def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,debug=False):
-    tokens = []
-    token = ''
-    df = profile_freedoms_avg_df(model,text,[forw],nlist)
-    length = len(df)
-    for i in range(length):
-        brk_forw = True if df.loc[i][forw] >= threshold else False
-        token += df.loc[i]['gram']
-        if debug:
-            print("{}\t{}\t{}\t{}\t{}".format(df.loc[i]['gram'],'+' if brk_forw else '',round(df.loc[i][back],2),round(df.loc[i][forw],2),token))
-        if len(token) > 0 and brk_forw:
-            tokens.append(token)
-            token = ''
-    if len(token) > 0:
-            tokens.append(token)
-    return tokens
-
-
-def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,spaces=False,debug=False):
-    f1_avg = 0
-    for text in texts:
-        tokens = tokenize_with_opposite_metrics(model,text,forw,back,nlist,threshold=threshold) if back is not None else tokenize_with_forward_metric(model,text,forw,nlist,threshold=threshold)
-        tokens_ref = tokenize_split_with_delimiters_and_quotes(text)
-        if not spaces:
-            remove_all(tokens,' ')
-            remove_all(tokens_ref,' ')
-        f1 = calc_f1(tokens_ref,tokens) 
-        f1_avg += f1
-        if debug:
-            print(f1)
-            print(text)
-            print(calc_diff(tokens,tokens_ref))
-            print(str(tokens_ref))
-            print(str(tokens))
-            print()
-    print("{}\t{}\t{}".format(nlist,threshold,round(f1_avg/len(texts),2)))
-
- 
 def profile_freedoms_ex_df(model,text,n,debug=False):
     df = pd.DataFrame(profile_freedoms(model,text,n,debug=debug),columns=['pos','gram','f+','f-'])
     df['ddf+'] = (df['f+'] - df['f+'].mean()).clip(lower=0)
@@ -213,6 +155,101 @@ def profile_freedoms_avg_df(model,text,metrics,nlist,debug=False):
         res_df[m] = res_df[m]/res_df[m].max()
     return res_df
 
+
+def profile_probabilities_ex_df(model,text,n,debug=False):
+    df = pd.DataFrame(profile_probabilities(model[0],text,n,debug=debug),columns=['pos','gram','p+','p-'])
+    if n == 1:
+        df['p+'] = df['p+']/df['p+'].max()
+        df['p-'] = df['p-']/df['p-'].max()
+    df['ddp+'] = (df['p+'] - df['p+'].mean()).clip(lower=0)
+    df['ddp-'] = (df['p-'] - df['p-'].mean()).clip(lower=0)
+    df['ddp+|ddp-'] = df['ddp+'] + df['ddp-'].shift(-1)
+    df['ddp+&ddp-'] = df['ddp+'] * df['ddp-'].shift(-1)
+    df['dp+'] = df['p+'].diff() 
+    df['dp-'] = -df['p-'].diff().shift(-1)
+    df['dp+|dp-'] = df['dp+'] + df['dp-']
+    df['dp+&dp-'] = df['dp+'] * df['dp-']
+    #TODO!?
+    # We assigned a “peak” value to each character transition, 
+    # computed by adding the value of the preceding increase in freedom to the following decrease in freedom. 
+    # We characterized token boundaries based on the sum of their forward- and backward-reading peak values.
+    #df['peak+'] = df['df+'] - df['df+'].shift(-1)
+    #df['peak-'] = df['df-'] - df['df-'].shift(1)
+    df['p+|p-'] = df['p+'] + df['p-'].shift(-1)
+    df['p+&p-'] = df['p+'] * df['p-'].shift(-1)
+    return df
+
+
+def profile_probabilities_avg_df(model,text,metrics,nlist,debug=False):
+    res_df = None
+    for n in nlist:
+        df = profile_probabilities_ex_df(model,text,n)
+        if res_df is None:
+            res_df = df[['pos','gram']+metrics].copy()
+        else:
+            for m in metrics:
+                res_df[m] = res_df[m] + df[m]
+    for m in metrics:
+        res_df[m] = res_df[m]/res_df[m].max()
+    return res_df
+
+
+def tokenize_with_opposite_metrics(model,text,back,forw,nlist,threshold=0.5,profiler=profile_freedoms_avg_df,debug=False):
+    tokens = []
+    token = ''
+    df = profiler(model,text,[forw,back],nlist)
+    length = len(df)
+    for i in range(length):
+        iplus1 = i+1
+        brk_back = True if iplus1 < length and df.loc[iplus1][back] >= threshold else False
+        brk_forw = True if df.loc[i][forw] >= threshold else False
+        token += df.loc[i]['gram']
+        if debug:
+            print("{}\t{}\t{}\t{}\t{}\t{}".format(df.loc[i]['gram'],'-' if brk_back else '', '+' if brk_forw else '',round(df.loc[i][back],2),round(df.loc[i][forw],2),token))
+        if len(token) > 0 and (brk_back or brk_forw):
+            tokens.append(token)
+            token = ''
+    if len(token) > 0:
+            tokens.append(token)
+    return tokens
+
+
+def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,profiler=profile_freedoms_avg_df,debug=False):
+    tokens = []
+    token = ''
+    df = profiler(model,text,[forw],nlist)
+    length = len(df)
+    for i in range(length):
+        brk_forw = True if df.loc[i][forw] >= threshold else False
+        token += df.loc[i]['gram']
+        if debug:
+            print("{}\t{}\t{}\t{}\t{}".format(df.loc[i]['gram'],'+' if brk_forw else '',round(df.loc[i][back],2),round(df.loc[i][forw],2),token))
+        if len(token) > 0 and brk_forw:
+            tokens.append(token)
+            token = ''
+    if len(token) > 0:
+            tokens.append(token)
+    return tokens
+
+
+def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_freedoms_avg_df,spaces=False,debug=False):
+    f1_avg = 0
+    for text in texts:
+        tokens = tokenize_with_opposite_metrics(model,text,forw,back,nlist,threshold=threshold,profiler=profiler) if back is not None else tokenize_with_forward_metric(model,text,forw,nlist,threshold=threshold,profiler=profiler)
+        tokens_ref = tokenize_split_with_delimiters_and_quotes(text)
+        if not spaces:
+            remove_all(tokens,' ')
+            remove_all(tokens_ref,' ')
+        f1 = calc_f1(tokens_ref,tokens) 
+        f1_avg += f1
+        if debug:
+            print(f1)
+            print(text)
+            print(calc_diff(tokens,tokens_ref))
+            print(str(tokens_ref))
+            print(str(tokens))
+            print()
+    print("{}\t{}\t{}".format(nlist,threshold,round(f1_avg/len(texts),2)))
 
 
 

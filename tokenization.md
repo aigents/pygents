@@ -6,6 +6,7 @@
 
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
+  - PROGRESS
 - evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
 - tokenize based on true lexicon.txt ("curriculum learning" concept), count frequencies of non-present words, see what to do next
 - when counting smaller ngrams based on p+/p-, denominate them for being part of larger ngrams?  
