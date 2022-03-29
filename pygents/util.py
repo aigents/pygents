@@ -1,4 +1,21 @@
 
+def dict_update(target,source):
+    for key in source:
+        if not key in target:
+            target[key] = source[key]
+        else:
+            target_value = target[key]
+            source_value = source[key]
+            if isinstance(source_value, dict):
+                assert isinstance(target_value, dict)
+                dict_update(target_value,source_value)
+            else:
+                assert (type(target_value) == int or float) and (type(source_value) == int or float)
+                target[key]= target_value + source_value
+    return target
+assert str(dict_update({'a':1},{'a':1,'b':20})) == "{'a': 2, 'b': 20}"
+assert str(dict_update({'a':1,'c':{'x':100}},{'a':1,'b':20,'c':{'x':300,'y':4000},'z':{'x':50000}})) == "{'a': 2, 'c': {'x': 400, 'y': 4000}, 'b': 20, 'z': {'x': 50000}}"
+
 def dict2listsorted(d):
     return [(key, value) for key, value in sorted(d.items())]
 

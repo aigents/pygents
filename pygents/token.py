@@ -2,7 +2,7 @@ import abc
 import pickle
 import pandas as pd  
 
-from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all
+from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update
 from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms, profile_freedoms
 
 
@@ -94,7 +94,8 @@ class FreedomTokenizer(Tokenizer):
         #merge n-specific models into joint ones
         for i in range(3):
             for d in model[i]:
-                self.model[i].update(d)
+                #self.model[i].update(d)
+                dict_update(self.model[i],d)
         return self
         
     def tokenize(self,text):

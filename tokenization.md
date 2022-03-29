@@ -4,7 +4,14 @@
 
 ## Tasks
 
-- if "generated quoted words" lexicon improves the situation with F1 (detach framing double quotes " from the words)!? 
+- if "generated quoted words" lexicon improves the situation with F1 (detach framing double quotes " from the words)!?
+	- PROGRESS: 
+		- https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
+		- it does not work so far - incremental training is not working
+		 	- dict .update issue fixed!!!
+		 	- RE-RUN TokenizerTest-Runs.ipynb
+		 	- COMMIT!
+
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
 - evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
@@ -29,7 +36,7 @@
 - unsupervised decapitalization/capitalization?
 - how to decode special chars like '\u200b' from input corpus data (other than just ignoring like we do now)
 
-# DONE
+## Results
 
 - Trained 7 on different corpora
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer-Corpora.ipynb
