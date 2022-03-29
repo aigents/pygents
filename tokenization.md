@@ -78,6 +78,7 @@
 ### Tokenization
 
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
+- https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=6983&context=etd
 - https://lena-voita.github.io/nlp_course/language_modeling.html
 - https://en.wikipedia.org/wiki/Perplexity
 - https://github.com/singnet/language-learning/issues/255
