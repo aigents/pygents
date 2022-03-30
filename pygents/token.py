@@ -2,7 +2,7 @@ import abc
 import pickle
 import pandas as pd  
 
-from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update
+from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update, dict_compress_with_loss
 from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms, profile_freedoms, profile_probabilities
 
 
@@ -122,6 +122,12 @@ assert _test_tokenizer.count_params() == 28
 assert str(_test_tokenizer.model) == "[{'d': 2, 'i': 1, 'n': 2, 'g': 2, 'o': 1, 'di': 1, 'in': 1, 'ng': 2, 'do': 1, 'on': 1}, {'d': {'i': 1, 'o': 1}, 'i': {'n': 1}, 'n': {'g': 2}, 'o': {'n': 1}, 'di': {'n': 1}, 'in': {'g': 1}, 'do': {'n': 1}, 'on': {'g': 1}}, {'i': {'d': 1}, 'n': {'i': 1, 'o': 1}, 'g': {'n': 2}, 'o': {'d': 1}, 'in': {'d': 1}, 'ng': {'i': 1, 'o': 1}, 'on': {'d': 1}}]"
 
 
+def model_compress_with_loss(model,threshold=0.01):
+    dict_compress_with_loss(model[0],threshold)
+    dict_compress_with_loss(model[1],threshold)
+    dict_compress_with_loss(model[2],threshold)
+
+
 def profile_freedoms_ex_df(model,text,n,debug=False):
     df = pd.DataFrame(profile_freedoms(model,text,n,debug=debug),columns=['pos','gram','f+','f-'])
     df['ddf+'] = (df['f+'] - df['f+'].mean()).clip(lower=0)
@@ -231,7 +237,6 @@ def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,profiler=pr
             tokens.append(token)
     return tokens
 
-
 def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_freedoms_avg_df,spaces=False,debug=False):
     f1_avg = 0
     for text in texts:
@@ -249,7 +254,9 @@ def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_fr
             print(str(tokens_ref))
             print(str(tokens))
             print()
-    print("{}\t{}\t{}".format(nlist,threshold,round(f1_avg/len(texts),2)))
+    f1 = round(f1_avg/len(texts),2)
+    print("{}\t{}\t{}".format(nlist,threshold,f1))
+    return nlist,threshold,f1
 
 
 

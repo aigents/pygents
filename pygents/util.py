@@ -1,3 +1,4 @@
+import numpy as np
 
 def dict_update(target,source):
     for key in source:
@@ -15,6 +16,30 @@ def dict_update(target,source):
     return target
 assert str(dict_update({'a':1},{'a':1,'b':20})) == "{'a': 2, 'b': 20}"
 assert str(dict_update({'a':1,'c':{'x':100}},{'a':1,'b':20,'c':{'x':300,'y':4000},'z':{'x':50000}})) == "{'a': 2, 'c': {'x': 400, 'y': 4000}, 'b': 20, 'z': {'x': 50000}}"
+
+
+def dict_compress_with_loss(dic,threshold=0.01):
+    maxval = None
+    for d in dic:
+        v=dic[d]
+        if isinstance(v,dict):
+            dict_compress_with_loss(v,threshold) # recursion
+        else:
+            assert (type(v) == int or float)
+            if maxval is None or maxval < v:
+                maxval = v
+    if maxval is not None:
+        todo = []
+        minval = maxval * threshold
+        for d in dic:
+            if dic[d] < minval:
+                 todo.append(d)
+        for d in todo:
+            del dic[d]
+    return dic
+assert str(dict_compress_with_loss({'a':1000,'b':10,'c':1})) == "{'a': 1000, 'b': 10}"
+assert str(dict_compress_with_loss({'x':{'a':1000,'b':10,'c':1},'y':{'m':2000,'n':20,'o':2}})) == "{'x': {'a': 1000, 'b': 10}, 'y': {'m': 2000, 'n': 20}}"
+
 
 def dict2listsorted(d):
     return [(key, value) for key, value in sorted(d.items())]
@@ -137,4 +162,57 @@ def calc_diff(ground,guess):
     if isinstance(guess,list):
         guess = list2dict(guess)
     return dict_diff(ground,guess)
+
+def list2matrix(lst):
+    rows = 0
+    cols = 0
+    rows_dict = {}
+    cols_dict = {}
+    # create labels
+    for i in lst:
+        row = i[0]
+        col = i[1]
+        if not row in rows_dict:
+            rows_dict[row] = rows
+            rows += 1
+        if not col in cols_dict:
+            cols_dict[col] = cols
+            cols += 1
+    print(rows,cols)
+    print(rows_dict)
+    print(cols_dict)
+    matrix = np.zeros((rows,cols),dtype=float)
+    for i in lst:
+        row = i[0]
+        col = i[1]
+        val = i[2]
+        matrix[rows_dict[row],cols_dict[col]] = val
+    return sorted(set(rows_dict)), sorted(set(rows_dict)), matrix
+
+def list2matrix(lst):
+    rows = 0
+    cols = 0
+    rows_dict = {}
+    cols_dict = {}
+    # create labels
+    for i in lst:
+        row = str(i[0])
+        col = str(i[1])
+        if not row in rows_dict:
+            rows_dict[row] = rows
+            rows += 1
+        if not col in cols_dict:
+            cols_dict[col] = cols
+            cols += 1
+    #print(rows,cols)
+    #print(rows_dict)
+    #print(cols_dict)
+    matrix = np.zeros((rows,cols),dtype=float)
+    for i in lst:
+        row = str(i[0])
+        col = str(i[1])
+        val = i[2]
+        matrix[rows_dict[row],cols_dict[col]] = val
+    return sorted(set(rows_dict)), sorted(set(cols_dict)), matrix
+
 

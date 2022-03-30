@@ -1,6 +1,16 @@
 import pandas as pd
+import seaborn as sns
 import matplotlib.pyplot as plt
+
 from pygents.text import *
+
+def matrix_plot(row_labels, col_labels, matrix, absmax, title = None):
+    plt.rcParams["figure.figsize"] = (20,len(row_labels)/4)
+    p = sns.heatmap(matrix, xticklabels=col_labels, yticklabels=row_labels, vmin = -absmax, vmax = absmax, 
+                    cmap='RdYlGn', annot=True)
+    if title is not None:
+        p.set_title(title,fontsize = 32)
+    plt.show()
 
 def plot_profile(df,text,h=3,title=None):
     plt.rcParams["figure.figsize"] = (20,h)

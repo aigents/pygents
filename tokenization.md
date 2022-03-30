@@ -4,11 +4,15 @@
 
 ## Tasks
 
+- try to improve the "freedom" models removing the low-frequency "tails" for each of the corpora (starting with Brown) 
+  - PROGRESS, F1=0.97 on Brown !!!
+  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
+  - run on different corpora with F1 color map visalization
+  - TODO
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
-  - PROGRESS, no luck so far
+  - ON HOLD, no luck so far
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
-- try to improve the "freedom" models removing the low-frequency "tails" for each of the corpora (starting with Brown) 
 - evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
 - tokenize based on true lexicon.txt ("curriculum learning" concept), count frequencies of non-present words, see what to do next
 - when counting smaller ngrams based on p+/p-, denominate them for being part of larger ngrams?  
