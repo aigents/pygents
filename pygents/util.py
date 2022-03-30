@@ -194,6 +194,8 @@ def list2matrix(lst):
     cols = 0
     rows_dict = {}
     cols_dict = {}
+    rows_list = []
+    cols_list = []
     # create labels
     for i in lst:
         row = str(i[0])
@@ -201,9 +203,11 @@ def list2matrix(lst):
         if not row in rows_dict:
             rows_dict[row] = rows
             rows += 1
+            rows_list.append(row)
         if not col in cols_dict:
             cols_dict[col] = cols
             cols += 1
+            cols_list.append(col)
     #print(rows,cols)
     #print(rows_dict)
     #print(cols_dict)
@@ -213,6 +217,6 @@ def list2matrix(lst):
         col = str(i[1])
         val = i[2]
         matrix[rows_dict[row],cols_dict[col]] = val
-    return sorted(set(rows_dict)), sorted(set(cols_dict)), matrix
+    return rows_list, cols_list, matrix
 
 
