@@ -4,7 +4,6 @@
 
 ## Tasks
 
-- explore freedoom-based models with all possible combinations of grams 1-7 for better F1  
 - see if not only "increase of freedom on short-grams" is token-breaking, but also "decrease of freedom on long-grams"!? 
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
@@ -84,6 +83,9 @@
       - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
   - F1=0.96 on Brown (and Brown + Gutenberg Children+Adult) with Brown 100 lines test set 
       - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs-100.ipynb
+- explored freedoom-based models with all possible combinations of grams 1-7 for better F1 with larger test set of 100 lines from B
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs-100.ipynb
+    - larger corpus does not make better, the best is the smallest B, adding GC+GA to it does not improve (F1=0.96), adding SM to it makes it a bit worse (F1=0.93)
 
 
 ## References
