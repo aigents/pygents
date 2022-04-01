@@ -237,7 +237,9 @@ def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,profiler=pr
             tokens.append(token)
     return tokens
 
-def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_freedoms_avg_df,spaces=False,debug=False):
+def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_freedoms_avg_df,spaces=False,output=False,debug=False):
+    if output:
+        print("N\tthres.\tF1")
     f1_avg = 0
     for text in texts:
         tokens = tokenize_with_opposite_metrics(model,text,forw,back,nlist,threshold=threshold,profiler=profiler) if back is not None else tokenize_with_forward_metric(model,text,forw,nlist,threshold=threshold,profiler=profiler)
@@ -255,7 +257,8 @@ def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_fr
             print(str(tokens))
             print()
     f1 = round(f1_avg/len(texts),2)
-    print("{}\t{}\t{}".format(nlist,threshold,f1))
+    if output:
+        print("{}\t{}\t{}".format(nlist,threshold,f1))
     return nlist,threshold,f1
 
 

@@ -4,43 +4,41 @@
 
 ## Tasks
 
-- try to improve the "freedom" models removing the low-frequency "tails" for each of the corpora (starting with Brown) 
-  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
-  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
-  - PROGRESS, F1=0.97 on Brown !!!
-  - run on different corpora with F1 color map visalization
-  - TODO
+- explore freedoom-based models with all possible combinations of grams 1-7 for better F1  
+- see if not only "increase of freedom on short-grams" is token-breaking, but also "decrease of freedom on long-grams"!? 
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
   - ON HOLD, no luck so far
-  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
-- see if not only "increase of freedom on short-grams" is token-breaking, but also "decrease of freedom on long-grams"!? 
 - evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
-- tokenize based on true lexicon.txt ("curriculum learning" concept), count frequencies of non-present words, see what to do next
+- beat unsupervized tokenizer (UT) SOTA with semi-supervised tokenizer (SST) 
+  - implement semi-supervised tokenizer, trained on word/character corpus (SST))
+  - pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) 
+    - tokenize based on true lexicon.txt ("curriculum learning" concept), count frequencies of non-present words, see what to do next
 - when counting smaller ngrams based on p+/p-, denominate them for being part of larger ngrams?  
   - "inhibit frequencies" (or rather ""boost) from higher-order to lower-order?
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenMining.ipynb
-- Corpora stats review
 - Explore "surprizeness" measure to split as extension to "freedom"/"uncertainty"!?
-- tokenize by clustering words in the sentence 
-  - by gram counts - using MUTUAL INFORMATION!!! (does not work? double-check)
-  - merge tokens in a way minimizing "freedom"/"uncertainty" (maximaly certain tree or MCT)
-- consider other metrics
-- find best parameters tokenizer parameters and find new SOTA above F1=0.91
-- beat unsupervized tokenizer (UT) SOTA with semi-supervised tokenizer (SST) 
-  - implement semi-supervised tokenizer, trained on word/character corpus (SST))
-  - pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) generated dates
 - further token/ngram graph analysis and scenario mining for tokenization and morphology extending to sentence segmentation  
+    - tokenize by clustering words in the sentence 
+      - by gram counts - using MUTUAL INFORMATION!!! (does not work? double-check)
+      - merge tokens in a way minimizing "freedom"/"uncertainty" (maximaly certain tree or MCT)
+- model graph analysis with relationships
+    - prev/next (sequential)
+    - part/whole (morphology)
+    - intention/extension (class hierarchy - vowels and consonants, suffixes and prefixe)
+- corpora stats review
+- consider other metrics
 
 ## Problems
 
-- how to split endings quotes delimiters away from reegular words, keeping the slashes, points and periods being parts of websites and numbers as parrt of tokens!?
+- how to split endings quotes delimiters away from regular words, keeping the slashes, points and periods being parts of websites and numbers as parrt of tokens!?
 - unsupervised decapitalization/capitalization?
 - how to decode special chars like '\u200b' from input corpus data (other than just ignoring like we do now)
 
 ## Results
 
-- Trained 7 on different corpora
+- Trained N-gram models with N=7 on different corpora
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer-Corpora.ipynb
   - Brown (B) - 6M
   - Gutenberg Children (GC) - 29M
@@ -80,6 +78,12 @@
   - B+GC+GA => F1=0.91 (n=[1,2], t=0.4) - same as on B!
   - SM => F1=0.78 (n=[1], t=0.2-0.8)
   - B+GC+GA+SM => F1=0.78 (n=[1], t=0.2-0.8) - same as on SM!
+- Improved the "freedom" models removing the low-frequency "tails" for each of the corpora 
+  - F1=0.99 on Brown (and Brown + Gutenberg Children+Adult) with Brown 10 lines test set
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
+  - F1=0.96 on Brown (and Brown + Gutenberg Children+Adult) with Brown 100 lines test set 
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs-100.ipynb
 
 
 ## References
