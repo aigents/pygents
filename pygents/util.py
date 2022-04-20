@@ -1,4 +1,6 @@
 import numpy as np
+import pickle
+from os.path import join
 
 def dict_update(target,source):
     for key in source:
@@ -222,7 +224,7 @@ def list2matrix(lst):
 
 def context_save_load(context,context_name,folder='data/temp/'):
     ##https://stackoverflow.com/questions/12544056/how-do-i-get-the-current-ipython-jupyter-notebook-name
-    pickle_name = os.path.join(folder,context_name)
+    pickle_name = join(folder,context_name)
     if context is None:
         context = pickle.load(open(pickle_name, 'rb'))
     else:
