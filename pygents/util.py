@@ -220,3 +220,12 @@ def list2matrix(lst):
     return rows_list, cols_list, matrix
 
 
+def context_save_load(context,context_name,folder='data/temp/'):
+    ##https://stackoverflow.com/questions/12544056/how-do-i-get-the-current-ipython-jupyter-notebook-name
+    pickle_name = os.path.join(folder,context_name)
+    if context is None:
+        context = pickle.load(open(pickle_name, 'rb'))
+    else:
+        pickle.dump(context, open(pickle_name, 'wb'), pickle.HIGHEST_PROTOCOL)
+    return context
+
