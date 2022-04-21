@@ -64,9 +64,10 @@ def text_grams_count(counter,text,max_n):
     for n in range(max_n):
         grams_count(counter,chars,n+1)
 
-def tokenize_with_lexicon(alphalex,text):
-    alex = list(alphalex) #TODO precompile
-    alex.sort(key=len,reverse=True)
+def tokenize_with_sorted_lexicon(alex,text,cased=False):
+    original = text
+    if cased: #if need to spend time on lowercasing non-lowercased text
+        text = text.lower()
     tokens = []
     start = 0
     cur = 0
@@ -78,18 +79,25 @@ def tokenize_with_lexicon(alphalex,text):
             matched = False
             if subtext.startswith(al):
                 if start < cur:
-                    tokens.append(text[start:cur])
-                tokens.append(al)
+                    tokens.append(original[start:cur])
+                    #print(original[start:cur])
+                tokens.append(original[cur:cur+len(al)])
+                #print(original[cur:cur+len(al)])
                 cur += len(al)
                 start = cur
                 matched = True
                 break
         if not matched:
             cur += 1
-                
     if start < cur:
-        tokens.append(text[start:cur])
+        tokens.append(original[start:cur])
+        #print(original[start:cur])
     return tokens
+
+def tokenize_with_lexicon(alphalex,text):
+    alex = list(alphalex) #TODO precompile
+    alex.sort(key=len,reverse=True)
+    return tokenize_with_sorted_lexicon(alex,text)
 
 def get_grams(text,n):
     grams = []
