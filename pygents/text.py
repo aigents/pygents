@@ -3,17 +3,23 @@ import pandas as pd
 import urllib.request
 from pygents.util import dictcount, merge_two_dicts, countcount, counters_init, merge_dicts
 
-def url_text(url,debug = False):
+def url_text(url,debug = False,linefeeds=False):
     text = ''
     lines = 0
     for line in urllib.request.urlopen(url):
         utf8 = line.decode('utf-8')
         #print(utf8)
         lines += 1
-        text += utf8.replace('\r',' ').replace('\n','')
+        if not linefeeds:
+            utf8 = utf8.replace('\r',' ').replace('\n','')
+        text += utf8
     if debug:
         print(lines)
     return text
+
+def url_lines(url,debug = False):
+    lines = url_text(url,debug = debug,linefeeds=True).split('\n')
+    return [line.strip() for line in lines]
 
 def url_text_lines(url,debug = False):
     lines = []
