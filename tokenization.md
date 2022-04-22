@@ -90,6 +90,31 @@
 
 ## References
 
+### Corpora
+
+- Multi-Lingual News from Common Crawl
+    - https://data.statmt.org/
+        - https://data.statmt.org/news-crawl/README
+- English 
+    - Brown Corpus
+        - http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
+    - Gutenberg Corpus
+        - https://www.gutenberg.org/
+- Russian
+    - Inventory
+        - https://nlpub.ru/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B
+    - RusAge - text books
+        - https://www.kaggle.com/datasets/oldaandozerskaya/fiction-corpus-for-agebased-text-classification
+    - Twitter, need to extract froom SQL
+        - http://study.mokoron.com/
+    - Wiki, need to extract from XML
+        - https://linguatools.org/tools/corpora/wikipedia-monolingual-corpora/
+- Chinese (Simplified/Mandarin)
+    - Lexicon
+        - http://www.chineselexicaldatabase.com/download.php
+    - CLUE
+        - https://github.com/brightmart/nlp_chinese_corpus
+
 ### Tokenization
 
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
