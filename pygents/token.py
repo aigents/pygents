@@ -1,9 +1,12 @@
 import abc
 import pickle
+import re
+import math
 import pandas as pd  
 
-from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update, dict_compress_with_loss
-from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms, profile_freedoms, profile_probabilities
+from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update, dict_compress_with_loss 
+from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms
+from pygents.text import url_lines, tokenize_with_sorted_lexicon, profile_freedoms, profile_probabilities
 
 
 # Basic Tokenizer
@@ -67,6 +70,137 @@ def tokenize_split_with_delimiters_and_quotes(text):
 assert str(tokenize_split_with_delimiters_and_quotes("man says hi")) == "['man', ' ', 'says', ' ', 'hi']"
 assert str(tokenize_split_with_delimiters_and_quotes("man (tom) says 'hi there!' to me.")) == "['man', ' ', '(', 'tom', ')', ' ', 'says', ' ', \"'\", 'hi', ' ', 'there', '!', \"'\", ' ', 'to', ' ', 'me', '.']"
 
+
+# Lexicon-based Tokenization
+
+class LexiconTokenizer(Tokenizer):
+
+    def __init__(self, name=None, lexicon=None, cased=False, url=None, debug=False):
+        Tokenizer.__init__(self,debug=debug)
+        self.name = name
+        if not lexicon is None: 
+            self.alex = list(lexicon) #copy
+        else:
+            lex_lines = url_lines(url)
+            self.alex = [re.split('\t| |,|;|\n|\r',line)[0] for line in lex_lines] #load from url
+            # TODO load from file
+        self.compile()
+        self.cased = cased
+
+    def compile(self):
+        self.alex.sort(key=len,reverse=True) #precompile
+
+    def tokenize(self,text):
+        return tokenize_with_sorted_lexicon(self.alex,text,cased=self.cased)
+
+assert str(LexiconTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("tunaisafish.catisamammal"))=="['tuna', 'is', 'a', 'fish', '.', 'cat', 'is', 'a', 'mammal']"    
+assert str(LexiconTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("Tunaisafish.Catisamammal"))=="['Tuna', 'is', 'a', 'fish', '.Cat', 'is', 'a', 'mammal']"
+assert str(LexiconTokenizer(lexicon=['tuna','is','fish','cat','mammal'],cased=True).tokenize("Tunaisafish.Catisamammal"))=="['Tuna', 'is', 'a', 'fish', '.', 'Cat', 'is', 'a', 'mammal']"
+
+
+def prefixed_match_from_list(lst,text):
+    for item in lst:
+        if text.startswith(item[0]):
+            return item
+    return None
+
+def prefixed_match(prefixed_dict,text):
+    letter = text[0]
+    if not letter in prefixed_dict:
+        return None
+    return prefixed_match_from_list(prefixed_dict[letter],text)
+
+def tokenize_with_prexied_sorted_lexicon(prefixed_dict,text,cased=False):
+    original = text
+    if cased: #if need to spend time on lowercasing non-lowercased text
+        text = text.lower()
+    tokens = []
+    start = 0
+    cur = 0
+    length = len(text)
+    sum_weight = 0
+    while cur < length:
+        subtext = text[cur:]
+        word_weight = prefixed_match(prefixed_dict,subtext)
+        #print(al)
+        if not word_weight is None:
+            word_len = len(word_weight[0])
+            if start < cur:
+                tokens.append(original[start:cur])
+            tokens.append(original[cur:cur+word_len])
+            sum_weight += word_weight[1]
+            cur += word_len
+            start = cur
+        else:
+            cur += 1
+            #print('yo')
+    if start < cur:
+        tokens.append(original[start:cur])
+        #print(original[start:cur])
+    return tokens, sum_weight
+
+def tabbed_line2tuple(line,log=True):
+    lst = re.split('\t| |,|;|\n|\r',line)
+    if len(lst) > 1:
+        return (lst[0],float(lst[1]) if not log else math.log10(1+float(lst[1])))
+    else:
+        return (lst[0],1.0)
+
+def weightedlist2dict(lst,lower=False): # (key,weight) -> sum weigts by keys, keys may be lowercased
+    dic = {}
+    for item in lst:
+        dictcount(dic,item[0].lower() if lower else item[0],item[1])
+    return dic
+
+class LexiconIndexedTokenizer(Tokenizer):
+
+    def __init__(self, name=None, lexicon=None, cased=False, debug=False, url=None, sortmode=0):
+        Tokenizer.__init__(self,debug=debug)
+        self.name = name
+        if not lexicon is None: 
+            self.freqlist = [(word,1.0) for word in lexicon] #copy
+        else:
+            lex_lines = url_lines(url)
+            self.freqlist = [tabbed_line2tuple(line) for line in lex_lines] #load from url
+            # TODO load from file
+        self.sortmode = sortmode
+        self.compile()
+        self.cased = cased
+
+    def compile(self):
+        self.dict = {}
+        self.fulldict = weightedlist2dict(self.freqlist,lower=True) # save for debugging only!?
+        for key in self.fulldict:
+            value = self.fulldict[key]
+            if len(key) > 0:
+                letter = key[0]
+                if not letter in self.dict:
+                    self.dict[letter] = set()
+                self.dict[letter].add((key,value))
+        #print(self.dict['f'])
+        for key in self.dict:
+            lst = list(self.dict[key])
+            if self.sortmode == 0:
+                lst.sort(key=lambda s: len(s[0]), reverse=True)
+            elif self.sortmode == 1:
+                lst.sort(key=lambda s: s[1], reverse=True)
+            else:
+                lst.sort(key=lambda s: math.log10(s[1])*len(s[0]), reverse=True)
+            self.dict[key] = lst
+        #print(self.dict['f'])
+
+    def tokenize(self,text):
+        tokens, weight = tokenize_with_prexied_sorted_lexicon(self.dict,text,cased=self.cased)
+        return tokens
+
+    def tokenize_weight(self,text):
+        tokens, weight = tokenize_with_prexied_sorted_lexicon(self.dict,text,cased=self.cased)
+        length = len(tokens)
+        return tokens, 0 if length == 0 else weight / length 
+
+assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("tunaisafish.catisamammal"))=="['tuna', 'is', 'a', 'fish', '.', 'cat', 'is', 'a', 'mammal']"    
+assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("Tunaisafish.Catisamammal"))=="['Tuna', 'is', 'a', 'fish', '.Cat', 'is', 'a', 'mammal']"
+assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal'],cased=True).tokenize("Tunaisafish.Catisamammal"))=="['Tuna', 'is', 'a', 'fish', '.', 'Cat', 'is', 'a', 'mammal']"
 
 
 # Exttended Tokenizer based on "freedoms"
