@@ -73,7 +73,7 @@ assert str(tokenize_split_with_delimiters_and_quotes("man (tom) says 'hi there!'
 
 # Lexicon-based Tokenization
 
-class LexiconTokenizer(Tokenizer):
+class LexiconTokenizer(Tokenizer): # very unefficient because of iterative search, use indexed LexiconIndexedTokenizer instead
 
     def __init__(self, name=None, lexicon=None, cased=False, url=None, debug=False):
         Tokenizer.__init__(self,debug=debug)
@@ -159,7 +159,7 @@ class LexiconIndexedTokenizer(Tokenizer):
         self.name = name
         if not lexicon is None: 
             self.freqlist = [(word,1.0) for word in lexicon] #copy
-        else:
+        else if not url is None:
             lex_lines = url_lines(url)
             self.freqlist = [tabbed_line2tuple(line) for line in lex_lines] #load from url
             # TODO load from file
