@@ -95,6 +95,8 @@
 - Multi-Lingual News from Common Crawl
     - https://data.statmt.org/
         - https://data.statmt.org/news-crawl/README
+    - https://magichub.com/
+        - https://magichub.com/datasets/chinese-english-parallel-corpus-finance/
 - English 
     - Brown Corpus
         - http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
@@ -103,6 +105,7 @@
 - Russian
     - Inventory
         - https://nlpub.ru/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B
+        - https://github.com/natasha/corus#usage
     - RusAge - text books
         - https://www.kaggle.com/datasets/oldaandozerskaya/fiction-corpus-for-agebased-text-classification
     - Twitter, need to extract froom SQL

@@ -159,7 +159,7 @@ class LexiconIndexedTokenizer(Tokenizer):
         self.name = name
         if not lexicon is None: 
             self.freqlist = [(word,1.0) for word in lexicon] #copy
-        else if not url is None:
+        elif not url is None:
             lex_lines = url_lines(url)
             self.freqlist = [tabbed_line2tuple(line) for line in lex_lines] #load from url
             # TODO load from file
@@ -203,7 +203,7 @@ assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal']).
 assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal'],cased=True).tokenize("Tunaisafish.Catisamammal"))=="['Tuna', 'is', 'a', 'fish', '.', 'Cat', 'is', 'a', 'mammal']"
 
 
-# Exttended Tokenizer based on "freedoms"
+# Extended Tokenizer based on "freedoms"
 class FreedomTokenizer(Tokenizer):
 
     def __init__(self, name=None, max_n=7, mode='grams', debug=False):
