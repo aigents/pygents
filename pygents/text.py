@@ -314,6 +314,7 @@ def profile_probabilities(counters,text,max_n,debug=False):
 
 # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
 def profile_freedoms(model,text,max_n,debug=False):
+    text = text.lower() #TODO make configurable!?
     length = len(text)
     de_list = []
     for i in range(length):

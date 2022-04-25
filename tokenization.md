@@ -97,6 +97,7 @@
         - https://data.statmt.org/news-crawl/README
     - https://magichub.com/
         - https://magichub.com/datasets/chinese-english-parallel-corpus-finance/
+    - https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding
 - English 
     - Brown Corpus
         - http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt

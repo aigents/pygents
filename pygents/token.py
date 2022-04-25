@@ -383,7 +383,8 @@ def tokenize_with_opposite_metrics(model,text,back,forw,nlist,threshold=0.5,prof
         iplus1 = i+1
         brk_back = True if iplus1 < length and df.loc[iplus1][back] >= threshold else False
         brk_forw = True if df.loc[i][forw] >= threshold else False
-        token += df.loc[i]['gram']
+        #token += df.loc[i]['gram']
+        token += text[i] # to ensure raw data capitalization
         if debug:
             print("{}\t{}\t{}\t{}\t{}\t{}".format(df.loc[i]['gram'],'-' if brk_back else '', '+' if brk_forw else '',round(df.loc[i][back],2),round(df.loc[i][forw],2),token))
         if len(token) > 0 and (brk_back or brk_forw):
@@ -401,7 +402,8 @@ def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,profiler=pr
     length = len(df)
     for i in range(length):
         brk_forw = True if df.loc[i][forw] >= threshold else False
-        token += df.loc[i]['gram']
+        #token += df.loc[i]['gram']
+        token += text[i] # to ensure raw data capitalization
         if debug:
             print("{}\t{}\t{}\t{}\t{}".format(df.loc[i]['gram'],'+' if brk_forw else '',round(df.loc[i][back],2),round(df.loc[i][forw],2),token))
         if len(token) > 0 and brk_forw:
