@@ -2,7 +2,8 @@ import abc
 import pickle
 import re
 import math
-import pandas as pd  
+import pandas as pd
+import jieba
 
 from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update, dict_compress_with_loss 
 from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms
@@ -55,7 +56,7 @@ assert str(tokenize_detaching_tail("test').\"")) == "([\"'\", ')', '.', '\"'], '
     
 def tokenize_split_with_delimiters_and_quotes(text):
     tokens = []
-    splits = text.split(' ')
+    splits = text.split(' ') # TODO add ALL whitespaces like \n, \r \t, etc. 
     for split in splits:
         if len(tokens) > 0:
             tokens.append(' ')
@@ -69,6 +70,24 @@ def tokenize_split_with_delimiters_and_quotes(text):
     return tokens
 assert str(tokenize_split_with_delimiters_and_quotes("man says hi")) == "['man', ' ', 'says', ' ', 'hi']"
 assert str(tokenize_split_with_delimiters_and_quotes("man (tom) says 'hi there!' to me.")) == "['man', ' ', '(', 'tom', ')', ' ', 'says', ' ', \"'\", 'hi', ' ', 'there', '!', \"'\", ' ', 'to', ' ', 'me', '.']"
+
+
+#TODO case sensitivity
+class DelimiterTokenizer(Tokenizer):
+    def __init__(self):
+        Tokenizer.__init__(self,debug=False)
+    def tokenize(self,text):
+        return tokenize_split_with_delimiters_and_quotes(text)
+assert str(DelimiterTokenizer().tokenize("man (tom) says 'hi there!' to me.")) == "['man', ' ', '(', 'tom', ')', ' ', 'says', ' ', \"'\", 'hi', ' ', 'there', '!', \"'\", ' ', 'to', ' ', 'me', '.']"
+assert str(DelimiterTokenizer().tokenize("hi there, man!")) == "['hi', ' ', 'there', ',', ' ', 'man', '!']"
+assert str(DelimiterTokenizer().tokenize("man says: hi there!, man.")) == "['man', ' ', 'says', ':', ' ', 'hi', ' ', 'there', '!', ',', ' ', 'man', '.']"
+
+
+class JebaTokenizer(Tokenizer):
+    def __init__(self):
+        Tokenizer.__init__(self,debug=False)
+    def tokenize(self,text):
+        return [r[0] for r in jieba.tokenize(text)]
 
 
 # Lexicon-based Tokenization
@@ -256,6 +275,21 @@ assert _test_tokenizer.count_params() == 28
 assert str(_test_tokenizer.model) == "[{'d': 2, 'i': 1, 'n': 2, 'g': 2, 'o': 1, 'di': 1, 'in': 1, 'ng': 2, 'do': 1, 'on': 1}, {'d': {'i': 1, 'o': 1}, 'i': {'n': 1}, 'n': {'g': 2}, 'o': {'n': 1}, 'di': {'n': 1}, 'in': {'g': 1}, 'do': {'n': 1}, 'on': {'g': 1}}, {'i': {'d': 1}, 'n': {'i': 1, 'o': 1}, 'g': {'n': 2}, 'o': {'d': 1}, 'in': {'d': 1}, 'ng': {'i': 1, 'o': 1}, 'on': {'d': 1}}]"
 
 
+class FreedomBasedTokenizer(FreedomTokenizer):
+
+    def __init__(self, base, back, forw, nlist, threshold=0.5, debug=False):
+        FreedomTokenizer.__init__(self,debug=debug)
+        self.model = base.model
+        self.mode = base.mode
+        self.back = back
+        self.forw = forw
+        self.nlist = nlist
+        self.threshold = threshold
+
+    def tokenize(self,text):
+        return tokenize_with_opposite_metrics(self.model,text,self.back,self.forw,self.nlist,self.threshold)
+
+
 def model_compress_with_loss(model,threshold=0.01):
     dict_compress_with_loss(model[0],threshold)
     dict_compress_with_loss(model[1],threshold)
@@ -370,6 +404,22 @@ def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,profiler=pr
     if len(token) > 0:
             tokens.append(token)
     return tokens
+
+
+def evaluate_tokenizer_f1(texts,real_tokenizer,test_tokenizer,debug=False):
+    avg_f1 = 0
+    count = 0
+    for text in texts:
+        expected = real_tokenizer.tokenize(text)
+        tokens = test_tokenizer.tokenize(text)
+        f1 = calc_f1(expected,tokens)
+        if debug:
+            print(text)
+            print(round(f1,2),tokens)
+        avg_f1 += f1
+        count += 1
+    return round(avg_f1/count,2)
+
 
 def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_freedoms_avg_df,spaces=False,output=False,debug=False):
     if output:
