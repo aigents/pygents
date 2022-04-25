@@ -252,7 +252,7 @@ class FreedomTokenizer(Tokenizer):
         return self
         
     def tokenize(self,text):
-        #TODO
+        #TODO pass!!!???
         return text.split()
 
     def count_params(self):
@@ -277,7 +277,7 @@ assert str(_test_tokenizer.model) == "[{'d': 2, 'i': 1, 'n': 2, 'g': 2, 'o': 1, 
 
 class FreedomBasedTokenizer(FreedomTokenizer):
 
-    def __init__(self, base, back, forw, nlist, threshold=0.5, debug=False):
+    def __init__(self, base, back, forw, nlist=[1], threshold=0.5, debug=False):
         FreedomTokenizer.__init__(self,debug=debug)
         self.model = base.model
         self.mode = base.mode
@@ -285,6 +285,12 @@ class FreedomBasedTokenizer(FreedomTokenizer):
         self.forw = forw
         self.nlist = nlist
         self.threshold = threshold
+        
+    def set_options(self,**kwargs):
+        if 'threshold' in kwargs:
+            self.threshold = kwargs['threshold']
+        if 'nlist' in kwargs:
+            self.nlist = kwargs['nlist']
 
     def tokenize(self,text):
         return tokenize_with_opposite_metrics(self.model,text,self.back,self.forw,self.nlist,self.threshold)

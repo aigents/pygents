@@ -317,7 +317,7 @@ def profile_freedoms(model,text,max_n,debug=False):
     length = len(text)
     de_list = []
     for i in range(length):
-        sym = text[i]
+        sym = text[i] # .lower() if lower else text[i]
         #forward
         counters = model[1]
         start = i - (max_n-1)
