@@ -9,7 +9,8 @@ def matrix_plot(row_labels, col_labels, matrix, absmax, title = None, vmin = Non
     p = sns.heatmap(matrix, xticklabels=col_labels, yticklabels=row_labels, vmin = -absmax if vmin is None else vmin, vmax = absmax, 
                     cmap='RdYlGn', annot=True)
     if title is not None:
-        p.set_title(title,fontsize = 32)
+        fontsize = 32 if len(title) < 50 else round(32 * 50 / len(title))
+        p.set_title(title,fontsize = fontsize)
     plt.show()
 
 def plot_profile(df,text,h=3,title=None):
