@@ -250,6 +250,22 @@ class FreedomTokenizer(Tokenizer):
                 #self.model[i].update(d)
                 dict_update(self.model[i],d)
         return self
+
+    def train_folder(self,folder_path,model_path=None,name=None,debug = False):
+        #TODO recursion, if specified
+        onlyfiles = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
+        cnt = 0
+        for file in onlyfiles:
+            with open(join(path, file),errors='ignore') as f:
+                lines = f.readlines()
+                cnt += 1
+                if debug and (cnt % 100) == 0:
+                    print(cnt,file)
+                self.train(lines)
+        if model_path is not None:
+            self.store(model_path)
+        if debug:
+            print(self.count_params())
         
     def tokenize(self,text):
         #TODO pass!!!???
