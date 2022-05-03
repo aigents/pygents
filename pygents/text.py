@@ -313,10 +313,11 @@ def profile_probabilities(counters,text,max_n,debug=False):
 
 
 # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
-def profile_freedoms(model,text,max_n,debug=False):
+def profile_freedoms(model,text,max_n,denominate=False,debug=False):
     text = text.lower() #TODO make configurable!?
     length = len(text)
     de_list = []
+    denominators = model[0]
     for i in range(length):
         sym = text[i] # .lower() if lower else text[i]
         #forward
@@ -327,6 +328,8 @@ def profile_freedoms(model,text,max_n,debug=False):
         #gram = text[start:i]
         forw_gram = text[start:i+1]
         forw_freedom = len(counters[forw_gram]) if forw_gram in counters else 0
+        if denominate and forw_freedom > 0:
+            forw_freedom /= denominators[forw_gram] 
         #backward
         counters = model[2]
         end = i + max_n
@@ -335,6 +338,8 @@ def profile_freedoms(model,text,max_n,debug=False):
         #gram = text[i+1:end]
         back_gram = text[i:end]
         back_freedom = len(counters[back_gram]) if back_gram in counters else 0
+        if denominate and back_freedom > 0:
+            back_freedom /= denominators[back_gram] 
         if debug:
             print("+{}-{}:\t'{}'=>{}\t{}\t-{}-{}:\t'{}'=>{}\t{}".format(start,i,forw_gram,sym,forw_freedom,i,end-1,back_gram,sym,back_freedom))
         de_list.append((i,sym,forw_freedom,back_freedom))

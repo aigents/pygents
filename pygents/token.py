@@ -318,8 +318,8 @@ def model_compress_with_loss(model,threshold=0.01):
     dict_compress_with_loss(model[2],threshold)
 
 
-def profile_freedoms_ex_df(model,text,n,debug=False):
-    df = pd.DataFrame(profile_freedoms(model,text,n,debug=debug),columns=['pos','gram','f+','f-'])
+def profile_freedoms_ex_df(model,text,n,denominate=False,debug=False):
+    df = pd.DataFrame(profile_freedoms(model,text,n,denominate=denominate,debug=debug),columns=['pos','gram','f+','f-'])
     df['ddf+'] = (df['f+'] - df['f+'].mean()).clip(lower=0)
     df['ddf-'] = (df['f-'] - df['f-'].mean()).clip(lower=0)
     df['ddf+|ddf-'] = df['ddf+'] + df['ddf-'].shift(-1)
@@ -338,10 +338,10 @@ def profile_freedoms_ex_df(model,text,n,debug=False):
     return df
 
 
-def profile_freedoms_avg_df(model,text,metrics,nlist,debug=False):
+def profile_freedoms_avg_df(model,text,metrics,nlist,denominate=False,debug=False):
     res_df = None
     for n in nlist:
-        df = profile_freedoms_ex_df(model,text,n)
+        df = profile_freedoms_ex_df(model,text,n,denominate=denominate)
         if res_df is None:
             res_df = df[['pos','gram']+metrics].copy()
         else:
@@ -355,8 +355,9 @@ def profile_freedoms_avg_df(model,text,metrics,nlist,debug=False):
 def profile_probabilities_ex_df(model,text,n,debug=False):
     df = pd.DataFrame(profile_probabilities(model[0],text,n,debug=debug),columns=['pos','gram','p+','p-'])
     if n == 1:
-        df['p+'] = df['p+']/df['p+'].max()
-        df['p-'] = df['p-']/df['p-'].max()
+        pmax = max(df['p+'].max(),df['p-'].max())
+        df['p+'] = df['p+']/pmax
+        df['p-'] = df['p-']/pmax
     df['ddp+'] = (df['p+'] - df['p+'].mean()).clip(lower=0)
     df['ddp-'] = (df['p-'] - df['p-'].mean()).clip(lower=0)
     df['ddp+|ddp-'] = df['ddp+'] + df['ddp-'].shift(-1)
