@@ -20,6 +20,20 @@ assert str(dict_update({'a':1},{'a':1,'b':20})) == "{'a': 2, 'b': 20}"
 assert str(dict_update({'a':1,'c':{'x':100}},{'a':1,'b':20,'c':{'x':300,'y':4000},'z':{'x':50000}})) == "{'a': 2, 'c': {'x': 400, 'y': 4000}, 'b': 20, 'z': {'x': 50000}}"
 
 
+def listofpairs_compress_with_loss(lst,threshold=0.01):
+    maxval = None
+    for i in lst:
+        if maxval is None or maxval < i[1]:
+            maxval = i[1]
+    newlist = []
+    minval = maxval * threshold
+    for i in lst:
+        if i[1] >= minval:
+            newlist.append(i)
+    return newlist
+assert str(listofpairs_compress_with_loss([('a',1000),('b',100),('c',10),('d',1)])) == "[('a', 1000), ('b', 100), ('c', 10)]"
+
+
 def dict_compress_with_loss(dic,threshold=0.01):
     maxval = None
     for d in dic:

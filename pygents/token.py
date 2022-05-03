@@ -83,7 +83,8 @@ assert str(DelimiterTokenizer().tokenize("hi there, man!")) == "['hi', ' ', 'the
 assert str(DelimiterTokenizer().tokenize("man says: hi there!, man.")) == "['man', ' ', 'says', ':', ' ', 'hi', ' ', 'there', '!', ',', ' ', 'man', '.']"
 
 
-class JebaTokenizer(Tokenizer):
+#https://github.com/fxsjy/jieba
+class JiebaTokenizer(Tokenizer):
     def __init__(self):
         Tokenizer.__init__(self,debug=False)
     def tokenize(self,text):
@@ -177,7 +178,7 @@ class LexiconIndexedTokenizer(Tokenizer):
         Tokenizer.__init__(self,debug=debug)
         self.name = name
         if not lexicon is None: 
-            self.freqlist = [(word,1.0) for word in lexicon] #copy
+            self.freqlist = [(word,1.0) for word in lexicon] if type(lexicon[0]) is str else lexicon #copy
         elif not url is None:
             lex_lines = url_lines(url)
             self.freqlist = [tabbed_line2tuple(line) for line in lex_lines] #load from url
@@ -199,11 +200,12 @@ class LexiconIndexedTokenizer(Tokenizer):
         #print(self.dict['f'])
         for key in self.dict:
             lst = list(self.dict[key])
-            if self.sortmode == 0:
+            if self.sortmode == 0: # by len
                 lst.sort(key=lambda s: len(s[0]), reverse=True)
-            elif self.sortmode == 1:
+            elif self.sortmode == 1: # by weight
                 lst.sort(key=lambda s: s[1], reverse=True)
-            else:
+            else: # by len times logweight
+                #TODO log separately for better performance
                 lst.sort(key=lambda s: math.log10(s[1])*len(s[0]), reverse=True)
             self.dict[key] = lst
         #print(self.dict['f'])
@@ -216,6 +218,9 @@ class LexiconIndexedTokenizer(Tokenizer):
         tokens, weight = tokenize_with_prexied_sorted_lexicon(self.dict,text,cased=self.cased)
         length = len(tokens)
         return tokens, 0 if length == 0 else weight / length 
+
+    def count_params(self):
+        return len(self.freqlist)
 
 assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("tunaisafish.catisamammal"))=="['tuna', 'is', 'a', 'fish', '.', 'cat', 'is', 'a', 'mammal']"    
 assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("Tunaisafish.Catisamammal"))=="['Tuna', 'is', 'a', 'fish', '.Cat', 'is', 'a', 'mammal']"
