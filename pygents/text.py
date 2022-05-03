@@ -307,7 +307,7 @@ def profile_probabilities(counters,text,max_n,debug=False):
             back_post_prob = counters[back_post_gram] if back_post_gram in counters else 0
             back_prob = back_post_prob / back_pre_prob
             if debug:
-                print("Back {}-{}:'{}'-'{}'={}=>{}".format(i,end,back_post_gram,back_pre_gram,sym,back_prob))
+                print("Back {}-{}:'{}'-'{}'={}=>{}".format(i,end-1,back_post_gram,back_pre_gram,sym,back_prob))
         de_list.append((i,sym,prob,back_prob))
     return de_list
 
@@ -336,7 +336,7 @@ def profile_freedoms(model,text,max_n,debug=False):
         back_gram = text[i:end]
         back_freedom = len(counters[back_gram]) if back_gram in counters else 0
         if debug:
-            print("+{}-{}:\t'{}'=>{}\t{}\t-{}-{}:\t'{}'=>{}\t{}".format(start,i,forw_gram,sym,forw_freedom,i,end,back_gram,sym,back_freedom))
+            print("+{}-{}:\t'{}'=>{}\t{}\t-{}-{}:\t'{}'=>{}\t{}".format(start,i,forw_gram,sym,forw_freedom,i,end-1,back_gram,sym,back_freedom))
         de_list.append((i,sym,forw_freedom,back_freedom))
     return de_list
 
