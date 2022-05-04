@@ -184,14 +184,17 @@ class LexiconIndexedTokenizer(Tokenizer):
             self.freqlist = [tabbed_line2tuple(line) for line in lex_lines] #load from url
             # TODO load from file
         self.sortmode = sortmode
-        self.compile()
         self.cased = cased
+        self.top_weight = None
+        self.compile()
 
     def compile(self):
         self.dict = {}
         self.fulldict = weightedlist2dict(self.freqlist,lower=True) # save for debugging only!?
         for key in self.fulldict:
             value = self.fulldict[key]
+            if self.top_weight is None or self.top_weight < value:
+                self.top_weight = value
             if len(key) > 0:
                 letter = key[0]
                 if not letter in self.dict:
@@ -208,7 +211,12 @@ class LexiconIndexedTokenizer(Tokenizer):
                 #TODO log separately for better performance
                 lst.sort(key=lambda s: math.log10(s[1])*len(s[0]), reverse=True)
             self.dict[key] = lst
+        self.freqlist = [(key,self.fulldict[key]) for key in self.fulldict] # save for extension
         #print(self.dict['f'])
+
+    def extend(self,weightedlist):
+        self.freqlist.extend(weightedlist)
+        self.compile()
 
     def tokenize(self,text):
         tokens, weight = tokenize_with_prexied_sorted_lexicon(self.dict,text,cased=self.cased)
@@ -220,7 +228,7 @@ class LexiconIndexedTokenizer(Tokenizer):
         return tokens, 0 if length == 0 else weight / length 
 
     def count_params(self):
-        return len(self.freqlist)
+        return len(self.fulldict)
 
 assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("tunaisafish.catisamammal"))=="['tuna', 'is', 'a', 'fish', '.', 'cat', 'is', 'a', 'mammal']"    
 assert str(LexiconIndexedTokenizer(lexicon=['tuna','is','fish','cat','mammal']).tokenize("Tunaisafish.Catisamammal"))=="['Tuna', 'is', 'a', 'fish', '.Cat', 'is', 'a', 'mammal']"

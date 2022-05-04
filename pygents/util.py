@@ -139,6 +139,12 @@ def list2dict(lst):
         dictcount(dic,l)
     return dic
 
+def listofpairs2dict(lst):
+    dic = {}
+    for i in lst:
+        dictcount(dic,i[0],i[1])
+    return dic
+
 def calc_f1(ground,guess):
     if isinstance(ground,list):
         ground = list2dict(ground)

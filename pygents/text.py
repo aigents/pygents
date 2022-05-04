@@ -3,6 +3,10 @@ import pandas as pd
 import urllib.request
 from pygents.util import dictcount, merge_two_dicts, countcount, counters_init, merge_dicts
 
+
+delimiters = ' \t\n\r\'`"“”+=-_&/|\*()[]<>#^@~,;:.!?'
+
+
 def url_text(url,debug = False,linefeeds=False):
     text = ''
     lines = 0
