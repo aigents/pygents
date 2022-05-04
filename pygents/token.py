@@ -444,12 +444,14 @@ def tokenize_with_forward_metric(model,text,forw,nlist,threshold=0.5,profiler=pr
     return tokens
 
 
-def evaluate_tokenizer_f1(texts,real_tokenizer,test_tokenizer,debug=False):
+def evaluate_tokenizer_f1(texts,real_tokenizer,test_tokenizer,nospaces=False,debug=False):
     avg_f1 = 0
     count = 0
     for text in texts:
         expected = real_tokenizer.tokenize(text)
-        tokens = test_tokenizer.tokenize(text)
+        if nospaces:
+            remove_all(expected,' ')
+        tokens = test_tokenizer.tokenize(text if not nospaces else text.replace(' ','')) # nospaces=True complicates the problem removing spaces
         f1 = calc_f1(expected,tokens)
         if debug:
             print(text)
