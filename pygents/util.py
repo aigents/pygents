@@ -79,7 +79,12 @@ def remove_all(collection,item):
         collection.remove(item)
 
 def dictcount(dic,arg,cnt=1):
-    if arg in dic:
+    if type(arg) == list:
+        #print(arg)
+        #print(dic)
+        for i in arg:
+            dictcount(dic,i,cnt)
+    elif arg in dic:
         dic[arg] = dic[arg] + cnt
     else:
         dic[arg] = cnt
