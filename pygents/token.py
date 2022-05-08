@@ -337,7 +337,7 @@ def profile_freedoms_ex_df(model,text,n,denominate=False,debug=False):
     df['dvf-'] = (df['f-'] - df['f-'].mean()).clip(lower=0)
     df['dvf+|dvf-'] = df['dvf+'] + df['dvf-'].shift(-1)
     df['dvf+&dvf-'] = df['dvf+'] * df['dvf-'].shift(-1)
-    if True: # legacy hack
+    if True: # legacy notebook hack
         df['ddf+'] = df['dvf+']
         df['ddf-'] = df['dvf-']
         df['ddf+|ddf-'] = df['dvf+|dvf-']
@@ -376,10 +376,15 @@ def profile_probabilities_ex_df(model,text,n,debug=False):
         pmax = max(df['p+'].max(),df['p-'].max())
         df['p+'] = df['p+']/pmax
         df['p-'] = df['p-']/pmax
-    df['ddp+'] = (df['p+'] - df['p+'].mean()).clip(lower=0)
-    df['ddp-'] = (df['p-'] - df['p-'].mean()).clip(lower=0)
-    df['ddp+|ddp-'] = df['ddp+'] + df['ddp-'].shift(-1)
-    df['ddp+&ddp-'] = df['ddp+'] * df['ddp-'].shift(-1)
+    df['dvp+'] = (df['p+'] - df['p+'].mean()).clip(lower=0)
+    df['dvp-'] = (df['p-'] - df['p-'].mean()).clip(lower=0)
+    df['dvp+|dvp-'] = df['dvp+'] + df['dvp-'].shift(-1)
+    df['dvp+&dvp-'] = df['dvp+'] * df['dvp-'].shift(-1)
+    if True: # legacy notebook hack
+        df['ddp+'] = df['dvp+']
+        df['ddp-'] = df['dvp-']
+        df['ddp+|ddp-'] = df['dvp+|dvp-']
+        df['ddp+&ddp-'] = df['dvp+&dvp-']
     df['dp+'] = df['p+'].diff() 
     df['dp-'] = -df['p-'].diff().shift(-1)
     df['dp+|dp-'] = df['dp+'] + df['dp-']
