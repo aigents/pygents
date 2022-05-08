@@ -37,7 +37,8 @@ def plot_bars(df,labels,values,title=None):
     p = df[[labels]+values].plot.bar(x=labels);
     p = plt.xticks(rotation='horizontal',fontsize=1+round(60*20/len(df)))
     if title is not None:
-        plt.title(title)
+        fontsize = 32 if len(title) < 50 else round(32 * 50 / len(title))
+        plt.title(title,fontsize = fontsize)
 
 def plot_dict(dic,labels,values,title=None,head=None):
     df = pd.DataFrame([(key, dic[key]) for key in dic],columns=[labels,values])

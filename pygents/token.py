@@ -469,7 +469,9 @@ def evaluate_tokenizer_f1(texts,real_tokenizer,test_tokenizer,nospaces=False,exp
         f1 = calc_f1(expected,tokens)
         if debug:
             print(text)
-            print(round(f1,2),tokens)
+            print(expected)
+            print(tokens)
+            print(round(f1,2))
         avg_f1 += f1
         count += 1
     return round(avg_f1/count,2)
