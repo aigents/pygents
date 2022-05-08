@@ -333,10 +333,15 @@ def model_compress_with_loss(model,threshold=0.01):
 
 def profile_freedoms_ex_df(model,text,n,denominate=False,debug=False):
     df = pd.DataFrame(profile_freedoms(model,text,n,denominate=denominate,debug=debug),columns=['pos','gram','f+','f-'])
-    df['ddf+'] = (df['f+'] - df['f+'].mean()).clip(lower=0)
-    df['ddf-'] = (df['f-'] - df['f-'].mean()).clip(lower=0)
-    df['ddf+|ddf-'] = df['ddf+'] + df['ddf-'].shift(-1)
-    df['ddf+&ddf-'] = df['ddf+'] * df['ddf-'].shift(-1)
+    df['dvf+'] = (df['f+'] - df['f+'].mean()).clip(lower=0)
+    df['dvf-'] = (df['f-'] - df['f-'].mean()).clip(lower=0)
+    df['dvf+|dvf-'] = df['dvf+'] + df['dvf-'].shift(-1)
+    df['dvf+&dvf-'] = df['dvf+'] * df['dvf-'].shift(-1)
+    if True: # legacy hack
+        df['ddf+'] = df['dvf+']
+        df['ddf-'] = df['dvf-']
+        df['ddf+|ddf-'] = df['dvf+|dvf-']
+        df['ddf+&ddf-'] = df['dvf+&dvf-']
     df['df+'] = df['f+'].diff() 
     df['df-'] = -df['f-'].diff().shift(-1)
     df['df+|df-'] = df['df+'] + df['df-']
