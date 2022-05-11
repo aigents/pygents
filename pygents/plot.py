@@ -91,10 +91,14 @@ def plot_profile_avg_freedom(model,text,n_min,n_max,col):
 # https://plotly.com/python/tree-plots/
 # https://igraph.org/python/doc/tutorial/tutorial.html
 
+from treelib import Node, Tree
+
 import igraph
 from igraph import Graph, EdgeSeq
 import plotly.graph_objects as go
 import math
+
+
 
 def make_annotations(pos, text, M, font_size=20, font_color='rgb(0,0,250)'):
     L=len(pos)
@@ -178,3 +182,50 @@ def igraph_draw(labels,edges,title):
               plot_bgcolor='rgb(248,248,248)'
               )
     fig.show()
+
+
+
+def dict2graph(dictree):
+    parents_children_dict = {}
+    for child in dictree: 
+        dictcount(parents_children_dict,dictree[child])
+    parents_children_list = list(parents_children_dict)
+    parents_children_list.sort(key=lambda i: len(i), reverse=True)
+    nodes = []
+    edges = []
+    nodes2index = {}
+    for child in parents_children_list:
+        index = len(nodes)
+        nodes.append(child)
+        nodes2index[child] = index
+        if child in dictree:
+            edges.append((nodes2index[child],nodes2index[dictree[child]]))
+    for child in dictree: 
+        if not child in parents_children_list:
+            index = len(nodes)
+            nodes.append(child)
+            nodes2index[child] = index
+            edges.append((nodes2index[child],nodes2index[dictree[child]]))
+    return nodes, edges
+assert str(dict2graph({'c1':'c0','c2':'c0'})) == "(['c0', 'c1', 'c2'], [(1, 0), (2, 0)])"
+
+
+def dict2tree(dictree):
+    parents_children_dict = {}
+    for child in dictree: 
+        dictcount(parents_children_dict,dictree[child])
+    parents_children_list = list(parents_children_dict)
+    parents_children_list.sort(key=lambda i: len(i), reverse=True)
+    tree = Tree()
+    for child in parents_children_list: 
+        #print(child,'->',dictree[child] if child in dictree else '***root***')
+        if not child in dictree:
+            tree.create_node(child, child)
+        else:
+            tree.create_node(child, child, parent=dictree[child])
+    for child in dictree: 
+        if not child in parents_children_list:
+            tree.create_node(child, child, parent=dictree[child])
+    return tree
+assert str(dict2tree({'c1':'c0','c2':'c0','c3':'c2'})) == 'c0\n├── c1\n└── c2\n    └── c3\n'
+
