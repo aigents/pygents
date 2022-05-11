@@ -94,19 +94,23 @@ def plot_profile_avg_freedom(model,text,n_min,n_max,col):
 import igraph
 from igraph import Graph, EdgeSeq
 import plotly.graph_objects as go
+import math
 
-def make_annotations(pos, text, M, font_size=10, font_color='rgb(250,250,250)'):
+def make_annotations(pos, text, M, font_size=20, font_color='rgb(0,0,250)'):
     L=len(pos)
     if len(text)!=L:
         raise ValueError('The lists pos and text must have the same len')
     annotations = []
     for k in range(L):
+        scaled_font_size = round(font_size/math.sqrt(len(text[k])))
+        if scaled_font_size < 2:
+            scaled_font_size = 2
         annotations.append(
             dict(
                 text=text[k], # or replace labels with a different list for the text within the circle
                 x=pos[k][0], y=2*M-pos[k][1],
                 xref='x1', yref='y1',
-                font=dict(color=font_color, size=font_size),
+                font=dict(color=font_color, size=scaled_font_size),
                 showarrow=False)
         )
     return annotations
@@ -118,8 +122,8 @@ def igraph_draw(labels,edges,title):
     G.add_vertices(nr_vertices)
     G.add_edges(edges)
 
-#    lay = G.layout('rt')
-    lay = G.layout('tree')
+    lay = G.layout('rt')
+#    lay = G.layout('tree')
 
     position = {k: lay[k] for k in range(nr_vertices)}
     Y = [lay[k][1] for k in range(nr_vertices)]
@@ -148,8 +152,8 @@ def igraph_draw(labels,edges,title):
                   y=Yn,
                   mode='markers',
                   name='bla',
-                  marker=dict(symbol='circle-dot',
-                                size=18,
+                  marker=dict(symbol='circle',#symbol='circle-dot',
+                                size=18, #18
                                 color='#6175c1',    #'#DB4551',
                                 line=dict(color='rgb(50,50,50)', width=1)
                                 ),
