@@ -122,12 +122,13 @@ def make_annotations(pos, text, M, font_size=20, font_color='rgb(0,0,250)'):
 def igraph_draw(labels,edges,title):
     #https://igraph.org/python/doc/tutorial/tutorial.html
     G = Graph()
+    #G = Graph(directed=True) # TODO!!!???
     nr_vertices = len(labels)
     G.add_vertices(nr_vertices)
     G.add_edges(edges)
 
-    lay = G.layout('rt')
-#    lay = G.layout('tree')
+#    lay = G.layout('rt')
+    lay = G.layout('tree')
 
     position = {k: lay[k] for k in range(nr_vertices)}
     Y = [lay[k][1] for k in range(nr_vertices)]
@@ -210,22 +211,31 @@ def dict2graph(dictree):
 assert str(dict2graph({'c1':'c0','c2':'c0'})) == "(['c0', 'c1', 'c2'], [(1, 0), (2, 0)])"
 
 
-def dict2tree(dictree):
+def dict2tree(dictree,debug=False):
     parents_children_dict = {}
+    children = set()
     for child in dictree: 
         dictcount(parents_children_dict,dictree[child])
+        children.add(child)
     parents_children_list = list(parents_children_dict)
     parents_children_list.sort(key=lambda i: len(i), reverse=True)
+    if debug:
+        print(parents_children_list)
     tree = Tree()
-    for child in parents_children_list: 
-        #print(child,'->',dictree[child] if child in dictree else '***root***')
+    tree.create_node('', '') # root
+    for child in parents_children_list:
+        if debug:
+            print(child,'->',dictree[child] if child in dictree else '')
         if not child in dictree:
-            tree.create_node(child, child)
+            tree.create_node(child, child, parent='')
         else:
             tree.create_node(child, child, parent=dictree[child])
-    for child in dictree: 
+    for child in children - parents_children_dict.keys(): 
+        if debug:
+            print(child,'->',dictree[child] if child in dictree else '')
         if not child in parents_children_list:
             tree.create_node(child, child, parent=dictree[child])
     return tree
-assert str(dict2tree({'c1':'c0','c2':'c0','c3':'c2'})) == 'c0\n├── c1\n└── c2\n    └── c3\n'
+#print(dict2tree({'c1':'c0','c2':'c0','c3':'c2'}))
+assert(str(dict2tree({'c1':'c0','c2':'c0','c3':'c2'},False)).replace('\n','')) == "└── c0    ├── c1    └── c2        └── c3"
 
