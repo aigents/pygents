@@ -9,6 +9,49 @@ from pygents.util import dictcount, countcount
 #from sklearn.metrics.pairwise import cosine_similarity
 
 
+#https://github.com/aigents/aigents-java/blob/master/src/main/java/net/webstructor/data/Miner.java#L157
+#public double crossOverlap(Linker that, Linker other)
+#overlap measure
+#https://en.wikipedia.org/wiki/Jaccard_index
+def overlap_dic_parts(dic1,dic2):
+    numerator = 0
+    dena = 0
+    for key1,val1 in dic1.items():
+        numerator += min(val1,dic2.get(key1,0.0))
+        dena += max(val1,val1)
+    denb = 0
+    for val2 in dic2.values():
+        denb += val2
+    return numerator, dena, denb
+    
+def overlap_dic(dic1,dic2):
+    numerator, dena, denb = overlap_dic_parts(dic1,dic2)
+    return numerator/math.sqrt(dena*denb) if numerator != 0 else 0.0
+x0 = {'c':3,'a':1,'b':2}
+x1 = {'a':1,'b':2,'c':3}
+x2 = {'a':1,'b':2,'c':0}
+x3 = {'a':1,'b':2,'d':3}
+x4 = {'a':1,'e':2,'d':3}
+x5 = {'a':999,'e':2,'d':3}
+x6 = {'a':0.1,'e':2,'d':3}
+x7 = {'f':1,'e':2,'d':3}
+assert str(overlap_dic(x0,x1)) == "1.0"
+assert str(overlap_dic(x0,x2)) == "0.7071067811865476"
+assert str(overlap_dic(x1,x2)) == "0.7071067811865476"
+assert str(overlap_dic(x1,x3)) == "0.5"
+assert str(overlap_dic(x1,x4)) == "0.16666666666666666"
+assert str(overlap_dic(x1,x5)) == "0.012884201800751829"
+assert str(overlap_dic(x1,x6)) == "0.018077538151554683"
+assert str(overlap_dic(x1,x7)) == "0.0"
+
+def overlap_dic2(dica1,dicb1,dica2,dicb2):
+    numerator1, dena1, denb1 = overlap_dic_parts(dica1,dicb1)
+    numerator2, dena2, denb2 = overlap_dic_parts(dica2,dicb2)
+    return (numerator1+numerator2)/math.sqrt((dena1+dena2)*(denb1+denb2)) if numerator1 != 0 or numerator2 != 0 else 0.0
+
+
+#cosine distance measure
+#https://en.wikipedia.org/wiki/Cosine_similarity
 def cosine_dic_parts(dic1,dic2):
     numerator = 0
     dena = 0
@@ -23,7 +66,6 @@ def cosine_dic_parts(dic1,dic2):
 def cosine_dic(dic1,dic2):
     numerator, dena, denb = cosine_dic_parts(dic1,dic2)
     return numerator/math.sqrt(dena*denb) if numerator != 0 else 0.0
-
 x0 = {'c':3,'a':1,'b':2}
 x1 = {'a':1,'b':2,'c':3}
 x2 = {'a':1,'b':2,'c':0}
@@ -58,7 +100,7 @@ assert str(cosine_dic2(x1,x7,{},{})) == "0.0"
 assert str(cosine_dic2(x0,x1,x0,x1)) == "1.0"
 assert str(cosine_dic2(x1,x7,x1,x7)) == "0.0"
 
-def compute_similiarities(model,arity=1,debug=False):
+def compute_similiarities(model,arity=1,simfunc2=cosine_dic2,debug=False):
     lst = []
     done = set()
     for a in model[0]:
@@ -69,7 +111,7 @@ def compute_similiarities(model,arity=1,debug=False):
                 if a != b and len(b) == arity and not (b,a) in done:
                     b1 = model[1][b]
                     b2 = model[2][b]
-                    s = cosine_dic2(a1,b1,a2,b2)
+                    s = simfunc2(a1,b1,a2,b2)
                     done.add((a,b))
                     lst.append( (a,b,s) if a <= b else (b,a,s) )
             if debug:
@@ -77,7 +119,7 @@ def compute_similiarities(model,arity=1,debug=False):
     return lst
 
 
-def compute_similiarities_from_dict(dic,debug=False):
+def compute_similiarities_from_dict(dic,simfunc2=cosine_dic2,debug=False):
     lst = []
     done = set()
     for a in dic:
@@ -87,7 +129,7 @@ def compute_similiarities_from_dict(dic,debug=False):
                 if a != b and not (b,a) in done:
                     b1 = dic[b][0]
                     b2 = dic[b][1]
-                    s = cosine_dic2(a1,b1,a2,b2)
+                    s = simfunc2(a1,b1,a2,b2)
                     done.add((a,b))
                     lst.append( (a,b,s) if a <= b else (b,a,s) )
             if debug:
@@ -115,13 +157,13 @@ def join_letters(a,b):
     return "".join(sorted(list(a)+list(b)))
 assert str(join_letters("1.2","zba")) == ".12abz"
     
-def do_cluster(model,dic4tree=None,debug = False):
+def do_cluster(model,dic4tree=None,simfunc2=cosine_dic2,debug = False):
     copy = model_to_dict(model)
     if debug:
         print(len(copy))
     n = 0
     while True:
-        simlst = compute_similiarities_from_dict(copy)
+        simlst = compute_similiarities_from_dict(copy,simfunc2=simfunc2)
         simlst.sort(key=lambda tup: tup[2], reverse=False) # sort to end so we can be removing from the end
         length = len(simlst)
         if length == 0:
@@ -141,7 +183,7 @@ def do_cluster(model,dic4tree=None,debug = False):
         print(len(copy))
 
 
-def do_cluster_threshold(model,dic4tree=None,thresholds=[0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4],debug = False):
+def do_cluster_threshold(model,dic4tree=None,simfunc2=cosine_dic2,thresholds=[0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4],debug = False):
     copy = model_to_dict(model)
     if debug:
         print('start count',len(copy))
@@ -149,7 +191,7 @@ def do_cluster_threshold(model,dic4tree=None,thresholds=[0.95,0.9,0.85,0.8,0.75,
         if debug:
             print('threshold',threshold)
         while True:
-            simlst = compute_similiarities_from_dict(copy)
+            simlst = compute_similiarities_from_dict(copy,simfunc2=simfunc2)
             simlst.sort(key=lambda tup: tup[2],reverse=True)
             length = len(simlst)
             if length == 0:
