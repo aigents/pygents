@@ -1,5 +1,6 @@
 import math
 from copy import deepcopy as dcp
+from pygents.util import dictcount, countcount
 
 #https://stackoverflow.com/questions/41827983/right-way-to-calculate-the-cosine-similarity-of-two-word-frequency-dictionaries
 #https://realpython.com/python-counter/
@@ -135,9 +136,73 @@ def do_cluster(model,dic4tree=None,debug = False):
         copy[ merged_name ] = ( dict_merge(copy[top[0]][0],copy[top[1]][0]), dict_merge(copy[top[0]][1],copy[top[1]][1]) )
         del copy[top[0]]
         del copy[top[1]]
-        if n > 100:
-            break
         n += 1
     if debug:
         print(len(copy))
+
+
+def do_cluster_threshold(model,dic4tree=None,thresholds=[0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4],debug = False):
+    copy = model_to_dict(model)
+    if debug:
+        print('start count',len(copy))
+    for threshold in thresholds:
+        if debug:
+            print('threshold',threshold)
+        while True:
+            simlst = compute_similiarities_from_dict(copy)
+            simlst.sort(key=lambda tup: tup[2],reverse=True)
+            length = len(simlst)
+            if length == 0:
+                break # root
+            merged_count = 0
+            merged_set = set()
+            for top in simlst:
+                if top[2] < threshold: # stop merging on threshold
+                    break
+                if top[0] in merged_set or top[1] in merged_set: # skip those merged on current round
+                    continue
+                merged_name = join_letters(top[0],top[1])
+                if not dic4tree is None:
+                    dic4tree[top[0]] = merged_name
+                    dic4tree[top[1]] = merged_name
+                if debug:
+                    print(len(copy),length,top[0],'+',top[1],'=>',top[2])
+                copy[ merged_name ] = ( dict_merge(copy[top[0]][0],copy[top[1]][0]), dict_merge(copy[top[0]][1],copy[top[1]][1]) )
+                del copy[top[0]]
+                del copy[top[1]]
+                merged_set.add(top[0])
+                merged_set.add(top[1])
+                merged_count += 1
+            if merged_count == 0:
+                break
+    if debug:
+        print('end count',len(copy))
+
+
+def invert_model(model,maxn=2):
+    index = {}
+    forward = {}
+    backward = {}
+    for ngram in model[1]:
+        if len(ngram) <= maxn: 
+            model1ngram = model[1][ngram]
+            for e in model1ngram:
+                dictcount(index,e)
+                countcount(backward,e,ngram,model1ngram[e])
+    for ngram in model[2]:
+        if len(ngram) <= maxn: 
+            model2ngram = model[2][ngram]
+            for e in model2ngram:
+                dictcount(index,e)
+                countcount(forward,e,ngram,model2ngram[e])
+    #TODO denominate all index by 2 !?
+    return index, forward, backward  
+assert str(invert_model([{'a':100,'b':10},
+              {'a':{'b':10},'b':{'a':100,'c':1}},
+              {'a':{'b':20},'b':{'a':200,'c':2}}
+             ])) == "({'b': 2, 'a': 2, 'c': 2}, {'b': {'a': 20}, 'a': {'b': 200}, 'c': {'b': 2}}, {'b': {'a': 10}, 'a': {'b': 100}, 'c': {'b': 1}})"
+assert str(invert_model([{'a':100,'b':10,'dd':1},
+              {'a':{'b':10},'b':{'a':100,'c':1},'dd':{'a':1,'c':1}},
+              {'a':{'b':20},'b':{'a':200,'c':2},'dd':{'a':1,'c':1}}
+             ],maxn=1)) == "({'b': 2, 'a': 2, 'c': 2}, {'b': {'a': 20}, 'a': {'b': 200}, 'c': {'b': 2}}, {'b': {'a': 10}, 'a': {'b': 100}, 'c': {'b': 1}})"
 
