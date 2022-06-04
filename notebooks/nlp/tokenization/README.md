@@ -4,6 +4,7 @@
 
 ## Tasks
 
+- **find way to self-tune hyperparameters unsupervisedly!**
 - see if not only "increase of freedom on short-grams" is token-breaking, but also "decrease of freedom on long-grams"!? 
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
