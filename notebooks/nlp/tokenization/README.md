@@ -1,6 +1,6 @@
 # Unsupervised Text Segmentation and Tokenization
 
-- Original task https://github.com/singnet/language-learning#255
+- Original task https://github.com/singnet/language-learning/issues/255
 
 ## Tasks
 
