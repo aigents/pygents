@@ -1,13 +1,13 @@
-# Unsupervised Text Segmentaion and Tokenization
+# Unsupervised Text Segmentation and Tokenization
 
-- Original task singnet/language-learning#255
+- Original task https://github.com/singnet/language-learning#255
 
 ## Tasks
 
 - see if not only "increase of freedom on short-grams" is token-breaking, but also "decrease of freedom on long-grams"!? 
 - use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
   - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
-      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest.ipynb
   - ON HOLD, no luck so far
 - evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
 - beat unsupervized tokenizer (UT) SOTA with semi-supervised tokenizer (SST) 
@@ -16,7 +16,7 @@
     - tokenize based on true lexicon.txt ("curriculum learning" concept), count frequencies of non-present words, see what to do next
 - when counting smaller ngrams based on p+/p-, denominate them for being part of larger ngrams?  
   - "inhibit frequencies" (or rather ""boost) from higher-order to lower-order?
-  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenMining.ipynb
+  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenMining.ipynb
 - Explore "surprizeness" measure to split as extension to "freedom"/"uncertainty"!?
 - further token/ngram graph analysis and scenario mining for tokenization and morphology extending to sentence segmentation  
     - tokenize by clustering words in the sentence 
@@ -38,13 +38,13 @@
 ## Results
 
 - Trained N-gram models with N=7 on different corpora
-  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer-Corpora.ipynb
+  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/Tokenizer-Corpora.ipynb
   - Brown (B) - 6M
   - Gutenberg Children (GC) - 29M
   - Gutenberg Adullt (GA) - 140M
   - Social Media (SM) - 65M
 - Explored frequencies on SM corpus
-  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb
+  - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/Tokenizer.ipynb
   - All N-grams (n=[1..7])
     - top 1-gram ' ' - gets outstanding score, next are 't' and 'e' (from 'the')
     - top 2-gram 'in' - after ' t' and 'e ' (from 'the')
@@ -57,12 +57,12 @@
   - Logarithmic distributions still apppear Zipfian
 - Explored models based on different metrics according to https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/ using SM corpus only
   - Conditional probabilities on N-to-N+1-gram transitions forward p+ and backward p- 
-    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/Tokenizer.ipynb
     - appear correlated with spaces and morphology (both!)
     - also have sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
   - Transitional "freedom" (uncertainty) forward p+ and backward p- (on gram-to-char and gram-to-gram basis for different N-s)
-    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/Tokenizer.ipynb
-    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/Tokenizer.ipynb
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest.ipynb
     - appear more impressively connected with punctuation than p+ or p- 
     - also have sums (|) and productions (&) across f+ and f- metrics with different N=[1..7] and directions +/- - all appear more impressive than based on p+ and p-
     - also have deviations ddf+ and ddf- capped above zero - appear even more impressively connected with punctuation, so used in tokenizatioon  
@@ -79,12 +79,12 @@
   - B+GC+GA+SM => F1=0.78 (n=[1], t=0.2-0.8) - same as on SM!
 - Improved the "freedom" models removing the low-frequency "tails" for each of the corpora 
   - F1=0.99 on Brown (and Brown + Gutenberg Children+Adult) with Brown 10 lines test set
-      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest.ipynb
-      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs.ipynb
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest.ipynb
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest-Runs.ipynb
   - F1=0.96 on Brown (and Brown + Gutenberg Children+Adult) with Brown 100 lines test set 
-      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs-100.ipynb
+      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest-Runs-100.ipynb
 - explored freedom-based models with all possible combinations of grams 1-7 for better F1 with larger test set of 100 lines from B
-    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/TokenizerTest-Runs-100.ipynb
+    - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest-Runs-100.ipynb
     - larger corpus does not make better, the best is the smallest B, adding GC+GA to it does not improve (F1=0.96), adding SM to it makes it a bit worse (F1=0.93)
 
 
