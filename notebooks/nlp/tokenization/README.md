@@ -37,6 +37,11 @@
 
 ## Results
 
+### 2022 May
+
+- [Reached 0.71-1.0 F1 scrore across English, Russian and Chinese languages](https://github.com/aigents/pygents/blob/main/docs/2022/unsupervised_tokenizarion_learning.pdf)
+
+### 2022 April
 - Trained N-gram models with N=7 on different corpora
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/Tokenizer-Corpora.ipynb
   - Brown (B) - 6M
