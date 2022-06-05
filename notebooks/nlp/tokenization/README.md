@@ -6,7 +6,9 @@
 
 - **find way to self-tune hyperparameters unsupervisedly!**
   - cross F1 score on models from split corpora
-  - optimal compression  
+  - optimal compression
+    - Compression factor?
+  - minimal entropy https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html
 - check sources of errors (! and ? marks) for English, see if artifical generation of correcting set fixes that
 - add web names and numbers to test set, see how to deal with "contextual tokenization"
 - ...

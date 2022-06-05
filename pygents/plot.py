@@ -4,9 +4,11 @@ import matplotlib.pyplot as plt
 
 from pygents.text import *
 
-def matrix_plot(row_labels, col_labels, matrix, absmax, title = None, vmin = None):
+def matrix_plot(row_labels, col_labels, matrix, absmax, title = None, vmin = None, vmax = None):
     plt.rcParams["figure.figsize"] = (20,len(row_labels)/4)
-    p = sns.heatmap(matrix, xticklabels=col_labels, yticklabels=row_labels, vmin = -absmax if vmin is None else vmin, vmax = absmax, 
+    p = sns.heatmap(matrix, xticklabels=col_labels, yticklabels=row_labels, 
+                    vmin = -absmax if vmin is None else vmin, 
+                    vmax = absmax if vmax is None else vmax, 
                     cmap='RdYlGn', annot=True)
     if title is not None:
         fontsize = 32 if len(title) < 50 else round(32 * 50 / len(title))
