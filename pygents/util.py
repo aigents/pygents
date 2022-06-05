@@ -1,6 +1,8 @@
 import numpy as np
 import pickle
+import math
 from os.path import join
+from scipy.stats import entropy
 
 def dict_update(target,source):
     for key in source:
@@ -255,4 +257,73 @@ def context_save_load(context,context_name,folder='data/temp/'):
     else:
         pickle.dump(context, open(pickle_name, 'wb'), pickle.HIGHEST_PROTOCOL)
     return context
+
+
+def evaluate_entropy(tokenized_texts):
+    """
+    Normalized entropy 
+    """
+    lexicon = {}
+    tokens_count = 0
+    for tokenized_text in tokenized_texts:
+        tokens_count += len(tokenized_text)
+        for token in tokenized_text:
+            dictcount(lexicon,token)
+    distribution = [lexicon[token]/tokens_count for token in lexicon]
+    e = entropy(distribution, base=2)
+    k = len(lexicon)
+    if k > 2:
+        e /= math.log2(k)
+    return e
+#print(evaluate_entropy([["aaaabbbbaaaabbbb"]]))
+#print(evaluate_entropy([["aaaabbbb"],["aaaabbbb"]]))
+#print(evaluate_entropy([["aaaa"],["bbbb"],["aaaa"],["bbbb"]]))
+#print(evaluate_entropy([["aa"],["aa"],["bb"],["bb"],["aa"],["aa"],["bb"],["bb"]]))
+#print(evaluate_entropy([["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"],["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"]]))
+assert str(evaluate_entropy([["aaaabbbbaaaabbbb"]])) == "0.0"
+assert str(evaluate_entropy([["aaaabbbb"],["aaaabbbb"]])) == "0.0"
+assert str(evaluate_entropy([["aaaa"],["bbbb"],["aaaa"],["bbbb"]])) == "1.0"
+assert str(evaluate_entropy([["aa"],["aa"],["bb"],["bb"],["aa"],["aa"],["bb"],["bb"]])) == "1.0"
+assert str(evaluate_entropy([["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"],["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"]])) == "1.0"
+
+
+def evaluate_anti_entropy(tokenized_texts):
+    """
+    Normalized anti-entropy 
+    """
+    return 1.0 - evaluate_entropy(tokenized_texts)
+
+
+def evaluate_compression(texts,tokenized_texts):
+    """
+    Coefficient of compression 
+    """
+    text_len = 0
+    tokenized_text_len = 0
+    tokens_count = 0
+    lexicon = {}
+    for text in texts:
+        text_len += len(text)
+    for tokenized_text in tokenized_texts:
+        tokens_count += len(tokenized_text)
+        for token in tokenized_text:
+            tokenized_text_len += len(token)
+            dictcount(lexicon,token)
+    tokens_len = 0
+    for token in lexicon:
+        tokens_len += len(token)
+    assert text_len == tokenized_text_len
+    return 1.0 - ((tokens_len + tokens_count) / text_len)
+#print(evaluate_compression(["aaaabbbbaaaabbbb"],[["aaaabbbbaaaabbbb"]]))
+#print(evaluate_compression(["aaaabbbbaaaabbbb"],[["aaaabbbb"],["aaaabbbb"]]))
+#print(evaluate_compression(["aaaabbbbaaaabbbb"],[["aaaa"],["bbbb"],["aaaa"],["bbbb"]]))
+#print(evaluate_compression(["aaaabbbbaaaabbbb"],[["aa"],["aa"],["bb"],["bb"],["aa"],["aa"],["bb"],["bb"]]))
+#print(evaluate_compression(["aaaabbbbaaaabbbb"],[["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"],["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"]]))
+assert str(evaluate_compression(["aaaabbbbaaaabbbb"],[["aaaabbbbaaaabbbb"]])) == "-0.0625"
+assert str(evaluate_compression(["aaaabbbbaaaabbbb"],[["aaaabbbb"],["aaaabbbb"]])) == "0.375"
+assert str(evaluate_compression(["aaaabbbbaaaabbbb"],[["aaaa"],["bbbb"],["aaaa"],["bbbb"]])) == "0.25"
+assert str(evaluate_compression(["aaaabbbbaaaabbbb"],[["aa"],["aa"],["bb"],["bb"],["aa"],["aa"],["bb"],["bb"]])) == "0.25"
+assert str(evaluate_compression(["aaaabbbbaaaabbbb"],[["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"],["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"]])) == "-0.125"
+
+
 

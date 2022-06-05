@@ -5,7 +5,8 @@ import math
 import pandas as pd
 import jieba
 
-from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update, dict_compress_with_loss 
+from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update, dict_compress_with_loss
+from pygents.util import evaluate_compression, evaluate_anti_entropy 
 from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms
 from pygents.text import url_lines, tokenize_with_sorted_lexicon, profile_freedoms, profile_probabilities
 
@@ -500,6 +501,31 @@ def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_fr
     if output:
         print("{}\t{}\t{}".format(nlist,threshold,f1))
     return nlist,threshold,f1
+
+
+def evaluate_tokenizer_f1_compratio_entropy(texts,real_tokenizer,test_tokenizer,nospaces=False,expected_collector=None,actual_collector=None,debug=False):
+    avg_f1 = 0
+    count = 0
+    tokenized_texts = []
+    for text in texts:
+        expected = real_tokenizer.tokenize(text)
+        if nospaces:
+            remove_all(expected,' ')
+        tokens = test_tokenizer.tokenize(text if not nospaces else text.replace(' ','')) # nospaces=True complicates the problem removing spaces
+        tokenized_texts.append(tokens)
+        if not expected_collector is None:
+            dictcount(expected_collector,expected)
+        if not actual_collector is None:
+            dictcount(actual_collector,tokens)
+        f1 = calc_f1(expected,tokens)
+        if debug:
+            print(text)
+            print(expected)
+            print(tokens)
+            print(round(f1,2))
+        avg_f1 += f1
+        count += 1
+    return round(avg_f1/count,2), round(evaluate_compression(texts,tokenized_texts),2), round(evaluate_anti_entropy(tokenized_texts),2)
 
 
 
