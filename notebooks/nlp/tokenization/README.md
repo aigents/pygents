@@ -5,12 +5,11 @@
 ## Tasks
 
 - **find way to self-tune hyperparameters unsupervisedly!**
-- see if not only "increase of freedom on short-grams" is token-breaking, but also "decrease of freedom on long-grams"!? 
-- use p+ and p- to generate dp+, dp-, ddp+, ddp- and tokenize based on EITHER of + and - as in case of ddf+, ddf- 
-  - also try sums (|) and productions (&) across p+ and p- metrics with different N=[1..7] and directions +/-
-      - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest.ipynb
-  - ON HOLD, no luck so far
-- evaluate all metrics based on same corpus and "referenced" sentence, see sources of errors
+  - cross F1 score on models from split corpora
+  - optimal compression  
+- check sources of errors (! and ? marks) for English, see if artifical generation of correcting set fixes that
+- add web names and numbers to test set, see how to deal with "contextual tokenization"
+- ...
 - beat unsupervized tokenizer (UT) SOTA with semi-supervised tokenizer (SST) 
   - implement semi-supervised tokenizer, trained on word/character corpus (SST))
   - pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) 
@@ -27,12 +26,10 @@
     - prev/next (sequential)
     - part/whole (morphology)
     - intention/extension (class hierarchy - vowels and consonants, suffixes and prefixe)
-- corpora stats review
-- consider other metrics
 
 ## Problems
 
-- how to split endings quotes delimiters away from regular words, keeping the slashes, points and periods being parts of websites and numbers as parrt of tokens!?
+- how to split endings quotes delimiters away from regular words, keeping the slashes, points and periods being parts of websites and numbers as part of tokens!?
 - unsupervised decapitalization/capitalization?
 - how to decode special chars like '\u200b' from input corpus data (other than just ignoring like we do now)
 
