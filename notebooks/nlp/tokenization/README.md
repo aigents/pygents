@@ -4,27 +4,37 @@
 
 ## Tasks
 
-- **find way to self-tune hyperparameters unsupervisedly!**
-  - cross F1 score on models from split corpora
-  - optimal compression
-    - Compression factor?
-  - minimal entropy https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html
-- check sources of errors (! and ? marks) for English, see if artifical generation of correcting set fixes that
-- add web names and numbers to test set, see how to deal with "contextual tokenization"
+- **Self-tuning hyperparameters unsupervisedly!**
+  - metrics
+    - Cross-spli F1 on models from split corpora CSF1 
+    - Compression factor C%
+    - Normalized Anti-Entropy ~S https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html
+  - English
+      - test 100 (DONE)
+      - test 1K (PROGRESS)
+      - test 10K (TODO)
+  - Russian
+      - test 100 (DONE)
+      - test 1K (PROGRESS)
+      - test 10K (TODO)
+  - Chinese
+      - test 100 (TODO)
+- Check sources of errors (! and ? marks) for English, see if artifical generation of correcting set fixes that
+    - Add web names and numbers to test set, see how to deal with "contextual tokenization"
 - ...
-- beat unsupervized tokenizer (UT) SOTA with semi-supervised tokenizer (SST) 
+- Beat unsupervized tokenizer (UT) SOTA with semi-supervised tokenizer (SST) 
   - implement semi-supervised tokenizer, trained on word/character corpus (SST))
   - pre-train freq model for Tokenization on corpus, including A) words B) individual delimiters, C) generated numbers, D) 
     - tokenize based on true lexicon.txt ("curriculum learning" concept), count frequencies of non-present words, see what to do next
-- when counting smaller ngrams based on p+/p-, denominate them for being part of larger ngrams?  
+- When counting smaller ngrams based on p+/p-, denominate them for being part of larger ngrams?  
   - "inhibit frequencies" (or rather ""boost) from higher-order to lower-order?
   - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenMining.ipynb
 - Explore "surprizeness" measure to split as extension to "freedom"/"uncertainty"!?
-- further token/ngram graph analysis and scenario mining for tokenization and morphology extending to sentence segmentation  
+- Further token/ngram graph analysis and scenario mining for tokenization and morphology extending to sentence segmentation  
     - tokenize by clustering words in the sentence 
       - by gram counts - using MUTUAL INFORMATION!!! (does not work? double-check)
       - merge tokens in a way minimizing "freedom"/"uncertainty" (maximaly certain tree or MCT)
-- model graph analysis with relationships
+- Model graph analysis with relationships
     - prev/next (sequential)
     - part/whole (morphology)
     - intention/extension (class hierarchy - vowels and consonants, suffixes and prefixe)
