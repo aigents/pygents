@@ -34,10 +34,10 @@ def plot_hbars(df,labels,values,title=None):
     if title is not None:
         plt.title(title)
 
-def plot_bars(df,labels,values,title=None):
+def plot_bars(df,labels,values,title=None,fontsize=None):
     plt.rcParams["figure.figsize"] = (20,3)
     p = df[[labels]+values].plot.bar(x=labels);
-    p = plt.xticks(rotation='horizontal',fontsize=1+round(60*20/len(df)))
+    p = plt.xticks(rotation='horizontal',fontsize = 1+round(60*20/len(df)) if fontsize is None else fontsize)
     if title is not None:
         fontsize = 32 if len(title) < 50 else round(32 * 50 / len(title))
         plt.title(title,fontsize = fontsize)
