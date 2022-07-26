@@ -86,8 +86,15 @@ def plot_profile_avg_freedom(model,text,n_min,n_max,col):
 
     sdf[col] = sdf[col] / sdf[col].max()
     plot_profile(sdf[['char',col]],text,title='1-7 '+col)
-    
-    
+
+
+def subplots_hist(df,labels,bins=100,fontsize=20):
+    fig, axs = plt.subplots(1, len(labels), figsize=(20, 4), sharey=True)
+    for ax, label in zip(axs,labels):
+        #p = ax.hist(df[[label]],bins=bins); p = ax.set_xlabel(label)
+        p = ax.hist(df[label],bins=bins); p = ax.set_xlabel(label,fontsize=fontsize)
+
+
 # graph plots
 
 # https://plotly.com/python/tree-plots/
