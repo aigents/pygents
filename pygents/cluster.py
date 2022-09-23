@@ -100,6 +100,28 @@ assert str(cosine_dic2(x1,x7,{},{})) == "0.0"
 assert str(cosine_dic2(x0,x1,x0,x1)) == "1.0"
 assert str(cosine_dic2(x1,x7,x1,x7)) == "0.0"
 
+
+def compute_condensed_distance_matrix(model,arity=1,simfunc2=cosine_dic2,debug=False):
+    all = [a for a in model[0] if len(a) == arity]
+    all.sort()
+    dic = {}
+    cdm = []
+    Nf = len(all)
+    for i in range(Nf):
+        a = all[i]
+        a1 = model[1][a] if a in model[1] else {} #TODO how can it happen? 
+        a2 = model[2][a] if a in model[2] else {}
+        for j in range(i+1,Nf):
+            b = all[j]
+            b1 = model[1][b] if b in model[1] else {}
+            b2 = model[2][b] if b in model[2] else {}
+            similarity = simfunc2(a1,b1,a2,b2)
+            distance = 1 - similarity; 
+            cdm.append(distance)
+            dic[(a,b)] = distance
+    return cdm, all, dic
+
+
 def compute_similiarities(model,arity=1,simfunc2=cosine_dic2,debug=False):
     lst = []
     done = set()
