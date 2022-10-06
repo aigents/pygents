@@ -57,29 +57,57 @@ Vanya drank juice.
 Vanya ate soup.
 Vanya had a dream.
 
-The wound hurts.
-Granny grumbles.
-Roar thunders.
-God is given.
-Grandfather is coming.
-Near the tree.
-Even so.
-The hedgehog is angry.
-Convoy is going.
-Making yoga.
-Milk cows.
-Lemon juice.
-The floor is washed.
-Our house.
-Given a vow.
-Lack of beer.
-Soup enjoys.
-Rhe wind is strong.
-Rice is hard.
-Cake was a success.
-He got lucky.
-Thin scarf.
-Smell of cement.
-End of an era.
-These games.
-I sleep here.
+# Adding the following to maximize transition freedom for spaces (not matching Russian corpus)  
+Sea bottom.
+Absorb crash.
+Cook dinner.
+Dead end.
+The fix.
+Deaf guy.
+Leg hurts.
+High iceberg.
+Hi John.
+The key.
+Cook lamb.
+Cool music.
+Alarm noticed.
+Noun object.
+No password.
+Camp quest.
+The root.
+Roar sound.
+His talk.
+Boot up.
+You vote.
+Leitmotiv works.
+How xenophobic.
+Fix yield.
+Any zoo.
+
+#Adding the following to maximize backward transition freedom for periods (not matching Russian corpus)  
+Spa.
+Hub.
+Arc.
+Hood.
+Nice.
+Belief.
+Fog.
+Accomplish.
+Agouti.
+Hadj.
+Sick.
+Ball.
+Mom.
+Noun.
+Do.
+Up.
+Roar.
+Kiss.
+Root.
+Bayou.
+v
+Wow.
+Fox.
+Why.
+Buzz.
+
