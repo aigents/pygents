@@ -1,0 +1,151 @@
+\begin{thebibliography}{20}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan,
+  Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess,
+  Clark, Berner, McCandlish, Radford, Sutskever, and Amodei}]{2}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon
+  Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris
+  Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+  Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,
+  and Dario Amodei. 2020.
+\newblock \href
+  {https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf}
+  {Language models are few-shot learners}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33, pages 1877--1901. Curran Associates, Inc.
+
+\bibitem[{Castillo-Domenech and Suarez-Madrigal(2018)}]{20}
+Claudia Castillo-Domenech and Andres Suarez-Madrigal. 2018.
+\newblock \href {https://hdl.handle.net/20.500.12380/256408} {Statistical
+  parsing and unambiguous word representation in {OpenCog}’s unsupervised
+  language learning project}.
+
+\bibitem[{Dodge et~al.(2019)Dodge, Gururangan, Card, Schwartz, and Smith}]{19}
+Jesse Dodge, Suchin Gururangan, Dallas Card, Roy Schwartz, and Noah~A. Smith.
+  2019.
+\newblock \href {http://arxiv.org/abs/1909.03004} {Show your work: Improved
+  reporting of experimental results}.
+\newblock \emph{Computing Research Repository}, arXiv:1909.03004.
+
+\bibitem[{Friston(2010)}]{13}
+Karl Friston. 2010.
+\newblock \href {https://doi.org/10.1038/nrn2787} {The free-energy principle: a
+  unified brain theory?}
+\newblock \emph{Nature Reviews Neuroscience}, 11(2):127--138.
+
+\bibitem[{Glushchenko et~al.(2019)Glushchenko, Suarez, Kolonin, Goertzel, and
+  Baskov}]{6}
+Alex Glushchenko, Andres Suarez, Anton Kolonin, Ben Goertzel, and Oleg Baskov.
+  2019.
+\newblock Programmatic {Link} {Grammar} induction for unsupervised language
+  learning.
+\newblock In \emph{Artificial General Intelligence}, pages 111--120, Cham.
+  Springer International Publishing.
+
+\bibitem[{Glushchenko et~al.(2018)Glushchenko, Suarez, Kolonin, Goertzel,
+  Castillo, Leung, and Baskov}]{5}
+Alex Glushchenko, Andres Suarez, Anton Kolonin, Ben Goertzel, Claudia Castillo,
+  Man~Hin Leung, and Oleg Baskov. 2018.
+\newblock Unsupervised language learning in {OpenCog}.
+\newblock In \emph{Artificial General Intelligence}, pages 109--118, Cham.
+  Springer International Publishing.
+
+\bibitem[{Gopalakrishnan et~al.(2022)Gopalakrishnan, Irie, Schmidhuber, and van
+  Steenkiste}]{15}
+Anand Gopalakrishnan, Kazuki Irie, Jürgen Schmidhuber, and Sjoerd van
+  Steenkiste. 2022.
+\newblock \href {https://doi.org/10.48550/ARXIV.2203.13573} {Unsupervised
+  learning of temporal abstractions with slot-based transformers}.
+\newblock \emph{Computing Research Repository}, arXiv:2203.13573.
+
+\bibitem[{Jiang and Li(2018)}]{18}
+Junfeng Jiang and Jiahao Li. 2018.
+\newblock \href {https://doi.org/10.48550/ARXIV.1809.08390} {Constructing
+  financial sentimental factors in {Chinese} market using natural language
+  processing}.
+\newblock \emph{Computing Research Repository}, arXiv:1809.08390.
+
+\bibitem[{Kearsley(2016)}]{11}
+Logan Kearsley. 2016.
+\newblock A hybrid approach to cross-linguistic tokenization: Morphology with
+  statistics.
+
+\bibitem[{Kolonin(2015)}]{4}
+Anton Kolonin. 2015.
+\newblock \href {https://doi.org/10.1109/SIBIRCON.2015.7361868} {Automatic text
+  classification and property extraction applications in medicine}.
+\newblock In \emph{2015 International Conference on Biomedical Engineering and
+  Computational Technologies (SIBIRCON)}, pages 133--137.
+
+\bibitem[{Kolonin(2022)}]{14}
+Anton Kolonin. 2022.
+\newblock Neuro-symbolic architecture for experiential learning in discrete and
+  functional environments.
+\newblock In \emph{Artificial General Intelligence}, pages 106--115, Cham.
+  Springer International Publishing.
+
+\bibitem[{Ramesh and Kolonin(2020)}]{8}
+Vignav Ramesh and Anton Kolonin. 2020.
+\newblock \href {https://doi.org/10.1109/S.A.I.ence50533.2020.9303220}
+  {Interpretable natural language segmentation based on {Link} {Grammar}}.
+\newblock In \emph{2020 Science and Artificial Intelligence conference
+  (S.A.I.ence)}, pages 25--32.
+
+\bibitem[{Ramesh and Kolonin(2021)}]{9}
+Vignav Ramesh and Anton Kolonin. 2021.
+\newblock \href {http://arxiv.org/abs/2105.00830} {Natural language generation
+  using {Link} {Grammar} for general conversational intelligence}.
+\newblock \emph{Computing Research Repository}, arXiv:2105.00830.
+
+\bibitem[{Ramesh and Kolonin(2022)}]{10}
+Vignav Ramesh and Anton Kolonin. 2022.
+\newblock Unsupervised context-driven question answering based on {Link}
+  {Grammar}.
+\newblock In \emph{Artificial General Intelligence}, pages 210--220, Cham.
+  Springer International Publishing.
+
+\bibitem[{Sun et~al.(2018)Sun, Hendrix, Ma, and Baayen}]{16}
+Ching~Chu Sun, Peter Hendrix, Jianqiang Ma, and Rolf~Harald Baayen. 2018.
+\newblock \href {https://doi.org/10.3758/s13428-018-1038-3} {Chinese {Lexical}
+  {Database} ({CLD})}.
+\newblock \emph{Behavior Research Methods}, 50(6):2606--2629.
+
+\bibitem[{Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones,
+  Gomez, Kaiser, and Polosukhin}]{1}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, \L{ukasz} Kaiser, and Illia Polosukhin. 2017.
+\newblock \href
+  {https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf}
+  {Attention is all you need}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30. Curran Associates, Inc.
+
+\bibitem[{Vepstas and Goertzel(2014)}]{3}
+Linas Vepstas and Ben Goertzel. 2014.
+\newblock \href {http://arxiv.org/abs/1401.3372} {Learning language from a
+  large (unannotated) corpus}.
+\newblock \emph{Computing Research Repository}, arXiv:1401.3372.
+
+\bibitem[{Vityaev et~al.(2022)Vityaev, Kolonin, Kurpatov, and Molchanov}]{17}
+Evgenii Vityaev, Anton Kolonin, Andrey Kurpatov, and Artem Molchanov. 2022.
+\newblock \href {https://doi.org/10.48550/ARXIV.2202.12710} {Brain principles
+  programming}.
+\newblock \emph{Computing Research Repository}, arXiv:2202.12710.
+
+\bibitem[{Wrenn et~al.(2007)Wrenn, Stetson, and Johnson}]{12}
+Jesse~O. Wrenn, Peter~D. Stetson, and Stephen~B. Johnson. 2007.
+\newblock An unsupervised machine learning approach to segmentation of
+  clinician-entered free text.
+\newblock In \emph{Proceedings of the AMIA Annual Symposium}, pages 811--5.
+
+\bibitem[{Yuret(1998)}]{7}
+Deniz Yuret. 1998.
+\newblock \href {http://arxiv.org/abs/cmp-lg/9805009} {Discovery of linguistic
+  relations using lexical attraction}.
+\newblock \emph{Computing Research Repository}, arXiv:cmp-lg/9805009.
+
+\end{thebibliography}
