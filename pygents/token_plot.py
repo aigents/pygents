@@ -18,7 +18,7 @@ def evaluate_freedom_tokenizer_options(test_texts,ref_tokenizer,tokenizer,ngram_
     return rlist
 
 
-def evaluate_freedom_tokenizer_multimetrics(test_texts,ref_tokenizer,tokenizer,ngram_params,thresholds,plot=True,title=None,nospaces=False,debug=False):
+def evaluate_freedom_tokenizer_multimetrics(test_texts,ref_tokenizer,tokenizer,ngram_params,thresholds,plot=True,title=None,nospaces=False,crossmetrics=False,debug=False):
     rlist = []
     for nlist in ngram_params:
         for threshold in thresholds: 
@@ -35,4 +35,10 @@ def evaluate_freedom_tokenizer_multimetrics(test_texts,ref_tokenizer,tokenizer,n
         matrix_plot(r,c,m,1.0,'C%:'+title,vmin=0.0,vmax=0.25)
         r,c,m = list2matrix([(i[0],i[1],i[4]) for i in rlist]) # ~S - Normalized anti-entropy
         matrix_plot(r,c,m,1.0,'~S:'+title,vmin=0.0,vmax=0.5)
+        if crossmetrics:
+            r,c,m = list2matrix([(i[0],i[1],(i[3]+i[4])/2) for i in rlist]) # C% - Compression percentage
+            matrix_plot(r,c,m,1.0,'C%+~S:'+title,vmin=0.0,vmax=0.25)
+        if crossmetrics:
+            r,c,m = list2matrix([(i[0],i[1],(i[3]*i[4])) for i in rlist]) # C% - Compression percentage
+            matrix_plot(r,c,m,1.0,'C%*~S:'+title,vmin=0.0,vmax=0.25)
     return rlist
