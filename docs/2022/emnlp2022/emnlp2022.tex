@@ -5,7 +5,7 @@
 \documentclass[11pt]{article}
 
 % Remove the "review" option to generate the final version.
-\usepackage{EMNLP2022}
+\usepackage{emnlp2022}
 
 % Standard package includes
 \usepackage{times}
@@ -85,7 +85,7 @@ For Chinese training corpora we have used the CLUE Benchmark News 2016 dataset (
 
 For the test corpus across all three languages above, we have used a parallel Chinese/English/Russian corpus of $100$ multi-sentence statements within the financial domain, as derived from the dataset released by Magic Data (\url{https://magichub.com/datasets/chinese-english-parallel-corpus-finance}). The original corpus is parallel Chinese/English, but the Russian version of all $100$ statements have been added with the help of Google Translate, with Chinese proper names manually replaced with Russian or English proper names used in the appropriate subject domain context.
 
-English and Russian reference lexicons have been obtained from Aigents/Pygents open source project on: English obtained from (\url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_english.txt}), Russian (\url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_russian.txt}).
+English and Russian reference lexicons have been obtained from the Aigents/Pygents open source project: English (\url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_english.txt}), Russian (\url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_russian.txt}).
 
 A few different Chinese lexicons were obtained for reference: Chinese Lexical Database, or CLD (\url{http://www.chineselexicaldatabase.com/download.php}) \citep[see][]{16};  BLCU Chinese Corpus, or BLC (\url{https://www.plecoforums.com/threads/word-frequency-list-based-on-a-15-billion-character-corpus-bcc-blcu-chinese-corpus.5859}); and SUBTLEX-CH (\url{http://crr.ugent.be/programs-data/subtitle-frequencies/subtlex-ch}).
 
@@ -139,29 +139,29 @@ The following tokenization methods and respective metrics were used:
 \end{itemize}
 
 \begin{figure}
-  \includegraphics[width=0.49\textwidth]{imgs/figure1.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure1.png}
   \caption{Using probabilities (p) and derived metrics such as variance (dvp) and derivatives in forward (dp+) and backward (dp-) traversals. It is clearly seen that punctuation marks cannot be isolated from words.}
 \end{figure}
 
 \begin{figure}[!ht]
-  \includegraphics[width=0.49\textwidth]{imgs/figure2.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure2.png}
   \caption{Using conditional probabilities (p) and derived metrics such as derivative in forward (dp+) and backward (dp-) transitions and variance (dvp+ and dvp-, respectively) computed on bigrams. It is clearly seen that punctuation marks cannot be isolated from words, and some of the words are disassembled into pieces.}
 \end{figure}
 
 \begin{figure}[!ht]
-  \includegraphics[width=0.49\textwidth]{imgs/figure3.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure3.png}
   \caption{Using transition freedoms in forward (f+) and backward (f-) directions and their variances (dvf+ and dvf-) computed on unigrams. All words as well as punctuation marks are identified clearly, with threshold values of $0.25$ and $0.35$.}
 \end{figure}
 
 For all methods relying on CP and TF metrics above, two alternative ways of identifying token boundaries are possible. First, as suggested by \citet{12}, the “mean” metric is computed on forward and backward traversals over the sequence of N-grams referring to corresponding subgraphs in the model. Second, the token break is identified as a metric derived from either P, CP, or TF exceeding the threshold on either forward or backward transitions along the text (i.e.,  the “max” was used instead of the “mean”). Cursory checks across corpora have shown that the “mean” method is not quite reliable compared to the “max” alternative, so the latter method was used in the studies presented below.
 
 \begin{figure}[!ht]
-  \includegraphics[width=0.49\textwidth]{imgs/figure4.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure4.png}
   \caption{Using TF derivatives in forward (df+) and backward (df-) directions and their “peak values” (peak+ and peak-) computed on unigrams. Some words are not identified clearly and punctuation marks are not separated. Threshold values are $0.25$ and $0.35$.}
 \end{figure}
 
 \begin{figure}[!ht]
-  \includegraphics[width=0.49\textwidth]{imgs/figure5.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure5.png}
   \caption{Variances of transition freedoms in forward (dvf+) and backward (dvf-) directions with N-grams of varying $N$-values. It is clearly apparent that $N=1$ allows for the most accurate identification of whitespaces as well as punctuation marks.}
 \end{figure}
 
@@ -194,7 +194,7 @@ The “winning” configuration of the hyperparameters obtained for the full tes
 We obtained a maximum tokenization $F_1$ score of $0.99$ using the TF variance metric after training on the smallest Brown corpus; $N=1$ (unigrams); model compression thresholds of $0.0001$ and $0.001$; and tokenization thresholds of $0.4$ and $0.5$.  Using larger or blended corpora allowed for $F_1$ scores above $0.93$ but below $0.99$ with similar hyperparameter configurations.
 
 \begin{figure}
-  \includegraphics[width=0.49\textwidth]{imgs/figure6.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure6.png}
   \caption{Heat-maps rendering $F_1$ scores obtained for unsupervised tokenization after training on the Brown corpus with no model compression (top) and model compression with a threshold of $0.0001$ (bottom) with different combinations of $N$ (vertical axes) and different tokenization thresholds (horizontal axes). It is seen that the highest $F_1$ scores above $0.96$ correspond to models compressed with threshold $0.0001$, $N=1$ (unigrams), and tokenization thresholds from $0.3$ to $0.4$. Model parameters are indicated in the plot titles, where each parameter corresponds to the weight or frequency count for either N-grams or transitions between N-grams.}
 \end{figure}
 
@@ -217,12 +217,12 @@ We obtained a maximum tokenization $F_1$ score of $0.71$ using the TF “peak”
 Lexicon-based tokenization in “greedy” mode provided a higher level of performance ($F_1=0.83$).
 
 \begin{figure}
-  \includegraphics[width=0.49\textwidth]{imgs/figure7.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure7.png}
   \caption{Heat-maps rendering $F_1$ scores obtained for unsupervised tokenization after training on the Chinese CLUE Benchmark News 2016 corpus with no model compression (top) and model compression thresholds from $0.0001$ to $0.1$ (top down) with different combinations of $N$ (vertical axes) and different tokenization thresholds (horizontal axes).}
 \end{figure}
 
 \begin{figure}[!ht]
-  \includegraphics[width=0.49\textwidth]{imgs/figure8.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure8.png}
   \caption{Using transition freedoms in forward (f+) and backward (f-) directions computed on bigrams for Chinese. All proper words and punctuation marks are identified clearly with a threshold value of $0.15$ (top chart). When probabilities (p+ and p- on the bottom chart) computed on bigrams are used, the Chinese period “\begin{CJK*}{UTF8}{gbsn}。\end{CJK*}” is not correctly identified as a separate token (rightmost bounding box at the bottom); however, the “token” containing these two symbols still appears semantically valid in the broader context of the sentence (“is true” makes sense as used above). As with question marks in English, this problem might be solved using richer training corpora with a greater diversity of contexts in which the given punctuation is used.}
 \end{figure}
 
@@ -316,7 +316,7 @@ We have tried to explore the extent to which our TF-based model can be used to i
 Symbol category clustering experiments have shown a general ability to identify proper groups of English and Russian symbols and letters as well as universal language-agnostic punctuation marks. It is interesting that, even using the Russian corpus, the model was able to properly categorize English letters. It is even more interesting that the symbol category trees for English, when obtained while relying on the Russian corpus, had a cleaner separation of vowels and consonants into individual tree branches, as well as cleaner categorization of punctuation marks (like opening/closing brackets and quotation marks), digits, etc. This can be probably explained by the increased “cleanness” of the English texts embedded in the Russian texts (recall that the best unsupervised tokenization results for English reported above were obtained on the smallest Brown corpus). Both the Cosine and Jaccard similarity measures delivered  similar results, while the categorical trees based on the Jaccard measure appeared more well-balanced and reliable.
 
 \begin{figure}
-  \includegraphics[width=0.49\textwidth]{imgs/figure9.png}
+  \includegraphics[width=0.49\textwidth]{emnlp2022/imgs/figure9.png}
   \caption{Symbol category agglomerative clustering trees using Jaccard similarity based on the RusAge corpus identifying vowels, consonants, digits, and punctuation mark groups.}
 \end{figure}
 
@@ -348,7 +348,7 @@ The following summary addresses the items from \citet{19} and Joelle Pineau’s 
 
 \textbf{A clear description of the mathematical setting, algorithm, and/or model:} the models described by \citet{11} and \citet{12} were extended and used as described in \autoref{sec:s1} of the paper.
 
-\textbf{Source code, with specification of all dependencies, including external libraries:} All source code is contained in the Aigents/Pygents open source project (\url{https://github.com/aigents/pygents}), with usage instructions contained in the following sections of Appendix A. 
+\textbf{Source code, with specification of all dependencies, including external libraries:} All source code is contained in the Aigents/Pygents open source project (\url{https://github.com/aigents/pygents}), with usage instructions contained in the following sections of Appendix B. 
 
 \textbf{Description of computing infrastructure used:} MacBook Pro 2018, $2.9$ GHz Intel Core i9 Processor, $32$ GB $2400$ MHz DDR4, Macintosh HD $2$TB.
 
@@ -376,9 +376,9 @@ The following summary addresses the items from \citet{19} and Joelle Pineau’s 
 
 \textbf{Details of train/validation/test splits:} Reported in \autoref{35} of the paper.
 
-\textbf{Explanation of any data that were excluded, and all preprocessing steps:} No data were excluded. Preprocessing steps are briefly covered in \autoref{data} of the paper and explained with more detail in the following section of Appendix A. 
+\textbf{Explanation of any data that were excluded, and all preprocessing steps:} No data were excluded. Preprocessing steps are briefly covered in \autoref{data} of the paper and explained with more detail in the following section of Appendix B. 
 
-\textbf{Data or link to a downloadable version of the data:} All data and links to data are contained in the accompanying \texttt{data} .zip archive, with usage instructions contained in the following section of Appendix A.
+\textbf{Data or link to a downloadable version of the data:} All data and links to data are contained in \url{https://github.com/aigents/pygents}, with usage instructions contained in the following section of Appendix B.
 
 \subsection{Obtaining the Corpora}
 
@@ -400,11 +400,11 @@ The CLUE Benchmark News 2016 dataset was downloaded from \url{https://github.com
 
 \subsubsection{Test Data}
 
-The parallel Chinese/English corpus of $100$ multi-sentence statements related to personal finance can be downloaded from Magic Data (\url{https://magichub.com/datasets/chinese-english-parallel-corpus-finance}). It is a tab-delimited text file with individual columns for Chinese and English versions, entitled \texttt{zh} and \texttt{en}, respectively. The Russian extension to it, with only one column entitled \texttt{ru} containing the Russian translations, is contained in the file (\url{https://github.com/aigents/pygents/blob/main/data/corpora/Russian/magicdata/zh_en_ru_100/CORPUS_ZH_EN_RU.txt}) or Aigents/Pygents open source project project.
+The parallel Chinese/English corpus of $100$ multi-sentence statements related to personal finance can be downloaded from Magic Data (\url{https://magichub.com/datasets/chinese-english-parallel-corpus-finance}). It is a tab-delimited text file with individual columns for Chinese and English versions, entitled \texttt{zh} and \texttt{en}, respectively. The Russian extension to it, with only one column entitled \texttt{ru} containing the Russian translations, is contained in the file (\url{https://github.com/aigents/pygents/blob/main/data/corpora/Russian/magicdata/zh_en_ru_100/CORPUS_ZH_EN_RU.txt}) in the Aigents/Pygents open source project project.
 
 \subsubsection{Reference Lexicons}
 
-Reference lexicon dictionaries for English and Russian are available as text files from Aigents/Pygents open source project - English: \url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_english.txt}, Russian \url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_russian.txt}.
+Reference lexicon dictionaries for English and Russian are available as text files from the Aigents/Pygents open source project. English: \url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_english.txt}, Russian: \url{https://raw.githubusercontent.com/aigents/aigents-java/master/lexicon_russian.txt}.
 
 Reference lexicon dictionaries for Chinese can been downloaded from the following sources: Chinese Lexical Database, or CLD (\url{http://www.chineselexicaldatabase.com/download.php}) \citep[see][]{16};  BLCU Chinese Corpus, or BLC (\url{https://www.plecoforums.com/threads/word-frequency-list-based-on-a-15-billion-character-corpus-bcc-blcu-chinese-corpus.5859}); and SUBTLEX-CH (\url{http://crr.ugent.be/programs-data/subtitle-frequencies/subtlex-ch}). Each of these links contains comma-separated or tab-separated files with lists of words representing Chinese lexicons with different attributions. Individual columns corresponding to words were extracted (along with frequencies of those words, if present), and then a unified Chinese lexicon was created.
 
