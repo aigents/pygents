@@ -32,12 +32,12 @@ def evaluate_freedom_tokenizer_multimetrics(test_texts,ref_tokenizer,tokenizer,n
         r,c,m = list2matrix([(i[0],i[1],i[2]) for i in rlist]) # F1 - F-score
         matrix_plot(r,c,m,1.0,'F1:'+title,vmin=0.0)
         r,c,m = list2matrix([(i[0],i[1],i[3]) for i in rlist]) # C% - Compression percentage
-        matrix_plot(r,c,m,1.0,'C%:'+title,vmin=0.0,vmax=0.25)
+        matrix_plot(r,c,m,1.0,'C%:'+title,vmin=0.0,vmax=0.5)
         r,c,m = list2matrix([(i[0],i[1],i[4]) for i in rlist]) # ~S - Normalized anti-entropy
         matrix_plot(r,c,m,1.0,'~S:'+title,vmin=0.0,vmax=0.5)
         if crossmetrics:
             r,c,m = list2matrix([(i[0],i[1],(i[3]+i[4])/2) for i in rlist]) # C% - Compression percentage
-            matrix_plot(r,c,m,1.0,'C%+~S:'+title,vmin=0.0,vmax=0.25)
+            matrix_plot(r,c,m,1.0,'C%+~S:'+title,vmin=0.0,vmax=0.5)
         if crossmetrics:
             r,c,m = list2matrix([(i[0],i[1],(i[3]*i[4])) for i in rlist]) # C% - Compression percentage
             matrix_plot(r,c,m,1.0,'C%*~S:'+title,vmin=0.0,vmax=0.25)
