@@ -104,6 +104,7 @@ electr
 electro
 embry
 embryo
+en
 encephal
 encephalo
 end
@@ -135,8 +136,11 @@ flori
 fore
 gyn
 hemi
+hetero
 hex
 hexa
+homeo
+homo
 hyp
 hyper
 hypo
@@ -145,8 +149,10 @@ im
 in
 inter
 intra
+intro
 ir
 kilo
+macro
 mal
 maxi
 mega
@@ -163,6 +169,7 @@ non
 oct
 octa
 octo
+omni
 oo
 out
 over
@@ -216,6 +223,7 @@ styl
 stylo
 sub
 super
+sym
 syn
 tach
 tacho
@@ -228,5 +236,6 @@ tri
 ultra
 un
 uni
+up
 ur
 zoo
