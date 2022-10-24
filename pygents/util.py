@@ -152,6 +152,15 @@ def listofpairs2dict(lst):
         dictcount(dic,i[0],i[1])
     return dic
 
+def round_str(val,decimals=0):
+    if val == 0:
+        return '0.'+"".join('0'*decimals)  
+    s = str(round(val,decimals))
+    point = s.find(".")
+    zeros = decimals - (len(s) - point) + 1
+    #print(point,len(s),zeros)
+    return s + ('0'*zeros)
+
 def calc_f1(ground,guess):
     if isinstance(ground,list):
         ground = list2dict(ground)

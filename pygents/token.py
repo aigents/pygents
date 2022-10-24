@@ -8,7 +8,7 @@ import jieba
 from pygents.util import count_subelements, dictcount, calc_f1, counters_init, remove_all, dict_update, dict_compress_with_loss
 from pygents.util import evaluate_compression, evaluate_anti_entropy 
 from pygents.text import preprocess_text, grams_count_with_char_freedoms, grams_count_with_gram_freedoms
-from pygents.text import url_lines, tokenize_with_sorted_lexicon, profile_freedoms, profile_probabilities
+from pygents.text import url_lines, tokenize_with_sorted_lexicon, profile_freedoms, profile_probabilities, load_word_list_reverse
 
 
 # Basic Tokenizer
@@ -324,6 +324,52 @@ class FreedomBasedTokenizer(FreedomTokenizer):
 
     def tokenize(self,text):
         return tokenize_with_opposite_metrics(self.model,text,self.back,self.forw,self.nlist,self.threshold)
+
+
+class PrefixSuffixMorphoTokenizer(Tokenizer):
+    def __init__(self,prefixes,suffixes,debug=False):
+        Tokenizer.__init__(self,debug=debug)
+        self.prefixes = [load_word_list_reverse(path) for path in prefixes]
+        self.suffixes = [load_word_list_reverse(path) for path in suffixes]
+        
+    def tokenize(self,text):
+        all_prefixes = []
+        for prefixes in self.prefixes:
+            for prefix in prefixes:
+                if len(text) > len(prefix) and text.startswith(prefix):
+                    if self.debug:
+                        print(prefix)
+                    all_prefixes.append(prefix)
+                    text = text[len(prefix):]
+                    break
+        all_suffixes = []
+        for suffixes in self.suffixes:
+            for suffix in suffixes:
+                if len(text) > len(suffix) and text.endswith(suffix):
+                    if self.debug:
+                        print(suffix)
+                    all_suffixes.append(suffix)
+                    text = text[:len(text)-len(suffix)]
+                    break
+        all_suffixes.reverse()
+        return all_prefixes + [text] + all_suffixes
+
+    
+class PrefixSuffixMorphoTokenizerCached(PrefixSuffixMorphoTokenizer):
+    def __init__(self,prefixes,suffixes,debug=False):
+        PrefixSuffixMorphoTokenizer.__init__(self,prefixes,suffixes,debug=debug)
+        self.cache = {}
+
+    def tokenize(self,text):
+        if text in self.cache:
+            if self.debug:
+                print(text, '-cache->', self.cache[text])
+            return self.cache[text]
+        pieces = PrefixSuffixMorphoTokenizer.tokenize(self,text)
+        self.cache[text] = pieces
+        if self.debug:
+            print(text, '-tokenize->', pieces)
+        return pieces
 
 
 def model_compress_with_loss(model,threshold=0.01):

@@ -32,6 +32,26 @@ def url_text_lines(url,debug = False):
         lines.append( utf8.replace('\r',' ').replace('\n','') )
     return lines
 
+def load_word_set(path,words=None):
+    print(path)
+    if path.lower().startswith('http'):
+        lines = url_text_lines(path)
+    else:
+        with open(path,errors='ignore') as f:
+            lines = f.readlines()
+    if words is None:
+        words = set()
+    for l in lines:
+        s = l.strip()
+        if len(s) > 0:
+            words.add(s)
+    return words
+
+def load_word_list_reverse(path,words=None):
+    words = sorted(load_word_set(path), key=len)
+    words.reverse()
+    return words
+
 def text_lines_sample(text_lines,required_count,excluded_prefixes):
     delta = round(len(text_lines)/(required_count+1)) # advance 1 to enable skips within the delta 
     sample = []

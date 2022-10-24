@@ -134,6 +134,7 @@ extra
 flor
 flori
 fore
+gastro
 gyn
 hemi
 hetero
@@ -146,6 +147,7 @@ hyper
 hypo
 il
 im
+immuno
 in
 inter
 intra

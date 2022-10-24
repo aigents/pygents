@@ -9,6 +9,8 @@ agogy
 aholic
 al
 algia
+ality
+ally
 an
 ance
 ant
@@ -19,7 +21,11 @@ arian
 arium
 ary
 ate
+ated
+ately
 ation
+ational
+ations
 ative
 cele
 centesis
@@ -83,6 +89,7 @@ ile
 ily
 ine
 ing
+ings
 ion
 ious
 ise
@@ -93,6 +100,7 @@ ite
 itis
 itude
 ity
+ities
 ium
 ive
 ization
