@@ -6,13 +6,13 @@ Machine Learning experiments in Python for Aigents project - at the moment, prim
 
 ### Do this on remote server in the cloud:
 
-1. Make sure you have Python3 pip and vitualenv installed, see https://1cloud.ru/help/linux/ustanovka-jupyter-notebook-na-ubuntu-18-04 (do this only once)
-1. git clone https://gitlab.com/aigents/pygents.git (do this only once)
+1. Make sure you have Python3 pip and vitualenv installed, see https://1cloud.ru/help/linux/ustanovka-jupyter-notebook-na-ubuntu-18-04 *(do this only once)*
+1. git clone https://gitlab.com/aigents/pygents.git *(do this only once)*
 1. cd pygents
-1. virtualenv env (do this only once)
+1. virtualenv env *(do this only once)*
 1. . env/bin/activate
-1. pip install jupyter (do this only once)
-1. sudo iptables -A INPUT -p tcp --dport 8887 -j ACCEPT
+1. pip install -r pygents/requirements.txt *(do this only once)*
+1. sudo iptables -A INPUT -p tcp --dport 8887 -j ACCEPT *(do this only once)*
 1. jupyter notebook --no-browser --port=8887
 
 ### Do this on your local machine:
