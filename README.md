@@ -25,7 +25,7 @@ Machine Learning experiments in Python for Aigents project - at the moment, prim
 ### Unsupervised Text Segmentaion and Tokenization 
 
 1. Original task https://github.com/singnet/language-learning/issues/255
-1. Current progress [tokenization.md](./notebooks/nlp/tokenization/README.md)
+1. Current progress [notebooks/nlp/tokenization/README.md](./notebooks/nlp/tokenization/README.md)
 
 ### Unsupervised Language Grammar and Ontology Learning 
 
