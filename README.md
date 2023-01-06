@@ -10,7 +10,7 @@ Machine Learning experiments in Python for Aigents project - at the moment, prim
 1. git clone https://gitlab.com/aigents/pygents.git *(do this only once)*
 1. cd pygents
 1. virtualenv env *(do this only once)*
-1. . env/bin/activate
+1. . env/bin/activate *(. ./env/Scripts/activate [- if under Windows](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html))*
 1. pip install -r pygents/requirements.txt *(do this only once)*
 1. sudo iptables -A INPUT -p tcp --dport 8887 -j ACCEPT *(do this only once)*
 1. jupyter notebook --no-browser --port=8887
