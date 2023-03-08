@@ -14,6 +14,9 @@ http://www.hit.uib.no/icame/brown/bcm.html
 Distributed with the permission of the copyright holder,
 redistribution permitted.
 
+The text above is downloaded from https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/brown.zip
+The link above is obtained from http://www.nltk.org/nltk_data/
+
 # FILES:
 
 - brown_nolines.txt - downloaded from: http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
