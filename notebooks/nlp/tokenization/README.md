@@ -105,6 +105,12 @@
 
 ## References
 
+### Papers
+- https://aclanthology.org/2021.findings-emnlp.205/
+- https://arxiv.org/abs/2205.11443
+- https://aclanthology.org/2022.emnlp-main.239/
+- https://arxiv.org/abs/2303.02427
+
 ### Corpora
 
 - Multi-Lingual News from Common Crawl
