@@ -1,6 +1,64 @@
 # Unsupervised Text Segmentation and Tokenization
 
+## Origin
+
 - Original task https://github.com/singnet/language-learning/issues/255
+
+## References
+
+### Papers
+
+- [An unsupervised machine learning approach to segmentation of clinician-entered free text, 2007](https://pubmed.ncbi.nlm.nih.gov/18693949/)
+- [A Hybrid Approach to Cross-Linguistic Tokenization: Morphology with Statistics, 2016](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=6983&context=etd)
+- [Dynamic Programming Encoding for Subword Segmentation in Neural Machine Translation, 2020](https://arxiv.org/pdf/2005.06606.pdf)
+- [Wine is not v i n. On the Compatibility of Tokenizations across Languages, 2021](https://aclanthology.org/2021.findings-emnlp.205/)
+- [Unsupervised Tokenization Learning, 2022](https://aclanthology.org/2022.emnlp-main.239/), also https://arxiv.org/abs/2205.11443
+- [Self-tuning hyper-parameters for unsupervised cross-lingual tokenization, 2023](https://arxiv.org/pdf/2303.02427.pdf)
+
+
+### Corpora
+
+- Multi-Lingual News from Common Crawl
+    - https://data.statmt.org/
+        - https://data.statmt.org/news-crawl/README
+    - https://magichub.com/
+        - https://magichub.com/datasets/chinese-english-parallel-corpus-finance/
+    - https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding
+- English 
+    - Brown Corpus
+        - http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
+    - Gutenberg Corpus
+        - https://www.gutenberg.org/
+- Russian
+    - Inventory
+        - https://nlpub.ru/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B
+        - https://github.com/natasha/corus#usage
+    - RusAge - text books
+        - https://www.kaggle.com/datasets/oldaandozerskaya/fiction-corpus-for-agebased-text-classification
+    - Twitter, need to extract froom SQL
+        - http://study.mokoron.com/
+    - Wiki, need to extract from XML
+        - https://linguatools.org/tools/corpora/wikipedia-monolingual-corpora/
+- Chinese (Simplified/Mandarin)
+    - Lexicon
+        - http://www.chineselexicaldatabase.com/download.php
+    - CLUE
+        - https://github.com/brightmart/nlp_chinese_corpus
+
+### Links
+
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
+- https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=6983&context=etd
+- https://lena-voita.github.io/nlp_course/language_modeling.html
+- https://en.wikipedia.org/wiki/Perplexity
+- https://github.com/singnet/language-learning/issues/255
+- https://medium.com/mlearning-ai/word-embeddings-wordpiece-and-language-agnostic-bert-labse-98c7626878c7
+
+- https://github.com/natasha/razdel - razdel tries to mimic segmentation of these 4 datasets: SynTagRus, OpenCorpora, GICRYA and RNC.
+- https://www.kaggle.com/c/text-normalization-challenge-english-language
+- https://www.kaggle.com/c/text-normalization-challenge-russian-language
+
+
 
 ## Tasks
 
@@ -46,6 +104,10 @@
 - how to decode special chars like '\u200b' from input corpus data (other than just ignoring like we do now)
 
 ## Results
+
+### 2023 April
+
+- TODO
 
 ### 2022 May
 
@@ -102,59 +164,5 @@
     - https://github.com/aigents/pygents/blob/main/notebooks/nlp/tokenization/TokenizerTest-Runs-100.ipynb
     - larger corpus does not make better, the best is the smallest B, adding GC+GA to it does not improve (F1=0.96), adding SM to it makes it a bit worse (F1=0.93)
 
-
-## References
-
-### Papers
-
-- [An unsupervised machine learning approach to segmentation of clinician-entered free text, 2007](https://pubmed.ncbi.nlm.nih.gov/18693949/)
-- [A Hybrid Approach to Cross-Linguistic Tokenization: Morphology with Statistics, 2016](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=6983&context=etd)
-- [Dynamic Programming Encoding for Subword Segmentation in Neural Machine Translation, 2020](https://arxiv.org/pdf/2005.06606.pdf)
-- [Wine is not v i n. On the Compatibility of Tokenizations across Languages, 2021](https://aclanthology.org/2021.findings-emnlp.205/)
-- [Unsupervised Tokenization Learning, 2022](https://aclanthology.org/2022.emnlp-main.239/), also https://arxiv.org/abs/2205.11443
-- [Self-tuning hyper-parameters for unsupervised cross-lingual tokenization, 2023](https://arxiv.org/pdf/2303.02427.pdf)
-
-
-### Corpora
-
-- Multi-Lingual News from Common Crawl
-    - https://data.statmt.org/
-        - https://data.statmt.org/news-crawl/README
-    - https://magichub.com/
-        - https://magichub.com/datasets/chinese-english-parallel-corpus-finance/
-    - https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding
-- English 
-    - Brown Corpus
-        - http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
-    - Gutenberg Corpus
-        - https://www.gutenberg.org/
-- Russian
-    - Inventory
-        - https://nlpub.ru/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B
-        - https://github.com/natasha/corus#usage
-    - RusAge - text books
-        - https://www.kaggle.com/datasets/oldaandozerskaya/fiction-corpus-for-agebased-text-classification
-    - Twitter, need to extract froom SQL
-        - http://study.mokoron.com/
-    - Wiki, need to extract from XML
-        - https://linguatools.org/tools/corpora/wikipedia-monolingual-corpora/
-- Chinese (Simplified/Mandarin)
-    - Lexicon
-        - http://www.chineselexicaldatabase.com/download.php
-    - CLUE
-        - https://github.com/brightmart/nlp_chinese_corpus
-
-### Tokenization
-
-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2655800/
-- https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=6983&context=etd
-- https://lena-voita.github.io/nlp_course/language_modeling.html
-- https://en.wikipedia.org/wiki/Perplexity
-- https://github.com/singnet/language-learning/issues/255
-- https://medium.com/mlearning-ai/word-embeddings-wordpiece-and-language-agnostic-bert-labse-98c7626878c7
-
-- https://github.com/natasha/razdel - razdel tries to mimic segmentation of these 4 datasets: SynTagRus, OpenCorpora, GICRYA and RNC.
-- https://www.kaggle.com/c/text-normalization-challenge-english-language
-- https://www.kaggle.com/c/text-normalization-challenge-russian-language
 
 
