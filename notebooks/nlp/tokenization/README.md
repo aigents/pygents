@@ -106,10 +106,15 @@
 ## References
 
 ### Papers
-- https://aclanthology.org/2021.findings-emnlp.205/
-- https://arxiv.org/abs/2205.11443
-- https://aclanthology.org/2022.emnlp-main.239/
-- https://arxiv.org/abs/2303.02427
+
+- [An unsupervised machine learning approach to segmentation of clinician-entered free text, 2007](https://pubmed.ncbi.nlm.nih.gov/18693949/)
+- [A Hybrid Appr A Hybrid Approach to Cross-Linguistic T oss-Linguistic Tokenization: Morphology enization: Morphology
+with Statistics, 2016](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=6983&context=etd)
+- [Dynamic Programming Encoding for Subword Segmentation in Neural Machine Translation, 2020](https://arxiv.org/pdf/2005.06606.pdf)
+- [Wine is not v i n. On the Compatibility of Tokenizations across Languages, 2021](https://aclanthology.org/2021.findings-emnlp.205/)
+- [Unsupervised Tokenization Learning, 2022](https://aclanthology.org/2022.emnlp-main.239/), also https://arxiv.org/abs/2205.11443
+- [Self-tuning hyper-parameters for unsupervised cross-lingual tokenization, 2023](https://arxiv.org/pdf/2303.02427.pdf)
+
 
 ### Corpora
 
@@ -153,12 +158,4 @@
 - https://www.kaggle.com/c/text-normalization-challenge-english-language
 - https://www.kaggle.com/c/text-normalization-challenge-russian-language
 
-### References
 
-- [An unsupervised machine learning approach to segmentation of clinician-entered free text, 2007](https://pubmed.ncbi.nlm.nih.gov/18693949/)
-- [A Hybrid Appr A Hybrid Approach to Cross-Linguistic T oss-Linguistic Tokenization: Morphology enization: Morphology
-with Statistics, 2016](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=6983&context=etd)
-- [Dynamic Programming Encoding for Subword Segmentation in Neural Machine Translation, 2020](https://arxiv.org/pdf/2005.06606.pdf)
-- [Wine is not v i n. On the Compatibility of Tokenizations across Languages, 2021](https://aclanthology.org/2021.findings-emnlp.205/)
-- [Unsupervised Tokenization Learning, 2022](https://aclanthology.org/2022.emnlp-main.239/)
-- [Self-tuning hyper-parameters for unsupervised cross-lingual tokenization, 2023](https://arxiv.org/pdf/2303.02427.pdf)
