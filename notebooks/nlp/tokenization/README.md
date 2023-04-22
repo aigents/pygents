@@ -62,7 +62,32 @@
 
 ## Tasks
 
-- **Self-tuning hyperparameters unsupervisedly!**
+- **Subword segmentation aligneed with morphology** 
+  - TODO, 20230422
+      - conclude on morphology_lexicon_counted_en_ru
+      - read https://arxiv.org/pdf/2005.06606.pdf (PROGRESS)
+      - use tokenization to learn words -> wordbase
+      - use word segmentation to learn subwords 
+          - for every word, build all possible splits based on known words (wordbase) and unmatched fragments 
+          - for every split, find the most probable split and add the new parts to the counted partbase
+          - list counted parts
+          - repeat from the toop of the above, counting parts along with words, till no new parts can be found
+          - have the wordbase+partbase as subword segmentation base
+      - evaluate partbase against suffixes and prefixes
+          - languages
+              - en
+              - ru
+      - evaluate subword segmentation scheme against the reference
+          - languages
+              - en
+              - ru
+          - with different reference tokenizatiion schemes, tested on
+              - ping
+              - pings
+              - pinging
+      - conclude
+
+- **Self-tuning hyperparameters unsupervisedly! - TODO FIX STATUS**
   - metrics
     - Cross-spli F1 on models from split corpora CSF1 
     - Compression factor C%
@@ -103,15 +128,26 @@
 - unsupervised decapitalization/capitalization?
 - how to decode special chars like '\u200b' from input corpus data (other than just ignoring like we do now)
 
+
 ## Results
 
 ### 2023 April
 
-- TODO
+- TODO subword segmentation aligned with morphology
+
+### 2023 March
+
+- Found linear correllatin beetween tokenization F1 score and each of the anti-entropy, compression factor and crosssplit F1 score - for English, Russian and Chinese
+- https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022.pdf
+- https://arxiv.org/pdf/2303.02427.pdf
+
 
 ### 2022 May
 
-- [Reached 0.71-1.0 F1 scrore across English, Russian and Chinese languages](https://github.com/aigents/pygents/blob/main/docs/2022/unsupervised_tokenizarion_learning.pdf)
+- Reached 0.71-1.0 F1 scrore across English, Russian and Chinese languages 
+- https://github.com/aigents/pygents/blob/main/docs/2022/unsupervised_segmentation_learning_emnlp2022_582.pdf
+- https://aclanthology.org/2022.emnlp-main.239/
+- https://arxiv.org/abs/2205.11443
 
 ### 2022 April
 - Trained N-gram models with N=7 on different corpora
