@@ -249,15 +249,17 @@ class FreedomTokenizer(Tokenizer):
         if max_n is None:
             max_n = self.max_n
         model = counters_init(max_n) 
+        
         for text in texts:
+            cnt = texts[text] if type(texts) == dict else 1
             text = preprocess_text(text)
             if self.mode == 'grams':
                 for n in range(max_n):
-                    grams_count_with_gram_freedoms(model,text,n+1,debug=self.debug)
-            else: # 'chars' - legacy, woorks better on Brown corpus!
+                    grams_count_with_gram_freedoms(model,text,n+1,cnt=cnt,debug=self.debug)
+            else: # 'chars' - legacy, but works better on Brown corpus!
                 chars = list(text)
                 for n in range(max_n):
-                    grams_count_with_char_freedoms(model[0],model[1],model[2],chars,n+1,debug=self.debug)
+                    grams_count_with_char_freedoms(model[0],model[1],model[2],chars,n+1,cnt=cnt,debug=self.debug)
         #merge n-specific models into joint ones
         for i in range(3):
             for d in model[i]:
@@ -303,6 +305,9 @@ assert _test_tokenizer.count_params() == 28
 #print(str(_test_tokenizer.model[2]))
 #print(str(_test_tokenizer.model))
 assert str(_test_tokenizer.model) == "[{'d': 2, 'i': 1, 'n': 2, 'g': 2, 'o': 1, 'di': 1, 'in': 1, 'ng': 2, 'do': 1, 'on': 1}, {'d': {'i': 1, 'o': 1}, 'i': {'n': 1}, 'n': {'g': 2}, 'o': {'n': 1}, 'di': {'n': 1}, 'in': {'g': 1}, 'do': {'n': 1}, 'on': {'g': 1}}, {'i': {'d': 1}, 'n': {'i': 1, 'o': 1}, 'g': {'n': 2}, 'o': {'d': 1}, 'in': {'d': 1}, 'ng': {'i': 1, 'o': 1}, 'on': {'d': 1}}]"
+_test_tokenizer = FreedomTokenizer(max_n=2,mode='chars').train({"ding":3,"dong":3})
+assert _test_tokenizer.count_params() == 28
+assert str(_test_tokenizer.model) == "[{'d': 6, 'i': 3, 'n': 6, 'g': 6, 'o': 3, 'di': 3, 'in': 3, 'ng': 6, 'do': 3, 'on': 3}, {'d': {'i': 3, 'o': 3}, 'i': {'n': 3}, 'n': {'g': 6}, 'o': {'n': 3}, 'di': {'n': 3}, 'in': {'g': 3}, 'do': {'n': 3}, 'on': {'g': 3}}, {'i': {'d': 3}, 'n': {'i': 3, 'o': 3}, 'g': {'n': 6}, 'o': {'d': 3}, 'in': {'d': 3}, 'ng': {'i': 3, 'o': 3}, 'on': {'d': 3}}]"
 
 
 class FreedomBasedTokenizer(FreedomTokenizer):
@@ -332,6 +337,8 @@ class PrefixSuffixMorphoTokenizer(Tokenizer):
         self.prefixes = [load_word_list_reverse(path) for path in prefixes]
         self.suffixes = [load_word_list_reverse(path) for path in suffixes]
         
+    #TODO iteratively detach suffixes like "interesting" -> inter-est-ing-ly
+    #TODO when iterating, select the longest prefix or suffix first
     def tokenize(self,text):
         all_prefixes = []
         for prefixes in self.prefixes:
