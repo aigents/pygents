@@ -18,12 +18,12 @@ def evaluate_freedom_tokenizer_options(test_texts,ref_tokenizer,tokenizer,ngram_
     return rlist
 
 
-def evaluate_freedom_tokenizer_multimetrics(test_texts,ref_tokenizer,tokenizer,ngram_params,thresholds,plot=True,title=None,nospaces=False,crossmetrics=False,debug=False):
+def evaluate_freedom_tokenizer_multimetrics(test_texts,ref_tokenizer,tokenizer,ngram_params,thresholds,plot=True,title=None,nospaces=False,crossmetrics=False,test_counts=None,debug=False):
     rlist = []
     for nlist in ngram_params:
         for threshold in thresholds: 
             tokenizer.set_options(nlist = nlist, threshold=threshold)
-            avg_f1, compratio, entropy = evaluate_tokenizer_f1_compratio_entropy(test_texts,ref_tokenizer,tokenizer,nospaces=nospaces,debug=False)
+            avg_f1, compratio, entropy = evaluate_tokenizer_f1_compratio_entropy(test_texts,ref_tokenizer,tokenizer,nospaces=nospaces,text_counts=test_counts,debug=False)
             if debug:
                 print(nlist,threshold,avg_f1,compratio,entropy)
             rlist.append((nlist,threshold,avg_f1,compratio,entropy))

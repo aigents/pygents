@@ -268,16 +268,18 @@ def context_save_load(context,context_name,folder='data/temp/'):
     return context
 
 
-def evaluate_entropy(tokenized_texts):
+def evaluate_entropy(tokenized_texts,counts=None):
     """
     Normalized entropy 
     """
     lexicon = {}
     tokens_count = 0
-    for tokenized_text in tokenized_texts:
-        tokens_count += len(tokenized_text)
+    for i in range(len(tokenized_texts)):
+        tokenized_text = tokenized_texts[i]
+        count = 1 if counts is None else counts[i]
+        tokens_count += len(tokenized_text) * count
         for token in tokenized_text:
-            dictcount(lexicon,token)
+            dictcount(lexicon,token,count)
     distribution = [lexicon[token]/tokens_count for token in lexicon]
     e = entropy(distribution, base=2)
     k = len(lexicon)
@@ -296,14 +298,14 @@ assert str(evaluate_entropy([["aa"],["aa"],["bb"],["bb"],["aa"],["aa"],["bb"],["
 assert str(evaluate_entropy([["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"],["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"]])) == "1.0"
 
 
-def evaluate_anti_entropy(tokenized_texts):
+def evaluate_anti_entropy(tokenized_texts,counts=None):
     """
     Normalized anti-entropy 
     """
-    return 1.0 - evaluate_entropy(tokenized_texts)
+    return 1.0 - evaluate_entropy(tokenized_texts,counts=counts)
 
 
-def evaluate_compression(texts,tokenized_texts):
+def evaluate_compression(texts,tokenized_texts,counts=None):
     """
     Coefficient of compression 
     """
@@ -311,13 +313,15 @@ def evaluate_compression(texts,tokenized_texts):
     tokenized_text_len = 0
     tokens_count = 0
     lexicon = {}
-    for text in texts:
-        text_len += len(text)
-    for tokenized_text in tokenized_texts:
-        tokens_count += len(tokenized_text)
+    for i in range(len(texts)):
+        text_len += len(texts[i]) * (1 if counts is None else counts[i])
+    for i in range(len(tokenized_texts)):
+        tokenized_text = tokenized_texts[i]
+        count = (1 if counts is None else counts[i])
+        tokens_count += len(tokenized_text) * count
         for token in tokenized_text:
-            tokenized_text_len += len(token)
-            dictcount(lexicon,token)
+            tokenized_text_len += len(token) * count # just sanity checking
+            dictcount(lexicon,token,count)
     tokens_len = 0
     for token in lexicon:
         tokens_len += len(token)

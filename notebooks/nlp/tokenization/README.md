@@ -62,6 +62,11 @@
 
 ## Tasks
 
+- TODO subword segmentation aligned with morphology
+  - sum-up with **plots** - English lexicon
+    - non counted words
+    - frequency-coounted words
+
 - **Subword segmentation aligneed with morphology** 
   - TODO, 20230422
       - conclude on morphology_lexicon_counted_en_ru
@@ -130,10 +135,6 @@
 
 
 ## Results
-
-### 2023 April
-
-- TODO subword segmentation aligned with morphology
 
 ### 2023 March
 

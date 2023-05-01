@@ -32,8 +32,9 @@ def url_text_lines(url,debug = False):
         lines.append( utf8.replace('\r',' ').replace('\n','') )
     return lines
 
-def load_word_set(path,words=None):
-    print(path)
+def load_word_set(path,words=None,debug=False):
+    if debug:
+        print(path)
     if path.lower().startswith('http'):
         lines = url_text_lines(path)
     else:

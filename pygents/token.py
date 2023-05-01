@@ -341,23 +341,28 @@ class PrefixSuffixMorphoTokenizer(Tokenizer):
     #TODO when iterating, select the longest prefix or suffix first
     def tokenize(self,text):
         all_prefixes = []
-        for prefixes in self.prefixes:
-            for prefix in prefixes:
-                if len(text) > len(prefix) and text.startswith(prefix):
-                    if self.debug:
-                        print(prefix)
-                    all_prefixes.append(prefix)
-                    text = text[len(prefix):]
-                    break
         all_suffixes = []
-        for suffixes in self.suffixes:
-            for suffix in suffixes:
-                if len(text) > len(suffix) and text.endswith(suffix):
-                    if self.debug:
-                        print(suffix)
-                    all_suffixes.append(suffix)
-                    text = text[:len(text)-len(suffix)]
-                    break
+        keep_trying = True
+        while keep_trying:
+            keep_trying = False
+            for prefixes in self.prefixes:
+                for prefix in prefixes:
+                    if len(text) > len(prefix) and text.startswith(prefix):
+                        if self.debug:
+                            print(prefix)
+                        all_prefixes.append(prefix)
+                        text = text[len(prefix):]
+                        keep_trying = True
+                        break
+            for suffixes in self.suffixes:
+                for suffix in suffixes:
+                    if len(text) > len(suffix) and text.endswith(suffix):
+                        if self.debug:
+                            print(suffix)
+                        all_suffixes.append(suffix)
+                        text = text[:len(text)-len(suffix)]
+                        keep_trying = True
+                        break
         all_suffixes.reverse()
         return all_prefixes + [text] + all_suffixes
 
@@ -556,11 +561,13 @@ def evaluate_tokenizer(model,texts,forw,back,nlist,threshold,profiler=profile_fr
     return nlist,threshold,f1
 
 
-def evaluate_tokenizer_f1_compratio_entropy(texts,real_tokenizer,test_tokenizer,nospaces=False,expected_collector=None,actual_collector=None,debug=False):
+def evaluate_tokenizer_f1_compratio_entropy(texts,real_tokenizer,test_tokenizer,nospaces=False,expected_collector=None,actual_collector=None,text_counts=None,debug=False):
     avg_f1 = 0
     count = 0
     tokenized_texts = []
-    for text in texts:
+    for i in range(len(texts)):
+        text = texts[i]
+        weight = 1 if text_counts is None else text_counts[i]
         expected = real_tokenizer.tokenize(text)
         if nospaces:
             remove_all(expected,' ')
@@ -576,9 +583,9 @@ def evaluate_tokenizer_f1_compratio_entropy(texts,real_tokenizer,test_tokenizer,
             print(expected)
             print(tokens)
             print(round(f1,2))
-        avg_f1 += f1
-        count += 1
-    return round(avg_f1/count,2), round(evaluate_compression(texts,tokenized_texts),2), round(evaluate_anti_entropy(tokenized_texts),2)
+        avg_f1 += f1 * weight
+        count += weight
+    return round(avg_f1/count,2), round(evaluate_compression(texts,tokenized_texts,counts=text_counts),2), round(evaluate_anti_entropy(tokenized_texts,counts=text_counts),2)
 
 
 
