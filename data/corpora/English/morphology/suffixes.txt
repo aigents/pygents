@@ -103,6 +103,7 @@ ity
 ities
 ium
 ive
+isation
 ization
 ize
 kinesis
