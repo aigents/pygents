@@ -331,6 +331,26 @@ class FreedomBasedTokenizer(FreedomTokenizer):
         return tokenize_with_opposite_metrics(self.model,text,self.back,self.forw,self.nlist,self.threshold)
 
 
+class FreedomBasedTokenizerWithWordBoundaries(FreedomBasedTokenizer):
+
+    def __init__(self, base, back, forw, nlist=[1], threshold=0.5, word_boundary='_', debug=False):
+        FreedomBasedTokenizer.__init__(self, base, back, forw, nlist, threshold, debug)
+        self.word_boundary = word_boundary
+
+    def tokenize(self,text):
+        text = self.word_boundary + text + self.word_boundary
+        tokens = tokenize_with_opposite_metrics(self.model,text,self.back,self.forw,self.nlist,self.threshold)
+        last = len(tokens)-1
+        tokens[0] = tokens[0][1:]
+        tokens[last] = tokens[last][:-1]
+        if len(tokens[0]) < 1:
+            tokens = tokens[1:]
+        last = len(tokens)-1
+        if len(tokens[last]) < 1:
+            tokens = tokens[:-1]
+        return tokens
+
+
 class PrefixSuffixMorphoTokenizer(Tokenizer):
     def __init__(self,prefixes,suffixes,debug=False):
         Tokenizer.__init__(self,debug=debug)
