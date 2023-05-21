@@ -136,9 +136,23 @@
 
 ## Results
 
-### 2023 March
+### 2023 May - Self-tuning subword segmentation (morpho-parsing)
 
-- Found linear correllatin beetween tokenization F1 score and each of the anti-entropy, compression factor and crosssplit F1 score - for English, Russian and Chinese
+- slides TODO
+- paper TODO
+- word length up to 10 over 7 => saturation at 7, see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_only.ipynb
+- F1 on morpho-parsing does not exceed 0.42-0.44, see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_only.ipynb
+    - 0.42 if NOT accounting for word boundaries, N(top F1)=1 
+    - 0.44 if accounintg for word boundaries, N(top F1)=2 (adding _ before and after every word and counting them)
+- direct dependence of F1 on compression factor, see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_only.ipynb
+- inverse dependence of F1 on anti-entropy (why!?), see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_only.ipynb
+- limiting training set by word frequency helps to improve morho-parsing F1 (0.0005-0.001 improves F1 from 0.24 to 0.28 on Table 4 in https://arxiv.org/pdf/2005.06606.pdf ), see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_test.ipynb
+- applying model compression threshold  helps to improve morho-parsing F1 on small corpus (0.1 improves F1 from 0.24 to 0.27 on Table 4 in https://arxiv.org/pdf/2005.06606.pdf ) but does not render noticable impact on full lexicon, see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_test.ipynb 
+
+
+### 2023 March - Self-tuning tokenization
+
+- Found linear correlation between tokenization F1 score and each of the anti-entropy, compression factor and cross-split F1 score - for English, Russian and Chinese
 - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022.pdf
 - https://arxiv.org/pdf/2303.02427.pdf
 
