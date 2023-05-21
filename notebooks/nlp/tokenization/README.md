@@ -138,8 +138,15 @@
 
 ### 2023 May - Self-tuning subword segmentation (morpho-parsing)
 
-- slides TODO
-- paper TODO
+#### Paper 
+- https://github.com/aigents/pygents/blob/main/docs/2023/evolution_comm_codes_kolonin_2023_1.pdf
+
+#### Slides 
+- https://github.com/aigents/pygents/blob/main/docs/2023/bottom-up-language-learning-2022.pdf
+- https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf
+
+#### Conclusions
+
 - word length up to 10 over 7 => saturation at 7, see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_only.ipynb
 - F1 on morpho-parsing does not exceed 0.42-0.44, see https://github.com/aigents/pygents/blob/main/notebooks/nlp/morphology/morphology_lexicon_en_only.ipynb
     - 0.42 if NOT accounting for word boundaries, N(top F1)=1 
