@@ -22,7 +22,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - Social media text analysis for sentiment and cognitive distortions
 
 ## Related works
-- https://www.scopus.com/authid/detail.uri?authorId=57021892200 - 21 publications
+- https://www.scopus.com/authid/detail.uri?authorId=57021892200
 - https://arxiv.org/search/?query=anton+kolonin&searchtype=author&source=header
 - https://orcid.org/0000-0003-4180-2870
 - https://scholar.google.com/citations?user=D0NehDUAAAAJ&hl=ru&oi=ao
