@@ -21,7 +21,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - Interpretable natural language modeling and unsupervised learning
 - Social media text analysis for sentiment and cognitive distortions
 
-# Related works
+## Related works
 - https://www.scopus.com/authid/detail.uri?authorId=57021892200 - 21 publications
 - https://arxiv.org/search/?query=anton+kolonin&searchtype=author&source=header
 - https://orcid.org/0000-0003-4180-2870
