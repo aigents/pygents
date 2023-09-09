@@ -62,13 +62,8 @@
 
 ## Tasks
 
-- TODO subword segmentation aligned with morphology
-  - sum-up with **plots** - English lexicon
-    - non counted words
-    - frequency-coounted words
-
 - **Subword segmentation aligneed with morphology** 
-  - TODO, 20230422
+  - TODO, 20230622
       - conclude on morphology_lexicon_counted_en_ru
       - read https://arxiv.org/pdf/2005.06606.pdf (PROGRESS)
       - use tokenization to learn words -> wordbase
@@ -139,7 +134,8 @@
 ### 2023 May - Self-tuning subword segmentation (morpho-parsing)
 
 #### Paper 
-- https://github.com/aigents/pygents/blob/main/docs/2023/evolution_comm_codes_kolonin_2023_1.pdf
+- https://github.com/aigents/pygents/blob/main/docs/2023/evolution_comm_codes_kolonin_2023_2.pdf
+- https://arxiv.org/abs/2306.02383
 
 #### Slides 
 - https://github.com/aigents/pygents/blob/main/docs/2023/bottom-up-language-learning-2022.pdf
