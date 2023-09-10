@@ -26,7 +26,10 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://aigents.com/papers/2022/ai4cryptofinance2022.pdf
   - https://aigents.com/papers/2023/adaptive-active-market-making-2023.pdf
 - Social management applications and reputation systems (2)
-  - TBD
+  - https://aigents.com/papers/2019/Social-Computing-with-Online-Communities-2019.pdf
+  - https://aigents.com/papers/2022/bigsocialdata_kolonin_2022.pdf
+  - https://aigents.com/papers/2023/proof-of-reputation-2023.pdf
+  - https://aigents.com/papers/2023/simulating-societies-2023.pdf
 - Interpretable natural lanuaguage processing (2)
   - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf
 - Process mining and predictive process-based modeling (1)
