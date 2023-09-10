@@ -6,11 +6,17 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - General AI, interpretable AI collective AI - state of the art (1)
   - https://aigents.com/papers/2020/AI-state-2020-en.pdf
   - https://aigents.com/papers/2020/Global-Brain-and-AGI-2020.pdf
-  - [Collective-General-Intelligence-2021.pdf](https://aigents.com/papers/2021/Collective-General-Intelligence-2021.pdf)
+  - https://aigents.com/papers/2021/Collective-General-Intelligence-2021.pdf
 - Data structures and methods for interpretable artificial general intelligence (2)
+  - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
+  - https://aigents.com/papers/2021/data4agi.pdf
 - Graph-based knowledge representations and semantics (2)
+  - https://blog.singularitynet.io/graphs-part-1-how-singularitynet-will-leverage-opencog-aigents-b21e581cf9f8
+  - https://aigents.com/papers/2018/hyper-multi-graphs-2018.pdf
 - Cognitive model based on social evidence restricted by resources (1)
+  - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
 - Neuro-symbolic architectures and experiential learning (1)
+  - 
 - Clustering and segmentation for applications (1)
 - Artificial intelligence for quantitative finance (1) 
 - Social management applications and reputaion systems (2) 
