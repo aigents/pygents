@@ -4,6 +4,9 @@ https://lifeboat.com/ex/bios.anton.kolonin
 
 ## Blocks and Topics
 - General AI, interpretable AI collective AI - state of the art (1)
+  - https://aigents.com/papers/2020/AI-state-2020-en.pdf
+  - https://aigents.com/papers/2020/Global-Brain-and-AGI-2020.pdf
+  - [Collective-General-Intelligence-2021.pdf](https://aigents.com/papers/2021/Collective-General-Intelligence-2021.pdf)
 - Data structures and methods for interpretable artificial general intelligence (2)
 - Graph-based knowledge representations and semantics (2)
 - Cognitive model based on social evidence restricted by resources (1)
