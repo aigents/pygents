@@ -7,6 +7,9 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://aigents.com/papers/2020/AI-state-2020-en.pdf
   - https://aigents.com/papers/2020/Global-Brain-and-AGI-2020.pdf
   - https://aigents.com/papers/2021/Collective-General-Intelligence-2021.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=ZusjVvxEinw
+    - https://www.youtube.com/watch?v=flZj4bmGSzg
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
   - https://aigents.com/papers/2021/data4agi.pdf
