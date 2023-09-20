@@ -17,6 +17,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://blog.singularitynet.io/graphs-part-1-how-singularitynet-will-leverage-opencog-aigents-b21e581cf9f8
   - https://aigents.com/papers/2018/hyper-multi-graphs-2018.pdf
 - Cognitive model based on social evidence restricted by resources (1)
+  - https://aigents.com/papers/2023/consciousness_kolonin_2023.pdf
   - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
 - Neuro-symbolic architectures and experiential learning (1)
   - https://aigents.com/papers/2020/Towards-Interpretable-AGI-2020-en.pdf
