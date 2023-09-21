@@ -3,22 +3,23 @@ Anton Kolonin, Ph.D.
 https://lifeboat.com/ex/bios.anton.kolonin
 
 ## Blocks and Topics (16 lectures)
-- General AI, interpretable AI collective AI - state of the art (1)
+- _General AI, interpretable AI collective AI - state of the art (1)_
   - https://aigents.com/papers/2020/AI-state-2020-en.pdf
   - https://aigents.com/papers/2020/Global-Brain-and-AGI-2020.pdf
   - https://aigents.com/papers/2021/Collective-General-Intelligence-2021.pdf
   - Videos
     - https://www.youtube.com/watch?v=ZusjVvxEinw
     - https://www.youtube.com/watch?v=flZj4bmGSzg
-- Data structures and methods for interpretable artificial general intelligence (2)
-  - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
-  - https://aigents.com/papers/2021/data4agi.pdf
+- _Consciousness and its aspects (1)_
+  - https://aigents.com/papers/2023/consciousness_kolonin_2023.pdf
 - Graph-based knowledge representations and semantics (2)
   - https://blog.singularitynet.io/graphs-part-1-how-singularitynet-will-leverage-opencog-aigents-b21e581cf9f8
   - https://aigents.com/papers/2018/hyper-multi-graphs-2018.pdf
 - Cognitive model based on social evidence restricted by resources (1)
-  - https://aigents.com/papers/2023/consciousness_kolonin_2023.pdf
   - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
+- Data structures and methods for interpretable artificial general intelligence (2)
+  - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
+  - https://aigents.com/papers/2021/data4agi.pdf
 - Neuro-symbolic architectures and experiential learning (1)
   - https://aigents.com/papers/2020/Towards-Interpretable-AGI-2020-en.pdf
   - https://aigents.com/papers/2022/towards-interpretable-neurosymbolic-agi-2022.pdf
