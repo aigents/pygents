@@ -15,8 +15,8 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - Graph-based knowledge representations and semantics (2)
   - https://blog.singularitynet.io/graphs-part-1-how-singularitynet-will-leverage-opencog-aigents-b21e581cf9f8
   - https://aigents.com/papers/2018/hyper-multi-graphs-2018.pdf
-- Cognitive model based on social evidence restricted by resources (1)
-  - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
+- _Cognitive model based on social evidence restricted by resources (2)_
+  - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf _(stopped at slide 16 to start with)_
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
   - https://aigents.com/papers/2021/data4agi.pdf
