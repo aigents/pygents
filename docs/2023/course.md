@@ -47,7 +47,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
 ## Course work and diploma theses
 - Decision support systems for technological process automation
 - Social computing applications in social media and multi-agent systems
-- Interpretable natural language modeling and unsupervised learning (LiHeng)
+- Interpretable natural language modeling and unsupervised learning _(LiHeng - master thesis, Hou ZH - coursework)_
   - Topic 1: Chinese language - interpretable ontology/grammar learning, see:
     - https://www.springerprofessional.de/en/programmatic-link-grammar-induction-for-unsupervised-language-le/17020348
     - https://www.springerprofessional.de/en/unsupervised-language-learning-in-opencog/15995030
