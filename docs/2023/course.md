@@ -44,11 +44,18 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://aigents.com/papers/2022/BPP-BICA-2022.pdf
 - Summary, bottom lines, question answering (1) 
 
-
 ## Course work and diploma theses
 - Decision support systems for technological process automation
 - Social computing applications in social media and multi-agent systems
-- Interpretable natural language modeling and unsupervised learning
+- Interpretable natural language modeling and unsupervised learning (LiHeng)
+  - Topic 1: Chinese language - interpretable ontology/grammar learning, see:
+    - https://www.springerprofessional.de/en/programmatic-link-grammar-induction-for-unsupervised-language-le/17020348
+    - https://www.springerprofessional.de/en/unsupervised-language-learning-in-opencog/15995030
+    - https://arxiv.org/abs/2205.11443
+    - https://arxiv.org/abs/2303.02427  
+  - Topic 2: Chinese language - interpretable sentiment analysis and detection of cognitive distortions, see:
+    - https://arxiv.org/abs/2204.12928
+    - https://arxiv.org/abs/2204.10185
 - Social media text analysis for sentiment and cognitive distortions
 
 ## Related works
