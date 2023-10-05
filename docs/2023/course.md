@@ -45,18 +45,29 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - Summary, bottom lines, question answering (1) 
 
 ## Course work and diploma theses
-- Decision support systems for technological process automation
+- Decision support systems for technological process automation _(Qian_Yi_Huang)_
 - Social computing applications in social media and multi-agent systems
+  - Reputation consensus for distributed ledger systems
+    - https://arxiv.org/pdf/1806.07342.pdf
+    - https://arxiv.org/abs/2108.03542
+  - Reputation systems for marketplace security
+    - https://arxiv.org/abs/1905.08036
+    - https://arxiv.org/abs/2210.02362  
 - Interpretable natural language modeling and unsupervised learning _(LiHeng - master thesis, Hou ZH - coursework)_
-  - Topic 1: Chinese language - interpretable ontology/grammar learning, see:
+  - Topic 1: Interpretable ontology/grammar learning for Chinese/English/Russian, see:
     - https://www.springerprofessional.de/en/programmatic-link-grammar-induction-for-unsupervised-language-le/17020348
     - https://www.springerprofessional.de/en/unsupervised-language-learning-in-opencog/15995030
     - https://arxiv.org/abs/2205.11443
     - https://arxiv.org/abs/2303.02427  
-  - Topic 2: Chinese language - interpretable sentiment analysis and detection of cognitive distortions, see:
+  - Topic 2: Interpretable sentiment analysis and detection of cognitive distortions for Chinese language, see:
     - https://arxiv.org/abs/2204.12928
     - https://arxiv.org/abs/2204.10185
+    - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
 - Social media text analysis for sentiment and cognitive distortions
+  - Sentiment analysis and/or cognitive distortions in social media for Chinese (or languages other than Russian/English, may be cross-lingual)
+    - https://arxiv.org/abs/2204.12928
+    - https://arxiv.org/abs/2204.10185
+    - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
 
 ## Related works
 - https://www.scopus.com/authid/detail.uri?authorId=57021892200
