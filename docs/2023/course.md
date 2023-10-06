@@ -46,7 +46,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
 
 ## Course work and diploma theses
 - Decision support systems for technological process automation _(Qian_Yi_Huang)_
-- Social computing applications in social media and multi-agent systems
+- Social computing applications in social media and multi-agent systems _(Mitya ???)_
   - Reputation consensus for distributed ledger systems
     - https://arxiv.org/pdf/1806.07342.pdf
     - https://arxiv.org/abs/2108.03542
