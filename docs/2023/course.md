@@ -64,7 +64,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
     - https://arxiv.org/abs/2204.10185
     - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
 - Social media text analysis for sentiment and cognitive distortions
-  - Sentiment analysis and/or cognitive distortions in social media for Chinese (or languages other than Russian/English, may be cross-lingual)
+  - Sentiment analysis and/or cognitive distortions in social media for Chinese (or languages other than Russian/English, may be cross-lingual), _(Anna Redko)_
     - https://arxiv.org/abs/2204.12928
     - https://arxiv.org/abs/2204.10185
     - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
