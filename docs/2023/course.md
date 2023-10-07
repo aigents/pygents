@@ -53,7 +53,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - Reputation systems for marketplace security
     - https://arxiv.org/abs/1905.08036
     - https://arxiv.org/abs/2210.02362  
-- Interpretable natural language modeling and unsupervised learning _(LiHeng - master thesis, Hou Zhenghao- coursework)_
+- Interpretable natural language modeling and unsupervised learning _(LiHeng - master thesis, Hou Zhenghao - coursework)_
   - Topic 1: Interpretable ontology/grammar learning for Chinese/English/Russian, see:
     - https://www.springerprofessional.de/en/programmatic-link-grammar-induction-for-unsupervised-language-le/17020348
     - https://www.springerprofessional.de/en/unsupervised-language-learning-in-opencog/15995030
@@ -64,7 +64,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
     - https://arxiv.org/abs/2204.10185
     - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
 - Social media text analysis for sentiment and cognitive distortions
-  - Sentiment analysis and/or cognitive distortions in social media for Chinese (or languages other than Russian/English, may be cross-lingual), _(Anna Redko)_
+  - Sentiment analysis and/or cognitive distortions in social media for Chinese (or languages other than Russian/English, may be cross-lingual), _(Anna Redko - coursework)_
     - https://arxiv.org/abs/2204.12928
     - https://arxiv.org/abs/2204.10185
     - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
