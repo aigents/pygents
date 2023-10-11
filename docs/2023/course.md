@@ -44,7 +44,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://aigents.com/papers/2022/BPP-BICA-2022.pdf
 - Summary, bottom lines, question answering (1) 
 
-## Course work and diploma theses
+## Course work and diploma thesis topics
 - Decision support systems for technological process automation _(Qian_Yi_Huang)_
 - Social computing applications in social media and multi-agent systems _(Mitya ???)_
   - Reputation consensus for distributed ledger systems
@@ -68,6 +68,12 @@ https://lifeboat.com/ex/bios.anton.kolonin
     - https://arxiv.org/abs/2204.12928
     - https://arxiv.org/abs/2204.10185
     - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
+
+## Course work structure
+- Publication on medium, substack, github blog/site, etc. - covering prior art, R&D done and its results
+- Code with R&D results committed to github under open source license
+- Presentation slides uploaded/linked to either of the above
+- Presentation in class
 
 ## Related works
 - https://www.scopus.com/authid/detail.uri?authorId=57021892200
