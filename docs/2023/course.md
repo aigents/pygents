@@ -15,8 +15,8 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - Graph-based knowledge representations and semantics (2)
   - https://blog.singularitynet.io/graphs-part-1-how-singularitynet-will-leverage-opencog-aigents-b21e581cf9f8 ([cached](https://github.com/aigents/pygents/blob/main/docs/2023/Graphs%20Part%201_%20How%20SingularityNET%20Will%20Leverage%20OpenCog%20%26%20Aigents%20_%20by%20Aigents%20with%20Anton%20Kolonin%20_%20SingularityNET.pdf))
   - https://aigents.com/papers/2018/hyper-multi-graphs-2018.pdf
-- _Cognitive model based on social evidence restricted by resources (2)_
-  - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf _(stopped at slide 16 to start with)_
+- _Cognitive model based on social evidence restricted by resources (3)_
+  - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf _(stopped at slide 24 to start with)_
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
   - https://aigents.com/papers/2021/data4agi.pdf
@@ -46,7 +46,8 @@ https://lifeboat.com/ex/bios.anton.kolonin
 
 ## Course work and diploma thesis topics
 - Decision support systems for technological process automation _(Qian_Yi_Huang)_
-- Social computing applications in social media and multi-agent systems _(Mitya ???)_
+- Social computing applications in social media and multi-agent systems
+  - Investigating the ability of a group of LLM agents to logically correct a set of related statements _(Litvinenko Dmitriy)_
   - Reputation consensus for distributed ledger systems
     - https://arxiv.org/pdf/1806.07342.pdf
     - https://arxiv.org/abs/2108.03542
