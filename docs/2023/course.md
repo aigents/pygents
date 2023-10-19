@@ -17,7 +17,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - _https://aigents.com/graphs.html?file=%2Ftest%2Fgraphs%2Fontology.txt&layout_directions=3&layout_balance=50_
   - https://aigents.com/papers/2018/hyper-multi-graphs-2018.pdf
 - _Cognitive model based on social evidence restricted by resources (3)_
-  - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf _(stopped at slide 24 to start with)_
+  - _https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf_
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
   - https://aigents.com/papers/2021/data4agi.pdf
