@@ -19,6 +19,7 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+from _ast import arg
 
 """
 Service wrapper around Aigents Java-based Web Service
@@ -28,6 +29,9 @@ import requests
 import urllib.parse
 import math
 import json
+import re
+import emoji
+from pygents.text import url_lines
 
 
 import logging
@@ -142,4 +146,185 @@ class AigentsSentiment():
             if self.debug:
                 raise e
         return sen, pos, neg, con, wordcnt, itemcnt
+	
+
+def token_valid(token):
+    if len(token) < 1:
+        return False
+    if re.match(r'^\(?(http|https)://',token) is not None:
+        return False
+    return True
+
+quotes_list =  ["'", '"', '“', '”', '*', '(', ')', '[', ']', '<', '>', '#', '^', '@', '~']
+delimiters_list = [',', ';', ':', '.', '!', '?']
+delimiters_regexp = r' |\n|\t|\r|\[|\]|\(|\)'
+
+def add_token(token,res_list):
+    if len(token) == 0:
+        return
+    if len(token) == 1:
+        res_list.append(token)
+        return
+    first = token[0]
+    if first in emoji.UNICODE_EMOJI['en'] or first in quotes_list or first in delimiters_list:
+        res_list.append(first)
+        add_token(token[1:],res_list)
+        return
+    last = token[-1]
+    if last in emoji.UNICODE_EMOJI['en'] or last in quotes_list or last in delimiters_list:
+        add_token(token[0:-1],res_list)
+        res_list.append(last)
+        return
+    if token_valid(token): # and len(token) > 1 !!!
+        if len(token) > 2 and token[0].isalpha() and token[-1].isalpha():
+            for delimiter in delimiters_list:
+                if token.find(delimiter) != -1:
+                    tokens = token.split(delimiter)
+                    for i in range(0,len(tokens)):
+                        if i > 0:
+                            res_list.append(delimiter)
+                        add_token(tokens[i],res_list)
+                    return
+        res_list.append(token)
+
+def tokenize_re(text):
+    tokens = re.split(delimiters_regexp,text.lower())
+    res_list = []
+    for token in tokens:
+        if len(token) < 1:
+            continue
+        add_token(token,res_list)
+    return res_list
+
+def build_ngrams(seq,N):
+    size = len(seq) - N + 1;
+    if size < 1:
+        return [];
+    items = [];
+    for i in range(0,size):
+        items.append( tuple(seq[i:i+N]) )
+    return items
+
+def load_ngrams(file,debug=False):
+    if file.lower().startswith('http'):
+    	lines = url_lines(file)
+    	if debug:
+    		print(lines[:100])
+    		print(len(lines))
+    else:
+	    with open(file) as f:
+	        lines = f.readlines()
+    ngrams = [tuple(l.split()) for l in lines if len(l) > 0]
+    return set(ngrams)
+
+class PygentsSentiment():
+
+    def __init__(self, positive_lexicon_file, negative_lexicon_file, sentiment_maximized=False, sentiment_logarithmic=True, debug=False):
+        self.sentiment_maximized = sentiment_maximized
+        self.sentiment_logarithmic = sentiment_logarithmic
+        self.gram_arity = 3
+        self.scrub = set(["-", "&","a", "an", "and", "because", "else", "or", "the", "in", "on", "at", "it", "is", "after", "are", "me",
+                    "am", "i", "into", "its", "same", "with", "if", "most", "so", "thus", "hence", "how",
+                    "as", "do", "what", "for", "to", "of", "over", "be", "will", "was", "were", "here", "there",
+                    "you", "your", "our", "my", "her", "his", "just", "have", "but", "not", "that",
+                    "their", "we", "by", "all", "any", "anything", "some", "something", "dont", "do", "does", "of", "they", "them",
+                    "been", "even", "etc", "this", "that", "those", "these", "from", "he", "she",
+                    "no", "yes", "own", "may", "mine", "me", "each", "can", "could", "would", "should", "since", "had", "has",
+                    "when", "out", "also", "only", "about", "us", "via", "than", "then", "up", "who", "why", "which", "yet"])
+        self.punct = set(list("-—{([<})]>.,;:?$_.+!?*'\"\\/"))
+        self.positives = self.to_set(positive_lexicon_file)
+        self.negatives = self.to_set(negative_lexicon_file)
+
+    def to_set(self,arg):
+        if type(arg) == set:
+            return arg
+        elif type(arg) == list:
+            return set(arg)
+        elif type(arg) == str:
+            return load_ngrams(arg)
+        return null
+    
+    def get_sentiment(self,text,context=None,debug=False):
+        wordcnt = len(text.strip().split(' '))
+        itemcnt = 1
+    
+        pos, neg, sen = self.get_sentiment_words(text,debug=debug)
+        con = round(math.sqrt(pos * -neg),2)
+            
+        return sen, pos, neg, con, wordcnt, itemcnt
+
+    def is_scrub(self,s):
+        """
+        //TODO: make min word length language-specific to support Chinese
+        if (s.length() <= 1)
+            return true;
+        //TODO: move dash check to parser or replace dashes with scrubsymbols?
+        if (Array.containsOnly(s, AL.dashes))
+            return true;
+        for (int l = 0; l < langs.length; l++)
+            //if (Array.contains(langs[l].scrubs,s))
+            if (langs[l].isScrub(s))
+                return true;
+        return false;
+        """
+        return True if len(s) < 1 or s in self.punct or s in self.scrub else False
+
+    def get_sentiment_words(self,input_text,pc=None,nc=None,rounding=2,debug=False):
+        """
+        See original reference implementation:
+        https://github.com/aigents/aigents-java/blob/master/src/main/java/net/webstructor/data/LangPack.java#L355
+        """
+        if input_text is None or len(input_text) < 1:
+            return 0, 0, 0
+        seq = tokenize_re(input_text) #TODO anything more clever?
+        if debug:
+            print("<{}>".format(str(seq)))
+        if len(seq) < 1:
+            return 0, 0, 0
+        p = 0
+        n = 0
+        N = self.gram_arity
+        while N >= 1:
+            seq_ngrams = build_ngrams(seq,N)
+            if debug:
+                print(N,str(seq_ngrams))
+            if len(seq_ngrams) > 0:
+                for i in range(0,len(seq_ngrams)):
+                    w = seq_ngrams[i]
+                    if debug:
+                        print(N,w)
+                    if w is None or len(w) == 0 or (len(w) == 1 and (w[0] is None or self.is_scrub(w[0]))): #some may be None being consumed earlier
+                        i += 1
+                        continue
+                    found = False 
+                    if w in self.positives:
+                        p += N #weighted
+                        if not pc is None:
+                            pc.append(w);
+                        found = True;
+                    elif w in self.negatives:
+                        n += N #weighted
+                        if not nc is None:
+                            nc.append(w);
+                        found = True;
+                    if found:
+                        for Ni in range(0,N):
+                            seq[i + Ni] = None
+                        i += N
+                    else:
+                        i += 1            
+            N -= 1
+        lenseq = len(seq)
+        if self.sentiment_logarithmic:
+            p = math.log10(1 + 100 * p / lenseq)/2
+            n = math.log10(1 + 100 * n / lenseq)/2
+        else:
+            p = p / lenseq
+            n = n / lenseq
+        c = (p-n)/max(p,n) if self.sentiment_maximized else p-n
+        if not rounding is None:
+            p = round(p,rounding)
+            n = round(n,rounding)
+            c = round(c,rounding)
+        return p, -n, c
 	
