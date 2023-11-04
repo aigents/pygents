@@ -4,6 +4,21 @@ import math
 from os.path import join
 from scipy.stats import entropy
 
+def vector_proximity(avector,bvector,threshold):
+    for a,b in zip(avector,bvector):
+        ab = a*b
+        if ab < 0: # check if sign is different
+            return False
+        if ab != 0:
+            if abs((a-b)/math.sqrt(ab)) > threshold:
+                #print(a,b,abs((a-b)/math.sqrt(ab)))
+                return False
+    return True
+assert not vector_proximity((10,-10,10),(10,10,10),0.1)
+assert vector_proximity((10,-10,10),(10,-10,10),0.1)
+assert vector_proximity((10,-10,10),(10,-10,10),0.1)
+assert not vector_proximity((10,-10,10),(19,-19,19),0.1)
+
 def dict_update(target,source):
     for key in source:
         if not key in target:

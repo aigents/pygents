@@ -217,9 +217,20 @@ def load_ngrams(file,debug=False):
     ngrams = [tuple(l.split()) for l in lines if len(l) > 0]
     return set(ngrams)
 
+def split_pattern(pat):
+    new_list = []
+    for p in pat:
+        new_list.extend([*p])
+    return tuple(new_list)
+assert str(split_pattern(('ab','c','d'))) == "('a', 'b', 'c', 'd')"
+
+def split_patterns(arg):
+    return [split_pattern(a) for a in arg]
+assert str(split_patterns([('abcd',),('ef','gh'),('i','j')])) == "[('a', 'b', 'c', 'd'), ('e', 'f', 'g', 'h'), ('i', 'j')]" 
+
 class PygentsSentiment():
 
-    def __init__(self, positive_lexicon_file, negative_lexicon_file, sentiment_maximized=False, sentiment_logarithmic=True, debug=False):
+    def __init__(self, positive_lexicon_file, negative_lexicon_file, sentiment_maximized=False, sentiment_logarithmic=True, tokenize_chars=False, debug=False):
         self.sentiment_maximized = sentiment_maximized
         self.sentiment_logarithmic = sentiment_logarithmic
         self.gram_arity = 3
@@ -234,6 +245,11 @@ class PygentsSentiment():
         self.punct = set(list("-—{([<})]>.,;:?$_.+!?*'\"\\/"))
         self.positives = self.to_set(positive_lexicon_file)
         self.negatives = self.to_set(negative_lexicon_file)
+        self.tokenize_chars = tokenize_chars
+        #TODO use unsupervised tokenization!!!!
+        if self.tokenize_chars:
+        	self.positives = split_patterns(self.positives)
+        	self.negatives = split_patterns(self.negatives)
 
     def to_set(self,arg):
         if type(arg) == set:
@@ -276,7 +292,7 @@ class PygentsSentiment():
         """
         if input_text is None or len(input_text) < 1:
             return 0, 0, 0
-        seq = tokenize_re(input_text) #TODO anything more clever?
+        seq = [*input_text] if self.tokenize_chars else tokenize_re(input_text) #TODO unsupervised tokenization
         if debug:
             print("<{}>".format(str(seq)))
         if len(seq) < 1:
