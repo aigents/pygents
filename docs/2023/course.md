@@ -23,7 +23,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - _Cognitive model based on social evidence restricted by resources (3)_
   - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
 - **Social management applications and reputation systems (2)**
-  - https://aigents.com/papers/2019/Social-Computing-with-Online-Communities-2019.pdf _(remains to discuss: decenttalization, sources, schemas and algos, Amazon case, accessibility of data, US/China Google case)_
+  - https://aigents.com/papers/2019/Social-Computing-with-Online-Communities-2019.pdf _(remains to discuss: US/China Google case)_
   - https://aigents.com/papers/2022/bigsocialdata_kolonin_2022.pdf
   - https://aigents.com/papers/2023/proof-of-reputation-2023.pdf
   - https://aigents.com/papers/2023/simulating-societies-2023.pdf
