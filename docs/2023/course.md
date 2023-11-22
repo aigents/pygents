@@ -29,6 +29,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://aigents.com/papers/2023/simulating-societies-2023.pdf
 - Artificial intelligence for quantitative finance (1)
   - https://singularity-dao.github.io/agi-fintech/
+  - https://aigents.github.io/inlp/2022/slides/
   - https://aigents.com/papers/2022/ai4cryptofinance2022.pdf
   - https://aigents.com/papers/2023/adaptive-active-market-making-2023.pdf
 - Clustering and segmentation for applications (1)
