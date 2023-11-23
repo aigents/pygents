@@ -22,12 +22,12 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://dbpedia.org/page/Albert_Einstein
 - _Cognitive model based on social evidence restricted by resources (3)_
   - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
-- **Social management applications and reputation systems (2)**
+- _Social management applications and reputation systems (2)_
   - https://aigents.com/papers/2019/Social-Computing-with-Online-Communities-2019.pdf _(remains to discuss: US/China Google case)_
   - https://aigents.com/papers/2022/bigsocialdata_kolonin_2022.pdf
   - https://aigents.com/papers/2023/proof-of-reputation-2023.pdf
   - https://aigents.com/papers/2023/simulating-societies-2023.pdf
-- Artificial intelligence for quantitative finance (1)
+- _Artificial intelligence for quantitative finance (1)_
   - https://singularity-dao.github.io/agi-fintech/
   - https://aigents.github.io/inlp/2022/slides/
   - https://aigents.com/papers/2022/ai4cryptofinance2022.pdf
