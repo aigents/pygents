@@ -226,8 +226,36 @@ assert str(split_pattern(('ab','c','d'))) == "('a', 'b', 'c', 'd')"
 
 def split_patterns(arg):
     return [split_pattern(a) for a in arg]
-assert str(split_patterns([('abcd',),('ef','gh'),('i','j')])) == "[('a', 'b', 'c', 'd'), ('e', 'f', 'g', 'h'), ('i', 'j')]" 
+assert str(split_patterns([('abcd',),('ef','gh'),('i','j')])) == "[('a', 'b', 'c', 'd'), ('e', 'f', 'g', 'h'), ('i', 'j')]"
 
+"""
+class TextMetrics(PygentsSentiment):
+    def __init__(self, metrics, metric_maximized=False, metric_logarithmic=True, tokenize_chars=False, debug=False):
+		self.metric_maximized = metric_maximized
+		self.metric_logarithmic = metric_logarithmic
+		self.tokenize_chars = tokenize_chars
+		self.gram_arity = 3
+#TODO don't use scrub!?
+#TODO
+		self.scrub = set(["-", "&","a", "an", "and", "because", "else", "or", "the", "in", "on", "at", "it", "is", "after", "are", "me",
+					"am", "i", "into", "its", "same", "with", "if", "most", "so", "thus", "hence", "how",
+					"as", "do", "what", "for", "to", "of", "over", "be", "will", "was", "were", "here", "there",
+					"you", "your", "our", "my", "her", "his", "just", "have", "but", "not", "that",
+					"their", "we", "by", "all", "any", "anything", "some", "something", "dont", "do", "does", "of", "they", "them",
+					"been", "even", "etc", "this", "that", "those", "these", "from", "he", "she",
+					"no", "yes", "own", "may", "mine", "me", "each", "can", "could", "would", "should", "since", "had", "has",
+					"when", "out", "also", "only", "about", "us", "via", "than", "then", "up", "who", "why", "which", "yet"])
+		self.punct = set(list("-—{([<})]>.,;:?$_.+!?*'\"\\/"))
+		
+		self.positives = self.to_set(positive_lexicon_file)
+		self.negatives = self.to_set(negative_lexicon_file)
+		#TODO use unsupervised tokenization!!!!
+		if self.tokenize_chars:
+			self.positives = split_patterns(self.positives)
+			self.negatives = split_patterns(self.negatives)
+ """
+
+#TODO reuse the parent class above
 class PygentsSentiment():
 
     def __init__(self, positive_lexicon_file, negative_lexicon_file, sentiment_maximized=False, sentiment_logarithmic=True, tokenize_chars=False, debug=False):
