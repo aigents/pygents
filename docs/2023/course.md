@@ -32,11 +32,11 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://aigents.github.io/inlp/2022/slides/
   - https://aigents.com/papers/2022/ai4cryptofinance2022.pdf
   - https://aigents.com/papers/2023/adaptive-active-market-making-2023.pdf
-- Clustering and segmentation for applications (1)
+- _Clustering and segmentation for applications (1)_
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022.pdf
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022-ru.pdf
 - Interpretable natural lanuaguage processing (2)
-  - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf
+  - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf - _(continue with Applications)_
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
   - https://aigents.com/papers/2021/data4agi.pdf
