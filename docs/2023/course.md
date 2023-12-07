@@ -23,7 +23,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - _Cognitive model based on social evidence restricted by resources (3)_
   - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
 - _Social management applications and reputation systems (2)_
-  - https://aigents.com/papers/2019/Social-Computing-with-Online-Communities-2019.pdf _(remains to discuss: US/China Google case)_
+  - https://aigents.com/papers/2019/Social-Computing-with-Online-Communities-2019.pdf
   - https://aigents.com/papers/2022/bigsocialdata_kolonin_2022.pdf
   - https://aigents.com/papers/2023/proof-of-reputation-2023.pdf
   - https://aigents.com/papers/2023/simulating-societies-2023.pdf
@@ -35,7 +35,7 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - _Clustering and segmentation for applications (1)_
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022.pdf
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022-ru.pdf
-- Interpretable natural lanuaguage processing (2)
+- Interpretable natural lanuaguage processing (3)
   - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf - _(continue on slide 24 - talk about different parsers and grammar learner)_
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
