@@ -412,7 +412,6 @@ class TextMetrics(PygentsSentiment):
                                     l = lists[metric]
                                 l.append(w);
                             found = True;
-
 #TODO what is that?
                     if found:
                         for Ni in range(0,N):
@@ -431,5 +430,8 @@ class TextMetrics(PygentsSentiment):
             for metric in counts:
                 counts[metric] = counts[metric] / lenseq
 #TODO overall
+        if not rounding is None:
+            for metric in counts:
+                counts[metric] = round(counts[metric],rounding)
         return counts
     
