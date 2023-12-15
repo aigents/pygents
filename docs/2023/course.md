@@ -35,19 +35,19 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - _Clustering and segmentation for applications (1)_
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022.pdf
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022-ru.pdf
-- Interpretable natural lanuaguage processing (3)
-  - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf - _(continue on slide 24 - talk about different parsers and grammar learner)_
+- _Interpretable natural lanuaguage processing (3)_
+  - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf
+- Decision support systems based on interpretable AI (1)
+  - https://aigents.com/papers/2022/BPP-BICA-2022.pdf
+- Process mining and predictive process-based modeling (1)
+  - https://aigents.com/papers/2022/activity-ontology-2022.pdf
+  - https://aigents.com/papers/2022/causal-analytics-agi-2022.pdf
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
   - https://aigents.com/papers/2021/data4agi.pdf
 - Neuro-symbolic architectures and experiential learning (1)
   - https://aigents.com/papers/2020/Towards-Interpretable-AGI-2020-en.pdf
   - https://aigents.com/papers/2022/towards-interpretable-neurosymbolic-agi-2022.pdf
-- Process mining and predictive process-based modeling (1)
-  - https://aigents.com/papers/2022/activity-ontology-2022.pdf
-  - https://aigents.com/papers/2022/causal-analytics-agi-2022.pdf
-- Decision support systems based on interpretable AI (1)
-  - https://aigents.com/papers/2022/BPP-BICA-2022.pdf
 - Summary, bottom lines, question answering (1) 
 
 ## Course work and diploma thesis topics
