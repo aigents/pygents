@@ -384,7 +384,6 @@ class TextMetrics(PygentsSentiment):
         if len(seq) < 1:
             return 0, 0, 0
         counts = {}
-        lists = {}
         N = self.gram_arity
         while N >= 1:
             seq_ngrams = build_ngrams(seq,N)
@@ -411,6 +410,7 @@ class TextMetrics(PygentsSentiment):
                                 else:
                                     l = lists[metric]
                                 l.append(w);
+                                #print(lists)
                             found = True;
 #TODO what is that?
                     if found:
@@ -433,5 +433,7 @@ class TextMetrics(PygentsSentiment):
         if not rounding is None:
             for metric in counts:
                 counts[metric] = round(counts[metric],rounding)
+        if 'positive' in counts and 'negative' in counts:
+        	counts['contradictive'] = round(math.sqrt(counts['positive'] * counts['negative']),2)
         return counts
     
