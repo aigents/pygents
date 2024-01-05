@@ -37,14 +37,14 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022-ru.pdf
 - _Interpretable natural lanuaguage processing (3)_
   - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf
-- Decision support systems based on interpretable AI (1)
+- _Decision support systems based on interpretable AI (1)_
   - https://aigents.com/papers/2022/BPP-BICA-2022.pdf
+- Data structures and methods for interpretable artificial general intelligence (2)
+  - https://aigents.com/papers/2021/data4agi.pdf
+  - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
 - Process mining and predictive process-based modeling (1)
   - https://aigents.com/papers/2022/activity-ontology-2022.pdf
   - https://aigents.com/papers/2022/causal-analytics-agi-2022.pdf
-- Data structures and methods for interpretable artificial general intelligence (2)
-  - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
-  - https://aigents.com/papers/2021/data4agi.pdf
 - Neuro-symbolic architectures and experiential learning (1)
   - https://aigents.com/papers/2020/Towards-Interpretable-AGI-2020-en.pdf
   - https://aigents.com/papers/2022/towards-interpretable-neurosymbolic-agi-2022.pdf
@@ -60,8 +60,8 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - Reputation systems for marketplace security
     - https://arxiv.org/abs/1905.08036
     - https://arxiv.org/abs/2210.02362  
-- Interpretable natural language modeling and unsupervised learning _(LiHeng - master thesis)_
-  - Topic 1: Interpretable ontology/grammar learning for Chinese/English/Russian, see:
+- Interpretable natural language modeling and unsupervised learning
+  - Topic 1: Interpretable ontology/grammar learning for Chinese/English/Russian _(Hou Zhenghao - master thesis)_, see:
     - https://www.springerprofessional.de/en/programmatic-link-grammar-induction-for-unsupervised-language-le/17020348
     - https://www.springerprofessional.de/en/unsupervised-language-learning-in-opencog/15995030
     - https://arxiv.org/abs/2205.11443
