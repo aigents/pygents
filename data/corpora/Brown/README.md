@@ -17,7 +17,7 @@ redistribution permitted.
 The text above is downloaded from https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/brown.zip
 The link above is obtained from http://www.nltk.org/nltk_data/
 
-# FILES:
+## FILES:
 
 - brown_nolines.txt - downloaded from: http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
 - brown_nolines_en.txt - blank lines removed from brown_nolines.txt
@@ -25,3 +25,24 @@ The link above is obtained from http://www.nltk.org/nltk_data/
 - brown_nolines_zh.txt - translated to Chinese (Simplified, People's Republic of China) from English with locale 'zh-cn' from brown_nolines_en.txt
 
 Translations above are done with procedure in https://github.com/aigents/pygents/blob/main/notebooks/nlp/translation/googletrans.ipynb 
+
+## REFERENCES:
+
+- https://www.nltk.org/nltk_data/ (p.102)
+- http://icame.uib.no/brown/bcm.html
+
+## TODO
+
+- remove double spaces
+- remove everything between hash tags: 'grep "\#" brown_nolines_en.txt'
+- remove < and > symbols ?
+- remove | ?
+- replace _ with spaces ?
+- remove @ ?
+- put sentence breaks in place of space after period ("\. ") except single letter before "." (" [a-zA-Z]\. ") and Dr/Mr/Mrs/Jr/Sr/Sen/La/Va/Dept/Calif/...
+
+
+
+
+
+
