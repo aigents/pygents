@@ -4,7 +4,9 @@ Machine Learning experiments in Python for Aigents project - at the moment, prim
 
 ## Setting up Jupyter on remote Ubuntu server in the cloud and run it locally
 
-### Do this on remote server in the cloud:
+### Do this on remote server in the cloud (or if you want to access Jupyter locally):
+
+#### Using Python 3.11.9
 
 1. Make sure you have Python3 pip and vitualenv installed, see https://1cloud.ru/help/linux/ustanovka-jupyter-notebook-na-ubuntu-18-04 *(do this only once)*
 1. git clone https://gitlab.com/aigents/pygents.git *(do this only once)*
@@ -15,7 +17,7 @@ Machine Learning experiments in Python for Aigents project - at the moment, prim
 1. sudo iptables -A INPUT -p tcp --dport 8887 -j ACCEPT *(do this only once)*
 1. jupyter notebook --no-browser --port=8887
 
-### Do this on your local machine:
+### Do this on your local machine (if you want to access remote Jupyter):
 
 1. `ssh -i <yourkey>.pem -N -f -L localhost:9999:localhost:8887 <yourusername>@<yourhost>` (do this in terminal)
 1. http://localhost:9999/ (access this in the browser)
