@@ -14,8 +14,8 @@ Machine Learning experiments in Python for Aigents project - at the moment, prim
 1. virtualenv env *(do this only once)*
 1. . env/bin/activate *(. ./env/Scripts/activate [- if under Windows](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html))*
 1. pip install -r pygents/requirements.txt *(do this only once)*
-1. sudo iptables -A INPUT -p tcp --dport 8887 -j ACCEPT *(do this only once)*
-1. jupyter notebook --no-browser --port=8887
+1. sudo iptables -A INPUT -p tcp --dport 8887 -j ACCEPT *(do this only once, need only to deploy on cloud server)*
+1. jupyter notebook --no-browser --port=8887 *(if you are doing this on your local machine, just access http://localhost:8887/ locally in the browser)*
 
 ### Do this on your local machine (if you want to access remote Jupyter):
 
