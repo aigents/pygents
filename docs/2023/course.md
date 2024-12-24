@@ -12,6 +12,8 @@ https://lifeboat.com/ex/bios.anton.kolonin
     - https://www.youtube.com/watch?v=flZj4bmGSzg
 - _Consciousness and its aspects (1)_
   - https://aigents.com/papers/2023/consciousness_kolonin_2023.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=hFXWFkeNXOs
 - _Graph-based knowledge representations and semantics (3)_
   - https://blog.singularitynet.io/graphs-part-1-how-singularitynet-will-leverage-opencog-aigents-b21e581cf9f8 ([cached](https://github.com/aigents/pygents/blob/main/docs/2023/Graphs%20Part%201_%20How%20SingularityNET%20Will%20Leverage%20OpenCog%20%26%20Aigents%20_%20by%20Aigents%20with%20Anton%20Kolonin%20_%20SingularityNET.pdf))
   - https://aigents.com/graphs.html?file=%2Ftest%2Fgraphs%2Fontology.txt&layout_directions=3&layout_balance=50
@@ -20,34 +22,60 @@ https://lifeboat.com/ex/bios.anton.kolonin
   - https://schema.org/docs/gs.html#microdata_embedded
   - https://www.wikidata.org/wiki/Q937
   - https://dbpedia.org/page/Albert_Einstein
+  - Videos
+    - https://www.youtube.com/watch?v=yzaSVVLWATE
+    - https://www.youtube.com/watch?v=KTIAcU8Pcl8
+    - https://www.youtube.com/watch?v=g-GIilvPSL4
 - _Cognitive model based on social evidence restricted by resources (3)_
   - https://aigents.com/papers/2023/cognitive_model_kolonin_2023.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=7357cBCpalg
 - _Social management applications and reputation systems (2)_
   - https://aigents.com/papers/2019/Social-Computing-with-Online-Communities-2019.pdf
   - https://aigents.com/papers/2022/bigsocialdata_kolonin_2022.pdf
   - https://aigents.com/papers/2023/proof-of-reputation-2023.pdf
   - https://aigents.com/papers/2023/simulating-societies-2023.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=XOhK20uSM-8
+    - https://www.youtube.com/watch?v=hf6qH2VeJc0
 - _Artificial intelligence for quantitative finance (1)_
   - https://singularity-dao.github.io/agi-fintech/
   - https://aigents.github.io/inlp/2022/slides/
   - https://aigents.com/papers/2022/ai4cryptofinance2022.pdf
   - https://aigents.com/papers/2023/adaptive-active-market-making-2023.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=3x8hu6Te0WI
+    - https://www.youtube.com/watch?v=WY9JjFREcyE
+    - https://www.youtube.com/watch?v=N_DqXjcIP0I
 - _Clustering and segmentation for applications (1)_
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022.pdf
   - https://github.com/aigents/pygents/blob/main/docs/2022/clustering-segmentation-2022-ru.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=09wz8GQUvXs
 - _Interpretable natural lanuaguage processing (3)_
   - https://github.com/aigents/pygents/blob/main/docs/2023/inlp-2023.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=IwTixghbnks
+    - https://www.youtube.com/watch?v=WSFU6cwBGQk
 - _Decision support systems based on interpretable AI (1)_
   - https://aigents.com/papers/2022/BPP-BICA-2022.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=xwjoOyd9D2w
 - Data structures and methods for interpretable artificial general intelligence (2)
   - https://aigents.com/papers/2021/data4agi.pdf
   - https://aigents.com/papers/2020/Data-Structures-2020-en.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=-Rk30P2vajo
+    - https://www.youtube.com/watch?v=VK6XsDxdqdc
 - Process mining and predictive process-based modeling (1)
   - https://aigents.com/papers/2022/activity-ontology-2022.pdf
   - https://aigents.com/papers/2022/causal-analytics-agi-2022.pdf
 - Neuro-symbolic architectures and experiential learning (1)
   - https://aigents.com/papers/2020/Towards-Interpretable-AGI-2020-en.pdf
   - https://aigents.com/papers/2022/towards-interpretable-neurosymbolic-agi-2022.pdf
+  - Videos
+    - https://www.youtube.com/watch?v=OmKDdEUX0TY
+    - https://www.youtube.com/watch?v=AV_QQ7fqalw
 - Summary, bottom lines, question answering (1) 
 
 ## Course work and diploma thesis topics
