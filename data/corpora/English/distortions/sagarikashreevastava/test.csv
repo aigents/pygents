@@ -1,0 +1,11 @@
+Id_Number,Patient Question,Distorted part,Dominant Distortion,Secondary Distortion (Optional)
+0,It will fail,It will fail,Negative,
+1,I will fail,I will fail,Negative,Personal
+2,We will fail,We will fail,Personal,Negative
+3,It will be fine,It will be fine,No Distortion,
+4,It is a tree,It is a tree,No Distortion,
+5,I am stupid,I and stupid,Personal,
+6,We are idiots,We are idiots,Personal,
+7,I like to dance,I like to dance,No Distortion,
+8,We like to sing,We like to sing,No Distortion,
+
