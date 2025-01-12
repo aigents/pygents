@@ -84,8 +84,7 @@ def dictdict_div_dict(num, den):
             #k = float(num[n]) / den[n]
             res[n] = float(num[n]) / den[n]
     return res
-n = {"a":{"x":10,"y":15},"b":{"y":30,"z":40}}; d = {"x":20,"y":30,"z":40}
-assert str(dictdict_div_dict(n,d))=="{'a': {'x': 0.5, 'y': 0.5}, 'b': {'y': 1.0, 'z': 1.0}}"
+n = {"a":{"x":10,"y":15},"b":{"y":30,"z":40}}; d = {"x":20,"y":30,"z":40}; assert str(dictdict_div_dict(n,d))=="{'a': {'x': 0.5, 'y': 0.5}, 'b': {'y': 1.0, 'z': 1.0}}"
 
 
 def dictdict_mul_dictdict(num, den):
@@ -94,12 +93,11 @@ def dictdict_mul_dictdict(num, den):
         if isinstance(num[n], dict):
             #print(num[n], den[n])
             res[n] = dictdict_mul_dictdict(num[n], den[n])
-            print(res[n])
+            #print(res[n])
         else:
             res[n] = float(num[n]) * den[n]
     return res
-n = {"a":{"x":10,"y":20},"b":{"x":20,"y":40}}; d = {"a":{"x":10,"y":5},"b":{"x":0.5,"y":0.25}}
-assert str(dictdict_mul_dictdict(n,d))=="{'a': {'x': 100.0, 'y': 100.0}, 'b': {'x': 10.0, 'y': 10.0}}"
+n = {"a":{"x":10,"y":20},"b":{"x":20,"y":40}}; d = {"a":{"x":10,"y":5},"b":{"x":0.5,"y":0.25}}; assert str(dictdict_mul_dictdict(n,d))=="{'a': {'x': 100.0, 'y': 100.0}, 'b': {'x': 10.0, 'y': 10.0}}"
 
 
 def dict2listsorted(d):
