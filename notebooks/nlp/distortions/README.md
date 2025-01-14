@@ -25,3 +25,9 @@
   - Latest chatGPT?
 - Those found in other papers
   - ...
+ 
+# Papers
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582307
+- https://aclanthology.org/2021.clpsych-1.17/
+- https://arxiv.org/pdf/1909.07502
+  - _TODO_ 
