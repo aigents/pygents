@@ -1,7 +1,7 @@
 # Corpora
-- Multi-class
-- Binary
-- Binary+ (Binary+Multi-class) - New!!!
+- 1 Binary https://huggingface.co/datasets/halilbabacan/autotrain-data-cognitive_distortions
+- 2 Multi-class https://www.kaggle.com/datasets/sagarikashreevastava/cognitive-distortion-detetction-dataset
+- 3 Binary+ (Binary + Multi-class as Binary)
 
 # Models
 - Our
@@ -30,4 +30,23 @@
 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582307
 - https://aclanthology.org/2021.clpsych-1.17/
 - https://arxiv.org/pdf/1909.07502
-  - _TODO_ 
+  - _TODO_
+ 
+# Plan
+- Binary dataset (3)
+  - Full dataset evaluation
+    - Aigents (baseline - out-of-the-box)
+    - LLM llama32
+    - LLM qwen2
+    - Aigents (overfitting - same full dataset for test and train)
+       - search for learning hyper-parameters
+       - search for inference hyper-parameters
+       - evaluate with best hyper-parameters
+    - compare all for F1 and runtime inference performance
+ - Cross-validation (3 * 2/3:1/3)
+    - Aigents (baseline - out-of-the-box) - average of 3 F1-s across 3 spilts
+    - LLM llama32 - average of 3 F1-s across 3 spilts
+    - LLM qwen2 - average of 3 F1-s across 3 spilts
+    - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
+    - compare all for F1
+- Multi-class dataset (1)
