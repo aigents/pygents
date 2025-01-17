@@ -35,18 +35,31 @@
 # Plan
 - Binary dataset (3)
   - Full dataset evaluation
-    - Aigents (baseline - out-of-the-box)
-    - LLM llama32
-    - LLM qwen2
+    - <u>Aigents (baseline - out-of-the-box)</u>
+      - search for inference hyper-parameters (threshold T=0.4, function=avg)
+    - <u>LLM llama32</u>
+    - <u>LLM qwen2</u>
     - Aigents (overfitting - same full dataset for test and train)
        - search for learning hyper-parameters
        - search for inference hyper-parameters
        - evaluate with best hyper-parameters
     - compare all for F1 and runtime inference performance
- - Cross-validation (3 * 2/3:1/3)
+ - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
     - Aigents (baseline - out-of-the-box) - average of 3 F1-s across 3 spilts
     - LLM llama32 - average of 3 F1-s across 3 spilts
     - LLM qwen2 - average of 3 F1-s across 3 spilts
     - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
     - compare all for F1
 - Multi-class dataset (1)
+  - Full dataset evaluation
+    - Aigents (baseline - out-of-the-box)
+      - search for inference hyper-parameters (threshold T=???, ...)
+    - Aigents (overfitting - same full dataset for test and train)
+       - search for learning hyper-parameters (threshold T=???, ...)
+       - search for inference hyper-parameters (threshold T=???, ...)
+       - evaluate with best hyper-parameters 
+    - compare all for F1 and runtime inference performance
+ - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
+    - Aigents (baseline - out-of-the-box) - average of 3 F1-s across 3 spilts
+    - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
+    - compare all for F1
