@@ -35,10 +35,10 @@
 # Plan
 - Binary dataset (3)
   - Full dataset evaluation
-    - <u>Aigents (baseline - out-of-the-box)</u>
+    - Aigents (baseline - out-of-the-box) - **DONE**
       - search for inference hyper-parameters (threshold T=0.4, function=avg)
-    - <u>LLM llama32</u>
-    - <u>LLM qwen2</u>
+    - LLM llama32 - **DONE**
+    - LLM qwen2 - **DONE**
     - Aigents (overfitting - same full dataset for test and train)
        - search for learning hyper-parameters
        - search for inference hyper-parameters
