@@ -45,10 +45,10 @@
        - evaluate with best hyper-parameters
     - compare all for F1 and runtime inference performance
  - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
-    - Aigents (baseline - out-of-the-box) - average of 3 F1-s across 3 spilts
-    - LLM llama32 - average of 3 F1-s across 3 spilts
-    - LLM qwen2 - average of 3 F1-s across 3 spilts
-    - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
+    - Aigents (baseline - out-of-the-box) - 3 values and average of 3 F1-s across 3 spilts
+    - LLM llama32 - 3 values and average of 3 F1-s across 3 spilts
+    - LLM qwen2 - 3 values and average of 3 F1-s across 3 spilts
+    - Aigents (3 splits - train on 2/3 and test on 1/3) - 3 values and average of 3 F1-s across 3 spilts
     - compare all for F1
 - Multi-class dataset (1)
   - Full dataset evaluation
