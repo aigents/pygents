@@ -54,6 +54,8 @@
   - Full dataset evaluation
     - Aigents (baseline - out-of-the-box)
       - search for inference hyper-parameters (threshold T=???, ...)
+    - LLM llama32 _Anton_
+    - LLM qwen2 _Anton_
     - Aigents (overfitting - same full dataset for test and train)
        - search for learning hyper-parameters (threshold T=???, ...)
        - search for inference hyper-parameters (threshold T=???, ...)
@@ -61,5 +63,7 @@
     - compare all for accuracy, average F1 (by class), weighted average F1 (by class, weighted by number of instances) and runtime inference performance
  - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
     - Aigents (baseline - out-of-the-box) - average of 3 F1-s across 3 spilts
+    - LLM llama32 _Anton_
+    - LLM qwen2 _Anton_
     - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
     - compare all for accuracy, average F1 (by class), weighted average F1 (by class, weighted by number of instances) and runtime inference performance
