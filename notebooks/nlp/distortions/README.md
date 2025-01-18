@@ -58,8 +58,8 @@
        - search for learning hyper-parameters (threshold T=???, ...)
        - search for inference hyper-parameters (threshold T=???, ...)
        - evaluate with best hyper-parameters 
-    - compare all for F1 and runtime inference performance
+    - compare all for accuracy, average F1, weighted average F1 (!!!???) and runtime inference performance
  - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
     - Aigents (baseline - out-of-the-box) - average of 3 F1-s across 3 spilts
     - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
-    - compare all for F1
+    - compare all for accuracy, average F1, weighted average F1 (!!!???)
