@@ -35,6 +35,8 @@
 # Plan
 - Binary dataset (3)
   - Full dataset evaluation
+    - Const(True) - **DONE**
+    - Random - **DONE**
     - Aigents (baseline - out-of-the-box) - **DONE**
       - search for inference hyper-parameters (threshold T=0.4, function=avg)
     - LLM llama32 - **DONE**
@@ -43,13 +45,15 @@
        - search for learning hyper-parameters
        - search for inference hyper-parameters
        - evaluate with best hyper-parameters
-    - compare all for F1 and runtime inference performance
+    - compare all for accuracy, F1 and runtime inference performance
  - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
-    - Aigents (baseline - out-of-the-box) - 3 values and average of 3 F1-s across 3 spilts
-    - LLM llama32 - 3 values and average of 3 F1-s across 3 spilts
-    - LLM qwen2 - 3 values and average of 3 F1-s across 3 spilts
+    - Const(True) - **DONE**
+    - Random - **DONE**
+    - Aigents (baseline - out-of-the-box) - 3 values and average of 3 F1-s across 3 spilts - **DONE**
+    - LLM llama32 - 3 values and average of 3 F1-s across 3 spilts - **DONE**
+    - LLM qwen2 - 3 values and average of 3 F1-s across 3 spilts - **DONE**
     - Aigents (3 splits - train on 2/3 and test on 1/3) - 3 values and average of 3 F1-s across 3 spilts
-    - compare all for F1
+    - compare all for accuracy and F1
 - Multi-class dataset (1)
   - Full dataset evaluation
     - Aigents (baseline - out-of-the-box)
