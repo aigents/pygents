@@ -33,7 +33,7 @@
   - _TODO_
  
 # Plan
-- Binary dataset (3)
+- Binary dataset (3 or 1? **- make sure - TODO**)
   - Full dataset evaluation
     - Const(True) - **DONE**
     - Random - **DONE**
