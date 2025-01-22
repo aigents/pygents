@@ -1,0 +1,73 @@
+# Corpora
+- 1 Binary https://huggingface.co/datasets/halilbabacan/autotrain-data-cognitive_distortions
+- 2 Multi-class https://www.kaggle.com/datasets/sagarikashreevastava/cognitive-distortion-detetction-dataset
+- 3 Binary+ (Binary + Multi-class as Binary)
+
+# Models
+- Our
+  - Based on our out-of-the box N-grams
+    - With different inference parameters
+      - Recognition threshold
+      - ...
+  - Based on learned N-grams
+    - With different learning parameters
+      - N (1-4) 
+      - Computation kernel formula
+      - Inclusion threshold
+      - ...
+    - With different inference parameters
+      - Recognition threshold
+      - ...
+- LLM
+  - "llama3.2"
+  - others from the list
+  - https://ollama.com/library
+  - Latest chatGPT?
+- Those found in other papers
+  - ...
+ 
+# Papers
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582307
+- https://aclanthology.org/2021.clpsych-1.17/
+- https://arxiv.org/pdf/1909.07502
+  - _TODO_
+ 
+# Plan
+- Binary dataset (3 or 1? **- make sure - TODO**)
+  - Full dataset evaluation
+    - Const(True) - **DONE**
+    - Random - **DONE**
+    - Aigents (baseline - out-of-the-box) - **DONE**
+      - search for inference hyper-parameters (threshold T=0.4, function=avg)
+    - LLM llama32 - **DONE**
+    - LLM qwen2 - **DONE**
+    - Aigents (overfitting - same full dataset for test and train)
+       - search for learning hyper-parameters
+       - search for inference hyper-parameters
+       - evaluate with best hyper-parameters
+    - compare all for accuracy, F1 and runtime inference performance
+ - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
+    - Const(True) - **DONE**
+    - Random - **DONE**
+    - Aigents (baseline - out-of-the-box) - 3 values and average of 3 F1-s across 3 spilts - **DONE**
+    - LLM llama32 - 3 values and average of 3 F1-s across 3 spilts - **DONE**
+    - LLM qwen2 - 3 values and average of 3 F1-s across 3 spilts - **DONE**
+    - Aigents (3 splits - train on 2/3 and test on 1/3) - 3 values and average of 3 F1-s across 3 spilts
+    - compare all for accuracy and F1
+- Multi-class dataset (1)
+  - Full dataset evaluation
+    - Aigents (baseline - out-of-the-box)
+      - search for inference hyper-parameters (threshold T=???, ...)
+    - LLM llama32 _Anton_
+    - LLM qwen2 _Anton_
+    - Aigents (overfitting - same full dataset for test and train)
+       - search for learning hyper-parameters (threshold T=???, ...)
+       - search for inference hyper-parameters (threshold T=???, ...)
+       - evaluate with best hyper-parameters 
+    - compare all for accuracy, average F1 (by class), weighted average F1 (by class, weighted by number of instances) and runtime inference performance
+ - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
+    - Aigents (baseline - out-of-the-box) - average of 3 F1-s across 3 spilts
+    - LLM llama32 _Anton_
+    - LLM qwen2 _Anton_
+    - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
+    - compare all for accuracy, average F1 (by class), weighted average F1 (by class, weighted by number of instances) and runtime inference performance
