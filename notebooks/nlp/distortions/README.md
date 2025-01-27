@@ -41,6 +41,7 @@
       - search for inference hyper-parameters (threshold T=0.4, function=avg)
     - LLM llama32 - **DONE**
     - LLM qwen2 - **DONE**
+    - LLM qwen2 - qwen2.5 7B/14B - TODO
     - Aigents (overfitting - same full dataset for test and train)
        - search for learning hyper-parameters
        - search for inference hyper-parameters
