@@ -44,6 +44,9 @@
     - LLM qwen2 - qwen2.5 7B/14B - **PROCESS**
     - Aigents (overfitting - same full dataset for test and train)
        - search for learning hyper-parameters
+         - formula: CFCF/.../"new_multinorm"
+         - threshold: 0.1-...-9.9
+         - Nmax: 1-4  
        - search for inference hyper-parameters
        - evaluate with best hyper-parameters
     - compare all for accuracy, F1 and runtime inference performance
