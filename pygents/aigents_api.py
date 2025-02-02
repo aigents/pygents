@@ -206,15 +206,19 @@ def build_ngrams(seq,N):
         items.append( tuple(seq[i:i+N]) )
     return items
 
-def load_ngrams(file,debug=False):
+def load_ngrams(file,encoding=None,debug=False):
     if file.lower().startswith('http'):
         lines = url_lines(file)
         if debug:
             print(lines[:100])
             print(len(lines))
     else:
-        with open(file) as f:
-            lines = f.readlines()
+        if encoding is None:
+            with open(file) as f:
+                lines = f.readlines()
+        else:
+            with open(file,encoding=encoding) as f:
+                lines = f.readlines()
     ngrams = [tuple(l.split()) for l in lines if len(l) > 0]
     return set(ngrams)
 
@@ -243,27 +247,27 @@ punct = "-—{([<})]>.,;:?$_.+!?*'\"\\/"
 
 class PygentsSentiment():
 
-    def __init__(self, positive_lexicon_file, negative_lexicon_file, sentiment_maximized=False, sentiment_logarithmic=True, tokenize_chars=False, debug=False):
+    def __init__(self, positive_lexicon_file, negative_lexicon_file, sentiment_maximized=False, sentiment_logarithmic=True, tokenize_chars=False, encoding=None, debug=False):
         self.sentiment_maximized = sentiment_maximized
         self.sentiment_logarithmic = sentiment_logarithmic
         self.gram_arity = 3
         self.scrub = set(scrub_en)
         self.punct = set(list(punct))
-        self.positives = self.to_set(positive_lexicon_file)
-        self.negatives = self.to_set(negative_lexicon_file)
+        self.positives = self.to_set(positive_lexicon_file,encoding)
+        self.negatives = self.to_set(negative_lexicon_file,encoding)
         self.tokenize_chars = tokenize_chars
         #TODO use unsupervised tokenization!!!!
         if self.tokenize_chars:  # for chinese
             self.positives = split_patterns(self.positives)
             self.negatives = split_patterns(self.negatives)
 
-    def to_set(self,arg):
+    def to_set(self,arg,encoding):
         if type(arg) == set:
             return arg
         elif type(arg) == list:
             return set(arg)
         elif type(arg) == str:
-            return load_ngrams(arg)
+            return load_ngrams(arg,encoding)
         return null
     
     def get_sentiment(self,text,context=None,debug=False):
@@ -352,7 +356,7 @@ class PygentsSentiment():
     
 
 class TextMetrics(PygentsSentiment):
-    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], debug=False):
+    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], encoding=None, debug=False):
         self.metric_logarithmic = metric_logarithmic
         self.tokenize_chars = tokenize_chars
         self.scrub = scrub
@@ -361,7 +365,7 @@ class TextMetrics(PygentsSentiment):
         self.metrics = {}
         for metric in metrics:
             #TODO use unsupervised tokenization!!!!
-            ngrams = self.to_set(metrics[metric])
+            ngrams = self.to_set(metrics[metric],encoding)
             if self.tokenize_chars: # for chinese
                 ngrams = split_patterns(ngrams)
             self.metrics[metric] = ngrams

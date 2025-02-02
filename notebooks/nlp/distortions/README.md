@@ -33,7 +33,7 @@
   - _TODO_
  
 # Plan
-- Binary dataset (3 or 1? **- make sure - TODO**)
+- Binary dataset 3 from two sources 1+2 (**TODO**)
   - Full dataset evaluation
     - Const(True) - **DONE**
     - Random - **DONE**
@@ -41,11 +41,16 @@
       - search for inference hyper-parameters (threshold T=0.4, function=avg)
     - LLM llama32 - **DONE**
     - LLM qwen2 - **DONE**
+    - LLM qwen2 - qwen2.5 7B/14B - **PROCESS**
     - Aigents (overfitting - same full dataset for test and train)
        - search for learning hyper-parameters
+         - formula: CFCF/.../"new_multinorm"
+         - threshold: 0.1-...-9.9
+         - Nmax: 1-4  
        - search for inference hyper-parameters
        - evaluate with best hyper-parameters
     - compare all for accuracy, F1 and runtime inference performance
+ - Tidy-up and publish new data set???
  - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
     - Const(True) - **DONE**
     - Random - **DONE**
