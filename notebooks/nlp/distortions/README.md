@@ -50,7 +50,7 @@
        - search for inference hyper-parameters
        - evaluate with best hyper-parameters
     - compare all for accuracy, F1 and runtime inference performance
- - Tidy-up and publish new data set???
+ - Tidy-up and publish new data set and create and publish new CLEAN model (based on non-split full dataset) - AFTER all experiments run???
  - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
     - Const(True) - **DONE**
     - Random - **DONE**
