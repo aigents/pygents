@@ -219,7 +219,8 @@ def load_ngrams(file,encoding=None,debug=False):
         else:
             with open(file,encoding=encoding) as f:
                 lines = f.readlines()
-    ngrams = [tuple(l.split()) for l in lines if len(l) > 0]
+    #ngrams = [tuple(l.split()) for l in lines if len(l) > 0]
+    ngrams = [tuple(l.split('\t')[0].split()) for l in lines if len(l) > 0]
     return set(ngrams)
 
 def split_pattern(pat):
