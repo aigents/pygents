@@ -42,23 +42,29 @@
     - LLM llama32 - **DONE**
     - LLM qwen2 - **DONE**
     - LLM qwen2 - qwen2.5 7B/14B - **DONE**
-    - Aigents (overfitting - same full dataset for test and train) **PROGRESS**
+    - Aigents (overfitting - same full dataset for test and train) **DONE**
        - search for learning hyper-parameters
          - formula: CFCF/.../"new_multinorm"
          - threshold: 0.1-...-9.9
          - Nmax: 1-4  
        - search for inference hyper-parameters
        - evaluate with best hyper-parameters
-    - Aigents (overfitting + new model) **PROGRESS**
-    - compare all for accuracy, F1 and runtime inference performance **PROGRESS**
+    - Aigents (overfitting + new model) **DONE**
+    - compare all for accuracy, F1 and runtime inference performance **DONE**
  - Cross-validation (3 * 2/3:1/3, with the best hyper-parameters)
     - Const(True) - **DONE**
     - Random - **DONE**
     - Aigents (baseline - out-of-the-box) - 3 values and average of 3 F1-s across 3 spilts - **DONE**
     - LLM llama32 - 3 values and average of 3 F1-s across 3 spilts - **DONE**
-    - LLM qwen2 - 3 values and average of 3 F1-s across 3 spilts - **DONE**
-    - Aigents (3 splits - train on 2/3 and test on 1/3) - 3 values and average of 3 F1-s across 3 spilts
-    - compare all for accuracy and F1
+    - LLM qwen2-2.5 - 3 values and average of 3 F1-s across 3 spilts - **DONE**
+    - Aigents (3 splits - train on 2/3 and test on 1/3) - 3 values and average of 3 F1-s across 3 spilts - (Anna) to provide numbers - TODO
+    - Aigents (model obtainedd with "overfitting") 3 values and average of 3 F1-s across 3 spilts - TODO (Anton)
+    - Aigents (model obtainedd with "overfitting" AFTER edition of JUNK) 3 values and average of 3 F1-s across 3 spilts - TODO (Anton) ???? 
+    - compare all for accuracy and F1 - TODO
+ - Prepare "reproducibility notebooks" (must be run without of extternal dependencies)
+   - Model Learning Notebook (1 or 4, based on last PR from Anna)
+   - Model Final Inferenes with Comparisons (1, based on distortions_joint_binary + distortions_llm from Anton)  
+ - ------- ?????
  - Explore use/filtering punctuation?
  - Explore "weigting" N-grams when classifying
  - Tidy-up and publish new data set and create and publish new CLEAN model (based on non-split full dataset) - AFTER all experiments run???
