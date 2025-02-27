@@ -92,7 +92,7 @@ pickleshare==0.7.5
 pillow==10.3.0
 plotly==5.7.0
 pluggy==1.0.0
-polyglot==16.7.4
+#polyglot==16.7.4
 prometheus-client==0.13.1
 prompt-toolkit==3.0.28
 protobuf==3.20.1
@@ -100,7 +100,7 @@ psutil==5.9.0
 ptyprocess==0.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycld2==0.41
+#pycld2==0.41
 pycparser==2.21
 pydot==1.4.2
 Pygments==2.11.2
