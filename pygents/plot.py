@@ -52,6 +52,17 @@ def plot_dict(dic,labels,values,title=None,head=None):
     if title is not None:
         plt.title(title)
 
+def plot_dict_bars(dic,labels,values,title=None,head=None,dim=(8,5)):
+    df = pd.DataFrame([(key, dic[key]) for key in dic],columns=[labels,values])
+    #df.sort_values(values,ascending=False,inplace=True)
+    if head is not None:
+        df = df[:head]
+    if not dim is None:
+        plt.rcParams["figure.figsize"] = dim
+    p = df[[labels,values]].plot.bar(x=labels); #p.invert_yaxis();
+    if title is not None:
+        plt.title(title)
+
 def plot_profile_probabilities(counters,text,max_n,plot=True,debug=False):
     df = pd.DataFrame(profile_probabilities(counters,text,max_n,debug=debug),columns=['pos','char','p+','p-'])
     #print(df)
