@@ -4,15 +4,18 @@ import matplotlib.pyplot as plt
 
 from pygents.text import *
 
-def matrix_plot(row_labels, col_labels, matrix, absmax, title = None, vmin = None, vmax = None):
-    plt.rcParams["figure.figsize"] = (20,len(row_labels)/4)
+def matrix_plot(row_labels, col_labels, matrix, absmax, title = None, vmin = None, vmax = None, dpi = None, titlefontsize = None, width = 20):
+    plt.rcParams["figure.figsize"] = (width,len(row_labels)/4)
+    if not dpi is None:
+        plt.rcParams["figure.dpi"] = dpi
     p = sns.heatmap(matrix, xticklabels=col_labels, yticklabels=row_labels, 
                     vmin = -absmax if vmin is None else vmin, 
                     vmax = absmax if vmax is None else vmax, 
                     cmap='RdYlGn', annot=True)
     if title is not None:
-        fontsize = 32 if len(title) < 50 else round(32 * 50 / len(title))
-        p.set_title(title,fontsize = fontsize)
+        if titlefontsize is None:
+            titlefontsize = 32 if len(title) < 50 else round(32 * 50 / len(title))
+        p.set_title(title,fontsize = titlefontsize)
     plt.show()
 
 def plot_profile(df,text,h=3,title=None):
