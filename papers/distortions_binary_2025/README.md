@@ -4,7 +4,8 @@
     2. TBD Anna
     3. TBD Anna
     4. TBD Anna
-    5. comparing_models.ipynb - final evaluation and presentation of results
+    5. comparing_llms.ipynb - running evaluation using LLM models
+    6. comparing_models.ipynb - final evaluation and presentation of results
 2. Source files
     1. a_api.py - model processing code
     2. plot.py - plotting utilities
