@@ -26,11 +26,21 @@
 - Those found in other papers
   - ...
  
-# Papers
-- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582307
-- https://aclanthology.org/2021.clpsych-1.17/
+# Related Papers
+- https://www.computer.org/csdl/proceedings-article/ichi/2017/4881a508/12OmNBOCWjs
 - https://arxiv.org/pdf/1909.07502
-  - _TODO_
+- https://dr.ntu.edu.sg/bitstream/10356/89482/1/Identifying%20Cognitive%20Distortion%20by%20Convolutional%20Neural%20Network%20based%20Text%20Classification.pdf (no numerical results are provided)
+- https://dspace.ut.ee/server/api/core/bitstreams/e62a300f-c6d0-4020-baab-e4e70438a94d/content
+- Automated Detection of Cognitive Distortions in Text Exchanges Between Clinicians and People With Serious Mental Illness
+  - https://pubmed.ncbi.nlm.nih.gov/36164769/
+  - https://psychiatryonline.org/doi/10.1176/appi.ps.202100692
+  - Training BERT DNN (non-interpretable) => F1=0.62, AUC=0.83 
+- https://aclanthology.org/2021.clpsych-1.17.pdf (we use their dataset)
+  - https://aclanthology.org/2021.clpsych-1.17/
+- https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2022.1045777/full
+- https://www.cse.iitb.ac.in/~pb/papers/ecir23-clinical-conversation.pdf
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582307
+- _TODO_
  
 # Plan
 - Binary dataset 3 from two sources 1+2 (**TODO**)
@@ -85,16 +95,3 @@
     - LLM qwen2 _Anton_
     - Aigents (3 splits - train on 2/3 and test on 1/3) - average of 3 F1-s across 3 spilts
     - compare all for accuracy, average F1 (by class), weighted average F1 (by class, weighted by number of instances) and runtime inference performance
-
-# Similar works
-- https://www.computer.org/csdl/proceedings-article/ichi/2017/4881a508/12OmNBOCWjs
-- https://arxiv.org/pdf/1909.07502
-- https://dr.ntu.edu.sg/bitstream/10356/89482/1/Identifying%20Cognitive%20Distortion%20by%20Convolutional%20Neural%20Network%20based%20Text%20Classification.pdf (no numerical results are provided)
-- https://dspace.ut.ee/server/api/core/bitstreams/e62a300f-c6d0-4020-baab-e4e70438a94d/content
-- Automated Detection of Cognitive Distortions in Text Exchanges Between Clinicians and People With Serious Mental Illness
-  - https://pubmed.ncbi.nlm.nih.gov/36164769/
-  - https://psychiatryonline.org/doi/10.1176/appi.ps.202100692
-  - Training BERT DNN (non-interpretable) => F1=0.62, AUC=0.83 
-- https://aclanthology.org/2021.clpsych-1.17.pdf (we use their dataset)
-- https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2022.1045777/full
-- https://www.cse.iitb.ac.in/~pb/papers/ecir23-clinical-conversation.pdf
