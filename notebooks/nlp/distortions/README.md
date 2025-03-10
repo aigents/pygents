@@ -34,7 +34,7 @@
 - Automated Detection of Cognitive Distortions in Text Exchanges Between Clinicians and People With Serious Mental Illness
   - https://pubmed.ncbi.nlm.nih.gov/36164769/
   - https://psychiatryonline.org/doi/10.1176/appi.ps.202100692
-  - Training BERT DNN (non-interpretable) => F1=0.62, AUC=0.83 
+  - Fine-tuning BERT DNN (non-interpretable, compared to LR and SVM) => F1=0.62, AUC=0.83 
 - https://aclanthology.org/2021.clpsych-1.17.pdf (we use their dataset)
   - https://aclanthology.org/2021.clpsych-1.17/
 - https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2022.1045777/full
