@@ -6684,9 +6684,3 @@ the tiniest thing to	0.5
 tiniest thing to set	0.5
 thing to set me	0.5
 to set me off	0.5
-, and i know	0.42857142857142855
-i know that’s	0.4
-right ,	0.4
-be ,	0.4
-, but i find	0.4
-person i should	0.4

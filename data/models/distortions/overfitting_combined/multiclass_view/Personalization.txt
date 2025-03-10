@@ -10889,11 +10889,3 @@ to make him believe	0.5
 make him believe in	0.5
 him believe in me	0.5
 believe in me .	0.5
-fault .	0.42857142857142855
-because she’s	0.4
-her and the	0.4
-hand ,	0.4
-by myself .	0.4
-right ,	0.4
-fault ,	0.4
-, and i still	0.4

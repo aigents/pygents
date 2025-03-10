@@ -14682,15 +14682,3 @@ dislike me and judge	0.5
 me and judge me	0.5
 and judge me all	0.5
 judge me all the	0.5
-about me ,	0.45454545454545453
-, or if	0.4
-assume	0.4
-things , and	0.4
-i believe she	0.4
-around and i	0.4
-i feel .	0.4
-suggestion	0.4
-, but this is	0.4
-person , he	0.4
-. i told him	0.4
-my son .	0.4
