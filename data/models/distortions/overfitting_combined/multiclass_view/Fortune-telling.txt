@@ -8407,18 +8407,3 @@ i cannot even describe	0.5
 cannot even describe how	0.5
 even describe how i	0.5
 describe how i feel	0.5
-insane .	0.42857142857142855
-to because i	0.4
-. i’m afraid	0.4
-bad will	0.4
-something bad will	0.4
-bad will happen	0.4
-something bad will happen	0.4
-be worth	0.4
-not be worth	0.4
-be worth it	0.4
-not be worth it	0.4
-, i’m afraid	0.4
-fear .	0.4
-her one	0.4
-one day ,	0.4

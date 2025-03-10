@@ -11822,14 +11822,3 @@ alone but even so	0.5
 but even so i	0.5
 even so i want	0.5
 want to be isolated	0.5
-her , i	0.42857142857142855
-on he	0.42857142857142855
-normal , but	0.4
-, usually	0.4
-a boring	0.4
-, either	0.4
-like this ,	0.4
-inside he	0.4
-pathetic	0.4
-different .	0.4
-. and now	0.4

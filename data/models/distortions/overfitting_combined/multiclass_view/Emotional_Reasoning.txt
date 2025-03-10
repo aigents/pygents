@@ -8746,9 +8746,3 @@ be going crazy or	0.5
 going crazy or something	0.5
 it scares me so	0.5
 scares me so much	0.5
-for no reason .	0.42857142857142855
-moment .	0.4
-. i’m afraid	0.4
-ive had	0.4
-with it ,	0.4
-, out	0.4

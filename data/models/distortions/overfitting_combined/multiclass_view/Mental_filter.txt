@@ -9784,13 +9784,3 @@ even threatens suicide on	0.5
 threatens suicide on more	0.5
 suicide on more serious	0.5
 on more serious outbursts	0.5
-, about	0.4444444444444444
-like that ,	0.4
-always do	0.4
-i always do	0.4
-mad or	0.4
-anxiety , and	0.4
-all day ,	0.4
-disappointment to	0.4
-disappointment to my	0.4
-things , and	0.4

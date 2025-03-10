@@ -15846,9 +15846,3 @@ they make fun of	0.5
 make fun of this	0.5
 fun of this every	0.5
 of this every time	0.5
-stress ,	0.42857142857142855
-away and i	0.4
-give up .	0.4
-play it	0.4
-time i developed	0.4
-kill someone .	0.4

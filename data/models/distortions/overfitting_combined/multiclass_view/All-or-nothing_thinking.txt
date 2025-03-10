@@ -8488,4 +8488,3 @@ that i keep losing	0.5
 i keep losing everyone	0.5
 keep losing everyone i	0.5
 losing everyone i love	0.5
-give up .	0.4
