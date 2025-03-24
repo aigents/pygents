@@ -186,7 +186,7 @@ class ASentiment():
     def get_sentiment_words(self,input_text,pc=None,nc=None,rounding=2,debug=False):
         """
         See original reference implementation:
-        https://github.com/aigents/aigents-java/blob/master/src/main/java/net/webstructor/data/LangPack.java#L355
+        Anonymized
         """
         if input_text is None or len(input_text) < 1:
             return 0, 0, 0
