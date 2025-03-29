@@ -1,0 +1,29 @@
+be	1.0
+fine	1.0
+will be	1.0
+be fine	1.0
+it will be	1.0
+will be fine	1.0
+is	1.0
+a	1.0
+tree	1.0
+it is	1.0
+is a	1.0
+a tree	1.0
+it is a	1.0
+is a tree	1.0
+like	1.0
+to	1.0
+dance	1.0
+i like	1.0
+like to	1.0
+to dance	1.0
+i like to	1.0
+like to dance	1.0
+sing	1.0
+we like	1.0
+to sing	1.0
+we like to	1.0
+like to sing	1.0
+will dance	1.0
+i will dance	1.0

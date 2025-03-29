@@ -45,7 +45,7 @@ def plot_bars(df,labels,values,title=None,fontsize=None):
         fontsize = 32 if len(title) < 50 else round(32 * 50 / len(title))
         plt.title(title,fontsize = fontsize)
 
-def plot_dict(dic,labels,values,title=None,head=None):
+def plot_dict(dic,labels,values,title=None,head=None,fontsize=None):
     df = pd.DataFrame([(key, dic[key]) for key in dic],columns=[labels,values])
     df.sort_values(values,ascending=False,inplace=True)
     if head is not None:
@@ -53,7 +53,10 @@ def plot_dict(dic,labels,values,title=None,head=None):
     plt.rcParams["figure.figsize"] = (20,round(len(df)/5))
     p = df[[labels,values]].plot.barh(x=labels); p.invert_yaxis();
     if title is not None:
-        plt.title(title)
+        if not fontsize is None: 
+            plt.title(title,fontsize = fontsize)
+        else:
+            plt.title(title)
 
 def plot_dict_bars(dic,labels,values,title=None,head=None,dim=(8,5)):
     df = pd.DataFrame([(key, dic[key]) for key in dic],columns=[labels,values])

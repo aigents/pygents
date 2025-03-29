@@ -1,0 +1,34 @@
+fail	1.0
+will fail	1.0
+it will fail	1.0
+myself	1.0
+fail myself	1.0
+i will fail	1.0
+will fail myself	1.0
+because	1.0
+of	1.0
+we will	1.0
+fail because	1.0
+because of	1.0
+of myself	1.0
+we will fail	1.0
+will fail because	1.0
+fail because of	1.0
+because of myself	1.0
+am	1.0
+stupid	1.0
+i am	1.0
+am stupid	1.0
+stupid myself	1.0
+i am stupid	1.0
+am stupid myself	1.0
+are	1.0
+idiots	1.0
+including	1.0
+we are	1.0
+are idiots	1.0
+idiots including	1.0
+including myself	1.0
+we are idiots	1.0
+are idiots including	1.0
+idiots including myself	1.0
