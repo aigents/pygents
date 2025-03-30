@@ -9,7 +9,7 @@ from a_api import tokenize_re, punct, build_ngrams
 punct = punct + "”“–&•"
 
 
-def count_ngrams_basic(df, n_max: int, binary = False):
+def count_ngrams_basic(df, n_max: int, binary = False, clean_punct=True):
 
     distortions = defaultdict(int)
 
@@ -37,7 +37,7 @@ def count_ngrams_basic(df, n_max: int, binary = False):
             dictcount(distortions,secondary_distortion)
         
         # Text tokenization
-        tokens = [t for t in tokenize_re(text) if not (t in punct or t.isnumeric())]
+        tokens = [t for t in tokenize_re(text) if not (t in punct or t.isnumeric())] if clean_punct else tokenize_re(text)
 
         # Generation and counting of n-grams (from 1 to 4)
         for n in range(1, n_max + 1):
@@ -91,10 +91,10 @@ def count_ngrams_basic(df, n_max: int, binary = False):
     norm_uniq_n_gram_dicts, n_gram_distortions_counts
 
 
-def count_ngrams_plus(df, n_max: int, binary = False):
+def count_ngrams_plus(df, n_max: int, binary = False, clean_punct=True):
     N = len(df)
     distortions, n_gram_dicts, all_n_grams, norm_n_gram_dicts, uniq_n_gram_dicts, uniq_all_n_grams, n_gram_distortions, \
-    norm_uniq_n_gram_dicts, n_gram_distortions_counts = count_ngrams_basic(df, n_max, binary = binary)
+    norm_uniq_n_gram_dicts, n_gram_distortions_counts = count_ngrams_basic(df, n_max, binary = binary, clean_punct=clean_punct)
 
     norm = dictdict_div_dict(n_gram_dicts,all_n_grams)
     norm_uniq = dictdict_div_dict(uniq_n_gram_dicts,uniq_all_n_grams)
