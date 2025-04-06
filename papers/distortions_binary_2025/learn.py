@@ -6,8 +6,6 @@ from collections import defaultdict
 from util import dictcount, dict_compress_with_loss, dictdict_div_dict, dictdict_mul_dictdict
 from a_api import tokenize_re, punct, build_ngrams
 
-punct = punct + "”“–&•"
-
 
 def count_ngrams_basic(df, n_max: int, binary = False, clean_punct=True):
 

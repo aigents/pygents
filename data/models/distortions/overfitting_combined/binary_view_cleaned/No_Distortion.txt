@@ -11706,7 +11706,7 @@ follow some	1.0
 some teenage	1.0
 teenage female	1.0
 female actressesdancerssingersmodels	1.0
-actressesdancerssingersmodels …	1.0
+actressesdancerssingersmodels on	1.0
 instagram and	1.0
 i fantasize	1.0
 fantasize sexual	1.0
@@ -11770,9 +11770,8 @@ i follow some	1.0
 follow some teenage	1.0
 some teenage female	1.0
 teenage female actressesdancerssingersmodels	1.0
-female actressesdancerssingersmodels …	1.0
-actressesdancerssingersmodels … on	1.0
-… on instagram	1.0
+female actressesdancerssingersmodels on	1.0
+actressesdancerssingersmodels on instagram	1.0
 on instagram and	1.0
 instagram and something	1.0
 something else i	1.0
@@ -18435,8 +18434,7 @@ in overdrive	1.0
 overdrive i	1.0
 it’s winter	1.0
 winter blues	1.0
-blues …	1.0
-… cold	1.0
+blues cold	1.0
 cold clouds	1.0
 clouds and	1.0
 and rain	1.0
@@ -18502,9 +18500,8 @@ overdrive i don’t	1.0
 don’t think it’s	1.0
 think it’s winter	1.0
 it’s winter blues	1.0
-winter blues …	1.0
-blues … cold	1.0
-… cold clouds	1.0
+winter blues cold	1.0
+blues cold clouds	1.0
 cold clouds and	1.0
 clouds and rain	1.0
 and rain don’t	1.0
@@ -21335,8 +21332,6 @@ highest risk	1.0
 risk for	1.0
 for men	1.0
 men this	1.0
-is #	1.0
-# the	1.0
 the was	1.0
 was story	1.0
 story only	1.0
@@ -21412,9 +21407,7 @@ highest risk for	1.0
 risk for men	1.0
 for men this	1.0
 men this is	1.0
-this is #	1.0
-is # the	1.0
-# the was	1.0
+is the was	1.0
 the was story	1.0
 was story only	1.0
 story only gave	1.0
@@ -27913,7 +27906,6 @@ then her	1.0
 her sister	1.0
 sister moved	1.0
 in with	1.0
-us on	1.0
 a temporary	1.0
 temporary note	1.0
 note and	1.0
@@ -63866,7 +63858,6 @@ dets	1.0
 condescending	1.0
 mdd/ptsd	1.0
 available	1.0
-… personally	1.0
 personally identifiable	1.0
 identifiable medical	1.0
 medical detailed	1.0
@@ -64166,7 +64157,6 @@ available apt	1.0
 apt is	1.0
 is months	1.0
 from now	1.0
-… personally identifiable	1.0
 personally identifiable medical	1.0
 identifiable medical detailed	1.0
 medical detailed financial	1.0
@@ -119469,8 +119459,6 @@ devil in	1.0
 head sparking	1.0
 sparking up	1.0
 overly mad	1.0
-about …	1.0
-… this	1.0
 even scratching	1.0
 scratching the	1.0
 surface of	1.0
@@ -119644,9 +119632,8 @@ thing to get	1.0
 to get overly	1.0
 get overly mad	1.0
 overly mad about	1.0
-mad about …	1.0
-about … this	1.0
-… this is	1.0
+mad about this	1.0
+about this is	1.0
 is not even	1.0
 not even scratching	1.0
 even scratching the	1.0
@@ -129496,7 +129483,6 @@ female actresses	1.0
 actresses dancers	1.0
 dancers singers	1.0
 singers models	1.0
-models …	1.0
 them acting	1.0
 acting dancing	1.0
 dancing sexy	1.0
@@ -129504,8 +129490,7 @@ teenage female actresses	1.0
 female actresses dancers	1.0
 actresses dancers singers	1.0
 dancers singers models	1.0
-singers models …	1.0
-models … on	1.0
+singers models on	1.0
 imagine them acting	1.0
 them acting dancing	1.0
 acting dancing sexy	1.0
