@@ -8,6 +8,13 @@ sad clinically depressed i	1.0
 clinically depressed i rode	1.0
 depressed i rode a	1.0
 i rode a bike	1.0
+am all	1.0
+i am all	1.0
+am all i	1.0
+even says i am	1.0
+says i am all	1.0
+i am all i	1.0
+am all i think	1.0
 j	1.0
 with j	1.0
 j d	1.0
@@ -67,6 +74,13 @@ of superiority over i	1.0
 superiority over i think	1.0
 over i think the	1.0
 i think the main	1.0
+together every	1.0
+life together every	1.0
+together every time	1.0
+my life together every	1.0
+life together every time	1.0
+together every time i	1.0
+every time i do	1.0
 think like that	1.0
 like that so	1.0
 that so i	1.0
@@ -80,6 +94,29 @@ think like that so	1.0
 like that so i	1.0
 that so i tend	1.0
 so i tend to	1.0
+fast it	0.6666666666666666
+am highly	0.5
+highly disorganized	0.5
+disorganized i’m	0.5
+i am highly	0.5
+am highly disorganized	0.5
+highly disorganized i’m	0.5
+disorganized i’m concerned	0.5
+i’m concerned with	0.5
+concerned with being	0.5
+with being diagnosed	0.5
+with schizophrenia or	0.5
+i am highly disorganized	0.5
+am highly disorganized i’m	0.5
+highly disorganized i’m concerned	0.5
+disorganized i’m concerned with	0.5
+i’m concerned with being	0.5
+concerned with being diagnosed	0.5
+with being diagnosed with	0.5
+being diagnosed with schizophrenia	0.5
+diagnosed with schizophrenia or	0.5
+with schizophrenia or something	0.5
+schizophrenia or something like	0.5
 whole-heartedly	0.5
 babe	0.5
 valentines	0.5
@@ -921,6 +958,173 @@ myself nothing excites me	0.5
 nothing excites me nothing	0.5
 excites me nothing to	0.5
 me nothing to look	0.5
+licence	0.5
+meet new	0.5
+people anymore	0.5
+on finding	0.5
+girlfriend mainly	0.5
+mainly cause	0.5
+it needs	0.5
+done bc	0.5
+feel i’m	0.5
+holding her	0.5
+even says	0.5
+about everyday	0.5
+everyday is	0.5
+my pro	0.5
+pro licence	0.5
+licence but	0.5
+worse if	0.5
+that’s possible	0.5
+won’t kill	0.5
+how to meet	0.5
+to meet new	0.5
+meet new people	0.5
+new people anymore	0.5
+people anymore i	0.5
+even know where	0.5
+to start on	0.5
+start on finding	0.5
+on finding a	0.5
+finding a new	0.5
+a new girlfriend	0.5
+new girlfriend mainly	0.5
+girlfriend mainly cause	0.5
+mainly cause i	0.5
+cause i don’t	0.5
+like it needs	0.5
+it needs to	0.5
+be done bc	0.5
+done bc i	0.5
+bc i feel	0.5
+i feel i’m	0.5
+feel i’m holding	0.5
+i’m holding her	0.5
+holding her back	0.5
+her back and	0.5
+back and she	0.5
+she even says	0.5
+even says i	0.5
+think about everyday	0.5
+about everyday is	0.5
+everyday is what	0.5
+is what do	0.5
+live for i	0.5
+for i want	0.5
+get my pro	0.5
+my pro licence	0.5
+pro licence but	0.5
+licence but i	0.5
+have the drive	0.5
+drive to do	0.5
+do it all	0.5
+want is my	0.5
+is my life	0.5
+my life to	0.5
+life to end	0.5
+to end and	0.5
+end and most	0.5
+and most days	0.5
+days i feel	0.5
+don’t do it	0.5
+do it myself	0.5
+it myself my	0.5
+myself my life	0.5
+life will just	0.5
+get worse if	0.5
+worse if that’s	0.5
+if that’s possible	0.5
+that’s possible i	0.5
+possible i won’t	0.5
+i won’t kill	0.5
+won’t kill myself	0.5
+even know how to	0.5
+know how to meet	0.5
+how to meet new	0.5
+to meet new people	0.5
+meet new people anymore	0.5
+new people anymore i	0.5
+people anymore i don’t	0.5
+anymore i don’t even	0.5
+don’t even know where	0.5
+even know where to	0.5
+where to start on	0.5
+to start on finding	0.5
+start on finding a	0.5
+on finding a new	0.5
+finding a new girlfriend	0.5
+a new girlfriend mainly	0.5
+new girlfriend mainly cause	0.5
+girlfriend mainly cause i	0.5
+mainly cause i don’t	0.5
+cause i don’t want	0.5
+to but i feel	0.5
+feel like it needs	0.5
+like it needs to	0.5
+it needs to be	0.5
+to be done bc	0.5
+be done bc i	0.5
+done bc i feel	0.5
+bc i feel i’m	0.5
+i feel i’m holding	0.5
+feel i’m holding her	0.5
+i’m holding her back	0.5
+holding her back and	0.5
+her back and she	0.5
+back and she even	0.5
+and she even says	0.5
+she even says i	0.5
+i think about everyday	0.5
+think about everyday is	0.5
+about everyday is what	0.5
+everyday is what do	0.5
+is what do i	0.5
+do i have to	0.5
+i have to live	0.5
+have to live for	0.5
+to live for i	0.5
+live for i want	0.5
+for i want to	0.5
+want to get my	0.5
+to get my pro	0.5
+get my pro licence	0.5
+my pro licence but	0.5
+pro licence but i	0.5
+licence but i don’t	0.5
+but i don’t even	0.5
+don’t even have the	0.5
+even have the drive	0.5
+have the drive to	0.5
+the drive to do	0.5
+drive to do it	0.5
+to do it all	0.5
+do it all i	0.5
+it all i want	0.5
+i want is my	0.5
+want is my life	0.5
+is my life to	0.5
+my life to end	0.5
+life to end and	0.5
+to end and most	0.5
+end and most days	0.5
+and most days i	0.5
+most days i feel	0.5
+days i feel like	0.5
+like if i don’t	0.5
+i don’t do it	0.5
+don’t do it myself	0.5
+do it myself my	0.5
+it myself my life	0.5
+myself my life will	0.5
+my life will just	0.5
+life will just get	0.5
+just get worse if	0.5
+get worse if that’s	0.5
+worse if that’s possible	0.5
+if that’s possible i	0.5
+that’s possible i won’t	0.5
+possible i won’t kill	0.5
+i won’t kill myself	0.5
 belly	0.5
 always all	0.5
 laws belly	0.5
@@ -1046,6 +1250,7 @@ spiraling into	0.5
 of despair	0.5
 despair because	0.5
 cannot enjoy	0.5
+enjoy what	0.5
 the birds	0.5
 birds the	0.5
 trees the	0.5
@@ -1327,6 +1532,122 @@ all the time are	0.5
 the time are really	0.5
 time are really haunting	0.5
 are really haunting me	0.5
+kid again	0.5
+as weird	0.5
+weird as	0.5
+that sounds	0.5
+sounds i’m	0.5
+everyday something	0.5
+new is	0.5
+get that	0.5
+people age	0.5
+be a kid	0.5
+a kid again	0.5
+kid again as	0.5
+again as weird	0.5
+as weird as	0.5
+weird as that	0.5
+as that sounds	0.5
+that sounds i’m	0.5
+sounds i’m just	0.5
+really worried about	0.5
+about her everyday	0.5
+her everyday something	0.5
+everyday something new	0.5
+something new is	0.5
+new is wrong	0.5
+i get that	0.5
+get that people	0.5
+that people age	0.5
+as if she’s trying	0.5
+she’s trying to be	0.5
+trying to be a	0.5
+to be a kid	0.5
+be a kid again	0.5
+a kid again as	0.5
+kid again as weird	0.5
+again as weird as	0.5
+as weird as that	0.5
+weird as that sounds	0.5
+as that sounds i’m	0.5
+that sounds i’m just	0.5
+sounds i’m just really	0.5
+just really worried about	0.5
+really worried about her	0.5
+worried about her everyday	0.5
+about her everyday something	0.5
+her everyday something new	0.5
+everyday something new is	0.5
+something new is wrong	0.5
+new is wrong and	0.5
+wrong and i get	0.5
+and i get that	0.5
+i get that people	0.5
+get that people age	0.5
+bad bc	0.5
+bc she	0.5
+doesn’t eat	0.5
+eat sometimes	0.5
+big health	0.5
+problem or	0.5
+or mental	0.5
+mental issue	0.5
+about something will	0.5
+will happen to	0.5
+happen to her	0.5
+her so bad	0.5
+so bad bc	0.5
+bad bc she	0.5
+bc she doesn’t	0.5
+she doesn’t eat	0.5
+doesn’t eat sometimes	0.5
+eat sometimes i	0.5
+think she will	0.5
+get a big	0.5
+a big health	0.5
+big health problem	0.5
+health problem or	0.5
+problem or mental	0.5
+or mental issue	0.5
+mental issue and	0.5
+trying to think	0.5
+about how can	0.5
+can i deal	0.5
+stop thinking about something	0.5
+thinking about something will	0.5
+about something will happen	0.5
+something will happen to	0.5
+will happen to her	0.5
+happen to her so	0.5
+to her so bad	0.5
+her so bad bc	0.5
+so bad bc she	0.5
+bad bc she doesn’t	0.5
+bc she doesn’t eat	0.5
+she doesn’t eat sometimes	0.5
+doesn’t eat sometimes i	0.5
+eat sometimes i think	0.5
+i think she will	0.5
+think she will get	0.5
+she will get a	0.5
+will get a big	0.5
+get a big health	0.5
+a big health problem	0.5
+big health problem or	0.5
+health problem or mental	0.5
+problem or mental issue	0.5
+or mental issue and	0.5
+mental issue and i	0.5
+issue and i am	0.5
+and i am trying	0.5
+am trying to think	0.5
+trying to think about	0.5
+to think about how	0.5
+think about how can	0.5
+about how can i	0.5
+how can i deal	0.5
+can i deal with	0.5
+i deal with it	0.5
 been many	0.5
 more situations	0.5
 an environment	0.5
@@ -1748,6 +2069,130 @@ find anyone to see	0.5
 anyone to see me	0.5
 to see me anytime	0.5
 see me anytime soon	0.5
+betrayed lonely	0.5
+lonely boring	0.5
+and flat	0.5
+flat to	0.5
+i questioned	0.5
+questioned our	0.5
+relationship everyday	0.5
+me anxiety	0.5
+i felt betrayed	0.5
+felt betrayed lonely	0.5
+betrayed lonely boring	0.5
+lonely boring and	0.5
+boring and flat	0.5
+and flat to	0.5
+flat to him	0.5
+him i questioned	0.5
+i questioned our	0.5
+questioned our relationship	0.5
+our relationship everyday	0.5
+relationship everyday and	0.5
+everyday and it	0.5
+and it gave	0.5
+gave me anxiety	0.5
+i felt betrayed lonely	0.5
+felt betrayed lonely boring	0.5
+betrayed lonely boring and	0.5
+lonely boring and flat	0.5
+boring and flat to	0.5
+and flat to him	0.5
+flat to him i	0.5
+to him i questioned	0.5
+him i questioned our	0.5
+i questioned our relationship	0.5
+questioned our relationship everyday	0.5
+our relationship everyday and	0.5
+relationship everyday and it	0.5
+everyday and it gave	0.5
+and it gave me	0.5
+it gave me anxiety	0.5
+safely	0.5
+delivery	0.5
+am relieved	0.5
+relieved it	0.5
+went safely	0.5
+safely for	0.5
+cannot overcome	0.5
+and jealousy	0.5
+jealousy i	0.5
+baby cause	0.5
+bear hearing	0.5
+hearing any	0.5
+the easy	0.5
+easy delivery	0.5
+delivery comments	0.5
+comments and	0.5
+and first	0.5
+first boy	0.5
+boy comments	0.5
+i am relieved	0.5
+am relieved it	0.5
+relieved it all	0.5
+it all went	0.5
+all went safely	0.5
+went safely for	0.5
+safely for them	0.5
+i cannot overcome	0.5
+cannot overcome this	0.5
+overcome this feeling	0.5
+feeling of sadness	0.5
+sadness and jealousy	0.5
+and jealousy i	0.5
+jealousy i don’t	0.5
+and see the	0.5
+see the baby	0.5
+the baby cause	0.5
+baby cause i	0.5
+cause i cannot	0.5
+i cannot bear	0.5
+cannot bear hearing	0.5
+bear hearing any	0.5
+hearing any of	0.5
+of the easy	0.5
+the easy delivery	0.5
+easy delivery comments	0.5
+delivery comments and	0.5
+comments and first	0.5
+and first boy	0.5
+first boy comments	0.5
+i am relieved it	0.5
+am relieved it all	0.5
+relieved it all went	0.5
+it all went safely	0.5
+all went safely for	0.5
+went safely for them	0.5
+safely for them but	0.5
+them but i cannot	0.5
+but i cannot overcome	0.5
+i cannot overcome this	0.5
+cannot overcome this feeling	0.5
+overcome this feeling of	0.5
+this feeling of sadness	0.5
+feeling of sadness and	0.5
+of sadness and jealousy	0.5
+sadness and jealousy i	0.5
+and jealousy i don’t	0.5
+jealousy i don’t even	0.5
+to go and see	0.5
+go and see the	0.5
+and see the baby	0.5
+see the baby cause	0.5
+the baby cause i	0.5
+baby cause i cannot	0.5
+cause i cannot bear	0.5
+i cannot bear hearing	0.5
+cannot bear hearing any	0.5
+bear hearing any of	0.5
+hearing any of the	0.5
+any of the easy	0.5
+of the easy delivery	0.5
+the easy delivery comments	0.5
+easy delivery comments and	0.5
+delivery comments and first	0.5
+comments and first boy	0.5
+and first boy comments	0.5
 9-month-old	0.5
 day with	0.5
 my 9-month-old	0.5
@@ -2198,6 +2643,7 @@ was spent crying	0.5
 spent crying and	0.5
 i did go	0.5
 did go through	0.5
+go through a	0.5
 through a period	0.5
 period of cutting	0.5
 of cutting self-harm	0.5
@@ -2327,6 +2773,372 @@ and never have one	0.5
 never have one thing	0.5
 have one thing to	0.5
 one thing to say	0.5
+spark	0.5
+happy future	0.5
+to zero	0.5
+zero friends	0.5
+friends ever	0.5
+quit drinking	0.5
+and drugs	0.5
+drugs i’m	0.5
+always worrying	0.5
+matter i	0.5
+who broke	0.5
+heart over	0.5
+over ten	0.5
+love very	0.5
+much lives	0.5
+lives on	0.5
+decent girl	0.5
+the spark	0.5
+spark or	0.5
+hold conversations	0.5
+frankly i’m	0.5
+alone without	0.5
+a happy future	0.5
+happy future ahead	0.5
+don’t enjoy my	0.5
+enjoy my job	0.5
+my job i	0.5
+i have close	0.5
+have close to	0.5
+close to zero	0.5
+to zero friends	0.5
+zero friends ever	0.5
+friends ever since	0.5
+i quit drinking	0.5
+quit drinking and	0.5
+drinking and drugs	0.5
+and drugs i’m	0.5
+drugs i’m always	0.5
+i’m always worrying	0.5
+always worrying about	0.5
+worrying about things	0.5
+about things that	0.5
+that don’t even	0.5
+don’t even matter	0.5
+even matter i	0.5
+matter i still	0.5
+about the girl	0.5
+the girl who	0.5
+girl who broke	0.5
+who broke my	0.5
+my heart over	0.5
+heart over ten	0.5
+over ten years	0.5
+ten years ago	0.5
+ago my brother	0.5
+brother who i	0.5
+who i love	0.5
+i love very	0.5
+love very much	0.5
+very much lives	0.5
+much lives on	0.5
+lives on the	0.5
+country i don’t	0.5
+where to meet	0.5
+meet a decent	0.5
+a decent girl	0.5
+decent girl that	0.5
+i could start	0.5
+could start a	0.5
+family with i	0.5
+with i don’t	0.5
+have the spark	0.5
+the spark or	0.5
+spark or motivation	0.5
+motivation to hold	0.5
+to hold conversations	0.5
+hold conversations with	0.5
+conversations with people	0.5
+have very little	0.5
+very little interest	0.5
+in many of	0.5
+to enjoy doing	0.5
+enjoy doing and	0.5
+doing and frankly	0.5
+and frankly i’m	0.5
+frankly i’m afraid	0.5
+die alone without	0.5
+alone without a	0.5
+without a family	0.5
+like i have a	0.5
+i have a happy	0.5
+have a happy future	0.5
+a happy future ahead	0.5
+happy future ahead of	0.5
+ahead of me i	0.5
+of me i don’t	0.5
+me i don’t enjoy	0.5
+i don’t enjoy my	0.5
+don’t enjoy my job	0.5
+enjoy my job i	0.5
+my job i have	0.5
+job i have close	0.5
+i have close to	0.5
+have close to zero	0.5
+close to zero friends	0.5
+to zero friends ever	0.5
+zero friends ever since	0.5
+friends ever since i	0.5
+ever since i quit	0.5
+since i quit drinking	0.5
+i quit drinking and	0.5
+quit drinking and drugs	0.5
+drinking and drugs i’m	0.5
+and drugs i’m always	0.5
+drugs i’m always worrying	0.5
+i’m always worrying about	0.5
+always worrying about things	0.5
+worrying about things that	0.5
+about things that don’t	0.5
+things that don’t even	0.5
+that don’t even matter	0.5
+don’t even matter i	0.5
+even matter i still	0.5
+matter i still think	0.5
+i still think about	0.5
+still think about the	0.5
+think about the girl	0.5
+about the girl who	0.5
+the girl who broke	0.5
+girl who broke my	0.5
+who broke my heart	0.5
+broke my heart over	0.5
+my heart over ten	0.5
+heart over ten years	0.5
+over ten years ago	0.5
+ten years ago my	0.5
+years ago my brother	0.5
+ago my brother who	0.5
+my brother who i	0.5
+brother who i love	0.5
+who i love very	0.5
+i love very much	0.5
+love very much lives	0.5
+very much lives on	0.5
+much lives on the	0.5
+lives on the other	0.5
+side of the country	0.5
+of the country i	0.5
+the country i don’t	0.5
+country i don’t know	0.5
+know where to meet	0.5
+where to meet a	0.5
+to meet a decent	0.5
+meet a decent girl	0.5
+a decent girl that	0.5
+decent girl that i	0.5
+girl that i could	0.5
+that i could start	0.5
+i could start a	0.5
+could start a family	0.5
+start a family with	0.5
+a family with i	0.5
+family with i don’t	0.5
+with i don’t have	0.5
+don’t have the spark	0.5
+have the spark or	0.5
+the spark or motivation	0.5
+spark or motivation to	0.5
+or motivation to hold	0.5
+motivation to hold conversations	0.5
+to hold conversations with	0.5
+hold conversations with people	0.5
+conversations with people i	0.5
+with people i have	0.5
+people i have very	0.5
+i have very little	0.5
+have very little interest	0.5
+very little interest in	0.5
+little interest in many	0.5
+interest in many of	0.5
+in many of the	0.5
+many of the things	0.5
+of the things i	0.5
+the things i used	0.5
+used to enjoy doing	0.5
+to enjoy doing and	0.5
+enjoy doing and frankly	0.5
+doing and frankly i’m	0.5
+and frankly i’m afraid	0.5
+frankly i’m afraid that	0.5
+going to die alone	0.5
+to die alone without	0.5
+die alone without a	0.5
+alone without a family	0.5
+self-sabotage	0.5
+constantly does	0.5
+to self-sabotage	0.5
+self-sabotage and	0.5
+helping himself	0.5
+no hope he	0.5
+hope he constantly	0.5
+he constantly does	0.5
+constantly does things	0.5
+does things to	0.5
+things to self-sabotage	0.5
+to self-sabotage and	0.5
+self-sabotage and is	0.5
+is not helping	0.5
+not helping himself	0.5
+is no hope he	0.5
+no hope he constantly	0.5
+hope he constantly does	0.5
+he constantly does things	0.5
+constantly does things to	0.5
+does things to self-sabotage	0.5
+things to self-sabotage and	0.5
+to self-sabotage and is	0.5
+self-sabotage and is not	0.5
+and is not helping	0.5
+is not helping himself	0.5
+mind now	0.5
+things except	0.5
+except harming	0.5
+harming thoughts	0.5
+can’t stop these	0.5
+stop these thoughts	0.5
+these thoughts i	0.5
+thoughts i feel	0.5
+that i’m losing	0.5
+my mind now	0.5
+mind now i	0.5
+can’t think about	0.5
+think about any	0.5
+about any other	0.5
+any other things	0.5
+other things except	0.5
+things except harming	0.5
+except harming thoughts	0.5
+i can’t stop these	0.5
+can’t stop these thoughts	0.5
+stop these thoughts i	0.5
+these thoughts i feel	0.5
+thoughts i feel that	0.5
+feel that i’m losing	0.5
+that i’m losing my	0.5
+losing my mind now	0.5
+my mind now i	0.5
+mind now i can’t	0.5
+now i can’t think	0.5
+i can’t think about	0.5
+can’t think about any	0.5
+think about any other	0.5
+about any other things	0.5
+any other things except	0.5
+other things except harming	0.5
+things except harming thoughts	0.5
+–think	0.5
+fear–	0.5
+time…my	0.5
+nothing i’ve	0.5
+i’ve to	0.5
+up –think	0.5
+–think to	0.5
+do take	0.5
+step for	0.5
+career or	0.5
+feel fear–	0.5
+fear– the	0.5
+of nothing	0.5
+where this	0.5
+fear in	0.5
+in came	0.5
+from and	0.5
+feared a	0.5
+lot every	0.5
+every time…my	0.5
+time…my all	0.5
+day went	0.5
+went like	0.5
+now and nothing	0.5
+and nothing i’ve	0.5
+nothing i’ve to	0.5
+i’ve to do	0.5
+get up –think	0.5
+up –think to	0.5
+–think to do	0.5
+to do take	0.5
+do take a	0.5
+take a step	0.5
+a step for	0.5
+step for my	0.5
+for my career	0.5
+my career or	0.5
+career or anything	0.5
+i feel fear–	0.5
+feel fear– the	0.5
+fear– the fear	0.5
+fear of nothing	0.5
+of nothing i	0.5
+nothing i don’t	0.5
+know where this	0.5
+where this fear	0.5
+this fear in	0.5
+fear in came	0.5
+in came from	0.5
+came from and	0.5
+from and why	0.5
+and why i	0.5
+why i feared	0.5
+i feared a	0.5
+feared a lot	0.5
+a lot every	0.5
+lot every time…my	0.5
+every time…my all	0.5
+time…my all day	0.5
+all day went	0.5
+day went like	0.5
+went like this	0.5
+i’m now and nothing	0.5
+now and nothing i’ve	0.5
+and nothing i’ve to	0.5
+nothing i’ve to do	0.5
+i’ve to do with	0.5
+do with my life	0.5
+with my life when	0.5
+life when i get	0.5
+when i get up	0.5
+i get up –think	0.5
+get up –think to	0.5
+up –think to do	0.5
+–think to do take	0.5
+to do take a	0.5
+do take a step	0.5
+take a step for	0.5
+a step for my	0.5
+step for my career	0.5
+for my career or	0.5
+my career or anything	0.5
+career or anything i	0.5
+or anything i feel	0.5
+anything i feel fear–	0.5
+i feel fear– the	0.5
+feel fear– the fear	0.5
+fear– the fear of	0.5
+the fear of nothing	0.5
+fear of nothing i	0.5
+of nothing i don’t	0.5
+nothing i don’t know	0.5
+don’t know where this	0.5
+know where this fear	0.5
+where this fear in	0.5
+this fear in came	0.5
+fear in came from	0.5
+in came from and	0.5
+came from and why	0.5
+from and why i	0.5
+and why i feared	0.5
+why i feared a	0.5
+i feared a lot	0.5
+feared a lot every	0.5
+a lot every time…my	0.5
+lot every time…my all	0.5
+every time…my all day	0.5
+time…my all day went	0.5
+all day went like	0.5
+day went like this	0.5
 cinema	0.5
 can lose	0.5
 lose some	0.5
@@ -2680,6 +3492,7 @@ shock and i went	0.5
 and i went through	0.5
 i went through a	0.5
 went through a lot	0.5
+through a lot of	0.5
 a lot of pain	0.5
 lot of pain two	0.5
 of pain two months	0.5
@@ -2795,6 +3608,68 @@ even simple things i	0.5
 simple things i know	0.5
 things i know don’t	0.5
 i know don’t matter	0.5
+w/my	0.5
+depression where	0.5
+tell from	0.5
+bad day	0.5
+overly angry	0.5
+at little	0.5
+pick fights	0.5
+fights w/my	0.5
+w/my spouse	0.5
+i have periods	0.5
+periods of rage	0.5
+and depression where	0.5
+depression where i	0.5
+where i can	0.5
+can tell from	0.5
+tell from the	0.5
+from the moment	0.5
+moment i wake	0.5
+wake up that	0.5
+up that it	0.5
+a bad day	0.5
+bad day i	0.5
+day i get	0.5
+i get overly	0.5
+get overly angry	0.5
+overly angry at	0.5
+angry at little	0.5
+at little things	0.5
+things and pick	0.5
+and pick fights	0.5
+pick fights w/my	0.5
+fights w/my spouse	0.5
+i have periods of	0.5
+have periods of rage	0.5
+periods of rage and	0.5
+rage and depression where	0.5
+and depression where i	0.5
+depression where i can	0.5
+where i can tell	0.5
+i can tell from	0.5
+can tell from the	0.5
+tell from the moment	0.5
+from the moment i	0.5
+the moment i wake	0.5
+moment i wake up	0.5
+i wake up that	0.5
+wake up that it	0.5
+up that it is	0.5
+that it is going	0.5
+be a bad day	0.5
+a bad day i	0.5
+bad day i get	0.5
+day i get overly	0.5
+i get overly angry	0.5
+get overly angry at	0.5
+overly angry at little	0.5
+angry at little things	0.5
+at little things and	0.5
+little things and pick	0.5
+things and pick fights	0.5
+and pick fights w/my	0.5
+pick fights w/my spouse	0.5
 pregnant but	0.5
 it’s giving	0.5
 me major	0.5
@@ -2824,6 +3699,162 @@ feeling and it’s giving	0.5
 and it’s giving me	0.5
 it’s giving me major	0.5
 giving me major anxiety	0.5
+abrasive	0.5
+though recently	0.5
+been hating	0.5
+hating social	0.5
+interaction and	0.5
+completely numb	0.5
+numb in	0.5
+i’m either	0.5
+either aggressive	0.5
+aggressive numb	0.5
+or randomly	0.5
+randomly anxious	0.5
+anxious that	0.5
+too distant	0.5
+distant or	0.5
+too abrasive	0.5
+though recently i’ve	0.5
+i’ve been hating	0.5
+been hating social	0.5
+hating social interaction	0.5
+social interaction and	0.5
+interaction and have	0.5
+and have felt	0.5
+have felt completely	0.5
+felt completely numb	0.5
+completely numb in	0.5
+numb in general	0.5
+general so i’m	0.5
+so i’m either	0.5
+i’m either aggressive	0.5
+either aggressive numb	0.5
+aggressive numb or	0.5
+numb or randomly	0.5
+or randomly anxious	0.5
+randomly anxious that	0.5
+anxious that i’m	0.5
+i’m being too	0.5
+being too distant	0.5
+too distant or	0.5
+distant or too	0.5
+or too abrasive	0.5
+though recently i’ve been	0.5
+recently i’ve been hating	0.5
+i’ve been hating social	0.5
+been hating social interaction	0.5
+hating social interaction and	0.5
+social interaction and have	0.5
+interaction and have felt	0.5
+and have felt completely	0.5
+have felt completely numb	0.5
+felt completely numb in	0.5
+completely numb in general	0.5
+numb in general so	0.5
+in general so i’m	0.5
+general so i’m either	0.5
+so i’m either aggressive	0.5
+i’m either aggressive numb	0.5
+either aggressive numb or	0.5
+aggressive numb or randomly	0.5
+numb or randomly anxious	0.5
+or randomly anxious that	0.5
+randomly anxious that i’m	0.5
+anxious that i’m being	0.5
+that i’m being too	0.5
+i’m being too distant	0.5
+being too distant or	0.5
+too distant or too	0.5
+distant or too abrasive	0.5
+since adolescence	0.5
+adolescence went	0.5
+therapy then	0.5
+then even	0.5
+spent some	0.5
+history but	0.5
+still so	0.5
+could barely	0.5
+then we started	0.5
+started talking about	0.5
+about my past	0.5
+my past i’ve	0.5
+past i’ve been	0.5
+been depressed since	0.5
+depressed since adolescence	0.5
+since adolescence went	0.5
+adolescence went to	0.5
+to therapy then	0.5
+therapy then even	0.5
+then even spent	0.5
+even spent some	0.5
+spent some time	0.5
+some time in	0.5
+hospital and she	0.5
+and she tried	0.5
+tried to go	0.5
+go through all	0.5
+of my history	0.5
+my history but	0.5
+history but i	0.5
+was still so	0.5
+still so anxious	0.5
+so anxious that	0.5
+anxious that i	0.5
+i could barely	0.5
+could barely talk	0.5
+barely talk to	0.5
+try to calm	0.5
+to calm me	0.5
+then we started talking	0.5
+we started talking about	0.5
+started talking about my	0.5
+talking about my past	0.5
+about my past i’ve	0.5
+my past i’ve been	0.5
+past i’ve been depressed	0.5
+i’ve been depressed since	0.5
+been depressed since adolescence	0.5
+depressed since adolescence went	0.5
+since adolescence went to	0.5
+adolescence went to therapy	0.5
+went to therapy then	0.5
+to therapy then even	0.5
+therapy then even spent	0.5
+then even spent some	0.5
+even spent some time	0.5
+spent some time in	0.5
+some time in the	0.5
+time in the hospital	0.5
+the hospital and she	0.5
+hospital and she tried	0.5
+and she tried to	0.5
+she tried to go	0.5
+tried to go through	0.5
+to go through all	0.5
+go through all of	0.5
+through all of my	0.5
+all of my history	0.5
+of my history but	0.5
+my history but i	0.5
+history but i was	0.5
+but i was still	0.5
+i was still so	0.5
+was still so anxious	0.5
+still so anxious that	0.5
+so anxious that i	0.5
+anxious that i could	0.5
+that i could barely	0.5
+i could barely talk	0.5
+could barely talk to	0.5
+barely talk to her	0.5
+to her and she	0.5
+her and she didn’t	0.5
+she didn’t even try	0.5
+didn’t even try to	0.5
+even try to calm	0.5
+try to calm me	0.5
+to calm me down	0.5
 onerous	0.5
 this onerous	0.5
 onerous task	0.5
@@ -3009,6 +4040,7 @@ ocd i’ve	0.5
 i’ve cycled	0.5
 cycled through	0.5
 several obsessions	0.5
+obsessions which	0.5
 deeply depressed	0.5
 suicidal managed	0.5
 over cancer	0.5
@@ -3210,6 +4242,47 @@ or i ruminate about	0.5
 i ruminate about it	0.5
 ruminate about it in	0.5
 about it in my	0.5
+cant go	0.5
+on much	0.5
+much longer	0.5
+longer and	0.5
+need medical	0.5
+medical attention	0.5
+attention let	0.5
+alone getting	0.5
+i cant go	0.5
+cant go on	0.5
+go on much	0.5
+on much longer	0.5
+much longer and	0.5
+longer and i	0.5
+way of finding	0.5
+of finding out	0.5
+finding out if	0.5
+i need medical	0.5
+need medical attention	0.5
+medical attention let	0.5
+attention let alone	0.5
+let alone getting	0.5
+alone getting any	0.5
+like i cant go	0.5
+i cant go on	0.5
+cant go on much	0.5
+go on much longer	0.5
+on much longer and	0.5
+much longer and i	0.5
+longer and i have	0.5
+no way of finding	0.5
+way of finding out	0.5
+of finding out if	0.5
+finding out if i	0.5
+out if i need	0.5
+if i need medical	0.5
+i need medical attention	0.5
+need medical attention let	0.5
+medical attention let alone	0.5
+attention let alone getting	0.5
+let alone getting any	0.5
 amd	0.5
 experiencing hallucinations	0.5
 and delusions	0.5
@@ -3567,6 +4640,229 @@ just that my mind	0.5
 that my mind can’t	0.5
 my mind can’t quite	0.5
 mind can’t quite comprehend	0.5
+ignorant	0.5
+self-diagnosing	0.5
+be offensive	0.5
+offensive stupid	0.5
+stupid ignorant	0.5
+ignorant and	0.5
+not self-diagnosing	0.5
+self-diagnosing myself	0.5
+myself either	0.5
+obsession has	0.5
+has lasted	0.5
+lasted alot	0.5
+alot longer	0.5
+other recent	0.5
+recent obsessions	0.5
+which usually	0.5
+usually last	0.5
+last only	0.5
+days or	0.5
+or months	0.5
+to be offensive	0.5
+be offensive stupid	0.5
+offensive stupid ignorant	0.5
+stupid ignorant and	0.5
+ignorant and i’m	0.5
+i’m not self-diagnosing	0.5
+not self-diagnosing myself	0.5
+self-diagnosing myself either	0.5
+myself either i	0.5
+either i feel	0.5
+like this obsession	0.5
+this obsession has	0.5
+obsession has lasted	0.5
+has lasted alot	0.5
+lasted alot longer	0.5
+alot longer than	0.5
+longer than my	0.5
+than my other	0.5
+my other recent	0.5
+other recent obsessions	0.5
+recent obsessions which	0.5
+obsessions which usually	0.5
+which usually last	0.5
+usually last only	0.5
+last only a	0.5
+only a couple	0.5
+couple days or	0.5
+days or months	0.5
+not trying to be	0.5
+trying to be offensive	0.5
+to be offensive stupid	0.5
+be offensive stupid ignorant	0.5
+offensive stupid ignorant and	0.5
+stupid ignorant and i’m	0.5
+ignorant and i’m not	0.5
+and i’m not self-diagnosing	0.5
+i’m not self-diagnosing myself	0.5
+not self-diagnosing myself either	0.5
+self-diagnosing myself either i	0.5
+myself either i feel	0.5
+either i feel like	0.5
+feel like this obsession	0.5
+like this obsession has	0.5
+this obsession has lasted	0.5
+obsession has lasted alot	0.5
+has lasted alot longer	0.5
+lasted alot longer than	0.5
+alot longer than my	0.5
+longer than my other	0.5
+than my other recent	0.5
+my other recent obsessions	0.5
+other recent obsessions which	0.5
+recent obsessions which usually	0.5
+obsessions which usually last	0.5
+which usually last only	0.5
+usually last only a	0.5
+last only a couple	0.5
+only a couple days	0.5
+a couple days or	0.5
+couple days or months	0.5
+thought running	0.5
+things wrong	0.5
+judged for	0.5
+i pick	0.5
+and hair	0.5
+hair until	0.5
+face and/or	0.5
+and/or cuticles	0.5
+cuticles bleed	0.5
+i continuously	0.5
+continuously feel	0.5
+feel bored	0.5
+bored and	0.5
+excited or	0.5
+or aroused	0.5
+things anymore	0.5
+anymore despite	0.5
+never being	0.5
+issue before	0.5
+have thought running	0.5
+thought running through	0.5
+running through my	0.5
+through my head	0.5
+me that people	0.5
+that people don’t	0.5
+people don’t like	0.5
+am doing things	0.5
+doing things wrong	0.5
+things wrong and	0.5
+wrong and am	0.5
+and am being	0.5
+am being judged	0.5
+being judged for	0.5
+judged for them	0.5
+for them i	0.5
+am scared to	0.5
+to say things	0.5
+say things for	0.5
+things for fear	0.5
+fear that people	0.5
+people will be	0.5
+will be upset	0.5
+be upset i	0.5
+upset i pick	0.5
+i pick at	0.5
+pick at my	0.5
+my skin and	0.5
+skin and hair	0.5
+and hair until	0.5
+hair until my	0.5
+until my face	0.5
+my face and/or	0.5
+face and/or cuticles	0.5
+and/or cuticles bleed	0.5
+cuticles bleed i	0.5
+bleed i continuously	0.5
+i continuously feel	0.5
+continuously feel bored	0.5
+feel bored and	0.5
+bored and numb	0.5
+numb i feel	0.5
+get excited or	0.5
+excited or aroused	0.5
+or aroused by	0.5
+aroused by things	0.5
+by things anymore	0.5
+things anymore despite	0.5
+anymore despite that	0.5
+despite that never	0.5
+that never being	0.5
+never being an	0.5
+being an issue	0.5
+an issue before	0.5
+i have thought running	0.5
+have thought running through	0.5
+thought running through my	0.5
+running through my head	0.5
+through my head telling	0.5
+head telling me that	0.5
+telling me that people	0.5
+me that people don’t	0.5
+that people don’t like	0.5
+people don’t like me	0.5
+don’t like me and	0.5
+like me and that	0.5
+that i am doing	0.5
+i am doing things	0.5
+am doing things wrong	0.5
+doing things wrong and	0.5
+things wrong and am	0.5
+wrong and am being	0.5
+and am being judged	0.5
+am being judged for	0.5
+being judged for them	0.5
+judged for them i	0.5
+for them i am	0.5
+them i am scared	0.5
+i am scared to	0.5
+am scared to say	0.5
+scared to say things	0.5
+to say things for	0.5
+say things for fear	0.5
+things for fear that	0.5
+for fear that people	0.5
+fear that people will	0.5
+that people will be	0.5
+people will be upset	0.5
+will be upset i	0.5
+be upset i pick	0.5
+upset i pick at	0.5
+i pick at my	0.5
+pick at my skin	0.5
+at my skin and	0.5
+my skin and hair	0.5
+skin and hair until	0.5
+and hair until my	0.5
+hair until my face	0.5
+until my face and/or	0.5
+my face and/or cuticles	0.5
+face and/or cuticles bleed	0.5
+and/or cuticles bleed i	0.5
+cuticles bleed i continuously	0.5
+bleed i continuously feel	0.5
+i continuously feel bored	0.5
+continuously feel bored and	0.5
+feel bored and numb	0.5
+bored and numb i	0.5
+and numb i feel	0.5
+numb i feel as	0.5
+though i can’t get	0.5
+i can’t get excited	0.5
+can’t get excited or	0.5
+get excited or aroused	0.5
+excited or aroused by	0.5
+or aroused by things	0.5
+aroused by things anymore	0.5
+by things anymore despite	0.5
+things anymore despite that	0.5
+anymore despite that never	0.5
+despite that never being	0.5
+that never being an	0.5
+never being an issue	0.5
+being an issue before	0.5
 single problem	0.5
 once i start	0.5
 start thinking i	0.5
@@ -4038,6 +5334,7 @@ i feel that way	0.5
 feel that way but	0.5
 that way but sometimes	0.5
 way but sometimes i	0.5
+but sometimes i feel	0.5
 sometimes i feel horrible	0.5
 i feel horrible which	0.5
 feel horrible which is	0.5
@@ -5772,6 +7069,85 @@ a child-like state becoming	0.5
 child-like state becoming a	0.5
 state becoming a failure	0.5
 becoming a failure etc	0.5
+day-dreaming	0.5
+distancing	0.5
+ground…	0.5
+think somehow	0.5
+somehow things	0.5
+gone worse…	0.5
+worse… i	0.5
+any joy	0.5
+happy i’ve	0.5
+constantly day-dreaming	0.5
+day-dreaming and	0.5
+and distancing	0.5
+distancing myself	0.5
+reality a	0.5
+the ground…	0.5
+but this year	0.5
+year i think	0.5
+i think somehow	0.5
+think somehow things	0.5
+somehow things have	0.5
+things have gone	0.5
+have gone worse…	0.5
+gone worse… i	0.5
+worse… i don’t	0.5
+don’t find any	0.5
+find any joy	0.5
+any joy in	0.5
+joy in things	0.5
+me feel happy	0.5
+feel happy i’ve	0.5
+happy i’ve been	0.5
+i’ve been constantly	0.5
+been constantly day-dreaming	0.5
+constantly day-dreaming and	0.5
+day-dreaming and distancing	0.5
+and distancing myself	0.5
+distancing myself from	0.5
+myself from reality	0.5
+from reality a	0.5
+reality a lot	0.5
+lot my self-esteem	0.5
+self-esteem is on	0.5
+on the ground…	0.5
+but this year i	0.5
+this year i think	0.5
+year i think somehow	0.5
+i think somehow things	0.5
+think somehow things have	0.5
+somehow things have gone	0.5
+things have gone worse…	0.5
+have gone worse… i	0.5
+gone worse… i don’t	0.5
+worse… i don’t find	0.5
+i don’t find any	0.5
+don’t find any joy	0.5
+find any joy in	0.5
+any joy in things	0.5
+joy in things that	0.5
+in things that used	0.5
+that used to make	0.5
+used to make me	0.5
+make me feel happy	0.5
+me feel happy i’ve	0.5
+feel happy i’ve been	0.5
+happy i’ve been constantly	0.5
+i’ve been constantly day-dreaming	0.5
+been constantly day-dreaming and	0.5
+constantly day-dreaming and distancing	0.5
+day-dreaming and distancing myself	0.5
+and distancing myself from	0.5
+distancing myself from reality	0.5
+myself from reality a	0.5
+from reality a lot	0.5
+reality a lot my	0.5
+a lot my self-esteem	0.5
+lot my self-esteem is	0.5
+my self-esteem is on	0.5
+self-esteem is on the	0.5
+is on the ground…	0.5
 eighties	0.5
 precious	0.5
 terrible dread	0.5
@@ -6107,6 +7483,98 @@ get extremely irritated around	0.5
 extremely irritated around a	0.5
 irritated around a lot	0.5
 around a lot of	0.5
+dwell	0.5
+my soul	0.5
+soul leaves	0.5
+leaves my	0.5
+start having	0.5
+episode where	0.5
+i freak	0.5
+freak out	0.5
+i’m literally	0.5
+literally going	0.5
+die i’m	0.5
+i dwell	0.5
+dwell on	0.5
+of am	0.5
+actually alive	0.5
+alive or	0.5
+people and when	0.5
+like my soul	0.5
+my soul leaves	0.5
+soul leaves my	0.5
+leaves my body	0.5
+i start having	0.5
+start having an	0.5
+an episode where	0.5
+episode where i	0.5
+where i freak	0.5
+i freak out	0.5
+freak out and	0.5
+out and feel	0.5
+like i’m literally	0.5
+i’m literally going	0.5
+literally going to	0.5
+to die i’m	0.5
+die i’m so	0.5
+so scared all	0.5
+scared all the	0.5
+because i dwell	0.5
+i dwell on	0.5
+dwell on the	0.5
+on the thought	0.5
+thought of am	0.5
+of am i	0.5
+am i actually	0.5
+i actually alive	0.5
+actually alive or	0.5
+alive or not	0.5
+im afraid to talk	0.5
+to people and when	0.5
+people and when i’m	0.5
+and when i’m around	0.5
+i’m around people i	0.5
+around people i feel	0.5
+people i feel like	0.5
+feel like my soul	0.5
+like my soul leaves	0.5
+my soul leaves my	0.5
+soul leaves my body	0.5
+leaves my body and	0.5
+body and i start	0.5
+and i start having	0.5
+i start having an	0.5
+start having an episode	0.5
+having an episode where	0.5
+an episode where i	0.5
+episode where i freak	0.5
+where i freak out	0.5
+i freak out and	0.5
+freak out and feel	0.5
+out and feel like	0.5
+feel like i’m literally	0.5
+like i’m literally going	0.5
+i’m literally going to	0.5
+literally going to die	0.5
+going to die i’m	0.5
+to die i’m so	0.5
+die i’m so scared	0.5
+i’m so scared all	0.5
+so scared all the	0.5
+scared all the time	0.5
+all the time because	0.5
+the time because i	0.5
+time because i dwell	0.5
+because i dwell on	0.5
+i dwell on the	0.5
+dwell on the thought	0.5
+on the thought of	0.5
+the thought of am	0.5
+thought of am i	0.5
+of am i actually	0.5
+am i actually alive	0.5
+i actually alive or	0.5
+actually alive or not	0.5
 smoker	0.5
 i’m stressed	0.5
 also with	0.5
@@ -6351,6 +7819,96 @@ him get me an	0.5
 get me an uber	0.5
 me an uber ride	0.5
 an uber ride home	0.5
+bland	0.5
+can’t recognize	0.5
+recognize them	0.5
+do feels	0.5
+disconnected and	0.5
+and bland	0.5
+bland i	0.5
+enjoying something	0.5
+feel strongly	0.5
+strongly enough	0.5
+feeling a lot	0.5
+lot but not	0.5
+but not enough	0.5
+not enough at	0.5
+enough at the	0.5
+time i go	0.5
+lot of emotions	0.5
+of emotions but	0.5
+i can’t recognize	0.5
+can’t recognize them	0.5
+recognize them and	0.5
+lot of what	0.5
+i do feels	0.5
+do feels disconnected	0.5
+feels disconnected and	0.5
+disconnected and bland	0.5
+and bland i	0.5
+bland i don’t	0.5
+don’t enjoy what	0.5
+enjoy what i	0.5
+what i used	0.5
+used to and	0.5
+to and even	0.5
+and even when	0.5
+think i’m enjoying	0.5
+i’m enjoying something	0.5
+enjoying something i	0.5
+don’t feel strongly	0.5
+feel strongly enough	0.5
+strongly enough about	0.5
+enough about it	0.5
+been feeling a lot	0.5
+feeling a lot but	0.5
+a lot but not	0.5
+lot but not enough	0.5
+but not enough at	0.5
+not enough at the	0.5
+enough at the same	0.5
+same time i go	0.5
+time i go through	0.5
+i go through a	0.5
+go through a lot	0.5
+a lot of emotions	0.5
+lot of emotions but	0.5
+of emotions but i	0.5
+emotions but i can’t	0.5
+but i can’t recognize	0.5
+i can’t recognize them	0.5
+can’t recognize them and	0.5
+recognize them and a	0.5
+them and a lot	0.5
+a lot of what	0.5
+lot of what i	0.5
+of what i do	0.5
+what i do feels	0.5
+i do feels disconnected	0.5
+do feels disconnected and	0.5
+feels disconnected and bland	0.5
+disconnected and bland i	0.5
+and bland i don’t	0.5
+bland i don’t enjoy	0.5
+i don’t enjoy what	0.5
+don’t enjoy what i	0.5
+enjoy what i used	0.5
+what i used to	0.5
+i used to and	0.5
+used to and even	0.5
+to and even when	0.5
+and even when i	0.5
+even when i think	0.5
+when i think i’m	0.5
+i think i’m enjoying	0.5
+think i’m enjoying something	0.5
+i’m enjoying something i	0.5
+enjoying something i don’t	0.5
+something i don’t feel	0.5
+i don’t feel strongly	0.5
+don’t feel strongly enough	0.5
+feel strongly enough about	0.5
+strongly enough about it	0.5
 sirens	0.5
 lessened	0.5
 from bad	0.5
@@ -6573,6 +8131,41 @@ ago and it just	0.5
 and it just keeps	0.5
 it just keeps getting	0.5
 just keeps getting worse	0.5
+lowered	0.5
+shell	0.5
+my self-confidence	0.5
+self-confidence lowered	0.5
+lowered in	0.5
+like empty	0.5
+empty shell	0.5
+shell and	0.5
+completely worthless	0.5
+worthless as	0.5
+as human	0.5
+my self-confidence lowered	0.5
+self-confidence lowered in	0.5
+lowered in time	0.5
+in time and	0.5
+feel like empty	0.5
+like empty shell	0.5
+empty shell and	0.5
+shell and completely	0.5
+and completely worthless	0.5
+completely worthless as	0.5
+worthless as human	0.5
+my self-confidence lowered in	0.5
+self-confidence lowered in time	0.5
+lowered in time and	0.5
+in time and now	0.5
+and now i feel	0.5
+now i feel like	0.5
+i feel like empty	0.5
+feel like empty shell	0.5
+like empty shell and	0.5
+empty shell and completely	0.5
+shell and completely worthless	0.5
+and completely worthless as	0.5
+completely worthless as human	0.5
 amazing guy	0.5
 who obviously	0.5
 obviously loves	0.5
@@ -6634,6 +8227,7 @@ stolen from places	0.5
 from places and	0.5
 places and people	0.5
 and people and	0.5
+people and now	0.5
 and now sober	0.5
 now sober i	0.5
 sober i still	0.5
@@ -7066,6 +8660,63 @@ crying to screaming mad	0.5
 to screaming mad and	0.5
 screaming mad and scary	0.5
 mad and scary irritable	0.5
+controll	0.5
+doesn’t take	0.5
+take that	0.5
+cant controll	0.5
+controll anything	0.5
+have alot	0.5
+anxiety too	0.5
+can over	0.5
+over react	0.5
+very fast it	0.5
+fast it doesn’t	0.5
+it doesn’t take	0.5
+doesn’t take that	0.5
+take that much	0.5
+that much for	0.5
+me to want	0.5
+someone i cant	0.5
+i cant controll	0.5
+cant controll anything	0.5
+controll anything about	0.5
+anything about me	0.5
+i have alot	0.5
+have alot of	0.5
+of anxiety too	0.5
+anxiety too much	0.5
+much i can	0.5
+i can over	0.5
+can over react	0.5
+get angry very fast	0.5
+angry very fast it	0.5
+very fast it doesn’t	0.5
+fast it doesn’t take	0.5
+it doesn’t take that	0.5
+doesn’t take that much	0.5
+take that much for	0.5
+that much for me	0.5
+much for me to	0.5
+for me to want	0.5
+me to want to	0.5
+to want to kill	0.5
+want to kill someone	0.5
+kill someone i cant	0.5
+someone i cant controll	0.5
+i cant controll anything	0.5
+cant controll anything about	0.5
+controll anything about me	0.5
+anything about me i	0.5
+about me i have	0.5
+me i have alot	0.5
+i have alot of	0.5
+have alot of anxiety	0.5
+alot of anxiety too	0.5
+of anxiety too much	0.5
+anxiety too much i	0.5
+too much i can	0.5
+much i can over	0.5
+i can over react	0.5
 contemplated	0.5
 have contemplated	0.5
 contemplated suicide	0.5
@@ -7336,6 +8987,116 @@ nothing can give me	0.5
 can give me genuine	0.5
 give me genuine joy	0.5
 me genuine joy anymore	0.5
+describe-maybe	0.5
+tension	0.5
+head started	0.5
+started it’s	0.5
+to describe-maybe	0.5
+describe-maybe as	0.5
+enough sleep	0.5
+or like	0.5
+like tension	0.5
+tension i’m	0.5
+also nervous	0.5
+more clumsy	0.5
+clumsy than	0.5
+usual my	0.5
+my concentration	0.5
+concentration for	0.5
+for studying	0.5
+studying is	0.5
+is poor	0.5
+poor though	0.5
+do manage	0.5
+that’s when a	0.5
+when a weird	0.5
+weird feeling in	0.5
+my head started	0.5
+head started it’s	0.5
+started it’s difficult	0.5
+it’s difficult to	0.5
+difficult to describe-maybe	0.5
+to describe-maybe as	0.5
+describe-maybe as if	0.5
+get enough sleep	0.5
+enough sleep and	0.5
+and i sleep	0.5
+sleep more than	0.5
+than i used	0.5
+used to or	0.5
+to or like	0.5
+or like tension	0.5
+like tension i’m	0.5
+tension i’m also	0.5
+i’m also nervous	0.5
+also nervous and	0.5
+nervous and more	0.5
+and more clumsy	0.5
+more clumsy than	0.5
+clumsy than usual	0.5
+than usual my	0.5
+usual my concentration	0.5
+my concentration for	0.5
+concentration for studying	0.5
+for studying is	0.5
+studying is poor	0.5
+is poor though	0.5
+poor though i	0.5
+though i do	0.5
+i do manage	0.5
+do manage to	0.5
+manage to do	0.5
+that’s when a weird	0.5
+when a weird feeling	0.5
+a weird feeling in	0.5
+weird feeling in my	0.5
+in my head started	0.5
+my head started it’s	0.5
+head started it’s difficult	0.5
+started it’s difficult to	0.5
+it’s difficult to describe-maybe	0.5
+difficult to describe-maybe as	0.5
+to describe-maybe as if	0.5
+describe-maybe as if i	0.5
+as if i didn’t	0.5
+if i didn’t get	0.5
+i didn’t get enough	0.5
+didn’t get enough sleep	0.5
+get enough sleep and	0.5
+enough sleep and i	0.5
+sleep and i sleep	0.5
+and i sleep more	0.5
+i sleep more than	0.5
+sleep more than i	0.5
+more than i used	0.5
+than i used to	0.5
+i used to or	0.5
+used to or like	0.5
+to or like tension	0.5
+or like tension i’m	0.5
+like tension i’m also	0.5
+tension i’m also nervous	0.5
+i’m also nervous and	0.5
+also nervous and more	0.5
+nervous and more clumsy	0.5
+and more clumsy than	0.5
+more clumsy than usual	0.5
+clumsy than usual my	0.5
+than usual my concentration	0.5
+usual my concentration for	0.5
+my concentration for studying	0.5
+concentration for studying is	0.5
+for studying is poor	0.5
+studying is poor though	0.5
+is poor though i	0.5
+poor though i do	0.5
+though i do manage	0.5
+i do manage to	0.5
+do manage to do	0.5
+manage to do it	0.5
+to do it in	0.5
+do it in the	0.5
+it in the end	0.5
 got love	0.5
 love because	0.5
 esteem is	0.5
@@ -7366,6 +9127,106 @@ my self esteem is	0.5
 self esteem is gone	0.5
 esteem is gone way	0.5
 is gone way low	0.5
+bates	0.5
+navy	0.5
+about ending	0.5
+ending my	0.5
+family hates	0.5
+disappointment my	0.5
+dad isn’t	0.5
+life anymore	0.5
+she bates	0.5
+bates me	0.5
+the navy	0.5
+navy but	0.5
+like be	0.5
+be cares	0.5
+doesn’t i	0.5
+really can’t stop	0.5
+thinking about ending	0.5
+about ending my	0.5
+ending my life	0.5
+life my whole	0.5
+whole family hates	0.5
+family hates me	0.5
+hates me my	0.5
+me my mother	0.5
+mother says i’m	0.5
+says i’m a	0.5
+a disappointment my	0.5
+disappointment my dad	0.5
+my dad isn’t	0.5
+dad isn’t in	0.5
+isn’t in my	0.5
+my life anymore	0.5
+life anymore and	0.5
+anymore and my	0.5
+sister she bates	0.5
+she bates me	0.5
+bates me so	0.5
+so much my	0.5
+much my brother	0.5
+brother is in	0.5
+in the navy	0.5
+the navy but	0.5
+navy but he	0.5
+acts like be	0.5
+like be cares	0.5
+be cares about	0.5
+me when really	0.5
+when really doesn’t	0.5
+really doesn’t i	0.5
+doesn’t i can	0.5
+i really can’t stop	0.5
+really can’t stop thinking	0.5
+stop thinking about ending	0.5
+thinking about ending my	0.5
+about ending my life	0.5
+ending my life my	0.5
+my life my whole	0.5
+life my whole family	0.5
+my whole family hates	0.5
+whole family hates me	0.5
+family hates me my	0.5
+hates me my mother	0.5
+me my mother says	0.5
+my mother says i’m	0.5
+mother says i’m a	0.5
+says i’m a disappointment	0.5
+i’m a disappointment my	0.5
+a disappointment my dad	0.5
+disappointment my dad isn’t	0.5
+my dad isn’t in	0.5
+dad isn’t in my	0.5
+isn’t in my life	0.5
+in my life anymore	0.5
+my life anymore and	0.5
+life anymore and my	0.5
+anymore and my sister	0.5
+and my sister she	0.5
+my sister she bates	0.5
+sister she bates me	0.5
+she bates me so	0.5
+bates me so much	0.5
+me so much my	0.5
+so much my brother	0.5
+much my brother is	0.5
+my brother is in	0.5
+brother is in the	0.5
+is in the navy	0.5
+in the navy but	0.5
+the navy but he	0.5
+navy but he acts	0.5
+he acts like be	0.5
+acts like be cares	0.5
+like be cares about	0.5
+be cares about me	0.5
+cares about me when	0.5
+about me when really	0.5
+me when really doesn’t	0.5
+when really doesn’t i	0.5
+really doesn’t i can	0.5
+doesn’t i can tell	0.5
 great to	0.5
 hello my boyfriend	0.5
 boyfriend is great	0.5
@@ -7378,6 +9239,31 @@ boyfriend is great to	0.5
 is great to me	0.5
 great to me in	0.5
 to me in person	0.5
+worked on	0.5
+own sake	0.5
+sake because	0.5
+i worked on	0.5
+worked on myself	0.5
+on myself for	0.5
+myself for my	0.5
+my own sake	0.5
+own sake because	0.5
+sake because i	0.5
+because i realized	0.5
+realized i had	0.5
+had lost everything	0.5
+i worked on myself	0.5
+worked on myself for	0.5
+on myself for my	0.5
+myself for my own	0.5
+for my own sake	0.5
+my own sake because	0.5
+own sake because i	0.5
+sake because i realized	0.5
+because i realized i	0.5
+i realized i had	0.5
+realized i had lost	0.5
+i had lost everything	0.5
 all motivation	0.5
 becoming extremely	0.5
 extremely dull	0.5
@@ -7940,6 +9826,111 @@ on what i’m thinking	0.5
 what i’m thinking or	0.5
 i’m thinking or how	0.5
 thinking or how i’m	0.5
+penny	0.5
+which’d	0.5
+tails-up	0.5
+dreadful	0.5
+think things	0.5
+into being	0.5
+being see	0.5
+i’d caused	0.5
+grandfather by	0.5
+by picking	0.5
+picking up	0.5
+a penny	0.5
+penny which’d	0.5
+which’d been	0.5
+been facing	0.5
+facing tails-up	0.5
+tails-up when	0.5
+mother sent	0.5
+pictures she’d	0.5
+she’d taken	0.5
+taken i	0.5
+cried it	0.5
+a dreadful	0.5
+dreadful panic	0.5
+could think things	0.5
+think things into	0.5
+things into being	0.5
+into being see	0.5
+being see the	0.5
+see the future	0.5
+future and i’d	0.5
+and i’d caused	0.5
+i’d caused the	0.5
+the death of	0.5
+of my grandfather	0.5
+my grandfather by	0.5
+grandfather by picking	0.5
+by picking up	0.5
+picking up a	0.5
+up a penny	0.5
+a penny which’d	0.5
+penny which’d been	0.5
+which’d been facing	0.5
+been facing tails-up	0.5
+facing tails-up when	0.5
+tails-up when my	0.5
+my mother sent	0.5
+mother sent me	0.5
+sent me the	0.5
+me the pictures	0.5
+the pictures she’d	0.5
+pictures she’d taken	0.5
+she’d taken i	0.5
+taken i had	0.5
+anxiety i cried	0.5
+i cried it	0.5
+cried it was	0.5
+it was such	0.5
+such a dreadful	0.5
+a dreadful panic	0.5
+i could think things	0.5
+could think things into	0.5
+think things into being	0.5
+things into being see	0.5
+into being see the	0.5
+being see the future	0.5
+see the future and	0.5
+the future and i’d	0.5
+future and i’d caused	0.5
+and i’d caused the	0.5
+i’d caused the death	0.5
+caused the death of	0.5
+the death of my	0.5
+death of my grandfather	0.5
+of my grandfather by	0.5
+my grandfather by picking	0.5
+grandfather by picking up	0.5
+by picking up a	0.5
+picking up a penny	0.5
+up a penny which’d	0.5
+a penny which’d been	0.5
+penny which’d been facing	0.5
+which’d been facing tails-up	0.5
+been facing tails-up when	0.5
+facing tails-up when my	0.5
+tails-up when my mother	0.5
+when my mother sent	0.5
+my mother sent me	0.5
+mother sent me the	0.5
+sent me the pictures	0.5
+me the pictures she’d	0.5
+the pictures she’d taken	0.5
+pictures she’d taken i	0.5
+she’d taken i had	0.5
+taken i had so	0.5
+i had so much	0.5
+had so much anxiety	0.5
+so much anxiety i	0.5
+much anxiety i cried	0.5
+anxiety i cried it	0.5
+i cried it was	0.5
+cried it was such	0.5
+it was such a	0.5
+was such a dreadful	0.5
+such a dreadful panic	0.5
 overwhelmed/frustrated	0.5
 dissociate	0.5
 hoard	0.5
@@ -8690,6 +10681,388 @@ done ever since my	0.5
 ever since my early	0.5
 since my early child	0.5
 my early child hood	0.5
+down lately	0.5
+lately like	0.5
+i having	0.5
+some depressed	0.5
+depressed issues	0.5
+what sometimes	0.5
+like crying	0.5
+crying all	0.5
+always attacking	0.5
+attacking me	0.5
+feel sometimes	0.5
+takes it	0.5
+very offensive	0.5
+offensive i	0.5
+wrong one	0.5
+i been feeling	0.5
+been feeling down	0.5
+feeling down lately	0.5
+down lately like	0.5
+lately like i	0.5
+if i having	0.5
+i having some	0.5
+having some depressed	0.5
+some depressed issues	0.5
+depressed issues or	0.5
+issues or what	0.5
+or what sometimes	0.5
+what sometimes i	0.5
+sometimes i be	0.5
+i be feeling	0.5
+be feeling like	0.5
+feeling like crying	0.5
+like crying all	0.5
+crying all the	0.5
+boyfriend he really	0.5
+really doesn’t make	0.5
+doesn’t make it	0.5
+make it no	0.5
+it no better	0.5
+no better i	0.5
+better i love	0.5
+love my boyfriend	0.5
+boyfriend but sometimes	0.5
+like he always	0.5
+he always attacking	0.5
+always attacking me	0.5
+attacking me emotionally	0.5
+me emotionally i	0.5
+emotionally i can’t	0.5
+i feel sometimes	0.5
+feel sometimes because	0.5
+because he takes	0.5
+he takes it	0.5
+takes it very	0.5
+it very offensive	0.5
+very offensive i	0.5
+offensive i feel	0.5
+always the wrong	0.5
+the wrong one	0.5
+wrong one in	0.5
+one in our	0.5
+i been feeling down	0.5
+been feeling down lately	0.5
+feeling down lately like	0.5
+down lately like i	0.5
+lately like i don’t	0.5
+like i don’t know	0.5
+know if i having	0.5
+if i having some	0.5
+i having some depressed	0.5
+having some depressed issues	0.5
+some depressed issues or	0.5
+depressed issues or what	0.5
+issues or what sometimes	0.5
+or what sometimes i	0.5
+what sometimes i be	0.5
+sometimes i be feeling	0.5
+i be feeling like	0.5
+be feeling like crying	0.5
+feeling like crying all	0.5
+like crying all the	0.5
+crying all the time	0.5
+the time my boyfriend	0.5
+time my boyfriend he	0.5
+my boyfriend he really	0.5
+boyfriend he really doesn’t	0.5
+he really doesn’t make	0.5
+really doesn’t make it	0.5
+doesn’t make it no	0.5
+make it no better	0.5
+it no better i	0.5
+no better i love	0.5
+better i love my	0.5
+i love my boyfriend	0.5
+love my boyfriend but	0.5
+my boyfriend but sometimes	0.5
+boyfriend but sometimes i	0.5
+feel like he always	0.5
+like he always attacking	0.5
+he always attacking me	0.5
+always attacking me emotionally	0.5
+attacking me emotionally i	0.5
+me emotionally i can’t	0.5
+emotionally i can’t tell	0.5
+can’t tell him how	0.5
+how i feel sometimes	0.5
+i feel sometimes because	0.5
+feel sometimes because he	0.5
+sometimes because he takes	0.5
+because he takes it	0.5
+he takes it very	0.5
+takes it very offensive	0.5
+it very offensive i	0.5
+very offensive i feel	0.5
+offensive i feel like	0.5
+like i’m always the	0.5
+i’m always the wrong	0.5
+always the wrong one	0.5
+the wrong one in	0.5
+wrong one in our	0.5
+one in our relationship	0.5
+kidding	0.5
+knees	0.5
+literately	0.5
+nieces	0.5
+he pushed	0.5
+me against	0.5
+kitchen counter	0.5
+counter and	0.5
+hands around	0.5
+i helped	0.5
+helped take	0.5
+them since	0.5
+babies no	0.5
+no kidding	0.5
+kidding since	0.5
+kids saw	0.5
+were crying	0.5
+fault so	0.5
+my knees	0.5
+knees and	0.5
+for forgiveness	0.5
+forgiveness i	0.5
+just literately	0.5
+literately hate	0.5
+family except	0.5
+except my	0.5
+mom she’s	0.5
+she’s my	0.5
+younger nieces	0.5
+he pushed me	0.5
+pushed me against	0.5
+me against the	0.5
+against the kitchen	0.5
+the kitchen counter	0.5
+kitchen counter and	0.5
+counter and put	0.5
+his hands around	0.5
+hands around my	0.5
+around my neck	0.5
+my neck and	0.5
+neck and his	0.5
+and his kids	0.5
+his kids were	0.5
+kids were there	0.5
+were there i	0.5
+there i helped	0.5
+i helped take	0.5
+helped take care	0.5
+care of them	0.5
+of them since	0.5
+them since they	0.5
+since they were	0.5
+were babies no	0.5
+babies no kidding	0.5
+no kidding since	0.5
+kidding since the	0.5
+since the kids	0.5
+the kids saw	0.5
+kids saw it	0.5
+saw it and	0.5
+it and were	0.5
+and were crying	0.5
+were crying i	0.5
+crying i felt	0.5
+my fault so	0.5
+fault so i	0.5
+went on my	0.5
+on my knees	0.5
+my knees and	0.5
+knees and asked	0.5
+and asked for	0.5
+asked for forgiveness	0.5
+for forgiveness i	0.5
+forgiveness i just	0.5
+i just literately	0.5
+just literately hate	0.5
+literately hate my	0.5
+hate my family	0.5
+my family except	0.5
+family except my	0.5
+except my mom	0.5
+my mom she’s	0.5
+mom she’s my	0.5
+she’s my mom	0.5
+mom my younger	0.5
+younger sister and	0.5
+my younger nieces	0.5
+he pushed me against	0.5
+pushed me against the	0.5
+me against the kitchen	0.5
+against the kitchen counter	0.5
+the kitchen counter and	0.5
+kitchen counter and put	0.5
+counter and put his	0.5
+put his hands around	0.5
+his hands around my	0.5
+hands around my neck	0.5
+around my neck and	0.5
+my neck and his	0.5
+neck and his kids	0.5
+and his kids were	0.5
+his kids were there	0.5
+kids were there i	0.5
+were there i helped	0.5
+there i helped take	0.5
+i helped take care	0.5
+helped take care of	0.5
+take care of them	0.5
+care of them since	0.5
+of them since they	0.5
+them since they were	0.5
+since they were babies	0.5
+they were babies no	0.5
+were babies no kidding	0.5
+babies no kidding since	0.5
+no kidding since the	0.5
+kidding since the kids	0.5
+since the kids saw	0.5
+the kids saw it	0.5
+kids saw it and	0.5
+saw it and were	0.5
+it and were crying	0.5
+and were crying i	0.5
+were crying i felt	0.5
+crying i felt like	0.5
+like it was all	0.5
+all my fault so	0.5
+my fault so i	0.5
+fault so i went	0.5
+so i went on	0.5
+i went on my	0.5
+went on my knees	0.5
+on my knees and	0.5
+my knees and asked	0.5
+knees and asked for	0.5
+and asked for forgiveness	0.5
+asked for forgiveness i	0.5
+for forgiveness i just	0.5
+forgiveness i just literately	0.5
+i just literately hate	0.5
+just literately hate my	0.5
+literately hate my family	0.5
+hate my family except	0.5
+my family except my	0.5
+family except my mom	0.5
+except my mom she’s	0.5
+my mom she’s my	0.5
+mom she’s my mom	0.5
+she’s my mom my	0.5
+my mom my younger	0.5
+mom my younger sister	0.5
+my younger sister and	0.5
+younger sister and my	0.5
+sister and my younger	0.5
+and my younger nieces	0.5
+ditch	0.5
+friendless	0.5
+single friend	0.5
+someone wanted	0.5
+out i’d	0.5
+i’d make	0.5
+to ditch	0.5
+ditch them	0.5
+just couldn’t	0.5
+handle being	0.5
+here failing	0.5
+failing the	0.5
+grade completely	0.5
+completely friendless	0.5
+friendless i’m	0.5
+on medications	0.5
+like failure	0.5
+didn’t have a	0.5
+have a single	0.5
+a single friend	0.5
+single friend and	0.5
+friend and if	0.5
+and if someone	0.5
+if someone wanted	0.5
+someone wanted to	0.5
+wanted to hang	0.5
+hang out i’d	0.5
+out i’d make	0.5
+i’d make an	0.5
+make an excuse	0.5
+excuse to ditch	0.5
+to ditch them	0.5
+ditch them i	0.5
+them i just	0.5
+i just couldn’t	0.5
+just couldn’t handle	0.5
+couldn’t handle being	0.5
+handle being around	0.5
+now i’m here	0.5
+i’m here failing	0.5
+here failing the	0.5
+failing the 9th	0.5
+9th grade completely	0.5
+grade completely friendless	0.5
+completely friendless i’m	0.5
+friendless i’m on	0.5
+i’m on medications	0.5
+on medications and	0.5
+medications and i’m	0.5
+and i’m going	0.5
+to therapy but	0.5
+still can’t get	0.5
+i do anything	0.5
+feel like failure	0.5
+i didn’t have a	0.5
+didn’t have a single	0.5
+have a single friend	0.5
+a single friend and	0.5
+single friend and if	0.5
+friend and if someone	0.5
+and if someone wanted	0.5
+if someone wanted to	0.5
+someone wanted to hang	0.5
+wanted to hang out	0.5
+to hang out i’d	0.5
+hang out i’d make	0.5
+out i’d make an	0.5
+i’d make an excuse	0.5
+make an excuse to	0.5
+an excuse to ditch	0.5
+excuse to ditch them	0.5
+to ditch them i	0.5
+ditch them i just	0.5
+them i just couldn’t	0.5
+i just couldn’t handle	0.5
+just couldn’t handle being	0.5
+couldn’t handle being around	0.5
+handle being around people	0.5
+around people and now	0.5
+people and now i’m	0.5
+and now i’m here	0.5
+now i’m here failing	0.5
+i’m here failing the	0.5
+here failing the 9th	0.5
+failing the 9th grade	0.5
+the 9th grade completely	0.5
+9th grade completely friendless	0.5
+grade completely friendless i’m	0.5
+completely friendless i’m on	0.5
+friendless i’m on medications	0.5
+i’m on medications and	0.5
+on medications and i’m	0.5
+medications and i’m going	0.5
+and i’m going to	0.5
+i’m going to therapy	0.5
+going to therapy but	0.5
+to therapy but i	0.5
+therapy but i still	0.5
+but i still can’t	0.5
+i still can’t get	0.5
+still can’t get my	0.5
+can’t get my life	0.5
+time i do anything	0.5
+i do anything i	0.5
+do anything i feel	0.5
+i feel like failure	0.5
 am pushing	0.5
 pushing him	0.5
 away even	0.5
@@ -8913,6 +11286,471 @@ emotional when i think	0.5
 when i think like	0.5
 i tend to not	0.5
 tend to not think	0.5
+inspiration	0.5
+melt	0.5
+egg	0.5
+yolk	0.5
+eggs	0.5
+flipping	0.5
+through-out	0.5
+ultra-meltdown	0.5
+tore	0.5
+scattering	0.5
+pillows	0.5
+blankets	0.5
+little sexual	0.5
+drive except	0.5
+my period	0.5
+period have	0.5
+no inspiration	0.5
+inspiration or	0.5
+or creativity	0.5
+creativity i	0.5
+very artistic	0.5
+artistic and	0.5
+day no	0.5
+what part	0.5
+my cycle	0.5
+cycle i’m	0.5
+have at	0.5
+one angry	0.5
+angry melt	0.5
+melt down	0.5
+down where	0.5
+where something	0.5
+something went	0.5
+wrong like	0.5
+like trying	0.5
+to flip	0.5
+flip an	0.5
+an egg	0.5
+egg and	0.5
+doesn’t flip	0.5
+flip right	0.5
+the yolk	0.5
+yolk breaks	0.5
+breaks and	0.5
+happens multiple	0.5
+actually avoid	0.5
+avoid cooking	0.5
+cooking eggs	0.5
+eggs now	0.5
+i suck	0.5
+suck at	0.5
+at flipping	0.5
+flipping them	0.5
+have happy	0.5
+happy moments	0.5
+moments through-out	0.5
+through-out the	0.5
+very up	0.5
+passion left	0.5
+left except	0.5
+random ideas	0.5
+or finish	0.5
+do notice	0.5
+period i	0.5
+an ultra-meltdown	0.5
+ultra-meltdown that	0.5
+worse this	0.5
+beat up	0.5
+and tore	0.5
+tore everything	0.5
+closet scattering	0.5
+scattering around	0.5
+room you	0.5
+actually felt	0.5
+was smoking	0.5
+drinking coffee	0.5
+coffee because	0.5
+completely sober	0.5
+sober i’m	0.5
+i’m fully	0.5
+fully aware	0.5
+whole world	0.5
+just hide	0.5
+hide in	0.5
+a cave	0.5
+cave with	0.5
+of pillows	0.5
+pillows and	0.5
+and blankets	0.5
+very little sexual	0.5
+little sexual drive	0.5
+sexual drive except	0.5
+drive except when	0.5
+except when i’m	0.5
+when i’m on	0.5
+i’m on my	0.5
+on my period	0.5
+my period have	0.5
+period have no	0.5
+have no inspiration	0.5
+no inspiration or	0.5
+inspiration or creativity	0.5
+or creativity i	0.5
+creativity i used	0.5
+be very artistic	0.5
+very artistic and	0.5
+artistic and almost	0.5
+every day no	0.5
+day no matter	0.5
+matter what part	0.5
+what part of	0.5
+of my cycle	0.5
+my cycle i’m	0.5
+cycle i’m in	0.5
+i’m in i	0.5
+i have at	0.5
+have at least	0.5
+least one angry	0.5
+one angry melt	0.5
+angry melt down	0.5
+melt down where	0.5
+down where something	0.5
+where something went	0.5
+something went wrong	0.5
+went wrong like	0.5
+wrong like trying	0.5
+like trying to	0.5
+trying to flip	0.5
+to flip an	0.5
+flip an egg	0.5
+an egg and	0.5
+egg and it	0.5
+it doesn’t flip	0.5
+doesn’t flip right	0.5
+flip right and	0.5
+right and the	0.5
+and the yolk	0.5
+the yolk breaks	0.5
+yolk breaks and	0.5
+breaks and sometimes	0.5
+and sometimes it	0.5
+sometimes it happens	0.5
+it happens multiple	0.5
+happens multiple times	0.5
+day i actually	0.5
+i actually avoid	0.5
+actually avoid cooking	0.5
+avoid cooking eggs	0.5
+cooking eggs now	0.5
+eggs now because	0.5
+because i suck	0.5
+i suck at	0.5
+suck at flipping	0.5
+at flipping them	0.5
+flipping them i	0.5
+them i still	0.5
+still have happy	0.5
+have happy moments	0.5
+happy moments through-out	0.5
+moments through-out the	0.5
+through-out the day	0.5
+the day my	0.5
+day my days	0.5
+my days are	0.5
+days are just	0.5
+are just very	0.5
+just very up	0.5
+very up and	0.5
+and down i	0.5
+down i feel	0.5
+have no passion	0.5
+no passion left	0.5
+passion left except	0.5
+left except for	0.5
+for anger and	0.5
+anger and random	0.5
+and random ideas	0.5
+random ideas that	0.5
+ideas that i’ll	0.5
+that i’ll never	0.5
+i’ll never actually	0.5
+never actually get	0.5
+actually get around	0.5
+get around to	0.5
+around to or	0.5
+to or finish	0.5
+or finish i	0.5
+finish i do	0.5
+i do notice	0.5
+do notice the	0.5
+notice the day	0.5
+day before my	0.5
+before my period	0.5
+my period i	0.5
+period i have	0.5
+have an ultra-meltdown	0.5
+an ultra-meltdown that	0.5
+ultra-meltdown that keeps	0.5
+that keeps getting	0.5
+getting worse this	0.5
+worse this last	0.5
+time i beat	0.5
+i beat up	0.5
+beat up my	0.5
+up my bed	0.5
+bed and tore	0.5
+and tore everything	0.5
+tore everything out	0.5
+everything out of	0.5
+of my closet	0.5
+my closet scattering	0.5
+closet scattering around	0.5
+scattering around the	0.5
+around the room	0.5
+the room you	0.5
+room you know	0.5
+know i think	0.5
+i actually felt	0.5
+actually felt better	0.5
+felt better when	0.5
+i was smoking	0.5
+was smoking and	0.5
+smoking and drinking	0.5
+and drinking coffee	0.5
+drinking coffee because	0.5
+coffee because now	0.5
+because now i’m	0.5
+i’m completely sober	0.5
+completely sober i’m	0.5
+sober i’m fully	0.5
+i’m fully aware	0.5
+fully aware of	0.5
+aware of what’s	0.5
+of what’s going	0.5
+world and i’m	0.5
+mad at the	0.5
+at the whole	0.5
+the whole world	0.5
+whole world i	0.5
+world i feel	0.5
+the pain of	0.5
+pain of the	0.5
+whole world and	0.5
+and the earth	0.5
+earth and i’d	0.5
+and i’d rather	0.5
+i’d rather just	0.5
+rather just hide	0.5
+just hide in	0.5
+hide in a	0.5
+in a cave	0.5
+a cave with	0.5
+cave with a	0.5
+with a bunch	0.5
+bunch of pillows	0.5
+of pillows and	0.5
+pillows and blankets	0.5
+thing is i have	0.5
+is i have very	0.5
+have very little sexual	0.5
+very little sexual drive	0.5
+little sexual drive except	0.5
+sexual drive except when	0.5
+drive except when i’m	0.5
+except when i’m on	0.5
+when i’m on my	0.5
+i’m on my period	0.5
+on my period have	0.5
+my period have no	0.5
+period have no inspiration	0.5
+have no inspiration or	0.5
+no inspiration or creativity	0.5
+inspiration or creativity i	0.5
+or creativity i used	0.5
+creativity i used to	0.5
+to be very artistic	0.5
+be very artistic and	0.5
+very artistic and almost	0.5
+artistic and almost every	0.5
+and almost every day	0.5
+almost every day no	0.5
+every day no matter	0.5
+day no matter what	0.5
+no matter what part	0.5
+matter what part of	0.5
+what part of my	0.5
+part of my cycle	0.5
+of my cycle i’m	0.5
+my cycle i’m in	0.5
+cycle i’m in i	0.5
+i’m in i have	0.5
+in i have at	0.5
+i have at least	0.5
+have at least one	0.5
+at least one angry	0.5
+least one angry melt	0.5
+one angry melt down	0.5
+angry melt down where	0.5
+melt down where something	0.5
+down where something went	0.5
+where something went wrong	0.5
+something went wrong like	0.5
+went wrong like trying	0.5
+wrong like trying to	0.5
+like trying to flip	0.5
+trying to flip an	0.5
+to flip an egg	0.5
+flip an egg and	0.5
+an egg and it	0.5
+egg and it doesn’t	0.5
+and it doesn’t flip	0.5
+it doesn’t flip right	0.5
+doesn’t flip right and	0.5
+flip right and the	0.5
+right and the yolk	0.5
+and the yolk breaks	0.5
+the yolk breaks and	0.5
+yolk breaks and sometimes	0.5
+breaks and sometimes it	0.5
+and sometimes it happens	0.5
+sometimes it happens multiple	0.5
+it happens multiple times	0.5
+happens multiple times a	0.5
+a day i actually	0.5
+day i actually avoid	0.5
+i actually avoid cooking	0.5
+actually avoid cooking eggs	0.5
+avoid cooking eggs now	0.5
+cooking eggs now because	0.5
+eggs now because i	0.5
+now because i suck	0.5
+because i suck at	0.5
+i suck at flipping	0.5
+suck at flipping them	0.5
+at flipping them i	0.5
+flipping them i still	0.5
+them i still have	0.5
+i still have happy	0.5
+still have happy moments	0.5
+have happy moments through-out	0.5
+happy moments through-out the	0.5
+moments through-out the day	0.5
+through-out the day my	0.5
+the day my days	0.5
+day my days are	0.5
+my days are just	0.5
+days are just very	0.5
+are just very up	0.5
+just very up and	0.5
+very up and down	0.5
+up and down i	0.5
+and down i feel	0.5
+down i feel like	0.5
+i have no passion	0.5
+have no passion left	0.5
+no passion left except	0.5
+passion left except for	0.5
+left except for anger	0.5
+except for anger and	0.5
+for anger and random	0.5
+anger and random ideas	0.5
+and random ideas that	0.5
+random ideas that i’ll	0.5
+ideas that i’ll never	0.5
+that i’ll never actually	0.5
+i’ll never actually get	0.5
+never actually get around	0.5
+actually get around to	0.5
+get around to or	0.5
+around to or finish	0.5
+to or finish i	0.5
+or finish i do	0.5
+finish i do notice	0.5
+i do notice the	0.5
+do notice the day	0.5
+notice the day before	0.5
+the day before my	0.5
+day before my period	0.5
+before my period i	0.5
+my period i have	0.5
+period i have an	0.5
+i have an ultra-meltdown	0.5
+have an ultra-meltdown that	0.5
+an ultra-meltdown that keeps	0.5
+ultra-meltdown that keeps getting	0.5
+that keeps getting worse	0.5
+keeps getting worse this	0.5
+getting worse this last	0.5
+worse this last time	0.5
+last time i beat	0.5
+time i beat up	0.5
+i beat up my	0.5
+beat up my bed	0.5
+up my bed and	0.5
+my bed and tore	0.5
+bed and tore everything	0.5
+and tore everything out	0.5
+tore everything out of	0.5
+everything out of my	0.5
+out of my closet	0.5
+of my closet scattering	0.5
+my closet scattering around	0.5
+closet scattering around the	0.5
+scattering around the room	0.5
+around the room you	0.5
+the room you know	0.5
+room you know i	0.5
+you know i think	0.5
+know i think i	0.5
+i think i actually	0.5
+think i actually felt	0.5
+i actually felt better	0.5
+actually felt better when	0.5
+felt better when i	0.5
+better when i was	0.5
+when i was smoking	0.5
+i was smoking and	0.5
+was smoking and drinking	0.5
+smoking and drinking coffee	0.5
+and drinking coffee because	0.5
+drinking coffee because now	0.5
+coffee because now i’m	0.5
+because now i’m completely	0.5
+now i’m completely sober	0.5
+i’m completely sober i’m	0.5
+completely sober i’m fully	0.5
+sober i’m fully aware	0.5
+i’m fully aware of	0.5
+fully aware of what’s	0.5
+aware of what’s going	0.5
+of what’s going on	0.5
+what’s going on in	0.5
+on in the world	0.5
+the world and i’m	0.5
+world and i’m mad	0.5
+and i’m mad at	0.5
+i’m mad at the	0.5
+mad at the whole	0.5
+at the whole world	0.5
+the whole world i	0.5
+whole world i feel	0.5
+world i feel the	0.5
+i feel the pain	0.5
+feel the pain of	0.5
+the pain of the	0.5
+pain of the whole	0.5
+of the whole world	0.5
+the whole world and	0.5
+whole world and the	0.5
+world and the earth	0.5
+and the earth and	0.5
+the earth and i’d	0.5
+earth and i’d rather	0.5
+and i’d rather just	0.5
+i’d rather just hide	0.5
+rather just hide in	0.5
+just hide in a	0.5
+hide in a cave	0.5
+in a cave with	0.5
+a cave with a	0.5
+cave with a bunch	0.5
+with a bunch of	0.5
+a bunch of pillows	0.5
+bunch of pillows and	0.5
+of pillows and blankets	0.5
 guy perfect	0.5
 perfect in	0.5
 fact until	0.5

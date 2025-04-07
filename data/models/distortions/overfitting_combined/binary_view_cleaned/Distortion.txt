@@ -1336,14 +1336,12 @@ must be unlovable	1.0
 unattractive	1.0
 don't look	1.0
 like models	1.0
-models on	1.0
 instagram i'm	1.0
 i'm unattractive	1.0
 i don't look	1.0
 don't look like	1.0
 look like models	1.0
 like models on	1.0
-models on instagram	1.0
 on instagram i'm	1.0
 instagram i'm unattractive	1.0
 calculations	1.0
@@ -24057,8 +24055,6 @@ they’ll go	1.0
 still like	1.0
 find ways	1.0
 reduce the	1.0
-do …	1.0
-… but	1.0
 about therapy	1.0
 make therapy	1.0
 therapy useful	1.0
@@ -24087,9 +24083,6 @@ reduce the amount	1.0
 amount of worrying	1.0
 of worrying i	1.0
 worrying i do	1.0
-i do …	1.0
-do … but	1.0
-… but i	1.0
 able to overcome	1.0
 overcome my anxiety	1.0
 my anxiety about	1.0
@@ -24407,17 +24400,14 @@ except what i	1.0
 what i asked	1.0
 confronted both	1.0
 deny it	1.0
-it …	1.0
-… now	1.0
 them alone	1.0
 i confronted both	1.0
 confronted both of	1.0
 them but they	1.0
 but they deny	1.0
 they deny it	1.0
-deny it …	1.0
-it … now	1.0
-… now i	1.0
+deny it now	1.0
+it now i	1.0
 don’t trust them	1.0
 trust them alone	1.0
 istanbul	1.0
@@ -30180,16 +30170,13 @@ the details i	1.0
 details i was	1.0
 hugemassive	1.0
 paralyzing	1.0
-my #	1.0
-# problem	1.0
 problem right	1.0
 now is	1.0
 a hugemassive	1.0
 hugemassive paralyzing	1.0
 paralyzing fear	1.0
 mail bills	1.0
-my # problem	1.0
-# problem right	1.0
+my problem right	1.0
 problem right now	1.0
 right now is	1.0
 now is i	1.0
@@ -39626,8 +39613,7 @@ head …it’s	1.0
 …it’s always	1.0
 fault …i	1.0
 …i should	1.0
-die …	1.0
-… stuff	1.0
+die stuff	1.0
 worked myself	1.0
 a emotional	1.0
 so i waited	1.0
@@ -39652,9 +39638,8 @@ head …it’s always	1.0
 my fault …i	1.0
 fault …i should	1.0
 …i should die	1.0
-should die …	1.0
-die … stuff	1.0
-… stuff like	1.0
+should die stuff	1.0
+die stuff like	1.0
 that i worked	1.0
 i worked myself	1.0
 worked myself into	1.0
@@ -64071,19 +64056,15 @@ experiencing some	1.0
 some mood	1.0
 swings during	1.0
 feeling pressured	1.0
-pressured …	1.0
-… frustrated	1.0
+pressured frustrated	1.0
 and overwhelmed	1.0
 overwhelmed he	1.0
 still loves	1.0
 knows we	1.0
 he chose	1.0
-us …	1.0
 feel devastated	1.0
-devastated …	1.0
-… hurt	1.0
-hurt …	1.0
-… empty	1.0
+devastated hurt	1.0
+hurt empty	1.0
 else besides	1.0
 besides him	1.0
 him is	1.0
@@ -64099,9 +64080,8 @@ mood swings during	1.0
 swings during that	1.0
 that time feeling	1.0
 time feeling pressured	1.0
-feeling pressured …	1.0
-pressured … frustrated	1.0
-… frustrated and	1.0
+feeling pressured frustrated	1.0
+pressured frustrated and	1.0
 frustrated and overwhelmed	1.0
 and overwhelmed he	1.0
 overwhelmed he still	1.0
@@ -64116,19 +64096,16 @@ but he chose	1.0
 he chose to	1.0
 chose to give	1.0
 up on us	1.0
-on us …	1.0
-us … on	1.0
-… on our	1.0
+on us on	1.0
+us on our	1.0
 on our future	1.0
 our future together	1.0
 future together i	1.0
 together i feel	1.0
 i feel devastated	1.0
-feel devastated …	1.0
-devastated … hurt	1.0
-… hurt …	1.0
-hurt … empty	1.0
-… empty and	1.0
+feel devastated hurt	1.0
+devastated hurt empty	1.0
+hurt empty and	1.0
 empty and numb	1.0
 numb i don’t	1.0
 want anyone else	1.0
