@@ -100,14 +100,6 @@ def count_ngrams_plus(df, n_max: int, binary = False, clean_punct=True):
     norm_uniq = dictdict_div_dict(uniq_n_gram_dicts,uniq_all_n_grams)
     norm_norm_uniq = dictdict_mul_dictdict(norm,norm_uniq)
     norm_norm_uniq_norm = dictdict_div_dict(norm_norm_uniq,n_gram_distortions_counts)
-
-    # TF-IDF
-    tfidf_dicts = defaultdict(dict)
-    for distortion, ngram_dict in n_gram_dicts.items(): # For each distortion (distortion), analyze the n-grams (ngram_dict)
-        for n_gram, count in ngram_dict.items(): # For each n-gram (n_gram), check its frequency of occurrence (count) for the given distortion
-            tf = count / sum(ngram_dict.values())  # Frequency of the n-gram in the text (TF): TF = (Number of occurrences of the given n-gram for the specific cognitive distortion) / (Total number of occurrences of all other n-grams for the same cognitive distortion)
-            idf = math.log(N / (1 + doc_counts[n_gram]))  # Inverse Document Frequency (IDF): IDF = Total number of documents / Number of documents containing the given n-gram
-            tfidf_dicts[distortion][n_gram] = tf * idf  # TF-IDF
     
     # norm_norm_uniq_norm_norm = norm_norm_uniq_norm[dist][n_gram] * n_gram_distortions[n_gram][dist] / distortions[dist]
     norm_norm_uniq_norm_norm = {} # looks like desired magic
@@ -143,4 +135,20 @@ def count_ngrams_plus(df, n_max: int, binary = False, clean_punct=True):
     
     return distortions, n_gram_dicts, all_n_grams, norm_n_gram_dicts, uniq_n_gram_dicts, uniq_all_n_grams, n_gram_distortions, \
     norm_uniq_n_gram_dicts, n_gram_distortions_counts, norm, norm_uniq, norm_norm_uniq, norm_norm_uniq_norm, norm_norm_uniq_norm_norm, \
-    fcr, cfr, mr, nl_mi, N, tfidf_dicts
+    fcr, cfr, mr, nl_mi, N
+
+
+def count_ngrams_plus_tf_idf(df, n_max: int, binary = False, clean_punct=True):
+    N = len(df)
+    distortions, n_gram_dicts, all_n_grams, norm_n_gram_dicts, uniq_n_gram_dicts, uniq_all_n_grams, n_gram_distortions, \
+    norm_uniq_n_gram_dicts, n_gram_distortions_counts, doc_counts = count_ngrams_basic(df, n_max, binary = binary, clean_punct=clean_punct)
+
+    # TF-IDF
+    tfidf_dicts = defaultdict(dict)
+    for distortion, ngram_dict in n_gram_dicts.items(): # For each distortion (distortion), analyze the n-grams (ngram_dict)
+        for n_gram, count in ngram_dict.items(): # For each n-gram (n_gram), check its frequency of occurrence (count) for the given distortion
+            tf = count / sum(ngram_dict.values())  # Frequency of the n-gram in the text (TF): TF = (Number of occurrences of the given n-gram for the specific cognitive distortion) / (Total number of occurrences of all other n-grams for the same cognitive distortion)
+            idf = math.log(N / (1 + doc_counts[n_gram]))  # Inverse Document Frequency (IDF): IDF = Total number of documents / Number of documents containing the given n-gram
+            tfidf_dicts[distortion][n_gram] = tf * idf  # TF-IDF
+    
+    return tfidf_dicts
