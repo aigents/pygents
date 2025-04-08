@@ -1262,7 +1262,7 @@ follow some	1.0
 some teenage	1.0
 teenage female	1.0
 female actressesdancerssingersmodels	1.0
-actressesdancerssingersmodels …	1.0
+actressesdancerssingersmodels on	1.0
 instagram and	1.0
 and something	1.0
 i fantasize	1.0
@@ -15968,8 +15968,6 @@ head sparking	1.0
 sparking up	1.0
 a thing	1.0
 overly mad	1.0
-about …	1.0
-… this	1.0
 even scratching	1.0
 scratching the	1.0
 the surface	1.0
@@ -17856,7 +17854,7 @@ female actresses	1.0
 actresses dancers	1.0
 dancers singers	1.0
 singers models	1.0
-models …	1.0
+models on	1.0
 them acting	1.0
 acting dancing	1.0
 dancing sexy	1.0
@@ -18776,7 +18774,6 @@ regularly then	1.0
 then her	1.0
 her sister	1.0
 sister moved	1.0
-us on	1.0
 a temporary	1.0
 temporary note	1.0
 note and	1.0
@@ -29280,8 +29277,6 @@ highest risk	1.0
 risk for	1.0
 for men	1.0
 men this	1.0
-is #	1.0
-# the	1.0
 the was	1.0
 was story	1.0
 story only	1.0
@@ -32404,7 +32399,6 @@ condescending	1.0
 mdd/ptsd	1.0
 available	1.0
 apt	1.0
-… personally	1.0
 personally identifiable	1.0
 identifiable medical	1.0
 medical detailed	1.0
@@ -42892,6 +42886,7 @@ myself the	0.75
 was shocked	0.75
 family on	0.75
 contribute	0.75
+us on	0.75
 move in	0.75
 am only	0.75
 boyfriend about	0.75
@@ -43980,7 +43975,6 @@ kind	0.6666666666666666
 i care	0.6666666666666666
 be kind	0.6666666666666666
 imagine	0.6666666666666666
-… on	0.6666666666666666
 something else	0.6666666666666666
 else i	0.6666666666666666
 i imagine	0.6666666666666666
@@ -45254,7 +45248,6 @@ think how	0.6666666666666666
 for whatever	0.6666666666666666
 news	0.6666666666666666
 occupation	0.6666666666666666
-#	0.6666666666666666
 the results	0.6666666666666666
 happen to	0.6666666666666666
 a higher	0.6666666666666666
@@ -45579,6 +45572,7 @@ past and	0.6470588235294118
 and how	0.6470588235294118
 be very	0.6470588235294118
 a really	0.6470588235294118
+is the	0.6470588235294118
 recently i	0.6470588235294118
 this and	0.6470588235294118
 fighting	0.6470588235294118
@@ -45626,6 +45620,7 @@ barely	0.6428571428571429
 with the	0.6423357664233577
 close	0.6422764227642277
 lot	0.6418439716312057
+about this	0.6417910447761194
 kept	0.6417910447761194
 on me	0.6415094339622641
 away from	0.6415094339622641
@@ -45645,7 +45640,6 @@ do this	0.6388888888888888
 to them	0.6388888888888888
 is always	0.6388888888888888
 it’s not	0.6388888888888888
-is the	0.6385542168674698
 because she	0.6376811594202898
 go	0.6368286445012787
 him so	0.6363636363636364
@@ -45661,7 +45655,6 @@ has said	0.6363636363636364
 cheated	0.6363636363636364
 dog	0.6363636363636364
 i now	0.6363636363636364
-about this	0.6363636363636364
 pressure	0.6363636363636364
 from an	0.6363636363636364
 be going	0.6363636363636364
@@ -46311,7 +46304,6 @@ assures me	0.6
 see and	0.6
 sex drive	0.6
 place in	0.6
-it now	0.6
 actual	0.6
 mentally ill	0.6
 no actual	0.6

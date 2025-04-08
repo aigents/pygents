@@ -2251,8 +2251,7 @@ in overdrive	1.0
 overdrive i	1.0
 it’s winter	1.0
 winter blues	1.0
-blues …	1.0
-… cold	1.0
+blues cold	1.0
 cold clouds	1.0
 clouds and	1.0
 and rain	1.0
@@ -3273,7 +3272,6 @@ then her	1.0
 her sister	1.0
 sister moved	1.0
 in with	1.0
-us on	1.0
 a temporary	1.0
 temporary note	1.0
 note and	1.0
@@ -21618,7 +21616,6 @@ condescending	1.0
 judgmental	1.0
 mdd/ptsd	1.0
 available	1.0
-… personally	1.0
 personally identifiable	1.0
 identifiable medical	1.0
 medical detailed	1.0
@@ -26712,8 +26709,6 @@ devil in	1.0
 head sparking	1.0
 sparking up	1.0
 overly mad	1.0
-about …	1.0
-… this	1.0
 even scratching	1.0
 scratching the	1.0
 surface of	1.0
@@ -29210,8 +29205,6 @@ highest risk	1.0
 risk for	1.0
 for men	1.0
 men this	1.0
-is #	1.0
-# the	1.0
 the was	1.0
 was story	1.0
 story only	1.0
@@ -43093,6 +43086,7 @@ out that	0.75
 across the	0.75
 relocated	0.75
 she will	0.75
+us on	0.75
 because her	0.75
 i at	0.75
 all night	0.75
@@ -44206,7 +44200,6 @@ traits	0.7
 only when	0.7
 time because	0.7
 frequent	0.7
-my problem	0.7
 road	0.7
 speaks	0.7
 sent to	0.7
@@ -44718,7 +44711,6 @@ always just	0.6666666666666666
 suddenly	0.6666666666666666
 as clean	0.6666666666666666
 clean as	0.6666666666666666
-it now	0.6666666666666666
 could say	0.6666666666666666
 only a	0.6666666666666666
 one else	0.6666666666666666
@@ -45973,6 +45965,7 @@ someone	0.6642335766423357
 give	0.6636363636363637
 away	0.6635071090047393
 gets	0.6632653061224489
+is the	0.6629213483146067
 and	0.6628315368778006
 wasn’t	0.6627906976744186
 and when	0.6626506024096386
@@ -46003,7 +45996,6 @@ reading	0.65625
 since then	0.65625
 i’ve been	0.656084656084656
 looks	0.6551724137931034
-is the	0.6551724137931034
 times i	0.6551724137931034
 a normal	0.6551724137931034
 outside	0.6551724137931034
@@ -46214,6 +46206,7 @@ hearing	0.6363636363636364
 did i	0.6363636363636364
 the group	0.6363636363636364
 don’t understand	0.6363636363636364
+my problem	0.6363636363636364
 expected	0.6363636363636364
 some people	0.6363636363636364
 expect	0.6363636363636364
@@ -46273,6 +46266,7 @@ could	0.6310344827586207
 he doesn’t	0.6307692307692307
 that	0.6306306306306306
 single	0.6304347826086957
+about this	0.6301369863013698
 kill	0.63
 so	0.6299376299376299
 healthy	0.6296296296296297
@@ -46332,7 +46326,6 @@ passionate	0.625
 cried	0.625
 staying	0.625
 sister in	0.625
-about this	0.625
 mind and	0.625
 how they	0.625
 family has	0.625

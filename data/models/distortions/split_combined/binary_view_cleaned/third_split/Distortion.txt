@@ -9456,8 +9456,6 @@ he’s blocking	1.0
 blocking it	1.0
 confronted both	1.0
 deny it	1.0
-it …	1.0
-… now	1.0
 them alone	1.0
 acute	1.0
 days it	1.0
@@ -10688,8 +10686,7 @@ head …it’s	1.0
 …it’s always	1.0
 fault ….i	1.0
 ….i should	1.0
-die …	1.0
-… stuff	1.0
+die stuff	1.0
 worked myself	1.0
 myself into	1.0
 a emotional	1.0
@@ -12409,19 +12406,15 @@ experiencing some	1.0
 some mood	1.0
 swings during	1.0
 feeling pressured	1.0
-pressured …	1.0
-… frustrated	1.0
+pressured frustrated	1.0
 and overwhelmed	1.0
 overwhelmed he	1.0
 still loves	1.0
 knows we	1.0
 he chose	1.0
-us …	1.0
 feel devastated	1.0
-devastated …	1.0
-… hurt	1.0
-hurt …	1.0
-… empty	1.0
+devastated hurt	1.0
+hurt empty	1.0
 else besides	1.0
 besides him	1.0
 him is	1.0
@@ -14952,8 +14945,6 @@ distant or	1.0
 too abrasive	1.0
 hugemassive	1.0
 paralyzing	1.0
-my #	1.0
-# problem	1.0
 problem right	1.0
 now is	1.0
 a hugemassive	1.0
@@ -17958,8 +17949,6 @@ they’ll go	1.0
 still like	1.0
 to reduce	1.0
 reduce the	1.0
-do …	1.0
-… but	1.0
 about therapy	1.0
 make therapy	1.0
 therapy useful	1.0
@@ -21048,7 +21037,6 @@ sex as	0.6666666666666666
 of talking	0.6666666666666666
 sessions with	0.6666666666666666
 talking at	0.6666666666666666
-…	0.6666666666666666
 plan for	0.6666666666666666
 turns into	0.6666666666666666
 cool	0.6666666666666666

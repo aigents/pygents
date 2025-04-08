@@ -2221,8 +2221,7 @@ in overdrive	1.0
 overdrive i	1.0
 it’s winter	1.0
 winter blues	1.0
-blues …	1.0
-… cold	1.0
+blues cold	1.0
 cold clouds	1.0
 clouds and	1.0
 and rain	1.0
@@ -3223,7 +3222,6 @@ then her	1.0
 her sister	1.0
 sister moved	1.0
 in with	1.0
-us on	1.0
 a temporary	1.0
 temporary note	1.0
 note and	1.0
@@ -21560,7 +21558,6 @@ condescending	1.0
 judgmental	1.0
 mdd/ptsd	1.0
 available	1.0
-… personally	1.0
 personally identifiable	1.0
 identifiable medical	1.0
 medical detailed	1.0
@@ -26637,8 +26634,6 @@ devil in	1.0
 head sparking	1.0
 sparking up	1.0
 overly mad	1.0
-about …	1.0
-… this	1.0
 even scratching	1.0
 scratching the	1.0
 surface of	1.0
@@ -28369,7 +28364,7 @@ follow some	1.0
 some teenage	1.0
 teenage female	1.0
 female actressesdancerssingersmodels	1.0
-actressesdancerssingersmodels …	1.0
+actressesdancerssingersmodels on	1.0
 fantasize sexual	1.0
 these girls	1.0
 girls sometimes	1.0
@@ -36866,7 +36861,6 @@ female actresses	1.0
 actresses dancers	1.0
 dancers singers	1.0
 singers models	1.0
-models …	1.0
 them acting	1.0
 acting dancing	1.0
 dancing sexy	1.0
@@ -43169,7 +43163,6 @@ help as	0.75
 the medications	0.75
 urge	0.75
 important to	0.75
-it now	0.75
 have my	0.75
 turned out	0.75
 anyone else	0.75
@@ -44396,6 +44389,7 @@ visits	0.6923076923076923
 person she	0.6923076923076923
 i had	0.6920289855072463
 now and	0.6911764705882353
+about this	0.6911764705882353
 over	0.6905444126074498
 having	0.6899563318777293
 amazing	0.6896551724137931
@@ -44476,7 +44470,6 @@ find a	0.6818181818181818
 up for	0.6818181818181818
 since the	0.6818181818181818
 drunk	0.6818181818181818
-about this	0.6818181818181818
 mine	0.6818181818181818
 fun	0.6818181818181818
 there was	0.6818181818181818

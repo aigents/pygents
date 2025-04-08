@@ -3558,8 +3558,6 @@ still like	1.0
 find ways	1.0
 reduce the	1.0
 worrying i	1.0
-do …	1.0
-… but	1.0
 about therapy	1.0
 make therapy	1.0
 therapy useful	1.0
@@ -3584,8 +3582,6 @@ he’s blocking	1.0
 blocking it	1.0
 confronted both	1.0
 deny it	1.0
-it …	1.0
-… now	1.0
 them alone	1.0
 days it	1.0
 spent lots	1.0
@@ -8476,21 +8472,16 @@ experiencing some	1.0
 some mood	1.0
 swings during	1.0
 feeling pressured	1.0
-pressured …	1.0
-… frustrated	1.0
+pressured frustrated	1.0
 and overwhelmed	1.0
 overwhelmed he	1.0
 still loves	1.0
 knows we	1.0
 he chose	1.0
-us …	1.0
-… on	1.0
 our future	1.0
 feel devastated	1.0
-devastated …	1.0
-… hurt	1.0
-hurt …	1.0
-… empty	1.0
+devastated hurt	1.0
+hurt empty	1.0
 and numb	1.0
 numb i	1.0
 want anyone	1.0
@@ -10104,8 +10095,6 @@ for changing	1.0
 her image	1.0
 massive	1.0
 paralyzing	1.0
-my #	1.0
-# problem	1.0
 problem right	1.0
 now is	1.0
 huge massive	1.0
@@ -15659,8 +15648,7 @@ head …it’s	1.0
 …it’s always	1.0
 fault …i	1.0
 …i should	1.0
-die …	1.0
-… stuff	1.0
+die stuff	1.0
 worked myself	1.0
 a emotional	1.0
 stepdad is	1.0
@@ -20416,6 +20404,7 @@ to confront	0.7142857142857143
 just feel	0.7142857142857143
 way of	0.7142857142857143
 about myself	0.7142857142857143
+do but	0.7142857142857143
 are so	0.7142857142857143
 they all	0.7142857142857143
 me also	0.7142857142857143
@@ -21907,7 +21896,6 @@ responsibility	0.6153846153846154
 am aware	0.6153846153846154
 passing	0.6153846153846154
 me very	0.6153846153846154
-…	0.6153846153846154
 blame	0.6153846153846154
 about everything	0.6153846153846154
 failing	0.6153846153846154
@@ -22210,7 +22198,6 @@ courage to	0.6
 always end	0.6
 small things	0.6
 to close	0.6
-do but	0.6
 sibling	0.6
 comes out	0.6
 lost in	0.6

@@ -226,7 +226,6 @@ up alone	1.0
 unattractive	1.0
 don't look	1.0
 like models	1.0
-models on	1.0
 instagram i'm	1.0
 i'm unattractive	1.0
 sell	1.0
@@ -3572,8 +3571,6 @@ still like	1.0
 find ways	1.0
 reduce the	1.0
 worrying i	1.0
-do …	1.0
-… but	1.0
 about therapy	1.0
 make therapy	1.0
 therapy useful	1.0
@@ -3595,8 +3592,6 @@ he’s blocking	1.0
 blocking it	1.0
 confronted both	1.0
 deny it	1.0
-it …	1.0
-… now	1.0
 them alone	1.0
 days it	1.0
 spent lots	1.0
@@ -8513,19 +8508,15 @@ experiencing some	1.0
 some mood	1.0
 swings during	1.0
 feeling pressured	1.0
-pressured …	1.0
-… frustrated	1.0
+pressured frustrated	1.0
 and overwhelmed	1.0
 overwhelmed he	1.0
 still loves	1.0
 knows we	1.0
 he chose	1.0
-us …	1.0
 feel devastated	1.0
-devastated …	1.0
-… hurt	1.0
-hurt …	1.0
-… empty	1.0
+devastated hurt	1.0
+hurt empty	1.0
 and numb	1.0
 numb i	1.0
 want anyone	1.0
@@ -10154,11 +10145,8 @@ childhood idol	1.0
 idol of	1.0
 for changing	1.0
 her image	1.0
-#	1.0
 massive	1.0
 paralyzing	1.0
-my #	1.0
-# problem	1.0
 problem right	1.0
 now is	1.0
 huge massive	1.0
@@ -18885,8 +18873,7 @@ head …it’s	1.0
 …it’s always	1.0
 fault ….i	1.0
 ….i should	1.0
-die …	1.0
-… stuff	1.0
+die stuff	1.0
 worked myself	1.0
 a emotional	1.0
 fiancé has	1.0
@@ -21763,7 +21750,6 @@ events	0.631578947368421
 i make	0.631578947368421
 some reason	0.631578947368421
 concentrate	0.631578947368421
-…	0.631578947368421
 that makes	0.631578947368421
 end up	0.6304347826086957
 i’ve always	0.6274509803921569
@@ -21994,6 +21980,7 @@ by their	0.6
 their behavior	0.6
 and keep	0.6
 be ashamed	0.6
+do but	0.6
 deal and	0.6
 if maybe	0.6
 just need	0.6
