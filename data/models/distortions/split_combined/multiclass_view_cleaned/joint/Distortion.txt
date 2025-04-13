@@ -1,7 +1,3 @@
-#
-# problem
-# problem right
-# problem right now
 -30
 -30 partners
 -i
@@ -88,6 +84,7 @@
 7+ years
 7+ years abandoned
 7+ years abandoned me
+8th
 8th i
 8th i originally
 8th i originally had
@@ -253,6 +250,7 @@ a certain hobby
 a certain hobby and
 a certain way
 a certain way and
+a chance
 a chance that
 a chance that i
 a chance to
@@ -268,6 +266,7 @@ a chaotic household with
 a cheater
 a cheater and
 a cheater and i
+a child and
 a child and i
 a child and in
 a child and now
@@ -624,6 +623,7 @@ a hobby but
 a hobby but i
 a hole i
 a hole i cant
+a horrible
 a horrible attitude
 a horrible daughter
 a horrible daughter she
@@ -1039,6 +1039,7 @@ a really nice
 a really nice caring
 a really unhealthy
 a really unhealthy obsession
+a reason
 a reason to
 a reason to be
 a reason to feel
@@ -1302,6 +1303,7 @@ a vacation
 a vacation home
 a very bad
 a very bad person
+a very difficult
 a very difficult academic
 a very difficult child
 a very hard
@@ -2405,6 +2407,7 @@ adventurous
 adventurous anxious
 adventurous anxious yet
 adventurous anxious yet want
+advice i
 advice i am
 advice i am always
 advice is
@@ -3285,6 +3288,7 @@ alone i cannot even
 alone i have had
 alone i reach
 alone i reach out
+alone in
 alone in my
 alone in my life
 alone in the fear
@@ -3706,6 +3710,7 @@ always had problems with
 always happy
 always happy never
 always happy never argued
+always have
 always have the
 always have the fear
 always have the opposite
@@ -3938,6 +3943,7 @@ am afraid she
 am afraid she will
 am afraid someone
 am afraid someone will
+am afraid that
 am afraid that he
 am afraid this
 am afraid this will
@@ -3985,6 +3991,7 @@ am and shouldn’t
 am and shouldn’t really
 am and similar
 am and similar information
+am angry
 am angry at
 am angry at him
 am angry i
@@ -4566,6 +4573,8 @@ an awful person
 an be
 an be friendly
 an be friendly but
+an early
+an early age
 an early age i
 an early age i’ve
 an educator
@@ -4581,6 +4590,7 @@ an emotional level if
 an empath
 an empath and
 an empath and my
+an end
 an end to
 an end to it
 an end to that
@@ -5063,6 +5073,7 @@ and created
 and created an
 and created an induced
 and cruel
+and cry
 and cry over
 and cry over nothing
 and cry sometimes
@@ -5625,6 +5636,7 @@ and how someone develops
 and how’s
 and how’s i
 and how’s i know
+and hurt
 and hurt myself
 and hurt myself in
 and hurt that
@@ -5813,6 +5825,7 @@ and i mean every
 and i must
 and i must add
 and i need help
+and i never
 and i never can
 and i never feel
 and i never felt
@@ -5835,6 +5848,7 @@ and i say
 and i say i
 and i self
 and i self harm
+and i should
 and i should be
 and i should probably
 and i shouldn’t
@@ -6794,6 +6808,7 @@ and significant others become
 and similar
 and similar information
 and similar information so
+and since
 and since i
 and since i am
 and since my
@@ -6886,6 +6901,7 @@ and starting from scratch
 and starts
 and starts screaming
 and starts screaming like
+and stay
 and stay focused
 and stay focused however
 and stayed
@@ -7556,6 +7572,7 @@ another part of me
 another patient
 another patient how
 another patient how pretty
+another person
 another person crying
 another person crying and
 another person i
@@ -7733,6 +7750,7 @@ anxious about everyone
 anxious about everyone thinking
 anxious about working
 anxious about working as
+anxious and
 anxious and my
 anxious and my emotions
 anxious and scared
@@ -8903,6 +8921,7 @@ arts-related interests
 arts-related interests either
 arts-related interests either and
 as
+as a child and
 as a child in
 as a child is
 as a consequence
@@ -10292,6 +10311,7 @@ bad as it
 bad as it must
 bad as what
 bad as what many
+bad at
 bad at everything
 bad at everything even
 bad at showing
@@ -10801,6 +10821,7 @@ be held to
 be held to the
 be highly
 be highly successful
+be honest
 be honest i
 be honest i don’t
 be i
@@ -11065,6 +11086,7 @@ be the source
 be the source but
 be the type
 be the type of
+be there for
 be there for her
 be thinking
 be thinking why
@@ -11441,6 +11463,7 @@ because no one can
 because nothing
 because nothing i
 because nothing i did
+because now
 because now i
 because now i can’t
 because now i’m
@@ -11775,6 +11798,7 @@ been commuting back and
 been dating the
 been dating the same
 been dealing with this
+been depressed
 been depressed and
 been depressed and self
 been depressed since
@@ -11788,6 +11812,7 @@ been diagnosed with chronic
 been divorced
 been divorced for
 been divorced for years
+been doing this
 been doing this by
 been doing this for
 been drawn
@@ -12224,6 +12249,7 @@ behind bars and want
 behind me
 behind me with
 behind me with no
+behind my
 behind my back
 behind my back i
 behind my back or
@@ -12515,6 +12541,7 @@ believes me when i
 believes that
 believes that the
 believes that the neighbors
+believing that
 believing that everything
 believing that everything is
 believing that it
@@ -13484,6 +13511,7 @@ bullied me for
 bullied me for it
 bullied me throughout
 bullied me throughout my
+bullying
 bullying and
 bullying and watching
 bullying and watching inappropriate
@@ -13653,6 +13681,7 @@ but he constantly
 but he constantly complains
 but he could
 but he could never
+but he doesn’t
 but he doesn’t have
 but he doesn’t want
 but he don’t
@@ -13747,6 +13776,7 @@ but i felt
 but i felt as
 but i find
 but i find myself
+but i get
 but i get mad
 but i get the
 but i got
@@ -14642,6 +14672,7 @@ can tell he
 can tell he knows
 can tell my
 can tell my therapist
+can think
 can think about
 can think about a
 can think of anything
@@ -17217,6 +17248,7 @@ could hear the whole
 could hide
 could hide i
 could hide i don’t
+could i
 could i told
 could i told him
 could justify
@@ -17330,6 +17362,7 @@ counter and put his
 countries because
 countries because i
 countries because i want
+country i
 country i could
 country i could go
 country i don’t
@@ -17619,6 +17652,7 @@ crying for no
 crying for no reason
 crying i felt
 crying i felt like
+crying in
 crying in bed
 crying in bed and
 crying in front
@@ -17643,6 +17677,7 @@ cube
 culinary
 culinary skills
 cultured
+cure
 cure depression
 cure depression and
 cure depression and have
@@ -18146,6 +18181,7 @@ deal with any
 deal with any issues
 deal with bipolar
 deal with bipolar extremely
+deal with it
 deal with it but
 deal with it well
 deal with negative
@@ -18413,8 +18449,8 @@ dentistry but
 dentistry but i
 dentistry but i will
 deny it
-deny it …
-deny it … now
+deny it now
+deny it now i
 depend
 depend on
 depend on me
@@ -18454,6 +18490,7 @@ depressed and want
 depressed and want to
 depressed as far
 depressed as far as
+depressed because
 depressed because i’ve
 depressed because i’ve been
 depressed because of
@@ -18668,6 +18705,7 @@ desperate because we feel
 desperate behaviors
 desperate behaviors i’m
 desperate behaviors i’m worried
+desperately
 desperately need
 desperately need one
 desperately need one the
@@ -18739,9 +18777,9 @@ devastated as i felt
 devastated because
 devastated because i
 devastated because i love
-devastated …
-devastated … hurt
-devastated … hurt …
+devastated hurt
+devastated hurt empty
+devastated hurt empty and
 develop
 develop some
 develop some kind
@@ -19114,6 +19152,9 @@ die or i want
 die peacefully
 die peacefully it
 die peacefully it would
+die stuff
+die stuff like
+die stuff like that
 die thought
 die thought that
 die thought that i
@@ -19123,9 +19164,6 @@ die to my new
 die without
 die without one
 die without one i
-die …
-die … stuff
-die … stuff like
 died
 died about
 died about years
@@ -19645,6 +19683,7 @@ do and feel empty
 do and i don’t
 do and the
 do and the response
+do any
 do any of
 do any of the
 do any simple
@@ -19704,6 +19743,7 @@ do better now that
 do but
 do but i
 do but i cant
+do but i can’t
 do care to
 do care to some
 do crazy
@@ -19976,9 +20016,6 @@ do worse
 do worse things
 do worse things for
 do yoga
-do …
-do … but
-do … but i
 doctor and start
 doctor and start the
 doctor but
@@ -20086,6 +20123,7 @@ doesn’t because next
 doesn’t because next week
 doesn’t believe in
 doesn’t believe in it
+doesn’t care
 doesn’t care about
 doesn’t care about me
 doesn’t care about my
@@ -20111,6 +20149,7 @@ doesn’t flip right
 doesn’t flip right and
 doesn’t happen the
 doesn’t happen the way
+doesn’t have
 doesn’t have all
 doesn’t have all of
 doesn’t have medical
@@ -20179,6 +20218,7 @@ doesn’t see them
 doesn’t see them etc
 doesn’t seem
 doesn’t seem to
+doesn’t seem to be
 doesn’t seem to care
 doesn’t seem to really
 doesn’t seem to think
@@ -21216,6 +21256,7 @@ earliest
 earliest entries
 earliest entries i
 earliest entries i blamed
+early age
 early age i
 early age i moved
 early age i’ve
@@ -21265,6 +21306,7 @@ east
 east coast
 east coast we
 east coast we live
+easy
 easy as
 easy as i
 easy as i was
@@ -21977,6 +22019,7 @@ enough evidence to convict
 enough for
 enough for her
 enough for her because
+enough i
 enough i am
 enough i am always
 enough i mostly
@@ -23073,6 +23116,7 @@ example earlier today i
 example get
 example get hurt
 example get hurt they
+example i
 example i feel
 example i feel like
 example i picked
@@ -24270,8 +24314,8 @@ feel depressed i
 feel depressed i comfort
 feel depressed i have
 feel devastated
-feel devastated …
-feel devastated … hurt
+feel devastated hurt
+feel devastated hurt empty
 feel different
 feel different as
 feel different as if
@@ -24548,6 +24592,7 @@ feel like the moment
 feel like the world
 feel like therapy
 feel like therapy isn’t
+feel like they
 feel like they don’t
 feel like this problem
 feel like this ‘not
@@ -24559,6 +24604,7 @@ feel lost
 feel lost and
 feel lost and confused
 feel lost and like
+feel my
 feel my life
 feel my life is
 feel my random
@@ -24894,8 +24940,8 @@ feeling of sadness and
 feeling of self
 feeling of self worth
 feeling pressured
-feeling pressured …
-feeling pressured … frustrated
+feeling pressured frustrated
+feeling pressured frustrated and
 feeling really
 feeling really discouraged
 feeling really discouraged to
@@ -29981,6 +30027,7 @@ hating myself since year
 hating social
 hating social interaction
 hating social interaction and
+hatred
 hatred for
 hatred for myself
 hatred for myself and
@@ -30709,6 +30756,7 @@ have serious issues with
 have several
 have several hours
 have several hours of
+have severe
 have severe ptsd
 have severe ptsd where
 have sex 1-2
@@ -31334,6 +31382,7 @@ he loved guilt
 he loved guilt and
 he loves me as
 he loves me very
+he makes me feel
 he makes me upset
 he may stoop
 he may stoop in
@@ -31646,6 +31695,7 @@ health i feel like
 health problem
 health problem or
 health problem or mental
+health problems
 health problems that
 health problems that seemed
 health-wise
@@ -32051,6 +32101,7 @@ her because she thinks
 her become
 her become like
 her become like a
+her behavior
 her behavior directly
 her behavior directly without
 her behavior started
@@ -33610,6 +33661,7 @@ however i worry that
 however i’m
 however i’m surprised
 however i’m surprised and
+however my
 however my inability
 however my inability to
 however my stuff
@@ -33684,6 +33736,9 @@ hungry i have gained
 hurt by
 hurt by a
 hurt by a male
+hurt empty
+hurt empty and
+hurt empty and numb
 hurt him
 hurt him because
 hurt him because he
@@ -33693,6 +33748,7 @@ hurt me talk
 hurt me talk bad
 hurt my mother
 hurt my mother just
+hurt myself
 hurt myself in
 hurt myself in my
 hurt or
@@ -33712,9 +33768,6 @@ hurt they have this
 hurt way
 hurt way too
 hurt way too easily
-hurt …
-hurt … empty
-hurt … empty and
 hurtful things that
 hurtful things that i
 hurtful words
@@ -33984,6 +34037,7 @@ i am afraid it
 i am afraid of
 i am afraid she
 i am afraid someone
+i am afraid that
 i am alone
 i am alone i
 i am also afraid
@@ -34510,6 +34564,7 @@ i can tell
 i can tell from
 i can tell he
 i can tell my
+i can think
 i can think about
 i can think of
 i can't
@@ -34926,6 +34981,7 @@ i decided to become
 i deeply
 i deeply regret
 i deeply regret it
+i definitely
 i definitely am
 i definitely am not
 i deliberately
@@ -35110,8 +35166,6 @@ i do that is
 i do that until
 i do the
 i do the same
-i do …
-i do … but
 i doing
 i doing this
 i don't
@@ -35386,6 +35440,7 @@ i feared a lot
 i feared that
 i feared that i’d
 i feel
+i feel a
 i feel a lot
 i feel a very
 i feel about
@@ -35422,7 +35477,7 @@ i feel depressed
 i feel depressed and
 i feel depressed i
 i feel devastated
-i feel devastated …
+i feel devastated hurt
 i feel dumb
 i feel dumb unnecessary
 i feel empty
@@ -36465,12 +36520,14 @@ i know if
 i know if i
 i know in
 i know is not
+i know it
 i know it however
 i know it isn’t
 i know it was
 i know its
 i know its a
 i know its not
+i know it’s
 i know it’s a
 i know it’s absurd
 i know it’s not
@@ -36512,6 +36569,7 @@ i know they don’t
 i know they will
 i know they’ll
 i know they’ll say
+i know this isn’t
 i know this needs
 i know what
 i know what i
@@ -37300,6 +37358,7 @@ i talked to a
 i talked to my
 i talked to via
 i tell
+i tell him
 i tell him about
 i tell him to
 i tell it
@@ -37831,6 +37890,7 @@ i wont leave the
 i won’t
 i won’t admit
 i won’t admit that
+i won’t be
 i won’t be able
 i won’t be strong
 i won’t even
@@ -37859,6 +37919,7 @@ i worry i
 i worry i won’t
 i worry my
 i worry my partner
+i worry that
 i worry that he
 i worry that i’m
 i worry that my
@@ -38327,6 +38388,7 @@ if the therapeutic
 if the therapeutic relationship
 if the thoughts
 if the thoughts have
+if there is
 if there is a
 if there is anything
 if there was
@@ -41628,9 +41690,10 @@ it no matter how
 it no matter what
 it not too
 it not too far
-it now
 it now but
 it now but i
+it now i
+it now i don’t
 it occurs
 it occurs i
 it occurs i have
@@ -41877,9 +41940,6 @@ it would turn
 it would turn to
 it wouldn’t be
 it wouldn’t be normal
-it …
-it … now
-it … now i
 it's
 it's a
 it's a bad
@@ -42136,6 +42196,7 @@ it’s messing with
 it’s messing with my
 it’s more the
 it’s more the anger
+it’s my
 it’s my fault
 it’s my fault and
 it’s my fault that
@@ -43065,6 +43126,7 @@ i’ve gotten really
 i’ve gotten really less
 i’ve gotten to
 i’ve gotten to the
+i’ve had a
 i’ve had a bad
 i’ve had a heart
 i’ve had for
@@ -43120,6 +43182,7 @@ i’ve never had reading
 i’ve never had the
 i’ve never loved
 i’ve never loved anyone
+i’ve not
 i’ve not been
 i’ve not been able
 i’ve not completed
@@ -43607,6 +43670,7 @@ just left i
 just left i have
 just left my
 just left my boyfriend
+just let
 just let him
 just let him go
 just let my
@@ -43915,6 +43979,7 @@ keeps changing one times
 keeps eating
 keeps eating at
 keeps eating at me
+keeps getting
 keeps getting worse
 keeps getting worse this
 keeps giving
@@ -44364,6 +44429,7 @@ know its a
 know its a complete
 know its not
 know its not good
+know it’s
 know it’s a
 know it’s a part
 know it’s absurd
@@ -44455,6 +44521,7 @@ know they’ll say
 know they’ll say stop
 know this is completely
 know this is horrible
+know this isn’t
 know this isn’t normal
 know this isn’t right
 know this needs
@@ -44695,6 +44762,7 @@ last test even
 last test even though
 last three
 last three years i
+last time
 last time i
 last time i beat
 last time i was
@@ -45063,6 +45131,7 @@ left i have
 left i have tried
 left i was
 left i was single
+left me
 left me scared
 left me scared that
 left me so
@@ -45341,6 +45410,7 @@ life i blame
 life i blame him
 life i dont
 life i dont feel
+life i don’t
 life i don’t feel
 life i don’t have
 life i don’t know
@@ -45407,6 +45477,7 @@ life now i know
 life once
 life once i
 life once i met
+life or
 life or both
 life otherwise
 life otherwise but
@@ -45543,6 +45614,7 @@ like all the other
 like alzheimer’s
 like alzheimer’s and
 like alzheimer’s and parkinson’s
+like an
 like an addiction
 like an addiction i
 like an attention
@@ -46100,6 +46172,7 @@ like with him i
 like xanax
 like xanax and
 like xanax and coke
+like you
 like you know
 like you know you’re
 like you owe
@@ -46729,6 +46802,8 @@ lost i have never
 lost in
 lost in translation
 lost in translation from
+lost interest
+lost interest in
 lost interest in almost
 lost it
 lost my
@@ -47111,6 +47186,7 @@ made at this time
 made even
 made even though
 made even though it’s
+made her
 made her mad
 made her mad at
 made her uncomfortable
@@ -47541,6 +47617,7 @@ manipulation
 manipulation techniques
 manipulation techniques like
 manipulation techniques like this
+manipulative
 manipulative controlling
 manipulative controlling and
 manipulative controlling and cruel
@@ -48053,6 +48130,7 @@ me and scream
 me and scream at
 me and subsequently
 me and subsequently has
+me and that
 me and that they
 me and that would
 me and their
@@ -50211,6 +50289,7 @@ most individuals are depressed
 most i’ve
 most i’ve then
 most i’ve then realized
+most likely
 most likely all
 most likely all i
 most noticeable
@@ -50807,9 +50886,6 @@ mutual it
 mutual it never
 mutual it never comes
 my
-my #
-my # problem
-my # problem right
 my 12th
 my 12th results
 my 12th results yesterday
@@ -50885,6 +50961,7 @@ my aunt seems
 my aunt seems to
 my baby is
 my baby is doing
+my back
 my back and
 my back and embrace
 my back and rip
@@ -51051,6 +51128,7 @@ my chances of going
 my chef
 my child until
 my child until they
+my childhood
 my childhood family
 my childhood family and
 my childhood she
@@ -51360,6 +51438,7 @@ my family has
 my family has a
 my family if
 my family if i
+my family is
 my family is caring
 my family is disgusted
 my family is going
@@ -52268,6 +52347,8 @@ my priority is to
 my pro
 my pro licence
 my pro licence but
+my problem right
+my problem right now
 my problem why
 my problem why do
 my problems aren’t
@@ -52350,6 +52431,7 @@ my schoolwork is
 my schoolwork is suffering
 my second husband
 my second husband does
+my self
 my self constantly
 my self constantly to
 my self esteem
@@ -52635,9 +52717,11 @@ my wrist because
 my wrist because i
 my year back
 my year back i
+my younger
 my younger brother
 my younger brother and
 my younger nieces
+my younger sister
 my younger sister and
 my younger sister of
 myself
@@ -54324,6 +54408,7 @@ not get any better
 not giving
 not giving me
 not giving me a
+not going
 not going to
 not going to ask
 not going to get
@@ -54997,6 +55082,7 @@ now i seem
 now i seem to
 now i tried
 now i tried making
+now i want
 now i want him
 now i want things
 now i will
@@ -56870,6 +56956,7 @@ on one hand
 on one hand i’m
 on or well
 on or well not
+on other
 on other people
 on other people i
 on other people they
@@ -56963,8 +57050,8 @@ on to higher
 on to higher education
 on top of the
 on twitter
-on us …
-on us … on
+on us on
+on us on our
 on weekends
 on weekends it’s
 on weekends it’s the
@@ -58000,6 +58087,7 @@ or the world itself
 or then
 or then there
 or then there is
+or they
 or they stand
 or they stand to
 or they start
@@ -58014,6 +58102,7 @@ or think of
 or think of the
 or think the
 or think the way
+or thinking
 or thinking bad
 or thinking bad things
 or thinking badly
@@ -59599,6 +59688,7 @@ people and willingly ‘chose’
 people anymore
 people anymore i
 people anymore i don’t
+people are
 people are being
 people are being hostile
 people are going
@@ -59858,6 +59948,7 @@ people’s internal actions and
 people’s talking
 people’s talking about
 people’s talking about me
+per
 per him
 per him he
 per him he says
@@ -60517,6 +60608,7 @@ point that i don’t
 point we’re
 point we’re my
 point we’re my parents
+point where i
 point where i cut
 point where i have
 point where i just
@@ -60746,12 +60838,12 @@ pressure when
 pressure when i’m
 pressure when i’m presented
 pressured
+pressured frustrated
+pressured frustrated and
+pressured frustrated and overwhelmed
 pressured or
 pressured or uncomfortable
 pressured or uncomfortable during
-pressured …
-pressured … frustrated
-pressured … frustrated and
 prestigious
 prestigious job
 pretended
@@ -62165,6 +62257,7 @@ reason i”m contacting is
 reason my
 reason my mom
 reason my mom and
+reason or
 reason or an
 reason or an experience
 reason or the
@@ -62864,6 +62957,7 @@ rest is
 rest is pretty
 rest is pretty hazy
 rest of
+rest of my
 rest of my brain/fuzzy/hazy/heavy
 rest of my life
 rest of my life–
@@ -63989,6 +64083,7 @@ schooling i felt
 schooling i felt bad
 schooling paid
 schooling paid for
+schools
 schools and
 schools and was
 schools and was placed
@@ -64742,6 +64837,7 @@ sessions of psychotherapy and
 sessions with
 sessions with him
 sessions with him without
+set
 set and
 set and had
 set and had an
@@ -64757,6 +64853,7 @@ set of beliefs anywhere
 setting because
 setting because i
 setting because i realize
+settle
 settle down
 settle down i
 settle down i don’t
@@ -65158,6 +65255,7 @@ she knows im very
 she learn
 she learn it
 she learn it from
+she lives
 she lives in egypt
 she lives to
 she lives to spend
@@ -65246,6 +65344,7 @@ she takes all her
 she talks
 she talks down
 she talks down to
+she talks to
 she talks to people
 she thinks ive
 she thinks ive made
@@ -65277,6 +65376,8 @@ she used to tell
 she wakes
 she wakes up
 she wakes up in
+she wants
+she wants to
 she wants to blame
 she wants to bring
 she was a perfect
@@ -65528,8 +65629,8 @@ should care
 should care about
 should care about i
 should die
-should die …
-should die … stuff
+should die stuff
+should die stuff like
 should do and
 should do and because
 should do to
@@ -65744,6 +65845,7 @@ sick feeling and started
 sick i
 sick i don’t
 sick i don’t think
+sick of
 sick of everything
 sick of everything my
 sick of me
@@ -65924,6 +66026,7 @@ since i give
 since i give so
 since i graduated
 since i graduated high
+since i had
 since i had a
 since i had those
 since i have
@@ -66752,6 +66855,7 @@ so why do i
 so worried
 so worried whenever
 so worried whenever she
+sober
 sober i
 sober i still
 sober i still don’t
@@ -66950,6 +67054,7 @@ some signs
 some signs and
 some signs and i
 some sort
+some sort of
 some sort of ability
 some sort of plague-victim
 some specific
@@ -67040,6 +67145,7 @@ someone being in my
 someone better
 someone better i’m
 someone better i’m so
+someone but
 someone but i fear
 someone but the
 someone but the friendship
@@ -67223,6 +67329,7 @@ something is out
 something is out to
 something is wrong
 something is wrong with
+something like that
 something like that but
 something like the
 something like the door
@@ -67304,6 +67411,7 @@ something worse
 something worse since
 something worse since i
 something wrong
+something wrong and
 something wrong and becomes
 something wrong and they
 something wrong gesturing
@@ -68444,6 +68552,7 @@ stopped smoking
 stopped smoking pot
 stopped smoking pot as
 store
+store and
 store and i’ll
 store and i’ll worry
 store i
@@ -68651,6 +68760,7 @@ study i get negative
 study this
 study this all
 study this all people
+studying
 studying because
 studying because i
 studying because i still
@@ -70928,6 +71038,7 @@ that they will despise
 that they won’t
 that they won’t hurt
 that they won’t like
+that they would
 that they would appreciate
 that they would judge
 that they’ll
@@ -70973,6 +71084,7 @@ that was not my
 that was weeks
 that was weeks ago
 that wasn’t
+that way
 that way but
 that way but sometimes
 that we broke
@@ -71030,6 +71142,7 @@ that your life is
 that you’re
 that you’re either
 that you’re either perfect
+thats
 thats not
 thats not the
 thats not the case
@@ -72053,6 +72166,7 @@ the point of thinking
 the point that i
 the point we’re
 the point we’re my
+the point where i
 the point where sometimes
 the poison
 the possibility
@@ -72079,6 +72193,7 @@ the problem is lack
 the problem is not
 the problem is of
 the problem is she
+the problem is that
 the problem was
 the problem was that
 the problems have
@@ -72171,6 +72286,7 @@ the rest getting left
 the rest is
 the rest is pretty
 the rest of
+the rest of my
 the rest of them
 the results
 the results still
@@ -72785,6 +72901,7 @@ them both
 them both as
 them both as i
 them but
+them but i
 them but i cannot
 them but i don’t
 them but i fear
@@ -73228,6 +73345,7 @@ there for her like
 there for me at
 there for my
 there for my friend
+there has
 there has always
 there has always been
 there has got
@@ -73527,7 +73645,7 @@ they could get
 they could get away
 they deny
 they deny it
-they deny it …
+they deny it now
 they did
 they did it
 they did it i’m
@@ -73724,6 +73842,8 @@ they stopped because i’m
 they take
 they take turns
 they take turns maneuvering
+they tell
+they tell me
 they tell me i
 they think
 they think i
@@ -74037,6 +74157,7 @@ things hard during
 things hard during class
 things hard for
 things hard for my
+things have
 things have all
 things have all of
 things however
@@ -74626,6 +74747,7 @@ thinking which the anxiety
 thinking why
 thinking why i’m
 thinking why i’m eating
+thinks i
 thinks i am
 thinks i am disgusting
 thinks i should
@@ -74889,6 +75011,7 @@ this is horrible
 this is horrible and
 this is intensified
 this is intensified as
+this is just
 this is just me
 this is just someone
 this is making
@@ -75728,7 +75851,7 @@ time falling asleep because
 time feeling
 time feeling lonely
 time feeling pressured
-time feeling pressured …
+time feeling pressured frustrated
 time find
 time find a
 time find a source
@@ -75890,6 +76013,7 @@ time years
 time you”ve
 time you”ve been
 time you”ve been out
+times a
 times a day
 times a day and
 times a day i
@@ -76220,6 +76344,7 @@ to be graphic
 to be graphic but
 to be happy and
 to be happy but
+to be honest
 to be honest i
 to be i
 to be i am
@@ -76297,6 +76422,7 @@ to be up and
 to be upset
 to be upset anytime
 to be upset at
+to be very
 to be very artistic
 to be very close
 to be very nervous
@@ -76845,6 +76971,7 @@ to for
 to for ever
 to for work
 to for work i
+to force
 to force emotions
 to force emotions out
 to force him
@@ -77667,6 +77794,7 @@ to read their
 to read their thoughts
 to read things
 to read things over
+to realize
 to realize that
 to realize that support
 to realize this
@@ -78990,6 +79118,7 @@ trust people in my
 trust them alone
 trust them i
 trust them i make
+trusted
 trusted my
 trusted my mom
 trusted my mom these
@@ -79379,6 +79508,7 @@ undergone
 undergone the
 undergone the same
 undergone the same issues
+underlying
 underlying issues
 underlying issues excluding
 underlying issues excluding depression
@@ -79445,6 +79575,7 @@ understanding kid now
 understanding kid now i’m
 understanding my
 understanding my behavior
+understands
 understands how
 understands how the
 understands how the way
@@ -79490,6 +79621,7 @@ unhappy and unfulfilled
 unhappy for
 unhappy for no
 unhappy for no apparent
+unhealthy
 unhealthy but
 unhealthy but i
 unhealthy but i don’t
@@ -79796,7 +79928,7 @@ up of it my
 up on life
 up on life now
 up on us
-up on us …
+up on us on
 up or not
 up ruining
 up ruining things
@@ -79879,6 +80011,7 @@ up with me ill
 up with me on
 up with me that
 up with me that’s
+up with my
 up with my adopted
 up with my boyfriend
 up with the rest
@@ -80021,6 +80154,9 @@ us i feel like
 us living
 us living together
 us living together so
+us on
+us on our
+us on our future
 us right
 us right and
 us right and we
@@ -80042,9 +80178,6 @@ us to the
 us to the point
 us when we
 us when we do
-us …
-us … on
-us … on our
 use me
 use me and
 use me and discard
@@ -80733,6 +80866,7 @@ waking
 waking second
 waking second i’m
 waking second i’m breathing
+waking up
 waking up in
 waking up in the
 waking up the
@@ -80986,6 +81120,7 @@ want to kill someone
 want to know
 want to know a
 want to know how
+want to know if
 want to know is
 want to know this
 want to learn
@@ -81141,6 +81276,7 @@ was acting like he
 was actually
 was actually molested
 was actually molested as
+was afraid
 was afraid of
 was afraid of reverting
 was afraid she’d
@@ -81928,6 +82064,7 @@ we soon started to
 we spoke
 we spoke to
 we spoke to her
+we started dating
 we started dating and
 we started dating he
 we started talking
@@ -83178,6 +83315,7 @@ while in this state
 while i’d
 while i’d rather
 while i’d rather be
+while i’m
 while i’m alone
 while i’m feeling
 while i’m feeling happy
@@ -83271,6 +83409,7 @@ who he’s
 who he’s with
 who he’s with where
 who i
+who i am
 who i am and
 who i am i
 who i am since
@@ -84174,6 +84313,7 @@ with my friends
 with my friends a
 with my friends and
 with my friends but
+with my friends i
 with my friends it’s
 with my grandparents
 with my grandparents or
@@ -84770,6 +84910,7 @@ works very
 works very slowly
 works very slowly he
 world
+world and
 world and constantly
 world and constantly feel
 world and feel
@@ -84921,6 +85062,7 @@ worry my parents
 worry my parents even
 worry my partner
 worry my partner will
+worry that
 worry that he
 worry that he still
 worry that he’ll
@@ -84951,7 +85093,7 @@ worrying etc
 worrying everyone
 worrying i
 worrying i do
-worrying i do …
+worrying i do but
 worrying i was
 worrying i was developing
 worrying if
@@ -86024,28 +86166,6 @@ zone out of everything
 „faithful‰ to
 „faithful‰ to me
 „faithful‰ to me since
-…
-… but
-… but i
-… but i can’t
-… empty
-… empty and
-… empty and numb
-… frustrated
-… frustrated and
-… frustrated and overwhelmed
-… hurt
-… hurt …
-… hurt … empty
-… now
-… now i
-… now i don’t
-… on
-… on our
-… on our future
-… stuff
-… stuff like
-… stuff like that
 …it’s
 …it’s always
 …it’s always my

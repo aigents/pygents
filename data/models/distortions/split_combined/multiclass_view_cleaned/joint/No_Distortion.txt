@@ -4905,6 +4905,8 @@ about this he is
 about this i
 about this i had
 about this i have
+about this is
+about this is not
 about this issue
 about this issue my
 about this i’m
@@ -5044,9 +5046,6 @@ about years she lived
 about yrs
 about yrs old
 about yrs old he
-about …
-about … this
-about … this is
 above
 above about
 above about why
@@ -92981,8 +92980,8 @@ m came over
 m came over to
 mad
 mad about
-mad about …
-mad about … this
+mad about this
+mad about this is
 mad and
 mad and fighting
 mad and fighting with
@@ -116255,7 +116254,7 @@ overly literal and
 overly literal and causes
 overly mad
 overly mad about
-overly mad about …
+overly mad about this
 overly thrilled
 overly thrilled with
 overly thrilled with oral
@@ -176920,13 +176919,6 @@ zyrtec and used flonase
 „protagonist was
 „protagonist was always
 „protagonist was always a
-…
-… personally
-… personally identifiable
-… personally identifiable medical
-… this
-… this is
-… this is not
 …and
 …and spanked
 …and spanked for
