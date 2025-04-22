@@ -417,7 +417,11 @@ class TextMetrics(PygentsSentiment):
                                 l.append(w);
                                 #print(lists)
                             found = True;
-#TODO what is that?
+                    # remove tokens that have matched to N-gram with order n=K, so they are not attempted to get matched to N-grams with n < K
+                    # (that is why we iterate them from n=N_max down to n=1)
+                    # For example, the text "the weather is not good today", after matching ["not", "good"] with n=2,
+                    # turns into "the weather is None None today",
+                    # so that ["not"] and ["good"] are not counted any more with n=1
                     if found:
                         for Ni in range(0,N):
                             seq[i + Ni] = None
@@ -427,18 +431,16 @@ class TextMetrics(PygentsSentiment):
             N -= 1
         lenseq = len(seq)
         
-#TODO fix this
         if self.metric_logarithmic:
             for metric in counts:
                 counts[metric] = math.log10(1 + 100 * counts[metric] / lenseq)/2
         else:
             for metric in counts:
                 counts[metric] = counts[metric] / lenseq
-#TODO overall
+
         if not rounding is None:
             for metric in counts:
                 counts[metric] = round(counts[metric],rounding)
         if 'positive' in counts and 'negative' in counts:
-        	counts['contradictive'] = round(math.sqrt(counts['positive'] * counts['negative']),2)
+            counts['contradictive'] = round(math.sqrt(counts['positive'] * counts['negative']),2)
         return counts
-    
