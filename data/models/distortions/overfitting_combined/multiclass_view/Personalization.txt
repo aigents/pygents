@@ -22,6 +22,101 @@ does this . believing	1.0
 this . believing that	1.0
 . believing that it	1.0
 no longer interested .	1.0
+raise .	1.0
+to raise .	1.0
+raise . there	1.0
+in adults .	1.0
+child to raise .	1.0
+to raise . there	1.0
+raise . there was	1.0
+. there was constant	1.0
+myself and my parents	1.0
+and my parents .	1.0
+my parents . i	1.0
+parents . i couldn’t	1.0
+. i couldn’t talk	1.0
+trust in adults .	1.0
+applications ,	1.0
+, writing	1.0
+routines ,	1.0
+, relationships	1.0
+job applications ,	1.0
+applications , writing	1.0
+, writing routines	1.0
+writing routines ,	1.0
+routines , relationships	1.0
+, relationships with	1.0
+opposite sex ,	1.0
+sex , you	1.0
+: job applications ,	1.0
+job applications , writing	1.0
+applications , writing routines	1.0
+, writing routines ,	1.0
+writing routines , relationships	1.0
+routines , relationships with	1.0
+, relationships with the	1.0
+the opposite sex ,	1.0
+opposite sex , you	1.0
+sex , you name	1.0
+cheated ,	1.0
+, lied	1.0
+goes ,	1.0
+never cheated ,	1.0
+cheated , lied	1.0
+, lied ,	1.0
+lied , or	1.0
+to that .	1.0
+that . he’s	1.0
+. he’s always	1.0
+control him ,	1.0
+him , who	1.0
+, who he’s	1.0
+he’s with ,	1.0
+with , where	1.0
+, where he	1.0
+he goes ,	1.0
+goes , what	1.0
+, what he’s	1.0
+he’s doing ,	1.0
+not involved .	1.0
+involved . and	1.0
+he’s never cheated ,	1.0
+never cheated , lied	1.0
+cheated , lied ,	1.0
+, lied , or	1.0
+lied , or anything	1.0
+, or anything remotely	1.0
+close to that .	1.0
+to that . he’s	1.0
+that . he’s always	1.0
+. he’s always been	1.0
+about me . but	1.0
+can’t trust him .	1.0
+trust him . and	1.0
+him . and i	1.0
+. and i get	1.0
+not with him .	1.0
+. i always want	1.0
+and control him ,	1.0
+control him , who	1.0
+him , who he’s	1.0
+, who he’s with	1.0
+who he’s with ,	1.0
+he’s with , where	1.0
+with , where he	1.0
+, where he goes	1.0
+where he goes ,	1.0
+he goes , what	1.0
+goes , what he’s	1.0
+, what he’s doing	1.0
+what he’s doing ,	1.0
+he’s doing , and	1.0
+doing , and i	1.0
+i’m not involved .	1.0
+not involved . and	1.0
+involved . and it’s	1.0
+. and it’s starting	1.0
+ruin our relationship .	1.0
 are different .	1.0
 lonely at my house	1.0
 at my house .	1.0
@@ -59,6 +154,48 @@ the married guy .	1.0
 married guy . i	1.0
 guy . i broke	1.0
 didn’t love him .	1.0
+uncontrollable .	1.0
+no success .	1.0
+success . before	1.0
+drain . i	1.0
+on that ,	1.0
+habitual and uncontrollable	1.0
+and uncontrollable .	1.0
+uncontrollable . i	1.0
+a shot .	1.0
+four months now .	1.0
+now . i realize	1.0
+. i realize the	1.0
+a problem . i	1.0
+with no success .	1.0
+no success . before	1.0
+success . before this	1.0
+. before this problem	1.0
+going down the drain	1.0
+the drain . i	1.0
+drain . i know	1.0
+work on that ,	1.0
+on that , but	1.0
+that , but do	1.0
+, but do you	1.0
+become habitual and uncontrollable	1.0
+habitual and uncontrollable .	1.0
+and uncontrollable . i	1.0
+uncontrollable . i have	1.0
+this a shot .	1.0
+date .	1.0
+i date .	1.0
+date . most	1.0
+. most all	1.0
+considered attractive .	1.0
+women i date .	1.0
+i date . most	1.0
+date . most all	1.0
+. most all of	1.0
+be considered attractive .	1.0
+considered attractive . i	1.0
+attractive . i don’t	1.0
+definitely am not .	1.0
 supportive ,	1.0
 needed ,	1.0
 schooling .	1.0
@@ -257,6 +394,36 @@ people are dead ,	1.0
 are dead , because	1.0
 dead , because i	1.0
 , because i failed	1.0
+grasp lately .	1.0
+lately . it’s	1.0
+my grasp lately .	1.0
+grasp lately . it’s	1.0
+lately . it’s all	1.0
+. it’s all my	1.0
+worry about everything .	1.0
+welding ,	1.0
+cash .	1.0
+9 welding ,	1.0
+welding , 1	1.0
+, 1 maintenance	1.0
+for cash .	1.0
+cash . i	1.0
+. i liked	1.0
+critical about .	1.0
+about . most	1.0
+. most jobs	1.0
+told 9 welding ,	1.0
+9 welding , 1	1.0
+welding , 1 maintenance	1.0
+, 1 maintenance and	1.0
+jobs for cash .	1.0
+for cash . i	1.0
+cash . i liked	1.0
+. i liked the	1.0
+more critical about .	1.0
+critical about . most	1.0
+about . most jobs	1.0
+. most jobs i’ve	1.0
 help . as	1.0
 young child ,	1.0
 on anything ,	1.0
@@ -522,6 +689,55 @@ a victim .	1.0
 but , i can’t	1.0
 , i can’t help	1.0
 myself a victim .	1.0
+clingy .	1.0
+be annoying ,	1.0
+annoying , emotionally	1.0
+, emotionally distant	1.0
+emotionally distant ,	1.0
+distant , awkward	1.0
+, awkward ,	1.0
+awkward , and	1.0
+, and occasionally	1.0
+occasionally clingy .	1.0
+clingy . i	1.0
+can be annoying ,	1.0
+be annoying , emotionally	1.0
+annoying , emotionally distant	1.0
+, emotionally distant ,	1.0
+emotionally distant , awkward	1.0
+distant , awkward ,	1.0
+, awkward , and	1.0
+awkward , and occasionally	1.0
+, and occasionally clingy	1.0
+and occasionally clingy .	1.0
+occasionally clingy . i	1.0
+clingy . i realize	1.0
+. i realize that	1.0
+, inadequate	1.0
+inadequate ,	1.0
+feel anxious ,	1.0
+anxious , inadequate	1.0
+, inadequate ,	1.0
+inadequate , not	1.0
+, not good	1.0
+feel inadequate ,	1.0
+inadequate , so	1.0
+, so it’s	1.0
+to break .	1.0
+i feel anxious ,	1.0
+feel anxious , inadequate	1.0
+anxious , inadequate ,	1.0
+, inadequate , not	1.0
+inadequate , not good	1.0
+, not good enough	1.0
+enough for him .	1.0
+him . i get	1.0
+. i get how	1.0
+him feel inadequate ,	1.0
+feel inadequate , so	1.0
+inadequate , so it’s	1.0
+, so it’s a	1.0
+like to break .	1.0
 their family member .	1.0
 a loss ,	1.0
 loss , she’s	1.0
@@ -567,6 +783,52 @@ counseling , and i	1.0
 getting full custody .	1.0
 do . i thought	1.0
 was my fault .	1.0
+homeless ,	1.0
+, jobless	1.0
+jobless ,	1.0
+, poor	1.0
+wish .	1.0
+38 failure ,	1.0
+failure , i’m	1.0
+, i’m homeless	1.0
+i’m homeless ,	1.0
+homeless , jobless	1.0
+, jobless ,	1.0
+jobless , depressed	1.0
+, depressed etc	1.0
+depressed etc .	1.0
+be in ,	1.0
+in , so	1.0
+being sad ,	1.0
+sad , poor	1.0
+, poor ,	1.0
+poor , and	1.0
+they wish .	1.0
+now , i’m a	1.0
+, i’m a 38	1.0
+a 38 failure ,	1.0
+38 failure , i’m	1.0
+failure , i’m homeless	1.0
+, i’m homeless ,	1.0
+i’m homeless , jobless	1.0
+homeless , jobless ,	1.0
+, jobless , depressed	1.0
+jobless , depressed etc	1.0
+, depressed etc .	1.0
+depressed etc . i	1.0
+etc . i had	1.0
+. i had chances	1.0
+to be in ,	1.0
+be in , so	1.0
+in , so i	1.0
+, so i think	1.0
+to being sad ,	1.0
+being sad , poor	1.0
+sad , poor ,	1.0
+, poor , and	1.0
+poor , and having	1.0
+, and having people	1.0
+as they wish .	1.0
 all-time low .	1.0
 low . my	1.0
 better daughter .	1.0
@@ -582,6 +844,22 @@ better daughter . one	1.0
 daughter . one who	1.0
 . one who doesn’t	1.0
 of these problems .	1.0
+normal . they’re	1.0
+. they’re almost	1.0
+people , especially	1.0
+behavior is normal .	1.0
+is normal . they’re	1.0
+normal . they’re almost	1.0
+. they’re almost always	1.0
+other people , especially	1.0
+people , especially if	1.0
+, especially if i’m	1.0
+than herself .	1.0
+other than herself .	1.0
+than herself . i	1.0
+herself . i do	1.0
+. i do believe	1.0
+become a family .	1.0
 boundaries .	1.0
 my boundaries .	1.0
 push my boundaries .	1.0
@@ -636,6 +914,15 @@ me very frustrated .	1.0
 hiding .	1.0
 and hiding .	1.0
 lying and hiding .	1.0
+adopted family ,	1.0
+my adopted family ,	1.0
+adopted family , i	1.0
+family , i felt	1.0
+, i felt like	1.0
+everything i did .	1.0
+i did . i	1.0
+did . i feel	1.0
+affection towards him .	1.0
 conscience ,	1.0
 school started ,	1.0
 started , and	1.0
@@ -656,7 +943,21 @@ bad it is .	1.0
 is . i feel	1.0
 cornerstones in life .	1.0
 resentful of him .	1.0
+tells me .	1.0
+mom tells me .	1.0
 might affect me .	1.0
+regrets ,	1.0
+with regrets ,	1.0
+regrets , have	1.0
+, have social	1.0
+enjoying my life ,	1.0
+life , i am	1.0
+, i am filled	1.0
+filled with regrets ,	1.0
+with regrets , have	1.0
+regrets , have social	1.0
+, have social anxiety	1.0
+wasted my 20s .	1.0
 , verbally	1.0
 was difficult ,	1.0
 difficult , verbally	1.0
@@ -672,6 +973,14 @@ from him . he	1.0
 his jealous nature .	1.0
 my aunt .	1.0
 of my aunt .	1.0
+do . but	1.0
+. she grosses	1.0
+i do . but	1.0
+do . but i	1.0
+towards my mother .	1.0
+mother . she grosses	1.0
+. she grosses me	1.0
+cant control it .	1.0
 wrong . and	1.0
 your head ,	1.0
 head , you	1.0
@@ -685,6 +994,40 @@ your head , you	1.0
 head , you don’t	1.0
 , you don’t know	1.0
 tell her anything .	1.0
+parts .	1.0
+, kinky	1.0
+kinky ,	1.0
+female parts .	1.0
+parts . i	1.0
+am fun ,	1.0
+fun , kinky	1.0
+, kinky ,	1.0
+kinky , clean	1.0
+, clean and	1.0
+of passion .	1.0
+passion . there	1.0
+this , either	1.0
+, either from	1.0
+my female parts .	1.0
+female parts . i	1.0
+parts . i know	1.0
+me . i know	1.0
+i am fun ,	1.0
+am fun , kinky	1.0
+fun , kinky ,	1.0
+, kinky , clean	1.0
+kinky , clean and	1.0
+, clean and full	1.0
+full of passion .	1.0
+of passion . there	1.0
+passion . there has	1.0
+. there has got	1.0
+him like this ,	1.0
+like this , either	1.0
+this , either from	1.0
+, either from a	1.0
+his life , or	1.0
+life , or both	1.0
 leave . i	1.0
 me also .	1.0
 to leave . i	1.0
@@ -789,6 +1132,7 @@ my rude words .	1.0
 time soon .	1.0
 real life , it	1.0
 life , it seems	1.0
+, it seems to	1.0
 younger than me ,	1.0
 than me , and	1.0
 any time soon .	1.0
@@ -840,6 +1184,15 @@ over 3 incidents .	1.0
 incidents . i worry	1.0
 . i worry if	1.0
 called an abuser .	1.0
+happy . i’m	1.0
+. i’m confused	1.0
+lonely after .	1.0
+don’t feel happy .	1.0
+feel happy . i’m	1.0
+happy . i’m confused	1.0
+. i’m confused with	1.0
+. i have almost	1.0
+and lonely after .	1.0
 everything ;	1.0
 ; people	1.0
 staring ,	1.0
@@ -891,6 +1244,46 @@ to cure myself .	1.0
 losing .	1.0
 still losing .	1.0
 and still losing .	1.0
+4yrs ,	1.0
+, known	1.0
+19yrs ,	1.0
+w/him ,	1.0
+hurts ,	1.0
+taste ,	1.0
+around 4yrs ,	1.0
+4yrs , known	1.0
+, known him	1.0
+around 19yrs ,	1.0
+19yrs , and	1.0
+living w/him ,	1.0
+w/him , he	1.0
+heart hurts ,	1.0
+hurts , i	1.0
+my taste ,	1.0
+taste , and	1.0
+for around 4yrs ,	1.0
+around 4yrs , known	1.0
+4yrs , known him	1.0
+, known him around	1.0
+him around 19yrs ,	1.0
+around 19yrs , and	1.0
+19yrs , and after	1.0
+, and after 2yrs	1.0
+of living w/him ,	1.0
+living w/him , he	1.0
+w/him , he has	1.0
+, he has seemed	1.0
+in me . my	1.0
+me . my heart	1.0
+. my heart hurts	1.0
+my heart hurts ,	1.0
+heart hurts , i	1.0
+hurts , i cry	1.0
+, i cry way	1.0
+for my taste ,	1.0
+my taste , and	1.0
+taste , and i	1.0
+confidence in me .	1.0
 worsened ,	1.0
 only worsened ,	1.0
 worsened , to	1.0
@@ -922,6 +1315,36 @@ things however , i	1.0
 however , i chose	1.0
 , i chose to	1.0
 didn’t need them .	1.0
+sort .	1.0
+them . i’d	1.0
+. i’d go	1.0
+less guilty ,	1.0
+guilty , like	1.0
+some sort .	1.0
+well with them .	1.0
+with them . i’d	1.0
+them . i’d go	1.0
+. i’d go far	1.0
+feel less guilty ,	1.0
+less guilty , like	1.0
+guilty , like a	1.0
+, like a self-punishment	1.0
+of some sort .	1.0
+bug .	1.0
+, i picked	1.0
+a bug .	1.0
+bug . i	1.0
+. i jumped	1.0
+kind ” .	1.0
+example , i picked	1.0
+, i picked up	1.0
+was a bug .	1.0
+a bug . i	1.0
+bug . i jumped	1.0
+. i jumped and	1.0
+drain . i started	1.0
+. i started obsessing	1.0
+as kind ” .	1.0
 guilty . i	1.0
 while ago ,	1.0
 reemerged recently .	1.0
@@ -933,6 +1356,41 @@ while ago , but	1.0
 ago , but the	1.0
 , but the problems	1.0
 have reemerged recently .	1.0
+abandoned ,	1.0
+being abandoned ,	1.0
+abandoned , even	1.0
+leave me .	1.0
+. if someone	1.0
+to self-harm .	1.0
+self-harm . i	1.0
+really happy ,	1.0
+, then it’ll	1.0
+into sadness .	1.0
+sadness . there’s	1.0
+about being abandoned ,	1.0
+being abandoned , even	1.0
+abandoned , even when	1.0
+, even when they	1.0
+to leave me .	1.0
+leave me . if	1.0
+me . if someone	1.0
+. if someone happens	1.0
+happens to leave ,	1.0
+to leave , i	1.0
+leave , i feel	1.0
+want to self-harm .	1.0
+to self-harm . i	1.0
+self-harm . i have	1.0
+. i have bouts	1.0
+i’m really happy ,	1.0
+really happy , then	1.0
+happy , then it’ll	1.0
+, then it’ll turn	1.0
+turn into sadness .	1.0
+into sadness . there’s	1.0
+sadness . there’s no	1.0
+. there’s no in	1.0
+between for me .	1.0
 longer .	1.0
 upon myself ,	1.0
 any longer .	1.0
@@ -1122,6 +1580,46 @@ that . . i	1.0
 . . i worked	1.0
 . i worked myself	1.0
 a emotional state .	1.0
+process .	1.0
+. waking	1.0
+showering ,	1.0
+self-scrutinizing process .	1.0
+process . waking	1.0
+. waking up	1.0
+up , “	1.0
+, “ what	1.0
+” showering ,	1.0
+showering , “	1.0
+same self-scrutinizing process .	1.0
+self-scrutinizing process . waking	1.0
+process . waking up	1.0
+. waking up ,	1.0
+waking up , “	1.0
+up , “ what	1.0
+, “ what the	1.0
+? ” showering ,	1.0
+” showering , “	1.0
+showering , “ why	1.0
+, “ why am	1.0
+. -i	1.0
+am , they’ll	1.0
+, they’ll leave	1.0
+me . -i	1.0
+. -i always	1.0
+ruining things .	1.0
+things . there	1.0
+time , i always	1.0
+i am , they’ll	1.0
+am , they’ll leave	1.0
+, they’ll leave me	1.0
+they’ll leave me .	1.0
+leave me . -i	1.0
+me . -i always	1.0
+. -i always end	1.0
+up ruining things .	1.0
+ruining things . there	1.0
+things . there is	1.0
+. there is just	1.0
 devastated ,	1.0
 am devastated ,	1.0
 devastated , because	1.0
@@ -1156,6 +1654,150 @@ parents financially , i	1.0
 financially , i worry	1.0
 , i worry they	1.0
 on their own .	1.0
+elation ,	1.0
+high ,	1.0
+stimulant .	1.0
+is , my	1.0
+, my mood	1.0
+like bipolar ,	1.0
+bipolar , but	1.0
+, i’m depressed	1.0
+depressed . when	1.0
+” mood ,	1.0
+mood , which	1.0
+than elation ,	1.0
+elation , with	1.0
+happy high ,	1.0
+high , i	1.0
+thinking it ,	1.0
+, and punish	1.0
+depressed mood ,	1.0
+way out ,	1.0
+of stimulant .	1.0
+thing is , my	1.0
+is , my mood	1.0
+, my mood goes	1.0
+of like bipolar ,	1.0
+like bipolar , but	1.0
+bipolar , but the	1.0
+, but the majority	1.0
+time , i’m depressed	1.0
+, i’m depressed .	1.0
+i’m depressed . when	1.0
+depressed . when i’m	1.0
+up ” mood ,	1.0
+” mood , which	1.0
+mood , which is	1.0
+, which is more	1.0
+rather than elation ,	1.0
+than elation , with	1.0
+elation , with the	1.0
+, with the occasional	1.0
+occasional happy high ,	1.0
+happy high , i	1.0
+high , i hate	1.0
+, i hate myself	1.0
+even thinking it ,	1.0
+thinking it , and	1.0
+it , and punish	1.0
+, and punish myself	1.0
+my family , but	1.0
+family , but when	1.0
+a depressed mood ,	1.0
+depressed mood , it	1.0
+mood , it seems	1.0
+only way out ,	1.0
+way out , and	1.0
+sort of stimulant .	1.0
+punched ,	1.0
+slapped ,	1.0
+, abused	1.0
+, shot	1.0
+, decapitated	1.0
+decapitated ,	1.0
+, multilated	1.0
+multilated ,	1.0
+, head	1.0
+building ,	1.0
+criticized ,	1.0
+gathering ,	1.0
+being punched ,	1.0
+punched , slapped	1.0
+, slapped ,	1.0
+slapped , abused	1.0
+, abused ,	1.0
+abused , shot	1.0
+, shot ,	1.0
+shot , decapitated	1.0
+, decapitated ,	1.0
+decapitated , multilated	1.0
+, multilated ,	1.0
+multilated , head	1.0
+, head crushed	1.0
+a building ,	1.0
+building , etc	1.0
+when criticized ,	1.0
+criticized , i	1.0
+them , never	1.0
+, never been	1.0
+social gathering ,	1.0
+gathering , i	1.0
+think so ,	1.0
+myself being punched ,	1.0
+being punched , slapped	1.0
+punched , slapped ,	1.0
+, slapped , abused	1.0
+slapped , abused ,	1.0
+, abused , shot	1.0
+abused , shot ,	1.0
+, shot , decapitated	1.0
+shot , decapitated ,	1.0
+, decapitated , multilated	1.0
+decapitated , multilated ,	1.0
+, multilated , head	1.0
+multilated , head crushed	1.0
+, head crushed with	1.0
+with a building ,	1.0
+a building , etc	1.0
+building , etc .	1.0
+etc . i feel	1.0
+. i feel deeply	1.0
+offended when criticized ,	1.0
+when criticized , i	1.0
+criticized , i don’t	1.0
+, i don’t “	1.0
+inferior to them ,	1.0
+to them , never	1.0
+them , never been	1.0
+, never been to	1.0
+other social gathering ,	1.0
+social gathering , i	1.0
+gathering , i feel	1.0
+, i feel others	1.0
+to think so ,	1.0
+think so , i’ve	1.0
+so , i’ve never	1.0
+had a girlfriend ,	1.0
+a girlfriend , i	1.0
+girlfriend , i find	1.0
+trust others , and	1.0
+others , and my	1.0
+, and my only	1.0
+while i’m alone .	1.0
+hurt someone ,	1.0
+into reality .	1.0
+me , why	1.0
+, why am	1.0
+never hurt someone ,	1.0
+hurt someone , but	1.0
+turning into reality .	1.0
+into reality . i	1.0
+reality . i get	1.0
+. i get an	1.0
+with me , why	1.0
+me , why am	1.0
+, why am i	1.0
+i like this .	1.0
 the fit .	1.0
 entire time , but	1.0
 time , but i’ve	1.0
@@ -1171,6 +1813,15 @@ fine emotionally , but	1.0
 emotionally , but i’ll	1.0
 , but i’ll find	1.0
 along those lines .	1.0
+this , since	1.0
+i’m thinking ,	1.0
+to about this ,	1.0
+about this , since	1.0
+this , since i	1.0
+, since i don’t	1.0
+what i’m thinking ,	1.0
+i’m thinking , and	1.0
+thinking , and i	1.0
 , earlier	1.0
 yourself .	1.0
 myself . for	1.0
@@ -1198,6 +1849,31 @@ in this society ,	1.0
 this society , or	1.0
 society , or of	1.0
 , or of running	1.0
+crowd .	1.0
+incident .	1.0
+of mine ,	1.0
+mine , but	1.0
+a role .	1.0
+role . i	1.0
+the crowd .	1.0
+crowd . i	1.0
+the incident .	1.0
+in the future .	1.0
+the future . i	1.0
+future . i don’t	1.0
+actions of mine ,	1.0
+of mine , but	1.0
+mine , but i	1.0
+played a role .	1.0
+a role . i	1.0
+role . i recall	1.0
+. i recall being	1.0
+in the crowd .	1.0
+the crowd . i	1.0
+crowd . i don’t	1.0
+for the incident .	1.0
+trust in myself .	1.0
+hard for me .	1.0
 ignore me ,	1.0
 just happened .	1.0
 happened . .	1.0
@@ -1212,6 +1888,30 @@ happened . . and	1.0
 stipulations .	1.0
 these stipulations .	1.0
 for these stipulations .	1.0
+nightmares ,	1.0
+includes you ,	1.0
+you , that	1.0
+, that there	1.0
+cameras everywhere ,	1.0
+everywhere , that	1.0
+my death .	1.0
+and nightmares ,	1.0
+nightmares , but	1.0
+that includes you ,	1.0
+includes you , that	1.0
+you , that there	1.0
+, that there are	1.0
+are cameras everywhere ,	1.0
+cameras everywhere , that	1.0
+everywhere , that i	1.0
+after my death .	1.0
+my death . i	1.0
+death . i also	1.0
+deaf and nightmares ,	1.0
+and nightmares , but	1.0
+nightmares , but the	1.0
+, but the memories	1.0
+to be depressed .	1.0
 . talking	1.0
 seeker ,	1.0
 always wrong .	1.0
@@ -1289,6 +1989,44 @@ unemotional ” , and	1.0
 , and “ cold	1.0
 and “ cold ”	1.0
 being so impervious .	1.0
+sexually abused ,	1.0
+abused , and	1.0
+mean to ,	1.0
+to , he	1.0
+am disgusting .	1.0
+disgusting . i	1.0
+what happened ,	1.0
+happened , since	1.0
+people experience .	1.0
+being sexually abused ,	1.0
+sexually abused , and	1.0
+abused , and although	1.0
+, and although he	1.0
+doesn’t mean to ,	1.0
+mean to , he	1.0
+to , he makes	1.0
+i am disgusting .	1.0
+am disgusting . i	1.0
+disgusting . i don’t	1.0
+about what happened ,	1.0
+what happened , since	1.0
+happened , since it	1.0
+, since it wasn’t	1.0
+many people experience .	1.0
+flaws .	1.0
+. i procrastinate	1.0
+of all .	1.0
+many flaws .	1.0
+flaws . i	1.0
+time . i procrastinate	1.0
+. i procrastinate all	1.0
+management of all .	1.0
+of all . i’m	1.0
+all . i’m really	1.0
+. i’m really starting	1.0
+so many flaws .	1.0
+many flaws . i	1.0
+flaws . i don’t	1.0
 to feel guilty ,	1.0
 completely ,	1.0
 me , we	1.0
@@ -1317,8 +2055,21 @@ other , and also	1.0
 stop now .	1.0
 to stop now .	1.0
 live in reality .	1.0
+honest with them .	1.0
 guilty about it ,	1.0
 depth of it .	1.0
+stop her ,	1.0
+fault . this	1.0
+. this lead	1.0
+and stop her ,	1.0
+stop her , and	1.0
+her , and as	1.0
+, and as she	1.0
+all my fault .	1.0
+my fault . this	1.0
+fault . this lead	1.0
+. this lead to	1.0
+always my fault .	1.0
 is this ,	1.0
 this , every	1.0
 , every single	1.0
@@ -1335,6 +2086,9 @@ up about . furthermore	1.0
 about . furthermore it	1.0
 . furthermore it has	1.0
 a deep sadness .	1.0
+humanity .	1.0
+to humanity .	1.0
+give to humanity .	1.0
 unhappy about .	1.0
 about . this	1.0
 . this looming	1.0
@@ -1396,6 +2150,11 @@ hasnt congealed yet .	1.0
 congealed yet . thought	1.0
 yet . thought about	1.0
 . thought about hypnosis	1.0
+uncontrollable crying ,	1.0
+in uncontrollable crying ,	1.0
+uncontrollable crying , and	1.0
+crying , and it’s	1.0
+, and it’s difficult	1.0
 this guy ,	1.0
 guy , i	1.0
 fancy this guy ,	1.0
@@ -1407,6 +2166,7 @@ happen . i worry	1.0
 it started again .	1.0
 ungrateful .	1.0
 . i ocassionally	1.0
+feel depressed ,	1.0
 depressed , but	1.0
 and ungrateful .	1.0
 me . all my	1.0
@@ -1463,6 +2223,25 @@ to multitask , i	1.0
 multitask , i sturred/can’t	1.0
 , i sturred/can’t talk	1.0
 sturred/can’t talk right .	1.0
+, plenty	1.0
+how’s ,	1.0
+things , plenty	1.0
+, plenty of	1.0
+and how’s ,	1.0
+how’s , i	1.0
+the way ,	1.0
+completed them .	1.0
+will do things ,	1.0
+do things , plenty	1.0
+things , plenty of	1.0
+, plenty of what	1.0
+ifs and how’s ,	1.0
+and how’s , i	1.0
+how’s , i know	1.0
+isn’t the way ,	1.0
+the way , but	1.0
+way , but i	1.0
+not completed them .	1.0
 longer ,	1.0
 , could	1.0
 him anymore ,	1.0
@@ -1480,6 +2259,28 @@ there longer , could	1.0
 longer , could have	1.0
 , could have been	1.0
 and tried harder .	1.0
+mom’s death .	1.0
+death . she	1.0
+without her .	1.0
+she lives ,	1.0
+lives , to	1.0
+, to spend	1.0
+job also .	1.0
+my mom’s death .	1.0
+mom’s death . she	1.0
+death . she is	1.0
+. she is in	1.0
+on without her .	1.0
+without her . i	1.0
+. i have guilt	1.0
+where she lives ,	1.0
+she lives , to	1.0
+lives , to spend	1.0
+, to spend precious	1.0
+time with her ,	1.0
+with her , but	1.0
+good job also .	1.0
+him to it .	1.0
 was watching .	1.0
 i was watching .	1.0
 just me .	1.0
@@ -1489,6 +2290,22 @@ me . this situation	1.0
 . this situation feels	1.0
 blame him .	1.0
 i blame him .	1.0
+, i comfort	1.0
+comfort eat ,	1.0
+eat , i	1.0
+terrible father ,	1.0
+these feelings .	1.0
+i feel depressed ,	1.0
+feel depressed , i	1.0
+depressed , i comfort	1.0
+, i comfort eat	1.0
+i comfort eat ,	1.0
+comfort eat , i	1.0
+eat , i feel	1.0
+a terrible father ,	1.0
+terrible father , i	1.0
+father , i feel	1.0
+having these feelings .	1.0
 hate myself ,	1.0
 , i aslo	1.0
 not helping .	1.0
@@ -1505,6 +2322,28 @@ not helping . this	1.0
 helping . this really	1.0
 . this really affecting	1.0
 of my father .	1.0
+unloved ,	1.0
+and unloved ,	1.0
+unloved , and	1.0
+was true .	1.0
+true . i	1.0
+fault , even	1.0
+invalid and unloved ,	1.0
+and unloved , and	1.0
+unloved , and one	1.0
+, and one day	1.0
+and one day ,	1.0
+one day , i	1.0
+day , i came	1.0
+, i came to	1.0
+this was true .	1.0
+was true . i	1.0
+true . i thought	1.0
+all my fault ,	1.0
+my fault , even	1.0
+fault , even if	1.0
+, even if i’d	1.0
+told it wasn’t .	1.0
 lately , it	1.0
 lately , it has	1.0
 , it has turned	1.0
@@ -1530,12 +2369,55 @@ to finish stuff ,	1.0
 finish stuff , but	1.0
 stuff , but then	1.0
 then i don’t .	1.0
+, trust	1.0
+melted .	1.0
+sexual abuse ,	1.0
+abuse , i	1.0
+esteem , trust	1.0
+, trust and	1.0
+throat world .	1.0
+world . everything	1.0
+. everything haunts	1.0
+, i melted	1.0
+i melted .	1.0
+child sexual abuse ,	1.0
+sexual abuse , i	1.0
+abuse , i have	1.0
+low self esteem ,	1.0
+self esteem , trust	1.0
+esteem , trust and	1.0
+, trust and sharing	1.0
+cut throat world .	1.0
+throat world . everything	1.0
+world . everything haunts	1.0
+. everything haunts me	1.0
+he likes me ,	1.0
+likes me , i	1.0
+me , i melted	1.0
+, i melted .	1.0
 in private .	1.0
 emotions in private .	1.0
 , the thought	1.0
 however , the thought	1.0
 , the thought keeps	1.0
 just seeking attention .	1.0
+of bed ,	1.0
+bed , the	1.0
+, the very	1.0
+hate myself .	1.0
+task anymore .	1.0
+out of bed ,	1.0
+of bed , the	1.0
+bed , the very	1.0
+, the very thought	1.0
+debate my life .	1.0
+life . i hate	1.0
+. i hate myself	1.0
+i hate myself .	1.0
+hate myself . i	1.0
+myself . i cannot	1.0
+. i cannot function	1.0
+simple task anymore .	1.0
 visiting .	1.0
 month later ,	1.0
 , he brought	1.0
@@ -1571,6 +2453,28 @@ this has me so	1.0
 i am crazy ,	1.0
 am crazy , now	1.0
 crazy , now .	1.0
+mentality ,	1.0
+selfishly ,	1.0
+own mentality ,	1.0
+mentality , one	1.0
+, one side	1.0
+…so selfishly ,	1.0
+selfishly , if	1.0
+to . which	1.0
+my own mentality ,	1.0
+own mentality , one	1.0
+mentality , one side	1.0
+, one side of	1.0
+friendships at all .	1.0
+all . i guess	1.0
+. i guess this	1.0
+life …so selfishly ,	1.0
+…so selfishly , if	1.0
+selfishly , if i	1.0
+, if i meet	1.0
+want to . which	1.0
+to . which is	1.0
+. which is rare	1.0
 hazy .	1.0
 old , a	1.0
 , a boy	1.0
@@ -1757,6 +2661,99 @@ abuse directly , i	1.0
 directly , i mostly	1.0
 , i mostly feel	1.0
 mostly feel numb .	1.0
+fear ,	1.0
+of fear ,	1.0
+fear , my	1.0
+, my derealization	1.0
+derealization experiences ,	1.0
+experiences , etc	1.0
+etc . all	1.0
+while now , i	1.0
+, i have shown	1.0
+as social anxiety .	1.0
+anxiety . i talked	1.0
+whatever i could .	1.0
+could . i told	1.0
+out of fear ,	1.0
+of fear , my	1.0
+fear , my derealization	1.0
+, my derealization experiences	1.0
+my derealization experiences ,	1.0
+derealization experiences , etc	1.0
+experiences , etc .	1.0
+, etc . all	1.0
+etc . all he	1.0
+. all he told	1.0
+lot of anxiety .	1.0
+of anxiety . i’m	1.0
+anxiety . i’m not	1.0
+be going on .	1.0
+programming .	1.0
+superiority over	1.0
+hood .	1.0
+sophmore year ,	1.0
+lunch time ,	1.0
+people , the	1.0
+required to .	1.0
+disorder symptoms ,	1.0
+being boring .	1.0
+boring . i	1.0
+day , mostly	1.0
+, mostly do	1.0
+like programming .	1.0
+programming . the	1.0
+programming community .	1.0
+community . the	1.0
+of superiority over	1.0
+superiority over .	1.0
+child hood .	1.0
+my sophmore year ,	1.0
+sophmore year , i	1.0
+year , i had	1.0
+, i had detached	1.0
+in my school .	1.0
+my school . i	1.0
+during lunch time ,	1.0
+lunch time , i	1.0
+time , i don’t	1.0
+, i don’t really	1.0
+to many people ,	1.0
+many people , the	1.0
+people , the only	1.0
+, the only time	1.0
+am required to .	1.0
+required to . i	1.0
+. i have looked	1.0
+personality disorder symptoms ,	1.0
+disorder symptoms , and	1.0
+symptoms , and they	1.0
+, and they seem	1.0
+with my personality .	1.0
+personality . i feel	1.0
+for being boring .	1.0
+being boring . i	1.0
+boring . i just	1.0
+. i just sit	1.0
+all day , mostly	1.0
+day , mostly do	1.0
+, mostly do independent	1.0
+day like programming .	1.0
+like programming . the	1.0
+programming . the only	1.0
+. the only friends	1.0
+the programming community .	1.0
+programming community . the	1.0
+community . the only	1.0
+form of superiority over	1.0
+of superiority over .	1.0
+superiority over . i	1.0
+over . i think	1.0
+. i think the	1.0
+i think the main	1.0
+from my sister .	1.0
+sister . she has	1.0
+. she has talked	1.0
+early child hood .	1.0
 babies ,	1.0
 forgiveness .	1.0
 nieces .	1.0
@@ -1779,6 +2776,47 @@ for forgiveness . i	1.0
 forgiveness . i just	1.0
 . i just literately	1.0
 my younger nieces .	1.0
+affection ,	1.0
+very odd ,	1.0
+odd , i’ve	1.0
+could , like	1.0
+to fit ,	1.0
+fit , to	1.0
+, to put	1.0
+and act ,	1.0
+act , and	1.0
+fit in ,	1.0
+in , nor	1.0
+, nor to	1.0
+with affection ,	1.0
+affection , or	1.0
+, or physical	1.0
+physical interaction .	1.0
+are very odd ,	1.0
+very odd , i’ve	1.0
+odd , i’ve never	1.0
+, i’ve never been	1.0
+like i could ,	1.0
+i could , like	1.0
+could , like i	1.0
+, like i always	1.0
+roll to fit ,	1.0
+to fit , to	1.0
+fit , to put	1.0
+, to put on	1.0
+mask and act ,	1.0
+and act , and	1.0
+act , and i	1.0
+, and i must	1.0
+to fit in ,	1.0
+fit in , nor	1.0
+in , nor to	1.0
+, nor to have	1.0
+comfortable with affection ,	1.0
+with affection , or	1.0
+affection , or physical	1.0
+, or physical interaction	1.0
+or physical interaction .	1.0
 stuck .	1.0
 got stuck .	1.0
 stuck . after	1.0
@@ -1813,12 +2851,41 @@ of not understanding ,	1.0
 not understanding , i	1.0
 understanding , i ask	1.0
 , i ask why	1.0
+lbs ,	1.0
+, dd	1.0
+135 lbs ,	1.0
+lbs , dd	1.0
+, dd boobs	1.0
+feel worthless .	1.0
+5’11 135 lbs ,	1.0
+135 lbs , dd	1.0
+lbs , dd boobs	1.0
+, dd boobs —	1.0
+me feel worthless .	1.0
+my fault .	0.8333333333333334
+my fault ,	0.75
+fault .	0.7142857142857143
+drain .	0.6666666666666666
+. i realize	0.6666666666666666
+the drain .	0.6666666666666666
+down the drain .	0.6666666666666666
+from others	0.6666666666666666
 maybe im	0.6666666666666666
+myself from others	0.6666666666666666
 maybe im too	0.6666666666666666
 criticism .	0.6666666666666666
+. i thought it	0.6666666666666666
+, it seems	0.6666666666666666
 guilty .	0.6666666666666666
 , i try to	0.6666666666666666
+act ,	0.6666666666666666
+abused ,	0.6666666666666666
+, i’ve never	0.6666666666666666
+i want to .	0.6666666666666666
+disgusting .	0.6666666666666666
 harder .	0.6666666666666666
+, i feel that	0.6666666666666666
+fault ,	0.6
 fimilar	0.5
 voice are	0.5
 always fimilar	0.5
@@ -1948,6 +3015,186 @@ to me since i	0.5
 me since i am	0.5
 since i am no	0.5
 am no longer interested	0.5
+difficult child	0.5
+was constant	0.5
+constant fighting	0.5
+fighting between	0.5
+between myself	0.5
+in adults	0.5
+adults .	0.5
+very difficult child	0.5
+difficult child to	0.5
+child to raise	0.5
+there was constant	0.5
+was constant fighting	0.5
+constant fighting between	0.5
+fighting between myself	0.5
+between myself and	0.5
+parents . i	0.5
+to anyone because	0.5
+had no trust	0.5
+no trust in	0.5
+trust in adults	0.5
+was a very difficult	0.5
+a very difficult child	0.5
+very difficult child to	0.5
+difficult child to raise	0.5
+there was constant fighting	0.5
+was constant fighting between	0.5
+constant fighting between myself	0.5
+fighting between myself and	0.5
+between myself and my	0.5
+couldn’t talk to anyone	0.5
+talk to anyone because	0.5
+to anyone because i	0.5
+anyone because i had	0.5
+because i had no	0.5
+i had no trust	0.5
+had no trust in	0.5
+no trust in adults	0.5
+applications	0.5
+anything started	0.5
+started :	0.5
+: job	0.5
+job applications	0.5
+writing routines	0.5
+goes for my	0.5
+my life –	0.5
+life – i	0.5
+to get anything	0.5
+get anything started	0.5
+anything started :	0.5
+started : job	0.5
+: job applications	0.5
+relationships with the	0.5
+with the opposite	0.5
+the opposite sex	0.5
+, you name	0.5
+name it .	0.5
+same goes for my	0.5
+goes for my life	0.5
+for my life –	0.5
+my life – i	0.5
+life – i just	0.5
+– i just can’t	0.5
+can’t seem to get	0.5
+seem to get anything	0.5
+to get anything started	0.5
+get anything started :	0.5
+anything started : job	0.5
+started : job applications	0.5
+relationships with the opposite	0.5
+with the opposite sex	0.5
+, you name it	0.5
+you name it .	0.5
+remotely	0.5
+lied ,	0.5
+anything remotely	0.5
+remotely close	0.5
+been honest	0.5
+never fails	0.5
+be affectionate	0.5
+affectionate and	0.5
+bad separation	0.5
+separation anxiety	0.5
+control him	0.5
+who he’s	0.5
+he’s doing	0.5
+not involved	0.5
+it’s starting	0.5
+to ruin	0.5
+ruin our	0.5
+he’s never cheated	0.5
+or anything remotely	0.5
+anything remotely close	0.5
+remotely close to	0.5
+close to that	0.5
+he’s always been	0.5
+always been honest	0.5
+been honest with	0.5
+honest with me	0.5
+and never fails	0.5
+never fails to	0.5
+fails to be	0.5
+to be affectionate	0.5
+be affectionate and	0.5
+affectionate and tell	0.5
+much he cares	0.5
+he cares about	0.5
+get extremely bad	0.5
+extremely bad separation	0.5
+bad separation anxiety	0.5
+separation anxiety when	0.5
+anxiety when i’m	0.5
+not with him	0.5
+i always want	0.5
+try and control	0.5
+and control him	0.5
+who he’s with	0.5
+where he goes	0.5
+what he’s doing	0.5
+doing , and	0.5
+never want him	0.5
+do anything if	0.5
+anything if i’m	0.5
+i’m not involved	0.5
+. and it’s	0.5
+and it’s starting	0.5
+it’s starting to	0.5
+starting to ruin	0.5
+to ruin our	0.5
+ruin our relationship	0.5
+or anything remotely close	0.5
+anything remotely close to	0.5
+remotely close to that	0.5
+he’s always been honest	0.5
+always been honest with	0.5
+been honest with me	0.5
+honest with me and	0.5
+with me and never	0.5
+me and never fails	0.5
+and never fails to	0.5
+never fails to be	0.5
+fails to be affectionate	0.5
+to be affectionate and	0.5
+be affectionate and tell	0.5
+affectionate and tell me	0.5
+and tell me how	0.5
+tell me how much	0.5
+how much he cares	0.5
+much he cares about	0.5
+he cares about me	0.5
+cares about me .	0.5
+me . but i	0.5
+. but i can’t	0.5
+but i can’t trust	0.5
+and i get extremely	0.5
+i get extremely bad	0.5
+get extremely bad separation	0.5
+extremely bad separation anxiety	0.5
+bad separation anxiety when	0.5
+separation anxiety when i’m	0.5
+anxiety when i’m not	0.5
+when i’m not with	0.5
+i’m not with him	0.5
+him . i always	0.5
+i always want to	0.5
+always want to try	0.5
+to try and control	0.5
+try and control him	0.5
+, and i never	0.5
+and i never want	0.5
+i never want him	0.5
+never want him to	0.5
+him to do anything	0.5
+to do anything if	0.5
+do anything if i’m	0.5
+anything if i’m not	0.5
+if i’m not involved	0.5
+and it’s starting to	0.5
+it’s starting to ruin	0.5
+starting to ruin our	0.5
+to ruin our relationship	0.5
 i cause	0.5
 cause it	0.5
 are different	0.5
@@ -1999,6 +3246,7 @@ finding it increasingly	0.5
 it increasingly hard	0.5
 increasingly hard to	0.5
 make friends and	0.5
+friends and keep	0.5
 and keep them	0.5
 of my grandparents	0.5
 grandparents have died	0.5
@@ -2229,6 +3477,218 @@ guy’s marriage and i	0.5
 marriage and i didn’t	0.5
 and i didn’t love	0.5
 i didn’t love him	0.5
+bulimia	0.5
+risks	0.5
+habitual	0.5
+from bulimia	0.5
+bulimia for	0.5
+realize the	0.5
+the health	0.5
+health risks	0.5
+risks and	0.5
+stop for	0.5
+no success	0.5
+was healthy	0.5
+have completed	0.5
+completed over	0.5
+healthy person	0.5
+person are	0.5
+some self	0.5
+will continue	0.5
+or tricks	0.5
+tricks to	0.5
+these behaviors	0.5
+become habitual	0.5
+habitual and	0.5
+give this	0.5
+a shot	0.5
+shot .	0.5
+suffering from bulimia	0.5
+from bulimia for	0.5
+bulimia for four	0.5
+i realize the	0.5
+realize the health	0.5
+the health risks	0.5
+health risks and	0.5
+risks and i	0.5
+to stop for	0.5
+stop for a	0.5
+month now with	0.5
+now with no	0.5
+with no success	0.5
+. before this	0.5
+before this problem	0.5
+this problem i	0.5
+problem i was	0.5
+i was healthy	0.5
+was healthy and	0.5
+healthy and now	0.5
+now i fear	0.5
+fear that all	0.5
+all my hard	0.5
+i have completed	0.5
+have completed over	0.5
+completed over the	0.5
+the years to	0.5
+years to be	0.5
+be a healthy	0.5
+a healthy person	0.5
+healthy person are	0.5
+person are going	0.5
+going down the	0.5
+have some self	0.5
+some self esteem	0.5
+esteem issues and	0.5
+i will continue	0.5
+will continue to	0.5
+continue to work	0.5
+work on that	0.5
+, but do	0.5
+but do you	0.5
+any advice or	0.5
+advice or tricks	0.5
+or tricks to	0.5
+tricks to stop	0.5
+to stop these	0.5
+stop these behaviors	0.5
+these behaviors that	0.5
+behaviors that have	0.5
+that have seemed	0.5
+seemed to become	0.5
+to become habitual	0.5
+become habitual and	0.5
+to give this	0.5
+give this a	0.5
+this a shot	0.5
+been suffering from bulimia	0.5
+suffering from bulimia for	0.5
+from bulimia for four	0.5
+bulimia for four months	0.5
+months now . i	0.5
+i realize the health	0.5
+realize the health risks	0.5
+the health risks and	0.5
+health risks and i	0.5
+risks and i know	0.5
+know i have a	0.5
+problem . i have	0.5
+trying to stop for	0.5
+to stop for a	0.5
+stop for a month	0.5
+a month now with	0.5
+month now with no	0.5
+now with no success	0.5
+before this problem i	0.5
+this problem i was	0.5
+problem i was healthy	0.5
+i was healthy and	0.5
+was healthy and now	0.5
+healthy and now i	0.5
+and now i fear	0.5
+now i fear that	0.5
+i fear that all	0.5
+fear that all my	0.5
+that all my hard	0.5
+all my hard work	0.5
+my hard work i	0.5
+work i have completed	0.5
+i have completed over	0.5
+have completed over the	0.5
+completed over the years	0.5
+over the years to	0.5
+the years to be	0.5
+years to be a	0.5
+to be a healthy	0.5
+be a healthy person	0.5
+a healthy person are	0.5
+healthy person are going	0.5
+person are going down	0.5
+are going down the	0.5
+know that i have	0.5
+that i have some	0.5
+i have some self	0.5
+have some self esteem	0.5
+some self esteem issues	0.5
+self esteem issues and	0.5
+esteem issues and i	0.5
+issues and i will	0.5
+and i will continue	0.5
+i will continue to	0.5
+will continue to work	0.5
+continue to work on	0.5
+to work on that	0.5
+but do you have	0.5
+have any advice or	0.5
+any advice or tricks	0.5
+advice or tricks to	0.5
+or tricks to stop	0.5
+tricks to stop these	0.5
+to stop these behaviors	0.5
+stop these behaviors that	0.5
+these behaviors that have	0.5
+behaviors that have seemed	0.5
+that have seemed to	0.5
+have seemed to become	0.5
+seemed to become habitual	0.5
+to become habitual and	0.5
+dealt with my problems	0.5
+with my problems in	0.5
+my problems in the	0.5
+problems in the past	0.5
+the past and i	0.5
+past and i would	0.5
+would like to give	0.5
+like to give this	0.5
+to give this a	0.5
+give this a shot	0.5
+time staying	0.5
+staying attracted	0.5
+most all	0.5
+them would	0.5
+considered attractive	0.5
+shallow because	0.5
+definitely am	0.5
+difficult time staying	0.5
+time staying attracted	0.5
+staying attracted to	0.5
+to women i	0.5
+women i date	0.5
+most all of	0.5
+of them would	0.5
+them would be	0.5
+would be considered	0.5
+be considered attractive	0.5
+attractive . i	0.5
+to come off	0.5
+come off as	0.5
+off as shallow	0.5
+as shallow because	0.5
+shallow because i	0.5
+because i definitely	0.5
+i definitely am	0.5
+definitely am not	0.5
+am not .	0.5
+have a very difficult	0.5
+very difficult time staying	0.5
+difficult time staying attracted	0.5
+time staying attracted to	0.5
+staying attracted to women	0.5
+attracted to women i	0.5
+to women i date	0.5
+most all of them	0.5
+all of them would	0.5
+of them would be	0.5
+them would be considered	0.5
+would be considered attractive	0.5
+don’t want to come	0.5
+want to come off	0.5
+to come off as	0.5
+come off as shallow	0.5
+off as shallow because	0.5
+as shallow because i	0.5
+shallow because i definitely	0.5
+because i definitely am	0.5
+i definitely am not	0.5
 haveing	0.5
 gone as	0.5
 could with	0.5
@@ -2344,6 +3804,7 @@ want too	0.5
 too over	0.5
 too attached	0.5
 over board	0.5
+depressed , i	0.5
 had issues .	0.5
 i never doubted	0.5
 never doubted my	0.5
@@ -2530,6 +3991,7 @@ stop blaming	0.5
 blaming myself	0.5
 . logically	0.5
 were signs	0.5
+signs that	0.5
 have paid	0.5
 paid attention	0.5
 didn’t i	0.5
@@ -2560,7 +4022,6 @@ know and tell	0.5
 and tell myself	0.5
 tell myself that	0.5
 not my fault	0.5
-my fault .	0.5
 however , there	0.5
 there were signs	0.5
 were signs that	0.5
@@ -2642,6 +4103,216 @@ have listen to the	0.5
 listen to the experts	0.5
 now people are dead	0.5
 because i failed them	0.5
+be slipping	0.5
+slipping out	0.5
+my grasp	0.5
+grasp lately	0.5
+fault most	0.5
+likely all	0.5
+to be slipping	0.5
+be slipping out	0.5
+slipping out of	0.5
+of my grasp	0.5
+my grasp lately	0.5
+. it’s all	0.5
+it’s all my	0.5
+my fault most	0.5
+fault most likely	0.5
+most likely all	0.5
+likely all i	0.5
+do is constantly	0.5
+is constantly worry	0.5
+worry about everything	0.5
+everything just seems to	0.5
+just seems to be	0.5
+seems to be slipping	0.5
+to be slipping out	0.5
+be slipping out of	0.5
+slipping out of my	0.5
+out of my grasp	0.5
+of my grasp lately	0.5
+it’s all my fault	0.5
+all my fault most	0.5
+my fault most likely	0.5
+fault most likely all	0.5
+most likely all i	0.5
+likely all i do	0.5
+i do is constantly	0.5
+do is constantly worry	0.5
+is constantly worry about	0.5
+constantly worry about everything	0.5
+welding	0.5
+cash	0.5
+welding/machinist	0.5
+mining	0.5
+machinery	0.5
+best…	0.5
+timeliness/quality	0.5
+through 14	0.5
+14 jobs	0.5
+jobs all	0.5
+all told	0.5
+told 9	0.5
+9 welding	0.5
+, 1	0.5
+1 maintenance	0.5
+4 odd	0.5
+odd jobs	0.5
+jobs for	0.5
+for cash	0.5
+force welding/machinist	0.5
+welding/machinist job	0.5
+a mining	0.5
+mining machinery	0.5
+machinery job	0.5
+the best…	0.5
+best… i’ve	0.5
+been released	0.5
+from probation	0.5
+probation during	0.5
+maintenance job	0.5
+and fired	0.5
+fired from	0.5
+a welding	0.5
+welding job	0.5
+job two	0.5
+ago over	0.5
+a dispute	0.5
+dispute with	0.5
+the boss	0.5
+boss about	0.5
+about timeliness/quality	0.5
+timeliness/quality of	0.5
+more critical	0.5
+critical about	0.5
+most jobs	0.5
+jobs i’ve	0.5
+been laid	0.5
+laid off	0.5
+been through 14	0.5
+through 14 jobs	0.5
+14 jobs all	0.5
+jobs all told	0.5
+all told 9	0.5
+told 9 welding	0.5
+1 maintenance and	0.5
+maintenance and 4	0.5
+and 4 odd	0.5
+4 odd jobs	0.5
+odd jobs for	0.5
+jobs for cash	0.5
+liked the air	0.5
+air force welding/machinist	0.5
+force welding/machinist job	0.5
+welding/machinist job and	0.5
+job and a	0.5
+and a mining	0.5
+a mining machinery	0.5
+mining machinery job	0.5
+machinery job the	0.5
+job the best…	0.5
+the best… i’ve	0.5
+best… i’ve been	0.5
+i’ve been released	0.5
+been released from	0.5
+released from probation	0.5
+from probation during	0.5
+probation during the	0.5
+during the maintenance	0.5
+the maintenance job	0.5
+maintenance job and	0.5
+job and fired	0.5
+and fired from	0.5
+fired from a	0.5
+from a welding	0.5
+a welding job	0.5
+welding job two	0.5
+job two years	0.5
+years ago over	0.5
+ago over a	0.5
+over a dispute	0.5
+a dispute with	0.5
+dispute with the	0.5
+with the boss	0.5
+the boss about	0.5
+boss about timeliness/quality	0.5
+about timeliness/quality of	0.5
+timeliness/quality of my	0.5
+of my work	0.5
+my work which	0.5
+work which he	0.5
+which he was	0.5
+he was becoming	0.5
+was becoming more	0.5
+becoming more critical	0.5
+more critical about	0.5
+most jobs i’ve	0.5
+jobs i’ve been	0.5
+i’ve been laid	0.5
+been laid off	0.5
+laid off from	0.5
+i’ve been through 14	0.5
+been through 14 jobs	0.5
+through 14 jobs all	0.5
+14 jobs all told	0.5
+jobs all told 9	0.5
+all told 9 welding	0.5
+1 maintenance and 4	0.5
+maintenance and 4 odd	0.5
+and 4 odd jobs	0.5
+4 odd jobs for	0.5
+odd jobs for cash	0.5
+i liked the air	0.5
+liked the air force	0.5
+the air force welding/machinist	0.5
+air force welding/machinist job	0.5
+force welding/machinist job and	0.5
+welding/machinist job and a	0.5
+job and a mining	0.5
+and a mining machinery	0.5
+a mining machinery job	0.5
+mining machinery job the	0.5
+machinery job the best…	0.5
+job the best… i’ve	0.5
+the best… i’ve been	0.5
+best… i’ve been released	0.5
+i’ve been released from	0.5
+been released from probation	0.5
+released from probation during	0.5
+from probation during the	0.5
+probation during the maintenance	0.5
+during the maintenance job	0.5
+the maintenance job and	0.5
+maintenance job and fired	0.5
+job and fired from	0.5
+and fired from a	0.5
+fired from a welding	0.5
+from a welding job	0.5
+a welding job two	0.5
+welding job two years	0.5
+job two years ago	0.5
+two years ago over	0.5
+years ago over a	0.5
+ago over a dispute	0.5
+over a dispute with	0.5
+a dispute with the	0.5
+dispute with the boss	0.5
+with the boss about	0.5
+the boss about timeliness/quality	0.5
+boss about timeliness/quality of	0.5
+about timeliness/quality of my	0.5
+timeliness/quality of my work	0.5
+of my work which	0.5
+my work which he	0.5
+work which he was	0.5
+which he was becoming	0.5
+he was becoming more	0.5
+was becoming more critical	0.5
+becoming more critical about	0.5
+most jobs i’ve been	0.5
+jobs i’ve been laid	0.5
+i’ve been laid off	0.5
+been laid off from	0.5
 congratulate	0.5
 i’ve ruined	0.5
 ruined another	0.5
@@ -3771,12 +5442,14 @@ ring for more punches	0.5
 look very	0.5
 his ex-wife	0.5
 feel this is	0.5
+this is because	0.5
 i look very	0.5
 look very much	0.5
 much like his	0.5
 like his ex-wife	0.5
 i feel this is	0.5
 feel this is because	0.5
+this is because i	0.5
 is because i look	0.5
 because i look very	0.5
 i look very much	0.5
@@ -3810,6 +5483,62 @@ no right to call	0.5
 right to call myself	0.5
 to call myself a	0.5
 call myself a victim	0.5
+clingy	0.5
+be annoying	0.5
+emotionally distant	0.5
+awkward ,	0.5
+occasionally clingy	0.5
+can be annoying	0.5
+and occasionally clingy	0.5
+realize that but	0.5
+i can be annoying	0.5
+i realize that but	0.5
+realize that but i	0.5
+that but i don’t	0.5
+do about it .	0.5
+id	0.5
+get how	0.5
+how me	0.5
+me complaining	0.5
+complaining makes	0.5
+makes him	0.5
+feel inadequate	0.5
+so it’s	0.5
+a vicious	0.5
+vicious cycle	0.5
+cycle id	0.5
+id like	0.5
+break .	0.5
+good enough for	0.5
+enough for him	0.5
+i get how	0.5
+get how me	0.5
+how me complaining	0.5
+me complaining makes	0.5
+complaining makes him	0.5
+makes him feel	0.5
+him feel inadequate	0.5
+so it’s a	0.5
+it’s a vicious	0.5
+a vicious cycle	0.5
+vicious cycle id	0.5
+cycle id like	0.5
+id like to	0.5
+not good enough for	0.5
+good enough for him	0.5
+for him . i	0.5
+i get how me	0.5
+get how me complaining	0.5
+how me complaining makes	0.5
+me complaining makes him	0.5
+complaining makes him feel	0.5
+makes him feel inadequate	0.5
+so it’s a vicious	0.5
+it’s a vicious cycle	0.5
+a vicious cycle id	0.5
+vicious cycle id like	0.5
+cycle id like to	0.5
+id like to break	0.5
 justified	0.5
 the fantasies	0.5
 fantasies have	0.5
@@ -4183,6 +5912,69 @@ then i start to	0.5
 i start to do	0.5
 start to do it	0.5
 to do it again	0.5
+38	0.5
+a 38	0.5
+38 failure	0.5
+i’m homeless	0.5
+, depressed	0.5
+depressed etc	0.5
+had chances	0.5
+chances to	0.5
+always seek	0.5
+seek destructive	0.5
+destructive situations	0.5
+i’m addicted	0.5
+being sad	0.5
+having people	0.5
+people treat	0.5
+they wish	0.5
+i’m a 38	0.5
+a 38 failure	0.5
+i had chances	0.5
+had chances to	0.5
+chances to do	0.5
+something with myself	0.5
+with myself but	0.5
+i always seek	0.5
+always seek destructive	0.5
+seek destructive situations	0.5
+destructive situations to	0.5
+situations to be	0.5
+so i think	0.5
+think i’m addicted	0.5
+i’m addicted to	0.5
+addicted to being	0.5
+to being sad	0.5
+and having people	0.5
+having people treat	0.5
+people treat me	0.5
+treat me as	0.5
+me as they	0.5
+as they wish	0.5
+i’m a 38 failure	0.5
+i had chances to	0.5
+had chances to do	0.5
+chances to do something	0.5
+do something with myself	0.5
+something with myself but	0.5
+with myself but i	0.5
+myself but i always	0.5
+but i always seek	0.5
+i always seek destructive	0.5
+always seek destructive situations	0.5
+seek destructive situations to	0.5
+destructive situations to be	0.5
+situations to be in	0.5
+so i think i’m	0.5
+i think i’m addicted	0.5
+think i’m addicted to	0.5
+i’m addicted to being	0.5
+addicted to being sad	0.5
+and having people treat	0.5
+having people treat me	0.5
+people treat me as	0.5
+treat me as they	0.5
+me as they wish	0.5
 time leaving	0.5
 leaving this	0.5
 this horribly	0.5
@@ -4254,6 +6046,155 @@ who doesn’t have all	0.5
 doesn’t have all of	0.5
 have all of these	0.5
 all of these problems	0.5
+cornered	0.5
+to tantrums	0.5
+tantrums far	0.5
+far past	0.5
+where that	0.5
+that behavior	0.5
+they’re almost	0.5
+always triggered	0.5
+i’m cornered	0.5
+cornered or	0.5
+they stand	0.5
+i was extremely	0.5
+was extremely aggressive	0.5
+aggressive and prone	0.5
+prone to tantrums	0.5
+to tantrums far	0.5
+tantrums far past	0.5
+far past the	0.5
+past the age	0.5
+age where that	0.5
+where that behavior	0.5
+that behavior is	0.5
+behavior is normal	0.5
+they’re almost always	0.5
+almost always triggered	0.5
+always triggered by	0.5
+triggered by other	0.5
+especially if i’m	0.5
+if i’m cornered	0.5
+i’m cornered or	0.5
+cornered or they	0.5
+or they stand	0.5
+they stand to	0.5
+stand to close	0.5
+to close to	0.5
+elementary school i was	0.5
+school i was extremely	0.5
+i was extremely aggressive	0.5
+was extremely aggressive and	0.5
+extremely aggressive and prone	0.5
+aggressive and prone to	0.5
+and prone to tantrums	0.5
+prone to tantrums far	0.5
+to tantrums far past	0.5
+tantrums far past the	0.5
+far past the age	0.5
+past the age where	0.5
+the age where that	0.5
+age where that behavior	0.5
+where that behavior is	0.5
+that behavior is normal	0.5
+they’re almost always triggered	0.5
+almost always triggered by	0.5
+always triggered by other	0.5
+triggered by other people	0.5
+by other people ,	0.5
+especially if i’m cornered	0.5
+if i’m cornered or	0.5
+i’m cornered or they	0.5
+cornered or they stand	0.5
+or they stand to	0.5
+they stand to close	0.5
+stand to close to	0.5
+to close to me	0.5
+close to me .	0.5
+impossible !	0.5
+is incapable	0.5
+someone other	0.5
+than herself	0.5
+old enough	0.5
+take responsibility	0.5
+does wrong	0.5
+do her	0.5
+her part	0.5
+in helping	0.5
+us become	0.5
+girl is impossible	0.5
+is impossible !	0.5
+impossible ! she	0.5
+! she is	0.5
+she is selfish	0.5
+is selfish and	0.5
+selfish and is	0.5
+and is incapable	0.5
+is incapable of	0.5
+incapable of thinking	0.5
+thinking about someone	0.5
+about someone other	0.5
+someone other than	0.5
+other than herself	0.5
+do believe she	0.5
+she is old	0.5
+is old enough	0.5
+old enough to	0.5
+enough to take	0.5
+to take responsibility	0.5
+take responsibility of	0.5
+responsibility of what	0.5
+what she does	0.5
+she does wrong	0.5
+does wrong and	0.5
+wrong and to	0.5
+and to do	0.5
+to do her	0.5
+do her part	0.5
+her part in	0.5
+part in helping	0.5
+in helping us	0.5
+helping us become	0.5
+us become a	0.5
+become a family	0.5
+the girl is impossible	0.5
+girl is impossible !	0.5
+is impossible ! she	0.5
+impossible ! she is	0.5
+! she is selfish	0.5
+she is selfish and	0.5
+is selfish and is	0.5
+selfish and is incapable	0.5
+and is incapable of	0.5
+is incapable of thinking	0.5
+incapable of thinking about	0.5
+of thinking about someone	0.5
+thinking about someone other	0.5
+about someone other than	0.5
+someone other than herself	0.5
+i do believe she	0.5
+do believe she is	0.5
+believe she is old	0.5
+she is old enough	0.5
+is old enough to	0.5
+old enough to take	0.5
+enough to take responsibility	0.5
+to take responsibility of	0.5
+take responsibility of what	0.5
+responsibility of what she	0.5
+of what she does	0.5
+what she does wrong	0.5
+she does wrong and	0.5
+does wrong and to	0.5
+wrong and to do	0.5
+and to do her	0.5
+to do her part	0.5
+do her part in	0.5
+her part in helping	0.5
+part in helping us	0.5
+in helping us become	0.5
+helping us become a	0.5
+us become a family	0.5
 him push	0.5
 me sexually	0.5
 and push	0.5
@@ -4428,6 +6369,40 @@ lying and hiding	0.5
 like i am lying	0.5
 i am lying and	0.5
 am lying and hiding	0.5
+my adopted	0.5
+adopted family	0.5
+am bad	0.5
+at showing	0.5
+showing affection	0.5
+with my adopted	0.5
+my adopted family	0.5
+was put down	0.5
+put down for	0.5
+down for everything	0.5
+for everything i	0.5
+everything i did	0.5
+i am bad	0.5
+am bad at	0.5
+bad at showing	0.5
+at showing affection	0.5
+showing affection towards	0.5
+affection towards him	0.5
+towards him .	0.5
+growing up with my	0.5
+up with my adopted	0.5
+with my adopted family	0.5
+like i was put	0.5
+i was put down	0.5
+was put down for	0.5
+put down for everything	0.5
+down for everything i	0.5
+for everything i did	0.5
+like i am bad	0.5
+i am bad at	0.5
+am bad at showing	0.5
+bad at showing affection	0.5
+at showing affection towards	0.5
+showing affection towards him	0.5
 theorizing	0.5
 month after	0.5
 school started	0.5
@@ -4623,6 +6598,32 @@ or more and more	0.5
 more and more resentful	0.5
 and more resentful of	0.5
 more resentful of him	0.5
+im starting	0.5
+like nothing will	0.5
+nothing will ever	0.5
+ever be better	0.5
+be better for	0.5
+better for me	0.5
+me and im	0.5
+and im starting	0.5
+im starting to	0.5
+starting to believe	0.5
+am what my	0.5
+feel like nothing will	0.5
+like nothing will ever	0.5
+nothing will ever be	0.5
+will ever be better	0.5
+ever be better for	0.5
+be better for me	0.5
+better for me and	0.5
+for me and im	0.5
+me and im starting	0.5
+and im starting to	0.5
+im starting to believe	0.5
+starting to believe that	0.5
+i am what my	0.5
+am what my mom	0.5
+what my mom tells	0.5
 really plan	0.5
 plan for	0.5
 might affect	0.5
@@ -4649,6 +6650,54 @@ think about how it	0.5
 about how it might	0.5
 how it might affect	0.5
 it might affect me	0.5
+enjoying my	0.5
+with regrets	0.5
+probably aspergers	0.5
+my low	0.5
+esteem pull	0.5
+wasted my	0.5
+20s .	0.5
+am not enjoying	0.5
+not enjoying my	0.5
+enjoying my life	0.5
+filled with regrets	0.5
+anxiety and probably	0.5
+and probably aspergers	0.5
+probably aspergers and	0.5
+aspergers and let	0.5
+and let my	0.5
+let my low	0.5
+my low self	0.5
+self esteem pull	0.5
+esteem pull me	0.5
+pull me down	0.5
+down and feel	0.5
+and feel i	0.5
+feel i wasted	0.5
+i wasted my	0.5
+wasted my 20s	0.5
+my 20s .	0.5
+i am not enjoying	0.5
+am not enjoying my	0.5
+not enjoying my life	0.5
+am filled with regrets	0.5
+social anxiety and probably	0.5
+anxiety and probably aspergers	0.5
+and probably aspergers and	0.5
+probably aspergers and let	0.5
+aspergers and let my	0.5
+and let my low	0.5
+let my low self	0.5
+my low self esteem	0.5
+low self esteem pull	0.5
+self esteem pull me	0.5
+esteem pull me down	0.5
+pull me down and	0.5
+me down and feel	0.5
+down and feel i	0.5
+and feel i wasted	0.5
+feel i wasted my	0.5
+i wasted my 20s	0.5
 was difficult	0.5
 difficult ,	0.5
 abusive in	0.5
@@ -4731,6 +6780,53 @@ a break up because	0.5
 break up because of	0.5
 up because of my	0.5
 because of my aunt	0.5
+grosses	0.5
+life the	0.5
+angry all	0.5
+time towards	0.5
+she grosses	0.5
+grosses me	0.5
+cant control	0.5
+i’m too young	0.5
+too young to	0.5
+young to be	0.5
+to be worrying	0.5
+my life the	0.5
+life the way	0.5
+also am angry	0.5
+am angry all	0.5
+angry all the	0.5
+the time towards	0.5
+time towards my	0.5
+she grosses me	0.5
+grosses me out	0.5
+me out but	0.5
+i cant control	0.5
+cant control it	0.5
+i’m too young to	0.5
+too young to be	0.5
+young to be worrying	0.5
+to be worrying about	0.5
+be worrying about my	0.5
+worrying about my life	0.5
+about my life the	0.5
+my life the way	0.5
+life the way i	0.5
+way i do .	0.5
+i also am angry	0.5
+also am angry all	0.5
+am angry all the	0.5
+angry all the time	0.5
+all the time towards	0.5
+the time towards my	0.5
+time towards my mother	0.5
+my mother . she	0.5
+she grosses me out	0.5
+grosses me out but	0.5
+me out but i	0.5
+out but i cant	0.5
+but i cant control	0.5
+i cant control it	0.5
 constantly saying	0.5
 i’m irresponsible	0.5
 always doing	0.5
@@ -4828,6 +6924,82 @@ talk to her or	0.5
 to her or tell	0.5
 her or tell her	0.5
 or tell her anything	0.5
+so put	0.5
+off by	0.5
+by sex	0.5
+female parts	0.5
+am fun	0.5
+fun ,	0.5
+, clean	0.5
+and full	0.5
+of passion	0.5
+either from	0.5
+genetic reason	0.5
+experience in	0.5
+both .	0.5
+know why he	0.5
+is so put	0.5
+so put off	0.5
+put off by	0.5
+off by sex	0.5
+by sex and	0.5
+sex and my	0.5
+and my female	0.5
+my female parts	0.5
+i am fun	0.5
+clean and full	0.5
+and full of	0.5
+full of passion	0.5
+there has got	0.5
+be something that	0.5
+that is making	0.5
+making him like	0.5
+him like this	0.5
+either from a	0.5
+from a genetic	0.5
+a genetic reason	0.5
+genetic reason or	0.5
+reason or an	0.5
+or an experience	0.5
+an experience in	0.5
+experience in his	0.5
+life , or	0.5
+, or both	0.5
+or both .	0.5
+don’t know why he	0.5
+know why he is	0.5
+why he is so	0.5
+he is so put	0.5
+is so put off	0.5
+so put off by	0.5
+put off by sex	0.5
+off by sex and	0.5
+by sex and my	0.5
+sex and my female	0.5
+and my female parts	0.5
+. i know it’s	0.5
+know it’s not me	0.5
+it’s not me .	0.5
+that i am fun	0.5
+clean and full of	0.5
+and full of passion	0.5
+there has got to	0.5
+got to be something	0.5
+to be something that	0.5
+be something that is	0.5
+something that is making	0.5
+that is making him	0.5
+is making him like	0.5
+making him like this	0.5
+either from a genetic	0.5
+from a genetic reason	0.5
+a genetic reason or	0.5
+genetic reason or an	0.5
+reason or an experience	0.5
+or an experience in	0.5
+an experience in his	0.5
+experience in his life	0.5
+, or both .	0.5
 makes everyone	0.5
 everyone want	0.5
 having any	0.5
@@ -5168,6 +7340,8 @@ reason or the	0.5
 or the way	0.5
 i behave and	0.5
 behave and the	0.5
+the only friends	0.5
+only friends i	0.5
 friends i can	0.5
 i can gain	0.5
 can gain are	0.5
@@ -5227,6 +7401,7 @@ way i behave and	0.5
 i behave and the	0.5
 behave and the only	0.5
 and the only friends	0.5
+the only friends i	0.5
 only friends i can	0.5
 friends i can gain	0.5
 i can gain are	0.5
@@ -5639,7 +7814,6 @@ the experience with a	0.5
 experience with a girl	0.5
 a girl in real	0.5
 girl in real life	0.5
-, it seems to	0.5
 seems to be so	0.5
 to be so easy	0.5
 be so easy for	0.5
@@ -5978,6 +8152,7 @@ and guilt i	0.5
 guilt i feel	0.5
 i feel for	0.5
 feel for being	0.5
+for being so	0.5
 being so needy	0.5
 it’s been very difficult	0.5
 been very difficult to	0.5
@@ -6078,6 +8253,7 @@ regret over	0.5
 worry if	0.5
 put entire	0.5
 entire blame	0.5
+blame on	0.5
 older one	0.5
 called an	0.5
 abuser .	0.5
@@ -6143,6 +8319,84 @@ police and i would	0.5
 i would be called	0.5
 would be called an	0.5
 be called an abuser	0.5
+alienating	0.5
+great compared	0.5
+most but	0.5
+confused with	0.5
+even anything	0.5
+have almost	0.5
+keep alienating	0.5
+alienating myself	0.5
+lonely after	0.5
+after .	0.5
+have the right	0.5
+the right to	0.5
+right to be	0.5
+be sad because	0.5
+sad because my	0.5
+life is great	0.5
+is great compared	0.5
+great compared to	0.5
+compared to most	0.5
+to most but	0.5
+most but i	0.5
+don’t feel happy	0.5
+feel happy .	0.5
+i’m confused with	0.5
+confused with what	0.5
+with what is	0.5
+there is even	0.5
+is even anything	0.5
+even anything wrong	0.5
+i have almost	0.5
+have almost no	0.5
+almost no friends	0.5
+and keep alienating	0.5
+keep alienating myself	0.5
+alienating myself from	0.5
+from others even	0.5
+others even when	0.5
+sad and lonely	0.5
+and lonely after	0.5
+think i have the	0.5
+i have the right	0.5
+have the right to	0.5
+the right to be	0.5
+right to be sad	0.5
+to be sad because	0.5
+be sad because my	0.5
+sad because my life	0.5
+my life is great	0.5
+life is great compared	0.5
+is great compared to	0.5
+great compared to most	0.5
+compared to most but	0.5
+to most but i	0.5
+most but i don’t	0.5
+i don’t feel happy	0.5
+i’m confused with what	0.5
+confused with what is	0.5
+with what is wrong	0.5
+if there is even	0.5
+there is even anything	0.5
+is even anything wrong	0.5
+even anything wrong with	0.5
+anything wrong with me	0.5
+i have almost no	0.5
+have almost no friends	0.5
+almost no friends and	0.5
+no friends and keep	0.5
+friends and keep alienating	0.5
+and keep alienating myself	0.5
+keep alienating myself from	0.5
+alienating myself from others	0.5
+myself from others even	0.5
+from others even when	0.5
+others even when i	0.5
+even when i feel	0.5
+when i feel sad	0.5
+feel sad and lonely	0.5
+sad and lonely after	0.5
 anyone-	0.5
 cheerful	0.5
 get awful	0.5
@@ -6150,6 +8404,7 @@ awful thoughts	0.5
 im paranoid	0.5
 are staring	0.5
 they’re talking	0.5
+cant trust	0.5
 trust anyone-	0.5
 anyone- my	0.5
 mood keeps	0.5
@@ -6174,6 +8429,7 @@ im paranoid about	0.5
 paranoid about everything	0.5
 people are staring	0.5
 they’re talking behind	0.5
+i cant trust	0.5
 cant trust anyone-	0.5
 trust anyone- my	0.5
 anyone- my mood	0.5
@@ -6277,6 +8533,67 @@ putting in the work	0.5
 in the work and	0.5
 the work and still	0.5
 work and still losing	0.5
+4yrs	0.5
+19yrs	0.5
+w/him	0.5
+we’ve lived	0.5
+around 4yrs	0.5
+him around	0.5
+around 19yrs	0.5
+after 2yrs	0.5
+2yrs of	0.5
+living w/him	0.5
+has seemed	0.5
+seemed slowly	0.5
+slowly to	0.5
+lose interest	0.5
+heart hurts	0.5
+cry way	0.5
+losing confidence	0.5
+we’ve lived together	0.5
+together for around	0.5
+for around 4yrs	0.5
+known him around	0.5
+him around 19yrs	0.5
+and after 2yrs	0.5
+after 2yrs of	0.5
+2yrs of living	0.5
+of living w/him	0.5
+he has seemed	0.5
+has seemed slowly	0.5
+seemed slowly to	0.5
+slowly to lose	0.5
+to lose interest	0.5
+lose interest in	0.5
+. my heart	0.5
+my heart hurts	0.5
+i cry way	0.5
+cry way too	0.5
+much for my	0.5
+for my taste	0.5
+am losing confidence	0.5
+losing confidence in	0.5
+confidence in me	0.5
+we’ve lived together for	0.5
+lived together for around	0.5
+together for around 4yrs	0.5
+known him around 19yrs	0.5
+and after 2yrs of	0.5
+after 2yrs of living	0.5
+2yrs of living w/him	0.5
+he has seemed slowly	0.5
+has seemed slowly to	0.5
+seemed slowly to lose	0.5
+slowly to lose interest	0.5
+to lose interest in	0.5
+lose interest in me	0.5
+i cry way too	0.5
+cry way too much	0.5
+too much for my	0.5
+much for my taste	0.5
+i am losing confidence	0.5
+am losing confidence in	0.5
+losing confidence in me	0.5
 grew older	0.5
 older it	0.5
 only worsened	0.5
@@ -6288,6 +8605,7 @@ relationship has never	0.5
 been the best	0.5
 the best ,	0.5
 best , and	0.5
+, and as	0.5
 as i grew	0.5
 i grew older	0.5
 grew older it	0.5
@@ -6497,6 +8815,222 @@ i made myself believe	0.5
 made myself believe i	0.5
 myself believe i didn’t	0.5
 believe i didn’t need	0.5
+bawling	0.5
+self-punishment	0.5
+make online	0.5
+online friends	0.5
+get intense	0.5
+fear and	0.5
+them gets	0.5
+say doesn’t	0.5
+doesn’t settle	0.5
+settle well	0.5
+i’d go	0.5
+go far	0.5
+start bawling	0.5
+bawling and	0.5
+self-harm till	0.5
+i bleed	0.5
+bleed a	0.5
+little before	0.5
+less guilty	0.5
+guilty ,	0.5
+a self-punishment	0.5
+self-punishment of	0.5
+mostly i make	0.5
+i make online	0.5
+make online friends	0.5
+online friends and	0.5
+friends and for	0.5
+reason i get	0.5
+i get intense	0.5
+get intense fear	0.5
+intense fear and	0.5
+fear and anxiety	0.5
+and anxiety when	0.5
+anxiety when one	0.5
+of them gets	0.5
+them gets angry	0.5
+gets angry at	0.5
+me or something	0.5
+something i say	0.5
+i say doesn’t	0.5
+say doesn’t settle	0.5
+doesn’t settle well	0.5
+settle well with	0.5
+well with them	0.5
+i’d go far	0.5
+go far as	0.5
+far as to	0.5
+as to start	0.5
+to start bawling	0.5
+start bawling and	0.5
+bawling and self-harm	0.5
+and self-harm till	0.5
+self-harm till i	0.5
+till i bleed	0.5
+i bleed a	0.5
+bleed a little	0.5
+a little before	0.5
+little before i	0.5
+before i feel	0.5
+i feel less	0.5
+feel less guilty	0.5
+like a self-punishment	0.5
+a self-punishment of	0.5
+self-punishment of some	0.5
+of some sort	0.5
+mostly i make online	0.5
+i make online friends	0.5
+make online friends and	0.5
+online friends and for	0.5
+friends and for some	0.5
+some reason i get	0.5
+reason i get intense	0.5
+i get intense fear	0.5
+get intense fear and	0.5
+intense fear and anxiety	0.5
+fear and anxiety when	0.5
+and anxiety when one	0.5
+anxiety when one of	0.5
+when one of them	0.5
+one of them gets	0.5
+of them gets angry	0.5
+them gets angry at	0.5
+gets angry at me	0.5
+at me or something	0.5
+me or something i	0.5
+or something i say	0.5
+something i say doesn’t	0.5
+i say doesn’t settle	0.5
+say doesn’t settle well	0.5
+doesn’t settle well with	0.5
+settle well with them	0.5
+i’d go far as	0.5
+go far as to	0.5
+far as to start	0.5
+as to start bawling	0.5
+to start bawling and	0.5
+start bawling and self-harm	0.5
+bawling and self-harm till	0.5
+and self-harm till i	0.5
+self-harm till i bleed	0.5
+till i bleed a	0.5
+i bleed a little	0.5
+bleed a little before	0.5
+a little before i	0.5
+little before i feel	0.5
+before i feel less	0.5
+i feel less guilty	0.5
+like a self-punishment of	0.5
+a self-punishment of some	0.5
+self-punishment of some sort	0.5
+seed	0.5
+jumped	0.5
+up what	0.5
+a seed	0.5
+seed off	0.5
+i jumped	0.5
+jumped and	0.5
+it fell	0.5
+started obsessing	0.5
+obsessing with	0.5
+with thoughts	0.5
+can’t save	0.5
+save a	0.5
+bug how	0.5
+you expect	0.5
+expect to	0.5
+as kind	0.5
+kind ”	0.5
+picked up what	0.5
+up what i	0.5
+i thought was	0.5
+thought was a	0.5
+was a seed	0.5
+a seed off	0.5
+seed off the	0.5
+off the floor	0.5
+floor and it	0.5
+was a bug	0.5
+i jumped and	0.5
+jumped and it	0.5
+and it fell	0.5
+it fell down	0.5
+fell down the	0.5
+i started obsessing	0.5
+started obsessing with	0.5
+obsessing with thoughts	0.5
+with thoughts like	0.5
+thoughts like “	0.5
+like “ you	0.5
+“ you know	0.5
+you know you’re	0.5
+know you’re a	0.5
+you’re a horrible	0.5
+horrible person ”	0.5
+person ” and	0.5
+and “ if	0.5
+if you can’t	0.5
+you can’t save	0.5
+can’t save a	0.5
+save a bug	0.5
+a bug how	0.5
+bug how can	0.5
+how can you	0.5
+can you expect	0.5
+you expect to	0.5
+expect to be	0.5
+seen as kind	0.5
+as kind ”	0.5
+i picked up what	0.5
+picked up what i	0.5
+up what i thought	0.5
+what i thought was	0.5
+i thought was a	0.5
+thought was a seed	0.5
+was a seed off	0.5
+a seed off the	0.5
+seed off the floor	0.5
+off the floor and	0.5
+the floor and it	0.5
+floor and it was	0.5
+and it was a	0.5
+it was a bug	0.5
+i jumped and it	0.5
+jumped and it fell	0.5
+and it fell down	0.5
+it fell down the	0.5
+fell down the drain	0.5
+i started obsessing with	0.5
+started obsessing with thoughts	0.5
+obsessing with thoughts like	0.5
+with thoughts like “	0.5
+thoughts like “ you	0.5
+like “ you know	0.5
+“ you know you’re	0.5
+you know you’re a	0.5
+know you’re a horrible	0.5
+you’re a horrible person	0.5
+a horrible person ”	0.5
+horrible person ” and	0.5
+person ” and “	0.5
+” and “ if	0.5
+and “ if you	0.5
+“ if you can’t	0.5
+if you can’t save	0.5
+you can’t save a	0.5
+can’t save a bug	0.5
+save a bug how	0.5
+a bug how can	0.5
+bug how can you	0.5
+how can you expect	0.5
+can you expect to	0.5
+you expect to be	0.5
+expect to be seen	0.5
+to be seen as	0.5
+be seen as kind	0.5
+seen as kind ”	0.5
 reemerged	0.5
 over events	0.5
 events that	0.5
@@ -6524,6 +9058,105 @@ happened a while ago	0.5
 but the problems have	0.5
 the problems have reemerged	0.5
 problems have reemerged recently	0.5
+and significant	0.5
+significant others	0.5
+others become	0.5
+become intense	0.5
+intense from	0.5
+being abandoned	0.5
+show no	0.5
+no signs	0.5
+someone happens	0.5
+self-harm .	0.5
+have bouts	0.5
+it’ll turn	0.5
+into sadness	0.5
+sadness .	0.5
+no in	0.5
+between for	0.5
+friends and significant	0.5
+and significant others	0.5
+significant others become	0.5
+others become intense	0.5
+become intense from	0.5
+intense from time	0.5
+to time and	0.5
+about being abandoned	0.5
+even when they	0.5
+when they show	0.5
+they show no	0.5
+show no signs	0.5
+no signs that	0.5
+signs that they	0.5
+if someone happens	0.5
+someone happens to	0.5
+happens to leave	0.5
+leave , i	0.5
+if it’s my	0.5
+i have suicidal	0.5
+suicidal thoughts or	0.5
+thoughts or want	0.5
+want to self-harm	0.5
+i have bouts	0.5
+have bouts of	0.5
+bouts of time	0.5
+of time where	0.5
+time where i’m	0.5
+where i’m really	0.5
+happy , then	0.5
+then it’ll turn	0.5
+it’ll turn into	0.5
+turn into sadness	0.5
+. there’s no	0.5
+there’s no in	0.5
+no in between	0.5
+in between for	0.5
+between for me	0.5
+my friends and significant	0.5
+friends and significant others	0.5
+and significant others become	0.5
+significant others become intense	0.5
+others become intense from	0.5
+become intense from time	0.5
+intense from time to	0.5
+time to time and	0.5
+to time and i	0.5
+time and i always	0.5
+and i always worry	0.5
+always worry about being	0.5
+worry about being abandoned	0.5
+even when they show	0.5
+when they show no	0.5
+they show no signs	0.5
+show no signs that	0.5
+no signs that they	0.5
+signs that they are	0.5
+are going to leave	0.5
+if someone happens to	0.5
+someone happens to leave	0.5
+feel as if it’s	0.5
+as if it’s my	0.5
+if it’s my fault	0.5
+it’s my fault and	0.5
+my fault and i	0.5
+fault and i have	0.5
+and i have suicidal	0.5
+i have suicidal thoughts	0.5
+have suicidal thoughts or	0.5
+suicidal thoughts or want	0.5
+thoughts or want to	0.5
+or want to self-harm	0.5
+i have bouts of	0.5
+have bouts of time	0.5
+bouts of time where	0.5
+of time where i’m	0.5
+time where i’m really	0.5
+where i’m really happy	0.5
+then it’ll turn into	0.5
+it’ll turn into sadness	0.5
+there’s no in between	0.5
+no in between for	0.5
+in between for me	0.5
 i’ve kind	0.5
 of brought	0.5
 brought a	0.5
@@ -7087,6 +9720,7 @@ want anyone close	0.5
 anyone close to	0.5
 to me to	0.5
 me to know	0.5
+know what i’m	0.5
 i’m going through	0.5
 through . i’m	0.5
 scared that one	0.5
@@ -7122,6 +9756,7 @@ anyone close to me	0.5
 close to me to	0.5
 to me to know	0.5
 me to know what	0.5
+to know what i’m	0.5
 know what i’m going	0.5
 what i’m going through	0.5
 . i’m scared that	0.5
@@ -7260,6 +9895,107 @@ i worked myself into	0.5
 worked myself into a	0.5
 myself into a emotional	0.5
 into a emotional state	0.5
+self-scrutinizing	0.5
+hell’s	0.5
+showering	0.5
+same self-scrutinizing	0.5
+self-scrutinizing process	0.5
+the hell’s	0.5
+hell’s wrong	0.5
+” showering	0.5
+i such	0.5
+everyday i go	0.5
+the same self-scrutinizing	0.5
+same self-scrutinizing process	0.5
+“ what the	0.5
+what the hell’s	0.5
+the hell’s wrong	0.5
+hell’s wrong with	0.5
+me ? ”	0.5
+? ” showering	0.5
+, “ why	0.5
+“ why am	0.5
+am i such	0.5
+i such an	0.5
+awful person ?	0.5
+everyday i go through	0.5
+i go through the	0.5
+go through the same	0.5
+through the same self-scrutinizing	0.5
+the same self-scrutinizing process	0.5
+“ what the hell’s	0.5
+what the hell’s wrong	0.5
+the hell’s wrong with	0.5
+hell’s wrong with me	0.5
+with me ? ”	0.5
+me ? ” showering	0.5
+“ why am i	0.5
+why am i such	0.5
+am i such an	0.5
+i such an awful	0.5
+such an awful person	0.5
+an awful person ?	0.5
+-i	0.5
+lie a	0.5
+moment they	0.5
+they knew	0.5
+, they’ll	0.5
+they’ll leave	0.5
+-i always	0.5
+up ruining	0.5
+ruining things	0.5
+many thoughts	0.5
+lie a lot	0.5
+lot and people	0.5
+and people believe	0.5
+people believe me	0.5
+believe me all	0.5
+like the moment	0.5
+the moment they	0.5
+moment they knew	0.5
+they knew me	0.5
+knew me for	0.5
+they’ll leave me	0.5
+-i always end	0.5
+end up ruining	0.5
+up ruining things	0.5
+there is just	0.5
+is just too	0.5
+just too many	0.5
+too many thoughts	0.5
+many thoughts in	0.5
+mind that sometimes	0.5
+lie a lot and	0.5
+a lot and people	0.5
+lot and people believe	0.5
+and people believe me	0.5
+people believe me all	0.5
+believe me all the	0.5
+, i always feel	0.5
+always feel like the	0.5
+feel like the moment	0.5
+like the moment they	0.5
+the moment they knew	0.5
+moment they knew me	0.5
+they knew me for	0.5
+knew me for who	0.5
+-i always end up	0.5
+always end up ruining	0.5
+end up ruining things	0.5
+there is just too	0.5
+is just too many	0.5
+just too many thoughts	0.5
+too many thoughts in	0.5
+many thoughts in my	0.5
+thoughts in my mind	0.5
+in my mind that	0.5
+my mind that sometimes	0.5
+mind that sometimes i	0.5
+that sometimes i get	0.5
+sometimes i get tired	0.5
+i get tired of	0.5
+get tired of it	0.5
+tired of it .	0.5
 guilty that	0.5
 who caused	0.5
 whole problem	0.5
@@ -7284,6 +10020,7 @@ who caused the whole	0.5
 caused the whole problem	0.5
 am unsure	0.5
 unsure if	0.5
+just making	0.5
 making these	0.5
 to somehow	0.5
 somehow punish	0.5
@@ -7323,6 +10060,7 @@ my head to somehow	0.5
 head to somehow punish	0.5
 to somehow punish myself	0.5
 fiancé has	0.5
+feeling guilty	0.5
 give so	0.5
 parents financially	0.5
 worry they	0.5
@@ -7378,6 +10116,348 @@ afford our current house	0.5
 our current house on	0.5
 current house on their	0.5
 house on their own	0.5
+elation	0.5
+stimulant	0.5
+mood goes	0.5
+down —	0.5
+— sort	0.5
+like bipolar	0.5
+“ up	0.5
+” mood	0.5
+mood ,	0.5
+like unbelievable	0.5
+unbelievable anger	0.5
+anger rather	0.5
+than elation	0.5
+occasional happy	0.5
+happy high	0.5
+so selfish	0.5
+selfish —	0.5
+not thinking	0.5
+what it’d	0.5
+it’d do	0.5
+thought is	0.5
+of stimulant	0.5
+my mood goes	0.5
+mood goes up	0.5
+goes up and	0.5
+and down —	0.5
+down — sort	0.5
+— sort of	0.5
+sort of like	0.5
+of like bipolar	0.5
+but the majority	0.5
+time , i’m	0.5
+i’m depressed .	0.5
+i’m in an	0.5
+in an “	0.5
+an “ up	0.5
+“ up ”	0.5
+up ” mood	0.5
+which is more	0.5
+is more like	0.5
+more like unbelievable	0.5
+like unbelievable anger	0.5
+unbelievable anger rather	0.5
+anger rather than	0.5
+rather than elation	0.5
+, with the	0.5
+the occasional happy	0.5
+occasional happy high	0.5
+, i hate	0.5
+myself for even	0.5
+for even thinking	0.5
+even thinking it	0.5
+and punish myself	0.5
+punish myself for	0.5
+being so selfish	0.5
+so selfish —	0.5
+selfish — not	0.5
+— not thinking	0.5
+not thinking about	0.5
+thinking about what	0.5
+about what it’d	0.5
+what it’d do	0.5
+it’d do to	0.5
+do to my	0.5
+family , but	0.5
+in a depressed	0.5
+a depressed mood	0.5
+mood , it	0.5
+only way out	0.5
+the thought is	0.5
+thought is a	0.5
+is a sort	0.5
+sort of stimulant	0.5
+my mood goes up	0.5
+mood goes up and	0.5
+goes up and down	0.5
+up and down —	0.5
+and down — sort	0.5
+down — sort of	0.5
+— sort of like	0.5
+sort of like bipolar	0.5
+but the majority of	0.5
+the time , i’m	0.5
+. when i’m in	0.5
+when i’m in an	0.5
+i’m in an “	0.5
+in an “ up	0.5
+an “ up ”	0.5
+“ up ” mood	0.5
+which is more like	0.5
+is more like unbelievable	0.5
+more like unbelievable anger	0.5
+like unbelievable anger rather	0.5
+unbelievable anger rather than	0.5
+anger rather than elation	0.5
+with the occasional happy	0.5
+the occasional happy high	0.5
+hate myself for even	0.5
+myself for even thinking	0.5
+for even thinking it	0.5
+and punish myself for	0.5
+punish myself for being	0.5
+myself for being so	0.5
+for being so selfish	0.5
+being so selfish —	0.5
+so selfish — not	0.5
+selfish — not thinking	0.5
+— not thinking about	0.5
+not thinking about what	0.5
+thinking about what it’d	0.5
+about what it’d do	0.5
+what it’d do to	0.5
+it’d do to my	0.5
+do to my family	0.5
+to my family ,	0.5
+, but when i’m	0.5
+but when i’m in	0.5
+when i’m in a	0.5
+i’m in a depressed	0.5
+in a depressed mood	0.5
+the only way out	0.5
+out , and the	0.5
+, and the thought	0.5
+and the thought is	0.5
+the thought is a	0.5
+thought is a sort	0.5
+is a sort of	0.5
+a sort of stimulant	0.5
+decapitated	0.5
+multilated	0.5
+offended	0.5
+inferior	0.5
+illogical	0.5
+indulge	0.5
+mental picture	0.5
+myself being	0.5
+being punched	0.5
+, slapped	0.5
+shot ,	0.5
+head crushed	0.5
+crushed with	0.5
+a building	0.5
+deeply offended	0.5
+offended when	0.5
+when criticized	0.5
+don’t “	0.5
+“ hang	0.5
+peers and	0.5
+feel inferior	0.5
+inferior to	0.5
+party or	0.5
+other social	0.5
+social gathering	0.5
+they remember	0.5
+remember every	0.5
+every mistake	0.5
+mistake i’ve	0.5
+made even	0.5
+though it’s	0.5
+it’s illogical	0.5
+illogical to	0.5
+only escape	0.5
+escape is	0.5
+is fantasies	0.5
+fantasies i	0.5
+i indulge	0.5
+indulge in	0.5
+i literally see	0.5
+literally see a	0.5
+see a mental	0.5
+a mental picture	0.5
+mental picture of	0.5
+picture of myself	0.5
+of myself being	0.5
+myself being punched	0.5
+head crushed with	0.5
+crushed with a	0.5
+with a building	0.5
+i feel deeply	0.5
+feel deeply offended	0.5
+deeply offended when	0.5
+offended when criticized	0.5
+i don’t “	0.5
+don’t “ hang	0.5
+“ hang out	0.5
+hang out ”	0.5
+out ” with	0.5
+” with my	0.5
+my peers and	0.5
+peers and feel	0.5
+and feel inferior	0.5
+feel inferior to	0.5
+inferior to them	0.5
+never been to	0.5
+a party or	0.5
+party or other	0.5
+or other social	0.5
+other social gathering	0.5
+others are always	0.5
+are always judging	0.5
+and they remember	0.5
+they remember every	0.5
+remember every mistake	0.5
+every mistake i’ve	0.5
+mistake i’ve ever	0.5
+ever made even	0.5
+made even though	0.5
+even though it’s	0.5
+though it’s illogical	0.5
+it’s illogical to	0.5
+illogical to think	0.5
+to think so	0.5
+so , i’ve	0.5
+a girlfriend ,	0.5
+girlfriend , i	0.5
+hard to trust	0.5
+trust others ,	0.5
+and my only	0.5
+my only escape	0.5
+only escape is	0.5
+escape is fantasies	0.5
+is fantasies i	0.5
+fantasies i indulge	0.5
+i indulge in	0.5
+indulge in while	0.5
+while i’m alone	0.5
+i’m alone .	0.5
+i literally see a	0.5
+literally see a mental	0.5
+see a mental picture	0.5
+a mental picture of	0.5
+mental picture of myself	0.5
+picture of myself being	0.5
+of myself being punched	0.5
+head crushed with a	0.5
+crushed with a building	0.5
+i feel deeply offended	0.5
+feel deeply offended when	0.5
+deeply offended when criticized	0.5
+i don’t “ hang	0.5
+don’t “ hang out	0.5
+“ hang out ”	0.5
+hang out ” with	0.5
+out ” with my	0.5
+” with my peers	0.5
+with my peers and	0.5
+my peers and feel	0.5
+peers and feel inferior	0.5
+and feel inferior to	0.5
+feel inferior to them	0.5
+never been to a	0.5
+been to a party	0.5
+to a party or	0.5
+a party or other	0.5
+party or other social	0.5
+or other social gathering	0.5
+feel others are always	0.5
+others are always judging	0.5
+are always judging me	0.5
+judging me and they	0.5
+me and they remember	0.5
+and they remember every	0.5
+they remember every mistake	0.5
+remember every mistake i’ve	0.5
+every mistake i’ve ever	0.5
+mistake i’ve ever made	0.5
+i’ve ever made even	0.5
+ever made even though	0.5
+made even though it’s	0.5
+even though it’s illogical	0.5
+though it’s illogical to	0.5
+it’s illogical to think	0.5
+illogical to think so	0.5
+, i’ve never had	0.5
+it hard to trust	0.5
+hard to trust others	0.5
+to trust others ,	0.5
+and my only escape	0.5
+my only escape is	0.5
+only escape is fantasies	0.5
+escape is fantasies i	0.5
+is fantasies i indulge	0.5
+fantasies i indulge in	0.5
+i indulge in while	0.5
+indulge in while i’m	0.5
+in while i’m alone	0.5
+brother a	0.5
+those urges	0.5
+urges turning	0.5
+image of	0.5
+start wondering	0.5
+wondering what’s	0.5
+love my little	0.5
+little brother a	0.5
+brother a lot	0.5
+never hurt someone	0.5
+scared of those	0.5
+of those urges	0.5
+those urges turning	0.5
+urges turning into	0.5
+turning into reality	0.5
+get an image	0.5
+an image of	0.5
+image of the	0.5
+situation and right	0.5
+and right when	0.5
+when i snap	0.5
+i snap out	0.5
+i start wondering	0.5
+start wondering what’s	0.5
+wondering what’s wrong	0.5
+i love my little	0.5
+love my little brother	0.5
+my little brother a	0.5
+little brother a lot	0.5
+brother a lot and	0.5
+lot and i could	0.5
+and i could never	0.5
+could never hurt someone	0.5
+someone , but i’m	0.5
+, but i’m so	0.5
+i’m so scared of	0.5
+so scared of those	0.5
+scared of those urges	0.5
+of those urges turning	0.5
+those urges turning into	0.5
+urges turning into reality	0.5
+i get an image	0.5
+get an image of	0.5
+an image of the	0.5
+image of the situation	0.5
+the situation and right	0.5
+situation and right when	0.5
+and right when i	0.5
+right when i snap	0.5
+when i snap out	0.5
+i snap out of	0.5
+of it i start	0.5
+it i start wondering	0.5
+i start wondering what’s	0.5
+start wondering what’s wrong	0.5
+wondering what’s wrong with	0.5
 chalked	0.5
 questioned the	0.5
 the fit	0.5
@@ -7500,6 +10580,35 @@ crap ” or something	0.5
 or something else along	0.5
 something else along those	0.5
 else along those lines	0.5
+failure…	0.5
+to about	0.5
+want friends	0.5
+a failure…	0.5
+talk to about	0.5
+to about this	0.5
+don’t want friends	0.5
+want friends and	0.5
+and family to	0.5
+family to know	0.5
+thinking , and	0.5
+them to know	0.5
+to know i’m	0.5
+know i’m a	0.5
+i’m a failure…	0.5
+to talk to about	0.5
+talk to about this	0.5
+since i don’t want	0.5
+i don’t want friends	0.5
+don’t want friends and	0.5
+want friends and family	0.5
+friends and family to	0.5
+and family to know	0.5
+family to know what	0.5
+know what i’m thinking	0.5
+want them to know	0.5
+them to know i’m	0.5
+to know i’m a	0.5
+know i’m a failure…	0.5
 issue where	0.5
 where whenever	0.5
 or wrong	0.5
@@ -7607,6 +10716,156 @@ normal life in this	0.5
 life in this society	0.5
 or of running my	0.5
 the way i want	0.5
+crowd	0.5
+of options	0.5
+options and	0.5
+what she’ll	0.5
+she’ll think	0.5
+i committed	0.5
+committed those	0.5
+those actions	0.5
+actions of	0.5
+mine ,	0.5
+believe bullying	0.5
+bullying and	0.5
+watching inappropriate	0.5
+inappropriate videos	0.5
+videos played	0.5
+role .	0.5
+recall being	0.5
+constantly bullied	0.5
+the crowd	0.5
+surroundings for	0.5
+like i’m out	0.5
+i’m out of	0.5
+out of options	0.5
+of options and	0.5
+options and i’m	0.5
+about my younger	0.5
+younger sister of	0.5
+sister of what	0.5
+of what she’ll	0.5
+what she’ll think	0.5
+she’ll think of	0.5
+the situation in	0.5
+situation in the	0.5
+the future .	0.5
+future . i	0.5
+why i committed	0.5
+i committed those	0.5
+committed those actions	0.5
+those actions of	0.5
+actions of mine	0.5
+i believe bullying	0.5
+believe bullying and	0.5
+bullying and watching	0.5
+and watching inappropriate	0.5
+watching inappropriate videos	0.5
+inappropriate videos played	0.5
+videos played a	0.5
+played a role	0.5
+. i recall	0.5
+i recall being	0.5
+recall being constantly	0.5
+being constantly bullied	0.5
+constantly bullied at	0.5
+school and tried	0.5
+tried to fit	0.5
+fit in the	0.5
+in the crowd	0.5
+want to blame	0.5
+to blame on	0.5
+blame on anyone	0.5
+on anyone or	0.5
+anyone or my	0.5
+or my surroundings	0.5
+my surroundings for	0.5
+surroundings for the	0.5
+for the incident	0.5
+feel like i’m out	0.5
+like i’m out of	0.5
+i’m out of options	0.5
+out of options and	0.5
+of options and i’m	0.5
+options and i’m worried	0.5
+and i’m worried about	0.5
+i’m worried about my	0.5
+worried about my younger	0.5
+about my younger sister	0.5
+my younger sister of	0.5
+younger sister of what	0.5
+sister of what she’ll	0.5
+of what she’ll think	0.5
+what she’ll think of	0.5
+she’ll think of the	0.5
+think of the situation	0.5
+of the situation in	0.5
+the situation in the	0.5
+situation in the future	0.5
+know why i committed	0.5
+why i committed those	0.5
+i committed those actions	0.5
+committed those actions of	0.5
+those actions of mine	0.5
+but i believe bullying	0.5
+i believe bullying and	0.5
+believe bullying and watching	0.5
+bullying and watching inappropriate	0.5
+and watching inappropriate videos	0.5
+watching inappropriate videos played	0.5
+inappropriate videos played a	0.5
+videos played a role	0.5
+i recall being constantly	0.5
+recall being constantly bullied	0.5
+being constantly bullied at	0.5
+constantly bullied at school	0.5
+at school and tried	0.5
+school and tried to	0.5
+and tried to fit	0.5
+tried to fit in	0.5
+to fit in the	0.5
+fit in the crowd	0.5
+don’t want to blame	0.5
+want to blame on	0.5
+to blame on anyone	0.5
+blame on anyone or	0.5
+on anyone or my	0.5
+anyone or my surroundings	0.5
+or my surroundings for	0.5
+my surroundings for the	0.5
+surroundings for the incident	0.5
+feeling completely	0.5
+completely blank	0.5
+blank and	0.5
+are suddenly	0.5
+suddenly becoming	0.5
+i’m feeling completely	0.5
+feeling completely blank	0.5
+completely blank and	0.5
+blank and i’ve	0.5
+i’ve lost trust	0.5
+lost trust in	0.5
+trust in myself	0.5
+me and things	0.5
+things are suddenly	0.5
+are suddenly becoming	0.5
+suddenly becoming hard	0.5
+becoming hard for	0.5
+i’m feeling completely blank	0.5
+feeling completely blank and	0.5
+completely blank and i’ve	0.5
+blank and i’ve lost	0.5
+and i’ve lost trust	0.5
+i’ve lost trust in	0.5
+lost trust in myself	0.5
+in myself . i	0.5
+with me and things	0.5
+me and things are	0.5
+and things are suddenly	0.5
+things are suddenly becoming	0.5
+are suddenly becoming hard	0.5
+suddenly becoming hard for	0.5
+becoming hard for me	0.5
 behavior…	0.5
 what just	0.5
 isn’t right	0.5
@@ -7729,6 +10988,129 @@ i am at fault	0.5
 am at fault for	0.5
 at fault for these	0.5
 fault for these stipulations	0.5
+that includes	0.5
+includes you	0.5
+everywhere ,	0.5
+just someone	0.5
+someone trying	0.5
+how id	0.5
+id be	0.5
+be after	0.5
+my death	0.5
+ptsd where	0.5
+where at	0.5
+completely deaf	0.5
+deaf and	0.5
+back only	0.5
+sure im	0.5
+im just	0.5
+can pity	0.5
+everyone is watching	0.5
+cant trust anyone	0.5
+trust anyone that	0.5
+anyone that includes	0.5
+that includes you	0.5
+am dead and	0.5
+dead and that	0.5
+is just someone	0.5
+just someone trying	0.5
+someone trying to	0.5
+trying to see	0.5
+see how id	0.5
+how id be	0.5
+id be after	0.5
+be after my	0.5
+after my death	0.5
+also have severe	0.5
+have severe ptsd	0.5
+severe ptsd where	0.5
+ptsd where at	0.5
+where at times	0.5
+times i go	0.5
+i go completely	0.5
+go completely deaf	0.5
+completely deaf and	0.5
+deaf and nightmares	0.5
+but the memories	0.5
+the memories came	0.5
+memories came back	0.5
+came back only	0.5
+back only recently	0.5
+only recently after	0.5
+recently after 3	0.5
+after 3 yrs	0.5
+yrs and i	0.5
+am sure im	0.5
+sure im just	0.5
+im just making	0.5
+just making it	0.5
+it up so	0.5
+i can pity	0.5
+can pity myself	0.5
+be depressed .	0.5
+believe that everyone is	0.5
+that everyone is watching	0.5
+everyone is watching me	0.5
+watching me , and	0.5
+, and i cant	0.5
+and i cant trust	0.5
+i cant trust anyone	0.5
+cant trust anyone that	0.5
+trust anyone that includes	0.5
+anyone that includes you	0.5
+that there are cameras	0.5
+, that i am	0.5
+that i am dead	0.5
+i am dead and	0.5
+am dead and that	0.5
+dead and that this	0.5
+this is just someone	0.5
+is just someone trying	0.5
+just someone trying to	0.5
+someone trying to see	0.5
+trying to see how	0.5
+to see how id	0.5
+see how id be	0.5
+how id be after	0.5
+id be after my	0.5
+be after my death	0.5
+i also have severe	0.5
+also have severe ptsd	0.5
+have severe ptsd where	0.5
+severe ptsd where at	0.5
+ptsd where at times	0.5
+where at times i	0.5
+at times i go	0.5
+times i go completely	0.5
+i go completely deaf	0.5
+go completely deaf and	0.5
+completely deaf and nightmares	0.5
+but the memories came	0.5
+the memories came back	0.5
+memories came back only	0.5
+came back only recently	0.5
+back only recently after	0.5
+only recently after 3	0.5
+recently after 3 yrs	0.5
+after 3 yrs and	0.5
+3 yrs and i	0.5
+yrs and i am	0.5
+i am sure im	0.5
+am sure im just	0.5
+sure im just making	0.5
+im just making it	0.5
+just making it up	0.5
+making it up so	0.5
+it up so i	0.5
+up so i can	0.5
+so i can pity	0.5
+i can pity myself	0.5
+can pity myself and	0.5
+pity myself and have	0.5
+myself and have a	0.5
+and have a reason	0.5
+a reason to be	0.5
+reason to be depressed	0.5
 seeker	0.5
 always wrong	0.5
 people makes	0.5
@@ -7951,6 +11333,168 @@ to do to stop	0.5
 do to stop being	0.5
 to stop being so	0.5
 stop being so impervious	0.5
+invalid	0.5
+long because	0.5
+actually enjoyed	0.5
+enjoyed being	0.5
+being sexually	0.5
+without us	0.5
+both feeling	0.5
+like horrible	0.5
+horrible people	0.5
+it’s invalid	0.5
+invalid for	0.5
+what many	0.5
+people experience	0.5
+that i stayed	0.5
+i stayed for	0.5
+stayed for so	0.5
+so long because	0.5
+long because i	0.5
+i actually enjoyed	0.5
+actually enjoyed being	0.5
+enjoyed being sexually	0.5
+being sexually abused	0.5
+, and although	0.5
+and although he	0.5
+although he doesn’t	0.5
+doesn’t mean to	0.5
+, he makes	0.5
+like he thinks	0.5
+to him without	0.5
+him without us	0.5
+without us both	0.5
+us both feeling	0.5
+both feeling like	0.5
+feeling like horrible	0.5
+like horrible people	0.5
+horrible people and	0.5
+get over what	0.5
+over what happened	0.5
+what happened when	0.5
+like it’s invalid	0.5
+it’s invalid for	0.5
+invalid for me	0.5
+upset at all	0.5
+all about what	0.5
+since it wasn’t	0.5
+bad as what	0.5
+as what many	0.5
+what many people	0.5
+many people experience	0.5
+thinks that i stayed	0.5
+that i stayed for	0.5
+i stayed for so	0.5
+stayed for so long	0.5
+for so long because	0.5
+so long because i	0.5
+long because i actually	0.5
+because i actually enjoyed	0.5
+i actually enjoyed being	0.5
+actually enjoyed being sexually	0.5
+enjoyed being sexually abused	0.5
+and although he doesn’t	0.5
+although he doesn’t mean	0.5
+he doesn’t mean to	0.5
+, he makes me	0.5
+me feel like he	0.5
+feel like he thinks	0.5
+like he thinks i	0.5
+thinks i am disgusting	0.5
+talk to him without	0.5
+to him without us	0.5
+him without us both	0.5
+without us both feeling	0.5
+us both feeling like	0.5
+both feeling like horrible	0.5
+feeling like horrible people	0.5
+like horrible people and	0.5
+horrible people and i	0.5
+how to get over	0.5
+to get over what	0.5
+get over what happened	0.5
+over what happened when	0.5
+what happened when i	0.5
+happened when i feel	0.5
+feel like it’s invalid	0.5
+like it’s invalid for	0.5
+it’s invalid for me	0.5
+invalid for me to	0.5
+me to be upset	0.5
+to be upset at	0.5
+be upset at all	0.5
+upset at all about	0.5
+at all about what	0.5
+all about what happened	0.5
+since it wasn’t as	0.5
+as bad as what	0.5
+bad as what many	0.5
+as what many people	0.5
+what many people experience	0.5
+am unmotivated	0.5
+feel lazy	0.5
+lazy all	0.5
+procrastinate all	0.5
+management of	0.5
+really starting	0.5
+personality just	0.5
+many flaws	0.5
+i am unmotivated	0.5
+am unmotivated and	0.5
+unmotivated and i	0.5
+i feel lazy	0.5
+feel lazy all	0.5
+lazy all the	0.5
+i procrastinate all	0.5
+procrastinate all my	0.5
+all my school	0.5
+sense of time	0.5
+of time management	0.5
+time management of	0.5
+management of all	0.5
+all . i’m	0.5
+i’m really starting	0.5
+really starting to	0.5
+starting to hate	0.5
+to hate myself	0.5
+hate myself because	0.5
+myself because my	0.5
+because my personality	0.5
+my personality just	0.5
+personality just has	0.5
+just has so	0.5
+has so many	0.5
+so many flaws	0.5
+i am unmotivated and	0.5
+am unmotivated and i	0.5
+unmotivated and i feel	0.5
+and i feel lazy	0.5
+i feel lazy all	0.5
+feel lazy all the	0.5
+lazy all the time	0.5
+i procrastinate all my	0.5
+procrastinate all my school	0.5
+all my school work	0.5
+work and i have	0.5
+i have no sense	0.5
+no sense of time	0.5
+sense of time management	0.5
+of time management of	0.5
+time management of all	0.5
+i’m really starting to	0.5
+really starting to hate	0.5
+starting to hate myself	0.5
+to hate myself because	0.5
+hate myself because my	0.5
+myself because my personality	0.5
+because my personality just	0.5
+my personality just has	0.5
+personality just has so	0.5
+just has so many	0.5
+has so many flaws	0.5
+don’t think i’m a	0.5
+think i’m a good	0.5
+i’m a good person	0.5
 i always seem	0.5
 seem to feel	0.5
 to feel guilty	0.5
@@ -8151,6 +11695,29 @@ my husband refuses to	0.5
 husband refuses to live	0.5
 refuses to live in	0.5
 to live in reality	0.5
+am fully	0.5
+fully honest	0.5
+think it makes	0.5
+makes me a	0.5
+me a bad	0.5
+bad person even	0.5
+person even though	0.5
+i am fully	0.5
+am fully honest	0.5
+fully honest with	0.5
+honest with them	0.5
+i think it makes	0.5
+think it makes me	0.5
+it makes me a	0.5
+makes me a bad	0.5
+me a bad person	0.5
+a bad person even	0.5
+bad person even though	0.5
+person even though i	0.5
+though i am fully	0.5
+i am fully honest	0.5
+am fully honest with	0.5
+fully honest with them	0.5
 wish i’d	0.5
 i’d never	0.5
 met them	0.5
@@ -8245,6 +11812,66 @@ like i’m exaggerating the	0.5
 i’m exaggerating the depth	0.5
 exaggerating the depth of	0.5
 the depth of it	0.5
+dad held	0.5
+held her	0.5
+stop her	0.5
+she looked	0.5
+she died	0.5
+died it	0.5
+this lead	0.5
+me believing	0.5
+my dad held	0.5
+dad held her	0.5
+held her to	0.5
+her to try	0.5
+and stop her	0.5
+and as she	0.5
+as she was	0.5
+she was struggling	0.5
+struggling to get	0.5
+get out she	0.5
+out she looked	0.5
+she looked back	0.5
+looked back at	0.5
+back at me	0.5
+me and told	0.5
+if she died	0.5
+she died it	0.5
+died it was	0.5
+this lead to	0.5
+lead to me	0.5
+to me believing	0.5
+me believing that	0.5
+believing that everything	0.5
+my dad held her	0.5
+dad held her to	0.5
+held her to try	0.5
+her to try and	0.5
+try and stop her	0.5
+and as she was	0.5
+as she was struggling	0.5
+she was struggling to	0.5
+was struggling to get	0.5
+struggling to get out	0.5
+to get out she	0.5
+get out she looked	0.5
+out she looked back	0.5
+she looked back at	0.5
+looked back at me	0.5
+back at me and	0.5
+at me and told	0.5
+me and told me	0.5
+me that if she	0.5
+that if she died	0.5
+if she died it	0.5
+she died it was	0.5
+died it was all	0.5
+this lead to me	0.5
+lead to me believing	0.5
+to me believing that	0.5
+me believing that everything	0.5
+believing that everything is	0.5
+that everything is always	0.5
 perfection	0.5
 mean every	0.5
 single thing	0.5
@@ -8360,6 +11987,29 @@ out what in the	0.5
 what in the heck	0.5
 in the heck just	0.5
 heck just happened !	0.5
+humanity	0.5
+only matter	0.5
+matter based	0.5
+to humanity	0.5
+do believe is	0.5
+i only matter	0.5
+only matter based	0.5
+matter based on	0.5
+what i give	0.5
+i give to	0.5
+give to humanity	0.5
+what i do believe	0.5
+i do believe is	0.5
+do believe is that	0.5
+believe is that i	0.5
+is that i only	0.5
+that i only matter	0.5
+i only matter based	0.5
+only matter based on	0.5
+matter based on what	0.5
+on what i give	0.5
+what i give to	0.5
+i give to humanity	0.5
 looming	0.5
 nothing’s	0.5
 i’m unhappy	0.5
@@ -8414,7 +12064,6 @@ a human	0.5
 human being	0.5
 masturbate .	0.5
 is my fault	0.5
-my fault ,	0.5
 my hidden pain	0.5
 pain , my	0.5
 lack of beauty	0.5
@@ -8533,6 +12182,143 @@ that im smart and	0.5
 im smart and can	0.5
 smart and can do	0.5
 and can do better	0.5
+reassures	0.5
+lis	0.5
+whenever plans	0.5
+plans show	0.5
+of failing	0.5
+failing or	0.5
+or it	0.5
+mind blows	0.5
+blows it	0.5
+proportion i	0.5
+overwhelming sense	0.5
+worry which	0.5
+manifests itself	0.5
+itself in	0.5
+in uncontrollable	0.5
+uncontrollable crying	0.5
+stop until	0.5
+until someone	0.5
+someone reassures	0.5
+reassures me-	0.5
+me- this	0.5
+as missing	0.5
+missing a	0.5
+a bus	0.5
+bus or	0.5
+or forgetting	0.5
+forgetting a	0.5
+task in	0.5
+long to-do	0.5
+to-do lis	0.5
+whenever plans show	0.5
+plans show signs	0.5
+signs of failing	0.5
+of failing or	0.5
+failing or it	0.5
+or it looks	0.5
+like i might	0.5
+might have made	0.5
+a mistake my	0.5
+mistake my mind	0.5
+my mind blows	0.5
+mind blows it	0.5
+blows it out	0.5
+of proportion i	0.5
+proportion i have	0.5
+this overwhelming sense	0.5
+overwhelming sense of	0.5
+sense of shame	0.5
+shame and worry	0.5
+and worry which	0.5
+worry which manifests	0.5
+which manifests itself	0.5
+manifests itself in	0.5
+itself in uncontrollable	0.5
+in uncontrollable crying	0.5
+crying , and	0.5
+and it’s difficult	0.5
+it’s difficult for	0.5
+to stop until	0.5
+stop until someone	0.5
+until someone reassures	0.5
+someone reassures me-	0.5
+reassures me- this	0.5
+me- this can	0.5
+this can be	0.5
+be for something	0.5
+small as missing	0.5
+as missing a	0.5
+missing a bus	0.5
+a bus or	0.5
+bus or forgetting	0.5
+or forgetting a	0.5
+forgetting a task	0.5
+a task in	0.5
+task in a	0.5
+a long to-do	0.5
+long to-do lis	0.5
+whenever plans show signs	0.5
+plans show signs of	0.5
+show signs of failing	0.5
+signs of failing or	0.5
+of failing or it	0.5
+failing or it looks	0.5
+or it looks like	0.5
+it looks like i	0.5
+looks like i might	0.5
+like i might have	0.5
+i might have made	0.5
+might have made a	0.5
+have made a mistake	0.5
+made a mistake my	0.5
+a mistake my mind	0.5
+mistake my mind blows	0.5
+my mind blows it	0.5
+mind blows it out	0.5
+blows it out of	0.5
+it out of proportion	0.5
+out of proportion i	0.5
+of proportion i have	0.5
+proportion i have this	0.5
+have this overwhelming sense	0.5
+this overwhelming sense of	0.5
+overwhelming sense of shame	0.5
+sense of shame and	0.5
+of shame and worry	0.5
+shame and worry which	0.5
+and worry which manifests	0.5
+worry which manifests itself	0.5
+which manifests itself in	0.5
+manifests itself in uncontrollable	0.5
+itself in uncontrollable crying	0.5
+and it’s difficult for	0.5
+it’s difficult for me	0.5
+for me to stop	0.5
+me to stop until	0.5
+to stop until someone	0.5
+stop until someone reassures	0.5
+until someone reassures me-	0.5
+someone reassures me- this	0.5
+reassures me- this can	0.5
+me- this can be	0.5
+this can be for	0.5
+can be for something	0.5
+be for something as	0.5
+for something as small	0.5
+as small as missing	0.5
+small as missing a	0.5
+as missing a bus	0.5
+missing a bus or	0.5
+a bus or forgetting	0.5
+bus or forgetting a	0.5
+or forgetting a task	0.5
+forgetting a task in	0.5
+a task in a	0.5
+task in a long	0.5
+in a long to-do	0.5
+a long to-do lis	0.5
 discussing	0.5
 messages-i	0.5
 don’t fancy	0.5
@@ -8551,6 +12337,7 @@ one lot	0.5
 i don’t fancy	0.5
 don’t fancy this	0.5
 fancy this guy	0.5
+to do any	0.5
 do any of	0.5
 the things we	0.5
 things we are	0.5
@@ -8635,7 +12422,6 @@ made up by	0.5
 up by myself	0.5
 i ocassionally feel	0.5
 ocassionally feel depressed	0.5
-feel depressed ,	0.5
 deserve to be	0.5
 guilty and ungrateful	0.5
 or what i think	0.5
@@ -8652,7 +12438,6 @@ i ocassionally feel depressed	0.5
 but i don’t deserve	0.5
 don’t deserve to be	0.5
 deserve to be depressed	0.5
-to be depressed .	0.5
 feel guilty and ungrateful	0.5
 sentence	0.5
 volume	0.5
@@ -8811,6 +12596,67 @@ it is very had	0.5
 is very had to	0.5
 very had to multitask	0.5
 i sturred/can’t talk right	0.5
+ifs	0.5
+how’s	0.5
+will cope	0.5
+cope and	0.5
+what ifs	0.5
+ifs and	0.5
+and how’s	0.5
+doing these	0.5
+then feeling	0.5
+guilty if	0.5
+if i’ve	0.5
+not completed	0.5
+worry about how	0.5
+i will cope	0.5
+will cope and	0.5
+cope and how	0.5
+will do things	0.5
+do things ,	0.5
+plenty of what	0.5
+of what ifs	0.5
+what ifs and	0.5
+ifs and how’s	0.5
+know it isn’t	0.5
+it isn’t the	0.5
+isn’t the way	0.5
+myself doing these	0.5
+doing these things	0.5
+and then feeling	0.5
+then feeling guilty	0.5
+feeling guilty if	0.5
+guilty if i’ve	0.5
+if i’ve not	0.5
+i’ve not completed	0.5
+not completed them	0.5
+i worry about how	0.5
+worry about how i	0.5
+how i will cope	0.5
+i will cope and	0.5
+will cope and how	0.5
+cope and how i	0.5
+and how i will	0.5
+how i will do	0.5
+i will do things	0.5
+plenty of what ifs	0.5
+of what ifs and	0.5
+what ifs and how’s	0.5
+, i know it	0.5
+i know it isn’t	0.5
+know it isn’t the	0.5
+it isn’t the way	0.5
+find myself doing these	0.5
+myself doing these things	0.5
+doing these things and	0.5
+these things and then	0.5
+things and then feeling	0.5
+and then feeling guilty	0.5
+then feeling guilty if	0.5
+feeling guilty if i’ve	0.5
+guilty if i’ve not	0.5
+if i’ve not completed	0.5
+i’ve not completed them	0.5
 prideful	0.5
 there longer	0.5
 been less	0.5
@@ -8839,6 +12685,145 @@ have been less prideful	0.5
 been less prideful and	0.5
 less prideful and tried	0.5
 prideful and tried harder	0.5
+eighties	0.5
+precious	0.5
+terrible dread	0.5
+dread of	0.5
+mom’s death	0.5
+her eighties	0.5
+eighties and	0.5
+on without	0.5
+have guilt	0.5
+guilt about	0.5
+about not	0.5
+not moving	0.5
+spend precious	0.5
+precious time	0.5
+am law	0.5
+school here	0.5
+here went	0.5
+would cure	0.5
+cure depression	0.5
+job also	0.5
+a terrible dread	0.5
+terrible dread of	0.5
+dread of my	0.5
+of my mom’s	0.5
+my mom’s death	0.5
+in her eighties	0.5
+her eighties and	0.5
+eighties and i	0.5
+i can’t go	0.5
+can’t go on	0.5
+go on without	0.5
+on without her	0.5
+i have guilt	0.5
+have guilt about	0.5
+guilt about not	0.5
+about not moving	0.5
+not moving to	0.5
+moving to where	0.5
+to where she	0.5
+where she lives	0.5
+to spend precious	0.5
+spend precious time	0.5
+precious time with	0.5
+i am law	0.5
+am law school	0.5
+law school here	0.5
+school here went	0.5
+here went to	0.5
+went to law	0.5
+to law school	0.5
+law school because	0.5
+it would cure	0.5
+would cure depression	0.5
+cure depression and	0.5
+good job also	0.5
+have a terrible dread	0.5
+a terrible dread of	0.5
+terrible dread of my	0.5
+dread of my mom’s	0.5
+of my mom’s death	0.5
+she is in her	0.5
+is in her eighties	0.5
+in her eighties and	0.5
+her eighties and i	0.5
+eighties and i feel	0.5
+i feel i can’t	0.5
+feel i can’t go	0.5
+i can’t go on	0.5
+can’t go on without	0.5
+go on without her	0.5
+i have guilt about	0.5
+have guilt about not	0.5
+guilt about not moving	0.5
+about not moving to	0.5
+not moving to where	0.5
+moving to where she	0.5
+to where she lives	0.5
+to spend precious time	0.5
+spend precious time with	0.5
+precious time with her	0.5
+her , but i	0.5
+but i am law	0.5
+i am law school	0.5
+am law school here	0.5
+law school here went	0.5
+school here went to	0.5
+here went to law	0.5
+went to law school	0.5
+to law school because	0.5
+law school because i	0.5
+school because i thought	0.5
+because i thought it	0.5
+i thought it would	0.5
+thought it would cure	0.5
+it would cure depression	0.5
+would cure depression and	0.5
+cure depression and have	0.5
+depression and have a	0.5
+and have a good	0.5
+a good job also	0.5
+trusting him	0.5
+was accusing	0.5
+accusing him	0.5
+pushed him	0.5
+he cheated before	0.5
+cheated before and	0.5
+time trusting him	0.5
+trusting him since	0.5
+him since that	0.5
+since that but	0.5
+that but before	0.5
+but before that	0.5
+i was accusing	0.5
+was accusing him	0.5
+accusing him so	0.5
+like i pushed	0.5
+i pushed him	0.5
+pushed him to	0.5
+him to it	0.5
+he cheated before and	0.5
+cheated before and i	0.5
+before and i have	0.5
+a hard time trusting	0.5
+hard time trusting him	0.5
+time trusting him since	0.5
+trusting him since that	0.5
+him since that but	0.5
+since that but before	0.5
+that but before that	0.5
+but before that i	0.5
+that i was accusing	0.5
+i was accusing him	0.5
+was accusing him so	0.5
+accusing him so i	0.5
+him so i feel	0.5
+feel like i pushed	0.5
+like i pushed him	0.5
+i pushed him to	0.5
+pushed him to it	0.5
 felt happiness	0.5
 happiness when	0.5
 somebody died	0.5
@@ -8922,6 +12907,49 @@ that happens in my	0.5
 happens in my life	0.5
 my life i blame	0.5
 life i blame him	0.5
+regularly i	0.5
+i comfort	0.5
+comfort eat	0.5
+not supporting	0.5
+supporting my	0.5
+family correctly	0.5
+correctly and	0.5
+extremely guilty	0.5
+but regularly i	0.5
+regularly i feel	0.5
+i comfort eat	0.5
+am being a	0.5
+being a terrible	0.5
+father , i	0.5
+am not supporting	0.5
+not supporting my	0.5
+supporting my family	0.5
+my family correctly	0.5
+family correctly and	0.5
+correctly and feel	0.5
+and feel extremely	0.5
+feel extremely guilty	0.5
+extremely guilty for	0.5
+guilty for having	0.5
+for having these	0.5
+having these feelings	0.5
+but regularly i feel	0.5
+regularly i feel depressed	0.5
+i am being a	0.5
+am being a terrible	0.5
+being a terrible father	0.5
+i am not supporting	0.5
+am not supporting my	0.5
+not supporting my family	0.5
+supporting my family correctly	0.5
+my family correctly and	0.5
+family correctly and feel	0.5
+correctly and feel extremely	0.5
+and feel extremely guilty	0.5
+feel extremely guilty for	0.5
+extremely guilty for having	0.5
+guilty for having these	0.5
+for having these feelings	0.5
 aslo	0.5
 acne	0.5
 have every	0.5
@@ -8998,6 +13026,7 @@ feel confident at all	0.5
 confident at all and	0.5
 at all and i	0.5
 all and i hate	0.5
+and i hate myself	0.5
 scapegoat	0.5
 recklessly	0.5
 i making	0.5
@@ -9038,6 +13067,36 @@ recklessly and at the	0.5
 and at the expense	0.5
 the expense of my	0.5
 expense of my father	0.5
+felt invalid	0.5
+invalid and	0.5
+and unloved	0.5
+realize this	0.5
+if i’d	0.5
+wasn’t .	0.5
+i felt invalid	0.5
+felt invalid and	0.5
+invalid and unloved	0.5
+came to realize	0.5
+to realize this	0.5
+realize this was	0.5
+this was true	0.5
+even if i’d	0.5
+if i’d been	0.5
+i’d been told	0.5
+been told it	0.5
+told it wasn’t	0.5
+it wasn’t .	0.5
+i felt invalid and	0.5
+felt invalid and unloved	0.5
+i came to realize	0.5
+came to realize this	0.5
+to realize this was	0.5
+realize this was true	0.5
+thought it was all	0.5
+even if i’d been	0.5
+if i’d been told	0.5
+i’d been told it	0.5
+been told it wasn’t	0.5
 characterized	0.5
 long-suppressed	0.5
 into ocd	0.5
@@ -9188,6 +13247,105 @@ this because i want	0.5
 i want to finish	0.5
 want to finish stuff	0.5
 but then i don’t	0.5
+corporate	0.5
+repeated	0.5
+melted	0.5
+first shot	0.5
+in corporate	0.5
+corporate world	0.5
+a survivor	0.5
+survivor of	0.5
+of repeated	0.5
+repeated child	0.5
+and sharing	0.5
+sharing issues	0.5
+survive in	0.5
+this cut	0.5
+cut throat	0.5
+throat world	0.5
+everything haunts	0.5
+guy even	0.5
+for wrong	0.5
+wrong reasons	0.5
+reasons said	0.5
+i melted	0.5
+my first shot	0.5
+first shot in	0.5
+shot in corporate	0.5
+in corporate world	0.5
+corporate world and	0.5
+world and since	0.5
+am a survivor	0.5
+a survivor of	0.5
+survivor of repeated	0.5
+of repeated child	0.5
+repeated child sexual	0.5
+trust and sharing	0.5
+and sharing issues	0.5
+sharing issues i	0.5
+issues i already	0.5
+already am not	0.5
+able to survive	0.5
+to survive in	0.5
+survive in this	0.5
+in this cut	0.5
+this cut throat	0.5
+cut throat world	0.5
+everything haunts me	0.5
+myself and when	0.5
+and when a	0.5
+when a guy	0.5
+a guy even	0.5
+guy even for	0.5
+even for wrong	0.5
+for wrong reasons	0.5
+wrong reasons said	0.5
+reasons said he	0.5
+said he likes	0.5
+likes me ,	0.5
+is my first shot	0.5
+my first shot in	0.5
+first shot in corporate	0.5
+shot in corporate world	0.5
+in corporate world and	0.5
+corporate world and since	0.5
+world and since i	0.5
+and since i am	0.5
+i am a survivor	0.5
+am a survivor of	0.5
+a survivor of repeated	0.5
+survivor of repeated child	0.5
+of repeated child sexual	0.5
+repeated child sexual abuse	0.5
+, i have very	0.5
+trust and sharing issues	0.5
+and sharing issues i	0.5
+sharing issues i already	0.5
+issues i already am	0.5
+i already am not	0.5
+already am not sure	0.5
+sure if i will	0.5
+if i will be	0.5
+be able to survive	0.5
+able to survive in	0.5
+to survive in this	0.5
+survive in this cut	0.5
+in this cut throat	0.5
+this cut throat world	0.5
+everything haunts me and	0.5
+me and i hate	0.5
+i hate myself and	0.5
+hate myself and when	0.5
+myself and when a	0.5
+and when a guy	0.5
+when a guy even	0.5
+a guy even for	0.5
+guy even for wrong	0.5
+even for wrong reasons	0.5
+for wrong reasons said	0.5
+wrong reasons said he	0.5
+reasons said he likes	0.5
+said he likes me	0.5
 and affect	0.5
 affect them	0.5
 them instead	0.5
@@ -9229,6 +13387,72 @@ keeps bothering me that	0.5
 bothering me that i	0.5
 i am just seeking	0.5
 am just seeking attention	0.5
+facing	0.5
+very thought	0.5
+of facing	0.5
+facing the	0.5
+world every	0.5
+day makes	0.5
+and debate	0.5
+debate my	0.5
+any social	0.5
+social situation	0.5
+even seem	0.5
+simple task	0.5
+task anymore	0.5
+the very thought	0.5
+very thought of	0.5
+thought of facing	0.5
+of facing the	0.5
+facing the world	0.5
+the world every	0.5
+world every day	0.5
+every day makes	0.5
+day makes me	0.5
+cry and debate	0.5
+and debate my	0.5
+debate my life	0.5
+i cannot function	0.5
+cannot function in	0.5
+function in any	0.5
+in any social	0.5
+any social situation	0.5
+social situation and	0.5
+situation and now	0.5
+can’t even seem	0.5
+even seem to	0.5
+do any simple	0.5
+any simple task	0.5
+simple task anymore	0.5
+cannot seem to get	0.5
+seem to get out	0.5
+the very thought of	0.5
+very thought of facing	0.5
+thought of facing the	0.5
+of facing the world	0.5
+facing the world every	0.5
+the world every day	0.5
+world every day makes	0.5
+every day makes me	0.5
+day makes me cry	0.5
+makes me cry and	0.5
+me cry and debate	0.5
+cry and debate my	0.5
+and debate my life	0.5
+i cannot function in	0.5
+cannot function in any	0.5
+function in any social	0.5
+in any social situation	0.5
+any social situation and	0.5
+social situation and now	0.5
+situation and now i	0.5
+i can’t even seem	0.5
+can’t even seem to	0.5
+even seem to do	0.5
+seem to do any	0.5
+to do any simple	0.5
+do any simple task	0.5
+any simple task anymore	0.5
 he brought	0.5
 brought another	0.5
 sexual with	0.5
@@ -9291,6 +13515,122 @@ has me so confused	0.5
 me so confused and	0.5
 so confused and i	0.5
 confused and i think	0.5
+mentality	0.5
+compromise	0.5
+…so	0.5
+selfishly	0.5
+own mentality	0.5
+me loves	0.5
+loves to	0.5
+would avoid	0.5
+meeting and	0.5
+maintaining relationships	0.5
+putting any	0.5
+into these	0.5
+these friendships	0.5
+friendships at	0.5
+guess this	0.5
+to compromise	0.5
+compromise on	0.5
+daily routine	0.5
+routine or	0.5
+life …so	0.5
+…so selfishly	0.5
+i’m so confused	0.5
+so confused with	0.5
+confused with my	0.5
+my own mentality	0.5
+one side of	0.5
+of me loves	0.5
+me loves to	0.5
+loves to be	0.5
+alone and would	0.5
+and would avoid	0.5
+would avoid meeting	0.5
+avoid meeting and	0.5
+meeting and maintaining	0.5
+and maintaining relationships	0.5
+maintaining relationships with	0.5
+relationships with friends	0.5
+friends or putting	0.5
+or putting any	0.5
+putting any effort	0.5
+any effort into	0.5
+effort into these	0.5
+into these friendships	0.5
+these friendships at	0.5
+friendships at all	0.5
+i guess this	0.5
+guess this is	0.5
+like to compromise	0.5
+to compromise on	0.5
+compromise on my	0.5
+on my daily	0.5
+my daily routine	0.5
+daily routine or	0.5
+routine or in	0.5
+or in life	0.5
+in life …so	0.5
+life …so selfishly	0.5
+if i meet	0.5
+i meet with	0.5
+meet with someone	0.5
+with someone it	0.5
+someone it will	0.5
+will be because	0.5
+be because i	0.5
+. which is	0.5
+is rare .	0.5
+i’m so confused with	0.5
+so confused with my	0.5
+confused with my own	0.5
+with my own mentality	0.5
+one side of me	0.5
+side of me loves	0.5
+of me loves to	0.5
+me loves to be	0.5
+loves to be alone	0.5
+to be alone and	0.5
+be alone and would	0.5
+alone and would avoid	0.5
+and would avoid meeting	0.5
+would avoid meeting and	0.5
+avoid meeting and maintaining	0.5
+meeting and maintaining relationships	0.5
+and maintaining relationships with	0.5
+maintaining relationships with friends	0.5
+relationships with friends or	0.5
+with friends or putting	0.5
+friends or putting any	0.5
+or putting any effort	0.5
+putting any effort into	0.5
+any effort into these	0.5
+effort into these friendships	0.5
+into these friendships at	0.5
+these friendships at all	0.5
+i guess this is	0.5
+guess this is because	0.5
+is because i don’t	0.5
+because i don’t like	0.5
+don’t like to compromise	0.5
+like to compromise on	0.5
+to compromise on my	0.5
+compromise on my daily	0.5
+on my daily routine	0.5
+my daily routine or	0.5
+daily routine or in	0.5
+routine or in life	0.5
+or in life …so	0.5
+in life …so selfishly	0.5
+if i meet with	0.5
+i meet with someone	0.5
+meet with someone it	0.5
+with someone it will	0.5
+someone it will be	0.5
+it will be because	0.5
+will be because i	0.5
+be because i want	0.5
+which is rare .	0.5
 undies	0.5
 hazy	0.5
 about 4-5	0.5
@@ -10544,6 +14884,354 @@ i think of my	0.5
 think of my abuse	0.5
 of my abuse directly	0.5
 i mostly feel numb	0.5
+have shown	0.5
+shown symptoms	0.5
+as social	0.5
+about whatever	0.5
+the repetitive	0.5
+repetitive tasks	0.5
+tasks i	0.5
+must perform	0.5
+perform out	0.5
+derealization experiences	0.5
+experiences ,	0.5
+was experiencing	0.5
+explained myself	0.5
+myself too	0.5
+too well	0.5
+well or	0.5
+doesn’t necessarily	0.5
+necessarily want	0.5
+what may	0.5
+i have shown	0.5
+have shown symptoms	0.5
+shown symptoms of	0.5
+of depression as	0.5
+well as social	0.5
+as social anxiety	0.5
+therapist about whatever	0.5
+about whatever i	0.5
+whatever i could	0.5
+him about some	0.5
+about some other	0.5
+some other things	0.5
+other things like	0.5
+things like the	0.5
+like the repetitive	0.5
+the repetitive tasks	0.5
+repetitive tasks i	0.5
+tasks i must	0.5
+i must perform	0.5
+must perform out	0.5
+perform out of	0.5
+my derealization experiences	0.5
+. all he	0.5
+all he told	0.5
+told me was	0.5
+me was that	0.5
+i was experiencing	0.5
+was experiencing a	0.5
+of anxiety .	0.5
+anxiety . i’m	0.5
+if i explained	0.5
+i explained myself	0.5
+explained myself too	0.5
+myself too well	0.5
+too well or	0.5
+well or if	0.5
+he doesn’t necessarily	0.5
+doesn’t necessarily want	0.5
+necessarily want to	0.5
+about what may	0.5
+what may be	0.5
+i have shown symptoms	0.5
+have shown symptoms of	0.5
+shown symptoms of depression	0.5
+symptoms of depression as	0.5
+of depression as well	0.5
+as well as social	0.5
+well as social anxiety	0.5
+social anxiety . i	0.5
+talked to a therapist	0.5
+a therapist about whatever	0.5
+therapist about whatever i	0.5
+about whatever i could	0.5
+i could . i	0.5
+told him about some	0.5
+him about some other	0.5
+about some other things	0.5
+some other things like	0.5
+other things like the	0.5
+things like the repetitive	0.5
+like the repetitive tasks	0.5
+the repetitive tasks i	0.5
+repetitive tasks i must	0.5
+tasks i must perform	0.5
+i must perform out	0.5
+must perform out of	0.5
+perform out of fear	0.5
+all he told me	0.5
+he told me was	0.5
+told me was that	0.5
+me was that i	0.5
+that i was experiencing	0.5
+i was experiencing a	0.5
+was experiencing a lot	0.5
+sure if i explained	0.5
+if i explained myself	0.5
+i explained myself too	0.5
+explained myself too well	0.5
+myself too well or	0.5
+too well or if	0.5
+well or if he	0.5
+or if he doesn’t	0.5
+if he doesn’t necessarily	0.5
+he doesn’t necessarily want	0.5
+doesn’t necessarily want to	0.5
+necessarily want to tell	0.5
+want to tell me	0.5
+to tell me about	0.5
+tell me about what	0.5
+me about what may	0.5
+about what may be	0.5
+what may be going	0.5
+may be going on	0.5
+sophmore	0.5
+programming	0.5
+superiority	0.5
+hood	0.5
+my sophmore	0.5
+sophmore year	0.5
+had detached	0.5
+detached myself	0.5
+just alone	0.5
+phone during	0.5
+during lunch	0.5
+lunch time	0.5
+talk is	0.5
+am required	0.5
+have looked	0.5
+looked into	0.5
+the avoidant	0.5
+disorder symptoms	0.5
+to line	0.5
+up perfectly	0.5
+perfectly with	0.5
+shouldn’t talk	0.5
+being boring	0.5
+sit home	0.5
+mostly do	0.5
+do independent	0.5
+independent activities	0.5
+activities all	0.5
+day like	0.5
+like programming	0.5
+have are	0.5
+met within	0.5
+the programming	0.5
+programming community	0.5
+community .	0.5
+comfortable around	0.5
+around are	0.5
+of superiority	0.5
+main cause	0.5
+has talked	0.5
+talked down	0.5
+ever thought	0.5
+done ever	0.5
+early child	0.5
+child hood	0.5
+around my sophmore	0.5
+my sophmore year	0.5
+i had detached	0.5
+had detached myself	0.5
+detached myself from	0.5
+myself from everyone	0.5
+from everyone in	0.5
+am just alone	0.5
+just alone on	0.5
+alone on my	0.5
+my phone during	0.5
+phone during lunch	0.5
+during lunch time	0.5
+don’t really talk	0.5
+talk to many	0.5
+to many people	0.5
+many people ,	0.5
+only time i	0.5
+do talk is	0.5
+talk is when	0.5
+i am required	0.5
+am required to	0.5
+i have looked	0.5
+have looked into	0.5
+looked into the	0.5
+into the avoidant	0.5
+the avoidant personality	0.5
+personality disorder symptoms	0.5
+symptoms , and	0.5
+seem to line	0.5
+to line up	0.5
+line up perfectly	0.5
+up perfectly with	0.5
+perfectly with my	0.5
+with my personality	0.5
+i shouldn’t talk	0.5
+shouldn’t talk to	0.5
+to people because	0.5
+like me for	0.5
+for being boring	0.5
+i just sit	0.5
+just sit home	0.5
+sit home all	0.5
+mostly do independent	0.5
+do independent activities	0.5
+independent activities all	0.5
+activities all day	0.5
+all day like	0.5
+day like programming	0.5
+i have are	0.5
+have are people	0.5
+have met within	0.5
+met within the	0.5
+within the programming	0.5
+the programming community	0.5
+i would feel	0.5
+would feel comfortable	0.5
+feel comfortable around	0.5
+comfortable around are	0.5
+around are the	0.5
+are the people	0.5
+form of superiority	0.5
+think the main	0.5
+the main cause	0.5
+main cause of	0.5
+cause of this	0.5
+this is from	0.5
+is from my	0.5
+from my sister	0.5
+she has talked	0.5
+has talked down	0.5
+talked down to	0.5
+down to everything	0.5
+to everything i	0.5
+everything i ever	0.5
+i ever thought	0.5
+ever thought or	0.5
+thought or have	0.5
+or have done	0.5
+have done ever	0.5
+done ever since	0.5
+since my early	0.5
+my early child	0.5
+early child hood	0.5
+around my sophmore year	0.5
+i had detached myself	0.5
+had detached myself from	0.5
+detached myself from everyone	0.5
+myself from everyone in	0.5
+from everyone in my	0.5
+everyone in my school	0.5
+school . i am	0.5
+i am just alone	0.5
+am just alone on	0.5
+just alone on my	0.5
+alone on my phone	0.5
+on my phone during	0.5
+my phone during lunch	0.5
+phone during lunch time	0.5
+i don’t really talk	0.5
+don’t really talk to	0.5
+really talk to many	0.5
+talk to many people	0.5
+the only time i	0.5
+only time i do	0.5
+time i do talk	0.5
+i do talk is	0.5
+do talk is when	0.5
+talk is when i	0.5
+is when i am	0.5
+when i am required	0.5
+i am required to	0.5
+to . i have	0.5
+i have looked into	0.5
+have looked into the	0.5
+looked into the avoidant	0.5
+into the avoidant personality	0.5
+the avoidant personality disorder	0.5
+avoidant personality disorder symptoms	0.5
+they seem to line	0.5
+seem to line up	0.5
+to line up perfectly	0.5
+line up perfectly with	0.5
+up perfectly with my	0.5
+perfectly with my personality	0.5
+my personality . i	0.5
+like i shouldn’t talk	0.5
+i shouldn’t talk to	0.5
+shouldn’t talk to people	0.5
+talk to people because	0.5
+to people because they	0.5
+people because they won’t	0.5
+because they won’t like	0.5
+won’t like me for	0.5
+like me for being	0.5
+me for being boring	0.5
+i just sit home	0.5
+just sit home all	0.5
+sit home all day	0.5
+home all day ,	0.5
+mostly do independent activities	0.5
+do independent activities all	0.5
+independent activities all day	0.5
+activities all day like	0.5
+all day like programming	0.5
+only friends i have	0.5
+friends i have are	0.5
+i have are people	0.5
+have are people i	0.5
+are people i have	0.5
+people i have met	0.5
+i have met within	0.5
+have met within the	0.5
+met within the programming	0.5
+within the programming community	0.5
+. the only people	0.5
+only people i would	0.5
+people i would feel	0.5
+i would feel comfortable	0.5
+would feel comfortable around	0.5
+feel comfortable around are	0.5
+comfortable around are the	0.5
+around are the people	0.5
+are the people who	0.5
+the people who i	0.5
+people who i feel	0.5
+who i feel i	0.5
+feel i have some	0.5
+some form of superiority	0.5
+think the main cause	0.5
+the main cause of	0.5
+main cause of this	0.5
+cause of this is	0.5
+of this is from	0.5
+this is from my	0.5
+is from my sister	0.5
+she has talked down	0.5
+has talked down to	0.5
+talked down to everything	0.5
+down to everything i	0.5
+to everything i ever	0.5
+everything i ever thought	0.5
+i ever thought or	0.5
+ever thought or have	0.5
+thought or have done	0.5
+or have done ever	0.5
+have done ever since	0.5
+done ever since my	0.5
+ever since my early	0.5
+since my early child	0.5
+my early child hood	0.5
 kidding	0.5
 knees	0.5
 literately	0.5
@@ -10658,7 +15346,6 @@ and were crying i	0.5
 were crying i felt	0.5
 crying i felt like	0.5
 like it was all	0.5
-all my fault ,	0.5
 so i went on	0.5
 i went on my	0.5
 went on my knees	0.5
@@ -10682,6 +15369,92 @@ my younger sister and	0.5
 younger sister and my	0.5
 sister and my younger	0.5
 and my younger nieces	0.5
+my beliefs	0.5
+beliefs are	0.5
+very odd	0.5
+odd ,	0.5
+environment and	0.5
+always needed	0.5
+a roll	0.5
+roll to	0.5
+fit ,	0.5
+a mask	0.5
+mask and	0.5
+must add	0.5
+nor to	0.5
+with affection	0.5
+physical interaction	0.5
+my beliefs are	0.5
+beliefs are very	0.5
+are very odd	0.5
+able to fit	0.5
+fit in my	0.5
+in my social	0.5
+my social environment	0.5
+social environment and	0.5
+environment and i	0.5
+never felt like	0.5
+i always needed	0.5
+always needed to	0.5
+needed to play	0.5
+to play a	0.5
+play a roll	0.5
+a roll to	0.5
+roll to fit	0.5
+on a mask	0.5
+a mask and	0.5
+mask and act	0.5
+and i must	0.5
+i must add	0.5
+must add that	0.5
+add that i	0.5
+desire to fit	0.5
+nor to have	0.5
+to have close	0.5
+have close relationships	0.5
+never feel comfortable	0.5
+comfortable with affection	0.5
+or physical interaction	0.5
+my beliefs are very	0.5
+beliefs are very odd	0.5
+been able to fit	0.5
+able to fit in	0.5
+to fit in my	0.5
+fit in my social	0.5
+in my social environment	0.5
+my social environment and	0.5
+social environment and i	0.5
+environment and i never	0.5
+and i never felt	0.5
+i never felt like	0.5
+never felt like i	0.5
+felt like i could	0.5
+like i always needed	0.5
+i always needed to	0.5
+always needed to play	0.5
+needed to play a	0.5
+to play a roll	0.5
+play a roll to	0.5
+a roll to fit	0.5
+put on a mask	0.5
+on a mask and	0.5
+a mask and act	0.5
+and i must add	0.5
+i must add that	0.5
+must add that i	0.5
+add that i don’t	0.5
+don’t feel any desire	0.5
+feel any desire to	0.5
+any desire to fit	0.5
+desire to fit in	0.5
+nor to have close	0.5
+to have close relationships	0.5
+have close relationships and	0.5
+relationships and i never	0.5
+and i never feel	0.5
+i never feel comfortable	0.5
+never feel comfortable with	0.5
+feel comfortable with affection	0.5
 always keep	0.5
 realize now	0.5
 can’t cry	0.5
@@ -10889,3 +15662,29 @@ to make him believe	0.5
 make him believe in	0.5
 him believe in me	0.5
 believe in me .	0.5
+5’11	0.5
+135	0.5
+boobs	0.5
+5’11 135	0.5
+135 lbs	0.5
+dd boobs	0.5
+boobs —	0.5
+his choices	0.5
+choices have	0.5
+5’11 135 lbs	0.5
+dd boobs —	0.5
+boobs — but	0.5
+— but his	0.5
+but his choices	0.5
+his choices have	0.5
+choices have made	0.5
+have made me	0.5
+me feel worthless	0.5
+dd boobs — but	0.5
+boobs — but his	0.5
+— but his choices	0.5
+but his choices have	0.5
+his choices have made	0.5
+choices have made me	0.5
+have made me feel	0.5
+made me feel worthless	0.5
