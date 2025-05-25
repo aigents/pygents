@@ -156,9 +156,11 @@ def token_valid(token):
         return False
     return True
 
-quotes_list =  ["'", '"', '“', '”', '*', '(', ')', '[', ']', '<', '>', '#', '^', '@', '~']
-delimiters_list = [',', ';', ':', '.', '!', '?']
+punctuation_list = "…–&•-—$_+\\/*#^@~‰"
+quotes_list= "'‘’`\"“”„(){}[]<>"
+delimiters_list = ",;:.!?"
 delimiters_regexp = r' |\n|\t|\r|\[|\]|\(|\)'
+punct = punctuation_list + quotes_list + delimiters_list
 
 def add_token(token,res_list):
     if len(token) == 0:
@@ -167,12 +169,12 @@ def add_token(token,res_list):
         res_list.append(token)
         return
     first = token[0]
-    if first in emoji.UNICODE_EMOJI['en'] or first in quotes_list or first in delimiters_list:
+    last = token[-1]
+    if first in emoji.UNICODE_EMOJI['en'] or first in delimiters_list or first in punctuation_list or first in quotes_list:
         res_list.append(first)
         add_token(token[1:],res_list)
         return
-    last = token[-1]
-    if last in emoji.UNICODE_EMOJI['en'] or last in quotes_list or last in delimiters_list:
+    if last in emoji.UNICODE_EMOJI['en'] or last in delimiters_list or last in punctuation_list or last in quotes_list:
         add_token(token[0:-1],res_list)
         res_list.append(last)
         return
@@ -244,7 +246,6 @@ scrub_en = ["-", "&","a", "an", "and", "because", "else", "or", "the", "in", "on
                     "been", "even", "etc", "this", "that", "those", "these", "from", "he", "she",
                     "no", "yes", "own", "may", "mine", "me", "each", "can", "could", "would", "should", "since", "had", "has",
                     "when", "out", "also", "only", "about", "us", "via", "than", "then", "up", "who", "why", "which", "yet"]
-punct = "#…”“–&•-—{([<})]>.,;:?$_.+!?*'\"\\/"
 
 class PygentsSentiment():
 
