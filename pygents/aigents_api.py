@@ -161,7 +161,7 @@ hard_delimiters_list = ",;:.!?"
 apostrophes_list = "'‘’"
 quotes_list = "`\"“”„(){}[]<>"
 inner_word_punctuation_list = "-"
-diverse_punctuation_list = "_…–&•—$+\\/*#^@~‰"
+diverse_punctuation_list = "_…–&•—$+\\/*=#^@~‰"
 any_punctuation_list = inner_word_punctuation_list + diverse_punctuation_list 
 word_splitters = hard_delimiters_list + diverse_punctuation_list + quotes_list
 punct = any_punctuation_list + quotes_list + hard_delimiters_list # for external use and scrub filtering
@@ -196,6 +196,7 @@ def add_token(token,res_list):
         res_list.append(token)
 
 def tokenize_re(text):
+    text = text.replace(u'\xa0', u' ')
     tokens = re.split(soft_delimiters_regexp,text.lower())
     res_list = []
     for token in tokens:
