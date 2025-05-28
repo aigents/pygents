@@ -156,11 +156,15 @@ def token_valid(token):
         return False
     return True
 
-punctuation_list = "…–&•-—$_+\\/*#^@~‰"
-quotes_list= "'‘’`\"“”„(){}[]<>"
-delimiters_list = ",;:.!?"
-delimiters_regexp = r' |\n|\t|\r|\[|\]|\(|\)'
-punct = punctuation_list + quotes_list + delimiters_list
+soft_delimiters_regexp = r' |\n|\t|\r|\[|\]|\(|\)'
+hard_delimiters_list = ",;:.!?"
+apostrophes_list = "'‘’"
+quotes_list = "`\"“”„(){}[]<>"
+inner_word_punctuation_list = "-"
+diverse_punctuation_list = "_…–&•—$+\\/*=#^@~‰"
+any_punctuation_list = inner_word_punctuation_list + diverse_punctuation_list 
+word_splitters = hard_delimiters_list + diverse_punctuation_list + quotes_list
+punct = any_punctuation_list + quotes_list + hard_delimiters_list # for external use and scrub filtering
 
 def add_token(token,res_list):
     if len(token) == 0:
@@ -170,17 +174,18 @@ def add_token(token,res_list):
         return
     first = token[0]
     last = token[-1]
-    if first in emoji.UNICODE_EMOJI['en'] or first in delimiters_list or first in punctuation_list or first in quotes_list:
+    if first in emoji.UNICODE_EMOJI['en'] or first in hard_delimiters_list or first in any_punctuation_list or first in quotes_list or first in apostrophes_list:
         res_list.append(first)
         add_token(token[1:],res_list)
         return
-    if last in emoji.UNICODE_EMOJI['en'] or last in delimiters_list or last in punctuation_list or last in quotes_list:
+    if last in emoji.UNICODE_EMOJI['en'] or last in hard_delimiters_list or last in any_punctuation_list or last in quotes_list or last in apostrophes_list:
         add_token(token[0:-1],res_list)
         res_list.append(last)
         return
     if token_valid(token): # and len(token) > 1 !!!
-        if len(token) > 2 and token[0].isalpha() and token[-1].isalpha():
-            for delimiter in delimiters_list:
+        #if len(token) > 2 and token[0].isalpha() and token[-1].isalpha():
+        if len(token) > 2 and token[0].isalpha(): # pretend its a word!
+            for delimiter in word_splitters:
                 if token.find(delimiter) != -1:
                     tokens = token.split(delimiter)
                     for i in range(0,len(tokens)):
@@ -191,13 +196,20 @@ def add_token(token,res_list):
         res_list.append(token)
 
 def tokenize_re(text):
-    tokens = re.split(delimiters_regexp,text.lower())
+    text = text.replace(u'\xa0', u' ')
+    tokens = re.split(soft_delimiters_regexp,text.lower())
     res_list = []
     for token in tokens:
         if len(token) < 1:
             continue
         add_token(token,res_list)
     return res_list
+assert(str(tokenize_re('I like ‘me’ ’cause don’t like ‘it’.')) == "['i', 'like', '‘', 'me', '’', '’', 'cause', 'don’t', 'like', '‘', 'it', '’', '.']")
+assert(str(tokenize_re('My know-how, #1?')) == "['my', 'know-how', ',', '#', '1', '?']")
+assert(str(tokenize_re('My 25 -30 partners (at all)!')) == "['my', '25', '-', '30', 'partners', 'at', 'all', '!']")
+assert(str(tokenize_re('of …it’s my fault ….i should die … like ..i worked')) == "['of', '…', 'it’s', 'my', 'fault', '…', '.', 'i', 'should', 'die', '…', 'like', '.', '.', 'i', 'worked']")
+assert(str(tokenize_re('him „faithful‰ to')) == "['him', '„', 'faithful', '‰', 'to']")
+assert(str(tokenize_re('I.like…tea')) == "['i', '.', 'like', '…', 'tea']")
 
 def build_ngrams(seq,N):
     size = len(seq) - N + 1;
