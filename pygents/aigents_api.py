@@ -21,16 +21,17 @@
 # SOFTWARE.
 from _ast import arg
 
-
+import os
 import requests
 import urllib.parse
 import math
 import json
 import re
 import emoji
-from pygents.text import url_lines
-from pygents.util import dictcount
+from collections import defaultdict
 
+from pygents.text import url_lines
+from pygents.util import dictcount, dictdict_div_dict, dict_of_dicts_compress_by_threshold
 
 import logging
 logger = logging.getLogger(__name__)    
@@ -457,3 +458,98 @@ class TextMetrics(PygentsSentiment):
         if 'positive' in counts and 'negative' in counts:
             counts['contradictive'] = round(math.sqrt(counts['positive'] * counts['negative']),2)
         return counts
+
+class Learner:
+
+    def __init__(self):       
+        self.labels = defaultdict(int) # A dictionary of label/category counts
+        
+        # Creating dictionaries for counting n-grams
+        self.n_gram_dicts = defaultdict(lambda: defaultdict(int)) # A dictionary for each label/category
+        self.all_n_grams = defaultdict(int)  # A general dictionary for all n-grams
+        self.doc_counts = defaultdict(int)
+
+        self.uniq_n_gram_dicts = defaultdict(lambda: defaultdict(int)) # Counts of uniq N-grams by label/category
+        self.uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text
+        self.n_gram_labels = defaultdict(lambda: defaultdict(int)) # Counts of labels/categories by N-gram
+    
+    def count_labels(self,labels):
+        for label in labels:
+            dictcount(self.labels,label)
+
+    def count_ngrams(self,labels,n_grams):
+        dictcount(self.all_n_grams, n_grams)
+        for label in labels:
+            #print('dict=',self.n_gram_dicts[label],'label=',label)
+            dictcount(self.n_gram_dicts[label], n_grams)  # Increment the counter for the corresponding label/category
+
+        uniq_n_grams = set(n_grams)
+        for uniq_n_gram in uniq_n_grams:
+            self.doc_counts[uniq_n_gram] += 1
+            dictcount(self.uniq_all_n_grams, uniq_n_gram)
+            for label in labels:
+                dictcount(self.uniq_n_gram_dicts[label], uniq_n_gram)
+                dictcount(self.n_gram_labels[uniq_n_gram],label)
+
+    def normalize(self):
+        self.metrics = {}
+        self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts,self.all_n_grams)
+        # FN (alternative computation)
+        #self.norm_n_gram_dicts = {}
+        #for n_gram_dict in self.n_gram_dicts:
+        #    norm_n_gram_dict = {}
+        #    self.norm_n_gram_dicts[n_gram_dict] = norm_n_gram_dict
+        #    dic = self.n_gram_dicts[n_gram_dict]
+        #    for n_gram in dic:
+        #        norm_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.all_n_grams[n_gram]
+        #TODO : 
+        #selection_metrics = {
+        #    'F':frequency,
+        #    'UF':unique_frequency,
+        #    'FN':frequency_self_normalized,
+        #    'UFN':unique_frequency_self_normalized,
+        #    'UFN/D/D':norm_uniq_n_gram_dicts,
+        #    'FN*UFN':norm_norm_uniq,
+        #    'FN*UFN/D':norm_norm_uniq_norm,
+        #    'CFR':cfr,
+        #    'FCR':fcr,
+        #    'MR':mr,
+        #    'NLMI':nl_mi}        
+    
+    def export(self,metric='FN',inclusion_threshold=50):
+        return dict_of_dicts_compress_by_threshold(self.metrics[metric],inclusion_threshold)
+
+    def save(self,path,name,metric='FN',inclusion_threshold=50):
+        model = self.export(metric=metric,inclusion_threshold=inclusion_threshold)        
+        if not os.path.exists(path):
+            os.makedirs(path)
+        path += '/'+name
+        if not os.path.exists(path):
+            os.makedirs(path)  
+        for label, ngrams in model.items():
+            label_name = label # label.replace(" ", "_")
+            file_path = f"{path}/{label_name}.txt"
+            sorted_ngrams = sorted(ngrams.items(), key=lambda x: x[1], reverse=True)
+            with open(file_path, "w", encoding="utf-8") as f:
+                for ngram, metric_value in sorted_ngrams:
+                    ngram_str = ' '.join(ngram)
+                    f.write(f"{ngram_str}\t{metric_value}\n")
+        
+
+    def learn(self, text_labels, n_max=4, tokenize = tokenize_re, punctuation = None, debug = False):
+        for text_label in text_labels:
+            text = text_label[0]
+            labels = text_label[1]
+
+            if debug:
+                print(text,labels)
+
+            tokens = [t for t in tokenize(text) if not (t in punct or t.isnumeric())] if not punctuation is None else tokenize(text)
+            self.count_labels(labels)    
+
+            for n in range(1, n_max + 1):
+                n_grams = build_ngrams(tokens, n)
+                self.count_ngrams(labels,n_grams)
+
+        self.normalize()
+        return self
