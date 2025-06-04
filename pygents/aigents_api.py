@@ -30,6 +30,14 @@ import re
 import emoji
 from collections import defaultdict
 
+#https://towardsdatascience.com/5-simple-ways-to-tokenize-text-in-python-92c6804edfc4
+#https://www.oreilly.com/content/how-can-i-tokenize-a-sentence-with-python/
+import nltk
+
+#TODO run this once to make it working
+nltk.download('punkt')
+SENT_DETECTOR = nltk.data.load('tokenizers/punkt/english.pickle')
+
 from pygents.text import url_lines
 from pygents.util import dictcount, dictdict_div_dict, dict_of_dicts_compress_by_threshold
 
@@ -535,21 +543,27 @@ class Learner:
                     ngram_str = ' '.join(ngram)
                     f.write(f"{ngram_str}\t{metric_value}\n")
         
+    def learn_sentence(self, text, labels, n_max=4, tokenize = tokenize_re, punctuation = None, debug = False):
+        tokens = [t for t in tokenize(text) if not (t in punct or t.isnumeric())] if not punctuation is None else tokenize(text)
+        for n in range(1, n_max + 1):
+            n_grams = build_ngrams(tokens, n)
+            self.count_ngrams(labels,n_grams)
 
-    def learn(self, text_labels, n_max=4, tokenize = tokenize_re, punctuation = None, debug = False):
+    def learn(self, text_labels, n_max=4, tokenize = tokenize_re, punctuation = None, sent=False, debug = False):
         for text_label in text_labels:
             text = text_label[0]
             labels = text_label[1]
-
             if debug:
                 print(text,labels)
-
-            tokens = [t for t in tokenize(text) if not (t in punct or t.isnumeric())] if not punctuation is None else tokenize(text)
-            self.count_labels(labels)    
-
-            for n in range(1, n_max + 1):
-                n_grams = build_ngrams(tokens, n)
-                self.count_ngrams(labels,n_grams)
+            self.count_labels(labels)
+            if sent:
+                sentences = nltk.sent_tokenize(text) # this gives us a list of sentences
+                if debug:
+                    print(sentences)
+                for sentence in sentences: # now loop over each sentence and learn it separately
+                    self.learn_sentence(sentence, labels, n_max, tokenize, punctuation, debug)    
+            else:
+                self.learn_sentence(text, labels, n_max, tokenize, punctuation, debug)
 
         self.normalize()
         return self
