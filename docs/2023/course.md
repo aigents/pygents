@@ -79,6 +79,9 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - Summary, bottom lines, question answering (1) 
 
 ## Course work and diploma thesis topics
+- Adaptive weak-supervised NLP for content moderation
+- VLSI design with LLMs for code and test generation and code verification
+- Neuro-symbolic RL for adaptive robotics
 - Decision support systems for technological process automation _(Qian_Yi_Huang)_
 - Social computing applications in social media and multi-agent systems
   - Investigating the ability of a group of LLM agents to logically correct a set of related statements _(Litvinenko Dmitriy)_
@@ -89,20 +92,19 @@ https://lifeboat.com/ex/bios.anton.kolonin
     - https://arxiv.org/abs/1905.08036
     - https://arxiv.org/abs/2210.02362  
 - Interpretable natural language modeling and unsupervised learning
-  - Topic 1: Interpretable ontology/grammar learning for Chinese/English/Russian _(Hou Zhenghao - master thesis)_, see:
+  - Deep grammar and ontology learning for ontology extraction from natural language texts in Chinese/English/Russian
     - https://www.springerprofessional.de/en/programmatic-link-grammar-induction-for-unsupervised-language-le/17020348
     - https://www.springerprofessional.de/en/unsupervised-language-learning-in-opencog/15995030
     - https://arxiv.org/abs/2205.11443
     - https://arxiv.org/abs/2303.02427  
-  - Topic 2: Interpretable **sentiment analysis** _(Hou Zhenghao - coursework)_ and detection of cognitive distortions for Chinese language, see:
+  - Social media text analysis for psycho-emotinal expressions of sentiment, emotions, intent, manipulation and cognitive distortions in social media for Chinese/Russian/English (or other languages, may be cross-lingual)
     - https://arxiv.org/abs/2204.12928
     - https://arxiv.org/abs/2204.10185
     - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
-- Social media text analysis for sentiment and cognitive distortions
-  - Sentiment analysis and/or cognitive distortions in social media for Chinese (or languages other than Russian/English, may be cross-lingual), _(Anna Redko - coursework)_
-    - https://arxiv.org/abs/2204.12928
-    - https://arxiv.org/abs/2204.10185
-    - https://blog.singularitynet.io/aigents-sentiment-detection-personal-and-social-relevant-news-be989d73b381
+  - Social media text topic modeling and agenda mining correlated with psycho-emotinal expressions for Chinese/Russian/English (or other languages, may be cross-lingual)
+    - https://docs.google.com/spreadsheets/d/1yzaRVYN8I4v0rqrcUpivW-YCLgaU-aNPzTuM5XsXIgw/edit?gid=2138975815#gid=2138975815
+  - Social media relationship graph extraction and annotation with psycho-emotinal expressions (or other languages, may be cross-lingual)
+    - https://docs.google.com/spreadsheets/d/1yzaRVYN8I4v0rqrcUpivW-YCLgaU-aNPzTuM5XsXIgw/edit?gid=2138975815#gid=2138975815
 
 ## Course work structure
 - Publication on medium, substack, github blog/site, etc. - covering prior art, R&D done and its results
