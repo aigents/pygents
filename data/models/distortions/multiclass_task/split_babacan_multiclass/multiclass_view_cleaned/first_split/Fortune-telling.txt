@@ -1,0 +1,7313 @@
+hire	1.0
+job they'll	1.0
+they'll probably	1.0
+probably hire	1.0
+hire someone	1.0
+more experience	1.0
+experience than	1.0
+the job they'll	1.0
+job they'll probably	1.0
+they'll probably hire	1.0
+probably hire someone	1.0
+hire someone with	1.0
+someone with more	1.0
+with more experience	1.0
+more experience than	1.0
+experience than me	1.0
+get the job they'll	1.0
+the job they'll probably	1.0
+job they'll probably hire	1.0
+they'll probably hire someone	1.0
+probably hire someone with	1.0
+hire someone with more	1.0
+someone with more experience	1.0
+with more experience than	1.0
+more experience than me	1.0
+this no	1.0
+i practice	1.0
+practice i'll	1.0
+i'll always	1.0
+get better at	1.0
+better at this	1.0
+at this no	1.0
+this no matter	1.0
+much i practice	1.0
+i practice i'll	1.0
+practice i'll always	1.0
+i'll always be	1.0
+always be terrible	1.0
+i'll never get better	1.0
+never get better at	1.0
+get better at this	1.0
+better at this no	1.0
+at this no matter	1.0
+this no matter how	1.0
+how much i practice	1.0
+much i practice i'll	1.0
+i practice i'll always	1.0
+practice i'll always be	1.0
+i'll always be terrible	1.0
+new responsibilities	1.0
+responsibilities at	1.0
+work i'll	1.0
+i'll make	1.0
+see i'm	1.0
+handle the new	1.0
+the new responsibilities	1.0
+new responsibilities at	1.0
+responsibilities at work	1.0
+at work i'll	1.0
+work i'll make	1.0
+i'll make mistakes	1.0
+make mistakes and	1.0
+mistakes and everyone	1.0
+everyone will see	1.0
+will see i'm	1.0
+see i'm not	1.0
+able to handle the	1.0
+to handle the new	1.0
+handle the new responsibilities	1.0
+the new responsibilities at	1.0
+new responsibilities at work	1.0
+responsibilities at work i'll	1.0
+at work i'll make	1.0
+work i'll make mistakes	1.0
+i'll make mistakes and	1.0
+make mistakes and everyone	1.0
+mistakes and everyone will	1.0
+and everyone will see	1.0
+everyone will see i'm	1.0
+will see i'm not	1.0
+see i'm not capable	1.0
+i'll forget	1.0
+forget all	1.0
+my answers	1.0
+answers and	1.0
+and come	1.0
+across as	1.0
+as unprepared	1.0
+going to mess	1.0
+up the interview	1.0
+interview i'll forget	1.0
+i'll forget all	1.0
+forget all my	1.0
+all my answers	1.0
+my answers and	1.0
+answers and come	1.0
+and come across	1.0
+come across as	1.0
+across as unprepared	1.0
+i'm going to mess	1.0
+going to mess up	1.0
+to mess up the	1.0
+mess up the interview	1.0
+up the interview i'll	1.0
+the interview i'll forget	1.0
+interview i'll forget all	1.0
+i'll forget all my	1.0
+forget all my answers	1.0
+all my answers and	1.0
+my answers and come	1.0
+answers and come across	1.0
+and come across as	1.0
+come across as unprepared	1.0
+get lost	1.0
+meeting i'll	1.0
+bad impression	1.0
+to get lost	1.0
+get lost on	1.0
+the meeting i'll	1.0
+meeting i'll be	1.0
+late and make	1.0
+make a bad	1.0
+a bad impression	1.0
+i'm going to get	1.0
+going to get lost	1.0
+to get lost on	1.0
+get lost on the	1.0
+on the way to	1.0
+way to the meeting	1.0
+to the meeting i'll	1.0
+the meeting i'll be	1.0
+meeting i'll be late	1.0
+be late and make	1.0
+late and make a	1.0
+and make a bad	1.0
+make a bad impression	1.0
+never lose	1.0
+weight no	1.0
+try nothing	1.0
+ever works	1.0
+i'll never lose	1.0
+never lose weight	1.0
+lose weight no	1.0
+weight no matter	1.0
+i try nothing	1.0
+try nothing ever	1.0
+nothing ever works	1.0
+ever works for	1.0
+works for me	1.0
+i'll never lose weight	1.0
+never lose weight no	1.0
+lose weight no matter	1.0
+weight no matter how	1.0
+hard i try nothing	1.0
+i try nothing ever	1.0
+try nothing ever works	1.0
+nothing ever works for	1.0
+ever works for me	1.0
+presentation will	1.0
+so boring	1.0
+boring everyone	1.0
+start checking	1.0
+checking their	1.0
+their phones	1.0
+my presentation will	1.0
+presentation will be	1.0
+will be so	1.0
+be so boring	1.0
+so boring everyone	1.0
+boring everyone will	1.0
+will lose interest	1.0
+lose interest and	1.0
+interest and start	1.0
+and start checking	1.0
+start checking their	1.0
+checking their phones	1.0
+my presentation will be	1.0
+presentation will be so	1.0
+will be so boring	1.0
+be so boring everyone	1.0
+so boring everyone will	1.0
+boring everyone will lose	1.0
+everyone will lose interest	1.0
+will lose interest and	1.0
+lose interest and start	1.0
+interest and start checking	1.0
+and start checking their	1.0
+start checking their phones	1.0
+will leave	1.0
+me i'm	1.0
+and they'll	1.0
+they'll find	1.0
+find someone	1.0
+partner will leave	1.0
+will leave me	1.0
+leave me i'm	1.0
+me i'm not	1.0
+enough for them	1.0
+them and they'll	1.0
+and they'll find	1.0
+they'll find someone	1.0
+find someone better	1.0
+my partner will leave	1.0
+partner will leave me	1.0
+will leave me i'm	1.0
+leave me i'm not	1.0
+me i'm not good	1.0
+not good enough for	1.0
+good enough for them	1.0
+enough for them and	1.0
+for them and they'll	1.0
+them and they'll find	1.0
+and they'll find someone	1.0
+they'll find someone better	1.0
+the workload	1.0
+workload i'll	1.0
+i'll fall	1.0
+behind and	1.0
+handle the workload	1.0
+the workload i'll	1.0
+workload i'll fall	1.0
+i'll fall behind	1.0
+fall behind and	1.0
+behind and get	1.0
+and get overwhelmed	1.0
+to handle the workload	1.0
+handle the workload i'll	1.0
+the workload i'll fall	1.0
+workload i'll fall behind	1.0
+i'll fall behind and	1.0
+fall behind and get	1.0
+behind and get overwhelmed	1.0
+house something	1.0
+to afford a	1.0
+afford a house	1.0
+a house something	1.0
+house something will	1.0
+something will always	1.0
+will always come	1.0
+always come up	1.0
+up and i'll	1.0
+and i'll never	1.0
+i'll never save	1.0
+never save enough	1.0
+able to afford a	1.0
+to afford a house	1.0
+afford a house something	1.0
+a house something will	1.0
+house something will always	1.0
+something will always come	1.0
+will always come up	1.0
+always come up and	1.0
+come up and i'll	1.0
+up and i'll never	1.0
+and i'll never save	1.0
+i'll never save enough	1.0
+terrible time	1.0
+the hotel	1.0
+hotel will	1.0
+be awful	1.0
+nothing will	1.0
+a terrible time	1.0
+terrible time on	1.0
+time on the	1.0
+trip i'll get	1.0
+i'll get lost	1.0
+get lost the	1.0
+lost the hotel	1.0
+the hotel will	1.0
+hotel will be	1.0
+will be awful	1.0
+be awful and	1.0
+awful and nothing	1.0
+and nothing will	1.0
+nothing will go	1.0
+will go right	1.0
+i'm going to have	1.0
+going to have a	1.0
+to have a terrible	1.0
+have a terrible time	1.0
+a terrible time on	1.0
+terrible time on the	1.0
+time on the trip	1.0
+on the trip i'll	1.0
+the trip i'll get	1.0
+trip i'll get lost	1.0
+i'll get lost the	1.0
+get lost the hotel	1.0
+lost the hotel will	1.0
+the hotel will be	1.0
+hotel will be awful	1.0
+will be awful and	1.0
+be awful and nothing	1.0
+awful and nothing will	1.0
+and nothing will go	1.0
+nothing will go right	1.0
+pay off	1.0
+my debt	1.0
+debt it'll	1.0
+it'll keep	1.0
+keep growing	1.0
+growing and	1.0
+able to pay	1.0
+to pay off	1.0
+pay off my	1.0
+off my debt	1.0
+my debt it'll	1.0
+debt it'll keep	1.0
+it'll keep growing	1.0
+keep growing and	1.0
+growing and i'll	1.0
+never get out	1.0
+be able to pay	1.0
+able to pay off	1.0
+to pay off my	1.0
+pay off my debt	1.0
+off my debt it'll	1.0
+my debt it'll keep	1.0
+debt it'll keep growing	1.0
+it'll keep growing and	1.0
+keep growing and i'll	1.0
+growing and i'll never	1.0
+and i'll never get	1.0
+i'll never get out	1.0
+never get out of	1.0
+get out of it	1.0
+project will	1.0
+be rejected	1.0
+rejected all	1.0
+work will	1.0
+for nothing	1.0
+my project will	1.0
+project will be	1.0
+will be rejected	1.0
+be rejected all	1.0
+rejected all my	1.0
+hard work will	1.0
+work will be	1.0
+will be for	1.0
+be for nothing	1.0
+my project will be	1.0
+project will be rejected	1.0
+will be rejected all	1.0
+be rejected all my	1.0
+rejected all my hard	1.0
+my hard work will	1.0
+hard work will be	1.0
+work will be for	1.0
+will be for nothing	1.0
+retire	1.0
+to retire	1.0
+retire i'll	1.0
+able to retire	1.0
+to retire i'll	1.0
+retire i'll always	1.0
+i'll always have	1.0
+work and never	1.0
+and never get	1.0
+never get to	1.0
+get to enjoy	1.0
+to enjoy my	1.0
+be able to retire	1.0
+able to retire i'll	1.0
+to retire i'll always	1.0
+retire i'll always have	1.0
+i'll always have to	1.0
+always have to work	1.0
+to work and never	1.0
+work and never get	1.0
+and never get to	1.0
+never get to enjoy	1.0
+get to enjoy my	1.0
+to enjoy my life	1.0
+good apartment	1.0
+apartment i'll	1.0
+i'll end	1.0
+up living	1.0
+terrible place	1.0
+find a good	1.0
+a good apartment	1.0
+good apartment i'll	1.0
+apartment i'll end	1.0
+i'll end up	1.0
+end up living	1.0
+up living in	1.0
+in a terrible	1.0
+a terrible place	1.0
+be able to find	1.0
+to find a good	1.0
+find a good apartment	1.0
+a good apartment i'll	1.0
+good apartment i'll end	1.0
+apartment i'll end up	1.0
+i'll end up living	1.0
+end up living in	1.0
+up living in a	1.0
+living in a terrible	1.0
+in a terrible place	1.0
+and blow	1.0
+blow my	1.0
+my chance	1.0
+lost on my	1.0
+interview i'll be	1.0
+late and blow	1.0
+and blow my	1.0
+blow my chance	1.0
+get lost on my	1.0
+lost on my way	1.0
+way to the interview	1.0
+to the interview i'll	1.0
+the interview i'll be	1.0
+interview i'll be late	1.0
+be late and blow	1.0
+late and blow my	1.0
+and blow my chance	1.0
+family gathering	1.0
+gathering there	1.0
+be arguments	1.0
+and it'll	1.0
+be stressful	1.0
+terrible time at	1.0
+time at the	1.0
+at the family	1.0
+the family gathering	1.0
+family gathering there	1.0
+gathering there will	1.0
+will be arguments	1.0
+be arguments and	1.0
+arguments and it'll	1.0
+and it'll be	1.0
+it'll be stressful	1.0
+a terrible time at	1.0
+terrible time at the	1.0
+time at the family	1.0
+at the family gathering	1.0
+the family gathering there	1.0
+family gathering there will	1.0
+gathering there will be	1.0
+there will be arguments	1.0
+will be arguments and	1.0
+be arguments and it'll	1.0
+arguments and it'll be	1.0
+and it'll be stressful	1.0
+work it'll	1.0
+big one	1.0
+at work it'll	1.0
+work it'll be	1.0
+be a big	1.0
+a big one	1.0
+big one and	1.0
+one and i'll	1.0
+i'll get in	1.0
+get in trouble	1.0
+i'm going to make	1.0
+going to make a	1.0
+to make a mistake	1.0
+make a mistake at	1.0
+mistake at work it'll	1.0
+at work it'll be	1.0
+work it'll be a	1.0
+it'll be a big	1.0
+be a big one	1.0
+a big one and	1.0
+big one and i'll	1.0
+one and i'll get	1.0
+and i'll get in	1.0
+i'll get in trouble	1.0
+failure everyone	1.0
+a failure everyone	1.0
+failure everyone will	1.0
+will see that	1.0
+see that i'm	1.0
+project will be a	1.0
+will be a failure	1.0
+be a failure everyone	1.0
+a failure everyone will	1.0
+failure everyone will see	1.0
+everyone will see that	1.0
+will see that i'm	1.0
+see that i'm not	1.0
+embarrass	1.0
+performance will	1.0
+terrible i'll	1.0
+forget my	1.0
+my lines	1.0
+lines and	1.0
+and embarrass	1.0
+embarrass myself	1.0
+my performance will	1.0
+performance will be	1.0
+be terrible i'll	1.0
+terrible i'll forget	1.0
+i'll forget my	1.0
+forget my lines	1.0
+my lines and	1.0
+lines and embarrass	1.0
+and embarrass myself	1.0
+my performance will be	1.0
+performance will be terrible	1.0
+will be terrible i'll	1.0
+be terrible i'll forget	1.0
+terrible i'll forget my	1.0
+i'll forget my lines	1.0
+forget my lines and	1.0
+my lines and embarrass	1.0
+lines and embarrass myself	1.0
+ideas will	1.0
+rejected no	1.0
+their value	1.0
+value and	1.0
+my ideas will	1.0
+ideas will be	1.0
+be rejected no	1.0
+rejected no one	1.0
+one will see	1.0
+will see their	1.0
+see their value	1.0
+their value and	1.0
+value and it'll	1.0
+be a waste	1.0
+my ideas will be	1.0
+ideas will be rejected	1.0
+will be rejected no	1.0
+be rejected no one	1.0
+rejected no one will	1.0
+no one will see	1.0
+one will see their	1.0
+will see their value	1.0
+see their value and	1.0
+their value and it'll	1.0
+value and it'll be	1.0
+and it'll be a	1.0
+it'll be a waste	1.0
+health will	1.0
+improve i'll	1.0
+it won't	1.0
+my health will	1.0
+health will never	1.0
+will never improve	1.0
+never improve i'll	1.0
+improve i'll always	1.0
+i'll always feel	1.0
+always feel this	1.0
+and it won't	1.0
+it won't get	1.0
+won't get better	1.0
+my health will never	1.0
+health will never improve	1.0
+will never improve i'll	1.0
+never improve i'll always	1.0
+improve i'll always feel	1.0
+i'll always feel this	1.0
+always feel this way	1.0
+this way and it	1.0
+way and it won't	1.0
+and it won't get	1.0
+it won't get better	1.0
+unnoticed	1.0
+efforts will	1.0
+go unnoticed	1.0
+unnoticed no	1.0
+will appreciate	1.0
+appreciate what	1.0
+my efforts will	1.0
+efforts will go	1.0
+will go unnoticed	1.0
+go unnoticed no	1.0
+unnoticed no one	1.0
+one will appreciate	1.0
+will appreciate what	1.0
+appreciate what i	1.0
+my efforts will go	1.0
+efforts will go unnoticed	1.0
+will go unnoticed no	1.0
+go unnoticed no one	1.0
+unnoticed no one will	1.0
+no one will appreciate	1.0
+one will appreciate what	1.0
+will appreciate what i	1.0
+appreciate what i do	1.0
+subpar	1.0
+be subpar	1.0
+subpar i'll	1.0
+i'll disappoint	1.0
+disappoint everyone	1.0
+will be subpar	1.0
+be subpar i'll	1.0
+subpar i'll disappoint	1.0
+i'll disappoint everyone	1.0
+disappoint everyone and	1.0
+everyone and feel	1.0
+and feel ashamed	1.0
+performance will be subpar	1.0
+will be subpar i'll	1.0
+be subpar i'll disappoint	1.0
+subpar i'll disappoint everyone	1.0
+i'll disappoint everyone and	1.0
+disappoint everyone and feel	1.0
+everyone and feel ashamed	1.0
+my plans	1.0
+plans will	1.0
+will fall	1.0
+apart nothing	1.0
+go the	1.0
+my plans will	1.0
+plans will fall	1.0
+will fall apart	1.0
+fall apart nothing	1.0
+apart nothing will	1.0
+will go the	1.0
+go the way	1.0
+my plans will fall	1.0
+plans will fall apart	1.0
+will fall apart nothing	1.0
+fall apart nothing will	1.0
+apart nothing will go	1.0
+nothing will go the	1.0
+will go the way	1.0
+go the way i	1.0
+be criticized	1.0
+criticized i'll	1.0
+i'll feel	1.0
+feel humiliated	1.0
+my work will	1.0
+will be criticized	1.0
+be criticized i'll	1.0
+criticized i'll feel	1.0
+i'll feel humiliated	1.0
+feel humiliated and	1.0
+humiliated and discouraged	1.0
+my work will be	1.0
+work will be criticized	1.0
+will be criticized i'll	1.0
+be criticized i'll feel	1.0
+criticized i'll feel humiliated	1.0
+i'll feel humiliated and	1.0
+feel humiliated and discouraged	1.0
+trip will	1.0
+disaster there	1.0
+be delays	1.0
+delays and	1.0
+problems everywhere	1.0
+my trip will	1.0
+trip will be	1.0
+a disaster there	1.0
+disaster there will	1.0
+will be delays	1.0
+be delays and	1.0
+delays and problems	1.0
+and problems everywhere	1.0
+my trip will be	1.0
+trip will be a	1.0
+be a disaster there	1.0
+a disaster there will	1.0
+disaster there will be	1.0
+there will be delays	1.0
+will be delays and	1.0
+be delays and problems	1.0
+delays and problems everywhere	1.0
+ignored no	1.0
+will care	1.0
+will be ignored	1.0
+be ignored no	1.0
+ignored no one	1.0
+one will care	1.0
+will care about	1.0
+care about what	1.0
+ideas will be ignored	1.0
+will be ignored no	1.0
+be ignored no one	1.0
+ignored no one will	1.0
+no one will care	1.0
+one will care about	1.0
+will care about what	1.0
+care about what i	1.0
+about what i have	1.0
+performance won't	1.0
+enough i'll	1.0
+i'll let	1.0
+let everyone	1.0
+everyone down	1.0
+my performance won't	1.0
+performance won't be	1.0
+won't be good	1.0
+good enough i'll	1.0
+enough i'll let	1.0
+i'll let everyone	1.0
+let everyone down	1.0
+my performance won't be	1.0
+performance won't be good	1.0
+won't be good enough	1.0
+be good enough i'll	1.0
+good enough i'll let	1.0
+enough i'll let everyone	1.0
+i'll let everyone down	1.0
+be wasted	1.0
+wasted nothing	1.0
+do will	1.0
+a difference	1.0
+efforts will be	1.0
+will be wasted	1.0
+be wasted nothing	1.0
+wasted nothing i	1.0
+i do will	1.0
+do will make	1.0
+will make a	1.0
+make a difference	1.0
+my efforts will be	1.0
+efforts will be wasted	1.0
+will be wasted nothing	1.0
+be wasted nothing i	1.0
+wasted nothing i do	1.0
+nothing i do will	1.0
+i do will make	1.0
+do will make a	1.0
+will make a difference	1.0
+spoil	1.0
+be ruined	1.0
+ruined something	1.0
+and spoil	1.0
+spoil everything	1.0
+plans will be	1.0
+will be ruined	1.0
+be ruined something	1.0
+ruined something will	1.0
+go wrong and	1.0
+wrong and spoil	1.0
+and spoil everything	1.0
+my plans will be	1.0
+plans will be ruined	1.0
+will be ruined something	1.0
+be ruined something will	1.0
+ruined something will go	1.0
+will go wrong and	1.0
+go wrong and spoil	1.0
+wrong and spoil everything	1.0
+flop	1.0
+a flop	1.0
+flop no	1.0
+will like	1.0
+be a flop	1.0
+a flop no	1.0
+flop no one	1.0
+one will like	1.0
+will like it	1.0
+it and it'll	1.0
+will be a flop	1.0
+be a flop no	1.0
+a flop no one	1.0
+flop no one will	1.0
+no one will like	1.0
+one will like it	1.0
+will like it and	1.0
+like it and it'll	1.0
+it and it'll be	1.0
+be a waste of	1.0
+mess i'll	1.0
+my points	1.0
+points and	1.0
+look unprofessional	1.0
+be a mess	1.0
+a mess i'll	1.0
+mess i'll forget	1.0
+forget my points	1.0
+my points and	1.0
+points and look	1.0
+and look unprofessional	1.0
+presentation will be a	1.0
+will be a mess	1.0
+be a mess i'll	1.0
+a mess i'll forget	1.0
+mess i'll forget my	1.0
+i'll forget my points	1.0
+forget my points and	1.0
+my points and look	1.0
+points and look unprofessional	1.0
+overlooked	1.0
+be overlooked	1.0
+overlooked no	1.0
+notice my	1.0
+will be overlooked	1.0
+be overlooked no	1.0
+overlooked no one	1.0
+one will notice	1.0
+will notice my	1.0
+notice my efforts	1.0
+work will be overlooked	1.0
+will be overlooked no	1.0
+be overlooked no one	1.0
+overlooked no one will	1.0
+no one will notice	1.0
+one will notice my	1.0
+will notice my efforts	1.0
+problems there	1.0
+and issues	1.0
+issues everywhere	1.0
+will be filled	1.0
+be filled with	1.0
+filled with problems	1.0
+with problems there	1.0
+problems there will	1.0
+delays and issues	1.0
+and issues everywhere	1.0
+trip will be filled	1.0
+will be filled with	1.0
+be filled with problems	1.0
+filled with problems there	1.0
+with problems there will	1.0
+problems there will be	1.0
+be delays and issues	1.0
+delays and issues everywhere	1.0
+terrible i'll let	1.0
+be terrible i'll let	1.0
+terrible i'll let everyone	1.0
+inadequate	1.0
+work won't	1.0
+feel embarrassed	1.0
+and inadequate	1.0
+my work won't	1.0
+work won't be	1.0
+enough i'll feel	1.0
+i'll feel embarrassed	1.0
+feel embarrassed and	1.0
+embarrassed and inadequate	1.0
+my work won't be	1.0
+work won't be good	1.0
+good enough i'll feel	1.0
+enough i'll feel embarrassed	1.0
+i'll feel embarrassed and	1.0
+feel embarrassed and inadequate	1.0
+unrecognized	1.0
+go unrecognized	1.0
+unrecognized no	1.0
+will go unrecognized	1.0
+go unrecognized no	1.0
+unrecognized no one	1.0
+efforts will go unrecognized	1.0
+will go unrecognized no	1.0
+go unrecognized no one	1.0
+unrecognized no one will	1.0
+fall through	1.0
+will ruin	1.0
+ruin them	1.0
+will fall through	1.0
+fall through something	1.0
+through something will	1.0
+something will ruin	1.0
+will ruin them	1.0
+plans will fall through	1.0
+will fall through something	1.0
+fall through something will	1.0
+through something will ruin	1.0
+something will ruin them	1.0
+disaster no	1.0
+a disaster no	1.0
+disaster no one	1.0
+it and i'll	1.0
+and i'll feel	1.0
+be a disaster no	1.0
+a disaster no one	1.0
+disaster no one will	1.0
+like it and i'll	1.0
+it and i'll feel	1.0
+and i'll feel embarrassed	1.0
+be boring	1.0
+boring no	1.0
+will pay	1.0
+will be boring	1.0
+be boring no	1.0
+boring no one	1.0
+one will pay	1.0
+will pay attention	1.0
+presentation will be boring	1.0
+will be boring no	1.0
+be boring no one	1.0
+boring no one will	1.0
+no one will pay	1.0
+one will pay attention	1.0
+better i'll	1.0
+get better i'll	1.0
+better i'll always	1.0
+health will never get	1.0
+never get better i'll	1.0
+get better i'll always	1.0
+better i'll always feel	1.0
+efforts won't	1.0
+always fall	1.0
+fall short	1.0
+my efforts won't	1.0
+efforts won't be	1.0
+won't be enough	1.0
+be enough i'll	1.0
+enough i'll always	1.0
+i'll always fall	1.0
+always fall short	1.0
+my efforts won't be	1.0
+efforts won't be enough	1.0
+won't be enough i'll	1.0
+be enough i'll always	1.0
+enough i'll always fall	1.0
+i'll always fall short	1.0
+choking	1.0
+drowningit	1.0
+everytime	1.0
+nocked	1.0
+go because	1.0
+my record	1.0
+record which	1.0
+which could	1.0
+possibly affect	1.0
+psychiatrist i	1.0
+major fear	1.0
+of choking	1.0
+choking and	1.0
+and drowningit	1.0
+drowningit seems	1.0
+like everytime	1.0
+everytime i	1.0
+close of	1.0
+beating in	1.0
+get nocked	1.0
+nocked right	1.0
+right back	1.0
+refused to go	1.0
+to go because	1.0
+go because i	1.0
+didn’t know if	1.0
+go on my	1.0
+on my record	1.0
+my record which	1.0
+record which could	1.0
+which could possibly	1.0
+could possibly affect	1.0
+possibly affect my	1.0
+affect my dreams	1.0
+my dreams of	1.0
+dreams of becoming	1.0
+of becoming a	1.0
+becoming a psychiatrist	1.0
+a psychiatrist i	1.0
+psychiatrist i have	1.0
+have a major	1.0
+a major fear	1.0
+major fear of	1.0
+fear of choking	1.0
+of choking and	1.0
+choking and drowningit	1.0
+and drowningit seems	1.0
+drowningit seems like	1.0
+seems like everytime	1.0
+like everytime i	1.0
+everytime i get	1.0
+get so close	1.0
+so close of	1.0
+close of beating	1.0
+of beating in	1.0
+beating in i	1.0
+in i get	1.0
+i get nocked	1.0
+get nocked right	1.0
+nocked right back	1.0
+right back down	1.0
+back down to	1.0
+to the bottom	1.0
+i refused to go	1.0
+refused to go because	1.0
+to go because i	1.0
+go because i didn’t	1.0
+because i didn’t know	1.0
+i didn’t know if	1.0
+didn’t know if it	1.0
+know if it was	1.0
+if it was going	1.0
+it was going to	1.0
+was going to go	1.0
+going to go on	1.0
+to go on my	1.0
+go on my record	1.0
+on my record which	1.0
+my record which could	1.0
+record which could possibly	1.0
+which could possibly affect	1.0
+could possibly affect my	1.0
+possibly affect my dreams	1.0
+affect my dreams of	1.0
+my dreams of becoming	1.0
+dreams of becoming a	1.0
+of becoming a psychiatrist	1.0
+becoming a psychiatrist i	1.0
+a psychiatrist i have	1.0
+psychiatrist i have a	1.0
+i have a major	1.0
+have a major fear	1.0
+a major fear of	1.0
+major fear of choking	1.0
+fear of choking and	1.0
+of choking and drowningit	1.0
+choking and drowningit seems	1.0
+and drowningit seems like	1.0
+drowningit seems like everytime	1.0
+seems like everytime i	1.0
+like everytime i get	1.0
+everytime i get so	1.0
+i get so close	1.0
+get so close of	1.0
+so close of beating	1.0
+close of beating in	1.0
+of beating in i	1.0
+beating in i get	1.0
+in i get nocked	1.0
+i get nocked right	1.0
+get nocked right back	1.0
+nocked right back down	1.0
+right back down to	1.0
+back down to the	1.0
+down to the bottom	1.0
+ropes	1.0
+call off	1.0
+off work	1.0
+work friday	1.0
+friday because	1.0
+alone at	1.0
+apartment in	1.0
+me evicted	1.0
+evicted or	1.0
+my ropes	1.0
+ropes and	1.0
+had to call	1.0
+to call off	1.0
+call off work	1.0
+off work friday	1.0
+work friday because	1.0
+friday because i	1.0
+him alone at	1.0
+alone at my	1.0
+at my apartment	1.0
+my apartment in	1.0
+apartment in fear	1.0
+in fear he	1.0
+fear he will	1.0
+he will do	1.0
+will do something	1.0
+do something and	1.0
+something and get	1.0
+and get me	1.0
+get me evicted	1.0
+me evicted or	1.0
+evicted or worse	1.0
+or worse i’m	1.0
+worse i’m at	1.0
+end of my	1.0
+of my ropes	1.0
+my ropes and	1.0
+ropes and don’t	1.0
+i had to call	1.0
+had to call off	1.0
+to call off work	1.0
+call off work friday	1.0
+off work friday because	1.0
+work friday because i	1.0
+friday because i can’t	1.0
+because i can’t leave	1.0
+i can’t leave him	1.0
+can’t leave him alone	1.0
+leave him alone at	1.0
+him alone at my	1.0
+alone at my apartment	1.0
+at my apartment in	1.0
+my apartment in fear	1.0
+apartment in fear he	1.0
+in fear he will	1.0
+fear he will do	1.0
+he will do something	1.0
+will do something and	1.0
+do something and get	1.0
+something and get me	1.0
+and get me evicted	1.0
+get me evicted or	1.0
+me evicted or worse	1.0
+evicted or worse i’m	1.0
+or worse i’m at	1.0
+worse i’m at the	1.0
+i’m at the end	1.0
+the end of my	1.0
+end of my ropes	1.0
+of my ropes and	1.0
+my ropes and don’t	1.0
+ropes and don’t know	1.0
+and don’t know what	1.0
+savable	1.0
+if our	1.0
+family unit	1.0
+unit is	1.0
+is savable	1.0
+savable would	1.0
+would therapy	1.0
+therapy help	1.0
+bad mother	1.0
+know if our	1.0
+if our family	1.0
+our family unit	1.0
+family unit is	1.0
+unit is savable	1.0
+is savable would	1.0
+savable would therapy	1.0
+would therapy help	1.0
+therapy help what	1.0
+help what should	1.0
+a bad mother	1.0
+bad mother and	1.0
+lose my family	1.0
+to know if our	1.0
+know if our family	1.0
+if our family unit	1.0
+our family unit is	1.0
+family unit is savable	1.0
+unit is savable would	1.0
+is savable would therapy	1.0
+savable would therapy help	1.0
+would therapy help what	1.0
+therapy help what should	1.0
+help what should i	1.0
+i do i don’t	1.0
+be a bad mother	1.0
+a bad mother and	1.0
+bad mother and i	1.0
+to lose my family	1.0
+bipolari	1.0
+medication resistant	1.0
+resistant i	1.0
+tried them	1.0
+tried all	1.0
+medications out	1.0
+and bipolari	1.0
+bipolari don’t	1.0
+best dr	1.0
+dr for	1.0
+of cognitive	1.0
+cognitive loss	1.0
+loss memory	1.0
+memory loss	1.0
+medication resistant i	1.0
+resistant i have	1.0
+have tried them	1.0
+tried them all	1.0
+them all i	1.0
+have tried all	1.0
+tried all the	1.0
+all the medications	1.0
+the medications out	1.0
+medications out there	1.0
+out there for	1.0
+there for depression	1.0
+for depression and	1.0
+depression and bipolari	1.0
+and bipolari don’t	1.0
+bipolari don’t know	1.0
+how to find	1.0
+find the best	1.0
+the best dr	1.0
+best dr for	1.0
+dr for this	1.0
+afraid of cognitive	1.0
+of cognitive loss	1.0
+cognitive loss memory	1.0
+loss memory loss	1.0
+medication resistant i have	1.0
+resistant i have tried	1.0
+i have tried them	1.0
+have tried them all	1.0
+tried them all i	1.0
+them all i have	1.0
+all i have tried	1.0
+i have tried all	1.0
+have tried all the	1.0
+tried all the medications	1.0
+all the medications out	1.0
+the medications out there	1.0
+medications out there for	1.0
+out there for depression	1.0
+there for depression and	1.0
+for depression and bipolari	1.0
+depression and bipolari don’t	1.0
+and bipolari don’t know	1.0
+bipolari don’t know how	1.0
+know how to find	1.0
+how to find the	1.0
+to find the best	1.0
+find the best dr	1.0
+the best dr for	1.0
+best dr for this	1.0
+dr for this and	1.0
+for this and am	1.0
+this and am afraid	1.0
+am afraid of cognitive	1.0
+afraid of cognitive loss	1.0
+of cognitive loss memory	1.0
+cognitive loss memory loss	1.0
+dosent	1.0
+it dosent	1.0
+dosent go	1.0
+fun an	1.0
+an trying	1.0
+trying not	1.0
+a schizo	1.0
+it dosent go	1.0
+dosent go away	1.0
+away and when	1.0
+am having fun	1.0
+having fun an	1.0
+fun an trying	1.0
+an trying not	1.0
+trying not to	1.0
+not to think	1.0
+about it its	1.0
+it its always	1.0
+its always in	1.0
+always in the	1.0
+am a schizo	1.0
+a schizo and	1.0
+schizo and that	1.0
+and that everything	1.0
+everything is crazy	1.0
+it dosent go away	1.0
+dosent go away and	1.0
+go away and when	1.0
+away and when i	1.0
+and when i am	1.0
+when i am having	1.0
+i am having fun	1.0
+am having fun an	1.0
+having fun an trying	1.0
+fun an trying not	1.0
+an trying not to	1.0
+trying not to think	1.0
+not to think about	1.0
+think about it its	1.0
+about it its always	1.0
+it its always in	1.0
+its always in the	1.0
+always in the back	1.0
+my mind that i	1.0
+mind that i am	1.0
+i am a schizo	1.0
+am a schizo and	1.0
+a schizo and that	1.0
+schizo and that everything	1.0
+and that everything is	1.0
+that everything is crazy	1.0
+parents will	1.0
+not approve	1.0
+dating for months	1.0
+now and my	1.0
+my parents will	1.0
+parents will not	1.0
+will not approve	1.0
+been dating for months	1.0
+dating for months now	1.0
+months now and my	1.0
+now and my parents	1.0
+and my parents will	1.0
+my parents will not	1.0
+parents will not approve	1.0
+antidepressant	1.0
+an antidepressant	1.0
+antidepressant but	1.0
+have epilepsy	1.0
+cause any	1.0
+any seizures	1.0
+to ashamed	1.0
+or anybody	1.0
+anybody i	1.0
+like to take	1.0
+take an antidepressant	1.0
+an antidepressant but	1.0
+antidepressant but i’m	1.0
+afraid to because	1.0
+to because i	1.0
+i have epilepsy	1.0
+have epilepsy and	1.0
+epilepsy and i	1.0
+don’t want it	1.0
+it to cause	1.0
+to cause any	1.0
+cause any seizures	1.0
+any seizures i	1.0
+seizures i feel	1.0
+i feel to	1.0
+feel to ashamed	1.0
+to ashamed to	1.0
+parents or anybody	1.0
+or anybody i	1.0
+anybody i know	1.0
+know i’m even	1.0
+i’m even to	1.0
+even to ashamed	1.0
+tell my family	1.0
+family doctor about	1.0
+doctor about this	1.0
+would like to take	1.0
+like to take an	1.0
+to take an antidepressant	1.0
+take an antidepressant but	1.0
+an antidepressant but i’m	1.0
+antidepressant but i’m afraid	1.0
+but i’m afraid to	1.0
+i’m afraid to because	1.0
+afraid to because i	1.0
+to because i have	1.0
+because i have epilepsy	1.0
+i have epilepsy and	1.0
+have epilepsy and i	1.0
+epilepsy and i don’t	1.0
+i don’t want it	1.0
+don’t want it to	1.0
+want it to cause	1.0
+it to cause any	1.0
+to cause any seizures	1.0
+cause any seizures i	1.0
+any seizures i feel	1.0
+seizures i feel to	1.0
+i feel to ashamed	1.0
+feel to ashamed to	1.0
+to ashamed to tell	1.0
+ashamed to tell my	1.0
+tell my parents or	1.0
+my parents or anybody	1.0
+parents or anybody i	1.0
+or anybody i know	1.0
+anybody i know i’m	1.0
+i know i’m even	1.0
+know i’m even to	1.0
+i’m even to ashamed	1.0
+even to ashamed to	1.0
+to tell my family	1.0
+tell my family doctor	1.0
+my family doctor about	1.0
+family doctor about this	1.0
+her whenever	1.0
+she tries	1.0
+me she’ll	1.0
+she’ll change	1.0
+she’ll get	1.0
+its a	1.0
+complete lie	1.0
+lie and	1.0
+i despise	1.0
+despise getting	1.0
+getting lied	1.0
+to its	1.0
+its happened	1.0
+happened too	1.0
+angry at her	1.0
+at her whenever	1.0
+her whenever she	1.0
+whenever she tries	1.0
+she tries to	1.0
+tell me she’ll	1.0
+me she’ll change	1.0
+she’ll change and	1.0
+change and that	1.0
+and that she’ll	1.0
+that she’ll get	1.0
+she’ll get better	1.0
+better i get	1.0
+get angry because	1.0
+know its a	1.0
+its a complete	1.0
+a complete lie	1.0
+complete lie and	1.0
+lie and i	1.0
+and i despise	1.0
+i despise getting	1.0
+despise getting lied	1.0
+getting lied to	1.0
+lied to its	1.0
+to its happened	1.0
+its happened too	1.0
+happened too many	1.0
+too many times	1.0
+times to me	1.0
+get so angry at	1.0
+so angry at her	1.0
+angry at her whenever	1.0
+at her whenever she	1.0
+her whenever she tries	1.0
+whenever she tries to	1.0
+she tries to tell	1.0
+to tell me she’ll	1.0
+tell me she’ll change	1.0
+me she’ll change and	1.0
+she’ll change and that	1.0
+change and that she’ll	1.0
+and that she’ll get	1.0
+that she’ll get better	1.0
+she’ll get better i	1.0
+get better i get	1.0
+better i get angry	1.0
+i get angry because	1.0
+get angry because i	1.0
+angry because i know	1.0
+because i know its	1.0
+i know its a	1.0
+know its a complete	1.0
+its a complete lie	1.0
+a complete lie and	1.0
+complete lie and i	1.0
+lie and i despise	1.0
+and i despise getting	1.0
+i despise getting lied	1.0
+despise getting lied to	1.0
+getting lied to its	1.0
+lied to its happened	1.0
+to its happened too	1.0
+its happened too many	1.0
+happened too many times	1.0
+too many times to	1.0
+many times to me	1.0
+disruption	1.0
+about disruption	1.0
+disruption to	1.0
+his attachment	1.0
+worried about disruption	1.0
+about disruption to	1.0
+disruption to our	1.0
+to our relationship	1.0
+our relationship and	1.0
+relationship and his	1.0
+and his attachment	1.0
+i’m worried about disruption	1.0
+worried about disruption to	1.0
+about disruption to our	1.0
+disruption to our relationship	1.0
+to our relationship and	1.0
+our relationship and his	1.0
+relationship and his attachment	1.0
+self-aware	1.0
+stupid me	1.0
+me focused	1.0
+her negative	1.0
+negative past	1.0
+her like	1.0
+suicide i’m	1.0
+i’m self-aware	1.0
+self-aware of	1.0
+never fix	1.0
+fix them	1.0
+stupid me focused	1.0
+me focused on	1.0
+focused on her	1.0
+on her negative	1.0
+her negative past	1.0
+negative past and	1.0
+feel i failed	1.0
+failed to be	1.0
+for her like	1.0
+her like she	1.0
+she was for	1.0
+was for me	1.0
+when i wanted	1.0
+wanted to commit	1.0
+commit suicide i’m	1.0
+suicide i’m self-aware	1.0
+i’m self-aware of	1.0
+self-aware of my	1.0
+of my problems	1.0
+my problems but	1.0
+problems but i	1.0
+can never fix	1.0
+never fix them	1.0
+stupid me focused on	1.0
+me focused on her	1.0
+focused on her negative	1.0
+on her negative past	1.0
+her negative past and	1.0
+negative past and i	1.0
+past and i feel	1.0
+i feel i failed	1.0
+feel i failed to	1.0
+i failed to be	1.0
+failed to be there	1.0
+to be there for	1.0
+be there for her	1.0
+there for her like	1.0
+for her like she	1.0
+her like she was	1.0
+like she was for	1.0
+she was for me	1.0
+was for me when	1.0
+me when i wanted	1.0
+when i wanted to	1.0
+i wanted to commit	1.0
+wanted to commit suicide	1.0
+to commit suicide i’m	1.0
+commit suicide i’m self-aware	1.0
+suicide i’m self-aware of	1.0
+i’m self-aware of my	1.0
+self-aware of my problems	1.0
+of my problems but	1.0
+my problems but i	1.0
+problems but i can	1.0
+i can never fix	1.0
+can never fix them	1.0
+bad bc	1.0
+bc she	1.0
+doesn’t eat	1.0
+eat sometimes	1.0
+big health	1.0
+problem or	1.0
+or mental	1.0
+mental issue	1.0
+thinking about something	1.0
+about something will	1.0
+will happen to	1.0
+happen to her	1.0
+her so bad	1.0
+so bad bc	1.0
+bad bc she	1.0
+bc she doesn’t	1.0
+she doesn’t eat	1.0
+doesn’t eat sometimes	1.0
+eat sometimes i	1.0
+think she will	1.0
+get a big	1.0
+a big health	1.0
+big health problem	1.0
+health problem or	1.0
+problem or mental	1.0
+or mental issue	1.0
+mental issue and	1.0
+trying to think	1.0
+think about how	1.0
+about how can	1.0
+can i deal	1.0
+stop thinking about something	1.0
+thinking about something will	1.0
+about something will happen	1.0
+something will happen to	1.0
+will happen to her	1.0
+happen to her so	1.0
+to her so bad	1.0
+her so bad bc	1.0
+so bad bc she	1.0
+bad bc she doesn’t	1.0
+bc she doesn’t eat	1.0
+she doesn’t eat sometimes	1.0
+doesn’t eat sometimes i	1.0
+eat sometimes i think	1.0
+sometimes i think she	1.0
+i think she will	1.0
+think she will get	1.0
+she will get a	1.0
+will get a big	1.0
+get a big health	1.0
+a big health problem	1.0
+big health problem or	1.0
+health problem or mental	1.0
+problem or mental issue	1.0
+or mental issue and	1.0
+mental issue and i	1.0
+issue and i am	1.0
+and i am trying	1.0
+am trying to think	1.0
+trying to think about	1.0
+to think about how	1.0
+think about how can	1.0
+about how can i	1.0
+how can i deal	1.0
+can i deal with	1.0
+i deal with it	1.0
+grip	1.0
+m contacting	1.0
+contacting is	1.0
+m losing	1.0
+losing more	1.0
+more grip	1.0
+grip of	1.0
+of reality	1.0
+with every	1.0
+every passing	1.0
+passing day	1.0
+zero interest	1.0
+in wasting	1.0
+no amount	1.0
+no therapist	1.0
+who could	1.0
+could convince	1.0
+convince me	1.0
+spent almost	1.0
+almost the	1.0
+time you	1.0
+you ve	1.0
+ve been	1.0
+since being	1.0
+that your	1.0
+your life	1.0
+worthless because	1.0
+how you	1.0
+you look	1.0
+look means	1.0
+better either	1.0
+reason i m	1.0
+i m contacting	1.0
+m contacting is	1.0
+contacting is that	1.0
+feel i m	1.0
+i m losing	1.0
+m losing more	1.0
+losing more and	1.0
+and more grip	1.0
+more grip of	1.0
+grip of reality	1.0
+of reality with	1.0
+reality with every	1.0
+with every passing	1.0
+every passing day	1.0
+passing day but	1.0
+day but also	1.0
+but also have	1.0
+also have zero	1.0
+have zero interest	1.0
+zero interest in	1.0
+interest in wasting	1.0
+in wasting my	1.0
+time with therapy	1.0
+with therapy because	1.0
+therapy because there	1.0
+because there is	1.0
+is no amount	1.0
+no amount of	1.0
+amount of therapy	1.0
+of therapy or	1.0
+therapy or no	1.0
+or no therapist	1.0
+no therapist who	1.0
+therapist who could	1.0
+who could convince	1.0
+could convince me	1.0
+convince me that	1.0
+it will ever	1.0
+will ever get	1.0
+ever get any	1.0
+any better when	1.0
+better when you	1.0
+when you have	1.0
+you have spent	1.0
+have spent almost	1.0
+spent almost the	1.0
+almost the entire	1.0
+entire time you	1.0
+time you ve	1.0
+you ve been	1.0
+ve been out	1.0
+been out since	1.0
+out since being	1.0
+since being told	1.0
+told that your	1.0
+that your life	1.0
+your life is	1.0
+life is worthless	1.0
+is worthless because	1.0
+worthless because of	1.0
+of how you	1.0
+how you look	1.0
+you look means	1.0
+look means that	1.0
+means that people	1.0
+people will not	1.0
+will not get	1.0
+any better either	1.0
+the reason i m	1.0
+reason i m contacting	1.0
+i m contacting is	1.0
+m contacting is that	1.0
+contacting is that i	1.0
+is that i feel	1.0
+that i feel i	1.0
+i feel i m	1.0
+feel i m losing	1.0
+i m losing more	1.0
+m losing more and	1.0
+losing more and more	1.0
+more and more grip	1.0
+and more grip of	1.0
+more grip of reality	1.0
+grip of reality with	1.0
+of reality with every	1.0
+reality with every passing	1.0
+with every passing day	1.0
+every passing day but	1.0
+passing day but also	1.0
+day but also have	1.0
+but also have zero	1.0
+also have zero interest	1.0
+have zero interest in	1.0
+zero interest in wasting	1.0
+interest in wasting my	1.0
+in wasting my time	1.0
+wasting my time with	1.0
+my time with therapy	1.0
+time with therapy because	1.0
+with therapy because there	1.0
+therapy because there is	1.0
+because there is no	1.0
+there is no amount	1.0
+is no amount of	1.0
+no amount of therapy	1.0
+amount of therapy or	1.0
+of therapy or no	1.0
+therapy or no therapist	1.0
+or no therapist who	1.0
+no therapist who could	1.0
+therapist who could convince	1.0
+who could convince me	1.0
+could convince me that	1.0
+convince me that it	1.0
+me that it will	1.0
+that it will ever	1.0
+it will ever get	1.0
+will ever get any	1.0
+ever get any better	1.0
+get any better when	1.0
+any better when you	1.0
+better when you have	1.0
+when you have spent	1.0
+you have spent almost	1.0
+have spent almost the	1.0
+spent almost the entire	1.0
+almost the entire time	1.0
+the entire time you	1.0
+entire time you ve	1.0
+time you ve been	1.0
+you ve been out	1.0
+ve been out since	1.0
+been out since being	1.0
+out since being told	1.0
+since being told that	1.0
+being told that your	1.0
+told that your life	1.0
+that your life is	1.0
+your life is worthless	1.0
+life is worthless because	1.0
+is worthless because of	1.0
+worthless because of how	1.0
+because of how you	1.0
+of how you look	1.0
+how you look means	1.0
+you look means that	1.0
+look means that people	1.0
+means that people will	1.0
+that people will not	1.0
+people will not get	1.0
+will not get any	1.0
+not get any better	1.0
+get any better either	1.0
+get thoughts	1.0
+head such	1.0
+also get thoughts	1.0
+get thoughts in	1.0
+thoughts in my	1.0
+my head such	1.0
+head such as	1.0
+such as you	1.0
+as you don’t	1.0
+you don’t do	1.0
+don’t do this	1.0
+do this something	1.0
+this something bad	1.0
+happen or stop	1.0
+or stop doing	1.0
+doing this or	1.0
+this or something	1.0
+or something bad	1.0
+but i also get	1.0
+i also get thoughts	1.0
+also get thoughts in	1.0
+get thoughts in my	1.0
+thoughts in my head	1.0
+in my head such	1.0
+my head such as	1.0
+head such as you	1.0
+such as you don’t	1.0
+as you don’t do	1.0
+you don’t do this	1.0
+don’t do this something	1.0
+do this something bad	1.0
+this something bad will	1.0
+will happen or stop	1.0
+happen or stop doing	1.0
+or stop doing this	1.0
+stop doing this or	1.0
+doing this or something	1.0
+this or something bad	1.0
+or something bad will	1.0
+disappointing	1.0
+cannot concentrate	1.0
+concentrate even	1.0
+even for	1.0
+two minutes	1.0
+that it’ll	1.0
+it’ll affect	1.0
+career i	1.0
+my 12th	1.0
+12th results	1.0
+results yesterday	1.0
+it disappointing	1.0
+disappointing as	1.0
+expected better	1.0
+better grades	1.0
+i cannot concentrate	1.0
+cannot concentrate even	1.0
+concentrate even for	1.0
+even for two	1.0
+for two minutes	1.0
+two minutes and	1.0
+minutes and i’m	1.0
+afraid that it’ll	1.0
+that it’ll affect	1.0
+it’ll affect my	1.0
+affect my career	1.0
+my career i	1.0
+career i got	1.0
+i got my	1.0
+got my 12th	1.0
+my 12th results	1.0
+12th results yesterday	1.0
+results yesterday and	1.0
+yesterday and found	1.0
+and found it	1.0
+found it disappointing	1.0
+it disappointing as	1.0
+disappointing as i	1.0
+as i expected	1.0
+i expected better	1.0
+expected better grades	1.0
+i cannot concentrate even	1.0
+cannot concentrate even for	1.0
+concentrate even for two	1.0
+even for two minutes	1.0
+for two minutes and	1.0
+two minutes and i’m	1.0
+minutes and i’m afraid	1.0
+i’m afraid that it’ll	1.0
+afraid that it’ll affect	1.0
+that it’ll affect my	1.0
+it’ll affect my career	1.0
+affect my career i	1.0
+my career i got	1.0
+career i got my	1.0
+i got my 12th	1.0
+got my 12th results	1.0
+my 12th results yesterday	1.0
+12th results yesterday and	1.0
+results yesterday and found	1.0
+yesterday and found it	1.0
+and found it disappointing	1.0
+found it disappointing as	1.0
+it disappointing as i	1.0
+disappointing as i expected	1.0
+as i expected better	1.0
+i expected better grades	1.0
+sometimes avoid	1.0
+certain topics	1.0
+topics for	1.0
+for discussion	1.0
+discussion because	1.0
+that i sometimes	1.0
+i sometimes avoid	1.0
+sometimes avoid certain	1.0
+avoid certain topics	1.0
+certain topics for	1.0
+topics for discussion	1.0
+for discussion because	1.0
+discussion because i’m	1.0
+afraid she would	1.0
+she would judge	1.0
+judge me or	1.0
+me or get	1.0
+or get angry	1.0
+get angry with	1.0
+of that i sometimes	1.0
+that i sometimes avoid	1.0
+i sometimes avoid certain	1.0
+sometimes avoid certain topics	1.0
+avoid certain topics for	1.0
+certain topics for discussion	1.0
+topics for discussion because	1.0
+for discussion because i’m	1.0
+discussion because i’m afraid	1.0
+i’m afraid she would	1.0
+afraid she would judge	1.0
+she would judge me	1.0
+would judge me or	1.0
+judge me or get	1.0
+me or get angry	1.0
+or get angry with	1.0
+get angry with me	1.0
+maternal	1.0
+been worried	1.0
+about bringing	1.0
+bringing this	1.0
+psychologist because	1.0
+mother i’m	1.0
+worried they	1.0
+call cps	1.0
+cps on	1.0
+no maternal	1.0
+maternal need	1.0
+do these	1.0
+from talking	1.0
+kids when	1.0
+when their	1.0
+children as	1.0
+example get	1.0
+get hurt	1.0
+hurt they	1.0
+this need	1.0
+need deep	1.0
+deep down	1.0
+better to	1.0
+comfort them	1.0
+i’ve been worried	1.0
+been worried about	1.0
+worried about bringing	1.0
+about bringing this	1.0
+bringing this up	1.0
+this up with	1.0
+with a psychologist	1.0
+a psychologist because	1.0
+psychologist because i	1.0
+a mother i’m	1.0
+mother i’m worried	1.0
+i’m worried they	1.0
+worried they will	1.0
+they will call	1.0
+will call cps	1.0
+call cps on	1.0
+cps on me	1.0
+me but the	1.0
+but the problem	1.0
+have no maternal	1.0
+no maternal need	1.0
+maternal need to	1.0
+need to do	1.0
+to do these	1.0
+do these things	1.0
+these things from	1.0
+things from talking	1.0
+from talking to	1.0
+to friends with	1.0
+friends with kids	1.0
+with kids when	1.0
+kids when their	1.0
+when their children	1.0
+their children as	1.0
+children as an	1.0
+as an example	1.0
+an example get	1.0
+example get hurt	1.0
+get hurt they	1.0
+hurt they have	1.0
+they have this	1.0
+have this need	1.0
+this need deep	1.0
+need deep down	1.0
+deep down to	1.0
+down to make	1.0
+them feel better	1.0
+feel better to	1.0
+better to comfort	1.0
+to comfort them	1.0
+comfort them etc	1.0
+i’ve been worried about	1.0
+been worried about bringing	1.0
+worried about bringing this	1.0
+about bringing this up	1.0
+bringing this up with	1.0
+this up with a	1.0
+up with a psychologist	1.0
+with a psychologist because	1.0
+a psychologist because i	1.0
+psychologist because i am	1.0
+because i am a	1.0
+am a mother i’m	1.0
+a mother i’m worried	1.0
+mother i’m worried they	1.0
+i’m worried they will	1.0
+worried they will call	1.0
+they will call cps	1.0
+will call cps on	1.0
+call cps on me	1.0
+cps on me but	1.0
+on me but the	1.0
+me but the problem	1.0
+but the problem is	1.0
+problem is i have	1.0
+i have no maternal	1.0
+have no maternal need	1.0
+no maternal need to	1.0
+maternal need to do	1.0
+need to do these	1.0
+to do these things	1.0
+do these things from	1.0
+these things from talking	1.0
+things from talking to	1.0
+from talking to friends	1.0
+talking to friends with	1.0
+to friends with kids	1.0
+friends with kids when	1.0
+with kids when their	1.0
+kids when their children	1.0
+when their children as	1.0
+their children as an	1.0
+children as an example	1.0
+as an example get	1.0
+an example get hurt	1.0
+example get hurt they	1.0
+get hurt they have	1.0
+hurt they have this	1.0
+they have this need	1.0
+have this need deep	1.0
+this need deep down	1.0
+need deep down to	1.0
+deep down to make	1.0
+down to make them	1.0
+make them feel better	1.0
+them feel better to	1.0
+feel better to comfort	1.0
+better to comfort them	1.0
+to comfort them etc	1.0
+together it	1.0
+be easier	1.0
+easier but	1.0
+we dont	1.0
+am sure if	1.0
+sure if we	1.0
+if we lived	1.0
+lived together it	1.0
+together it would	1.0
+would be easier	1.0
+be easier but	1.0
+easier but we	1.0
+but we dont	1.0
+i am sure if	1.0
+am sure if we	1.0
+sure if we lived	1.0
+if we lived together	1.0
+we lived together it	1.0
+lived together it would	1.0
+together it would be	1.0
+it would be easier	1.0
+would be easier but	1.0
+be easier but we	1.0
+easier but we dont	1.0
+and guilty	1.0
+keep myself in	1.0
+myself in check	1.0
+check i’m feeling	1.0
+i’m feeling worthless	1.0
+worthless and guilty	1.0
+be with her but	1.0
+her but i can’t	1.0
+but i can’t keep	1.0
+can’t keep myself in	1.0
+keep myself in check	1.0
+myself in check i’m	1.0
+in check i’m feeling	1.0
+check i’m feeling worthless	1.0
+i’m feeling worthless and	1.0
+feeling worthless and guilty	1.0
+my thinking	1.0
+i cannot control	1.0
+cannot control my	1.0
+control my thinking	1.0
+my thinking i	1.0
+thinking i feel	1.0
+i cannot control my	1.0
+cannot control my thinking	1.0
+control my thinking i	1.0
+my thinking i feel	1.0
+thinking i feel like	1.0
+scared he’ll	1.0
+he’ll snap	1.0
+snap one	1.0
+i’m scared he’ll	1.0
+scared he’ll snap	1.0
+he’ll snap one	1.0
+snap one day	1.0
+day and kill	1.0
+and kill me	1.0
+i’m scared he’ll snap	1.0
+scared he’ll snap one	1.0
+he’ll snap one day	1.0
+snap one day and	1.0
+one day and kill	1.0
+day and kill me	1.0
+has paranoia	1.0
+paranoia disorder	1.0
+afraid it	1.0
+believe he has	1.0
+he has paranoia	1.0
+has paranoia disorder	1.0
+paranoia disorder but	1.0
+disorder but he	1.0
+doesn’t have medical	1.0
+medical insurance and	1.0
+insurance and i	1.0
+am afraid it	1.0
+afraid it is	1.0
+i believe he has	1.0
+believe he has paranoia	1.0
+he has paranoia disorder	1.0
+has paranoia disorder but	1.0
+paranoia disorder but he	1.0
+disorder but he doesn’t	1.0
+but he doesn’t have	1.0
+he doesn’t have medical	1.0
+doesn’t have medical insurance	1.0
+have medical insurance and	1.0
+medical insurance and i	1.0
+insurance and i am	1.0
+i am afraid it	1.0
+am afraid it is	1.0
+afraid it is going	1.0
+is going to get	1.0
+going to get worse	1.0
+think i’m going	1.0
+i’m going insane	1.0
+i think i’m going	1.0
+think i’m going insane	1.0
+spark	1.0
+happy future	1.0
+future ahead	1.0
+to zero	1.0
+zero friends	1.0
+friends ever	1.0
+quit drinking	1.0
+and drugs	1.0
+drugs i’m	1.0
+always worrying	1.0
+matter i	1.0
+who broke	1.0
+heart over	1.0
+over ten	1.0
+ten years	1.0
+love very	1.0
+much lives	1.0
+lives on	1.0
+decent girl	1.0
+could start	1.0
+with i	1.0
+the spark	1.0
+spark or	1.0
+hold conversations	1.0
+frankly i’m	1.0
+die alone	1.0
+alone without	1.0
+a happy future	1.0
+happy future ahead	1.0
+future ahead of	1.0
+don’t enjoy my	1.0
+enjoy my job	1.0
+my job i	1.0
+i have close	1.0
+have close to	1.0
+close to zero	1.0
+to zero friends	1.0
+zero friends ever	1.0
+friends ever since	1.0
+since i quit	1.0
+i quit drinking	1.0
+quit drinking and	1.0
+drinking and drugs	1.0
+and drugs i’m	1.0
+drugs i’m always	1.0
+i’m always worrying	1.0
+always worrying about	1.0
+worrying about things	1.0
+about things that	1.0
+that don’t even	1.0
+don’t even matter	1.0
+even matter i	1.0
+matter i still	1.0
+think about the	1.0
+about the girl	1.0
+the girl who	1.0
+girl who broke	1.0
+who broke my	1.0
+my heart over	1.0
+heart over ten	1.0
+over ten years	1.0
+ten years ago	1.0
+ago my brother	1.0
+my brother who	1.0
+brother who i	1.0
+who i love	1.0
+i love very	1.0
+love very much	1.0
+very much lives	1.0
+much lives on	1.0
+lives on the	1.0
+of the country	1.0
+the country i	1.0
+country i don’t	1.0
+where to meet	1.0
+to meet a	1.0
+meet a decent	1.0
+a decent girl	1.0
+decent girl that	1.0
+i could start	1.0
+could start a	1.0
+family with i	1.0
+with i don’t	1.0
+have the spark	1.0
+the spark or	1.0
+spark or motivation	1.0
+motivation to hold	1.0
+to hold conversations	1.0
+hold conversations with	1.0
+conversations with people	1.0
+very little interest	1.0
+little interest in	1.0
+in many of	1.0
+to enjoy doing	1.0
+enjoy doing and	1.0
+doing and frankly	1.0
+and frankly i’m	1.0
+frankly i’m afraid	1.0
+that i’m going	1.0
+to die alone	1.0
+die alone without	1.0
+alone without a	1.0
+without a family	1.0
+like i have a	1.0
+i have a happy	1.0
+have a happy future	1.0
+a happy future ahead	1.0
+happy future ahead of	1.0
+future ahead of me	1.0
+ahead of me i	1.0
+of me i don’t	1.0
+me i don’t enjoy	1.0
+i don’t enjoy my	1.0
+don’t enjoy my job	1.0
+enjoy my job i	1.0
+my job i have	1.0
+job i have close	1.0
+i have close to	1.0
+have close to zero	1.0
+close to zero friends	1.0
+to zero friends ever	1.0
+zero friends ever since	1.0
+friends ever since i	1.0
+ever since i quit	1.0
+since i quit drinking	1.0
+i quit drinking and	1.0
+quit drinking and drugs	1.0
+drinking and drugs i’m	1.0
+and drugs i’m always	1.0
+drugs i’m always worrying	1.0
+i’m always worrying about	1.0
+always worrying about things	1.0
+worrying about things that	1.0
+about things that don’t	1.0
+things that don’t even	1.0
+that don’t even matter	1.0
+don’t even matter i	1.0
+even matter i still	1.0
+matter i still think	1.0
+i still think about	1.0
+still think about the	1.0
+think about the girl	1.0
+about the girl who	1.0
+the girl who broke	1.0
+girl who broke my	1.0
+who broke my heart	1.0
+broke my heart over	1.0
+my heart over ten	1.0
+heart over ten years	1.0
+over ten years ago	1.0
+ten years ago my	1.0
+years ago my brother	1.0
+ago my brother who	1.0
+my brother who i	1.0
+brother who i love	1.0
+who i love very	1.0
+i love very much	1.0
+love very much lives	1.0
+very much lives on	1.0
+much lives on the	1.0
+lives on the other	1.0
+side of the country	1.0
+of the country i	1.0
+the country i don’t	1.0
+country i don’t know	1.0
+know where to meet	1.0
+where to meet a	1.0
+to meet a decent	1.0
+meet a decent girl	1.0
+a decent girl that	1.0
+decent girl that i	1.0
+girl that i could	1.0
+that i could start	1.0
+i could start a	1.0
+could start a family	1.0
+start a family with	1.0
+a family with i	1.0
+family with i don’t	1.0
+with i don’t have	1.0
+don’t have the spark	1.0
+have the spark or	1.0
+the spark or motivation	1.0
+spark or motivation to	1.0
+or motivation to hold	1.0
+motivation to hold conversations	1.0
+to hold conversations with	1.0
+hold conversations with people	1.0
+conversations with people i	1.0
+with people i have	1.0
+people i have very	1.0
+have very little interest	1.0
+very little interest in	1.0
+little interest in many	1.0
+interest in many of	1.0
+in many of the	1.0
+many of the things	1.0
+of the things i	1.0
+the things i used	1.0
+used to enjoy doing	1.0
+to enjoy doing and	1.0
+enjoy doing and frankly	1.0
+doing and frankly i’m	1.0
+and frankly i’m afraid	1.0
+frankly i’m afraid that	1.0
+afraid that i’m going	1.0
+that i’m going to	1.0
+i’m going to die	1.0
+going to die alone	1.0
+to die alone without	1.0
+die alone without a	1.0
+alone without a family	1.0
+im starting	1.0
+like nothing will	1.0
+nothing will ever	1.0
+will ever be	1.0
+ever be better	1.0
+be better for	1.0
+better for me	1.0
+me and im	1.0
+and im starting	1.0
+im starting to	1.0
+starting to believe	1.0
+am what my	1.0
+feel like nothing will	1.0
+like nothing will ever	1.0
+nothing will ever be	1.0
+will ever be better	1.0
+ever be better for	1.0
+be better for me	1.0
+better for me and	1.0
+for me and im	1.0
+me and im starting	1.0
+and im starting to	1.0
+im starting to believe	1.0
+starting to believe that	1.0
+i am what my	1.0
+am what my mom	1.0
+what my mom tells	1.0
+drastic	1.0
+don’t find	1.0
+find some	1.0
+some drastic	1.0
+drastic way	1.0
+prove i’m	1.0
+think i’ll	1.0
+i don’t find	1.0
+don’t find some	1.0
+find some drastic	1.0
+some drastic way	1.0
+drastic way to	1.0
+way to prove	1.0
+to prove i’m	1.0
+prove i’m sick	1.0
+i’m sick i	1.0
+sick i don’t	1.0
+don’t think i’ll	1.0
+think i’ll get	1.0
+i’ll get help	1.0
+if i don’t find	1.0
+i don’t find some	1.0
+don’t find some drastic	1.0
+find some drastic way	1.0
+some drastic way to	1.0
+drastic way to prove	1.0
+way to prove i’m	1.0
+to prove i’m sick	1.0
+prove i’m sick i	1.0
+i’m sick i don’t	1.0
+sick i don’t think	1.0
+i don’t think i’ll	1.0
+don’t think i’ll get	1.0
+think i’ll get help	1.0
+parents knew	1.0
+struggling they	1.0
+will put	1.0
+in inpatient	1.0
+inpatient and	1.0
+means no	1.0
+more college	1.0
+my scholarship	1.0
+if my parents	1.0
+my parents knew	1.0
+parents knew how	1.0
+knew how much	1.0
+am struggling they	1.0
+struggling they will	1.0
+they will put	1.0
+will put me	1.0
+me in inpatient	1.0
+in inpatient and	1.0
+inpatient and that	1.0
+and that means	1.0
+that means no	1.0
+means no more	1.0
+no more college	1.0
+more college and	1.0
+will lose my	1.0
+lose my scholarship	1.0
+if my parents knew	1.0
+my parents knew how	1.0
+parents knew how much	1.0
+knew how much i	1.0
+much i am struggling	1.0
+i am struggling they	1.0
+am struggling they will	1.0
+struggling they will put	1.0
+they will put me	1.0
+will put me in	1.0
+put me in inpatient	1.0
+me in inpatient and	1.0
+in inpatient and that	1.0
+inpatient and that means	1.0
+and that means no	1.0
+that means no more	1.0
+means no more college	1.0
+no more college and	1.0
+more college and i	1.0
+college and i will	1.0
+and i will lose	1.0
+i will lose my	1.0
+will lose my scholarship	1.0
+late before	1.0
+if this goes	1.0
+goes on it	1.0
+on it might	1.0
+might be too	1.0
+too late before	1.0
+late before i	1.0
+before i even	1.0
+i even realize	1.0
+even realize it	1.0
+want this to	1.0
+this to happen	1.0
+if this goes on	1.0
+this goes on it	1.0
+goes on it might	1.0
+on it might be	1.0
+it might be too	1.0
+might be too late	1.0
+be too late before	1.0
+too late before i	1.0
+late before i even	1.0
+before i even realize	1.0
+i even realize it	1.0
+even realize it and	1.0
+realize it and i	1.0
+not want this to	1.0
+want this to happen	1.0
+being influenced	1.0
+influenced by	1.0
+by someone’s	1.0
+someone’s opinion	1.0
+opinion when	1.0
+person doesn’t	1.0
+that by	1.0
+by understanding	1.0
+her his	1.0
+his perspective	1.0
+perspective i’ll	1.0
+stop enjoying	1.0
+enjoying the	1.0
+do enjoy	1.0
+of being influenced	1.0
+being influenced by	1.0
+influenced by someone’s	1.0
+by someone’s opinion	1.0
+someone’s opinion when	1.0
+opinion when that	1.0
+that person doesn’t	1.0
+person doesn’t like	1.0
+doesn’t like the	1.0
+like the things	1.0
+the things that	1.0
+that i like	1.0
+afraid that by	1.0
+that by understanding	1.0
+by understanding her	1.0
+understanding her his	1.0
+her his perspective	1.0
+his perspective i’ll	1.0
+perspective i’ll stop	1.0
+i’ll stop enjoying	1.0
+stop enjoying the	1.0
+enjoying the things	1.0
+i do enjoy	1.0
+am afraid of being	1.0
+afraid of being influenced	1.0
+of being influenced by	1.0
+being influenced by someone’s	1.0
+influenced by someone’s opinion	1.0
+by someone’s opinion when	1.0
+someone’s opinion when that	1.0
+opinion when that person	1.0
+when that person doesn’t	1.0
+that person doesn’t like	1.0
+person doesn’t like the	1.0
+doesn’t like the things	1.0
+like the things that	1.0
+the things that i	1.0
+things that i like	1.0
+that i like i	1.0
+i like i am	1.0
+like i am afraid	1.0
+am afraid that by	1.0
+afraid that by understanding	1.0
+that by understanding her	1.0
+by understanding her his	1.0
+understanding her his perspective	1.0
+her his perspective i’ll	1.0
+his perspective i’ll stop	1.0
+perspective i’ll stop enjoying	1.0
+i’ll stop enjoying the	1.0
+stop enjoying the things	1.0
+enjoying the things that	1.0
+things that i do	1.0
+that i do enjoy	1.0
+be 50/50	1.0
+50/50 but	1.0
+least have	1.0
+some support	1.0
+by he	1.0
+will at	1.0
+least cook	1.0
+least go	1.0
+something for	1.0
+understand that it	1.0
+that it can	1.0
+it can never	1.0
+can never be	1.0
+never be 50/50	1.0
+be 50/50 but	1.0
+50/50 but i	1.0
+need to at	1.0
+at least have	1.0
+least have some	1.0
+have some support	1.0
+some support that	1.0
+support that when	1.0
+can’t make it	1.0
+make it home	1.0
+it home by	1.0
+home by he	1.0
+by he will	1.0
+he will at	1.0
+will at least	1.0
+at least cook	1.0
+least cook dinner	1.0
+cook dinner and	1.0
+dinner and if	1.0
+and if not	1.0
+if not that	1.0
+not that at	1.0
+that at least	1.0
+at least go	1.0
+least go out	1.0
+out and get	1.0
+get something for	1.0
+something for us	1.0
+us to eat	1.0
+i understand that it	1.0
+understand that it can	1.0
+that it can never	1.0
+it can never be	1.0
+can never be 50/50	1.0
+never be 50/50 but	1.0
+be 50/50 but i	1.0
+50/50 but i just	1.0
+but i just need	1.0
+just need to at	1.0
+need to at least	1.0
+to at least have	1.0
+at least have some	1.0
+least have some support	1.0
+have some support that	1.0
+some support that when	1.0
+support that when i	1.0
+that when i can’t	1.0
+when i can’t make	1.0
+i can’t make it	1.0
+can’t make it home	1.0
+make it home by	1.0
+it home by he	1.0
+home by he will	1.0
+by he will at	1.0
+he will at least	1.0
+will at least cook	1.0
+at least cook dinner	1.0
+least cook dinner and	1.0
+cook dinner and if	1.0
+dinner and if not	1.0
+and if not that	1.0
+if not that at	1.0
+not that at least	1.0
+that at least go	1.0
+at least go out	1.0
+least go out and	1.0
+go out and get	1.0
+out and get something	1.0
+and get something for	1.0
+get something for us	1.0
+something for us to	1.0
+for us to eat	1.0
+just are	1.0
+are desperate	1.0
+desperate because	1.0
+that hugging	1.0
+hugging her	1.0
+her is	1.0
+happy again	1.0
+so we just	1.0
+we just are	1.0
+just are desperate	1.0
+are desperate because	1.0
+desperate because we	1.0
+because we feel	1.0
+we feel that	1.0
+feel that hugging	1.0
+that hugging her	1.0
+hugging her is	1.0
+her is not	1.0
+is not enough	1.0
+not enough to	1.0
+enough to help	1.0
+help her be	1.0
+her be happy	1.0
+be happy again	1.0
+so we just are	1.0
+we just are desperate	1.0
+just are desperate because	1.0
+are desperate because we	1.0
+desperate because we feel	1.0
+because we feel that	1.0
+we feel that hugging	1.0
+feel that hugging her	1.0
+that hugging her is	1.0
+hugging her is not	1.0
+her is not enough	1.0
+is not enough to	1.0
+not enough to help	1.0
+enough to help her	1.0
+to help her be	1.0
+help her be happy	1.0
+her be happy again	1.0
+will actually	1.0
+actually harm	1.0
+harm someone	1.0
+afraid i will	1.0
+i will actually	1.0
+will actually harm	1.0
+actually harm someone	1.0
+i’m afraid i will	1.0
+afraid i will actually	1.0
+i will actually harm	1.0
+will actually harm someone	1.0
+police he’ll	1.0
+he’ll get	1.0
+get arrested	1.0
+arrested and	1.0
+his future	1.0
+be destroyed	1.0
+to do because	1.0
+do because if	1.0
+i call the	1.0
+the police he’ll	1.0
+police he’ll get	1.0
+he’ll get arrested	1.0
+get arrested and	1.0
+arrested and his	1.0
+and his future	1.0
+his future will	1.0
+future will be	1.0
+will be destroyed	1.0
+what to do because	1.0
+to do because if	1.0
+do because if i	1.0
+because if i call	1.0
+if i call the	1.0
+i call the police	1.0
+call the police he’ll	1.0
+the police he’ll get	1.0
+police he’ll get arrested	1.0
+he’ll get arrested and	1.0
+get arrested and his	1.0
+arrested and his future	1.0
+and his future will	1.0
+his future will be	1.0
+future will be destroyed	1.0
+ideations	1.0
+fuel	1.0
+crumble	1.0
+it’s no	1.0
+longer i	1.0
+never kill	1.0
+kill now	1.0
+it’s i	1.0
+of want	1.0
+though another	1.0
+me screams	1.0
+screams not	1.0
+know right	1.0
+right from	1.0
+from wrong	1.0
+the longer	1.0
+longer these	1.0
+these intense	1.0
+intense homicidal	1.0
+homicidal ideations	1.0
+ideations fuel	1.0
+fuel my	1.0
+may crumble	1.0
+crumble become	1.0
+become my	1.0
+my nearly	1.0
+nearly lifelong	1.0
+lifelong fear	1.0
+it’s no longer	1.0
+no longer i	1.0
+longer i could	1.0
+could never kill	1.0
+never kill now	1.0
+kill now it’s	1.0
+now it’s i	1.0
+it’s i could	1.0
+i could and	1.0
+and i kind	1.0
+kind of want	1.0
+of want to	1.0
+to i want	1.0
+be like him	1.0
+like him even	1.0
+even though another	1.0
+though another part	1.0
+of me screams	1.0
+me screams not	1.0
+screams not to	1.0
+not to i	1.0
+to i know	1.0
+i know right	1.0
+know right from	1.0
+right from wrong	1.0
+from wrong but	1.0
+wrong but i	1.0
+i fear the	1.0
+fear the longer	1.0
+the longer these	1.0
+longer these intense	1.0
+these intense homicidal	1.0
+intense homicidal ideations	1.0
+homicidal ideations fuel	1.0
+ideations fuel my	1.0
+fuel my mind	1.0
+mind i may	1.0
+i may crumble	1.0
+may crumble become	1.0
+crumble become my	1.0
+become my nearly	1.0
+my nearly lifelong	1.0
+nearly lifelong fear	1.0
+lifelong fear i	1.0
+it’s no longer i	1.0
+no longer i could	1.0
+longer i could never	1.0
+i could never kill	1.0
+could never kill now	1.0
+never kill now it’s	1.0
+kill now it’s i	1.0
+now it’s i could	1.0
+it’s i could and	1.0
+i could and i	1.0
+could and i kind	1.0
+and i kind of	1.0
+i kind of want	1.0
+kind of want to	1.0
+of want to i	1.0
+want to i want	1.0
+to i want to	1.0
+want to be like	1.0
+to be like him	1.0
+be like him even	1.0
+like him even though	1.0
+him even though another	1.0
+even though another part	1.0
+though another part of	1.0
+part of me screams	1.0
+of me screams not	1.0
+me screams not to	1.0
+screams not to i	1.0
+not to i know	1.0
+to i know right	1.0
+i know right from	1.0
+know right from wrong	1.0
+right from wrong but	1.0
+from wrong but i	1.0
+wrong but i fear	1.0
+but i fear the	1.0
+i fear the longer	1.0
+fear the longer these	1.0
+the longer these intense	1.0
+longer these intense homicidal	1.0
+these intense homicidal ideations	1.0
+intense homicidal ideations fuel	1.0
+homicidal ideations fuel my	1.0
+ideations fuel my mind	1.0
+fuel my mind i	1.0
+my mind i may	1.0
+mind i may crumble	1.0
+i may crumble become	1.0
+may crumble become my	1.0
+crumble become my nearly	1.0
+become my nearly lifelong	1.0
+my nearly lifelong fear	1.0
+nearly lifelong fear i	1.0
+cant go	1.0
+on much	1.0
+much longer	1.0
+longer and	1.0
+need medical	1.0
+medical attention	1.0
+attention let	1.0
+alone getting	1.0
+getting any	1.0
+i cant go	1.0
+cant go on	1.0
+go on much	1.0
+on much longer	1.0
+much longer and	1.0
+longer and i	1.0
+way of finding	1.0
+of finding out	1.0
+finding out if	1.0
+if i need	1.0
+i need medical	1.0
+need medical attention	1.0
+medical attention let	1.0
+attention let alone	1.0
+let alone getting	1.0
+alone getting any	1.0
+feel like i cant	1.0
+like i cant go	1.0
+i cant go on	1.0
+cant go on much	1.0
+go on much longer	1.0
+on much longer and	1.0
+much longer and i	1.0
+longer and i have	1.0
+no way of finding	1.0
+way of finding out	1.0
+of finding out if	1.0
+finding out if i	1.0
+out if i need	1.0
+if i need medical	1.0
+i need medical attention	1.0
+need medical attention let	1.0
+medical attention let alone	1.0
+attention let alone getting	1.0
+let alone getting any	1.0
+teenager so	1.0
+so maybe	1.0
+in way	1.0
+way over	1.0
+am reaching	1.0
+reaching soon	1.0
+will let	1.0
+let this	1.0
+this part	1.0
+me consume	1.0
+consume my	1.0
+my being	1.0
+am still a	1.0
+still a teenager	1.0
+a teenager so	1.0
+teenager so maybe	1.0
+so maybe i	1.0
+am in way	1.0
+in way over	1.0
+way over my	1.0
+i am reaching	1.0
+am reaching soon	1.0
+reaching soon and	1.0
+soon and i	1.0
+i fear i	1.0
+fear i will	1.0
+i will let	1.0
+will let this	1.0
+let this part	1.0
+this part of	1.0
+of me consume	1.0
+me consume my	1.0
+consume my being	1.0
+i am still a	1.0
+am still a teenager	1.0
+still a teenager so	1.0
+a teenager so maybe	1.0
+teenager so maybe i	1.0
+so maybe i am	1.0
+i am in way	1.0
+am in way over	1.0
+in way over my	1.0
+way over my head	1.0
+over my head but	1.0
+head but i am	1.0
+but i am reaching	1.0
+i am reaching soon	1.0
+am reaching soon and	1.0
+reaching soon and i	1.0
+soon and i fear	1.0
+and i fear i	1.0
+i fear i will	1.0
+fear i will let	1.0
+i will let this	1.0
+will let this part	1.0
+let this part of	1.0
+this part of me	1.0
+part of me consume	1.0
+of me consume my	1.0
+me consume my being	1.0
+stuck between	1.0
+whole future	1.0
+future with	1.0
+i’m stuck between	1.0
+stuck between my	1.0
+and at this	1.0
+this point i	1.0
+point i choose	1.0
+i choose him	1.0
+choose him over	1.0
+him over them	1.0
+over them because	1.0
+because i see	1.0
+i see my	1.0
+see my whole	1.0
+my whole future	1.0
+whole future with	1.0
+future with him	1.0
+i’m stuck between my	1.0
+stuck between my family	1.0
+my boyfriend and at	1.0
+boyfriend and at this	1.0
+and at this point	1.0
+at this point i	1.0
+this point i choose	1.0
+point i choose him	1.0
+i choose him over	1.0
+choose him over them	1.0
+him over them because	1.0
+over them because i	1.0
+them because i see	1.0
+because i see my	1.0
+i see my whole	1.0
+see my whole future	1.0
+my whole future with	1.0
+whole future with him	1.0
+moron	1.0
+say you	1.0
+a moron	1.0
+moron which	1.0
+he usually	1.0
+usually does	1.0
+help on	1.0
+as though my	1.0
+though my dad	1.0
+dad would just	1.0
+would just laugh	1.0
+just laugh at	1.0
+laugh at me	1.0
+me and say	1.0
+and say you	1.0
+say you are	1.0
+are a moron	1.0
+a moron which	1.0
+moron which is	1.0
+which is what	1.0
+is what he	1.0
+what he usually	1.0
+he usually does	1.0
+usually does when	1.0
+i ask him	1.0
+ask him for	1.0
+him for help	1.0
+for help on	1.0
+help on other	1.0
+on other things	1.0
+feel as though my	1.0
+as though my dad	1.0
+though my dad would	1.0
+my dad would just	1.0
+dad would just laugh	1.0
+would just laugh at	1.0
+just laugh at me	1.0
+laugh at me and	1.0
+at me and say	1.0
+me and say you	1.0
+and say you are	1.0
+say you are a	1.0
+you are a moron	1.0
+are a moron which	1.0
+a moron which is	1.0
+moron which is what	1.0
+which is what he	1.0
+is what he usually	1.0
+what he usually does	1.0
+he usually does when	1.0
+usually does when i	1.0
+does when i ask	1.0
+when i ask him	1.0
+i ask him for	1.0
+ask him for help	1.0
+him for help on	1.0
+for help on other	1.0
+help on other things	1.0
+lie a	1.0
+moment they	1.0
+they knew	1.0
+am they’ll	1.0
+they’ll leave	1.0
+up ruining	1.0
+ruining things	1.0
+many thoughts	1.0
+lie a lot	1.0
+lot and people	1.0
+and people believe	1.0
+people believe me	1.0
+believe me all	1.0
+time i always	1.0
+like the moment	1.0
+the moment they	1.0
+moment they knew	1.0
+they knew me	1.0
+knew me for	1.0
+i am they’ll	1.0
+am they’ll leave	1.0
+they’ll leave me	1.0
+leave me i	1.0
+end up ruining	1.0
+up ruining things	1.0
+ruining things there	1.0
+things there is	1.0
+there is just	1.0
+is just too	1.0
+just too many	1.0
+too many thoughts	1.0
+many thoughts in	1.0
+mind that sometimes	1.0
+lie a lot and	1.0
+a lot and people	1.0
+lot and people believe	1.0
+and people believe me	1.0
+people believe me all	1.0
+believe me all the	1.0
+the time i always	1.0
+time i always feel	1.0
+always feel like the	1.0
+feel like the moment	1.0
+like the moment they	1.0
+the moment they knew	1.0
+moment they knew me	1.0
+they knew me for	1.0
+knew me for who	1.0
+who i am they’ll	1.0
+i am they’ll leave	1.0
+am they’ll leave me	1.0
+they’ll leave me i	1.0
+leave me i always	1.0
+me i always end	1.0
+always end up ruining	1.0
+end up ruining things	1.0
+up ruining things there	1.0
+ruining things there is	1.0
+things there is just	1.0
+there is just too	1.0
+is just too many	1.0
+just too many thoughts	1.0
+too many thoughts in	1.0
+many thoughts in my	1.0
+thoughts in my mind	1.0
+in my mind that	1.0
+my mind that sometimes	1.0
+mind that sometimes i	1.0
+that sometimes i get	1.0
+sometimes i get tired	1.0
+i get tired of	1.0
+get tired of it	1.0
+sever	1.0
+ideal	1.0
+have sever	1.0
+sever bi	1.0
+polar disorder	1.0
+not ideal	1.0
+ideal for	1.0
+i have sever	1.0
+have sever bi	1.0
+sever bi polar	1.0
+bi polar disorder	1.0
+polar disorder and	1.0
+disorder and it	1.0
+is not ideal	1.0
+not ideal for	1.0
+ideal for me	1.0
+me to work	1.0
+work and be	1.0
+and be around	1.0
+around people in	1.0
+people in fear	1.0
+in fear i	1.0
+fear i may	1.0
+may be so	1.0
+be so upset	1.0
+so upset i	1.0
+upset i will	1.0
+i will hurt	1.0
+will hurt them	1.0
+i have sever bi	1.0
+have sever bi polar	1.0
+sever bi polar disorder	1.0
+bi polar disorder and	1.0
+polar disorder and it	1.0
+disorder and it is	1.0
+and it is not	1.0
+it is not ideal	1.0
+is not ideal for	1.0
+not ideal for me	1.0
+ideal for me to	1.0
+for me to work	1.0
+me to work and	1.0
+to work and be	1.0
+work and be around	1.0
+and be around people	1.0
+be around people in	1.0
+around people in fear	1.0
+people in fear i	1.0
+in fear i may	1.0
+fear i may be	1.0
+i may be so	1.0
+may be so upset	1.0
+be so upset i	1.0
+so upset i will	1.0
+upset i will hurt	1.0
+i will hurt them	1.0
+doctor but	1.0
+scared i’m	1.0
+tell my doctor	1.0
+my doctor but	1.0
+doctor but i	1.0
+so scared i’m	1.0
+scared i’m so	1.0
+scared to go	1.0
+to the person	1.0
+was and i’m	1.0
+person i am	1.0
+i want to tell	1.0
+want to tell my	1.0
+to tell my doctor	1.0
+tell my doctor but	1.0
+my doctor but i	1.0
+doctor but i am	1.0
+but i am so	1.0
+am so scared i’m	1.0
+so scared i’m so	1.0
+scared i’m so scared	1.0
+i’m so scared to	1.0
+so scared to go	1.0
+scared to go back	1.0
+go back to the	1.0
+back to the person	1.0
+to the person i	1.0
+the person i was	1.0
+person i was and	1.0
+i was and i’m	1.0
+was and i’m scared	1.0
+and i’m scared of	1.0
+scared of the person	1.0
+of the person i	1.0
+the person i am	1.0
+person i am currently	1.0
+skip	1.0
+had three	1.0
+three sessions	1.0
+sessions of	1.0
+of psychotherapy	1.0
+psychotherapy and	1.0
+much money	1.0
+to skip	1.0
+skip appointments	1.0
+appointments so	1.0
+can pay	1.0
+pay my	1.0
+my bills	1.0
+bills and	1.0
+but i’ve only	1.0
+i’ve only had	1.0
+only had three	1.0
+had three sessions	1.0
+three sessions of	1.0
+sessions of psychotherapy	1.0
+of psychotherapy and	1.0
+psychotherapy and i	1.0
+don’t have all	1.0
+have all that	1.0
+all that much	1.0
+that much money	1.0
+much money so	1.0
+money so i’m	1.0
+so i’m worried	1.0
+have to skip	1.0
+to skip appointments	1.0
+skip appointments so	1.0
+appointments so i	1.0
+i can pay	1.0
+can pay my	1.0
+pay my bills	1.0
+my bills and	1.0
+bills and such	1.0
+but i’ve only had	1.0
+i’ve only had three	1.0
+only had three sessions	1.0
+had three sessions of	1.0
+three sessions of psychotherapy	1.0
+sessions of psychotherapy and	1.0
+of psychotherapy and i	1.0
+psychotherapy and i don’t	1.0
+i don’t have all	1.0
+don’t have all that	1.0
+have all that much	1.0
+all that much money	1.0
+that much money so	1.0
+much money so i’m	1.0
+money so i’m worried	1.0
+so i’m worried that	1.0
+worried that i have	1.0
+i have to skip	1.0
+have to skip appointments	1.0
+to skip appointments so	1.0
+skip appointments so i	1.0
+appointments so i can	1.0
+so i can pay	1.0
+i can pay my	1.0
+can pay my bills	1.0
+pay my bills and	1.0
+my bills and such	1.0
+encouraging	1.0
+panic disorder	1.0
+that encouraging	1.0
+encouraging her	1.0
+help will	1.0
+think my friend	1.0
+friend has depression	1.0
+depression and a	1.0
+and a panic	1.0
+a panic disorder	1.0
+panic disorder i	1.0
+disorder i fear	1.0
+fear that encouraging	1.0
+that encouraging her	1.0
+encouraging her to	1.0
+her to seek	1.0
+seek help will	1.0
+help will push	1.0
+push her away	1.0
+i think my friend	1.0
+think my friend has	1.0
+my friend has depression	1.0
+friend has depression and	1.0
+has depression and a	1.0
+depression and a panic	1.0
+and a panic disorder	1.0
+a panic disorder i	1.0
+panic disorder i fear	1.0
+disorder i fear that	1.0
+i fear that encouraging	1.0
+fear that encouraging her	1.0
+that encouraging her to	1.0
+encouraging her to seek	1.0
+her to seek help	1.0
+to seek help will	1.0
+seek help will push	1.0
+help will push her	1.0
+will push her away	1.0
+be free	1.0
+feel like i’ll	1.0
+like i’ll never	1.0
+never be free	1.0
+be free of	1.0
+free of them	1.0
+i feel like i’ll	1.0
+feel like i’ll never	1.0
+like i’ll never be	1.0
+i’ll never be free	1.0
+never be free of	1.0
+be free of them	1.0
+think he’ll	1.0
+he’ll leave	1.0
+some pretty	1.0
+pretty girl	1.0
+girl he’ll	1.0
+he’ll meet	1.0
+always think he’ll	1.0
+think he’ll leave	1.0
+he’ll leave me	1.0
+leave me for	1.0
+for some pretty	1.0
+some pretty girl	1.0
+pretty girl he’ll	1.0
+girl he’ll meet	1.0
+i always think he’ll	1.0
+always think he’ll leave	1.0
+think he’ll leave me	1.0
+he’ll leave me for	1.0
+leave me for some	1.0
+me for some pretty	1.0
+for some pretty girl	1.0
+some pretty girl he’ll	1.0
+pretty girl he’ll meet	1.0
+dealer	1.0
+rip	1.0
+’ m	1.0
+boyfriend after	1.0
+insecure with	1.0
+stopped smoking	1.0
+pot as	1.0
+a dealer	1.0
+dealer and	1.0
+he wood	1.0
+wood rip	1.0
+rip people	1.0
+off now	1.0
+i’ve left	1.0
+now living	1.0
+her again	1.0
+can’t socialize	1.0
+getting my	1.0
+and starting	1.0
+from scratch	1.0
+scratch i	1.0
+get new	1.0
+in saying	1.0
+saying the	1.0
+wrong thing	1.0
+’ m and	1.0
+m and just	1.0
+and just left	1.0
+just left my	1.0
+left my boyfriend	1.0
+my boyfriend after	1.0
+boyfriend after years	1.0
+had any other	1.0
+other friends i	1.0
+friends i find	1.0
+make friends i	1.0
+child and now	1.0
+and now in	1.0
+now in very	1.0
+in very insecure	1.0
+very insecure with	1.0
+insecure with myself	1.0
+with myself i’ve	1.0
+myself i’ve just	1.0
+i’ve just stopped	1.0
+just stopped smoking	1.0
+stopped smoking pot	1.0
+smoking pot as	1.0
+pot as well	1.0
+well as he	1.0
+was a dealer	1.0
+a dealer and	1.0
+dealer and lived	1.0
+and lived with	1.0
+lived with paranoia	1.0
+with paranoia as	1.0
+paranoia as he	1.0
+as he wood	1.0
+he wood rip	1.0
+wood rip people	1.0
+rip people off	1.0
+people off now	1.0
+off now i’ve	1.0
+now i’ve left	1.0
+i’ve left him	1.0
+left him and	1.0
+him and now	1.0
+and now living	1.0
+now living with	1.0
+daughter and in	1.0
+and in getting	1.0
+in getting to	1.0
+to know her	1.0
+know her again	1.0
+her again but	1.0
+again but i	1.0
+still feel i	1.0
+i can’t socialize	1.0
+can’t socialize with	1.0
+socialize with other	1.0
+other people in	1.0
+people in getting	1.0
+in getting my	1.0
+getting my own	1.0
+my own place	1.0
+place and starting	1.0
+and starting from	1.0
+starting from scratch	1.0
+from scratch i	1.0
+scratch i don’t	1.0
+to get new	1.0
+get new friends	1.0
+new friends or	1.0
+friends or in	1.0
+or in saying	1.0
+in saying the	1.0
+saying the wrong	1.0
+the wrong thing	1.0
+’ m and just	1.0
+m and just left	1.0
+and just left my	1.0
+just left my boyfriend	1.0
+left my boyfriend after	1.0
+my boyfriend after years	1.0
+boyfriend after years and	1.0
+after years and i	1.0
+years and i never	1.0
+and i never had	1.0
+i never had any	1.0
+never had any other	1.0
+had any other friends	1.0
+any other friends i	1.0
+other friends i find	1.0
+friends i find it	1.0
+i find it hard	1.0
+it hard to make	1.0
+to make friends i	1.0
+make friends i was	1.0
+friends i was abused	1.0
+a child and now	1.0
+child and now in	1.0
+and now in very	1.0
+now in very insecure	1.0
+in very insecure with	1.0
+very insecure with myself	1.0
+insecure with myself i’ve	1.0
+with myself i’ve just	1.0
+myself i’ve just stopped	1.0
+i’ve just stopped smoking	1.0
+just stopped smoking pot	1.0
+stopped smoking pot as	1.0
+smoking pot as well	1.0
+pot as well as	1.0
+as well as he	1.0
+well as he was	1.0
+as he was a	1.0
+he was a dealer	1.0
+was a dealer and	1.0
+a dealer and lived	1.0
+dealer and lived with	1.0
+and lived with paranoia	1.0
+lived with paranoia as	1.0
+with paranoia as he	1.0
+paranoia as he wood	1.0
+as he wood rip	1.0
+he wood rip people	1.0
+wood rip people off	1.0
+rip people off now	1.0
+people off now i’ve	1.0
+off now i’ve left	1.0
+now i’ve left him	1.0
+i’ve left him and	1.0
+left him and now	1.0
+him and now living	1.0
+and now living with	1.0
+now living with my	1.0
+living with my daughter	1.0
+with my daughter and	1.0
+my daughter and in	1.0
+daughter and in getting	1.0
+and in getting to	1.0
+in getting to know	1.0
+getting to know her	1.0
+to know her again	1.0
+know her again but	1.0
+her again but i	1.0
+again but i still	1.0
+but i still feel	1.0
+i still feel i	1.0
+still feel i can’t	1.0
+feel i can’t socialize	1.0
+i can’t socialize with	1.0
+can’t socialize with other	1.0
+socialize with other people	1.0
+with other people in	1.0
+other people in getting	1.0
+people in getting my	1.0
+in getting my own	1.0
+getting my own place	1.0
+my own place and	1.0
+own place and starting	1.0
+place and starting from	1.0
+and starting from scratch	1.0
+starting from scratch i	1.0
+from scratch i don’t	1.0
+scratch i don’t know	1.0
+how to get new	1.0
+to get new friends	1.0
+get new friends or	1.0
+new friends or in	1.0
+friends or in saying	1.0
+or in saying the	1.0
+in saying the wrong	1.0
+saying the wrong thing	1.0
+am never	1.0
+experience this	1.0
+am so afraid	1.0
+so afraid i	1.0
+afraid i am	1.0
+i am never	1.0
+am never going	1.0
+opportunity to experience	1.0
+to experience this	1.0
+because i am so	1.0
+i am so afraid	1.0
+am so afraid i	1.0
+so afraid i am	1.0
+afraid i am never	1.0
+i am never going	1.0
+am never going to	1.0
+to have the opportunity	1.0
+the opportunity to experience	1.0
+opportunity to experience this	1.0
+will fully	1.0
+fully isolate	1.0
+isolate himself	1.0
+himself if	1.0
+also see	1.0
+i’m really worried	1.0
+he will fully	1.0
+will fully isolate	1.0
+fully isolate himself	1.0
+isolate himself if	1.0
+himself if he	1.0
+if he does	1.0
+he does that	1.0
+does that but	1.0
+but i could	1.0
+could also see	1.0
+also see how	1.0
+see how it	1.0
+how it would	1.0
+would be good	1.0
+be good for	1.0
+good for him	1.0
+i’m really worried that	1.0
+really worried that he	1.0
+worried that he will	1.0
+that he will fully	1.0
+he will fully isolate	1.0
+will fully isolate himself	1.0
+fully isolate himself if	1.0
+isolate himself if he	1.0
+himself if he does	1.0
+if he does that	1.0
+he does that but	1.0
+does that but i	1.0
+that but i could	1.0
+but i could also	1.0
+i could also see	1.0
+could also see how	1.0
+also see how it	1.0
+see how it would	1.0
+how it would be	1.0
+it would be good	1.0
+would be good for	1.0
+be good for him	1.0
+can control	1.0
+myself now	1.0
+for ever	1.0
+i can control	1.0
+can control myself	1.0
+control myself now	1.0
+myself now but	1.0
+think i will	1.0
+will be able	1.0
+able to for	1.0
+to for ever	1.0
+i can control myself	1.0
+can control myself now	1.0
+control myself now but	1.0
+myself now but i	1.0
+now but i don’t	1.0
+don’t think i will	1.0
+think i will be	1.0
+i will be able	1.0
+will be able to	1.0
+be able to for	1.0
+able to for ever	1.0
+and ignoring	1.0
+problem feels	1.0
+and ignoring the	1.0
+ignoring the problem	1.0
+the problem feels	1.0
+problem feels like	1.0
+feels like it	1.0
+like it could	1.0
+it could only	1.0
+could only make	1.0
+only make things	1.0
+make things worse	1.0
+and ignoring the problem	1.0
+ignoring the problem feels	1.0
+the problem feels like	1.0
+problem feels like it	1.0
+feels like it could	1.0
+like it could only	1.0
+it could only make	1.0
+could only make things	1.0
+only make things worse	1.0
+portion	1.0
+finally decided	1.0
+close a	1.0
+a portion	1.0
+portion of	1.0
+not beat	1.0
+beat it	1.0
+didn’t close	1.0
+close off	1.0
+have killed	1.0
+killed myself	1.0
+i finally decided	1.0
+finally decided to	1.0
+decided to close	1.0
+to close a	1.0
+close a portion	1.0
+a portion of	1.0
+portion of myself	1.0
+of myself because	1.0
+felt i could	1.0
+could not beat	1.0
+not beat it	1.0
+beat it and	1.0
+it and if	1.0
+i didn’t close	1.0
+didn’t close off	1.0
+close off my	1.0
+emotions i would	1.0
+would have killed	1.0
+have killed myself	1.0
+i finally decided to	1.0
+finally decided to close	1.0
+decided to close a	1.0
+to close a portion	1.0
+close a portion of	1.0
+a portion of myself	1.0
+portion of myself because	1.0
+of myself because i	1.0
+myself because i felt	1.0
+because i felt i	1.0
+i felt i could	1.0
+felt i could not	1.0
+i could not beat	1.0
+could not beat it	1.0
+not beat it and	1.0
+beat it and if	1.0
+it and if i	1.0
+and if i didn’t	1.0
+if i didn’t close	1.0
+i didn’t close off	1.0
+didn’t close off my	1.0
+close off my emotions	1.0
+off my emotions i	1.0
+my emotions i would	1.0
+emotions i would have	1.0
+i would have killed	1.0
+would have killed myself	1.0
+asking them	1.0
+knew they	1.0
+not tell them	1.0
+tell them because	1.0
+was just seeing	1.0
+just seeing him	1.0
+seeing him and	1.0
+him and not	1.0
+and not asking	1.0
+not asking them	1.0
+asking them to	1.0
+them to engage	1.0
+in any form	1.0
+form of relationship	1.0
+of relationship because	1.0
+because i knew	1.0
+i knew they	1.0
+knew they would	1.0
+they would not	1.0
+would not want	1.0
+i did not tell	1.0
+did not tell them	1.0
+not tell them because	1.0
+tell them because i	1.0
+them because i was	1.0
+because i was just	1.0
+i was just seeing	1.0
+was just seeing him	1.0
+just seeing him and	1.0
+seeing him and not	1.0
+him and not asking	1.0
+and not asking them	1.0
+not asking them to	1.0
+asking them to engage	1.0
+them to engage in	1.0
+to engage in any	1.0
+engage in any form	1.0
+in any form of	1.0
+any form of relationship	1.0
+form of relationship because	1.0
+of relationship because i	1.0
+relationship because i knew	1.0
+because i knew they	1.0
+i knew they would	1.0
+knew they would not	1.0
+they would not want	1.0
+would not want to	1.0
+cries	1.0
+dump	1.0
+means breaking	1.0
+me that’s	1.0
+that breaking	1.0
+up will	1.0
+any happier	1.0
+happier because	1.0
+he cries	1.0
+cries at	1.0
+hasn’t made	1.0
+made any	1.0
+any motion	1.0
+motion to	1.0
+to dump	1.0
+dump me	1.0
+i want him	1.0
+be happy and	1.0
+happy and if	1.0
+and if that	1.0
+if that means	1.0
+that means breaking	1.0
+means breaking up	1.0
+with me that’s	1.0
+me that’s fine	1.0
+fine but i	1.0
+think that breaking	1.0
+that breaking up	1.0
+breaking up will	1.0
+up will make	1.0
+make him any	1.0
+him any happier	1.0
+any happier because	1.0
+happier because he	1.0
+because he cries	1.0
+he cries at	1.0
+cries at the	1.0
+at the thought	1.0
+it and hasn’t	1.0
+and hasn’t made	1.0
+hasn’t made any	1.0
+made any motion	1.0
+any motion to	1.0
+motion to dump	1.0
+to dump me	1.0
+dump me yet	1.0
+i want him to	1.0
+him to be happy	1.0
+to be happy and	1.0
+be happy and if	1.0
+happy and if that	1.0
+and if that means	1.0
+if that means breaking	1.0
+that means breaking up	1.0
+means breaking up with	1.0
+breaking up with me	1.0
+up with me that’s	1.0
+with me that’s fine	1.0
+me that’s fine but	1.0
+that’s fine but i	1.0
+fine but i don’t	1.0
+don’t think that breaking	1.0
+think that breaking up	1.0
+that breaking up will	1.0
+breaking up will make	1.0
+up will make him	1.0
+will make him any	1.0
+make him any happier	1.0
+him any happier because	1.0
+any happier because he	1.0
+happier because he cries	1.0
+because he cries at	1.0
+he cries at the	1.0
+cries at the thought	1.0
+at the thought of	1.0
+the thought of it	1.0
+thought of it and	1.0
+of it and hasn’t	1.0
+it and hasn’t made	1.0
+and hasn’t made any	1.0
+hasn’t made any motion	1.0
+made any motion to	1.0
+any motion to dump	1.0
+motion to dump me	1.0
+to dump me yet	1.0
+loops	1.0
+leading	1.0
+mother alone	1.0
+had loops	1.0
+loops of	1.0
+all leading	1.0
+leading up	1.0
+will love	1.0
+try really	1.0
+maintain their	1.0
+their love	1.0
+since i lived	1.0
+my mother alone	1.0
+mother alone i	1.0
+have had loops	1.0
+had loops of	1.0
+loops of everything	1.0
+of everything she	1.0
+everything she used	1.0
+used to tell	1.0
+growing up all	1.0
+up all leading	1.0
+all leading up	1.0
+leading up to	1.0
+up to no	1.0
+one will love	1.0
+will love me	1.0
+love me if	1.0
+i don’t try	1.0
+don’t try really	1.0
+try really really	1.0
+really really hard	1.0
+hard to maintain	1.0
+to maintain their	1.0
+maintain their love	1.0
+since i lived with	1.0
+i lived with my	1.0
+lived with my mother	1.0
+with my mother alone	1.0
+my mother alone i	1.0
+mother alone i have	1.0
+alone i have had	1.0
+i have had loops	1.0
+have had loops of	1.0
+had loops of everything	1.0
+loops of everything she	1.0
+of everything she used	1.0
+everything she used to	1.0
+she used to tell	1.0
+used to tell me	1.0
+to tell me i	1.0
+tell me i was	1.0
+me i was growing	1.0
+was growing up all	1.0
+growing up all leading	1.0
+up all leading up	1.0
+all leading up to	1.0
+leading up to no	1.0
+up to no one	1.0
+to no one will	1.0
+no one will love	1.0
+one will love me	1.0
+will love me if	1.0
+love me if i	1.0
+me if i don’t	1.0
+if i don’t try	1.0
+i don’t try really	1.0
+don’t try really really	1.0
+try really really hard	1.0
+really really hard to	1.0
+really hard to maintain	1.0
+hard to maintain their	1.0
+to maintain their love	1.0
+cursed	1.0
+am cursed	1.0
+cursed for	1.0
+i am cursed	1.0
+am cursed for	1.0
+cursed for life	1.0
+like i am cursed	1.0
+i am cursed for	1.0
+am cursed for life	1.0
+brake	1.0
+am fat	1.0
+of worst	1.0
+case scenarios	1.0
+scenarios for	1.0
+example my	1.0
+husband will	1.0
+leave to	1.0
+i’ll worry	1.0
+worry that	1.0
+that he’ll	1.0
+in car	1.0
+accident i	1.0
+worry a	1.0
+lot that	1.0
+children will	1.0
+will hate	1.0
+older when	1.0
+when ever	1.0
+ever someone	1.0
+someone asks	1.0
+always negative	1.0
+negative i	1.0
+it anything	1.0
+anything will	1.0
+will set	1.0
+off such	1.0
+repeat myself	1.0
+myself will	1.0
+me extremely	1.0
+extremely upset	1.0
+asleep at	1.0
+night because	1.0
+afraid someone	1.0
+will brake	1.0
+brake in	1.0
+i’m sleeping	1.0
+sleeping i	1.0
+situation over	1.0
+over in	1.0
+self constantly	1.0
+constantly to	1.0
+upset mostly	1.0
+mostly thinking	1.0
+looked like	1.0
+an idiot	1.0
+i am fat	1.0
+am fat i	1.0
+fat i always	1.0
+always think of	1.0
+think of worst	1.0
+of worst case	1.0
+worst case scenarios	1.0
+case scenarios for	1.0
+scenarios for example	1.0
+for example my	1.0
+example my husband	1.0
+my husband will	1.0
+husband will leave	1.0
+will leave to	1.0
+leave to go	1.0
+store and i’ll	1.0
+and i’ll worry	1.0
+i’ll worry that	1.0
+worry that he’ll	1.0
+that he’ll get	1.0
+he’ll get in	1.0
+get in car	1.0
+in car accident	1.0
+car accident i	1.0
+accident i worry	1.0
+i worry a	1.0
+worry a lot	1.0
+a lot that	1.0
+lot that my	1.0
+my children will	1.0
+children will hate	1.0
+will hate me	1.0
+hate me when	1.0
+me when their	1.0
+when their older	1.0
+their older when	1.0
+older when ever	1.0
+when ever someone	1.0
+ever someone asks	1.0
+someone asks me	1.0
+asks me for	1.0
+me for advice	1.0
+for advice i	1.0
+advice i am	1.0
+am always negative	1.0
+always negative i	1.0
+negative i get	1.0
+get angry over	1.0
+angry over nothing	1.0
+over nothing i	1.0
+nothing i hate	1.0
+hate it anything	1.0
+it anything will	1.0
+anything will set	1.0
+will set me	1.0
+me off such	1.0
+off such as	1.0
+such as just	1.0
+as just having	1.0
+just having to	1.0
+having to repeat	1.0
+to repeat myself	1.0
+repeat myself will	1.0
+myself will make	1.0
+will make me	1.0
+make me extremely	1.0
+me extremely upset	1.0
+extremely upset i	1.0
+upset i have	1.0
+falling asleep at	1.0
+asleep at night	1.0
+at night because	1.0
+night because i	1.0
+am afraid someone	1.0
+afraid someone will	1.0
+someone will brake	1.0
+will brake in	1.0
+brake in and	1.0
+in and kill	1.0
+kill me while	1.0
+me while i’m	1.0
+while i’m sleeping	1.0
+i’m sleeping i	1.0
+sleeping i will	1.0
+i will think	1.0
+will think about	1.0
+about a situation	1.0
+a situation over	1.0
+situation over and	1.0
+and over in	1.0
+over in my	1.0
+head and i	1.0
+have to tell	1.0
+tell my self	1.0
+my self constantly	1.0
+self constantly to	1.0
+constantly to stop	1.0
+to stop thinking	1.0
+so upset mostly	1.0
+upset mostly thinking	1.0
+mostly thinking that	1.0
+that i looked	1.0
+i looked like	1.0
+looked like an	1.0
+like an idiot	1.0
+like i am fat	1.0
+i am fat i	1.0
+am fat i always	1.0
+fat i always think	1.0
+i always think of	1.0
+always think of worst	1.0
+think of worst case	1.0
+of worst case scenarios	1.0
+worst case scenarios for	1.0
+case scenarios for example	1.0
+scenarios for example my	1.0
+for example my husband	1.0
+example my husband will	1.0
+my husband will leave	1.0
+husband will leave to	1.0
+will leave to go	1.0
+leave to go to	1.0
+go to the store	1.0
+to the store and	1.0
+the store and i’ll	1.0
+store and i’ll worry	1.0
+and i’ll worry that	1.0
+i’ll worry that he’ll	1.0
+worry that he’ll get	1.0
+that he’ll get in	1.0
+he’ll get in car	1.0
+get in car accident	1.0
+in car accident i	1.0
+car accident i worry	1.0
+accident i worry a	1.0
+i worry a lot	1.0
+worry a lot that	1.0
+a lot that my	1.0
+lot that my children	1.0
+that my children will	1.0
+my children will hate	1.0
+children will hate me	1.0
+will hate me when	1.0
+hate me when their	1.0
+me when their older	1.0
+when their older when	1.0
+their older when ever	1.0
+older when ever someone	1.0
+when ever someone asks	1.0
+ever someone asks me	1.0
+someone asks me for	1.0
+asks me for advice	1.0
+me for advice i	1.0
+for advice i am	1.0
+advice i am always	1.0
+i am always negative	1.0
+am always negative i	1.0
+always negative i get	1.0
+negative i get angry	1.0
+i get angry over	1.0
+get angry over nothing	1.0
+angry over nothing i	1.0
+over nothing i hate	1.0
+nothing i hate it	1.0
+i hate it anything	1.0
+hate it anything will	1.0
+it anything will set	1.0
+anything will set me	1.0
+will set me off	1.0
+set me off such	1.0
+me off such as	1.0
+off such as just	1.0
+such as just having	1.0
+as just having to	1.0
+just having to repeat	1.0
+having to repeat myself	1.0
+to repeat myself will	1.0
+repeat myself will make	1.0
+myself will make me	1.0
+will make me extremely	1.0
+make me extremely upset	1.0
+me extremely upset i	1.0
+extremely upset i have	1.0
+upset i have a	1.0
+time falling asleep at	1.0
+falling asleep at night	1.0
+asleep at night because	1.0
+at night because i	1.0
+night because i am	1.0
+because i am afraid	1.0
+i am afraid someone	1.0
+am afraid someone will	1.0
+afraid someone will brake	1.0
+someone will brake in	1.0
+will brake in and	1.0
+brake in and kill	1.0
+in and kill me	1.0
+and kill me while	1.0
+kill me while i’m	1.0
+me while i’m sleeping	1.0
+while i’m sleeping i	1.0
+i’m sleeping i will	1.0
+sleeping i will think	1.0
+i will think about	1.0
+will think about a	1.0
+think about a situation	1.0
+about a situation over	1.0
+a situation over and	1.0
+situation over and over	1.0
+over and over in	1.0
+and over in my	1.0
+over in my head	1.0
+my head and i	1.0
+head and i have	1.0
+and i have to	1.0
+i have to tell	1.0
+have to tell my	1.0
+to tell my self	1.0
+tell my self constantly	1.0
+my self constantly to	1.0
+self constantly to stop	1.0
+constantly to stop thinking	1.0
+to stop thinking about	1.0
+thinking about it because	1.0
+it because i get	1.0
+because i get so	1.0
+i get so upset	1.0
+get so upset mostly	1.0
+so upset mostly thinking	1.0
+upset mostly thinking that	1.0
+mostly thinking that i	1.0
+thinking that i looked	1.0
+that i looked like	1.0
+i looked like an	1.0
+looked like an idiot	1.0
+lets	1.0
+irreversible	1.0
+loves but	1.0
+he’s afraid	1.0
+he lets	1.0
+lets out	1.0
+emotions the	1.0
+take over	1.0
+will snap	1.0
+short time	1.0
+something irreversible	1.0
+no one he	1.0
+one he loves	1.0
+he loves but	1.0
+loves but he’s	1.0
+but he’s afraid	1.0
+he’s afraid that	1.0
+if he lets	1.0
+he lets out	1.0
+lets out his	1.0
+out his emotions	1.0
+his emotions the	1.0
+emotions the thing	1.0
+the thing will	1.0
+thing will take	1.0
+will take over	1.0
+take over and	1.0
+and he will	1.0
+he will snap	1.0
+will snap one	1.0
+one day for	1.0
+day for a	1.0
+a short time	1.0
+short time and	1.0
+time and do	1.0
+and do something	1.0
+do something irreversible	1.0
+no one he loves	1.0
+one he loves but	1.0
+he loves but he’s	1.0
+loves but he’s afraid	1.0
+but he’s afraid that	1.0
+he’s afraid that if	1.0
+afraid that if he	1.0
+that if he lets	1.0
+if he lets out	1.0
+he lets out his	1.0
+lets out his emotions	1.0
+out his emotions the	1.0
+his emotions the thing	1.0
+emotions the thing will	1.0
+the thing will take	1.0
+thing will take over	1.0
+will take over and	1.0
+take over and he	1.0
+over and he will	1.0
+and he will snap	1.0
+he will snap one	1.0
+will snap one day	1.0
+snap one day for	1.0
+one day for a	1.0
+day for a short	1.0
+for a short time	1.0
+a short time and	1.0
+short time and do	1.0
+time and do something	1.0
+and do something irreversible	1.0
+socialization	1.0
+acquaintances	1.0
+discard	1.0
+that struggles	1.0
+struggles a	1.0
+lot when	1.0
+to socialization	1.0
+socialization i’m	1.0
+of making	1.0
+making new	1.0
+or acquaintances	1.0
+acquaintances out	1.0
+fear they’ll	1.0
+just use	1.0
+use me	1.0
+and discard	1.0
+discard me	1.0
+not useful	1.0
+useful anymore	1.0
+person that struggles	1.0
+that struggles a	1.0
+struggles a lot	1.0
+a lot when	1.0
+lot when it	1.0
+comes to socialization	1.0
+to socialization i’m	1.0
+socialization i’m afraid	1.0
+afraid of making	1.0
+of making new	1.0
+making new friends	1.0
+friends or acquaintances	1.0
+or acquaintances out	1.0
+acquaintances out of	1.0
+of fear they’ll	1.0
+fear they’ll just	1.0
+they’ll just use	1.0
+just use me	1.0
+use me and	1.0
+me and discard	1.0
+and discard me	1.0
+discard me when	1.0
+me when i’m	1.0
+i’m not useful	1.0
+not useful anymore	1.0
+i’m a person that	1.0
+a person that struggles	1.0
+person that struggles a	1.0
+that struggles a lot	1.0
+struggles a lot when	1.0
+a lot when it	1.0
+lot when it comes	1.0
+it comes to socialization	1.0
+comes to socialization i’m	1.0
+to socialization i’m afraid	1.0
+socialization i’m afraid of	1.0
+i’m afraid of making	1.0
+afraid of making new	1.0
+of making new friends	1.0
+making new friends or	1.0
+new friends or acquaintances	1.0
+friends or acquaintances out	1.0
+or acquaintances out of	1.0
+acquaintances out of fear	1.0
+out of fear they’ll	1.0
+of fear they’ll just	1.0
+fear they’ll just use	1.0
+they’ll just use me	1.0
+just use me and	1.0
+use me and discard	1.0
+me and discard me	1.0
+and discard me when	1.0
+discard me when i’m	1.0
+me when i’m not	1.0
+when i’m not useful	1.0
+i’m not useful anymore	1.0
+belonged	1.0
+frivolous	1.0
+uhg	1.0
+i belonged	1.0
+belonged in	1.0
+the value	1.0
+value of	1.0
+the frivolous	1.0
+frivolous uhg	1.0
+never felt i	1.0
+felt i belonged	1.0
+i belonged in	1.0
+belonged in the	1.0
+don’t see the	1.0
+see the value	1.0
+the value of	1.0
+value of any	1.0
+of any of	1.0
+of the frivolous	1.0
+the frivolous uhg	1.0
+entire life i never	1.0
+life i never felt	1.0
+i never felt i	1.0
+never felt i belonged	1.0
+felt i belonged in	1.0
+i belonged in the	1.0
+belonged in the world	1.0
+the world i don’t	1.0
+world i don’t see	1.0
+i don’t see the	1.0
+don’t see the value	1.0
+see the value of	1.0
+the value of any	1.0
+value of any of	1.0
+of any of the	1.0
+any of the frivolous	1.0
+of the frivolous uhg	1.0
+haven't	1.0
+studied	1.0
+fail this	1.0
+i haven't	1.0
+haven't studied	1.0
+studied enough	1.0
+in exams	1.0
+to fail this	1.0
+fail this test	1.0
+this test i	1.0
+test i haven't	1.0
+i haven't studied	1.0
+haven't studied enough	1.0
+studied enough and	1.0
+enough and i	1.0
+i never do	1.0
+never do well	1.0
+well in exams	1.0
+going to fail this	1.0
+to fail this test	1.0
+fail this test i	1.0
+this test i haven't	1.0
+test i haven't studied	1.0
+i haven't studied enough	1.0
+haven't studied enough and	1.0
+studied enough and i	1.0
+enough and i never	1.0
+and i never do	1.0
+i never do well	1.0
+never do well in	1.0
+do well in exams	1.0
+won't know	1.0
+i'll just	1.0
+awkward the	1.0
+party i won't	1.0
+i won't know	1.0
+won't know anyone	1.0
+know anyone and	1.0
+anyone and i'll	1.0
+and i'll just	1.0
+i'll just feel	1.0
+just feel awkward	1.0
+feel awkward the	1.0
+awkward the whole	1.0
+time at the party	1.0
+the party i won't	1.0
+party i won't know	1.0
+i won't know anyone	1.0
+won't know anyone and	1.0
+know anyone and i'll	1.0
+anyone and i'll just	1.0
+and i'll just feel	1.0
+i'll just feel awkward	1.0
+just feel awkward the	1.0
+feel awkward the whole	1.0
+awkward the whole time	1.0
+to embarrass	1.0
+forget everything	1.0
+look incompetent	1.0
+going to embarrass	1.0
+to embarrass myself	1.0
+embarrass myself at	1.0
+myself at the	1.0
+at the meeting	1.0
+meeting i'll forget	1.0
+i'll forget everything	1.0
+forget everything i	1.0
+everything i wanted	1.0
+to say and	1.0
+say and look	1.0
+and look incompetent	1.0
+i'm going to embarrass	1.0
+going to embarrass myself	1.0
+to embarrass myself at	1.0
+embarrass myself at the	1.0
+myself at the meeting	1.0
+at the meeting i'll	1.0
+the meeting i'll forget	1.0
+meeting i'll forget everything	1.0
+i'll forget everything i	1.0
+forget everything i wanted	1.0
+everything i wanted to	1.0
+wanted to say and	1.0
+to say and look	1.0
+say and look incompetent	1.0
+vacation is	1.0
+ruined the	1.0
+the weather	1.0
+weather will	1.0
+terrible and	1.0
+my vacation is	1.0
+vacation is going	1.0
+to be ruined	1.0
+be ruined the	1.0
+ruined the weather	1.0
+the weather will	1.0
+weather will be	1.0
+be terrible and	1.0
+terrible and everything	1.0
+and everything will	1.0
+everything will go	1.0
+my vacation is going	1.0
+vacation is going to	1.0
+going to be ruined	1.0
+to be ruined the	1.0
+be ruined the weather	1.0
+ruined the weather will	1.0
+the weather will be	1.0
+weather will be terrible	1.0
+will be terrible and	1.0
+be terrible and everything	1.0
+terrible and everything will	1.0
+and everything will go	1.0
+everything will go wrong	1.0
+health is	1.0
+improve no	1.0
+do i'll	1.0
+feel sick	1.0
+my health is	1.0
+health is never	1.0
+going to improve	1.0
+to improve no	1.0
+improve no matter	1.0
+i do i'll	1.0
+do i'll always	1.0
+always feel sick	1.0
+my health is never	1.0
+health is never going	1.0
+never going to improve	1.0
+going to improve no	1.0
+to improve no matter	1.0
+improve no matter what	1.0
+what i do i'll	1.0
+i do i'll always	1.0
+do i'll always feel	1.0
+i'll always feel sick	1.0
+review will	1.0
+awful my	1.0
+will point	1.0
+out all	1.0
+performance review will	1.0
+review will be	1.0
+be awful my	1.0
+awful my boss	1.0
+boss will point	1.0
+will point out	1.0
+point out all	1.0
+out all my	1.0
+all my mistakes	1.0
+mistakes and i'll	1.0
+my performance review will	1.0
+performance review will be	1.0
+review will be awful	1.0
+will be awful my	1.0
+be awful my boss	1.0
+awful my boss will	1.0
+my boss will point	1.0
+boss will point out	1.0
+will point out all	1.0
+point out all my	1.0
+out all my mistakes	1.0
+all my mistakes and	1.0
+my mistakes and i'll	1.0
+mistakes and i'll feel	1.0
+and i'll feel humiliated	1.0
+fool of	1.0
+event i'll	1.0
+i'll say	1.0
+will laugh	1.0
+make a fool	1.0
+a fool of	1.0
+fool of myself	1.0
+of myself at	1.0
+the event i'll	1.0
+event i'll say	1.0
+i'll say something	1.0
+say something stupid	1.0
+something stupid and	1.0
+stupid and everyone	1.0
+everyone will laugh	1.0
+will laugh at	1.0
+to make a fool	1.0
+make a fool of	1.0
+a fool of myself	1.0
+fool of myself at	1.0
+of myself at the	1.0
+myself at the event	1.0
+at the event i'll	1.0
+the event i'll say	1.0
+event i'll say something	1.0
+i'll say something stupid	1.0
+say something stupid and	1.0
+something stupid and everyone	1.0
+stupid and everyone will	1.0
+and everyone will laugh	1.0
+everyone will laugh at	1.0
+will laugh at me	1.0
+smoking it's	1.0
+it's too	1.0
+too hard	1.0
+give in	1.0
+able to quit	1.0
+quit smoking it's	1.0
+smoking it's too	1.0
+it's too hard	1.0
+too hard and	1.0
+hard and i'll	1.0
+and i'll always	1.0
+i'll always give	1.0
+always give in	1.0
+be able to quit	1.0
+able to quit smoking	1.0
+to quit smoking it's	1.0
+quit smoking it's too	1.0
+smoking it's too hard	1.0
+it's too hard and	1.0
+too hard and i'll	1.0
+hard and i'll always	1.0
+and i'll always give	1.0
+i'll always give in	1.0
+promotion they'll	1.0
+they'll choose	1.0
+choose someone	1.0
+someone more	1.0
+more qualified	1.0
+qualified than	1.0
+the promotion they'll	1.0
+promotion they'll choose	1.0
+they'll choose someone	1.0
+choose someone more	1.0
+someone more qualified	1.0
+more qualified than	1.0
+qualified than me	1.0
+never get the promotion	1.0
+get the promotion they'll	1.0
+the promotion they'll choose	1.0
+promotion they'll choose someone	1.0
+they'll choose someone more	1.0
+choose someone more qualified	1.0
+someone more qualified than	1.0
+more qualified than me	1.0
+humiliated and everyone	1.0
+presentation will be criticized	1.0
+feel humiliated and everyone	1.0
+humiliated and everyone will	1.0
+project i'll	1.0
+miss something	1.0
+up the project	1.0
+the project i'll	1.0
+project i'll miss	1.0
+i'll miss something	1.0
+miss something important	1.0
+something important and	1.0
+important and it'll	1.0
+it'll be my	1.0
+mess up the project	1.0
+up the project i'll	1.0
+the project i'll miss	1.0
+project i'll miss something	1.0
+i'll miss something important	1.0
+miss something important and	1.0
+something important and it'll	1.0
+important and it'll be	1.0
+and it'll be my	1.0
+it'll be my fault	1.0
+be isolated	1.0
+and unhappy	1.0
+to make any	1.0
+make any friends	1.0
+any friends at	1.0
+at the new	1.0
+the new job	1.0
+new job i'll	1.0
+job i'll be	1.0
+i'll be isolated	1.0
+be isolated and	1.0
+isolated and unhappy	1.0
+able to make any	1.0
+to make any friends	1.0
+make any friends at	1.0
+any friends at the	1.0
+friends at the new	1.0
+at the new job	1.0
+the new job i'll	1.0
+new job i'll be	1.0
+job i'll be isolated	1.0
+i'll be isolated and	1.0
+be isolated and unhappy	1.0
+stupid at	1.0
+party everyone	1.0
+i'm an	1.0
+going to say	1.0
+something stupid at	1.0
+stupid at the	1.0
+the party everyone	1.0
+party everyone will	1.0
+think i'm an	1.0
+i'm an idiot	1.0
+i'm going to say	1.0
+going to say something	1.0
+to say something stupid	1.0
+say something stupid at	1.0
+something stupid at the	1.0
+stupid at the party	1.0
+at the party everyone	1.0
+the party everyone will	1.0
+party everyone will think	1.0
+will think i'm an	1.0
+think i'm an idiot	1.0
+family we'll	1.0
+we'll always	1.0
+able to fix	1.0
+fix my relationship	1.0
+my family we'll	1.0
+family we'll always	1.0
+we'll always have	1.0
+always have problems	1.0
+be able to fix	1.0
+able to fix my	1.0
+to fix my relationship	1.0
+fix my relationship with	1.0
+relationship with my family	1.0
+with my family we'll	1.0
+my family we'll always	1.0
+family we'll always have	1.0
+we'll always have problems	1.0
+to miss	1.0
+my flight	1.0
+flight i'll	1.0
+huge mess	1.0
+going to miss	1.0
+to miss my	1.0
+miss my flight	1.0
+my flight i'll	1.0
+flight i'll be	1.0
+late and have	1.0
+with a huge	1.0
+a huge mess	1.0
+i'm going to miss	1.0
+going to miss my	1.0
+to miss my flight	1.0
+miss my flight i'll	1.0
+my flight i'll be	1.0
+flight i'll be late	1.0
+be late and have	1.0
+late and have to	1.0
+and have to deal	1.0
+deal with a huge	1.0
+with a huge mess	1.0
+say something wrong	1.0
+something wrong in	1.0
+wrong in the	1.0
+will judge me	1.0
+and think i'm	1.0
+to say something wrong	1.0
+say something wrong in	1.0
+something wrong in the	1.0
+wrong in the meeting	1.0
+in the meeting everyone	1.0
+meeting everyone will judge	1.0
+everyone will judge me	1.0
+will judge me and	1.0
+judge me and think	1.0
+me and think i'm	1.0
+and think i'm stupid	1.0
+speech will	1.0
+disaster i'll	1.0
+my speech will	1.0
+speech will be	1.0
+a disaster i'll	1.0
+disaster i'll forget	1.0
+forget everything and	1.0
+everything and embarrass	1.0
+my speech will be	1.0
+speech will be a	1.0
+be a disaster i'll	1.0
+a disaster i'll forget	1.0
+disaster i'll forget everything	1.0
+i'll forget everything and	1.0
+forget everything and embarrass	1.0
+everything and embarrass myself	1.0
+exam i'll	1.0
+i'll panic	1.0
+and forget	1.0
+to get through	1.0
+through the exam	1.0
+the exam i'll	1.0
+exam i'll panic	1.0
+i'll panic and	1.0
+panic and forget	1.0
+and forget everything	1.0
+able to get through	1.0
+to get through the	1.0
+get through the exam	1.0
+through the exam i'll	1.0
+the exam i'll panic	1.0
+exam i'll panic and	1.0
+i'll panic and forget	1.0
+panic and forget everything	1.0
+mediocre	1.0
+improve my	1.0
+skills i'll	1.0
+be mediocre	1.0
+able to improve	1.0
+to improve my	1.0
+improve my skills	1.0
+my skills i'll	1.0
+skills i'll always	1.0
+always be mediocre	1.0
+be able to improve	1.0
+able to improve my	1.0
+to improve my skills	1.0
+improve my skills i'll	1.0
+my skills i'll always	1.0
+skills i'll always be	1.0
+i'll always be mediocre	1.0
+stress it'll	1.0
+it'll overwhelm	1.0
+i'll break	1.0
+handle the stress	1.0
+the stress it'll	1.0
+stress it'll overwhelm	1.0
+it'll overwhelm me	1.0
+overwhelm me and	1.0
+me and i'll	1.0
+and i'll break	1.0
+i'll break down	1.0
+to handle the stress	1.0
+handle the stress it'll	1.0
+the stress it'll overwhelm	1.0
+stress it'll overwhelm me	1.0
+it'll overwhelm me and	1.0
+overwhelm me and i'll	1.0
+me and i'll break	1.0
+and i'll break down	1.0
+i'm writing	1.0
+writing i'll	1.0
+stuck and	1.0
+to finish the	1.0
+book i'm writing	1.0
+i'm writing i'll	1.0
+writing i'll get	1.0
+i'll get stuck	1.0
+get stuck and	1.0
+stuck and give	1.0
+and give up	1.0
+able to finish the	1.0
+to finish the book	1.0
+the book i'm writing	1.0
+book i'm writing i'll	1.0
+i'm writing i'll get	1.0
+writing i'll get stuck	1.0
+i'll get stuck and	1.0
+get stuck and give	1.0
+stuck and give up	1.0
+breakup i'll	1.0
+with the breakup	1.0
+the breakup i'll	1.0
+breakup i'll be	1.0
+i'll be miserable	1.0
+miserable and never	1.0
+and never move	1.0
+able to cope with	1.0
+cope with the breakup	1.0
+with the breakup i'll	1.0
+the breakup i'll be	1.0
+breakup i'll be miserable	1.0
+i'll be miserable and	1.0
+be miserable and never	1.0
+miserable and never move	1.0
+and never move on	1.0
+learn this	1.0
+new skill	1.0
+skill it's	1.0
+just fail	1.0
+to learn this	1.0
+learn this new	1.0
+this new skill	1.0
+new skill it's	1.0
+skill it's too	1.0
+i'll just fail	1.0
+be able to learn	1.0
+able to learn this	1.0
+to learn this new	1.0
+learn this new skill	1.0
+this new skill it's	1.0
+new skill it's too	1.0
+skill it's too hard	1.0
+hard and i'll just	1.0
+and i'll just fail	1.0
+the tough	1.0
+tough times	1.0
+times it'll	1.0
+make it through	1.0
+it through the	1.0
+through the tough	1.0
+the tough times	1.0
+tough times it'll	1.0
+times it'll be	1.0
+it'll be too	1.0
+be too much	1.0
+able to make it	1.0
+to make it through	1.0
+make it through the	1.0
+it through the tough	1.0
+through the tough times	1.0
+the tough times it'll	1.0
+tough times it'll be	1.0
+times it'll be too	1.0
+it'll be too much	1.0
+be too much for	1.0
+issue it's	1.0
+complicated for	1.0
+to fix this	1.0
+fix this issue	1.0
+this issue it's	1.0
+issue it's too	1.0
+it's too complicated	1.0
+too complicated for	1.0
+complicated for me	1.0
+able to fix this	1.0
+to fix this issue	1.0
+fix this issue it's	1.0
+this issue it's too	1.0
+issue it's too complicated	1.0
+it's too complicated for	1.0
+too complicated for me	1.0
+project it's	1.0
+too challenging	1.0
+to complete the	1.0
+the project it's	1.0
+project it's too	1.0
+it's too challenging	1.0
+too challenging and	1.0
+challenging and i'll	1.0
+and i'll fail	1.0
+able to complete the	1.0
+to complete the project	1.0
+complete the project it's	1.0
+the project it's too	1.0
+project it's too challenging	1.0
+it's too challenging and	1.0
+too challenging and i'll	1.0
+challenging and i'll fail	1.0
+own i'll	1.0
+always need	1.0
+my own i'll	1.0
+own i'll always	1.0
+i'll always need	1.0
+always need help	1.0
+to make it on	1.0
+make it on my	1.0
+on my own i'll	1.0
+my own i'll always	1.0
+own i'll always need	1.0
+i'll always need help	1.0
+good partner	1.0
+partner i'll	1.0
+alone forever	1.0
+a good partner	1.0
+good partner i'll	1.0
+partner i'll be	1.0
+i'll be alone	1.0
+be alone forever	1.0
+find a good partner	1.0
+a good partner i'll	1.0
+good partner i'll be	1.0
+partner i'll be alone	1.0
+i'll be alone forever	1.0
+goals something	1.0
+my goals something	1.0
+goals something will	1.0
+will always get	1.0
+always get in	1.0
+achieve my goals something	1.0
+my goals something will	1.0
+goals something will always	1.0
+something will always get	1.0
+will always get in	1.0
+always get in the	1.0
+get in the way	1.0
+tough situation	1.0
+situation it'll	1.0
+the tough situation	1.0
+tough situation it'll	1.0
+situation it'll be	1.0
+me to handle	1.0
+get through the tough	1.0
+through the tough situation	1.0
+the tough situation it'll	1.0
+tough situation it'll be	1.0
+situation it'll be too	1.0
+for me to handle	1.0
+haunt	1.0
+this it'll	1.0
+it'll always	1.0
+always haunt	1.0
+haunt me	1.0
+get over this	1.0
+over this it'll	1.0
+this it'll always	1.0
+it'll always haunt	1.0
+always haunt me	1.0
+able to get over	1.0
+to get over this	1.0
+get over this it'll	1.0
+over this it'll always	1.0
+this it'll always haunt	1.0
+it'll always haunt me	1.0
+pressure i'll	1.0
+the pressure i'll	1.0
+pressure i'll break	1.0
+down and fail	1.0
+to handle the pressure	1.0
+handle the pressure i'll	1.0
+the pressure i'll break	1.0
+pressure i'll break down	1.0
+i'll break down and	1.0
+break down and fail	1.0
+shape it's	1.0
+get back in	1.0
+back in shape	1.0
+in shape it's	1.0
+shape it's too	1.0
+able to get back	1.0
+to get back in	1.0
+get back in shape	1.0
+back in shape it's	1.0
+in shape it's too	1.0
+shape it's too hard	1.0
+hard and i'll fail	1.0
+course it's	1.0
+i'll drop	1.0
+finish the course	1.0
+the course it's	1.0
+course it's too	1.0
+it's too difficult	1.0
+too difficult and	1.0
+difficult and i'll	1.0
+and i'll drop	1.0
+i'll drop out	1.0
+to finish the course	1.0
+finish the course it's	1.0
+the course it's too	1.0
+course it's too difficult	1.0
+it's too difficult and	1.0
+too difficult and i'll	1.0
+difficult and i'll drop	1.0
+and i'll drop out	1.0
+always affect	1.0
+able to move	1.0
+move past this	1.0
+past this it'll	1.0
+it'll always affect	1.0
+always affect me	1.0
+be able to move	1.0
+able to move past	1.0
+to move past this	1.0
+move past this it'll	1.0
+past this it'll always	1.0
+this it'll always affect	1.0
+it'll always affect me	1.0
+any progress	1.0
+progress i'll	1.0
+make any progress	1.0
+any progress i'll	1.0
+progress i'll be	1.0
+i'll be stuck	1.0
+be stuck and	1.0
+stuck and frustrated	1.0
+to make any progress	1.0
+make any progress i'll	1.0
+any progress i'll be	1.0
+progress i'll be stuck	1.0
+i'll be stuck and	1.0
+be stuck and frustrated	1.0
+dreams something	1.0
+always hold	1.0
+hold me	1.0
+achieve my dreams	1.0
+my dreams something	1.0
+dreams something will	1.0
+will always hold	1.0
+always hold me	1.0
+hold me back	1.0
+to achieve my dreams	1.0
+achieve my dreams something	1.0
+my dreams something will	1.0
+dreams something will always	1.0
+something will always hold	1.0
+will always hold me	1.0
+always hold me back	1.0
+the situation it'll	1.0
+handle the situation it'll	1.0
+the situation it'll be	1.0
+able to recover	1.0
+recover from this	1.0
+from this it'll	1.0
+it'll always be	1.0
+always be a	1.0
+be able to recover	1.0
+able to recover from	1.0
+to recover from this	1.0
+recover from this it'll	1.0
+from this it'll always	1.0
+this it'll always be	1.0
+it'll always be a	1.0
+always be a part	1.0
+with the stress	1.0
+cope with the stress	1.0
+with the stress it'll	1.0
+to keep up	1.0
+the class i'll	1.0
+class i'll fall	1.0
+behind and fail	1.0
+able to keep up	1.0
+to keep up with	1.0
+with the class i'll	1.0
+the class i'll fall	1.0
+class i'll fall behind	1.0
+fall behind and fail	1.0
+able to reach	1.0
+to reach my	1.0
+reach my goals	1.0
+be able to reach	1.0
+able to reach my	1.0
+to reach my goals	1.0
+reach my goals something	1.0
+to finish the project	1.0
+finish the project it's	1.0
+project it's too difficult	1.0
+able to get past	1.0
+to get past this	1.0
+get past this it'll	1.0
+recruited	1.0
+dot-com	1.0
+was recruited	1.0
+recruited to	1.0
+many great	1.0
+great jobs	1.0
+jobs but	1.0
+instead started	1.0
+own dot-com	1.0
+dot-com business	1.0
+i was recruited	1.0
+was recruited to	1.0
+recruited to many	1.0
+to many great	1.0
+many great jobs	1.0
+great jobs but	1.0
+jobs but was	1.0
+but was scared	1.0
+take them and	1.0
+them and instead	1.0
+and instead started	1.0
+instead started my	1.0
+started my own	1.0
+my own dot-com	1.0
+own dot-com business	1.0
+this time i was	1.0
+time i was recruited	1.0
+i was recruited to	1.0
+was recruited to many	1.0
+recruited to many great	1.0
+to many great jobs	1.0
+many great jobs but	1.0
+great jobs but was	1.0
+jobs but was scared	1.0
+but was scared to	1.0
+was scared to take	1.0
+scared to take them	1.0
+to take them and	1.0
+take them and instead	1.0
+them and instead started	1.0
+and instead started my	1.0
+instead started my own	1.0
+started my own dot-com	1.0
+my own dot-com business	1.0
+sucked	1.0
+drinkingi	1.0
+trip sucked	1.0
+sucked he	1.0
+me based	1.0
+his saying	1.0
+saying attitude	1.0
+attitude and	1.0
+he stated	1.0
+stated drinkingi	1.0
+drinkingi want	1.0
+to small	1.0
+small claims	1.0
+claims court	1.0
+court for	1.0
+the trip sucked	1.0
+trip sucked he	1.0
+sucked he wasn’t	1.0
+he wasn’t interested	1.0
+wasn’t interested in	1.0
+in me based	1.0
+me based on	1.0
+based on his	1.0
+on his saying	1.0
+his saying attitude	1.0
+saying attitude and	1.0
+attitude and he	1.0
+and he stated	1.0
+he stated drinkingi	1.0
+stated drinkingi want	1.0
+drinkingi want to	1.0
+to believe him	1.0
+believe him but	1.0
+have a feeling	1.0
+a feeling i	1.0
+feeling i will	1.0
+will have to	1.0
+have to take	1.0
+to take him	1.0
+him to small	1.0
+to small claims	1.0
+small claims court	1.0
+claims court for	1.0
+court for this	1.0
+the trip sucked he	1.0
+trip sucked he wasn’t	1.0
+sucked he wasn’t interested	1.0
+he wasn’t interested in	1.0
+wasn’t interested in me	1.0
+interested in me based	1.0
+in me based on	1.0
+me based on his	1.0
+based on his saying	1.0
+on his saying attitude	1.0
+his saying attitude and	1.0
+saying attitude and he	1.0
+attitude and he stated	1.0
+and he stated drinkingi	1.0
+he stated drinkingi want	1.0
+stated drinkingi want to	1.0
+drinkingi want to believe	1.0
+want to believe him	1.0
+to believe him but	1.0
+believe him but i	1.0
+i have a feeling	1.0
+have a feeling i	1.0
+a feeling i will	1.0
+feeling i will have	1.0
+i will have to	1.0
+will have to take	1.0
+have to take him	1.0
+to take him to	1.0
+take him to small	1.0
+him to small claims	1.0
+to small claims court	1.0
+small claims court for	1.0
+claims court for this	1.0
+stupidity	1.0
+recently checked	1.0
+checked his	1.0
+email which	1.0
+now don’t	1.0
+if he’ll	1.0
+he’ll ever	1.0
+ever forgive	1.0
+forgive me	1.0
+my stupidity	1.0
+stupidity of	1.0
+i recently checked	1.0
+recently checked his	1.0
+checked his email	1.0
+his email which	1.0
+email which was	1.0
+which was wrong	1.0
+i now don’t	1.0
+now don’t know	1.0
+know if he’ll	1.0
+if he’ll ever	1.0
+he’ll ever forgive	1.0
+ever forgive me	1.0
+forgive me for	1.0
+want to cause	1.0
+the relationship but	1.0
+can get over	1.0
+get over my	1.0
+over my stupidity	1.0
+my stupidity of	1.0
+stupidity of being	1.0
+of being so	1.0
+being so insecure	1.0
+i recently checked his	1.0
+recently checked his email	1.0
+checked his email which	1.0
+his email which was	1.0
+email which was wrong	1.0
+which was wrong but	1.0
+was wrong but i	1.0
+wrong but i now	1.0
+but i now don’t	1.0
+i now don’t know	1.0
+now don’t know if	1.0
+don’t know if he’ll	1.0
+know if he’ll ever	1.0
+if he’ll ever forgive	1.0
+he’ll ever forgive me	1.0
+ever forgive me for	1.0
+forgive me for it	1.0
+me for it i	1.0
+for it i don’t	1.0
+it i don’t want	1.0
+don’t want to cause	1.0
+want to cause problems	1.0
+cause problems in the	1.0
+problems in the relationship	1.0
+in the relationship but	1.0
+the relationship but i	1.0
+relationship but i don’t	1.0
+know how i can	1.0
+how i can get	1.0
+i can get over	1.0
+can get over my	1.0
+get over my stupidity	1.0
+over my stupidity of	1.0
+my stupidity of being	1.0
+stupidity of being so	1.0
+of being so insecure	1.0
+its serious	1.0
+dont know how	1.0
+parents that its	1.0
+that its serious	1.0
+i dont know how	1.0
+dont know how to	1.0
+how to tell my	1.0
+my parents that its	1.0
+parents that its serious	1.0
+disown	1.0
+m so	1.0
+scared my	1.0
+will disown	1.0
+disown me	1.0
+can’t imagine	1.0
+imagine my	1.0
+life without	1.0
+’ m so	1.0
+m so scared	1.0
+so scared my	1.0
+scared my parents	1.0
+parents will disown	1.0
+will disown me	1.0
+disown me if	1.0
+do that but	1.0
+just can’t imagine	1.0
+can’t imagine my	1.0
+imagine my life	1.0
+my life without	1.0
+life without him	1.0
+’ m so scared	1.0
+m so scared my	1.0
+so scared my parents	1.0
+scared my parents will	1.0
+my parents will disown	1.0
+parents will disown me	1.0
+will disown me if	1.0
+disown me if i	1.0
+i do that but	1.0
+do that but i	1.0
+that but i just	1.0
+i just can’t imagine	1.0
+just can’t imagine my	1.0
+can’t imagine my life	1.0
+imagine my life without	1.0
+my life without him	1.0
+grandparents or	1.0
+or dad	1.0
+dad because	1.0
+anxiety even	1.0
+could before	1.0
+before when	1.0
+school now	1.0
+feel positive	1.0
+know somehow	1.0
+somehow that	1.0
+home afterward	1.0
+afterward and	1.0
+completely change	1.0
+change even	1.0
+just suddenly	1.0
+suddenly end	1.0
+being really	1.0
+along with this	1.0
+longer have a	1.0
+have a conversation	1.0
+my grandparents or	1.0
+grandparents or dad	1.0
+or dad because	1.0
+dad because of	1.0
+because of social	1.0
+social anxiety even	1.0
+anxiety even though	1.0
+i could before	1.0
+could before when	1.0
+before when in	1.0
+when in school	1.0
+in school now	1.0
+school now i	1.0
+now i will	1.0
+will feel positive	1.0
+feel positive but	1.0
+positive but i	1.0
+i know somehow	1.0
+know somehow that	1.0
+somehow that i’m	1.0
+i’m not and	1.0
+and i then	1.0
+i then will	1.0
+then will go	1.0
+will go home	1.0
+go home afterward	1.0
+home afterward and	1.0
+afterward and completely	1.0
+and completely change	1.0
+completely change even	1.0
+change even though	1.0
+i just suddenly	1.0
+just suddenly end	1.0
+suddenly end up	1.0
+up being really	1.0
+being really sad	1.0
+along with this i	1.0
+with this i can	1.0
+this i can no	1.0
+can no longer have	1.0
+no longer have a	1.0
+longer have a conversation	1.0
+have a conversation with	1.0
+a conversation with my	1.0
+conversation with my grandparents	1.0
+with my grandparents or	1.0
+my grandparents or dad	1.0
+grandparents or dad because	1.0
+or dad because of	1.0
+dad because of social	1.0
+because of social anxiety	1.0
+of social anxiety even	1.0
+social anxiety even though	1.0
+anxiety even though i	1.0
+even though i could	1.0
+though i could before	1.0
+i could before when	1.0
+could before when in	1.0
+before when in school	1.0
+when in school now	1.0
+in school now i	1.0
+school now i will	1.0
+now i will feel	1.0
+i will feel positive	1.0
+will feel positive but	1.0
+feel positive but i	1.0
+positive but i know	1.0
+but i know somehow	1.0
+i know somehow that	1.0
+know somehow that i’m	1.0
+somehow that i’m not	1.0
+that i’m not and	1.0
+i’m not and i	1.0
+not and i then	1.0
+and i then will	1.0
+i then will go	1.0
+then will go home	1.0
+will go home afterward	1.0
+go home afterward and	1.0
+home afterward and completely	1.0
+afterward and completely change	1.0
+and completely change even	1.0
+completely change even though	1.0
+change even though i	1.0
+though i don’t know	1.0
+know why i just	1.0
+why i just suddenly	1.0
+i just suddenly end	1.0
+just suddenly end up	1.0
+suddenly end up being	1.0
+end up being really	1.0
+up being really sad	1.0
+worry is	1.0
+would feel	1.0
+pressured or	1.0
+or uncomfortable	1.0
+uncomfortable during	1.0
+the training	1.0
+training and	1.0
+and may	1.0
+may breakdown	1.0
+breakdown or	1.0
+depressed again	1.0
+my worry is	1.0
+worry is that	1.0
+is that maybe	1.0
+that maybe he	1.0
+maybe he would	1.0
+he would feel	1.0
+would feel pressured	1.0
+feel pressured or	1.0
+pressured or uncomfortable	1.0
+or uncomfortable during	1.0
+uncomfortable during the	1.0
+during the training	1.0
+the training and	1.0
+training and may	1.0
+and may breakdown	1.0
+may breakdown or	1.0
+breakdown or get	1.0
+or get more	1.0
+get more depressed	1.0
+more depressed again	1.0
+my worry is that	1.0
+worry is that maybe	1.0
+is that maybe he	1.0
+that maybe he would	1.0
+maybe he would feel	1.0
+he would feel pressured	1.0
+would feel pressured or	1.0
+feel pressured or uncomfortable	1.0
+pressured or uncomfortable during	1.0
+or uncomfortable during the	1.0
+uncomfortable during the training	1.0
+during the training and	1.0
+the training and may	1.0
+training and may breakdown	1.0
+and may breakdown or	1.0
+may breakdown or get	1.0
+breakdown or get more	1.0
+or get more depressed	1.0
+get more depressed again	1.0
+hey’ve	1.0
+eviction	1.0
+hey’ve had	1.0
+support in	1.0
+world but	1.0
+they simply	1.0
+simply cannot	1.0
+function and	1.0
+time before	1.0
+next eviction	1.0
+hey’ve had all	1.0
+had all the	1.0
+all the help	1.0
+help and support	1.0
+and support in	1.0
+support in the	1.0
+the world but	1.0
+world but they	1.0
+but they simply	1.0
+they simply cannot	1.0
+simply cannot function	1.0
+cannot function and	1.0
+function and it	1.0
+just a matter	1.0
+matter of time	1.0
+of time before	1.0
+time before the	1.0
+the next eviction	1.0
+hey’ve had all the	1.0
+had all the help	1.0
+all the help and	1.0
+the help and support	1.0
+help and support in	1.0
+and support in the	1.0
+support in the world	1.0
+in the world but	1.0
+the world but they	1.0
+world but they simply	1.0
+but they simply cannot	1.0
+they simply cannot function	1.0
+simply cannot function and	1.0
+cannot function and it	1.0
+function and it is	1.0
+and it is just	1.0
+it is just a	1.0
+is just a matter	1.0
+just a matter of	1.0
+a matter of time	1.0
+matter of time before	1.0
+of time before the	1.0
+time before the next	1.0
+before the next eviction	1.0
+self-sabotage	1.0
+hope he	1.0
+constantly does	1.0
+to self-sabotage	1.0
+self-sabotage and	1.0
+helping himself	1.0
+is no hope	1.0
+no hope he	1.0
+hope he constantly	1.0
+he constantly does	1.0
+constantly does things	1.0
+does things to	1.0
+things to self-sabotage	1.0
+to self-sabotage and	1.0
+self-sabotage and is	1.0
+is not helping	1.0
+not helping himself	1.0
+like there is no	1.0
+there is no hope	1.0
+is no hope he	1.0
+no hope he constantly	1.0
+hope he constantly does	1.0
+he constantly does things	1.0
+constantly does things to	1.0
+does things to self-sabotage	1.0
+things to self-sabotage and	1.0
+to self-sabotage and is	1.0
+self-sabotage and is not	1.0
+and is not helping	1.0
+is not helping himself	1.0
+basically like	1.0
+for recovery	1.0
+basically like the	1.0
+like the title	1.0
+suggests i’m afraid	1.0
+afraid my depression	1.0
+depression is a	1.0
+is a personality	1.0
+a personality and	1.0
+and that there’s	1.0
+that there’s no	1.0
+there’s no hope	1.0
+hope for recovery	1.0
+basically like the title	1.0
+like the title suggests	1.0
+title suggests i’m afraid	1.0
+suggests i’m afraid my	1.0
+i’m afraid my depression	1.0
+afraid my depression is	1.0
+my depression is a	1.0
+depression is a personality	1.0
+is a personality and	1.0
+a personality and that	1.0
+personality and that there’s	1.0
+and that there’s no	1.0
+that there’s no hope	1.0
+there’s no hope for	1.0
+no hope for recovery	1.0
+day going	1.0
+insane and	1.0
+have been worried	1.0
+worried about one	1.0
+about one day	1.0
+one day going	1.0
+day going insane	1.0
+going insane and	1.0
+insane and not	1.0
+to control it	1.0
+i have been worried	1.0
+have been worried about	1.0
+been worried about one	1.0
+worried about one day	1.0
+about one day going	1.0
+one day going insane	1.0
+day going insane and	1.0
+going insane and not	1.0
+insane and not being	1.0
+being able to control	1.0
+able to control it	1.0
+scarred	1.0
+stoop	1.0
+exposing	1.0
+freinds	1.0
+teacher tomorrow	1.0
+tomorrow and	1.0
+him return	1.0
+return the	1.0
+the items	1.0
+items but	1.0
+but fear	1.0
+be socially	1.0
+socially scarred	1.0
+scarred for	1.0
+may stoop	1.0
+stoop in	1.0
+do worse	1.0
+worse things	1.0
+us exposing	1.0
+exposing him	1.0
+his freinds	1.0
+we would like	1.0
+him to his	1.0
+to his teacher	1.0
+his teacher tomorrow	1.0
+teacher tomorrow and	1.0
+tomorrow and make	1.0
+and make him	1.0
+make him return	1.0
+him return the	1.0
+return the items	1.0
+the items but	1.0
+items but fear	1.0
+but fear that	1.0
+fear that he	1.0
+will be socially	1.0
+be socially scarred	1.0
+socially scarred for	1.0
+scarred for life	1.0
+for life and	1.0
+life and worse	1.0
+and worse he	1.0
+worse he may	1.0
+he may stoop	1.0
+may stoop in	1.0
+stoop in to	1.0
+in to do	1.0
+to do worse	1.0
+do worse things	1.0
+worse things for	1.0
+things for us	1.0
+for us exposing	1.0
+us exposing him	1.0
+exposing him to	1.0
+to his freinds	1.0
+we would like to	1.0
+like to take him	1.0
+take him to his	1.0
+him to his teacher	1.0
+to his teacher tomorrow	1.0
+his teacher tomorrow and	1.0
+teacher tomorrow and make	1.0
+tomorrow and make him	1.0
+and make him return	1.0
+make him return the	1.0
+him return the items	1.0
+return the items but	1.0
+the items but fear	1.0
+items but fear that	1.0
+but fear that he	1.0
+fear that he will	1.0
+he will be socially	1.0
+will be socially scarred	1.0
+be socially scarred for	1.0
+socially scarred for life	1.0
+scarred for life and	1.0
+for life and worse	1.0
+life and worse he	1.0
+and worse he may	1.0
+worse he may stoop	1.0
+he may stoop in	1.0
+may stoop in to	1.0
+stoop in to do	1.0
+in to do worse	1.0
+to do worse things	1.0
+do worse things for	1.0
+worse things for us	1.0
+things for us exposing	1.0
+for us exposing him	1.0
+us exposing him to	1.0
+exposing him to his	1.0
+him to his freinds	1.0
+2years	1.0
+cant get	1.0
+its making	1.0
+huge deal	1.0
+deal and	1.0
+been 2years	1.0
+2years like	1.0
+anyways i cant	1.0
+i cant get	1.0
+cant get over	1.0
+it and its	1.0
+and its making	1.0
+its making a	1.0
+making a huge	1.0
+a huge deal	1.0
+huge deal and	1.0
+deal and its	1.0
+and its been	1.0
+its been 2years	1.0
+been 2years like	1.0
+2years like that	1.0
+do so please	1.0
+so please help	1.0
+anyways i cant get	1.0
+i cant get over	1.0
+cant get over it	1.0
+get over it and	1.0
+over it and its	1.0
+it and its making	1.0
+and its making a	1.0
+its making a huge	1.0
+making a huge deal	1.0
+a huge deal and	1.0
+huge deal and its	1.0
+deal and its been	1.0
+and its been 2years	1.0
+its been 2years like	1.0
+been 2years like that	1.0
+2years like that and	1.0
+like that and i	1.0
+that and i dont	1.0
+to do so please	1.0
+do so please help	1.0
+so please help me	1.0
+limb	1.0
+is consumed	1.0
+consumed with	1.0
+losing a	1.0
+a limb	1.0
+hard to do	1.0
+do anything because	1.0
+anything because my	1.0
+because my mind	1.0
+mind is consumed	1.0
+is consumed with	1.0
+consumed with the	1.0
+with the fear	1.0
+of losing a	1.0
+losing a limb	1.0
+it hard to do	1.0
+hard to do anything	1.0
+to do anything because	1.0
+do anything because my	1.0
+anything because my mind	1.0
+because my mind is	1.0
+my mind is consumed	1.0
+mind is consumed with	1.0
+is consumed with the	1.0
+consumed with the fear	1.0
+with the fear of	1.0
+fear of losing a	1.0
+of losing a limb	1.0
+illegal	1.0
+not told	1.0
+anyone so	1.0
+may laugh	1.0
+something normal	1.0
+should worry	1.0
+lead on	1.0
+worse thing	1.0
+currently i	1.0
+will complete	1.0
+complete or	1.0
+or act	1.0
+out these	1.0
+is illegal	1.0
+illegal and	1.0
+and against	1.0
+my religion	1.0
+religion but	1.0
+but who	1.0
+who knows	1.0
+knows something	1.0
+something might	1.0
+might click	1.0
+not stop	1.0
+stop me	1.0
+have not told	1.0
+not told anyone	1.0
+told anyone so	1.0
+anyone so far	1.0
+so far as	1.0
+far as they	1.0
+as they may	1.0
+they may laugh	1.0
+may laugh at	1.0
+at me which	1.0
+which i would	1.0
+would also do	1.0
+also do i	1.0
+is something normal	1.0
+something normal or	1.0
+normal or if	1.0
+i should worry	1.0
+should worry about	1.0
+worry about as	1.0
+about as it	1.0
+as it may	1.0
+it may lead	1.0
+may lead on	1.0
+lead on to	1.0
+on to much	1.0
+to much worse	1.0
+much worse thing	1.0
+worse thing but	1.0
+thing but currently	1.0
+but currently i	1.0
+currently i do	1.0
+i will complete	1.0
+will complete or	1.0
+complete or act	1.0
+or act out	1.0
+act out these	1.0
+out these thoughts	1.0
+these thoughts as	1.0
+thoughts as it	1.0
+it is illegal	1.0
+is illegal and	1.0
+illegal and against	1.0
+and against my	1.0
+against my religion	1.0
+my religion but	1.0
+religion but who	1.0
+but who knows	1.0
+who knows something	1.0
+knows something might	1.0
+something might click	1.0
+might click and	1.0
+click and even	1.0
+and even that	1.0
+even that may	1.0
+that may not	1.0
+may not stop	1.0
+not stop me	1.0
+i have not told	1.0
+have not told anyone	1.0
+not told anyone so	1.0
+told anyone so far	1.0
+anyone so far as	1.0
+so far as they	1.0
+far as they may	1.0
+as they may laugh	1.0
+they may laugh at	1.0
+may laugh at me	1.0
+laugh at me which	1.0
+at me which i	1.0
+me which i would	1.0
+which i would also	1.0
+i would also do	1.0
+would also do i	1.0
+also do i am	1.0
+if this is something	1.0
+this is something normal	1.0
+is something normal or	1.0
+something normal or if	1.0
+normal or if this	1.0
+or if this is	1.0
+this is something i	1.0
+something i should worry	1.0
+i should worry about	1.0
+should worry about as	1.0
+worry about as it	1.0
+about as it may	1.0
+as it may lead	1.0
+it may lead on	1.0
+may lead on to	1.0
+lead on to much	1.0
+on to much worse	1.0
+to much worse thing	1.0
+much worse thing but	1.0
+worse thing but currently	1.0
+thing but currently i	1.0
+but currently i do	1.0
+currently i do not	1.0
+not believe that i	1.0
+believe that i will	1.0
+that i will complete	1.0
+i will complete or	1.0
+will complete or act	1.0
+complete or act out	1.0
+or act out these	1.0
+act out these thoughts	1.0
+out these thoughts as	1.0
+these thoughts as it	1.0
+thoughts as it is	1.0
+as it is illegal	1.0
+it is illegal and	1.0
+is illegal and against	1.0
+illegal and against my	1.0
+and against my religion	1.0
+against my religion but	1.0
+my religion but who	1.0
+religion but who knows	1.0
+but who knows something	1.0
+who knows something might	1.0
+knows something might click	1.0
+something might click and	1.0
+might click and even	1.0
+click and even that	1.0
+and even that may	1.0
+even that may not	1.0
+that may not stop	1.0
+may not stop me	1.0
+honestly think	1.0
+i’m useless	1.0
+no future	1.0
+i honestly think	1.0
+honestly think i’m	1.0
+think i’m useless	1.0
+i’m useless and	1.0
+useless and have	1.0
+have no future	1.0
+no future ahead	1.0
+i honestly think i’m	1.0
+honestly think i’m useless	1.0
+think i’m useless and	1.0
+i’m useless and have	1.0
+useless and have no	1.0
+and have no future	1.0
+have no future ahead	1.0
+no future ahead of	1.0
+writing about	1.0
+this panic	1.0
+attack because	1.0
+psychotic illness	1.0
+psychotic break	1.0
+break during	1.0
+am writing about	1.0
+writing about this	1.0
+about this panic	1.0
+this panic attack	1.0
+panic attack because	1.0
+attack because i	1.0
+afraid of developing	1.0
+of developing a	1.0
+developing a psychotic	1.0
+a psychotic illness	1.0
+psychotic illness i	1.0
+illness i am	1.0
+might have a	1.0
+have a psychotic	1.0
+a psychotic break	1.0
+psychotic break during	1.0
+break during a	1.0
+during a panic	1.0
+i am writing about	1.0
+am writing about this	1.0
+writing about this panic	1.0
+about this panic attack	1.0
+this panic attack because	1.0
+panic attack because i	1.0
+attack because i am	1.0
+am so afraid of	1.0
+so afraid of developing	1.0
+afraid of developing a	1.0
+of developing a psychotic	1.0
+developing a psychotic illness	1.0
+a psychotic illness i	1.0
+psychotic illness i am	1.0
+illness i am afraid	1.0
+afraid that i might	1.0
+i might have a	1.0
+might have a psychotic	1.0
+have a psychotic break	1.0
+a psychotic break during	1.0
+psychotic break during a	1.0
+break during a panic	1.0
+during a panic attack	1.0
+i sort	1.0
+bring the	1.0
+idea up	1.0
+to judge	1.0
+i sort of	1.0
+sort of want	1.0
+want to bring	1.0
+to bring the	1.0
+bring the idea	1.0
+the idea up	1.0
+idea up to	1.0
+mom but i	1.0
+her to judge	1.0
+to judge me	1.0
+i sort of want	1.0
+sort of want to	1.0
+of want to bring	1.0
+want to bring the	1.0
+to bring the idea	1.0
+bring the idea up	1.0
+the idea up to	1.0
+idea up to my	1.0
+up to my mom	1.0
+to my mom but	1.0
+my mom but i	1.0
+mom but i don’t	1.0
+want her to judge	1.0
+her to judge me	1.0
+and significant	1.0
+significant others	1.0
+others become	1.0
+become intense	1.0
+intense from	1.0
+always worry	1.0
+being abandoned	1.0
+abandoned even	1.0
+they show	1.0
+show no	1.0
+no signs	1.0
+someone happens	1.0
+or want	1.0
+to self-harm	1.0
+self-harm i	1.0
+have bouts	1.0
+where i’m	1.0
+then it’ll	1.0
+it’ll turn	1.0
+into sadness	1.0
+sadness there’s	1.0
+no in	1.0
+in between	1.0
+between for	1.0
+relationships with my	1.0
+friends and significant	1.0
+and significant others	1.0
+significant others become	1.0
+others become intense	1.0
+become intense from	1.0
+intense from time	1.0
+to time and	1.0
+i always worry	1.0
+always worry about	1.0
+worry about being	1.0
+about being abandoned	1.0
+being abandoned even	1.0
+abandoned even when	1.0
+even when they	1.0
+when they show	1.0
+they show no	1.0
+show no signs	1.0
+no signs that	1.0
+signs that they	1.0
+going to leave	1.0
+me if someone	1.0
+if someone happens	1.0
+someone happens to	1.0
+happens to leave	1.0
+leave i feel	1.0
+as if it’s	1.0
+if it’s my	1.0
+i have suicidal	1.0
+suicidal thoughts or	1.0
+thoughts or want	1.0
+or want to	1.0
+want to self-harm	1.0
+to self-harm i	1.0
+self-harm i have	1.0
+i have bouts	1.0
+have bouts of	1.0
+bouts of time	1.0
+of time where	1.0
+time where i’m	1.0
+where i’m really	1.0
+really happy then	1.0
+happy then it’ll	1.0
+then it’ll turn	1.0
+it’ll turn into	1.0
+turn into sadness	1.0
+into sadness there’s	1.0
+sadness there’s no	1.0
+there’s no in	1.0
+no in between	1.0
+in between for	1.0
+between for me	1.0
+my relationships with my	1.0
+relationships with my friends	1.0
+with my friends and	1.0
+my friends and significant	1.0
+friends and significant others	1.0
+and significant others become	1.0
+significant others become intense	1.0
+others become intense from	1.0
+become intense from time	1.0
+intense from time to	1.0
+time to time and	1.0
+to time and i	1.0
+time and i always	1.0
+and i always worry	1.0
+i always worry about	1.0
+always worry about being	1.0
+worry about being abandoned	1.0
+about being abandoned even	1.0
+being abandoned even when	1.0
+abandoned even when they	1.0
+even when they show	1.0
+when they show no	1.0
+they show no signs	1.0
+show no signs that	1.0
+no signs that they	1.0
+signs that they are	1.0
+are going to leave	1.0
+going to leave me	1.0
+leave me if someone	1.0
+me if someone happens	1.0
+if someone happens to	1.0
+someone happens to leave	1.0
+happens to leave i	1.0
+to leave i feel	1.0
+leave i feel as	1.0
+feel as if it’s	1.0
+as if it’s my	1.0
+if it’s my fault	1.0
+it’s my fault and	1.0
+my fault and i	1.0
+fault and i have	1.0
+and i have suicidal	1.0
+i have suicidal thoughts	1.0
+have suicidal thoughts or	1.0
+suicidal thoughts or want	1.0
+thoughts or want to	1.0
+or want to self-harm	1.0
+want to self-harm i	1.0
+to self-harm i have	1.0
+self-harm i have bouts	1.0
+i have bouts of	1.0
+have bouts of time	1.0
+bouts of time where	1.0
+of time where i’m	1.0
+time where i’m really	1.0
+where i’m really happy	1.0
+i’m really happy then	1.0
+really happy then it’ll	1.0
+happy then it’ll turn	1.0
+then it’ll turn into	1.0
+it’ll turn into sadness	1.0
+turn into sadness there’s	1.0
+into sadness there’s no	1.0
+sadness there’s no in	1.0
+there’s no in between	1.0
+no in between for	1.0
+in between for me	1.0
+crack	1.0
+presented	1.0
+penalized	1.0
+stress as	1.0
+i crack	1.0
+crack easily	1.0
+easily under	1.0
+pressure when	1.0
+i’m presented	1.0
+presented with	1.0
+difficult academic	1.0
+academic task	1.0
+fail a	1.0
+don’t finish	1.0
+get penalized	1.0
+penalized i	1.0
+also constantly	1.0
+about due	1.0
+due dates	1.0
+dates of	1.0
+of assignments	1.0
+life but recently	1.0
+but recently in	1.0
+years i’ve noticed	1.0
+i’ve noticed i	1.0
+noticed i can’t	1.0
+can’t handle stress	1.0
+handle stress as	1.0
+stress as well	1.0
+well as my	1.0
+as my peers	1.0
+peers i crack	1.0
+i crack easily	1.0
+crack easily under	1.0
+easily under pressure	1.0
+under pressure when	1.0
+pressure when i’m	1.0
+when i’m presented	1.0
+i’m presented with	1.0
+presented with a	1.0
+with a very	1.0
+a very difficult	1.0
+very difficult academic	1.0
+difficult academic task	1.0
+academic task i	1.0
+task i worry	1.0
+i worry that	1.0
+worry that i	1.0
+i will fail	1.0
+will fail a	1.0
+fail a class	1.0
+a class or	1.0
+class or if	1.0
+i don’t finish	1.0
+don’t finish my	1.0
+finish my homework	1.0
+my homework i	1.0
+homework i will	1.0
+will get penalized	1.0
+get penalized i	1.0
+penalized i also	1.0
+i also constantly	1.0
+also constantly worry	1.0
+worry about due	1.0
+about due dates	1.0
+due dates of	1.0
+dates of assignments	1.0
+of assignments and	1.0
+assignments and i	1.0
+difficult to stop	1.0
+stop worrying about	1.0
+worrying about it	1.0
+for most of my	1.0
+my life but recently	1.0
+life but recently in	1.0
+but recently in the	1.0
+in the past years	1.0
+past years i’ve noticed	1.0
+years i’ve noticed i	1.0
+i’ve noticed i can’t	1.0
+noticed i can’t handle	1.0
+i can’t handle stress	1.0
+can’t handle stress as	1.0
+handle stress as well	1.0
+stress as well as	1.0
+as well as my	1.0
+well as my peers	1.0
+as my peers i	1.0
+my peers i crack	1.0
+peers i crack easily	1.0
+i crack easily under	1.0
+crack easily under pressure	1.0
+easily under pressure when	1.0
+under pressure when i’m	1.0
+pressure when i’m presented	1.0
+when i’m presented with	1.0
+i’m presented with a	1.0
+presented with a very	1.0
+with a very difficult	1.0
+a very difficult academic	1.0
+very difficult academic task	1.0
+difficult academic task i	1.0
+academic task i worry	1.0
+task i worry that	1.0
+i worry that i	1.0
+worry that i will	1.0
+that i will fail	1.0
+i will fail a	1.0
+will fail a class	1.0
+fail a class or	1.0
+a class or if	1.0
+class or if i	1.0
+or if i don’t	1.0
+if i don’t finish	1.0
+i don’t finish my	1.0
+don’t finish my homework	1.0
+finish my homework i	1.0
+my homework i will	1.0
+homework i will get	1.0
+i will get penalized	1.0
+will get penalized i	1.0
+get penalized i also	1.0
+penalized i also constantly	1.0
+i also constantly worry	1.0
+also constantly worry about	1.0
+constantly worry about due	1.0
+worry about due dates	1.0
+about due dates of	1.0
+due dates of assignments	1.0
+dates of assignments and	1.0
+of assignments and i	1.0
+assignments and i find	1.0
+it difficult to stop	1.0
+difficult to stop worrying	1.0
+to stop worrying about	1.0
+stop worrying about it	1.0
+anyways my	1.0
+parents haven’t	1.0
+anyways my parents	1.0
+my parents haven’t	1.0
+parents haven’t been	1.0
+haven’t been getting	1.0
+been getting along	1.0
+getting along and	1.0
+along and i’m	1.0
+worried that things	1.0
+that things will	1.0
+things will end	1.0
+will end badly	1.0
+anyways my parents haven’t	1.0
+my parents haven’t been	1.0
+parents haven’t been getting	1.0
+haven’t been getting along	1.0
+been getting along and	1.0
+getting along and i’m	1.0
+along and i’m worried	1.0
+and i’m worried that	1.0
+i’m worried that things	1.0
+worried that things will	1.0
+that things will end	1.0
+things will end badly	1.0
+wherever	1.0
+encounter	1.0
+i’ll run	1.0
+run through	1.0
+this order	1.0
+order multiple	1.0
+times typically	1.0
+typically until	1.0
+to wherever	1.0
+wherever i’m	1.0
+going or	1.0
+or encounter	1.0
+encounter other	1.0
+for speaking	1.0
+always worried	1.0
+forget something	1.0
+that list	1.0
+list and	1.0
+happen because	1.0
+don’t complete	1.0
+complete that	1.0
+particular thing	1.0
+i’ll run through	1.0
+run through this	1.0
+through this order	1.0
+this order multiple	1.0
+order multiple times	1.0
+multiple times typically	1.0
+times typically until	1.0
+typically until i	1.0
+until i get	1.0
+get to wherever	1.0
+to wherever i’m	1.0
+wherever i’m going	1.0
+i’m going or	1.0
+going or encounter	1.0
+or encounter other	1.0
+encounter other people	1.0
+people because i’m	1.0
+because i’m worried	1.0
+they will judge	1.0
+me for speaking	1.0
+for speaking to	1.0
+speaking to myself	1.0
+to myself i’m	1.0
+i’m always worried	1.0
+always worried that	1.0
+worried that i’m	1.0
+going to forget	1.0
+to forget something	1.0
+forget something on	1.0
+something on that	1.0
+on that list	1.0
+that list and	1.0
+list and that	1.0
+and that something	1.0
+that something bad	1.0
+will happen because	1.0
+happen because i	1.0
+i don’t complete	1.0
+don’t complete that	1.0
+complete that particular	1.0
+that particular thing	1.0
+i’ll run through this	1.0
+run through this order	1.0
+through this order multiple	1.0
+this order multiple times	1.0
+order multiple times typically	1.0
+multiple times typically until	1.0
+times typically until i	1.0
+typically until i get	1.0
+until i get to	1.0
+i get to wherever	1.0
+get to wherever i’m	1.0
+to wherever i’m going	1.0
+wherever i’m going or	1.0
+i’m going or encounter	1.0
+going or encounter other	1.0
+or encounter other people	1.0
+encounter other people because	1.0
+other people because i’m	1.0
+people because i’m worried	1.0
+because i’m worried they	1.0
+worried they will judge	1.0
+they will judge me	1.0
+will judge me for	1.0
+judge me for speaking	1.0
+me for speaking to	1.0
+for speaking to myself	1.0
+speaking to myself i’m	1.0
+to myself i’m always	1.0
+myself i’m always worried	1.0
+i’m always worried that	1.0
+always worried that i’m	1.0
+worried that i’m going	1.0
+i’m going to forget	1.0
+going to forget something	1.0
+to forget something on	1.0
+forget something on that	1.0
+something on that list	1.0
+on that list and	1.0
+that list and that	1.0
+list and that something	1.0
+and that something bad	1.0
+that something bad will	1.0
+bad will happen because	1.0
+will happen because i	1.0
+happen because i don’t	1.0
+because i don’t complete	1.0
+i don’t complete that	1.0
+don’t complete that particular	1.0
+complete that particular thing	1.0
+world around	1.0
+happy because	1.0
+the hate	1.0
+hate i	1.0
+the world around	1.0
+world around me	1.0
+around me and	1.0
+me and feel	1.0
+though i will	1.0
+never be happy	1.0
+be happy because	1.0
+happy because of	1.0
+of the hate	1.0
+the hate i	1.0
+hate i am	1.0
+i look at the	1.0
+at the world around	1.0
+the world around me	1.0
+world around me and	1.0
+around me and feel	1.0
+me and feel as	1.0
+and feel as though	1.0
+as though i will	1.0
+though i will never	1.0
+will never be happy	1.0
+never be happy because	1.0
+be happy because of	1.0
+happy because of the	1.0
+because of the hate	1.0
+of the hate i	1.0
+the hate i am	1.0
+hate i am filled	1.0
+and worried	1.0
+greater problem	1.0
+be kicked	1.0
+her apartment	1.0
+am very stressed	1.0
+very stressed out	1.0
+stressed out and	1.0
+out and worried	1.0
+and worried that	1.0
+worried that this	1.0
+sign of a	1.0
+of a greater	1.0
+a greater problem	1.0
+greater problem and	1.0
+problem and that	1.0
+she will be	1.0
+will be kicked	1.0
+be kicked out	1.0
+of her apartment	1.0
+i am very stressed	1.0
+am very stressed out	1.0
+very stressed out and	1.0
+stressed out and worried	1.0
+out and worried that	1.0
+and worried that this	1.0
+worried that this is	1.0
+a sign of a	1.0
+sign of a greater	1.0
+of a greater problem	1.0
+a greater problem and	1.0
+greater problem and that	1.0
+problem and that she	1.0
+that she will be	1.0
+she will be kicked	1.0
+will be kicked out	1.0
+be kicked out of	1.0
+kicked out of her	1.0
+out of her apartment	1.0
+dug	1.0
+also became	1.0
+became extremely	1.0
+extremely introverted	1.0
+introverted and	1.0
+my exams	1.0
+exams finished	1.0
+finished more	1.0
+ago have	1.0
+really talked	1.0
+and seem	1.0
+have dug	1.0
+dug a	1.0
+hole i	1.0
+have also became	1.0
+also became extremely	1.0
+became extremely introverted	1.0
+extremely introverted and	1.0
+introverted and since	1.0
+and since my	1.0
+since my exams	1.0
+my exams finished	1.0
+exams finished more	1.0
+finished more than	1.0
+more than a	1.0
+than a month	1.0
+month ago have	1.0
+ago have only	1.0
+only really talked	1.0
+really talked to	1.0
+friends and seem	1.0
+and seem to	1.0
+to have dug	1.0
+have dug a	1.0
+dug a hole	1.0
+a hole i	1.0
+hole i cant	1.0
+cant get out	1.0
+i have also became	1.0
+have also became extremely	1.0
+also became extremely introverted	1.0
+became extremely introverted and	1.0
+extremely introverted and since	1.0
+introverted and since my	1.0
+and since my exams	1.0
+since my exams finished	1.0
+my exams finished more	1.0
+exams finished more than	1.0
+finished more than a	1.0
+more than a month	1.0
+than a month ago	1.0
+a month ago have	1.0
+month ago have only	1.0
+ago have only really	1.0
+have only really talked	1.0
+only really talked to	1.0
+really talked to one	1.0
+talked to one of	1.0
+of my friends and	1.0
+my friends and seem	1.0
+friends and seem to	1.0
+and seem to have	1.0
+seem to have dug	1.0
+to have dug a	1.0
+have dug a hole	1.0
+dug a hole i	1.0
+a hole i cant	1.0
+hole i cant get	1.0
+i cant get out	1.0
+cant get out of	1.0
+anxiety is making	1.0
+my anxiety is making	1.0
+anxiety is making me	1.0
+is making me think	1.0
+making me think of	1.0
+me think of worst	1.0
+also it	1.0
+would only	1.0
+only worsen	1.0
+worsen the	1.0
+situation instead	1.0
+instead if	1.0
+he spoke	1.0
+spoke for	1.0
+always forgive	1.0
+forgive their	1.0
+also it would	1.0
+it would only	1.0
+would only worsen	1.0
+only worsen the	1.0
+worsen the situation	1.0
+the situation instead	1.0
+situation instead if	1.0
+instead if he	1.0
+if he spoke	1.0
+he spoke for	1.0
+spoke for him	1.0
+for him they	1.0
+him they would	1.0
+be always forgive	1.0
+always forgive their	1.0
+forgive their son	1.0
+also it would only	1.0
+it would only worsen	1.0
+would only worsen the	1.0
+only worsen the situation	1.0
+worsen the situation instead	1.0
+the situation instead if	1.0
+situation instead if he	1.0
+instead if he spoke	1.0
+if he spoke for	1.0
+he spoke for him	1.0
+spoke for him they	1.0
+for him they would	1.0
+him they would be	1.0
+would be always forgive	1.0
+be always forgive their	1.0
+always forgive their son	1.0
+having panic	1.0
+have shut	1.0
+shut myself	1.0
+but i became	1.0
+became so scared	1.0
+so scared of	1.0
+scared of having	1.0
+of having panic	1.0
+having panic attacks	1.0
+attacks i have	1.0
+i have shut	1.0
+have shut myself	1.0
+shut myself in	1.0
+myself in my	1.0
+home and can’t	1.0
+and can’t go	1.0
+can’t go anywhere	1.0
+but i became so	1.0
+i became so scared	1.0
+became so scared of	1.0
+so scared of having	1.0
+scared of having panic	1.0
+of having panic attacks	1.0
+having panic attacks i	1.0
+panic attacks i have	1.0
+attacks i have shut	1.0
+i have shut myself	1.0
+have shut myself in	1.0
+shut myself in my	1.0
+myself in my home	1.0
+my home and can’t	1.0
+home and can’t go	1.0
+and can’t go anywhere	1.0
+curl	1.0
+me plus	1.0
+are sick	1.0
+me talking	1.0
+my trauma	1.0
+bother like	1.0
+like sometimes	1.0
+be ten	1.0
+and curl	1.0
+curl up	1.0
+ball and	1.0
+talk about this	1.0
+about this with	1.0
+this with my	1.0
+with my therapist	1.0
+my therapist because	1.0
+therapist because i’m	1.0
+scared of what	1.0
+of what she	1.0
+what she might	1.0
+she might tell	1.0
+tell me plus	1.0
+me plus i	1.0
+plus i think	1.0
+think my parents	1.0
+parents are sick	1.0
+are sick of	1.0
+sick of me	1.0
+of me talking	1.0
+me talking about	1.0
+about my trauma	1.0
+my trauma and	1.0
+trauma and i	1.0
+a bother like	1.0
+bother like sometimes	1.0
+like sometimes i’m	1.0
+sometimes i’m on	1.0
+i’m on top	1.0
+top of the	1.0
+world and love	1.0
+and love everything	1.0
+love everything and	1.0
+and everyone and	1.0
+everyone and i’m	1.0
+and i’m ready	1.0
+out and be	1.0
+and be a	1.0
+be a doctor	1.0
+a doctor but	1.0
+doctor but sometimes	1.0
+sometimes i want	1.0
+die or i	1.0
+or i want	1.0
+to be ten	1.0
+be ten years	1.0
+ten years old	1.0
+old and curl	1.0
+and curl up	1.0
+curl up in	1.0
+a ball and	1.0
+ball and cry	1.0
+i’m scared to talk	1.0
+scared to talk about	1.0
+to talk about this	1.0
+talk about this with	1.0
+about this with my	1.0
+this with my therapist	1.0
+with my therapist because	1.0
+my therapist because i’m	1.0
+therapist because i’m scared	1.0
+i’m scared of what	1.0
+scared of what she	1.0
+of what she might	1.0
+what she might tell	1.0
+she might tell me	1.0
+might tell me plus	1.0
+tell me plus i	1.0
+me plus i think	1.0
+plus i think my	1.0
+i think my parents	1.0
+think my parents are	1.0
+my parents are sick	1.0
+parents are sick of	1.0
+are sick of me	1.0
+sick of me talking	1.0
+of me talking about	1.0
+me talking about my	1.0
+talking about my trauma	1.0
+about my trauma and	1.0
+my trauma and i	1.0
+trauma and i don’t	1.0
+be a bother like	1.0
+a bother like sometimes	1.0
+bother like sometimes i’m	1.0
+like sometimes i’m on	1.0
+sometimes i’m on top	1.0
+i’m on top of	1.0
+on top of the	1.0
+top of the world	1.0
+of the world and	1.0
+the world and love	1.0
+world and love everything	1.0
+and love everything and	1.0
+love everything and everyone	1.0
+everything and everyone and	1.0
+and everyone and i’m	1.0
+everyone and i’m ready	1.0
+and i’m ready to	1.0
+i’m ready to move	1.0
+move out and be	1.0
+out and be a	1.0
+and be a doctor	1.0
+be a doctor but	1.0
+a doctor but sometimes	1.0
+doctor but sometimes i	1.0
+but sometimes i want	1.0
+sometimes i want to	1.0
+i want to die	1.0
+want to die or	1.0
+to die or i	1.0
+die or i want	1.0
+or i want to	1.0
+want to be ten	1.0
+to be ten years	1.0
+be ten years old	1.0
+ten years old and	1.0
+years old and curl	1.0
+old and curl up	1.0
+and curl up in	1.0
+curl up in a	1.0
+in a ball and	1.0
+a ball and cry	1.0
+to wasted	1.0
+wasted on	1.0
+won’t live	1.0
+live past	1.0
+past twenty	1.0
+it to wasted	1.0
+to wasted on	1.0
+wasted on me	1.0
+on me a	1.0
+me a person	1.0
+a person who	1.0
+person who won’t	1.0
+who won’t live	1.0
+won’t live past	1.0
+live past twenty	1.0
+want it to wasted	1.0
+it to wasted on	1.0
+to wasted on me	1.0
+wasted on me a	1.0
+on me a person	1.0
+me a person who	1.0
+a person who won’t	1.0
+person who won’t live	1.0
+who won’t live past	1.0
+won’t live past twenty	1.0
+conquer	1.0
+avoided it	1.0
+worked so	1.0
+to conquer	1.0
+i have avoided	1.0
+have avoided it	1.0
+avoided it because	1.0
+am scared that	1.0
+will feel that	1.0
+that way and	1.0
+way and go	1.0
+and go back	1.0
+go back on	1.0
+back on things	1.0
+on things that	1.0
+i have worked	1.0
+have worked so	1.0
+worked so hard	1.0
+hard to conquer	1.0
+i have avoided it	1.0
+have avoided it because	1.0
+avoided it because i	1.0
+because i am scared	1.0
+i am scared that	1.0
+am scared that i	1.0
+that i will feel	1.0
+i will feel that	1.0
+will feel that way	1.0
+feel that way and	1.0
+that way and go	1.0
+way and go back	1.0
+and go back on	1.0
+go back on things	1.0
+back on things that	1.0
+on things that i	1.0
+things that i have	1.0
+that i have worked	1.0
+i have worked so	1.0
+have worked so hard	1.0
+worked so hard to	1.0
+so hard to conquer	1.0
+the drink	1.0
+drink will	1.0
+day unless	1.0
+she stops	1.0
+the drink will	1.0
+drink will kill	1.0
+kill her one	1.0
+her one day	1.0
+one day unless	1.0
+day unless she	1.0
+unless she stops	1.0
+the drink will kill	1.0
+drink will kill her	1.0
+will kill her one	1.0
+kill her one day	1.0
+her one day unless	1.0
+one day unless she	1.0
+day unless she stops	1.0
+resigned	1.0
+much resigned	1.0
+resigned to	1.0
+the worry	1.0
+else we	1.0
+we are pretty	1.0
+are pretty much	1.0
+pretty much resigned	1.0
+much resigned to	1.0
+resigned to the	1.0
+to get any	1.0
+any better however	1.0
+better however there	1.0
+however there is	1.0
+is always the	1.0
+always the worry	1.0
+the worry is	1.0
+worry is there	1.0
+there anything else	1.0
+anything else we	1.0
+else we could	1.0
+we could do	1.0
+we are pretty much	1.0
+are pretty much resigned	1.0
+pretty much resigned to	1.0
+much resigned to the	1.0
+resigned to the fact	1.0
+not going to get	1.0
+going to get any	1.0
+to get any better	1.0
+get any better however	1.0
+any better however there	1.0
+better however there is	1.0
+however there is always	1.0
+there is always the	1.0
+is always the worry	1.0
+always the worry is	1.0
+the worry is there	1.0
+worry is there anything	1.0
+is there anything else	1.0
+there anything else we	1.0
+anything else we could	1.0
+else we could do	1.0
+manipulate to	1.0
+them think	1.0
+who cares	1.0
+come in	1.0
+in handy	1.0
+handy when	1.0
+do things to	1.0
+things to manipulate	1.0
+to manipulate to	1.0
+manipulate to make	1.0
+make them think	1.0
+them think of	1.0
+of me as	1.0
+as a good	1.0
+good person who	1.0
+person who cares	1.0
+who cares about	1.0
+cares about them	1.0
+them so they	1.0
+so they would	1.0
+they would come	1.0
+would come in	1.0
+come in handy	1.0
+in handy when	1.0
+handy when i	1.0
+i need them	1.0
+tend to do things	1.0
+to do things to	1.0
+do things to manipulate	1.0
+things to manipulate to	1.0
+to manipulate to make	1.0
+manipulate to make them	1.0
+to make them think	1.0
+make them think of	1.0
+them think of me	1.0
+think of me as	1.0
+of me as a	1.0
+me as a good	1.0
+as a good person	1.0
+a good person who	1.0
+good person who cares	1.0
+person who cares about	1.0
+who cares about them	1.0
+cares about them so	1.0
+about them so they	1.0
+them so they would	1.0
+so they would come	1.0
+they would come in	1.0
+would come in handy	1.0
+come in handy when	1.0
+in handy when i	1.0
+handy when i need	1.0
+when i need them	1.0
+us trying	1.0
+trying anal	1.0
+sex which	1.0
+try with	1.0
+they didn’t want	1.0
+didn’t want me	1.0
+tell him because	1.0
+him because they	1.0
+they thought he	1.0
+thought he would	1.0
+he would think	1.0
+would think that	1.0
+think that was	1.0
+that was weird	1.0
+was weird but	1.0
+had to because	1.0
+knew it would	1.0
+it would get	1.0
+would get in	1.0
+way of us	1.0
+of us trying	1.0
+us trying anal	1.0
+trying anal sex	1.0
+anal sex which	1.0
+sex which i	1.0
+which i had	1.0
+i had told	1.0
+had told him	1.0
+told him i	1.0
+like to try	1.0
+to try with	1.0
+try with him	1.0
+they didn’t want me	1.0
+didn’t want me to	1.0
+me to tell him	1.0
+to tell him because	1.0
+tell him because they	1.0
+him because they thought	1.0
+because they thought he	1.0
+they thought he would	1.0
+thought he would think	1.0
+he would think that	1.0
+would think that was	1.0
+think that was weird	1.0
+that was weird but	1.0
+was weird but i	1.0
+weird but i had	1.0
+but i had to	1.0
+i had to because	1.0
+had to because i	1.0
+to because i knew	1.0
+because i knew it	1.0
+i knew it would	1.0
+knew it would get	1.0
+it would get in	1.0
+would get in the	1.0
+the way of us	1.0
+way of us trying	1.0
+of us trying anal	1.0
+us trying anal sex	1.0
+trying anal sex which	1.0
+anal sex which i	1.0
+sex which i had	1.0
+which i had told	1.0
+i had told him	1.0
+had told him i	1.0
+told him i would	1.0
+him i would like	1.0
+would like to try	1.0
+like to try with	1.0
+to try with him	1.0
+institution	1.0
+day i’ll	1.0
+mental institution	1.0
+institution if	1.0
+up doing	1.0
+something horrible	1.0
+afraid that one	1.0
+that one day	1.0
+one day i’ll	1.0
+day i’ll be	1.0
+i’ll be sent	1.0
+a mental institution	1.0
+mental institution if	1.0
+institution if i	1.0
+if i end	1.0
+end up doing	1.0
+up doing something	1.0
+doing something horrible	1.0
+i’m afraid that one	1.0
+afraid that one day	1.0
+that one day i’ll	1.0
+one day i’ll be	1.0
+day i’ll be sent	1.0
+i’ll be sent to	1.0
+be sent to a	1.0
+sent to a mental	1.0
+to a mental institution	1.0
+a mental institution if	1.0
+mental institution if i	1.0
+institution if i end	1.0
+if i end up	1.0
+i end up doing	1.0
+end up doing something	1.0
+up doing something horrible	1.0
+ever stop	1.0
+i deeply	1.0
+deeply regret	1.0
+want anyone	1.0
+with tormenting	1.0
+tormenting me	1.0
+will ever stop	1.0
+ever stop i	1.0
+stop i deeply	1.0
+i deeply regret	1.0
+deeply regret it	1.0
+regret it but	1.0
+don’t want anyone	1.0
+want anyone to	1.0
+anyone to think	1.0
+they could get	1.0
+could get away	1.0
+away with tormenting	1.0
+with tormenting me	1.0
+don’t think this will	1.0
+this will ever stop	1.0
+will ever stop i	1.0
+ever stop i deeply	1.0
+stop i deeply regret	1.0
+i deeply regret it	1.0
+deeply regret it but	1.0
+regret it but i	1.0
+i don’t want anyone	1.0
+don’t want anyone to	1.0
+want anyone to think	1.0
+anyone to think that	1.0
+to think that they	1.0
+think that they could	1.0
+that they could get	1.0
+they could get away	1.0
+could get away with	1.0
+get away with tormenting	1.0
+away with tormenting me	1.0
+corporate	1.0
+survivor	1.0
+repeated	1.0
+throat	1.0
+melted	1.0
+first shot	1.0
+in corporate	1.0
+corporate world	1.0
+a survivor	1.0
+survivor of	1.0
+of repeated	1.0
+repeated child	1.0
+child sexual	1.0
+esteem trust	1.0
+and sharing	1.0
+sharing issues	1.0
+to survive	1.0
+survive in	1.0
+this cut	1.0
+cut throat	1.0
+throat world	1.0
+world everything	1.0
+everything haunts	1.0
+guy even	1.0
+for wrong	1.0
+wrong reasons	1.0
+reasons said	1.0
+i melted	1.0
+my first shot	1.0
+first shot in	1.0
+shot in corporate	1.0
+in corporate world	1.0
+corporate world and	1.0
+world and since	1.0
+am a survivor	1.0
+a survivor of	1.0
+survivor of repeated	1.0
+of repeated child	1.0
+repeated child sexual	1.0
+child sexual abuse	1.0
+abuse i have	1.0
+self esteem trust	1.0
+esteem trust and	1.0
+trust and sharing	1.0
+and sharing issues	1.0
+sharing issues i	1.0
+issues i already	1.0
+already am not	1.0
+if i will	1.0
+able to survive	1.0
+to survive in	1.0
+survive in this	1.0
+in this cut	1.0
+this cut throat	1.0
+cut throat world	1.0
+throat world everything	1.0
+world everything haunts	1.0
+everything haunts me	1.0
+myself and when	1.0
+and when a	1.0
+when a guy	1.0
+a guy even	1.0
+guy even for	1.0
+even for wrong	1.0
+for wrong reasons	1.0
+wrong reasons said	1.0
+reasons said he	1.0
+said he likes	1.0
+he likes me	1.0
+likes me i	1.0
+me i melted	1.0
+is my first shot	1.0
+my first shot in	1.0
+first shot in corporate	1.0
+shot in corporate world	1.0
+in corporate world and	1.0
+corporate world and since	1.0
+world and since i	1.0
+and since i am	1.0
+i am a survivor	1.0
+am a survivor of	1.0
+a survivor of repeated	1.0
+survivor of repeated child	1.0
+of repeated child sexual	1.0
+repeated child sexual abuse	1.0
+child sexual abuse i	1.0
+sexual abuse i have	1.0
+abuse i have very	1.0
+i have very low	1.0
+low self esteem trust	1.0
+self esteem trust and	1.0
+esteem trust and sharing	1.0
+trust and sharing issues	1.0
+and sharing issues i	1.0
+sharing issues i already	1.0
+issues i already am	1.0
+i already am not	1.0
+already am not sure	1.0
+sure if i will	1.0
+if i will be	1.0
+be able to survive	1.0
+able to survive in	1.0
+to survive in this	1.0
+survive in this cut	1.0
+in this cut throat	1.0
+this cut throat world	1.0
+cut throat world everything	1.0
+throat world everything haunts	1.0
+world everything haunts me	1.0
+everything haunts me and	1.0
+me and i hate	1.0
+and i hate myself	1.0
+i hate myself and	1.0
+hate myself and when	1.0
+myself and when a	1.0
+and when a guy	1.0
+when a guy even	1.0
+a guy even for	1.0
+guy even for wrong	1.0
+even for wrong reasons	1.0
+for wrong reasons said	1.0
+wrong reasons said he	1.0
+reasons said he likes	1.0
+said he likes me	1.0
+he likes me i	1.0
+likes me i melted	1.0
+mother sleep	1.0
+i die	1.0
+even describe	1.0
+describe how	1.0
+sometimes i have	1.0
+my mother sleep	1.0
+mother sleep with	1.0
+sleep with me	1.0
+with me just	1.0
+me just in	1.0
+case i die	1.0
+i die in	1.0
+die in my	1.0
+in my sleep	1.0
+my sleep i	1.0
+sleep i don’t	1.0
+die alone i	1.0
+alone i cannot	1.0
+cannot even describe	1.0
+even describe how	1.0
+describe how i	1.0
+sometimes i have my	1.0
+i have my mother	1.0
+have my mother sleep	1.0
+my mother sleep with	1.0
+mother sleep with me	1.0
+sleep with me just	1.0
+with me just in	1.0
+me just in case	1.0
+just in case i	1.0
+in case i die	1.0
+case i die in	1.0
+i die in my	1.0
+die in my sleep	1.0
+in my sleep i	1.0
+my sleep i don’t	1.0
+sleep i don’t want	1.0
+don’t want to die	1.0
+want to die alone	1.0
+to die alone i	1.0
+die alone i cannot	1.0
+alone i cannot even	1.0
+i cannot even describe	1.0
+cannot even describe how	1.0
+even describe how i	1.0
+describe how i feel	1.0
+won't be able	0.9655172413793104
+i won't be able	0.9655172413793104
+won't be able to	0.9655172413793104
+won't be	0.9459459459459459
+i won't be	0.9333333333333333
