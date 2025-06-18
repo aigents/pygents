@@ -398,14 +398,19 @@ class TextMetrics(PygentsSentiment):
                     self.gram_arity = l
  
  
-    def get_sentiment_words(self,input_text,lists=None,rounding=2,debug=False):
+    def get_sentiment_words(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, debug=False):
         """
         See original reference implementation:
         https://github.com/aigents/aigents-java/blob/master/src/main/java/net/webstructor/data/LangPack.java#L355
         """
         if input_text is None or len(input_text) < 1:
             return 0, 0, 0
-        seq = [*input_text] if self.tokenize_chars else tokenize_re(input_text) #TODO unsupervised tokenization
+        #seq = [*input_text] if self.tokenize_chars else tokenize_re(input_text) #TODO unsupervised tokenization
+        if self.tokenize_chars:
+            seq = [*input_text]
+        else:
+            seq = [t for t in tokenize(input_text) if not (t in punctuation or t.isnumeric())] if not punctuation is None else tokenize(input_text)
+
         if debug:
             print("<{}>".format(str(seq)))
         if len(seq) < 1:
@@ -445,8 +450,9 @@ class TextMetrics(PygentsSentiment):
                     # turns into "the weather is None None today",
                     # so that ["not"] and ["good"] are not counted any more with n=1
                     if found:
-                        for Ni in range(0,N):
-                            seq[i + Ni] = None
+                        if priority:
+                            for Ni in range(0,N):
+                                seq[i + Ni] = None
                         i += N
                     else:
                         i += 1  
@@ -544,7 +550,7 @@ class Learner:
                     f.write(f"{ngram_str}\t{metric_value}\n")
         
     def learn_sentence(self, text, labels, n_max=4, tokenize = tokenize_re, punctuation = None, debug = False):
-        tokens = [t for t in tokenize(text) if not (t in punct or t.isnumeric())] if not punctuation is None else tokenize(text)
+        tokens = [t for t in tokenize(text) if not (t in punctuation or t.isnumeric())] if not punctuation is None else tokenize(text)
         for n in range(1, n_max + 1):
             n_grams = build_ngrams(tokens, n)
             self.count_ngrams(labels,n_grams)
