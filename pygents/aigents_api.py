@@ -473,19 +473,22 @@ class TextMetrics(PygentsSentiment):
             counts['contradictive'] = round(math.sqrt(counts['positive'] * counts['negative']),2)
         return counts
 
+def create_int_defaultdict():
+    return defaultdict(int)
+
 class Learner:
 
     def __init__(self):       
         self.labels = defaultdict(int) # A dictionary of label/category counts
         
         # Creating dictionaries for counting n-grams
-        self.n_gram_dicts = defaultdict(lambda: defaultdict(int)) # A dictionary for each label/category
+        self.n_gram_dicts = defaultdict(create_int_defaultdict) # A dictionary for each label/category
         self.all_n_grams = defaultdict(int)  # A general dictionary for all n-grams
         self.doc_counts = defaultdict(int)
 
-        self.uniq_n_gram_dicts = defaultdict(lambda: defaultdict(int)) # Counts of uniq N-grams by label/category
+        self.uniq_n_gram_dicts = defaultdict(create_int_defaultdict) # Counts of uniq N-grams by label/category
         self.uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text
-        self.n_gram_labels = defaultdict(lambda: defaultdict(int)) # Counts of labels/categories by N-gram
+        self.n_gram_labels = defaultdict(create_int_defaultdict) # Counts of labels/categories by N-gram
     
     def count_labels(self,labels):
         for label in labels:
