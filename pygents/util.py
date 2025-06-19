@@ -182,6 +182,10 @@ def count_subelements(element):
     return count 
 assert count_subelements(['1',2,[[3,'4',{'x':['5',6],'y':(7,'8')},{'z':{'p':9,'q':['10']}}]]]) == 10
 
+def contains_seq(B,A):
+    return any(A == B[i:len(A) + i] for i in range(len(B) - len(A) + 1))
+assert contains_seq(('L', 'R', 'L', 'L', 'L', 'R'),('L', 'R'))
+
 
 # Counting measures 
 
