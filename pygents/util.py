@@ -183,6 +183,10 @@ def count_subelements(element):
 assert count_subelements(['1',2,[[3,'4',{'x':['5',6],'y':(7,'8')},{'z':{'p':9,'q':['10']}}]]]) == 10
 
 def contains_seq(B,A):
+    if type(A) == list:
+        A = tuple(A)
+    if type(B) == list:
+        B = tuple(B)
     return any(A == B[i:len(A) + i] for i in range(len(B) - len(A) + 1))
 assert contains_seq(('L', 'R', 'L', 'L', 'L', 'R'),('L', 'R'))
 
