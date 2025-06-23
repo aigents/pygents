@@ -183,8 +183,28 @@ def count_subelements(element):
 assert count_subelements(['1',2,[[3,'4',{'x':['5',6],'y':(7,'8')},{'z':{'p':9,'q':['10']}}]]]) == 10
 
 def contains_seq(B,A):
+    if type(A) == list:
+        A = tuple(A)
+    if type(B) == list:
+        B = tuple(B)
     return any(A == B[i:len(A) + i] for i in range(len(B) - len(A) + 1))
 assert contains_seq(('L', 'R', 'L', 'L', 'L', 'R'),('L', 'R'))
+
+
+def sqrt_sum_squares_dict_values(dct):
+    return math.sqrt(sum(x*x for x in dct.values()))
+        
+def cosine_similarity(dict_1, dict_2):
+    intersecting_keys = list(dict_1.keys() & dict_2.keys())
+
+    List1 = list(dict_1[k] for k in intersecting_keys)
+    List2 = list(dict_2[k] for k in intersecting_keys)
+    
+    similarity = np.dot(List1,List2) / (sqrt_sum_squares_dict_values(dict_1) * sqrt_sum_squares_dict_values(dict_2))
+    return round(similarity, 2)
+
+assert cosine_similarity({"a": 1, "b": 2, "c": 3}, {"c": 5, "b": 4, "d": 6}) == 0.7
+assert cosine_similarity({"a": 1.0, "b": 0.5, "c": 0.1}, {"a": 1.0, "b": 0.4, "d": 0.1}) == 0.99
 
 
 # Counting measures 

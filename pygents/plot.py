@@ -58,6 +58,13 @@ def plot_dict(dic,labels,values,title=None,head=None,fontsize=None):
         else:
             plt.title(title)
 
+def plot_bar_from_list(label,labels,value,values,title=None,head=None,fontsize=None):
+    plt.bar(labels, values)
+    plt.title(f'{value}({label})')
+    plt.xlabel(label)
+    plt.ylabel(value)
+    plt.show()
+
 def plot_dict_bars(dic,labels,values,title=None,head=None,dim=(8,5)):
     df = pd.DataFrame([(key, dic[key]) for key in dic],columns=[labels,values])
     #df.sort_values(values,ascending=False,inplace=True)
