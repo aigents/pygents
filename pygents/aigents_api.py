@@ -478,7 +478,7 @@ def create_int_defaultdict():
 
 class Learner:
 
-    def __init__(self):       
+    def __init__(self, n_max = 4):       
         self.labels = defaultdict(int) # A dictionary of label/category counts
         
         # Creating dictionaries for counting n-grams
@@ -489,8 +489,8 @@ class Learner:
         self.uniq_n_gram_dicts = defaultdict(create_int_defaultdict) # Counts of uniq N-grams by label/category
         self.uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text
         self.n_gram_labels = defaultdict(create_int_defaultdict) # Counts of labels/categories by N-gram
-        self.df_len = 0  # number of documents
-        self.n_max = 0 # n_gram max length
+        self.data_len = 0  # number of documents
+        self.n_max = n_max # n_gram max length (do not pass as a "learn" argument or remove at all?)
     
     def count_labels(self,labels):
         for label in labels:
@@ -524,7 +524,7 @@ class Learner:
         #        norm_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.all_n_grams[n_gram]
         # TF-IDF
         tfidf = defaultdict(dict)
-        N = self.df_len
+        N = self.data_len
         for label, ngram_dict in self.n_gram_dicts.items():
             total = sum(ngram_dict.values())
             for n_gram, count in ngram_dict.items():
@@ -546,7 +546,8 @@ class Learner:
             norm_uniq_n_gram_dicts[uniq_n_gram_dict] = norm_uniq_n_gram_dict
             dic = uniq_n_gram_dicts[uniq_n_gram_dict] # pick uniq count of ngrams per labels
             for n_gram in dic:
-                if len(n_gram) <= self.n_max:
+                #if len(n_gram) <= self.n_max: # TODO remove with assert later!?
+                    assert(len(n_gram) <= self.n_max)
                     norm_uniq_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.labels[uniq_n_gram_dict] / len(self.n_gram_labels[n_gram])
         self.metrics['UFN/D/D'] = norm_uniq_n_gram_dicts
         # FN*UFN
@@ -608,8 +609,8 @@ class Learner:
             self.count_ngrams(labels,n_grams)
 
     def learn(self, text_labels, n_max=4, tokenize = tokenize_re, punctuation = None, sent=False, debug = False):
-        self.df_len = len(text_labels)
-        self.n_max = n_max
+        self.data_len += len(text_labels)
+        self.n_max = n_max # use globally defined in constructor
         for text_label in text_labels:
             text = text_label[0]
             labels = text_label[1]
