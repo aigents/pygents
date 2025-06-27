@@ -512,7 +512,8 @@ class Learner:
 
     def normalize(self):
         self.metrics = {}
-        self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts,self.all_n_grams)
+        # FN
+        self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts, self.all_n_grams)
         # FN (alternative computation)
         #self.norm_n_gram_dicts = {}
         #for n_gram_dict in self.n_gram_dicts:
@@ -521,24 +522,6 @@ class Learner:
         #    dic = self.n_gram_dicts[n_gram_dict]
         #    for n_gram in dic:
         #        norm_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.all_n_grams[n_gram]
-        #TODO : 
-        #selection_metrics = {
-        #    'F':frequency,
-        #    'UF':unique_frequency,
-        #    'FN':frequency_self_normalized,
-        #    'UFN':unique_frequency_self_normalized,
-        #    'UFN/D/D':norm_uniq_n_gram_dicts,
-        #    'FN*UFN':norm_norm_uniq,
-        #    'FN*UFN/D':norm_norm_uniq_norm,
-        #    'CFR':cfr,
-        #    'FCR':fcr,
-        #    'MR':mr,
-        #    'NLMI':nl_mi}
-
-    def normalize(self):
-        self.metrics = {}
-        # FN
-        self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts, self.all_n_grams)
         # TF-IDF
         tfidf = defaultdict(dict)
         N = self.df_len
