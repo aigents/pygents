@@ -39,7 +39,7 @@ nltk.download('punkt')
 SENT_DETECTOR = nltk.data.load('tokenizers/punkt/english.pickle')
 
 from pygents.text import url_lines
-from pygents.util import dictcount, dictdict_div_dict, dict_of_dicts_compress_by_threshold
+from pygents.util import dictcount, dictdict_div_dict, dict_of_dicts_compress_by_threshold, dictdict_mul_dictdict
 
 import logging
 logger = logging.getLogger(__name__)    
@@ -489,6 +489,8 @@ class Learner:
         self.uniq_n_gram_dicts = defaultdict(create_int_defaultdict) # Counts of uniq N-grams by label/category
         self.uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text
         self.n_gram_labels = defaultdict(create_int_defaultdict) # Counts of labels/categories by N-gram
+        self.df_len = 0  # number of documents
+        self.n_max = 0 # n_gram max length
     
     def count_labels(self,labels):
         for label in labels:
@@ -510,7 +512,8 @@ class Learner:
 
     def normalize(self):
         self.metrics = {}
-        self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts,self.all_n_grams)
+        # FN
+        self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts, self.all_n_grams)
         # FN (alternative computation)
         #self.norm_n_gram_dicts = {}
         #for n_gram_dict in self.n_gram_dicts:
@@ -519,19 +522,65 @@ class Learner:
         #    dic = self.n_gram_dicts[n_gram_dict]
         #    for n_gram in dic:
         #        norm_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.all_n_grams[n_gram]
-        #TODO : 
-        #selection_metrics = {
-        #    'F':frequency,
-        #    'UF':unique_frequency,
-        #    'FN':frequency_self_normalized,
-        #    'UFN':unique_frequency_self_normalized,
-        #    'UFN/D/D':norm_uniq_n_gram_dicts,
-        #    'FN*UFN':norm_norm_uniq,
-        #    'FN*UFN/D':norm_norm_uniq_norm,
-        #    'CFR':cfr,
-        #    'FCR':fcr,
-        #    'MR':mr,
-        #    'NLMI':nl_mi}        
+        # TF-IDF
+        tfidf = defaultdict(dict)
+        N = self.df_len
+        for label, ngram_dict in self.n_gram_dicts.items():
+            total = sum(ngram_dict.values())
+            for n_gram, count in ngram_dict.items():
+                tf = count / total if total else 0.0
+                idf = math.log(N / (1 + self.doc_counts.get(n_gram, 0))) if N else 0.0
+                tfidf[label][n_gram] = tf * idf
+        self.metrics['TF-IDF'] = tfidf
+        # F: raw frequency
+        self.metrics['F'] = self.n_gram_dicts
+        # UF: unique frequency
+        self.metrics['UF'] = self.uniq_n_gram_dicts
+        # UFN: unique frequency normalized
+        self.metrics['UFN'] = dictdict_div_dict(self.uniq_n_gram_dicts, self.uniq_all_n_grams)
+        # UF/D/D: UF divided by doc counts
+        uniq_n_gram_dicts = self.metrics['UF']
+        norm_uniq_n_gram_dicts = {}
+        for uniq_n_gram_dict in uniq_n_gram_dicts: # iterate over all labels
+            norm_uniq_n_gram_dict = {}
+            norm_uniq_n_gram_dicts[uniq_n_gram_dict] = norm_uniq_n_gram_dict
+            dic = uniq_n_gram_dicts[uniq_n_gram_dict] # pick uniq count of ngrams per labels
+            for n_gram in dic:
+                if len(n_gram) <= self.n_max:
+                    norm_uniq_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.labels[uniq_n_gram_dict] / len(self.n_gram_labels[n_gram])
+        self.metrics['UFN/D/D'] = norm_uniq_n_gram_dicts
+        # FN*UFN
+        fn = self.metrics['FN']
+        ufn = self.metrics['UFN']
+        self.metrics['FN*UFN'] = dictdict_mul_dictdict(fn, ufn)
+        # FN*UFN/D
+        n_gram_labels_counts = {}
+        for n_gram, label_dict in self.n_gram_labels.items():
+            n_gram_labels_counts[n_gram] = len(label_dict)
+        self.metrics['FN*UFN/D'] = dictdict_div_dict(self.metrics['FN*UFN'], n_gram_labels_counts)
+        # NLMI, FCR, CFR, MR
+        nl_mi = {}
+        for label in self.uniq_n_gram_dicts:
+            dic = self.uniq_n_gram_dicts[label]
+            nl_mi[label] = {}
+            for n_gram in dic:
+                nl_mi[label][n_gram] = dic[n_gram] * dic[n_gram] / (self.labels[label] * self.uniq_all_n_grams[n_gram])    
+        fcr = {}
+        cfr = {}
+        mr = {}
+        for label in self.uniq_n_gram_dicts:
+            dic = self.uniq_n_gram_dicts[label]
+            fcr[label] = {}
+            cfr[label] = {}
+            mr[label] = {}
+            for n_gram in dic:
+                features_by_cat = sum(dic.values()) # features by category
+                cats_by_feature = sum(self.n_gram_labels[n_gram].values()) # categories by feature
+                fcr[label][n_gram] = dic[n_gram] / cats_by_feature # feature to category relevance - denominated by n of categories by feature
+                cfr[label][n_gram] = dic[n_gram] / features_by_cat # category to feature relevance - denominated by n of features by category
+                mr[label][n_gram] = dic[n_gram] * dic[n_gram] / (features_by_cat * cats_by_feature)
+
+        return      
     
     def export(self,metric='FN',inclusion_threshold=50):
         return dict_of_dicts_compress_by_threshold(self.metrics[metric],inclusion_threshold)
@@ -559,6 +608,8 @@ class Learner:
             self.count_ngrams(labels,n_grams)
 
     def learn(self, text_labels, n_max=4, tokenize = tokenize_re, punctuation = None, sent=False, debug = False):
+        self.df_len = len(text_labels)
+        self.n_max = n_max
         for text_label in text_labels:
             text = text_label[0]
             labels = text_label[1]
