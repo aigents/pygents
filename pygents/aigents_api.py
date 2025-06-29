@@ -478,7 +478,7 @@ def create_int_defaultdict():
 
 class Learner:
 
-    def __init__(self, n_max = 4):       
+    def __init__(self, n_max = 4, selection_metrics=('FN','TF-IDF','UFN','UF/D/D','FN*UFN','FN*UFN/D','NLMI','FCR','CFR','MR') ):       
         self.labels = defaultdict(int) # A dictionary of label/category counts
         
         # Creating dictionaries for counting n-grams
@@ -491,6 +491,7 @@ class Learner:
         self.n_gram_labels = defaultdict(create_int_defaultdict) # Counts of labels/categories by N-gram
         self.data_len = 0  # number of documents
         self.n_max = n_max # n_gram max length (do not pass as a "learn" argument or remove at all?)
+        self.selection_metrics = selection_metrics
     
     def count_labels(self,labels):
         for label in labels:
@@ -512,6 +513,10 @@ class Learner:
 
     def normalize(self):
         self.metrics = {}
+        # F: raw frequency
+        self.metrics['F'] = self.n_gram_dicts
+        # UF: unique frequency
+        self.metrics['UF'] = self.uniq_n_gram_dicts
         # FN
         self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts, self.all_n_grams)
         # FN (alternative computation)
@@ -522,6 +527,8 @@ class Learner:
         #    dic = self.n_gram_dicts[n_gram_dict]
         #    for n_gram in dic:
         #        norm_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.all_n_grams[n_gram]
+        if self.selection_metrics == ('FN'): # do nothing else!
+            return
         # TF-IDF
         tfidf = defaultdict(dict)
         N = self.data_len
@@ -532,10 +539,6 @@ class Learner:
                 idf = math.log(N / (1 + self.doc_counts.get(n_gram, 0))) if N else 0.0
                 tfidf[label][n_gram] = tf * idf
         self.metrics['TF-IDF'] = tfidf
-        # F: raw frequency
-        self.metrics['F'] = self.n_gram_dicts
-        # UF: unique frequency
-        self.metrics['UF'] = self.uniq_n_gram_dicts
         # UFN: unique frequency normalized
         self.metrics['UFN'] = dictdict_div_dict(self.uniq_n_gram_dicts, self.uniq_all_n_grams)
         # UF/D/D: UF divided by doc counts
