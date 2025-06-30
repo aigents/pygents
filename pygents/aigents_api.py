@@ -483,11 +483,11 @@ class Learner:
         
         # Creating dictionaries for counting n-grams
         self.n_gram_dicts = defaultdict(create_int_defaultdict) # A dictionary for each label/category
-        self.all_n_grams = defaultdict(int)  # A general dictionary for all n-grams
-        self.doc_counts = defaultdict(int)
+        self.all_n_grams = defaultdict(int)  # A general dictionary for all n-grams,
+        # self.doc_counts = defaultdict(int) # A count of documents mentioning the n-gram uniquely
 
         self.uniq_n_gram_dicts = defaultdict(create_int_defaultdict) # Counts of uniq N-grams by label/category
-        self.uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text
+        self.uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text (same as self.doc_counts)
         self.n_gram_labels = defaultdict(create_int_defaultdict) # Counts of labels/categories by N-gram
         self.data_len = 0  # number of documents
         self.n_max = n_max # n_gram max length (do not pass as a "learn" argument or remove at all?)
@@ -505,7 +505,7 @@ class Learner:
 
         uniq_n_grams = set(n_grams)
         for uniq_n_gram in uniq_n_grams:
-            self.doc_counts[uniq_n_gram] += 1
+            # self.doc_counts[uniq_n_gram] += 1
             dictcount(self.uniq_all_n_grams, uniq_n_gram)
             for label in labels:
                 dictcount(self.uniq_n_gram_dicts[label], uniq_n_gram)
@@ -536,7 +536,8 @@ class Learner:
             total = sum(ngram_dict.values())
             for n_gram, count in ngram_dict.items():
                 tf = count / total if total else 0.0
-                idf = math.log(N / (1 + self.doc_counts.get(n_gram, 0))) if N else 0.0
+                # idf = math.log(N / (1 + self.doc_counts.get(n_gram, 0))) if N else 0.0
+                idf = math.log(N / (1 + self.uniq_all_n_grams.get(n_gram, 0))) if N else 0.0
                 tfidf[label][n_gram] = tf * idf
         self.metrics['TF-IDF'] = tfidf
         # UFN: unique frequency normalized
