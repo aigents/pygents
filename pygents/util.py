@@ -89,15 +89,19 @@ def dict_of_dicts_compress_by_threshold(dict_of_dicts, inclusion_threshold):
     return filtered_dict_of_dicts
 
 
-def dictdict_div_dict(num, den):
+def dictdict_div_dict(num, den, default = 1, debug = False):
     res = {}
     for n in num:
         if isinstance(num[n], dict):
             res[n] = dictdict_div_dict(num[n], den)
         else:
-            #print(n,num[n],den[n],type(num[n]),type(den[n]))
-            #k = float(num[n]) / den[n]
-            res[n] = float(num[n]) / den[n]
+            if debug:
+                print(n,num[n],den[n],type(num[n]),type(den[n]))
+                #k = float(num[n]) / den[n]
+            if den[n] == 0:
+                res[n] = float(num[n]) / default
+            else:
+                res[n] = float(num[n]) / den[n]
     return res
 n = {"a":{"x":10,"y":15},"b":{"y":30,"z":40}}; d = {"x":20,"y":30,"z":40}; assert str(dictdict_div_dict(n,d))=="{'a': {'x': 0.5, 'y': 0.5}, 'b': {'y': 1.0, 'z': 1.0}}"
 
