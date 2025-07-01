@@ -478,7 +478,7 @@ def create_int_defaultdict():
 
 class Learner:
 
-    def __init__(self, n_max = 4, selection_metrics=('FN','TF-IDF','UFN','UF/D/D','FN*UFN','FN*UFN/D','NLMI','FCR','CFR','MR') ):       
+    def __init__(self, n_max = 4, selection_metrics=('F','UF','FN','TF-IDF','UFN','UFN/D/D','FN*UFN','FN*UFN/D','NLMI','FCR','CFR','MR') ):       
         self.labels = defaultdict(int) # A dictionary of label/category counts
         
         # Creating dictionaries for counting n-grams
@@ -519,14 +519,6 @@ class Learner:
         self.metrics['UF'] = self.uniq_n_gram_dicts
         # FN
         self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts, self.all_n_grams)
-        # FN (alternative computation)
-        #self.norm_n_gram_dicts = {}
-        #for n_gram_dict in self.n_gram_dicts:
-        #    norm_n_gram_dict = {}
-        #    self.norm_n_gram_dicts[n_gram_dict] = norm_n_gram_dict
-        #    dic = self.n_gram_dicts[n_gram_dict]
-        #    for n_gram in dic:
-        #        norm_n_gram_dict[n_gram] = float( dic[n_gram] ) / self.all_n_grams[n_gram]
         if self.selection_metrics == ('FN'): # do nothing else!
             return
         # TF-IDF
@@ -536,7 +528,6 @@ class Learner:
             total = sum(ngram_dict.values())
             for n_gram, count in ngram_dict.items():
                 tf = count / total if total else 0.0
-                # idf = math.log(N / (1 + self.doc_counts.get(n_gram, 0))) if N else 0.0
                 idf = math.log(N / (1 + self.uniq_all_n_grams.get(n_gram, 0))) if N else 0.0
                 tfidf[label][n_gram] = tf * idf
         self.metrics['TF-IDF'] = tfidf
@@ -584,7 +575,10 @@ class Learner:
                 fcr[label][n_gram] = dic[n_gram] / cats_by_feature # feature to category relevance - denominated by n of categories by feature
                 cfr[label][n_gram] = dic[n_gram] / features_by_cat # category to feature relevance - denominated by n of features by category
                 mr[label][n_gram] = dic[n_gram] * dic[n_gram] / (features_by_cat * cats_by_feature)
-
+        self.metrics['NLMI'] = nl_mi
+        self.metrics['FCR'] = fcr
+        self.metrics['CFR'] = cfr
+        self.metrics['MR'] = mr
         return      
     
     def export(self,metric='FN',inclusion_threshold=50):
