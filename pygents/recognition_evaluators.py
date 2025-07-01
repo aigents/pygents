@@ -129,6 +129,9 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,debug=False):
     
     return pre, rec, f1, acc
 
+
+
+"""
 def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, n_max = 4, all_scores = False, \
                      averages=False, evaluator=our_evaluator_tm):
     all_metrics = sorted(all_metrics)
@@ -182,3 +185,64 @@ def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion
     f1avgs = evaluate_model(model, test_df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, \
                             n_max = n_max, all_scores = all_scores, averages = averages, evaluator = evaluator)
     return f1avgs
+
+"""
+
+
+
+def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, n_max = 4, selection_metric = 'FN',
+                     all_scores = False,averages=False, evaluator=our_evaluator_tm):
+    all_metrics = sorted(all_metrics)
+    pres = [[] for i in range(len(all_metrics))]
+    recs = [[] for i in range(len(all_metrics))]
+    f1s = [[] for i in range(len(all_metrics))]
+    accs = [[] for i in range(len(all_metrics))]
+    f1avgs = []
+        
+    for t in detection_thresholds:
+        pre, rec, f1, acc = evaluate_tm_df(test_df,tm,evaluator,t/100.0,all_metrics,debug=False)
+        mi = 0
+        for metric in all_metrics:
+            pres[mi].append(pre[metric])
+            recs[mi].append(rec[metric])
+            f1s[mi].append(f1[metric])
+            accs[mi].append(acc[metric])
+            mi += 1
+        f1avgs.append(sum([f1[metric] for metric in all_metrics])/len(all_metrics))
+
+    if all_scores:
+        matrix_plot(all_metrics, detection_thresholds, pres, 1.0, title = f'Precision: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
+        matrix_plot(all_metrics, detection_thresholds, recs, 1.0, title = f'Recall: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
+    matrix_plot(all_metrics, detection_thresholds, f1s, 1.0, title = f'F1: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
+    if averages:
+        plot_bar_from_list('Detection Threshold',detection_thresholds,'F1',f1avgs)
+
+
+def evaluate_model(model, test_df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, 
+                   n_max=4, selection_metrics = 'FN', all_scores=False, name='Multiclass', averages=False, evaluator=our_evaluator_tm):
+    for inclusion_threshold in inclusion_thresholds:
+        for selection_metric in selection_metrics:
+            model.save(path=test_path, name=f'{model_prefix}-{inclusion_threshold}',metric=selection_metric,
+                   inclusion_threshold=inclusion_threshold)
+            all_metrics = model.export(metric=selection_metric, inclusion_threshold=inclusion_threshold).keys() - {'No_Distortion'}
+            tm = TextMetrics(language_metrics('',all_metrics,path=test_path + f'/{model_prefix}-{inclusion_threshold}'),
+                         encoding="utf-8",metric_logarithmic=True,debug=False)
+            evaluate_metrics(tm,test_df,inclusion_threshold,detection_thresholds,name,all_metrics,
+                                  n_max=n_max, selection_metric = selection_metric,all_scores=all_scores,
+                                  averages=averages,evaluator=evaluator)
+
+
+
+def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, 
+                     n_max=4, selection_metrics = 'FN', all_scores=False, averages=False, split_shift=0, evaluator=our_evaluator_tm):
+    train_df = df[(df.index + split_shift) % validation_fraction != 0]
+    test_df  = df[(df.index + split_shift) % validation_fraction == 0]
+    print(f'Shift={split_shift}: train={len(train_df)}, test={len(test_df)}')
+
+    learner = Learner(n_max=n_max)
+    model = learner.learn(df2labeled(train_df),punctuation=punct,debug=False)
+    print('Labels count:', model.labels)
+
+    evaluate_model(model,test_df,test_path,model_prefix,validation_fraction,inclusion_thresholds,detection_thresholds,
+                                n_max=n_max,selection_metrics = selection_metrics,
+                                all_scores=all_scores,averages=averages,evaluator=evaluator)
