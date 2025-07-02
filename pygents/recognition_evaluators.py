@@ -43,7 +43,16 @@ def our_evaluator_tm(all_metrics,tm,text,threshold):
 
 def our_evaluator_top(all_metrics,tm,text,threshold,top=2):
     metrics = tm.get_sentiment_words(text)
-    ranked_metrics = sorted(metrics.items(), key=lambda x: x[1],reverse=True)[:top]
+    ranked_metrics = sorted(metrics.items(), key=lambda x: (x[1],x[0]),reverse=True)[:top] # "stable sort"
+    dic = {}
+    for rm in ranked_metrics:
+        m = rm[0]
+        dic[m] = True if m in metrics and metrics[m] > threshold else False
+    return dic
+
+def our_evaluator_top1(all_metrics,tm,text,threshold,top=1):
+    metrics = tm.get_sentiment_words(text)
+    ranked_metrics = sorted(metrics.items(), key=lambda x: (x[1],x[0]),reverse=True)[:top] # "stable sort"
     dic = {}
     for rm in ranked_metrics:
         m = rm[0]
@@ -191,7 +200,7 @@ def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion
 
 
 def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, n_max = 4, selection_metric = 'FN',
-                     all_scores = False,averages=False, evaluator=our_evaluator_tm):
+                     f1_score=False, all_scores = False, averages=False, evaluator=our_evaluator_tm, accumulator=None):
     all_metrics = sorted(all_metrics)
     pres = [[] for i in range(len(all_metrics))]
     recs = [[] for i in range(len(all_metrics))]
@@ -208,18 +217,22 @@ def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, nam
             f1s[mi].append(f1[metric])
             accs[mi].append(acc[metric])
             mi += 1
-        f1avgs.append(sum([f1[metric] for metric in all_metrics])/len(all_metrics))
+        f1avg = sum([f1[metric] for metric in all_metrics])/len(all_metrics)
+        f1avgs.append(f1avg)
+        if not accumulator is None:
+            accumulator.append((n_max,inclusion_threshold,selection_metric,t,f1avg))
 
     if all_scores:
         matrix_plot(all_metrics, detection_thresholds, pres, 1.0, title = f'Precision: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
         matrix_plot(all_metrics, detection_thresholds, recs, 1.0, title = f'Recall: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
-    matrix_plot(all_metrics, detection_thresholds, f1s, 1.0, title = f'F1: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
+    if all_scores or f1_score:
+        matrix_plot(all_metrics, detection_thresholds, f1s, 1.0, title = f'F1: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
     if averages:
         plot_bar_from_list('Detection Threshold',detection_thresholds,'F1',f1avgs)
 
 
 def evaluate_model(model, test_df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, 
-                   n_max=4, selection_metrics = 'FN', all_scores=False, name='Multiclass', averages=False, evaluator=our_evaluator_tm):
+                   n_max=4, selection_metrics = 'FN', all_scores=False, name='Multiclass', averages=False, evaluator=our_evaluator_tm, accumulator=None):
     for inclusion_threshold in inclusion_thresholds:
         for selection_metric in selection_metrics:
             model.save(path=test_path, name=f'{model_prefix}-{inclusion_threshold}',metric=selection_metric,
@@ -229,12 +242,12 @@ def evaluate_model(model, test_df, test_path, model_prefix, validation_fraction,
                          encoding="utf-8",metric_logarithmic=True,debug=False)
             evaluate_metrics(tm,test_df,inclusion_threshold,detection_thresholds,name,all_metrics,
                                   n_max=n_max, selection_metric = selection_metric,all_scores=all_scores,
-                                  averages=averages,evaluator=evaluator)
+                                  averages=averages,evaluator=evaluator,accumulator=accumulator)
 
 
 
 def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, 
-                     n_max=4, selection_metrics = 'FN', all_scores=False, averages=False, split_shift=0, evaluator=our_evaluator_tm):
+                     n_max=4, selection_metrics = 'FN', all_scores=False, averages=False, split_shift=0, evaluator=our_evaluator_tm, accumulator=None):
     train_df = df[(df.index + split_shift) % validation_fraction != 0]
     test_df  = df[(df.index + split_shift) % validation_fraction == 0]
     print(f'Shift={split_shift}: train={len(train_df)}, test={len(test_df)}')
@@ -245,4 +258,4 @@ def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion
 
     evaluate_model(model,test_df,test_path,model_prefix,validation_fraction,inclusion_thresholds,detection_thresholds,
                                 n_max=n_max,selection_metrics = selection_metrics,
-                                all_scores=all_scores,averages=averages,evaluator=evaluator)
+                                all_scores=all_scores,averages=averages,evaluator=evaluator,accumulator=accumulator)

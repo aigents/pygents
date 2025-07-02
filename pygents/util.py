@@ -423,4 +423,11 @@ assert str(evaluate_compression(["aaaabbbbaaaabbbb"],[["aa"],["aa"],["bb"],["bb"
 assert str(evaluate_compression(["aaaabbbbaaaabbbb"],[["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"],["a"],["a"],["a"],["a"],["b"],["b"],["b"],["b"]])) == "-0.125"
 
 
+def agg_min_max_avg_mpe(runs):
+    max_v = max(runs)
+    min_v = min(runs)
+    avg_v = sum(runs)/len(runs)
+    # https://en.wikipedia.org/wiki/Mean_absolute_error
+    mpe_v = sum([abs(v-avg_v) for v in runs])/len(runs)/avg_v*100 if avg_v > 0 else 0
+    return min_v, max_v, avg_v, mpe_v
 
