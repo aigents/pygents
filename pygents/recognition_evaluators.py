@@ -253,9 +253,10 @@ def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion
     print(f'Shift={split_shift}: train={len(train_df)}, test={len(test_df)}')
 
     learner = Learner(n_max=n_max)
-    model = learner.learn(df2labeled(train_df),punctuation=punct,debug=False)
+    model = learner.learn(df2labeled(train_df),n_max=n_max,punctuation=punct,sent=True,debug=False)
     print('Labels count:', model.labels)
 
     evaluate_model(model,test_df,test_path,model_prefix,validation_fraction,inclusion_thresholds,detection_thresholds,
                                 n_max=n_max,selection_metrics = selection_metrics,
                                 all_scores=all_scores,averages=averages,evaluator=evaluator,accumulator=accumulator)
+

@@ -272,3 +272,28 @@ def dict2tree(dictree,debug=False):
 #print(dict2tree({'c1':'c0','c2':'c0','c3':'c2'}))
 assert(str(dict2tree({'c1':'c0','c2':'c0','c3':'c2'},False)).replace('\n','')) == "└── c0    ├── c1    └── c2        └── c3"
 
+# hyper-parameter space splitter
+def build_triple_list(lst,index1,index2,filt,val_index):
+    triple_list = []
+    for item in lst:
+        skip = False
+        for filt_index in filt:
+            if not item[filt_index] == filt[filt_index]:
+                skip = True
+                break
+        if skip:
+            continue
+        triple_list.append((item[index1],item[index2],item[val_index]))
+    return sorted(triple_list, key=lambda x: (x[0],x[1]))
+    
+def build_triple_matrix(lst,index1,index2,filt,val_index,labels1,labels2):
+    triple_list = build_triple_list(lst,index1,index2,filt,val_index)
+    index = 0
+    matrix = []
+    for l1 in labels1:
+        row = []
+        for l2 in labels2:
+            row.append(triple_list[index][2])
+            index += 1
+        matrix.append(row)
+    return matrix
