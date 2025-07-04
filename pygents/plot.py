@@ -65,6 +65,23 @@ def plot_bar_from_list(label,labels,value,values,title=None,head=None,fontsize=N
     plt.ylabel(value)
     plt.show()
 
+def plot_bar_from_list_minmax(label,labels,value,values,title=None,fontsize=None,minmax=None,dpi=300):
+    fig, ax = plt.subplots(figsize=(8, 4))
+    plt.bar(labels, values)
+    plt.title(f'{value}({label})' if title is None else title)
+    plt.xlabel(label)
+    plt.ylabel(value)
+    if not minmax is None:
+        for p,mm in zip(ax.patches,minmax):
+            x = p.get_x()  # get the bottom left x corner of the bar
+            w = p.get_width()  # get width of bar
+            h = p.get_height()  # get height of bar
+            min_y = mm[0]
+            max_y = mm[1]
+            plt.vlines(x+w/2, min_y, max_y, color='k')  # draw a vertical line
+    fig.set_dpi(dpi)
+    plt.show()
+
 def plot_dict_bars(dic,labels,values,title=None,head=None,dim=(8,5)):
     df = pd.DataFrame([(key, dic[key]) for key in dic],columns=[labels,values])
     #df.sort_values(values,ascending=False,inplace=True)
