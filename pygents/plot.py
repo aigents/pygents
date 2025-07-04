@@ -72,13 +72,14 @@ def plot_bar_from_list_minmax(label,labels,value,values,title=None,fontsize=None
     plt.xlabel(label)
     plt.ylabel(value)
     if not minmax is None:
-        for p,mm in zip(ax.patches,minmax):
+        for p,mm,v in zip(ax.patches,minmax,values):
             x = p.get_x()  # get the bottom left x corner of the bar
             w = p.get_width()  # get width of bar
             h = p.get_height()  # get height of bar
             min_y = mm[0]
             max_y = mm[1]
             plt.vlines(x+w/2, min_y, max_y, color='k')  # draw a vertical line
+            plt.text(x+w/2,max_y,str(round(v,2)),horizontalalignment='center',verticalalignment='bottom')
     fig.set_dpi(dpi)
     plt.show()
 
