@@ -229,7 +229,7 @@ def build_ngrams(seq,N):
         items.append( tuple(seq[i:i+N]) )
     return items
 
-def load_ngrams(file,encoding=None,debug=False):
+def load_ngrams(file,encoding=None,weights=None,debug=False):
     if file.lower().startswith('http'):
         lines = url_lines(file)
         if debug:
@@ -242,8 +242,17 @@ def load_ngrams(file,encoding=None,debug=False):
         else:
             with open(file,encoding=encoding) as f:
                 lines = f.readlines()
-    #ngrams = [tuple(l.split()) for l in lines if len(l) > 0]
-    ngrams = [tuple(l.split('\t')[0].split()) for l in lines if len(l) > 0]
+    if not weights is None:
+        ngrams = []
+        for l in lines:
+            if len(l) > 0:
+                split = l.split('\t')
+                ngram = tuple(split[0].split())
+                weight = float(split[1]) if len(split) > 0 else 1.0
+                weights[ngram] = weight
+                ngrams.append(ngram)
+    else:
+        ngrams = [tuple(l.split('\t')[0].split()) for l in lines if len(l) > 0]
     return set(ngrams)
 
 def split_pattern(pat):
@@ -284,13 +293,13 @@ class PygentsSentiment():
             self.positives = split_patterns(self.positives)
             self.negatives = split_patterns(self.negatives)
 
-    def to_set(self,arg,encoding):
+    def to_set(self,arg,encoding,weights=None):
         if type(arg) == set:
             return arg
         elif type(arg) == list:
             return set(arg)
         elif type(arg) == str:
-            return load_ngrams(arg,encoding)
+            return load_ngrams(arg,encoding,weights=weights)
         return null
     
     def get_sentiment(self,text,context=None,debug=False):
@@ -379,16 +388,19 @@ class PygentsSentiment():
     
 
 class TextMetrics(PygentsSentiment):
-    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], encoding=None, debug=False):
+    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], encoding=None, weighted=False, debug=False):
         self.metric_logarithmic = metric_logarithmic
         self.tokenize_chars = tokenize_chars
         self.scrub = scrub
         self.punct = set(list(punct))
         self.gram_arity = 1
         self.metrics = {}
+        self.weights = {} if weighted else None
         for metric in metrics:
             #TODO use unsupervised tokenization!!!!
-            ngrams = self.to_set(metrics[metric],encoding)
+            if weighted:
+                self.weights[metric] = {}
+            ngrams = self.to_set(metrics[metric],encoding,self.weights[metric] if weighted else None)
             if self.tokenize_chars: # for chinese
                 ngrams = split_patterns(ngrams)
             self.metrics[metric] = ngrams
@@ -433,8 +445,9 @@ class TextMetrics(PygentsSentiment):
                     
                     for metric in self.metrics:
                         ngrams = self.metrics[metric]
-                        if w in ngrams:                         
-                            dictcount(counts,metric,N) # p += N #weighted
+                        if w in ngrams:         
+                            weight = N if self.weights is None else N * self.weights[metric][w]                
+                            dictcount(counts,metric,weight)
                             if not lists is None:
                                 if not metric in lists:
                                     l = []
