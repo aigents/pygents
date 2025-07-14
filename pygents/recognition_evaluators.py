@@ -223,10 +223,10 @@ def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, nam
             accumulator.append((n_max,inclusion_threshold,selection_metric,t,f1avg,f1))
 
     if all_scores:
-        matrix_plot(all_metrics, detection_thresholds, pres, 1.0, title = f'Precision: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
-        matrix_plot(all_metrics, detection_thresholds, recs, 1.0, title = f'Recall: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
+        matrix_plot(all_metrics, detection_thresholds, pres, 1.0, title = f'Precision(DT): DS={name}, SM={selection_metric}, IT={inclusion_threshold}, NM={n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
+        matrix_plot(all_metrics, detection_thresholds, recs, 1.0, title = f'Recall(DT): DS={name}, SM={selection_metric}, IT={inclusion_threshold}, NM={n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
     if all_scores or f1_score:
-        matrix_plot(all_metrics, detection_thresholds, f1s, 1.0, title = f'F1: {name} {selection_metric}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
+        matrix_plot(all_metrics, detection_thresholds, f1s, 1.0, title = f'F1(DT): DS={name}, SM={selection_metric}, IT={inclusion_threshold}, NM={n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
     if averages:
         plot_bar_from_list('Detection Threshold',detection_thresholds,'F1',f1avgs)
 
@@ -248,7 +248,7 @@ def evaluate_model(model, test_df, test_path, model_prefix, validation_fraction,
 
 
 def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, 
-                     n_max=4, selection_metrics = 'FN', weighted=False, f1_score=False, all_scores=False, averages=False, 
+                     n_max=4, selection_metrics = 'FN', weighted=False, f1_score=False, all_scores=False, name='Multiclass', averages=False, 
                      split_shift=0, evaluator=our_evaluator_tm, accumulator=None):
     train_df = df[(df.index + split_shift) % validation_fraction != 0]
     test_df  = df[(df.index + split_shift) % validation_fraction == 0]
@@ -260,5 +260,5 @@ def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion
 
     evaluate_model(model,test_df,test_path,model_prefix,validation_fraction,inclusion_thresholds,detection_thresholds,
                                 n_max=n_max,selection_metrics=selection_metrics, weighted=weighted, f1_score=f1_score,
-                                all_scores=all_scores,averages=averages,evaluator=evaluator,accumulator=accumulator)
+                                all_scores=all_scores,name=name,averages=averages,evaluator=evaluator,accumulator=accumulator)
 
