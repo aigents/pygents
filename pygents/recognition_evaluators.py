@@ -139,66 +139,6 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,debug=False):
     return pre, rec, f1, acc
 
 
-
-"""
-def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, n_max = 4, all_scores = False, \
-                     averages=False, evaluator=our_evaluator_tm):
-    all_metrics = sorted(all_metrics)
-    pres = [[] for i in range(len(all_metrics))]
-    recs = [[] for i in range(len(all_metrics))]
-    f1s = [[] for i in range(len(all_metrics))]
-    accs = [[] for i in range(len(all_metrics))]
-    f1avgs = []
-        
-    for t in detection_thresholds:
-        pre, rec, f1, acc = evaluate_tm_df(test_df,tm,evaluator,t/100.0,all_metrics,debug=False)
-        mi = 0
-        for metric in all_metrics:
-            pres[mi].append(pre[metric])
-            recs[mi].append(rec[metric])
-            f1s[mi].append(f1[metric])
-            accs[mi].append(acc[metric])
-            mi += 1
-        f1avgs.append(sum([f1[metric] for metric in all_metrics])/len(all_metrics))
-
-    if all_scores:
-        matrix_plot(all_metrics, detection_thresholds, pres, 1.0, title = f'Precision: {name}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
-        matrix_plot(all_metrics, detection_thresholds, recs, 1.0, title = f'Recall: {name}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
-    matrix_plot(all_metrics, detection_thresholds, f1s, 1.0, title = f'F1: {name}, inclusion_threshold: {inclusion_threshold}, n_max: {n_max}', vmin = 0, vmax = 1.0, titlefontsize = 20, dpi = 300, width = 10)
-    if averages:
-        plot_bar_from_list('Detection Threshold',detection_thresholds,'F1',f1avgs)
-    return f1avgs
-
-        
-def evaluate_model(model, test_df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, \
-                   n_max = 4, all_scores = False, name = 'Multiclass FN', averages = False, evaluator = our_evaluator_tm):
-    for inclusion_threshold in inclusion_thresholds:
-        model.save(path=test_path,name=f'{model_prefix}-{inclusion_threshold}',metric='FN',inclusion_threshold=inclusion_threshold)
-        all_metrics = model.export(metric='FN',inclusion_threshold=inclusion_threshold).keys() - {'No_Distortion'}
-        tm = TextMetrics(language_metrics('',all_metrics,path=test_path+f'/{model_prefix}-{inclusion_threshold}'),encoding="utf-8",metric_logarithmic=True,debug=False)
-        f1avgs = evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, \
-                                  n_max = n_max, all_scores = all_scores, averages = averages, evaluator = evaluator)
-    return f1avgs
-
-
-def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion_thresholds, \
-                    detection_thresholds, n_max = 4, all_scores = False, averages = False, split_shift=0, evaluator=our_evaluator_tm):
-    train_df = df[(df.index + split_shift) % validation_fraction != 0] if validation_fraction > 0 else df
-    test_df = df[(df.index + split_shift) % validation_fraction == 0] if validation_fraction > 0 else df
-    print(validation_fraction, len(df), len(train_df), len(test_df))
-
-    learner=Learner()
-    model = learner.learn(df2labeled(train_df),n_max = n_max, punctuation = punct, debug = False)
-    print(model.labels)
-
-    f1avgs = evaluate_model(model, test_df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, \
-                            n_max = n_max, all_scores = all_scores, averages = averages, evaluator = evaluator)
-    return f1avgs
-
-"""
-
-
-
 def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, n_max = 4, selection_metric = 'FN',
                      f1_score=False, all_scores = False, averages=False, evaluator=our_evaluator_tm, accumulator=None):
     all_metrics = sorted(all_metrics)
