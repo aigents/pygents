@@ -74,19 +74,27 @@ assert str(dict_compress_with_loss({'a':1000,'b':10,'c':1})) == "{'a': 1000, 'b'
 assert str(dict_compress_with_loss({'x':{'a':1000,'b':10,'c':1},'y':{'m':2000,'n':20,'o':2}})) == "{'x': {'a': 1000, 'b': 10}, 'y': {'m': 2000, 'n': 20}}"
 
 
-def dict_of_dicts_compress_by_threshold(dict_of_dicts, inclusion_threshold):
+def dict_of_dicts_compress_by_threshold(dict_of_dicts, inclusion_threshold, rescale = False):
     #print('compact_dict_of_dicts_by_threshold',inclusion_threshold)
     filtered_dict_of_dicts = {}
     for label, ngram_dict in dict_of_dicts.items():
         # Find the maximum metric value for the current label
         max_value = max(ngram_dict.values()) if ngram_dict else 0
         threshold_value = max_value * (inclusion_threshold / 100)
+        factor = 1.0 / max_value if max_value != 0 else 0
 
         # Filter n-grams that meet or exceed the threshold value
-        filtered_dict_of_dicts[label] = {
-            ngram: metric for ngram, metric in ngram_dict.items() if metric >= threshold_value
-        }
+        if rescale:
+            filtered_dict_of_dicts[label] = {
+                ngram: metric * factor for ngram, metric in ngram_dict.items() if metric >= threshold_value
+            } 
+        else:
+            filtered_dict_of_dicts[label] = {
+                ngram: metric for ngram, metric in ngram_dict.items() if metric >= threshold_value
+            }
     return filtered_dict_of_dicts
+assert str(dict_of_dicts_compress_by_threshold({'x':{'a':0.2,'b':0.1},'y':{'c':0.4,'b':0.2}},60)) == "{'x': {'a': 0.2}, 'y': {'c': 0.4}}"
+assert str(dict_of_dicts_compress_by_threshold({'x':{'a':0.2,'b':0.1},'y':{'c':0.4,'b':0.2}},60,rescale=True)) == "{'x': {'a': 1.0}, 'y': {'c': 1.0}}"
 
 
 def dictdict_div_dict(num, den, default = 1, debug = False):

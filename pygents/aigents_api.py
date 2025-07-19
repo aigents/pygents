@@ -594,11 +594,11 @@ class Learner:
         self.metrics['MR'] = mr
         return      
     
-    def export(self,metric='FN',inclusion_threshold=50):
-        return dict_of_dicts_compress_by_threshold(self.metrics[metric],inclusion_threshold)
+    def export(self,metric='FN',inclusion_threshold=50,rescale=False):
+        return dict_of_dicts_compress_by_threshold(self.metrics[metric],inclusion_threshold,rescale=rescale)
 
-    def save(self,path,name,metric='FN',inclusion_threshold=50):
-        model = self.export(metric=metric,inclusion_threshold=inclusion_threshold)        
+    def save(self,path,name,metric='FN',inclusion_threshold=50,rescale=False):
+        model = self.export(metric=metric,inclusion_threshold=inclusion_threshold,rescale=rescale)        
         if not os.path.exists(path):
             os.makedirs(path)
         path += '/'+name

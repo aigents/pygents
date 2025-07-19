@@ -1,4 +1,4 @@
-from pygents.util import dictcount
+from pygents.util import dictcount, agg_min_max_avg_mpe
 from pygents.plot import matrix_plot, plot_bar_from_list
 from pygents.aigents_api import TextMetrics, punct, Learner
 import random
@@ -172,13 +172,13 @@ def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, nam
 
 
 def evaluate_model(model, test_df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, 
-                   n_max=4, selection_metrics = 'FN', weighted=False, f1_score=False, all_scores=False, name='Multiclass', averages=False,
+                   n_max=4, selection_metrics = ('FN',), rescale=False, weighted=False, f1_score=False, all_scores=False, name='Multiclass', averages=False,
                    evaluator=our_evaluator_tm, accumulator=None):
     for inclusion_threshold in inclusion_thresholds:
         for selection_metric in selection_metrics:
             model.save(path=test_path, name=f'{model_prefix}-{inclusion_threshold}',metric=selection_metric,
-                   inclusion_threshold=inclusion_threshold)
-            all_metrics = model.export(metric=selection_metric, inclusion_threshold=inclusion_threshold).keys() - {'No_Distortion'}
+                   inclusion_threshold=inclusion_threshold,rescale=rescale)
+            all_metrics = model.export(metric=selection_metric, inclusion_threshold=inclusion_threshold,rescale=rescale).keys() - {'No_Distortion'}
             tm = TextMetrics(language_metrics('',all_metrics,path=test_path + f'/{model_prefix}-{inclusion_threshold}'),
                          encoding="utf-8",metric_logarithmic=True,weighted=weighted,debug=False)
             evaluate_metrics(tm,test_df,inclusion_threshold,detection_thresholds,name,all_metrics,
@@ -188,7 +188,7 @@ def evaluate_model(model, test_df, test_path, model_prefix, validation_fraction,
 
 
 def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion_thresholds, detection_thresholds, 
-                     n_max=4, selection_metrics = 'FN', weighted=False, f1_score=False, all_scores=False, name='Multiclass', averages=False, 
+                     n_max=4, selection_metrics = ('FN',), rescale=False, weighted=False, f1_score=False, all_scores=False, name='Multiclass', averages=False, 
                      split_shift=0, evaluator=our_evaluator_tm, accumulator=None):
     train_df = df[(df.index + split_shift) % validation_fraction != 0]
     test_df  = df[(df.index + split_shift) % validation_fraction == 0]
@@ -199,6 +199,17 @@ def full_test_circle(df, test_path, model_prefix, validation_fraction, inclusion
     print('Labels count:', model.labels)
 
     evaluate_model(model,test_df,test_path,model_prefix,validation_fraction,inclusion_thresholds,detection_thresholds,
-                                n_max=n_max,selection_metrics=selection_metrics, weighted=weighted, f1_score=f1_score,
+                                n_max=n_max,selection_metrics=selection_metrics, rescale=rescale, weighted=weighted, f1_score=f1_score,
                                 all_scores=all_scores,name=name,averages=averages,evaluator=evaluator,accumulator=accumulator)
 
+
+def summarize_full_test_circle(results):
+    summary = []
+    for l1,l2,l3 in zip(results[0],results[1],results[2]):
+        summary.append( l1[0:4] + agg_min_max_avg_mpe((l1[4],l2[4],l3[4])))
+    summary = sorted(summary, key=lambda x: (-x[6],x[2],x[0],-x[1],x[3])) # sort by -F1avg, SM, NM, -IT, RT
+    NM, IT, SM, DT = summary[0][:4]
+    F1 = summary[0][6]
+    print(f'NM={NM}, IT={IT}, SM={SM}, DT={DT}, F1={F1}')
+    return summary
+ 
