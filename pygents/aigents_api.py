@@ -502,7 +502,7 @@ class Learner:
         self.uniq_n_gram_dicts = defaultdict(create_int_defaultdict) # Counts of uniq N-grams by label/category
         self.uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text (same as self.doc_counts)
         self.n_gram_labels = defaultdict(create_int_defaultdict) # Counts of labels/categories by N-gram
-        self.data_len = 0  # number of documents
+        # self.data_len = 0  # number of documents
         self.n_max = n_max # n_gram max length (do not pass as a "learn" argument or remove at all?)
         self.selection_metrics = selection_metrics
     
@@ -532,18 +532,19 @@ class Learner:
         self.metrics['UF'] = self.uniq_n_gram_dicts
         # FN
         self.metrics['FN'] = dictdict_div_dict(self.n_gram_dicts, self.all_n_grams)
-        if self.selection_metrics == ('FN'): # do nothing else!
+        if self.selection_metrics == ('FN',): # do nothing else!
             return
-        # TF-IDF
+
+        # TF-IDF is computed on principle "n-grams vs. lables/categories" rather than "words vs. texts"
         tfidf = defaultdict(dict)
-        N = self.data_len
+        N = len(self.n_gram_dicts) # number of labels/categories
         for label, ngram_dict in self.n_gram_dicts.items():
-            total = sum(ngram_dict.values())
             for n_gram, count in ngram_dict.items():
-                tf = count / total if total else 0.0
-                idf = math.log(N / (1 + self.uniq_all_n_grams.get(n_gram, 0))) if N else 0.0
+                tf = self.metrics['FN'][label][n_gram] # frequency of N-gram per label/category denominated by total frequency of N-gram
+                idf = math.log(N / len(self.n_gram_labels[n_gram]) ) # total number of labels/categories (not documents) denominated by number of labels per N-gram
                 tfidf[label][n_gram] = tf * idf
         self.metrics['TF-IDF'] = tfidf
+
         # UFN: unique frequency normalized
         self.metrics['UFN'] = dictdict_div_dict(self.uniq_n_gram_dicts, self.uniq_all_n_grams)
         # UF/D/D: UF divided by doc counts
@@ -607,7 +608,7 @@ class Learner:
         for label, ngrams in model.items():
             label_name = label # label.replace(" ", "_")
             file_path = f"{path}/{label_name}.txt"
-            sorted_ngrams = sorted(ngrams.items(), key=lambda x: x[1], reverse=True)
+            sorted_ngrams = sorted(ngrams.items(), key=lambda x: (-x[1],x[0]))
             with open(file_path, "w", encoding="utf-8") as f:
                 for ngram, metric_value in sorted_ngrams:
                     ngram_str = ' '.join(ngram)
@@ -620,7 +621,7 @@ class Learner:
             self.count_ngrams(labels,n_grams)
 
     def learn(self, text_labels, n_max=4, tokenize = tokenize_re, punctuation = None, sent=False, debug = False):
-        self.data_len += len(text_labels)
+        # self.data_len += len(text_labels)
         self.n_max = n_max # use globally defined in constructor
         for text_label in text_labels:
             text = text_label[0]
