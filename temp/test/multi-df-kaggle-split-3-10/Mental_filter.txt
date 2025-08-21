@@ -1,0 +1,4051 @@
+i	0.00029128343316483645
+and	0.00024698224195110317
+my	0.0001926921893962092
+to	0.0001716225659980595
+of	0.00014798898950986266
+me	0.00014209145941521752
+i feel	0.00014041265773953113
+feel	0.00013850520502725283
+my life	0.00012615622674610566
+a	0.00012425387441478491
+like	0.00011692957195841
+think	0.00011508844500963612
+the	0.0001108632023360656
+but	0.00010869411190308414
+i instantly	0.0001034875297526648
+the last time i	0.0001034875297526648
+have	0.00010211613537266007
+it	9.986870694816139e-05
+and i	9.796926116461699e-05
+time	9.658836110248715e-05
+i’m	9.56688623944414e-05
+last time i	9.313877677739832e-05
+stop thinking about	9.239958013630786e-05
+can’t stop thinking about	9.198891533570205e-05
+i don’t	8.909050426365772e-05
+things	8.75663713291779e-05
+don’t	8.649703979327208e-05
+stop thinking	8.623960812722067e-05
+i have	8.331071577573015e-05
+can’t stop thinking	8.279002380213184e-05
+or	8.085489113196006e-05
+is	7.94139171700662e-05
+i feel like	7.912141825005325e-05
+feel like	7.83996437520188e-05
+to many	7.76156473144986e-05
+with my life	7.76156473144986e-05
+my life is	7.76156473144986e-05
+can’t	7.553834288515679e-05
+think about	7.526365800193804e-05
+about	7.515804190154671e-05
+i can’t	6.935289952011044e-05
+things as well	6.899168650177653e-05
+my friends all	6.899168650177653e-05
+but there is no	6.899168650177653e-05
+even know how to	6.899168650177653e-05
+ignore it and	6.899168650177653e-05
+had a chance	6.899168650177653e-05
+had a chance to	6.899168650177653e-05
+obsessions which	6.899168650177653e-05
+i’ve been experiencing	6.899168650177653e-05
+feel very emotionally	6.899168650177653e-05
+i feel very emotionally	6.899168650177653e-05
+artistic	6.899168650177653e-05
+reason my	6.899168650177653e-05
+don’t have any	6.899168650177653e-05
+people and now	6.899168650177653e-05
+fast it	6.899168650177653e-05
+powerful	6.899168650177653e-05
+me it makes	6.899168650177653e-05
+me it makes me	6.899168650177653e-05
+life	6.767934463897101e-05
+i think	6.726689433923212e-05
+do anything i	6.652769769814166e-05
+very sensitive	6.652769769814166e-05
+even	6.557183997259365e-05
+get	6.55601628276044e-05
+that	6.398847259515916e-05
+this year	6.368463369394757e-05
+i still	6.248303683179761e-05
+weight	6.15997200908719e-05
+with	6.104333552230919e-05
+death	6.008953340477311e-05
+day	5.862299373272342e-05
+in	5.852817240414898e-05
+i don’t have	5.8211735485873954e-05
+stop thinking about it	5.8211735485873954e-05
+every	5.519334920142123e-05
+i feel i	5.519334920142123e-05
+don’t have	5.394562721149548e-05
+really	5.3391655477489483e-05
+on	5.303275546044033e-05
+all	5.294431626557445e-05
+am	5.2105609385957104e-05
+or something like	5.17437648763324e-05
+or something like that	5.17437648763324e-05
+everything was perfect	5.17437648763324e-05
+i’m amazing	5.17437648763324e-05
+useless i	5.17437648763324e-05
+too believe	5.17437648763324e-05
+all say	5.17437648763324e-05
+as insult	5.17437648763324e-05
+friends all	5.17437648763324e-05
+refuse too	5.17437648763324e-05
+always ruining	5.17437648763324e-05
+day scream	5.17437648763324e-05
+insult me	5.17437648763324e-05
+how useless	5.17437648763324e-05
+lives my	5.17437648763324e-05
+believing them	5.17437648763324e-05
+own parents	5.17437648763324e-05
+ruining their	5.17437648763324e-05
+parents seem	5.17437648763324e-05
+me and every	5.17437648763324e-05
+every day scream	5.17437648763324e-05
+and break things	5.17437648763324e-05
+well as insult	5.17437648763324e-05
+friends all say	5.17437648763324e-05
+lives my friends	5.17437648763324e-05
+ruining their lives	5.17437648763324e-05
+day scream at	5.17437648763324e-05
+believing them when	5.17437648763324e-05
+anything is wrong	5.17437648763324e-05
+refuse too believe	5.17437648763324e-05
+when my own	5.17437648763324e-05
+and such a	5.17437648763324e-05
+always ruining their	5.17437648763324e-05
+parents refuse too	5.17437648763324e-05
+that i’m amazing	5.17437648763324e-05
+amazing and such	5.17437648763324e-05
+seem to hate	5.17437648763324e-05
+too believe anything	5.17437648763324e-05
+parents seem to	5.17437648763324e-05
+am always ruining	5.17437648763324e-05
+i’m amazing and	5.17437648763324e-05
+break things as	5.17437648763324e-05
+time believing them	5.17437648763324e-05
+their lives my	5.17437648763324e-05
+and every day	5.17437648763324e-05
+how useless i	5.17437648763324e-05
+my own parents	5.17437648763324e-05
+own parents seem	5.17437648763324e-05
+me and break	5.17437648763324e-05
+all say that	5.17437648763324e-05
+about how useless	5.17437648763324e-05
+believe anything is	5.17437648763324e-05
+useless i am	5.17437648763324e-05
+insult me about	5.17437648763324e-05
+as insult me	5.17437648763324e-05
+and how i am	5.17437648763324e-05
+their lives my friends	5.17437648763324e-05
+about how useless i	5.17437648763324e-05
+as well as insult	5.17437648763324e-05
+all say that i’m	5.17437648763324e-05
+them when my own	5.17437648763324e-05
+parents refuse too believe	5.17437648763324e-05
+always ruining their lives	5.17437648763324e-05
+friends all say that	5.17437648763324e-05
+say that i’m amazing	5.17437648763324e-05
+my friends all say	5.17437648763324e-05
+my parents refuse too	5.17437648763324e-05
+me and break things	5.17437648763324e-05
+too believe anything is	5.17437648763324e-05
+believing them when my	5.17437648763324e-05
+my own parents seem	5.17437648763324e-05
+am always ruining their	5.17437648763324e-05
+anything is wrong with	5.17437648763324e-05
+parents seem to hate	5.17437648763324e-05
+at me and break	5.17437648763324e-05
+that i’m amazing and	5.17437648763324e-05
+how useless i am	5.17437648763324e-05
+i am always ruining	5.17437648763324e-05
+insult me about how	5.17437648763324e-05
+believe anything is wrong	5.17437648763324e-05
+i’m amazing and such	5.17437648763324e-05
+with me and every	5.17437648763324e-05
+seem to hate me	5.17437648763324e-05
+and every day scream	5.17437648763324e-05
+day scream at me	5.17437648763324e-05
+own parents seem to	5.17437648763324e-05
+good friend but i	5.17437648763324e-05
+well as insult me	5.17437648763324e-05
+lives my friends all	5.17437648763324e-05
+me and every day	5.17437648763324e-05
+and break things as	5.17437648763324e-05
+hard time believing them	5.17437648763324e-05
+things as well as	5.17437648763324e-05
+every day scream at	5.17437648763324e-05
+break things as well	5.17437648763324e-05
+friend but i have	5.17437648763324e-05
+and such a good	5.17437648763324e-05
+as insult me about	5.17437648763324e-05
+amazing and such a	5.17437648763324e-05
+how i am always	5.17437648763324e-05
+refuse too believe anything	5.17437648763324e-05
+time believing them when	5.17437648763324e-05
+useless i am and	5.17437648763324e-05
+ruining their lives my	5.17437648763324e-05
+me about how useless	5.17437648763324e-05
+when my own parents	5.17437648763324e-05
+seperated	5.17437648763324e-05
+promise	5.17437648763324e-05
+promise he	5.17437648763324e-05
+many and	5.17437648763324e-05
+wanted or	5.17437648763324e-05
+broken to	5.17437648763324e-05
+been breaking	5.17437648763324e-05
+breaking promises	5.17437648763324e-05
+crying but	5.17437648763324e-05
+gift i	5.17437648763324e-05
+sometimes he	5.17437648763324e-05
+more lately	5.17437648763324e-05
+i expect	5.17437648763324e-05
+are seperated	5.17437648763324e-05
+and promise	5.17437648763324e-05
+mom are	5.17437648763324e-05
+somewhere or	5.17437648763324e-05
+seperated i	5.17437648763324e-05
+that gift	5.17437648763324e-05
+cry he	5.17437648763324e-05
+barely see	5.17437648763324e-05
+expect it	5.17437648763324e-05
+always do	5.17437648763324e-05
+expect it now	5.17437648763324e-05
+that but more	5.17437648763324e-05
+wanted or something	5.17437648763324e-05
+promises and i	5.17437648763324e-05
+he will call	5.17437648763324e-05
+or get me	5.17437648763324e-05
+of crying but	5.17437648763324e-05
+help but to	5.17437648763324e-05
+over him anymore	5.17437648763324e-05
+and more lately	5.17437648763324e-05
+want to cry	5.17437648763324e-05
+i always do	5.17437648763324e-05
+take me somewhere	5.17437648763324e-05
+dad but sometimes	5.17437648763324e-05
+crying but i	5.17437648763324e-05
+barely see my	5.17437648763324e-05
+broken to many	5.17437648763324e-05
+seperated i barely	5.17437648763324e-05
+tired of crying	5.17437648763324e-05
+been breaking promises	5.17437648763324e-05
+always do i	5.17437648763324e-05
+more lately my	5.17437648763324e-05
+has broken to	5.17437648763324e-05
+to many and	5.17437648763324e-05
+and promise he	5.17437648763324e-05
+cry over him	5.17437648763324e-05
+many and i	5.17437648763324e-05
+dad and my	5.17437648763324e-05
+i barely see	5.17437648763324e-05
+i expect it	5.17437648763324e-05
+me somewhere or	5.17437648763324e-05
+somewhere or get	5.17437648763324e-05
+but more and	5.17437648763324e-05
+mom are seperated	5.17437648763324e-05
+are seperated i	5.17437648763324e-05
+that gift i	5.17437648763324e-05
+sometimes he will	5.17437648763324e-05
+but to cry	5.17437648763324e-05
+but sometimes he	5.17437648763324e-05
+do i expect	5.17437648763324e-05
+gift i wanted	5.17437648763324e-05
+to cry he	5.17437648763324e-05
+it now but	5.17437648763324e-05
+i wanted or	5.17437648763324e-05
+get me that	5.17437648763324e-05
+to cry over	5.17437648763324e-05
+promise he will	5.17437648763324e-05
+my mom are	5.17437648763324e-05
+lately my dad	5.17437648763324e-05
+will take me	5.17437648763324e-05
+breaking promises and	5.17437648763324e-05
+cry he has	5.17437648763324e-05
+me and promise	5.17437648763324e-05
+see my dad	5.17437648763324e-05
+me that gift	5.17437648763324e-05
+has been breaking	5.17437648763324e-05
+will call me and	5.17437648763324e-05
+breaking promises and i	5.17437648763324e-05
+that but more and	5.17437648763324e-05
+now but i always	5.17437648763324e-05
+has been breaking promises	5.17437648763324e-05
+he will call me	5.17437648763324e-05
+been breaking promises and	5.17437648763324e-05
+seperated i barely see	5.17437648763324e-05
+dad but sometimes he	5.17437648763324e-05
+help but to cry	5.17437648763324e-05
+promise he will take	5.17437648763324e-05
+barely see my dad	5.17437648763324e-05
+or get me that	5.17437648763324e-05
+can’t help but to	5.17437648763324e-05
+me that gift i	5.17437648763324e-05
+lately my dad has	5.17437648763324e-05
+wanted or something like	5.17437648763324e-05
+something like that but	5.17437648763324e-05
+do i expect it	5.17437648763324e-05
+to many and i	5.17437648763324e-05
+and my mom are	5.17437648763324e-05
+more lately my dad	5.17437648763324e-05
+call me and promise	5.17437648763324e-05
+see my dad but	5.17437648763324e-05
+don’t want to cry	5.17437648763324e-05
+get me that gift	5.17437648763324e-05
+he will take me	5.17437648763324e-05
+has broken to many	5.17437648763324e-05
+dad and my mom	5.17437648763324e-05
+and promise he will	5.17437648763324e-05
+tired of crying but	5.17437648763324e-05
+and i am tired	5.17437648763324e-05
+he has broken to	5.17437648763324e-05
+somewhere or get me	5.17437648763324e-05
+but to cry he	5.17437648763324e-05
+i expect it now	5.17437648763324e-05
+i barely see my	5.17437648763324e-05
+always do i don’t	5.17437648763324e-05
+many and i am	5.17437648763324e-05
+expect it now but	5.17437648763324e-05
+cry he has broken	5.17437648763324e-05
+my dad and my	5.17437648763324e-05
+i wanted or something	5.17437648763324e-05
+and more lately my	5.17437648763324e-05
+me somewhere or get	5.17437648763324e-05
+me and promise he	5.17437648763324e-05
+am tired of crying	5.17437648763324e-05
+i always do i	5.17437648763324e-05
+crying but i always	5.17437648763324e-05
+my dad but sometimes	5.17437648763324e-05
+that gift i wanted	5.17437648763324e-05
+but more and more	5.17437648763324e-05
+broken to many and	5.17437648763324e-05
+gift i wanted or	5.17437648763324e-05
+promises and i can’t	5.17437648763324e-05
+of crying but i	5.17437648763324e-05
+sometimes he will call	5.17437648763324e-05
+want to cry over	5.17437648763324e-05
+but sometimes he will	5.17437648763324e-05
+to cry he has	5.17437648763324e-05
+are seperated i barely	5.17437648763324e-05
+it now but i	5.17437648763324e-05
+my mom are seperated	5.17437648763324e-05
+take me somewhere or	5.17437648763324e-05
+mom are seperated i	5.17437648763324e-05
+dad has been breaking	5.17437648763324e-05
+will take me somewhere	5.17437648763324e-05
+but i always do	5.17437648763324e-05
+like that but more	5.17437648763324e-05
+to cry over him	5.17437648763324e-05
+more and more lately	5.17437648763324e-05
+cry over him anymore	5.17437648763324e-05
+always do i expect	5.17437648763324e-05
+weight and	5.17437648763324e-05
+in my life	5.17437648763324e-05
+feel i’m	5.17437648763324e-05
+live for	5.17437648763324e-05
+people anymore	5.17437648763324e-05
+to live for	5.17437648763324e-05
+i feel i’m	5.17437648763324e-05
+people anymore i	5.17437648763324e-05
+regretted	5.17437648763324e-05
+couldn’t believe	5.17437648763324e-05
+regretted this	5.17437648763324e-05
+i done	5.17437648763324e-05
+believe what	5.17437648763324e-05
+still regret	5.17437648763324e-05
+instantly regretted	5.17437648763324e-05
+instantly regretted this	5.17437648763324e-05
+i couldn’t believe	5.17437648763324e-05
+it to this	5.17437648763324e-05
+i done i	5.17437648763324e-05
+believe what i	5.17437648763324e-05
+what i done	5.17437648763324e-05
+this at the	5.17437648763324e-05
+regret it to	5.17437648763324e-05
+couldn’t believe what	5.17437648763324e-05
+i instantly regretted	5.17437648763324e-05
+regretted this at	5.17437648763324e-05
+still regret it	5.17437648763324e-05
+i still regret	5.17437648763324e-05
+done i still	5.17437648763324e-05
+believe what i done	5.17437648763324e-05
+i couldn’t believe what	5.17437648763324e-05
+what i done i	5.17437648763324e-05
+i instantly regretted this	5.17437648763324e-05
+i done i still	5.17437648763324e-05
+instantly regretted this at	5.17437648763324e-05
+done i still regret	5.17437648763324e-05
+and i couldn’t believe	5.17437648763324e-05
+i still regret it	5.17437648763324e-05
+regret it to this	5.17437648763324e-05
+regretted this at the	5.17437648763324e-05
+this at the time	5.17437648763324e-05
+it to this day	5.17437648763324e-05
+time and i couldn’t	5.17437648763324e-05
+couldn’t believe what i	5.17437648763324e-05
+still regret it to	5.17437648763324e-05
+enjoy what	5.17437648763324e-05
+i’m very sensitive	5.17437648763324e-05
+i’m very sensitive to	5.17437648763324e-05
+tormenting me	5.17437648763324e-05
+been tormenting	5.17437648763324e-05
+to figure things	5.17437648763324e-05
+been tormenting me	5.17437648763324e-05
+tormenting me and	5.17437648763324e-05
+one has been	5.17437648763324e-05
+this one has	5.17437648763324e-05
+has been tormenting	5.17437648763324e-05
+seem to figure	5.17437648763324e-05
+but this one	5.17437648763324e-05
+seem to figure things	5.17437648763324e-05
+but this one has	5.17437648763324e-05
+and i cannot seem	5.17437648763324e-05
+me and i cannot	5.17437648763324e-05
+cannot seem to figure	5.17437648763324e-05
+this one has been	5.17437648763324e-05
+one has been tormenting	5.17437648763324e-05
+has been tormenting me	5.17437648763324e-05
+been tormenting me and	5.17437648763324e-05
+tormenting me and i	5.17437648763324e-05
+to figure things out	5.17437648763324e-05
+worst for	5.17437648763324e-05
+i’m and this	5.17437648763324e-05
+and this year	5.17437648763324e-05
+the worst for	5.17437648763324e-05
+this year was	5.17437648763324e-05
+was the worst	5.17437648763324e-05
+worst for me	5.17437648763324e-05
+year was the	5.17437648763324e-05
+i’m and this year	5.17437648763324e-05
+and this year was	5.17437648763324e-05
+year was the worst	5.17437648763324e-05
+this year was the	5.17437648763324e-05
+was the worst for	5.17437648763324e-05
+the worst for me	5.17437648763324e-05
+still are	5.17437648763324e-05
+anything around	5.17437648763324e-05
+that that	5.17437648763324e-05
+check myself	5.17437648763324e-05
+and anything	5.17437648763324e-05
+somebody is	5.17437648763324e-05
+that sound	5.17437648763324e-05
+like death	5.17437648763324e-05
+sadness suicide	5.17437648763324e-05
+that stuff	5.17437648763324e-05
+i somehow	5.17437648763324e-05
+death depression	5.17437648763324e-05
+somehow still	5.17437648763324e-05
+instantly check	5.17437648763324e-05
+stuff scares	5.17437648763324e-05
+not sad	5.17437648763324e-05
+depression sadness	5.17437648763324e-05
+joke about	5.17437648763324e-05
+sensitive towards	5.17437648763324e-05
+and anything around	5.17437648763324e-05
+example when somebody	5.17437648763324e-05
+a joke about	5.17437648763324e-05
+but i somehow	5.17437648763324e-05
+very sensitive towards	5.17437648763324e-05
+depression sadness suicide	5.17437648763324e-05
+anything around me	5.17437648763324e-05
+instantly check myself	5.17437648763324e-05
+make sure i	5.17437648763324e-05
+around me that	5.17437648763324e-05
+sensitive towards my	5.17437648763324e-05
+sadness suicide or	5.17437648763324e-05
+like that that	5.17437648763324e-05
+emotions and anything	5.17437648763324e-05
+sound like death	5.17437648763324e-05
+or stuff like	5.17437648763324e-05
+like death depression	5.17437648763324e-05
+scares me for	5.17437648763324e-05
+somebody is making	5.17437648763324e-05
+me that sound	5.17437648763324e-05
+myself to make	5.17437648763324e-05
+i somehow still	5.17437648763324e-05
+joke about me	5.17437648763324e-05
+not sad or	5.17437648763324e-05
+i instantly check	5.17437648763324e-05
+is making a	5.17437648763324e-05
+towards my emotions	5.17437648763324e-05
+that that stuff	5.17437648763324e-05
+stuff scares me	5.17437648763324e-05
+making a joke	5.17437648763324e-05
+me for example	5.17437648763324e-05
+am not sad	5.17437648763324e-05
+somehow still are	5.17437648763324e-05
+are very sensitive	5.17437648763324e-05
+check myself to	5.17437648763324e-05
+still are very	5.17437648763324e-05
+me i instantly	5.17437648763324e-05
+that stuff scares	5.17437648763324e-05
+that sound like	5.17437648763324e-05
+when somebody is	5.17437648763324e-05
+death depression sadness	5.17437648763324e-05
+sure i am	5.17437648763324e-05
+suicide or stuff	5.17437648763324e-05
+instantly check myself to	5.17437648763324e-05
+me for example when	5.17437648763324e-05
+am not sad or	5.17437648763324e-05
+me that sound like	5.17437648763324e-05
+stuff like that that	5.17437648763324e-05
+suicide or stuff like	5.17437648763324e-05
+emotions and anything around	5.17437648763324e-05
+but i somehow still	5.17437648763324e-05
+like that that stuff	5.17437648763324e-05
+check myself to make	5.17437648763324e-05
+that stuff scares me	5.17437648763324e-05
+still are very sensitive	5.17437648763324e-05
+sound like death depression	5.17437648763324e-05
+sensitive towards my emotions	5.17437648763324e-05
+depression sadness suicide or	5.17437648763324e-05
+is making a joke	5.17437648763324e-05
+i somehow still are	5.17437648763324e-05
+somebody is making a	5.17437648763324e-05
+anything around me that	5.17437648763324e-05
+for example when somebody	5.17437648763324e-05
+death depression sadness suicide	5.17437648763324e-05
+example when somebody is	5.17437648763324e-05
+a joke about me	5.17437648763324e-05
+that that stuff scares	5.17437648763324e-05
+like death depression sadness	5.17437648763324e-05
+are very sensitive towards	5.17437648763324e-05
+to make sure i	5.17437648763324e-05
+i instantly check myself	5.17437648763324e-05
+make sure i am	5.17437648763324e-05
+sure i am not	5.17437648763324e-05
+making a joke about	5.17437648763324e-05
+i am not sad	5.17437648763324e-05
+my emotions and anything	5.17437648763324e-05
+sadness suicide or stuff	5.17437648763324e-05
+about me i instantly	5.17437648763324e-05
+stuff scares me for	5.17437648763324e-05
+joke about me i	5.17437648763324e-05
+not sad or mad	5.17437648763324e-05
+myself to make sure	5.17437648763324e-05
+me i instantly check	5.17437648763324e-05
+towards my emotions and	5.17437648763324e-05
+very sensitive towards my	5.17437648763324e-05
+when somebody is making	5.17437648763324e-05
+that sound like death	5.17437648763324e-05
+or stuff like that	5.17437648763324e-05
+scares me for example	5.17437648763324e-05
+and anything around me	5.17437648763324e-05
+somehow still are very	5.17437648763324e-05
+around me that sound	5.17437648763324e-05
+everything got	5.17437648763324e-05
+me anytime	5.17437648763324e-05
+a loved	5.17437648763324e-05
+find anyone	5.17437648763324e-05
+recently lost	5.17437648763324e-05
+anytime soon	5.17437648763324e-05
+a constant	5.17437648763324e-05
+recently lost a	5.17437648763324e-05
+me anytime soon	5.17437648763324e-05
+and can’t find	5.17437648763324e-05
+am stuck in	5.17437648763324e-05
+can’t find anyone	5.17437648763324e-05
+got so much	5.17437648763324e-05
+everything got so	5.17437648763324e-05
+loved one and	5.17437648763324e-05
+lost a loved	5.17437648763324e-05
+anxiety and can’t	5.17437648763324e-05
+i recently lost	5.17437648763324e-05
+one and everything	5.17437648763324e-05
+and everything got	5.17437648763324e-05
+state of anxiety	5.17437648763324e-05
+a loved one	5.17437648763324e-05
+anyone to see	5.17437648763324e-05
+see me anytime	5.17437648763324e-05
+find anyone to	5.17437648763324e-05
+got so much worse	5.17437648763324e-05
+stuck in a constant	5.17437648763324e-05
+and everything got so	5.17437648763324e-05
+to see me anytime	5.17437648763324e-05
+anxiety and can’t find	5.17437648763324e-05
+everything got so much	5.17437648763324e-05
+find anyone to see	5.17437648763324e-05
+anyone to see me	5.17437648763324e-05
+i am stuck in	5.17437648763324e-05
+much worse i am	5.17437648763324e-05
+one and everything got	5.17437648763324e-05
+recently lost a loved	5.17437648763324e-05
+lost a loved one	5.17437648763324e-05
+worse i am stuck	5.17437648763324e-05
+state of anxiety and	5.17437648763324e-05
+am stuck in a	5.17437648763324e-05
+constant state of anxiety	5.17437648763324e-05
+can’t find anyone to	5.17437648763324e-05
+and can’t find anyone	5.17437648763324e-05
+see me anytime soon	5.17437648763324e-05
+loved one and everything	5.17437648763324e-05
+of anxiety and can’t	5.17437648763324e-05
+a loved one and	5.17437648763324e-05
+i recently lost a	5.17437648763324e-05
+boring and	5.17437648763324e-05
+9-month-old	5.17437648763324e-05
+was real	5.17437648763324e-05
+it’s isn’t	5.17437648763324e-05
+repeating in	5.17437648763324e-05
+it scared	5.17437648763324e-05
+get repeating	5.17437648763324e-05
+isn’t true	5.17437648763324e-05
+that thought	5.17437648763324e-05
+was questioning	5.17437648763324e-05
+cousin and	5.17437648763324e-05
+day with	5.17437648763324e-05
+9-month-old cousin	5.17437648763324e-05
+thought get	5.17437648763324e-05
+my 9-month-old	5.17437648763324e-05
+9-month-old cousin and	5.17437648763324e-05
+but that thought	5.17437648763324e-05
+day with my	5.17437648763324e-05
+repeating in my	5.17437648763324e-05
+real or not	5.17437648763324e-05
+and was questioning	5.17437648763324e-05
+that thought get	5.17437648763324e-05
+was questioning whether	5.17437648763324e-05
+he was real	5.17437648763324e-05
+that it’s isn’t	5.17437648763324e-05
+questioning whether he	5.17437648763324e-05
+other day with	5.17437648763324e-05
+cousin and was	5.17437648763324e-05
+not it scared	5.17437648763324e-05
+my 9-month-old cousin	5.17437648763324e-05
+thought get repeating	5.17437648763324e-05
+whether he was	5.17437648763324e-05
+it’s isn’t true	5.17437648763324e-05
+it scared me	5.17437648763324e-05
+get repeating in	5.17437648763324e-05
+true but that	5.17437648763324e-05
+with my 9-month-old	5.17437648763324e-05
+was real or	5.17437648763324e-05
+isn’t true but	5.17437648763324e-05
+scared me so	5.17437648763324e-05
+much i know that	5.17437648763324e-05
+it’s isn’t true but	5.17437648763324e-05
+not it scared me	5.17437648763324e-05
+and was questioning whether	5.17437648763324e-05
+other day with my	5.17437648763324e-05
+it scared me so	5.17437648763324e-05
+me so much i	5.17437648763324e-05
+with my 9-month-old cousin	5.17437648763324e-05
+scared me so much	5.17437648763324e-05
+questioning whether he was	5.17437648763324e-05
+cousin and was questioning	5.17437648763324e-05
+the other day with	5.17437648763324e-05
+thought get repeating in	5.17437648763324e-05
+but that thought get	5.17437648763324e-05
+was questioning whether he	5.17437648763324e-05
+that it’s isn’t true	5.17437648763324e-05
+whether he was real	5.17437648763324e-05
+real or not it	5.17437648763324e-05
+get repeating in my	5.17437648763324e-05
+that thought get repeating	5.17437648763324e-05
+my 9-month-old cousin and	5.17437648763324e-05
+repeating in my head	5.17437648763324e-05
+day with my 9-month-old	5.17437648763324e-05
+9-month-old cousin and was	5.17437648763324e-05
+true but that thought	5.17437648763324e-05
+know that it’s isn’t	5.17437648763324e-05
+so much i know	5.17437648763324e-05
+was real or not	5.17437648763324e-05
+isn’t true but that	5.17437648763324e-05
+i know that it’s	5.17437648763324e-05
+he was real or	5.17437648763324e-05
+or not it scared	5.17437648763324e-05
+start thinking	5.17437648763324e-05
+i start thinking	5.17437648763324e-05
+gnawing	5.17437648763324e-05
+gnawing at	5.17437648763324e-05
+it haunts	5.17437648763324e-05
+and forgive	5.17437648763324e-05
+forgive myself	5.17437648763324e-05
+keeps gnawing	5.17437648763324e-05
+it haunts me	5.17437648763324e-05
+to let go	5.17437648763324e-05
+because it keeps	5.17437648763324e-05
+forgive myself because	5.17437648763324e-05
+keeps gnawing at	5.17437648763324e-05
+how to let	5.17437648763324e-05
+and forgive myself	5.17437648763324e-05
+it keeps gnawing	5.17437648763324e-05
+gnawing at me	5.17437648763324e-05
+me it haunts	5.17437648763324e-05
+let go and	5.17437648763324e-05
+of my anxiety	5.17437648763324e-05
+myself because it	5.17437648763324e-05
+at me it	5.17437648763324e-05
+want to learn	5.17437648763324e-05
+go and forgive	5.17437648763324e-05
+myself because it keeps	5.17437648763324e-05
+gnawing at me it	5.17437648763324e-05
+part of my anxiety	5.17437648763324e-05
+me it haunts me	5.17437648763324e-05
+because it keeps gnawing	5.17437648763324e-05
+it keeps gnawing at	5.17437648763324e-05
+keeps gnawing at me	5.17437648763324e-05
+go and forgive myself	5.17437648763324e-05
+and forgive myself because	5.17437648763324e-05
+learn how to let	5.17437648763324e-05
+i want to learn	5.17437648763324e-05
+let go and forgive	5.17437648763324e-05
+it haunts me and	5.17437648763324e-05
+want to learn how	5.17437648763324e-05
+how to let go	5.17437648763324e-05
+forgive myself because it	5.17437648763324e-05
+at me it haunts	5.17437648763324e-05
+to let go and	5.17437648763324e-05
+a chance to	5.17437648763324e-05
+always ends	5.17437648763324e-05
+i yelling	5.17437648763324e-05
+ends with	5.17437648763324e-05
+being disrespectful	5.17437648763324e-05
+disrespectful to her	5.17437648763324e-05
+but it always	5.17437648763324e-05
+and i yelling	5.17437648763324e-05
+being disrespectful to	5.17437648763324e-05
+always ends with	5.17437648763324e-05
+and her telling	5.17437648763324e-05
+ends with her	5.17437648763324e-05
+i yelling at	5.17437648763324e-05
+am being disrespectful	5.17437648763324e-05
+it always ends	5.17437648763324e-05
+ends with her and	5.17437648763324e-05
+it but it always	5.17437648763324e-05
+at each other and	5.17437648763324e-05
+i yelling at each	5.17437648763324e-05
+to her about it	5.17437648763324e-05
+her about it but	5.17437648763324e-05
+other and her telling	5.17437648763324e-05
+being disrespectful to her	5.17437648763324e-05
+and her telling me	5.17437648763324e-05
+about it but it	5.17437648763324e-05
+i am being disrespectful	5.17437648763324e-05
+it always ends with	5.17437648763324e-05
+her telling me that	5.17437648763324e-05
+but it always ends	5.17437648763324e-05
+her and i yelling	5.17437648763324e-05
+am being disrespectful to	5.17437648763324e-05
+always ends with her	5.17437648763324e-05
+and i yelling at	5.17437648763324e-05
+i don’t have a	5.17437648763324e-05
+that haven’t	5.17437648763324e-05
+even happened	5.17437648763324e-05
+feel so depressed	5.17437648763324e-05
+depressed because of	5.17437648763324e-05
+that haven’t even	5.17437648763324e-05
+haven’t even happened	5.17437648763324e-05
+worry about every	5.17437648763324e-05
+so depressed because	5.17437648763324e-05
+things that haven’t	5.17437648763324e-05
+thing and i	5.17437648763324e-05
+because of things	5.17437648763324e-05
+and i feel so	5.17437648763324e-05
+so depressed because of	5.17437648763324e-05
+depressed because of things	5.17437648763324e-05
+things that haven’t even	5.17437648763324e-05
+feel so depressed because	5.17437648763324e-05
+because of things that	5.17437648763324e-05
+thing and i feel	5.17437648763324e-05
+worry about every little	5.17437648763324e-05
+i feel so depressed	5.17437648763324e-05
+of things that haven’t	5.17437648763324e-05
+that haven’t even happened	5.17437648763324e-05
+i worry about every	5.17437648763324e-05
+little thing and i	5.17437648763324e-05
+political	5.17437648763324e-05
+accidental	5.17437648763324e-05
+recent violent	5.17437648763324e-05
+in former	5.17437648763324e-05
+been further	5.17437648763324e-05
+of father	5.17437648763324e-05
+of mother	5.17437648763324e-05
+current political	5.17437648763324e-05
+life accidental	5.17437648763324e-05
+depression issues	5.17437648763324e-05
+very political	5.17437648763324e-05
+several traumatic	5.17437648763324e-05
+father many	5.17437648763324e-05
+mother emotional	5.17437648763324e-05
+have weight	5.17437648763324e-05
+further traumatized	5.17437648763324e-05
+traumatic events	5.17437648763324e-05
+our country	5.17437648763324e-05
+issues related	5.17437648763324e-05
+a stressful	5.17437648763324e-05
+violent death	5.17437648763324e-05
+traumatized by	5.17437648763324e-05
+accidental death	5.17437648763324e-05
+political situation	5.17437648763324e-05
+ago recent	5.17437648763324e-05
+former marriage	5.17437648763324e-05
+stressful job	5.17437648763324e-05
+death of father	5.17437648763324e-05
+current political situation	5.17437648763324e-05
+related to several	5.17437648763324e-05
+marriage i also	5.17437648763324e-05
+accidental death of	5.17437648763324e-05
+death of mother	5.17437648763324e-05
+my life accidental	5.17437648763324e-05
+stressful job that	5.17437648763324e-05
+further traumatized by	5.17437648763324e-05
+a stressful job	5.17437648763324e-05
+country i am	5.17437648763324e-05
+several traumatic events	5.17437648763324e-05
+am very political	5.17437648763324e-05
+violent death of	5.17437648763324e-05
+recent violent death	5.17437648763324e-05
+love i’ve been	5.17437648763324e-05
+i’ve been further	5.17437648763324e-05
+weight and depression	5.17437648763324e-05
+political situation in	5.17437648763324e-05
+former marriage i	5.17437648763324e-05
+in our country	5.17437648763324e-05
+i have weight	5.17437648763324e-05
+situation in our	5.17437648763324e-05
+abuse in former	5.17437648763324e-05
+depression issues related	5.17437648763324e-05
+our country i	5.17437648763324e-05
+traumatized by the	5.17437648763324e-05
+by the current	5.17437648763324e-05
+traumatic events in	5.17437648763324e-05
+life accidental death	5.17437648763324e-05
+years ago recent	5.17437648763324e-05
+mother emotional abuse	5.17437648763324e-05
+have a stressful	5.17437648763324e-05
+of father many	5.17437648763324e-05
+don’t love i’ve	5.17437648763324e-05
+emotional abuse in	5.17437648763324e-05
+been further traumatized	5.17437648763324e-05
+events in my	5.17437648763324e-05
+of mother emotional	5.17437648763324e-05
+have weight and	5.17437648763324e-05
+also have a	5.17437648763324e-05
+in former marriage	5.17437648763324e-05
+and depression issues	5.17437648763324e-05
+to several traumatic	5.17437648763324e-05
+issues related to	5.17437648763324e-05
+the current political	5.17437648763324e-05
+ago recent violent	5.17437648763324e-05
+father many years	5.17437648763324e-05
+also have a stressful	5.17437648763324e-05
+in former marriage i	5.17437648763324e-05
+don’t love i’ve been	5.17437648763324e-05
+traumatic events in my	5.17437648763324e-05
+i don’t love i’ve	5.17437648763324e-05
+marriage i also have	5.17437648763324e-05
+job that i don’t	5.17437648763324e-05
+my life accidental death	5.17437648763324e-05
+further traumatized by the	5.17437648763324e-05
+life accidental death of	5.17437648763324e-05
+i am very political	5.17437648763324e-05
+ago recent violent death	5.17437648763324e-05
+our country i am	5.17437648763324e-05
+father many years ago	5.17437648763324e-05
+recent violent death of	5.17437648763324e-05
+of mother emotional abuse	5.17437648763324e-05
+issues related to several	5.17437648763324e-05
+mother emotional abuse in	5.17437648763324e-05
+emotional abuse in former	5.17437648763324e-05
+that i don’t love	5.17437648763324e-05
+i’ve been further traumatized	5.17437648763324e-05
+several traumatic events in	5.17437648763324e-05
+death of mother emotional	5.17437648763324e-05
+traumatized by the current	5.17437648763324e-05
+many years ago recent	5.17437648763324e-05
+events in my life	5.17437648763324e-05
+political situation in our	5.17437648763324e-05
+accidental death of father	5.17437648763324e-05
+a stressful job that	5.17437648763324e-05
+to several traumatic events	5.17437648763324e-05
+have weight and depression	5.17437648763324e-05
+by the current political	5.17437648763324e-05
+former marriage i also	5.17437648763324e-05
+weight and depression issues	5.17437648763324e-05
+in my life accidental	5.17437648763324e-05
+stressful job that i	5.17437648763324e-05
+in our country i	5.17437648763324e-05
+death of father many	5.17437648763324e-05
+current political situation in	5.17437648763324e-05
+i also have a	5.17437648763324e-05
+violent death of mother	5.17437648763324e-05
+abuse in former marriage	5.17437648763324e-05
+i have weight and	5.17437648763324e-05
+of father many years	5.17437648763324e-05
+the current political situation	5.17437648763324e-05
+years ago recent violent	5.17437648763324e-05
+love i’ve been further	5.17437648763324e-05
+situation in our country	5.17437648763324e-05
+country i am very	5.17437648763324e-05
+have a stressful job	5.17437648763324e-05
+related to several traumatic	5.17437648763324e-05
+been further traumatized by	5.17437648763324e-05
+depression issues related to	5.17437648763324e-05
+and depression issues related	5.17437648763324e-05
+through a lot of	5.17437648763324e-05
+attempts in	5.17437648763324e-05
+and remembering	5.17437648763324e-05
+few suicide	5.17437648763324e-05
+remembering them	5.17437648763324e-05
+and lately	5.17437648763324e-05
+also had a	5.17437648763324e-05
+them and remembering	5.17437648763324e-05
+lately i keep	5.17437648763324e-05
+suicide attempts in	5.17437648763324e-05
+a few suicide	5.17437648763324e-05
+past and lately	5.17437648763324e-05
+and remembering them	5.17437648763324e-05
+attempts in the	5.17437648763324e-05
+few suicide attempts	5.17437648763324e-05
+and lately i	5.17437648763324e-05
+have also had	5.17437648763324e-05
+and lately i keep	5.17437648763324e-05
+suicide attempts in the	5.17437648763324e-05
+have also had a	5.17437648763324e-05
+keep thinking about them	5.17437648763324e-05
+lately i keep thinking	5.17437648763324e-05
+few suicide attempts in	5.17437648763324e-05
+thinking about them and	5.17437648763324e-05
+about them and remembering	5.17437648763324e-05
+also had a few	5.17437648763324e-05
+past and lately i	5.17437648763324e-05
+a few suicide attempts	5.17437648763324e-05
+had a few suicide	5.17437648763324e-05
+them and remembering them	5.17437648763324e-05
+i have also had	5.17437648763324e-05
+attempts in the past	5.17437648763324e-05
+the past and lately	5.17437648763324e-05
+just lingers	5.17437648763324e-05
+negativity just	5.17437648763324e-05
+know don’t	5.17437648763324e-05
+lingers around	5.17437648763324e-05
+around more	5.17437648763324e-05
+just lingers around	5.17437648763324e-05
+head even simple	5.17437648763324e-05
+negativity just lingers	5.17437648763324e-05
+i know don’t	5.17437648763324e-05
+my head even	5.17437648763324e-05
+know don’t matter	5.17437648763324e-05
+simple things i	5.17437648763324e-05
+lingers around more	5.17437648763324e-05
+more in my	5.17437648763324e-05
+around more in	5.17437648763324e-05
+more in my head	5.17437648763324e-05
+lingers around more in	5.17437648763324e-05
+my head even simple	5.17437648763324e-05
+around more in my	5.17437648763324e-05
+head even simple things	5.17437648763324e-05
+things i know don’t	5.17437648763324e-05
+i know don’t matter	5.17437648763324e-05
+simple things i know	5.17437648763324e-05
+even simple things i	5.17437648763324e-05
+just lingers around more	5.17437648763324e-05
+negativity just lingers around	5.17437648763324e-05
+in my head even	5.17437648763324e-05
+onerous	5.17437648763324e-05
+me terrible	5.17437648763324e-05
+terrible anxiety	5.17437648763324e-05
+this onerous	5.17437648763324e-05
+onerous task	5.17437648763324e-05
+task gives	5.17437648763324e-05
+onerous task gives	5.17437648763324e-05
+gives me terrible	5.17437648763324e-05
+task gives me	5.17437648763324e-05
+me terrible anxiety	5.17437648763324e-05
+this onerous task	5.17437648763324e-05
+this onerous task gives	5.17437648763324e-05
+gives me terrible anxiety	5.17437648763324e-05
+onerous task gives me	5.17437648763324e-05
+task gives me terrible	5.17437648763324e-05
+margin	5.17437648763324e-05
+letting things	5.17437648763324e-05
+just letting	5.17437648763324e-05
+margin i’ve	5.17437648763324e-05
+somewhere around	5.17437648763324e-05
+mentally getting	5.17437648763324e-05
+that margin	5.17437648763324e-05
+seems like for	5.17437648763324e-05
+things go or	5.17437648763324e-05
+that margin i’ve	5.17437648763324e-05
+or mentally getting	5.17437648763324e-05
+or somewhere around	5.17437648763324e-05
+mentally getting over	5.17437648763324e-05
+getting over something	5.17437648763324e-05
+just letting things	5.17437648763324e-05
+of years or	5.17437648763324e-05
+years or somewhere	5.17437648763324e-05
+like for the	5.17437648763324e-05
+around that margin	5.17437648763324e-05
+with just letting	5.17437648763324e-05
+margin i’ve been	5.17437648763324e-05
+problems with just	5.17437648763324e-05
+go or mentally	5.17437648763324e-05
+letting things go	5.17437648763324e-05
+somewhere around that	5.17437648763324e-05
+like for the last	5.17437648763324e-05
+just letting things go	5.17437648763324e-05
+with just letting things	5.17437648763324e-05
+that margin i’ve been	5.17437648763324e-05
+around that margin i’ve	5.17437648763324e-05
+mentally getting over something	5.17437648763324e-05
+years or somewhere around	5.17437648763324e-05
+things go or mentally	5.17437648763324e-05
+or mentally getting over	5.17437648763324e-05
+or somewhere around that	5.17437648763324e-05
+margin i’ve been having	5.17437648763324e-05
+seems like for the	5.17437648763324e-05
+having problems with just	5.17437648763324e-05
+of years or somewhere	5.17437648763324e-05
+somewhere around that margin	5.17437648763324e-05
+couple of years or	5.17437648763324e-05
+problems with just letting	5.17437648763324e-05
+letting things go or	5.17437648763324e-05
+go or mentally getting	5.17437648763324e-05
+it seems like for	5.17437648763324e-05
+poorly	5.17437648763324e-05
+grandchildren but	5.17437648763324e-05
+poorly has	5.17437648763324e-05
+and psychologically	5.17437648763324e-05
+have grandchildren	5.17437648763324e-05
+adult son	5.17437648763324e-05
+who treats	5.17437648763324e-05
+me poorly	5.17437648763324e-05
+teenager have	5.17437648763324e-05
+psychologically abusive	5.17437648763324e-05
+abusive since	5.17437648763324e-05
+abusive since he	5.17437648763324e-05
+but only see	5.17437648763324e-05
+son who treats	5.17437648763324e-05
+who treats me	5.17437648763324e-05
+have grandchildren but	5.17437648763324e-05
+grandchildren but only	5.17437648763324e-05
+see one of	5.17437648763324e-05
+poorly has been	5.17437648763324e-05
+adult son who	5.17437648763324e-05
+teenager have grandchildren	5.17437648763324e-05
+me poorly has	5.17437648763324e-05
+and psychologically abusive	5.17437648763324e-05
+psychologically abusive since	5.17437648763324e-05
+physically and psychologically	5.17437648763324e-05
+has been physically	5.17437648763324e-05
+an adult son	5.17437648763324e-05
+treats me poorly	5.17437648763324e-05
+only see one	5.17437648763324e-05
+a teenager have	5.17437648763324e-05
+of them now	5.17437648763324e-05
+have an adult	5.17437648763324e-05
+who treats me poorly	5.17437648763324e-05
+i have an adult	5.17437648763324e-05
+teenager have grandchildren but	5.17437648763324e-05
+grandchildren but only see	5.17437648763324e-05
+physically and psychologically abusive	5.17437648763324e-05
+was a teenager have	5.17437648763324e-05
+psychologically abusive since he	5.17437648763324e-05
+has been physically and	5.17437648763324e-05
+me poorly has been	5.17437648763324e-05
+see one of them	5.17437648763324e-05
+abusive since he was	5.17437648763324e-05
+one of them now	5.17437648763324e-05
+been physically and psychologically	5.17437648763324e-05
+have grandchildren but only	5.17437648763324e-05
+have an adult son	5.17437648763324e-05
+he was a teenager	5.17437648763324e-05
+an adult son who	5.17437648763324e-05
+a teenager have grandchildren	5.17437648763324e-05
+treats me poorly has	5.17437648763324e-05
+adult son who treats	5.17437648763324e-05
+poorly has been physically	5.17437648763324e-05
+but only see one	5.17437648763324e-05
+son who treats me	5.17437648763324e-05
+only see one of	5.17437648763324e-05
+and psychologically abusive since	5.17437648763324e-05
+sulk	5.17437648763324e-05
+dysmorphia	5.17437648763324e-05
+attacks multiple	5.17437648763324e-05
+kinda just	5.17437648763324e-05
+and sulk	5.17437648763324e-05
+also deal	5.17437648763324e-05
+bad panic	5.17437648763324e-05
+body dysmorphia	5.17437648763324e-05
+sulk all	5.17437648763324e-05
+just sit	5.17437648763324e-05
+bipolar extremely	5.17437648763324e-05
+and i kinda	5.17437648763324e-05
+i kinda just	5.17437648763324e-05
+kinda just sit	5.17437648763324e-05
+bad panic attacks	5.17437648763324e-05
+and body dysmorphia	5.17437648763324e-05
+sit and sulk	5.17437648763324e-05
+extremely bad panic	5.17437648763324e-05
+energy and i	5.17437648763324e-05
+day i also	5.17437648763324e-05
+bipolar extremely bad	5.17437648763324e-05
+and sulk all	5.17437648763324e-05
+deal with bipolar	5.17437648763324e-05
+no energy and	5.17437648763324e-05
+attacks multiple times	5.17437648763324e-05
+i also deal	5.17437648763324e-05
+panic attacks multiple	5.17437648763324e-05
+day and body	5.17437648763324e-05
+multiple times a	5.17437648763324e-05
+with bipolar extremely	5.17437648763324e-05
+sulk all day	5.17437648763324e-05
+also deal with	5.17437648763324e-05
+day and body dysmorphia	5.17437648763324e-05
+i also deal with	5.17437648763324e-05
+a day and body	5.17437648763324e-05
+no energy and i	5.17437648763324e-05
+just sit and sulk	5.17437648763324e-05
+day i also deal	5.17437648763324e-05
+bad panic attacks multiple	5.17437648763324e-05
+kinda just sit and	5.17437648763324e-05
+with bipolar extremely bad	5.17437648763324e-05
+and sulk all day	5.17437648763324e-05
+i kinda just sit	5.17437648763324e-05
+bipolar extremely bad panic	5.17437648763324e-05
+deal with bipolar extremely	5.17437648763324e-05
+attacks multiple times a	5.17437648763324e-05
+and i kinda just	5.17437648763324e-05
+i have no energy	5.17437648763324e-05
+panic attacks multiple times	5.17437648763324e-05
+multiple times a day	5.17437648763324e-05
+extremely bad panic attacks	5.17437648763324e-05
+have no energy and	5.17437648763324e-05
+sulk all day i	5.17437648763324e-05
+also deal with bipolar	5.17437648763324e-05
+sit and sulk all	5.17437648763324e-05
+all day i also	5.17437648763324e-05
+energy and i kinda	5.17437648763324e-05
+self-diagnosed	5.17437648763324e-05
+cycled	5.17437648763324e-05
+self-diagnosed pure	5.17437648763324e-05
+effects of	5.17437648763324e-05
+deeply depressed	5.17437648763324e-05
+cancer fears	5.17437648763324e-05
+fears schizophrenia	5.17437648763324e-05
+of growing	5.17437648763324e-05
+the effects	5.17437648763324e-05
+pure ocd	5.17437648763324e-05
+with emotionally	5.17437648763324e-05
+cycled through	5.17437648763324e-05
+schizophrenia fears	5.17437648763324e-05
+mention bullying	5.17437648763324e-05
+fears paraphilia	5.17437648763324e-05
+ocd as	5.17437648763324e-05
+over cancer	5.17437648763324e-05
+paraphilia fears	5.17437648763324e-05
+bullying at	5.17437648763324e-05
+still stuck	5.17437648763324e-05
+abusive parents	5.17437648763324e-05
+existential fears	5.17437648763324e-05
+moment are	5.17437648763324e-05
+are self-diagnosed	5.17437648763324e-05
+fears etc	5.17437648763324e-05
+i’ve cycled	5.17437648763324e-05
+fears existential	5.17437648763324e-05
+suicidal managed	5.17437648763324e-05
+several obsessions	5.17437648763324e-05
+the ocd	5.17437648763324e-05
+ocd i’ve	5.17437648763324e-05
+living with not	5.17437648763324e-05
+to mention bullying	5.17437648763324e-05
+cancer fears paraphilia	5.17437648763324e-05
+with the ocd	5.17437648763324e-05
+suicidal managed to	5.17437648763324e-05
+with emotionally and	5.17437648763324e-05
+ocd i’ve cycled	5.17437648763324e-05
+over cancer fears	5.17437648763324e-05
+with not to	5.17437648763324e-05
+fears paraphilia fears	5.17437648763324e-05
+schizophrenia fears existential	5.17437648763324e-05
+get over cancer	5.17437648763324e-05
+up with emotionally	5.17437648763324e-05
+ocd as well	5.17437648763324e-05
+which made me	5.17437648763324e-05
+parents who i’m	5.17437648763324e-05
+biggest problems at	5.17437648763324e-05
+are self-diagnosed pure	5.17437648763324e-05
+of growing up	5.17437648763324e-05
+fears existential fears	5.17437648763324e-05
+still stuck living	5.17437648763324e-05
+me deeply depressed	5.17437648763324e-05
+existential fears etc	5.17437648763324e-05
+made me deeply	5.17437648763324e-05
+self-diagnosed pure ocd	5.17437648763324e-05
+cycled through several	5.17437648763324e-05
+stuck living with	5.17437648763324e-05
+moment are self-diagnosed	5.17437648763324e-05
+depressed and suicidal	5.17437648763324e-05
+abusive parents who	5.17437648763324e-05
+who i’m still	5.17437648763324e-05
+bullying at school	5.17437648763324e-05
+school with the	5.17437648763324e-05
+the moment are	5.17437648763324e-05
+at school with	5.17437648763324e-05
+obsessions which made	5.17437648763324e-05
+i’ve cycled through	5.17437648763324e-05
+as the effects	5.17437648763324e-05
+and suicidal managed	5.17437648763324e-05
+several obsessions which	5.17437648763324e-05
+i’m still stuck	5.17437648763324e-05
+mention bullying at	5.17437648763324e-05
+pure ocd as	5.17437648763324e-05
+well as the	5.17437648763324e-05
+deeply depressed and	5.17437648763324e-05
+effects of growing	5.17437648763324e-05
+physically abusive parents	5.17437648763324e-05
+fears schizophrenia fears	5.17437648763324e-05
+through several obsessions	5.17437648763324e-05
+problems at the	5.17437648763324e-05
+paraphilia fears schizophrenia	5.17437648763324e-05
+the ocd i’ve	5.17437648763324e-05
+the effects of	5.17437648763324e-05
+me deeply depressed and	5.17437648763324e-05
+i’ve cycled through several	5.17437648763324e-05
+up with emotionally and	5.17437648763324e-05
+fears paraphilia fears schizophrenia	5.17437648763324e-05
+parents who i’m still	5.17437648763324e-05
+abusive parents who i’m	5.17437648763324e-05
+living with not to	5.17437648763324e-05
+moment are self-diagnosed pure	5.17437648763324e-05
+school with the ocd	5.17437648763324e-05
+several obsessions which made	5.17437648763324e-05
+deeply depressed and suicidal	5.17437648763324e-05
+at the moment are	5.17437648763324e-05
+and physically abusive parents	5.17437648763324e-05
+fears existential fears etc	5.17437648763324e-05
+physically abusive parents who	5.17437648763324e-05
+pure ocd as well	5.17437648763324e-05
+problems at the moment	5.17437648763324e-05
+of growing up with	5.17437648763324e-05
+fears schizophrenia fears existential	5.17437648763324e-05
+the ocd i’ve cycled	5.17437648763324e-05
+bullying at school with	5.17437648763324e-05
+schizophrenia fears existential fears	5.17437648763324e-05
+the moment are self-diagnosed	5.17437648763324e-05
+effects of growing up	5.17437648763324e-05
+made me deeply depressed	5.17437648763324e-05
+and suicidal managed to	5.17437648763324e-05
+still stuck living with	5.17437648763324e-05
+my biggest problems at	5.17437648763324e-05
+self-diagnosed pure ocd as	5.17437648763324e-05
+cycled through several obsessions	5.17437648763324e-05
+well as the effects	5.17437648763324e-05
+who i’m still stuck	5.17437648763324e-05
+mention bullying at school	5.17437648763324e-05
+obsessions which made me	5.17437648763324e-05
+suicidal managed to get	5.17437648763324e-05
+ocd i’ve cycled through	5.17437648763324e-05
+get over cancer fears	5.17437648763324e-05
+cancer fears paraphilia fears	5.17437648763324e-05
+with emotionally and physically	5.17437648763324e-05
+to get over cancer	5.17437648763324e-05
+growing up with emotionally	5.17437648763324e-05
+with not to mention	5.17437648763324e-05
+the effects of growing	5.17437648763324e-05
+stuck living with not	5.17437648763324e-05
+are self-diagnosed pure ocd	5.17437648763324e-05
+with the ocd i’ve	5.17437648763324e-05
+biggest problems at the	5.17437648763324e-05
+through several obsessions which	5.17437648763324e-05
+at school with the	5.17437648763324e-05
+as well as the	5.17437648763324e-05
+not to mention bullying	5.17437648763324e-05
+which made me deeply	5.17437648763324e-05
+over cancer fears paraphilia	5.17437648763324e-05
+depressed and suicidal managed	5.17437648763324e-05
+to mention bullying at	5.17437648763324e-05
+paraphilia fears schizophrenia fears	5.17437648763324e-05
+as the effects of	5.17437648763324e-05
+ocd as well as	5.17437648763324e-05
+i’m still stuck living	5.17437648763324e-05
+emotionally and physically abusive	5.17437648763324e-05
+somewhere but	5.17437648763324e-05
+belong anywhere	5.17437648763324e-05
+don’t belong	5.17437648763324e-05
+stuck i	5.17437648763324e-05
+i’m stuck i	5.17437648763324e-05
+now i’m stuck	5.17437648763324e-05
+don’t belong anywhere	5.17437648763324e-05
+anywhere i feel	5.17437648763324e-05
+i don’t belong	5.17437648763324e-05
+of me is	5.17437648763324e-05
+stuck i feel	5.17437648763324e-05
+gone and i	5.17437648763324e-05
+go somewhere but	5.17437648763324e-05
+belong anywhere i	5.17437648763324e-05
+somewhere but don’t	5.17437648763324e-05
+me is gone	5.17437648763324e-05
+like a part	5.17437648763324e-05
+go somewhere but don’t	5.17437648763324e-05
+i feel like a	5.17437648763324e-05
+somewhere but don’t know	5.17437648763324e-05
+like a part of	5.17437648763324e-05
+gone and i don’t	5.17437648763324e-05
+but don’t know where	5.17437648763324e-05
+belong anywhere i feel	5.17437648763324e-05
+feel like a part	5.17437648763324e-05
+don’t belong anywhere i	5.17437648763324e-05
+want to go somewhere	5.17437648763324e-05
+is gone and i	5.17437648763324e-05
+stuck i feel like	5.17437648763324e-05
+of me is gone	5.17437648763324e-05
+me is gone and	5.17437648763324e-05
+anywhere i feel like	5.17437648763324e-05
+i’m stuck i feel	5.17437648763324e-05
+i don’t belong anywhere	5.17437648763324e-05
+to go somewhere but	5.17437648763324e-05
+now i’m stuck i	5.17437648763324e-05
+and i don’t belong	5.17437648763324e-05
+part of me is	5.17437648763324e-05
+ruminate	5.17437648763324e-05
+past or	5.17437648763324e-05
+reminded of	5.17437648763324e-05
+mentions something	5.17437648763324e-05
+in conversation	5.17437648763324e-05
+i ruminate	5.17437648763324e-05
+i’m reminded	5.17437648763324e-05
+ruminate about	5.17437648763324e-05
+conversation he	5.17437648763324e-05
+either it	5.17437648763324e-05
+he mentions	5.17437648763324e-05
+constantly either	5.17437648763324e-05
+reminded of it	5.17437648763324e-05
+of it constantly	5.17437648763324e-05
+something about his	5.17437648763324e-05
+i’m reminded of	5.17437648763324e-05
+either it comes	5.17437648763324e-05
+mentions something about	5.17437648763324e-05
+it constantly either	5.17437648763324e-05
+ruminate about it	5.17437648763324e-05
+it comes up	5.17437648763324e-05
+comes up in	5.17437648763324e-05
+past or i	5.17437648763324e-05
+he mentions something	5.17437648763324e-05
+conversation he mentions	5.17437648763324e-05
+i ruminate about	5.17437648763324e-05
+or i ruminate	5.17437648763324e-05
+constantly either it	5.17437648763324e-05
+in conversation he	5.17437648763324e-05
+about his past	5.17437648763324e-05
+his past or	5.17437648763324e-05
+up in conversation	5.17437648763324e-05
+comes up in conversation	5.17437648763324e-05
+in conversation he mentions	5.17437648763324e-05
+or i ruminate about	5.17437648763324e-05
+up in conversation he	5.17437648763324e-05
+something about his past	5.17437648763324e-05
+ruminate about it in	5.17437648763324e-05
+about his past or	5.17437648763324e-05
+it comes up in	5.17437648763324e-05
+either it comes up	5.17437648763324e-05
+mentions something about his	5.17437648763324e-05
+conversation he mentions something	5.17437648763324e-05
+past or i ruminate	5.17437648763324e-05
+he mentions something about	5.17437648763324e-05
+about it in my	5.17437648763324e-05
+constantly either it comes	5.17437648763324e-05
+it constantly either it	5.17437648763324e-05
+i’m reminded of it	5.17437648763324e-05
+of it constantly either	5.17437648763324e-05
+i ruminate about it	5.17437648763324e-05
+his past or i	5.17437648763324e-05
+reminded of it constantly	5.17437648763324e-05
+forwarded	5.17437648763324e-05
+rushed	5.17437648763324e-05
+dressing	5.17437648763324e-05
+laugh but	5.17437648763324e-05
+emotionally numb	5.17437648763324e-05
+perception of	5.17437648763324e-05
+fast forwarded	5.17437648763324e-05
+rushed like	5.17437648763324e-05
+i’ll laugh	5.17437648763324e-05
+a dressing	5.17437648763324e-05
+months it’s	5.17437648763324e-05
+on boards	5.17437648763324e-05
+and words	5.17437648763324e-05
+or rushed	5.17437648763324e-05
+sat in	5.17437648763324e-05
+fix this	5.17437648763324e-05
+blurry just	5.17437648763324e-05
+dressing room	5.17437648763324e-05
+like fast	5.17437648763324e-05
+reading issues	5.17437648763324e-05
+numb like	5.17437648763324e-05
+boards seem	5.17437648763324e-05
+my perception	5.17437648763324e-05
+had reading	5.17437648763324e-05
+minutes i	5.17437648763324e-05
+24/7 but	5.17437648763324e-05
+been 24/7	5.17437648763324e-05
+words on	5.17437648763324e-05
+getting like	5.17437648763324e-05
+mind can’t	5.17437648763324e-05
+forwarded or	5.17437648763324e-05
+quite comprehend	5.17437648763324e-05
+not blurry	5.17437648763324e-05
+like minutes	5.17437648763324e-05
+sudden felt	5.17437648763324e-05
+seem blurry	5.17437648763324e-05
+blurry to	5.17437648763324e-05
+emotionally numb like	5.17437648763324e-05
+room for an	5.17437648763324e-05
+dressing room for	5.17437648763324e-05
+sat in a	5.17437648763324e-05
+had this problem	5.17437648763324e-05
+for months it’s	5.17437648763324e-05
+and words on	5.17437648763324e-05
+fix this and	5.17437648763324e-05
+anything and words	5.17437648763324e-05
+time is there	5.17437648763324e-05
+perception of time	5.17437648763324e-05
+like minutes i	5.17437648763324e-05
+blurry to me	5.17437648763324e-05
+sudden felt like	5.17437648763324e-05
+for an hour	5.17437648763324e-05
+laugh but i	5.17437648763324e-05
+very emotionally numb	5.17437648763324e-05
+had reading issues	5.17437648763324e-05
+things have all	5.17437648763324e-05
+have all of	5.17437648763324e-05
+that my mind	5.17437648763324e-05
+mind can’t quite	5.17437648763324e-05
+issues like maybe	5.17437648763324e-05
+minutes i don’t	5.17437648763324e-05
+hi i’ve had	5.17437648763324e-05
+of time is	5.17437648763324e-05
+everything is getting	5.17437648763324e-05
+or rushed like	5.17437648763324e-05
+to fix this	5.17437648763324e-05
+seem blurry to	5.17437648763324e-05
+it’s been 24/7	5.17437648763324e-05
+feel anything and	5.17437648763324e-05
+problem for months	5.17437648763324e-05
+a sudden felt	5.17437648763324e-05
+with my perception	5.17437648763324e-05
+not blurry just	5.17437648763324e-05
+my mind can’t	5.17437648763324e-05
+blurry just that	5.17437648763324e-05
+words on boards	5.17437648763324e-05
+can’t quite comprehend	5.17437648763324e-05
+numb like i’ll	5.17437648763324e-05
+like maybe not	5.17437648763324e-05
+but things have	5.17437648763324e-05
+been 24/7 but	5.17437648763324e-05
+like i’ll laugh	5.17437648763324e-05
+in a dressing	5.17437648763324e-05
+and it felt	5.17437648763324e-05
+felt like everything	5.17437648763324e-05
+on boards seem	5.17437648763324e-05
+like i sat	5.17437648763324e-05
+reading issues like	5.17437648763324e-05
+getting like fast	5.17437648763324e-05
+months it’s been	5.17437648763324e-05
+any way to	5.17437648763324e-05
+boards seem blurry	5.17437648763324e-05
+i sat in	5.17437648763324e-05
+i’ll laugh but	5.17437648763324e-05
+like fast forwarded	5.17437648763324e-05
+won’t feel anything	5.17437648763324e-05
+my perception of	5.17437648763324e-05
+just that my	5.17437648763324e-05
+is getting like	5.17437648763324e-05
+a dressing room	5.17437648763324e-05
+hour and it	5.17437648763324e-05
+way to fix	5.17437648763324e-05
+forwarded or rushed	5.17437648763324e-05
+to me even	5.17437648763324e-05
+24/7 but things	5.17437648763324e-05
+but i won’t	5.17437648763324e-05
+fast forwarded or	5.17437648763324e-05
+rushed like i	5.17437648763324e-05
+maybe not blurry	5.17437648763324e-05
+never had reading	5.17437648763324e-05
+felt like minutes	5.17437648763324e-05
+not blurry just that	5.17437648763324e-05
+have all of a	5.17437648763324e-05
+hi i’ve had this	5.17437648763324e-05
+like minutes i don’t	5.17437648763324e-05
+a sudden felt like	5.17437648763324e-05
+fix this and i	5.17437648763324e-05
+this problem for months	5.17437648763324e-05
+in a dressing room	5.17437648763324e-05
+me even though i’ve	5.17437648763324e-05
+issues like maybe not	5.17437648763324e-05
+had this problem for	5.17437648763324e-05
+words on boards seem	5.17437648763324e-05
+but things have all	5.17437648763324e-05
+though i’ve never had	5.17437648763324e-05
+what’s wrong with my	5.17437648763324e-05
+dressing room for an	5.17437648763324e-05
+emotionally numb like i’ll	5.17437648763324e-05
+any way to fix	5.17437648763324e-05
+i’ll laugh but i	5.17437648763324e-05
+and it felt like	5.17437648763324e-05
+24/7 but things have	5.17437648763324e-05
+but i won’t feel	5.17437648763324e-05
+my mind can’t quite	5.17437648763324e-05
+sat in a dressing	5.17437648763324e-05
+anything and words on	5.17437648763324e-05
+blurry to me even	5.17437648763324e-05
+room for an hour	5.17437648763324e-05
+i’ve had this problem	5.17437648763324e-05
+things have all of	5.17437648763324e-05
+for months it’s been	5.17437648763324e-05
+it’s been 24/7 but	5.17437648763324e-05
+numb like i’ll laugh	5.17437648763324e-05
+for an hour and	5.17437648763324e-05
+my perception of time	5.17437648763324e-05
+like everything is getting	5.17437648763324e-05
+rushed like i sat	5.17437648763324e-05
+is getting like fast	5.17437648763324e-05
+and words on boards	5.17437648763324e-05
+with my perception of	5.17437648763324e-05
+felt like everything is	5.17437648763324e-05
+months it’s been 24/7	5.17437648763324e-05
+an hour and it	5.17437648763324e-05
+won’t feel anything and	5.17437648763324e-05
+it felt like minutes	5.17437648763324e-05
+never had reading issues	5.17437648763324e-05
+that my mind can’t	5.17437648763324e-05
+or rushed like i	5.17437648763324e-05
+fast forwarded or rushed	5.17437648763324e-05
+like maybe not blurry	5.17437648763324e-05
+forwarded or rushed like	5.17437648763324e-05
+time is there any	5.17437648763324e-05
+i won’t feel anything	5.17437648763324e-05
+boards seem blurry to	5.17437648763324e-05
+minutes i don’t know	5.17437648763324e-05
+perception of time is	5.17437648763324e-05
+to fix this and	5.17437648763324e-05
+of time is there	5.17437648763324e-05
+like i sat in	5.17437648763324e-05
+just that my mind	5.17437648763324e-05
+reading issues like maybe	5.17437648763324e-05
+blurry just that my	5.17437648763324e-05
+i’ve never had reading	5.17437648763324e-05
+on boards seem blurry	5.17437648763324e-05
+maybe not blurry just	5.17437648763324e-05
+feel anything and words	5.17437648763324e-05
+felt like minutes i	5.17437648763324e-05
+to me even though	5.17437648763324e-05
+sudden felt like everything	5.17437648763324e-05
+wrong with my perception	5.17437648763324e-05
+of a sudden felt	5.17437648763324e-05
+had reading issues like	5.17437648763324e-05
+been 24/7 but things	5.17437648763324e-05
+getting like fast forwarded	5.17437648763324e-05
+a dressing room for	5.17437648763324e-05
+there any way to	5.17437648763324e-05
+like fast forwarded or	5.17437648763324e-05
+mind can’t quite comprehend	5.17437648763324e-05
+feel very emotionally numb	5.17437648763324e-05
+this and i feel	5.17437648763324e-05
+way to fix this	5.17437648763324e-05
+problem for months it’s	5.17437648763324e-05
+laugh but i won’t	5.17437648763324e-05
+i sat in a	5.17437648763324e-05
+seem blurry to me	5.17437648763324e-05
+hour and it felt	5.17437648763324e-05
+everything is getting like	5.17437648763324e-05
+very emotionally numb like	5.17437648763324e-05
+like i’ll laugh but	5.17437648763324e-05
+single problem	5.17437648763324e-05
+thinking i think	5.17437648763324e-05
+think about every	5.17437648763324e-05
+problem in my	5.17437648763324e-05
+start thinking i	5.17437648763324e-05
+every single problem	5.17437648763324e-05
+once i start	5.17437648763324e-05
+single problem in	5.17437648763324e-05
+life and i cry	5.17437648763324e-05
+start thinking i think	5.17437648763324e-05
+problem in my life	5.17437648763324e-05
+single problem in my	5.17437648763324e-05
+thinking i think about	5.17437648763324e-05
+once i start thinking	5.17437648763324e-05
+every single problem in	5.17437648763324e-05
+about every single problem	5.17437648763324e-05
+i think about every	5.17437648763324e-05
+think about every single	5.17437648763324e-05
+i start thinking i	5.17437648763324e-05
+maybe then	5.17437648763324e-05
+just done	5.17437648763324e-05
+the purpose	5.17437648763324e-05
+just failure	5.17437648763324e-05
+failure that	5.17437648763324e-05
+done with	5.17437648763324e-05
+even think	5.17437648763324e-05
+failure after	5.17437648763324e-05
+of whatever	5.17437648763324e-05
+then what’s	5.17437648763324e-05
+after failure	5.17437648763324e-05
+whatever it	5.17437648763324e-05
+after failure that	5.17437648763324e-05
+just failure after	5.17437648763324e-05
+even think of	5.17437648763324e-05
+what’s the purpose	5.17437648763324e-05
+just done with	5.17437648763324e-05
+think of whatever	5.17437648763324e-05
+then what’s the	5.17437648763324e-05
+done with life	5.17437648763324e-05
+of whatever it	5.17437648763324e-05
+failure after failure	5.17437648763324e-05
+can’t even think	5.17437648763324e-05
+whatever it maybe	5.17437648763324e-05
+failure that i	5.17437648763324e-05
+i’m really just	5.17437648763324e-05
+it maybe then	5.17437648763324e-05
+maybe then what’s	5.17437648763324e-05
+if my life	5.17437648763324e-05
+life is just	5.17437648763324e-05
+is just failure	5.17437648763324e-05
+like if my	5.17437648763324e-05
+really just done	5.17437648763324e-05
+and feel like if	5.17437648763324e-05
+after failure that i	5.17437648763324e-05
+just failure after failure	5.17437648763324e-05
+whatever it maybe then	5.17437648763324e-05
+is just failure after	5.17437648763324e-05
+feel like if my	5.17437648763324e-05
+maybe then what’s the	5.17437648763324e-05
+i’m really just done	5.17437648763324e-05
+if my life is	5.17437648763324e-05
+think of whatever it	5.17437648763324e-05
+then what’s the purpose	5.17437648763324e-05
+just done with life	5.17437648763324e-05
+that i can’t even	5.17437648763324e-05
+like if my life	5.17437648763324e-05
+failure that i can’t	5.17437648763324e-05
+life and feel like	5.17437648763324e-05
+failure after failure that	5.17437648763324e-05
+my life is just	5.17437648763324e-05
+of whatever it maybe	5.17437648763324e-05
+life is just failure	5.17437648763324e-05
+it maybe then what’s	5.17437648763324e-05
+done with life and	5.17437648763324e-05
+even think of whatever	5.17437648763324e-05
+really just done with	5.17437648763324e-05
+can’t even think of	5.17437648763324e-05
+i can’t even think	5.17437648763324e-05
+friends my	5.17437648763324e-05
+only people i	5.17437648763324e-05
+the only people	5.17437648763324e-05
+the only people i	5.17437648763324e-05
+theater	5.17437648763324e-05
+classes but	5.17437648763324e-05
+and grocery	5.17437648763324e-05
+problems going	5.17437648763324e-05
+and therapists	5.17437648763324e-05
+psychiatrist now	5.17437648763324e-05
+movie theater	5.17437648763324e-05
+just focus	5.17437648763324e-05
+also go	5.17437648763324e-05
+right fit	5.17437648763324e-05
+apartment to	5.17437648763324e-05
+stop trying	5.17437648763324e-05
+had panic	5.17437648763324e-05
+of therapist	5.17437648763324e-05
+person classes	5.17437648763324e-05
+therapists but	5.17437648763324e-05
+fit of	5.17437648763324e-05
+only leave	5.17437648763324e-05
+theater and	5.17437648763324e-05
+right fit of	5.17437648763324e-05
+person classes but	5.17437648763324e-05
+years i only	5.17437648763324e-05
+doctors and therapists	5.17437648763324e-05
+had panic attacks	5.17437648763324e-05
+and just focus	5.17437648763324e-05
+attempted to go	5.17437648763324e-05
+to my psychiatrist	5.17437648763324e-05
+the right fit	5.17437648763324e-05
+the movie theater	5.17437648763324e-05
+also go to	5.17437648763324e-05
+problems going to	5.17437648763324e-05
+movie theater and	5.17437648763324e-05
+made the decision	5.17437648763324e-05
+attacks and i	5.17437648763324e-05
+to stop trying	5.17437648763324e-05
+my psychiatrist now	5.17437648763324e-05
+dropped out for	5.17437648763324e-05
+but recently my	5.17437648763324e-05
+apartment to go	5.17437648763324e-05
+and grocery store	5.17437648763324e-05
+i also go	5.17437648763324e-05
+my apartment to	5.17437648763324e-05
+going to my	5.17437648763324e-05
+store i also	5.17437648763324e-05
+theater and grocery	5.17437648763324e-05
+and therapists but	5.17437648763324e-05
+go to in	5.17437648763324e-05
+to in person	5.17437648763324e-05
+recently my mom	5.17437648763324e-05
+and i dropped	5.17437648763324e-05
+fit of therapist	5.17437648763324e-05
+just focus on	5.17437648763324e-05
+i had panic	5.17437648763324e-05
+only leave my	5.17437648763324e-05
+grocery store i	5.17437648763324e-05
+classes but i	5.17437648763324e-05
+on school i	5.17437648763324e-05
+school i also	5.17437648763324e-05
+stop trying to	5.17437648763324e-05
+having problems going	5.17437648763324e-05
+also am having	5.17437648763324e-05
+focus on school	5.17437648763324e-05
+i only leave	5.17437648763324e-05
+go to doctors	5.17437648763324e-05
+in person classes	5.17437648763324e-05
+therapist and just	5.17437648763324e-05
+leave my apartment	5.17437648763324e-05
+of therapist and	5.17437648763324e-05
+to the movie	5.17437648763324e-05
+decision to stop	5.17437648763324e-05
+to doctors and	5.17437648763324e-05
+therapists but recently	5.17437648763324e-05
+am having problems	5.17437648763324e-05
+and i dropped out	5.17437648763324e-05
+only leave my apartment	5.17437648763324e-05
+going to my psychiatrist	5.17437648763324e-05
+stop trying to find	5.17437648763324e-05
+apartment to go to	5.17437648763324e-05
+in person classes but	5.17437648763324e-05
+movie theater and grocery	5.17437648763324e-05
+to stop trying to	5.17437648763324e-05
+to my psychiatrist now	5.17437648763324e-05
+theater and grocery store	5.17437648763324e-05
+therapists but recently my	5.17437648763324e-05
+just focus on school	5.17437648763324e-05
+my apartment to go	5.17437648763324e-05
+i only leave my	5.17437648763324e-05
+and grocery store i	5.17437648763324e-05
+and therapists but recently	5.17437648763324e-05
+recently my mom and	5.17437648763324e-05
+am having problems going	5.17437648763324e-05
+but i had panic	5.17437648763324e-05
+doctors and therapists but	5.17437648763324e-05
+i also go to	5.17437648763324e-05
+of therapist and just	5.17437648763324e-05
+made the decision to	5.17437648763324e-05
+also am having problems	5.17437648763324e-05
+go to in person	5.17437648763324e-05
+out for the last	5.17437648763324e-05
+therapist and just focus	5.17437648763324e-05
+leave my apartment to	5.17437648763324e-05
+school i also am	5.17437648763324e-05
+go to doctors and	5.17437648763324e-05
+panic attacks and i	5.17437648763324e-05
+classes but i had	5.17437648763324e-05
+i attempted to go	5.17437648763324e-05
+but recently my mom	5.17437648763324e-05
+focus on school i	5.17437648763324e-05
+two years i only	5.17437648763324e-05
+fit of therapist and	5.17437648763324e-05
+person classes but i	5.17437648763324e-05
+i had panic attacks	5.17437648763324e-05
+to in person classes	5.17437648763324e-05
+dropped out for the	5.17437648763324e-05
+to the movie theater	5.17437648763324e-05
+find the right fit	5.17437648763324e-05
+i made the decision	5.17437648763324e-05
+last two years i	5.17437648763324e-05
+also go to doctors	5.17437648763324e-05
+i also am having	5.17437648763324e-05
+the decision to stop	5.17437648763324e-05
+years i only leave	5.17437648763324e-05
+attempted to go to	5.17437648763324e-05
+go to the movie	5.17437648763324e-05
+the movie theater and	5.17437648763324e-05
+to doctors and therapists	5.17437648763324e-05
+mom and i made	5.17437648763324e-05
+decision to stop trying	5.17437648763324e-05
+right fit of therapist	5.17437648763324e-05
+store i also go	5.17437648763324e-05
+on school i also	5.17437648763324e-05
+had panic attacks and	5.17437648763324e-05
+problems going to my	5.17437648763324e-05
+trying to find the	5.17437648763324e-05
+the right fit of	5.17437648763324e-05
+to go to in	5.17437648763324e-05
+i dropped out for	5.17437648763324e-05
+grocery store i also	5.17437648763324e-05
+having problems going to	5.17437648763324e-05
+and just focus on	5.17437648763324e-05
+attacks and i dropped	5.17437648763324e-05
+sabotaging	5.17437648763324e-05
+talent that	5.17437648763324e-05
+had from	5.17437648763324e-05
+drawing skill	5.17437648763324e-05
+every artistic	5.17437648763324e-05
+hate towards	5.17437648763324e-05
+sabotaging every	5.17437648763324e-05
+feminine i	5.17437648763324e-05
+voice basically	5.17437648763324e-05
+myself sabotaging	5.17437648763324e-05
+beautiful voice	5.17437648763324e-05
+basically every	5.17437648763324e-05
+skill a	5.17437648763324e-05
+extreme hate	5.17437648763324e-05
+my talent	5.17437648763324e-05
+a writing	5.17437648763324e-05
+artistic talent	5.17437648763324e-05
+was feminine	5.17437648763324e-05
+writing skill	5.17437648763324e-05
+an extreme hate	5.17437648763324e-05
+drawing skill a	5.17437648763324e-05
+my talent that	5.17437648763324e-05
+sabotaging every artistic	5.17437648763324e-05
+talent that i	5.17437648763324e-05
+a drawing skill	5.17437648763324e-05
+artistic talent that	5.17437648763324e-05
+skill a beautiful	5.17437648763324e-05
+had an extreme	5.17437648763324e-05
+a writing skill	5.17437648763324e-05
+that was feminine	5.17437648763324e-05
+of my talent	5.17437648763324e-05
+towards myself sabotaging	5.17437648763324e-05
+voice basically every	5.17437648763324e-05
+extreme hate towards	5.17437648763324e-05
+i had an	5.17437648763324e-05
+skill a drawing	5.17437648763324e-05
+myself sabotaging every	5.17437648763324e-05
+every aspect of	5.17437648763324e-05
+every artistic talent	5.17437648763324e-05
+talent that was	5.17437648763324e-05
+from a writing	5.17437648763324e-05
+writing skill a	5.17437648763324e-05
+had from a	5.17437648763324e-05
+feminine i hated	5.17437648763324e-05
+a beautiful voice	5.17437648763324e-05
+beautiful voice basically	5.17437648763324e-05
+hate towards myself	5.17437648763324e-05
+basically every aspect	5.17437648763324e-05
+was feminine i	5.17437648763324e-05
+i had from	5.17437648763324e-05
+had from a writing	5.17437648763324e-05
+skill a drawing skill	5.17437648763324e-05
+i had from a	5.17437648763324e-05
+every aspect of my	5.17437648763324e-05
+aspect of my talent	5.17437648763324e-05
+a drawing skill a	5.17437648763324e-05
+beautiful voice basically every	5.17437648763324e-05
+myself sabotaging every artistic	5.17437648763324e-05
+artistic talent that i	5.17437648763324e-05
+a writing skill a	5.17437648763324e-05
+sabotaging every artistic talent	5.17437648763324e-05
+talent that i had	5.17437648763324e-05
+hate towards myself sabotaging	5.17437648763324e-05
+feminine i hated it	5.17437648763324e-05
+an extreme hate towards	5.17437648763324e-05
+towards myself sabotaging every	5.17437648763324e-05
+a beautiful voice basically	5.17437648763324e-05
+drawing skill a beautiful	5.17437648763324e-05
+skill a beautiful voice	5.17437648763324e-05
+talent that was feminine	5.17437648763324e-05
+was feminine i hated	5.17437648763324e-05
+writing skill a drawing	5.17437648763324e-05
+from a writing skill	5.17437648763324e-05
+i had an extreme	5.17437648763324e-05
+extreme hate towards myself	5.17437648763324e-05
+my talent that was	5.17437648763324e-05
+every artistic talent that	5.17437648763324e-05
+that was feminine i	5.17437648763324e-05
+had an extreme hate	5.17437648763324e-05
+of my talent that	5.17437648763324e-05
+voice basically every aspect	5.17437648763324e-05
+that i had from	5.17437648763324e-05
+basically every aspect of	5.17437648763324e-05
+but sometimes i feel	5.17437648763324e-05
+split-second	5.17437648763324e-05
+or having	5.17437648763324e-05
+happen as	5.17437648763324e-05
+problems snapping	5.17437648763324e-05
+snapping out	5.17437648763324e-05
+still self	5.17437648763324e-05
+a split-second	5.17437648763324e-05
+temper problems	5.17437648763324e-05
+often anymore	5.17437648763324e-05
+split-second which	5.17437648763324e-05
+breakdown in	5.17437648763324e-05
+cut when	5.17437648763324e-05
+have bad	5.17437648763324e-05
+self cut	5.17437648763324e-05
+which does	5.17437648763324e-05
+which does not	5.17437648763324e-05
+cut when in	5.17437648763324e-05
+snapping out or	5.17437648763324e-05
+still self cut	5.17437648763324e-05
+bad temper problems	5.17437648763324e-05
+anymore i still	5.17437648763324e-05
+or having a	5.17437648763324e-05
+i still self	5.17437648763324e-05
+state of depression	5.17437648763324e-05
+in a split-second	5.17437648763324e-05
+mental breakdown in	5.17437648763324e-05
+in the state	5.17437648763324e-05
+to have bad	5.17437648763324e-05
+when in the	5.17437648763324e-05
+self cut when	5.17437648763324e-05
+happen as often	5.17437648763324e-05
+problems snapping out	5.17437648763324e-05
+often anymore i	5.17437648763324e-05
+does not happen	5.17437648763324e-05
+temper problems snapping	5.17437648763324e-05
+a split-second which	5.17437648763324e-05
+have bad temper	5.17437648763324e-05
+not happen as	5.17437648763324e-05
+as often anymore	5.17437648763324e-05
+breakdown in a	5.17437648763324e-05
+having a mental	5.17437648763324e-05
+split-second which does	5.17437648763324e-05
+out or having	5.17437648763324e-05
+have bad temper problems	5.17437648763324e-05
+does not happen as	5.17437648763324e-05
+snapping out or having	5.17437648763324e-05
+having a mental breakdown	5.17437648763324e-05
+happen as often anymore	5.17437648763324e-05
+split-second which does not	5.17437648763324e-05
+breakdown in a split-second	5.17437648763324e-05
+in the state of	5.17437648763324e-05
+i still self cut	5.17437648763324e-05
+to have bad temper	5.17437648763324e-05
+which does not happen	5.17437648763324e-05
+when in the state	5.17437648763324e-05
+a split-second which does	5.17437648763324e-05
+mental breakdown in a	5.17437648763324e-05
+problems snapping out or	5.17437648763324e-05
+a mental breakdown in	5.17437648763324e-05
+not happen as often	5.17437648763324e-05
+as often anymore i	5.17437648763324e-05
+bad temper problems snapping	5.17437648763324e-05
+used to have bad	5.17437648763324e-05
+anymore i still self	5.17437648763324e-05
+self cut when in	5.17437648763324e-05
+or having a mental	5.17437648763324e-05
+cut when in the	5.17437648763324e-05
+temper problems snapping out	5.17437648763324e-05
+still self cut when	5.17437648763324e-05
+often anymore i still	5.17437648763324e-05
+out or having a	5.17437648763324e-05
+the state of depression	5.17437648763324e-05
+in a split-second which	5.17437648763324e-05
+disappointment to	5.17437648763324e-05
+disappointment to my	5.17437648763324e-05
+remember negative	5.17437648763324e-05
+mind completely	5.17437648763324e-05
+have seemed	5.17437648763324e-05
+have seemed to	5.17437648763324e-05
+can remember negative	5.17437648763324e-05
+my mind completely	5.17437648763324e-05
+negative thoughts have	5.17437648763324e-05
+thoughts have seemed	5.17437648763324e-05
+remember negative thoughts	5.17437648763324e-05
+seemed to take	5.17437648763324e-05
+can remember negative thoughts	5.17437648763324e-05
+negative thoughts have seemed	5.17437648763324e-05
+of my mind completely	5.17437648763324e-05
+control of my mind	5.17437648763324e-05
+remember negative thoughts have	5.17437648763324e-05
+i can remember negative	5.17437648763324e-05
+seemed to take control	5.17437648763324e-05
+thoughts have seemed to	5.17437648763324e-05
+have seemed to take	5.17437648763324e-05
+me till	5.17437648763324e-05
+still see	5.17437648763324e-05
+yelling those	5.17437648763324e-05
+those things	5.17437648763324e-05
+till this day	5.17437648763324e-05
+me till this	5.17437648763324e-05
+still see his	5.17437648763324e-05
+see his face	5.17437648763324e-05
+face yelling those	5.17437648763324e-05
+i still see	5.17437648763324e-05
+those things to	5.17437648763324e-05
+his face yelling	5.17437648763324e-05
+to me till	5.17437648763324e-05
+yelling those things	5.17437648763324e-05
+me till this day	5.17437648763324e-05
+things to me till	5.17437648763324e-05
+face yelling those things	5.17437648763324e-05
+to me till this	5.17437648763324e-05
+his face yelling those	5.17437648763324e-05
+those things to me	5.17437648763324e-05
+yelling those things to	5.17437648763324e-05
+i still see his	5.17437648763324e-05
+still see his face	5.17437648763324e-05
+see his face yelling	5.17437648763324e-05
+tweets	5.17437648763324e-05
+24/7now	5.17437648763324e-05
+ima	5.17437648763324e-05
+with tweets	5.17437648763324e-05
+24/7now ive	5.17437648763324e-05
+fears anytime	5.17437648763324e-05
+think ima	5.17437648763324e-05
+ima paranoid	5.17437648763324e-05
+schizophrenic now	5.17437648763324e-05
+tweets and	5.17437648763324e-05
+ive started	5.17437648763324e-05
+going schizophrenic	5.17437648763324e-05
+schizophrenic almost	5.17437648763324e-05
+having nightmares	5.17437648763324e-05
+im stressing	5.17437648763324e-05
+happens with	5.17437648763324e-05
+worst fears	5.17437648763324e-05
+almost 24/7now	5.17437648763324e-05
+fears anytime i	5.17437648763324e-05
+going schizophrenic almost	5.17437648763324e-05
+only happens with	5.17437648763324e-05
+24/7now ive started	5.17437648763324e-05
+this only happens	5.17437648763324e-05
+with tweets and	5.17437648763324e-05
+ima paranoid schizophrenic	5.17437648763324e-05
+i think ima	5.17437648763324e-05
+nightmares about my	5.17437648763324e-05
+almost 24/7now ive	5.17437648763324e-05
+schizophrenic almost 24/7now	5.17437648763324e-05
+tweets and when	5.17437648763324e-05
+im stressing about	5.17437648763324e-05
+get scared i	5.17437648763324e-05
+scared i think	5.17437648763324e-05
+when im stressing	5.17437648763324e-05
+ive started having	5.17437648763324e-05
+think ima paranoid	5.17437648763324e-05
+about my worst	5.17437648763324e-05
+happens with tweets	5.17437648763324e-05
+worst fears anytime	5.17437648763324e-05
+anytime i get	5.17437648763324e-05
+about going schizophrenic	5.17437648763324e-05
+having nightmares about	5.17437648763324e-05
+my worst fears	5.17437648763324e-05
+stressing about going	5.17437648763324e-05
+paranoid schizophrenic now	5.17437648763324e-05
+started having nightmares	5.17437648763324e-05
+about my worst fears	5.17437648763324e-05
+i get scared i	5.17437648763324e-05
+almost 24/7now ive started	5.17437648763324e-05
+ima paranoid schizophrenic now	5.17437648763324e-05
+worst fears anytime i	5.17437648763324e-05
+anytime i get scared	5.17437648763324e-05
+when im stressing about	5.17437648763324e-05
+i think ima paranoid	5.17437648763324e-05
+going schizophrenic almost 24/7now	5.17437648763324e-05
+my worst fears anytime	5.17437648763324e-05
+get scared i think	5.17437648763324e-05
+with tweets and when	5.17437648763324e-05
+only happens with tweets	5.17437648763324e-05
+24/7now ive started having	5.17437648763324e-05
+fears anytime i get	5.17437648763324e-05
+nightmares about my worst	5.17437648763324e-05
+ive started having nightmares	5.17437648763324e-05
+tweets and when im	5.17437648763324e-05
+about going schizophrenic almost	5.17437648763324e-05
+stressing about going schizophrenic	5.17437648763324e-05
+and when im stressing	5.17437648763324e-05
+started having nightmares about	5.17437648763324e-05
+happens with tweets and	5.17437648763324e-05
+schizophrenic almost 24/7now ive	5.17437648763324e-05
+this only happens with	5.17437648763324e-05
+think ima paranoid schizophrenic	5.17437648763324e-05
+having nightmares about my	5.17437648763324e-05
+im stressing about going	5.17437648763324e-05
+scared i think ima	5.17437648763324e-05
+study at	5.17437648763324e-05
+find really	5.17437648763324e-05
+awful days	5.17437648763324e-05
+having awful	5.17437648763324e-05
+never happy	5.17437648763324e-05
+had panick	5.17437648763324e-05
+panick attacks	5.17437648763324e-05
+in university	5.17437648763324e-05
+anything i’m	5.17437648763324e-05
+i’m never	5.17437648763324e-05
+searching help	5.17437648763324e-05
+couldn’t study	5.17437648763324e-05
+my achievements	5.17437648763324e-05
+achievements and	5.17437648763324e-05
+think nothing	5.17437648763324e-05
+stopped searching	5.17437648763324e-05
+my last year	5.17437648763324e-05
+they just told	5.17437648763324e-05
+help even now	5.17437648763324e-05
+now in university	5.17437648763324e-05
+in my last	5.17437648763324e-05
+hard to concentrate	5.17437648763324e-05
+had panick attacks	5.17437648763324e-05
+couldn’t study at	5.17437648763324e-05
+anything i’m never	5.17437648763324e-05
+and couldn’t study	5.17437648763324e-05
+i just stopped	5.17437648763324e-05
+just stopped searching	5.17437648763324e-05
+happy about any	5.17437648763324e-05
+i had panick	5.17437648763324e-05
+never happy about	5.17437648763324e-05
+i find really	5.17437648763324e-05
+i’m never happy	5.17437648763324e-05
+on anything i’m	5.17437648763324e-05
+try it harder	5.17437648763324e-05
+achievements and i	5.17437648763324e-05
+university i find	5.17437648763324e-05
+searching help even	5.17437648763324e-05
+find really hard	5.17437648763324e-05
+my achievements and	5.17437648763324e-05
+nothing is important	5.17437648763324e-05
+stopped searching help	5.17437648763324e-05
+days and i	5.17437648763324e-05
+but they just	5.17437648763324e-05
+to try it	5.17437648763324e-05
+school i tried	5.17437648763324e-05
+having awful days	5.17437648763324e-05
+awful days and	5.17437648763324e-05
+attacks and couldn’t	5.17437648763324e-05
+important in my	5.17437648763324e-05
+even now in	5.17437648763324e-05
+think nothing is	5.17437648763324e-05
+was having awful	5.17437648763324e-05
+panick attacks and	5.17437648763324e-05
+study at all	5.17437648763324e-05
+i think nothing	5.17437648763324e-05
+of my achievements	5.17437648763324e-05
+on anything i’m never	5.17437648763324e-05
+i think nothing is	5.17437648763324e-05
+at all in my	5.17437648763324e-05
+important in my life	5.17437648763324e-05
+study at all in	5.17437648763324e-05
+and i think nothing	5.17437648763324e-05
+even now in university	5.17437648763324e-05
+awful days and i	5.17437648763324e-05
+had panick attacks and	5.17437648763324e-05
+just stopped searching help	5.17437648763324e-05
+concentrate on anything i’m	5.17437648763324e-05
+days and i just	5.17437648763324e-05
+people but they just	5.17437648763324e-05
+harder when i was	5.17437648763324e-05
+but they just told	5.17437648763324e-05
+think nothing is important	5.17437648763324e-05
+find really hard to	5.17437648763324e-05
+i was having awful	5.17437648763324e-05
+i find really hard	5.17437648763324e-05
+anything i’m never happy	5.17437648763324e-05
+last year in high	5.17437648763324e-05
+about any of my	5.17437648763324e-05
+in university i find	5.17437648763324e-05
+in my last year	5.17437648763324e-05
+never happy about any	5.17437648763324e-05
+try it harder when	5.17437648763324e-05
+talk to people but	5.17437648763324e-05
+attacks and couldn’t study	5.17437648763324e-05
+told me to try	5.17437648763324e-05
+couldn’t study at all	5.17437648763324e-05
+of my achievements and	5.17437648763324e-05
+i had panick attacks	5.17437648763324e-05
+when i was having	5.17437648763324e-05
+all in my last	5.17437648763324e-05
+help even now in	5.17437648763324e-05
+and i just stopped	5.17437648763324e-05
+me to try it	5.17437648763324e-05
+to try it harder	5.17437648763324e-05
+i just stopped searching	5.17437648763324e-05
+really hard to concentrate	5.17437648763324e-05
+is important in my	5.17437648763324e-05
+nothing is important in	5.17437648763324e-05
+high school i tried	5.17437648763324e-05
+achievements and i think	5.17437648763324e-05
+now in university i	5.17437648763324e-05
+school i tried to	5.17437648763324e-05
+my last year in	5.17437648763324e-05
+i’m never happy about	5.17437648763324e-05
+was having awful days	5.17437648763324e-05
+any of my achievements	5.17437648763324e-05
+and couldn’t study at	5.17437648763324e-05
+having awful days and	5.17437648763324e-05
+they just told me	5.17437648763324e-05
+just told me to	5.17437648763324e-05
+my achievements and i	5.17437648763324e-05
+happy about any of	5.17437648763324e-05
+university i find really	5.17437648763324e-05
+hard to concentrate on	5.17437648763324e-05
+searching help even now	5.17437648763324e-05
+stopped searching help even	5.17437648763324e-05
+panick attacks and couldn’t	5.17437648763324e-05
+job about	5.17437648763324e-05
+have obsessive	5.17437648763324e-05
+thoughts every	5.17437648763324e-05
+weight my	5.17437648763324e-05
+obsessive thoughts	5.17437648763324e-05
+thoughts every single	5.17437648763324e-05
+about my weight	5.17437648763324e-05
+my job about	5.17437648763324e-05
+weight my friends	5.17437648763324e-05
+obsessive thoughts every	5.17437648763324e-05
+friends my studies	5.17437648763324e-05
+my studies in	5.17437648763324e-05
+studies in university	5.17437648763324e-05
+my friends my	5.17437648763324e-05
+job about my	5.17437648763324e-05
+have obsessive thoughts	5.17437648763324e-05
+single day about	5.17437648763324e-05
+day about my	5.17437648763324e-05
+my weight my	5.17437648763324e-05
+i have obsessive	5.17437648763324e-05
+about my job	5.17437648763324e-05
+about my job about	5.17437648763324e-05
+single day about my	5.17437648763324e-05
+day about my job	5.17437648763324e-05
+thoughts every single day	5.17437648763324e-05
+friends my studies in	5.17437648763324e-05
+i have obsessive thoughts	5.17437648763324e-05
+obsessive thoughts every single	5.17437648763324e-05
+every single day about	5.17437648763324e-05
+job about my weight	5.17437648763324e-05
+my studies in university	5.17437648763324e-05
+my friends my studies	5.17437648763324e-05
+weight my friends my	5.17437648763324e-05
+my weight my friends	5.17437648763324e-05
+have obsessive thoughts every	5.17437648763324e-05
+about my weight my	5.17437648763324e-05
+my job about my	5.17437648763324e-05
+downwards	5.17437648763324e-05
+downwards the	5.17437648763324e-05
+my teen	5.17437648763324e-05
+teen years	5.17437648763324e-05
+the grit	5.17437648763324e-05
+grit from	5.17437648763324e-05
+self-esteem is	5.17437648763324e-05
+shut them	5.17437648763324e-05
+nothing are	5.17437648763324e-05
+spiraling downwards	5.17437648763324e-05
+are haunting	5.17437648763324e-05
+i amount	5.17437648763324e-05
+them up	5.17437648763324e-05
+are haunting me	5.17437648763324e-05
+every year my	5.17437648763324e-05
+the grit from	5.17437648763324e-05
+my teen years	5.17437648763324e-05
+to shut them	5.17437648763324e-05
+but with every	5.17437648763324e-05
+to nothing are	5.17437648763324e-05
+that say i	5.17437648763324e-05
+is spiraling downwards	5.17437648763324e-05
+can’t find the	5.17437648763324e-05
+voices that say	5.17437648763324e-05
+grit from my	5.17437648763324e-05
+find the grit	5.17437648763324e-05
+year my self-esteem	5.17437648763324e-05
+amount to nothing	5.17437648763324e-05
+the voices that	5.17437648763324e-05
+years to shut	5.17437648763324e-05
+downwards the voices	5.17437648763324e-05
+nothing are haunting	5.17437648763324e-05
+my self-esteem is	5.17437648763324e-05
+shut them up	5.17437648763324e-05
+and i amount	5.17437648763324e-05
+teen years to	5.17437648763324e-05
+will fail and	5.17437648763324e-05
+from my teen	5.17437648763324e-05
+with every year	5.17437648763324e-05
+haunting me but	5.17437648763324e-05
+spiraling downwards the	5.17437648763324e-05
+self-esteem is spiraling	5.17437648763324e-05
+say i will	5.17437648763324e-05
+fail and i	5.17437648763324e-05
+i amount to	5.17437648763324e-05
+from my teen years	5.17437648763324e-05
+voices that say i	5.17437648763324e-05
+can’t find the grit	5.17437648763324e-05
+say i will fail	5.17437648763324e-05
+with every year my	5.17437648763324e-05
+the grit from my	5.17437648763324e-05
+teen years to shut	5.17437648763324e-05
+grit from my teen	5.17437648763324e-05
+and i amount to	5.17437648763324e-05
+spiraling downwards the voices	5.17437648763324e-05
+years to shut them	5.17437648763324e-05
+fail and i amount	5.17437648763324e-05
+i amount to nothing	5.17437648763324e-05
+amount to nothing are	5.17437648763324e-05
+downwards the voices that	5.17437648763324e-05
+year my self-esteem is	5.17437648763324e-05
+find the grit from	5.17437648763324e-05
+that say i will	5.17437648763324e-05
+will fail and i	5.17437648763324e-05
+i will fail and	5.17437648763324e-05
+the voices that say	5.17437648763324e-05
+but with every year	5.17437648763324e-05
+every year my self-esteem	5.17437648763324e-05
+haunting me but i	5.17437648763324e-05
+my self-esteem is spiraling	5.17437648763324e-05
+are haunting me but	5.17437648763324e-05
+is spiraling downwards the	5.17437648763324e-05
+self-esteem is spiraling downwards	5.17437648763324e-05
+i can’t find the	5.17437648763324e-05
+to nothing are haunting	5.17437648763324e-05
+my teen years to	5.17437648763324e-05
+to shut them up	5.17437648763324e-05
+nothing are haunting me	5.17437648763324e-05
+haunted me	5.17437648763324e-05
+life death	5.17437648763324e-05
+have haunted	5.17437648763324e-05
+death thoughts	5.17437648763324e-05
+however ever	5.17437648763324e-05
+chance to think	5.17437648763324e-05
+thoughts have haunted	5.17437648763324e-05
+have haunted me	5.17437648763324e-05
+about life death	5.17437648763324e-05
+death thoughts have	5.17437648763324e-05
+think about life	5.17437648763324e-05
+however ever since	5.17437648763324e-05
+life death thoughts	5.17437648763324e-05
+life death thoughts have	5.17437648763324e-05
+about life death thoughts	5.17437648763324e-05
+to think about life	5.17437648763324e-05
+i had a chance	5.17437648763324e-05
+ever since i had	5.17437648763324e-05
+think about life death	5.17437648763324e-05
+chance to think about	5.17437648763324e-05
+a chance to think	5.17437648763324e-05
+however ever since i	5.17437648763324e-05
+thoughts have haunted me	5.17437648763324e-05
+death thoughts have haunted	5.17437648763324e-05
+drive and i	5.17437648763324e-05
+have nothing to	5.17437648763324e-05
+a full time	5.17437648763324e-05
+time job i	5.17437648763324e-05
+not in school	5.17437648763324e-05
+job i don’t	5.17437648763324e-05
+nothing to live	5.17437648763324e-05
+i’m not in	5.17437648763324e-05
+school i don’t	5.17437648763324e-05
+to drive and	5.17437648763324e-05
+how to drive	5.17437648763324e-05
+have nothing to live	5.17437648763324e-05
+have a full time	5.17437648763324e-05
+in school i don’t	5.17437648763324e-05
+i have nothing to	5.17437648763324e-05
+a full time job	5.17437648763324e-05
+know how to drive	5.17437648763324e-05
+not in school i	5.17437648763324e-05
+i’m not in school	5.17437648763324e-05
+nothing to live for	5.17437648763324e-05
+like i have nothing	5.17437648763324e-05
+job i don’t even	5.17437648763324e-05
+don’t have a full	5.17437648763324e-05
+school i don’t have	5.17437648763324e-05
+how to drive and	5.17437648763324e-05
+drive and i feel	5.17437648763324e-05
+full time job i	5.17437648763324e-05
+to drive and i	5.17437648763324e-05
+time job i don’t	5.17437648763324e-05
+classify	5.17437648763324e-05
+classifying	5.17437648763324e-05
+that’s it’s	5.17437648763324e-05
+time classifying	5.17437648763324e-05
+thoughts instead	5.17437648763324e-05
+classifying my	5.17437648763324e-05
+emotions so	5.17437648763324e-05
+classify my	5.17437648763324e-05
+to classify	5.17437648763324e-05
+hard time classifying	5.17437648763324e-05
+obsession and i	5.17437648763324e-05
+that’s it’s because	5.17437648763324e-05
+to classify my	5.17437648763324e-05
+classifying my emotions	5.17437648763324e-05
+i think that’s	5.17437648763324e-05
+try to classify	5.17437648763324e-05
+it’s because i’ve	5.17437648763324e-05
+my thoughts instead	5.17437648763324e-05
+emotions so i	5.17437648763324e-05
+time classifying my	5.17437648763324e-05
+like an obsession	5.17437648763324e-05
+think that’s it’s	5.17437648763324e-05
+my emotions so	5.17437648763324e-05
+so i try	5.17437648763324e-05
+classify my thoughts	5.17437648763324e-05
+time classifying my emotions	5.17437648763324e-05
+emotions so i try	5.17437648763324e-05
+that’s it’s because i’ve	5.17437648763324e-05
+an obsession and i	5.17437648763324e-05
+i think that’s it’s	5.17437648763324e-05
+think that’s it’s because	5.17437648763324e-05
+because i’ve always had	5.17437648763324e-05
+try to classify my	5.17437648763324e-05
+it’s because i’ve always	5.17437648763324e-05
+a hard time classifying	5.17437648763324e-05
+obsession and i think	5.17437648763324e-05
+classifying my emotions so	5.17437648763324e-05
+like an obsession and	5.17437648763324e-05
+so i try to	5.17437648763324e-05
+hard time classifying my	5.17437648763324e-05
+always had a hard	5.17437648763324e-05
+my emotions so i	5.17437648763324e-05
+and i think that’s	5.17437648763324e-05
+it’s like an obsession	5.17437648763324e-05
+to classify my thoughts	5.17437648763324e-05
+classify my thoughts instead	5.17437648763324e-05
+i try to classify	5.17437648763324e-05
+speeds	5.17437648763324e-05
+speeds up	5.17437648763324e-05
+my breathing	5.17437648763324e-05
+breathing speeds	5.17437648763324e-05
+speeds up and	5.17437648763324e-05
+breathing speeds up	5.17437648763324e-05
+my breathing speeds	5.17437648763324e-05
+until i do	5.17437648763324e-05
+my breathing speeds up	5.17437648763324e-05
+thinking about it until	5.17437648763324e-05
+speeds up and i	5.17437648763324e-05
+breathing speeds up and	5.17437648763324e-05
+until i do it	5.17437648763324e-05
+it until i do	5.17437648763324e-05
+talking with	5.17437648763324e-05
+around a	5.17437648763324e-05
+irritated around	5.17437648763324e-05
+that’s happened	5.17437648763324e-05
+been bullied	5.17437648763324e-05
+bullied at	5.17437648763324e-05
+happened as	5.17437648763324e-05
+bad stuff	5.17437648763324e-05
+stuff that’s	5.17437648763324e-05
+of bad	5.17437648763324e-05
+extremely irritated	5.17437648763324e-05
+experiencing memories	5.17437648763324e-05
+of bad stuff	5.17437648763324e-05
+talking with people	5.17437648763324e-05
+been experiencing memories	5.17437648763324e-05
+extremely irritated around	5.17437648763324e-05
+stuff that’s happened	5.17437648763324e-05
+have issues communicating	5.17437648763324e-05
+time talking with	5.17437648763324e-05
+have been bullied	5.17437648763324e-05
+bullied at school	5.17437648763324e-05
+communicating with people	5.17437648763324e-05
+issues communicating with	5.17437648763324e-05
+people and family	5.17437648763324e-05
+family i don’t	5.17437648763324e-05
+get extremely irritated	5.17437648763324e-05
+and have issues	5.17437648763324e-05
+hard time talking	5.17437648763324e-05
+happened as a	5.17437648763324e-05
+bad stuff that’s	5.17437648763324e-05
+friends and have	5.17437648763324e-05
+that’s happened as	5.17437648763324e-05
+people i get	5.17437648763324e-05
+memories of bad	5.17437648763324e-05
+irritated around a	5.17437648763324e-05
+been bullied at	5.17437648763324e-05
+around a lot	5.17437648763324e-05
+experiencing memories of	5.17437648763324e-05
+have to many	5.17437648763324e-05
+school and have	5.17437648763324e-05
+and family i	5.17437648763324e-05
+don’t have to many	5.17437648763324e-05
+have been bullied at	5.17437648763324e-05
+that’s happened as a	5.17437648763324e-05
+memories of bad stuff	5.17437648763324e-05
+at school and have	5.17437648763324e-05
+family i don’t have	5.17437648763324e-05
+have to many friends	5.17437648763324e-05
+communicating with people and	5.17437648763324e-05
+and have a hard	5.17437648763324e-05
+hard time talking with	5.17437648763324e-05
+irritated around a lot	5.17437648763324e-05
+i get extremely irritated	5.17437648763324e-05
+i have been bullied	5.17437648763324e-05
+kid i have been	5.17437648763324e-05
+i don’t have to	5.17437648763324e-05
+many friends and have	5.17437648763324e-05
+with people i get	5.17437648763324e-05
+been experiencing memories of	5.17437648763324e-05
+happened as a kid	5.17437648763324e-05
+of bad stuff that’s	5.17437648763324e-05
+and family i don’t	5.17437648763324e-05
+school and have issues	5.17437648763324e-05
+get extremely irritated around	5.17437648763324e-05
+bullied at school and	5.17437648763324e-05
+with people and family	5.17437648763324e-05
+have issues communicating with	5.17437648763324e-05
+people and family i	5.17437648763324e-05
+been bullied at school	5.17437648763324e-05
+around a lot of	5.17437648763324e-05
+talking with people i	5.17437648763324e-05
+and have issues communicating	5.17437648763324e-05
+time talking with people	5.17437648763324e-05
+issues communicating with people	5.17437648763324e-05
+i’ve been experiencing memories	5.17437648763324e-05
+friends and have a	5.17437648763324e-05
+years i’ve been experiencing	5.17437648763324e-05
+experiencing memories of bad	5.17437648763324e-05
+a hard time talking	5.17437648763324e-05
+people i get extremely	5.17437648763324e-05
+bad stuff that’s happened	5.17437648763324e-05
+extremely irritated around a	5.17437648763324e-05
+stuff that’s happened as	5.17437648763324e-05
+smoker	5.17437648763324e-05
+mother isn’t	5.17437648763324e-05
+smoker and	5.17437648763324e-05
+heavy soda	5.17437648763324e-05
+a smoker	5.17437648763324e-05
+i’m stressed	5.17437648763324e-05
+and mother	5.17437648763324e-05
+drinker my	5.17437648763324e-05
+can afford	5.17437648763324e-05
+or girlfriend	5.17437648763324e-05
+of family	5.17437648763324e-05
+soda drinker	5.17437648763324e-05
+also with	5.17437648763324e-05
+also i’m	5.17437648763324e-05
+awhile so	5.17437648763324e-05
+from drug	5.17437648763324e-05
+drug addiction	5.17437648763324e-05
+gave my	5.17437648763324e-05
+or never	5.17437648763324e-05
+good either	5.17437648763324e-05
+and heavy	5.17437648763324e-05
+addiction a	5.17437648763324e-05
+and recovering	5.17437648763324e-05
+around awhile	5.17437648763324e-05
+any friends or	5.17437648763324e-05
+friends or girlfriend	5.17437648763324e-05
+never gave my	5.17437648763324e-05
+and mother isn’t	5.17437648763324e-05
+is like this	5.17437648763324e-05
+with this but	5.17437648763324e-05
+addiction a lot	5.17437648763324e-05
+me my relationship	5.17437648763324e-05
+and heavy soda	5.17437648763324e-05
+had or never	5.17437648763324e-05
+give them the	5.17437648763324e-05
+they never had	5.17437648763324e-05
+younger brother and	5.17437648763324e-05
+mother isn’t good	5.17437648763324e-05
+them the life	5.17437648763324e-05
+recovering from drug	5.17437648763324e-05
+father is doing	5.17437648763324e-05
+brother and mother	5.17437648763324e-05
+lot of family	5.17437648763324e-05
+smoker and heavy	5.17437648763324e-05
+stressed out with	5.17437648763324e-05
+i can afford	5.17437648763324e-05
+mom who is	5.17437648763324e-05
+the life they	5.17437648763324e-05
+parents to be	5.17437648763324e-05
+heavy soda drinker	5.17437648763324e-05
+is a smoker	5.17437648763324e-05
+i’m stressed out	5.17437648763324e-05
+be around awhile	5.17437648763324e-05
+around awhile so	5.17437648763324e-05
+life they never	5.17437648763324e-05
+awhile so i	5.17437648763324e-05
+never had or	5.17437648763324e-05
+time and recovering	5.17437648763324e-05
+this but also	5.17437648763324e-05
+isn’t good either	5.17437648763324e-05
+but also with	5.17437648763324e-05
+this i want	5.17437648763324e-05
+of family is	5.17437648763324e-05
+brother and me	5.17437648763324e-05
+some time and	5.17437648763324e-05
+gave my younger	5.17437648763324e-05
+and recovering from	5.17437648763324e-05
+soda drinker my	5.17437648763324e-05
+drug addiction a	5.17437648763324e-05
+a smoker and	5.17437648763324e-05
+can afford to	5.17437648763324e-05
+want my parents	5.17437648763324e-05
+drinker my father	5.17437648763324e-05
+and me my	5.17437648763324e-05
+doing some time	5.17437648763324e-05
+also with my	5.17437648763324e-05
+also i’m stressed	5.17437648763324e-05
+family is like	5.17437648763324e-05
+good either i	5.17437648763324e-05
+afford to give	5.17437648763324e-05
+from drug addiction	5.17437648763324e-05
+out with this	5.17437648763324e-05
+or never gave	5.17437648763324e-05
+heavy soda drinker my	5.17437648763324e-05
+my father is doing	5.17437648763324e-05
+a lot of family	5.17437648763324e-05
+a smoker and heavy	5.17437648763324e-05
+and recovering from drug	5.17437648763324e-05
+isn’t good either i	5.17437648763324e-05
+either i don’t have	5.17437648763324e-05
+good either i don’t	5.17437648763324e-05
+they never had or	5.17437648763324e-05
+afford to give them	5.17437648763324e-05
+can afford to give	5.17437648763324e-05
+life they never had	5.17437648763324e-05
+gave my younger brother	5.17437648763324e-05
+soda drinker my father	5.17437648763324e-05
+and me my relationship	5.17437648763324e-05
+but also with my	5.17437648763324e-05
+with my mom who	5.17437648763324e-05
+of family is like	5.17437648763324e-05
+with my brother and	5.17437648763324e-05
+my parents to be	5.17437648763324e-05
+the life they never	5.17437648763324e-05
+stressed out with this	5.17437648763324e-05
+to be around awhile	5.17437648763324e-05
+and heavy soda drinker	5.17437648763324e-05
+had or never gave	5.17437648763324e-05
+time and recovering from	5.17437648763324e-05
+brother and me my	5.17437648763324e-05
+is a smoker and	5.17437648763324e-05
+recovering from drug addiction	5.17437648763324e-05
+awhile so i can	5.17437648763324e-05
+never gave my younger	5.17437648763324e-05
+my brother and mother	5.17437648763324e-05
+never had or never	5.17437648763324e-05
+like this i want	5.17437648763324e-05
+and mother isn’t good	5.17437648763324e-05
+out with this but	5.17437648763324e-05
+this but also with	5.17437648763324e-05
+my mom who is	5.17437648763324e-05
+want my parents to	5.17437648763324e-05
+or never gave my	5.17437648763324e-05
+i can afford to	5.17437648763324e-05
+also i’m stressed out	5.17437648763324e-05
+i’m stressed out with	5.17437648763324e-05
+give them the life	5.17437648763324e-05
+lot of family is	5.17437648763324e-05
+me my relationship with	5.17437648763324e-05
+mom who is a	5.17437648763324e-05
+father is doing some	5.17437648763324e-05
+around awhile so i	5.17437648763324e-05
+parents to be around	5.17437648763324e-05
+be around awhile so	5.17437648763324e-05
+any friends or girlfriend	5.17437648763324e-05
+relationship with my brother	5.17437648763324e-05
+this i want my	5.17437648763324e-05
+my younger brother and	5.17437648763324e-05
+mother isn’t good either	5.17437648763324e-05
+addiction a lot of	5.17437648763324e-05
+also with my mom	5.17437648763324e-05
+to give them the	5.17437648763324e-05
+with this but also	5.17437648763324e-05
+drug addiction a lot	5.17437648763324e-05
+don’t have any friends	5.17437648763324e-05
+younger brother and me	5.17437648763324e-05
+is doing some time	5.17437648763324e-05
+doing some time and	5.17437648763324e-05
+so i can afford	5.17437648763324e-05
+i don’t have any	5.17437648763324e-05
+family is like this	5.17437648763324e-05
+them the life they	5.17437648763324e-05
+is like this i	5.17437648763324e-05
+brother and mother isn’t	5.17437648763324e-05
+have any friends or	5.17437648763324e-05
+smoker and heavy soda	5.17437648763324e-05
+who is a smoker	5.17437648763324e-05
+i want my parents	5.17437648763324e-05
+drinker my father is	5.17437648763324e-05
+some time and recovering	5.17437648763324e-05
+from drug addiction a	5.17437648763324e-05
+felt something	5.17437648763324e-05
+constant thing	5.17437648763324e-05
+constant thing i	5.17437648763324e-05
+thing i have	5.17437648763324e-05
+inside and it’s	5.17437648763324e-05
+didn’t work i	5.17437648763324e-05
+a constant thing	5.17437648763324e-05
+and it’s almost	5.17437648763324e-05
+empty inside and	5.17437648763324e-05
+time i really	5.17437648763324e-05
+feeling but it	5.17437648763324e-05
+almost a constant	5.17437648763324e-05
+can’t remember the	5.17437648763324e-05
+it didn’t work	5.17437648763324e-05
+was i feel	5.17437648763324e-05
+really felt something	5.17437648763324e-05
+ignore the feeling	5.17437648763324e-05
+feel empty inside	5.17437648763324e-05
+like this since	5.17437648763324e-05
+it’s almost a	5.17437648763324e-05
+i really felt	5.17437648763324e-05
+to ignore the	5.17437648763324e-05
+i’ve felt like	5.17437648763324e-05
+the feeling but	5.17437648763324e-05
+tried to ignore	5.17437648763324e-05
+felt like this	5.17437648763324e-05
+it didn’t work i	5.17437648763324e-05
+have tried to ignore	5.17437648763324e-05
+constant thing i have	5.17437648763324e-05
+tried to ignore the	5.17437648763324e-05
+i’ve felt like this	5.17437648763324e-05
+a constant thing i	5.17437648763324e-05
+i was i feel	5.17437648763324e-05
+and it’s almost a	5.17437648763324e-05
+time i really felt	5.17437648763324e-05
+like this since i	5.17437648763324e-05
+i can’t remember the	5.17437648763324e-05
+feel empty inside and	5.17437648763324e-05
+feeling but it didn’t	5.17437648763324e-05
+it’s almost a constant	5.17437648763324e-05
+can’t remember the last	5.17437648763324e-05
+i feel empty inside	5.17437648763324e-05
+was i feel empty	5.17437648763324e-05
+didn’t work i can’t	5.17437648763324e-05
+i really felt something	5.17437648763324e-05
+the feeling but it	5.17437648763324e-05
+empty inside and it’s	5.17437648763324e-05
+inside and it’s almost	5.17437648763324e-05
+last time i really	5.17437648763324e-05
+to ignore the feeling	5.17437648763324e-05
+almost a constant thing	5.17437648763324e-05
+ignore the feeling but	5.17437648763324e-05
+thing i have tried	5.17437648763324e-05
+but it didn’t work	5.17437648763324e-05
+felt like this since	5.17437648763324e-05
+work i can’t remember	5.17437648763324e-05
+thinks everything	5.17437648763324e-05
+is somehow	5.17437648763324e-05
+somehow a	5.17437648763324e-05
+mind thinks	5.17437648763324e-05
+now for some	5.17437648763324e-05
+is somehow a	5.17437648763324e-05
+somehow a threat	5.17437648763324e-05
+some reason my	5.17437648763324e-05
+everything is somehow	5.17437648763324e-05
+threat to me	5.17437648763324e-05
+thinks everything is	5.17437648763324e-05
+my mind thinks	5.17437648763324e-05
+mind thinks everything	5.17437648763324e-05
+reason my mind	5.17437648763324e-05
+reason my mind thinks	5.17437648763324e-05
+for some reason my	5.17437648763324e-05
+my mind thinks everything	5.17437648763324e-05
+mind thinks everything is	5.17437648763324e-05
+now for some reason	5.17437648763324e-05
+everything is somehow a	5.17437648763324e-05
+a threat to me	5.17437648763324e-05
+thinks everything is somehow	5.17437648763324e-05
+is somehow a threat	5.17437648763324e-05
+somehow a threat to	5.17437648763324e-05
+some reason my mind	5.17437648763324e-05
+started hating	5.17437648763324e-05
+started hating myself	5.17437648763324e-05
+it just keeps	5.17437648763324e-05
+since year ago	5.17437648763324e-05
+ago and it	5.17437648763324e-05
+myself since year	5.17437648763324e-05
+keeps getting worse	5.17437648763324e-05
+hating myself since	5.17437648763324e-05
+i started hating	5.17437648763324e-05
+it just keeps getting	5.17437648763324e-05
+and it just keeps	5.17437648763324e-05
+year ago and it	5.17437648763324e-05
+just keeps getting worse	5.17437648763324e-05
+started hating myself since	5.17437648763324e-05
+i started hating myself	5.17437648763324e-05
+ago and it just	5.17437648763324e-05
+myself since year ago	5.17437648763324e-05
+hating myself since year	5.17437648763324e-05
+since year ago and	5.17437648763324e-05
+obviously loves	5.17437648763324e-05
+an amazing	5.17437648763324e-05
+amazing guy	5.17437648763324e-05
+who obviously	5.17437648763324e-05
+obviously loves and	5.17437648763324e-05
+is an amazing	5.17437648763324e-05
+about me a	5.17437648763324e-05
+he is an	5.17437648763324e-05
+who obviously loves	5.17437648763324e-05
+amazing guy who	5.17437648763324e-05
+loves and cares	5.17437648763324e-05
+guy who obviously	5.17437648763324e-05
+an amazing guy	5.17437648763324e-05
+amazing guy who obviously	5.17437648763324e-05
+cares about me a	5.17437648763324e-05
+an amazing guy who	5.17437648763324e-05
+is an amazing guy	5.17437648763324e-05
+guy who obviously loves	5.17437648763324e-05
+he is an amazing	5.17437648763324e-05
+loves and cares about	5.17437648763324e-05
+obviously loves and cares	5.17437648763324e-05
+about me a lot	5.17437648763324e-05
+who obviously loves and	5.17437648763324e-05
+mopey	5.17437648763324e-05
+happy always	5.17437648763324e-05
+literally nothing	5.17437648763324e-05
+genuinely happy	5.17437648763324e-05
+always mopey	5.17437648763324e-05
+her genuinely	5.17437648763324e-05
+literally nothing makes	5.17437648763324e-05
+happy always mopey	5.17437648763324e-05
+makes her genuinely	5.17437648763324e-05
+nothing makes her	5.17437648763324e-05
+genuinely happy always	5.17437648763324e-05
+her genuinely happy	5.17437648763324e-05
+makes her genuinely happy	5.17437648763324e-05
+genuinely happy always mopey	5.17437648763324e-05
+her genuinely happy always	5.17437648763324e-05
+nothing makes her genuinely	5.17437648763324e-05
+literally nothing makes her	5.17437648763324e-05
+spacey	5.17437648763324e-05
+i’ve stolen	5.17437648763324e-05
+now sober	5.17437648763324e-05
+sober i	5.17437648763324e-05
+from places	5.17437648763324e-05
+feel spacey	5.17437648763324e-05
+stolen from	5.17437648763324e-05
+places and	5.17437648763324e-05
+spacey like	5.17437648763324e-05
+now sober i	5.17437648763324e-05
+and people and	5.17437648763324e-05
+feel spacey like	5.17437648763324e-05
+care i often	5.17437648763324e-05
+places and people	5.17437648763324e-05
+spacey like i’m	5.17437648763324e-05
+stolen from places	5.17437648763324e-05
+like i’m here	5.17437648763324e-05
+still don’t care	5.17437648763324e-05
+from places and	5.17437648763324e-05
+often feel spacey	5.17437648763324e-05
+sober i still	5.17437648763324e-05
+and now sober	5.17437648763324e-05
+i’ve stolen from	5.17437648763324e-05
+i’m here but	5.17437648763324e-05
+here but i’m	5.17437648763324e-05
+i’ve stolen from places	5.17437648763324e-05
+i’m here but i’m	5.17437648763324e-05
+don’t care i often	5.17437648763324e-05
+feel spacey like i’m	5.17437648763324e-05
+people and now sober	5.17437648763324e-05
+like i’m here but	5.17437648763324e-05
+i still don’t care	5.17437648763324e-05
+places and people and	5.17437648763324e-05
+from places and people	5.17437648763324e-05
+now sober i still	5.17437648763324e-05
+spacey like i’m here	5.17437648763324e-05
+here but i’m not	5.17437648763324e-05
+still don’t care i	5.17437648763324e-05
+stolen from places and	5.17437648763324e-05
+care i often feel	5.17437648763324e-05
+and people and now	5.17437648763324e-05
+i often feel spacey	5.17437648763324e-05
+sober i still don’t	5.17437648763324e-05
+often feel spacey like	5.17437648763324e-05
+and now sober i	5.17437648763324e-05
+moved here	5.17437648763324e-05
+nightmare since	5.17437648763324e-05
+a nightmare since	5.17437648763324e-05
+nightmare since i	5.17437648763324e-05
+i moved here	5.17437648763324e-05
+a nightmare since i	5.17437648763324e-05
+been a nightmare since	5.17437648763324e-05
+nightmare since i moved	5.17437648763324e-05
+since i moved here	5.17437648763324e-05
+would keep	5.17437648763324e-05
+these problems	5.17437648763324e-05
+problems which	5.17437648763324e-05
+keep worrying	5.17437648763324e-05
+me butterflies	5.17437648763324e-05
+all these problems	5.17437648763324e-05
+these problems which	5.17437648763324e-05
+would give me	5.17437648763324e-05
+problems which would	5.17437648763324e-05
+about all these	5.17437648763324e-05
+which would give	5.17437648763324e-05
+worrying about all	5.17437648763324e-05
+keep worrying about	5.17437648763324e-05
+give me butterflies	5.17437648763324e-05
+would keep worrying	5.17437648763324e-05
+i would keep	5.17437648763324e-05
+about all these problems	5.17437648763324e-05
+these problems which would	5.17437648763324e-05
+all the day i	5.17437648763324e-05
+i would keep worrying	5.17437648763324e-05
+keep worrying about all	5.17437648763324e-05
+would give me butterflies	5.17437648763324e-05
+the day i would	5.17437648763324e-05
+all these problems which	5.17437648763324e-05
+worrying about all these	5.17437648763324e-05
+problems which would give	5.17437648763324e-05
+which would give me	5.17437648763324e-05
+would keep worrying about	5.17437648763324e-05
+day i would keep	5.17437648763324e-05
+fluctuate	5.17437648763324e-05
+crying to	5.17437648763324e-05
+to screaming	5.17437648763324e-05
+my moods	5.17437648763324e-05
+to excited	5.17437648763324e-05
+depressed to	5.17437648763324e-05
+fluctuate from	5.17437648763324e-05
+moods fluctuate	5.17437648763324e-05
+scary irritable	5.17437648763324e-05
+withdrawn depressed	5.17437648763324e-05
+screaming mad	5.17437648763324e-05
+to crying	5.17437648763324e-05
+to withdrawn	5.17437648763324e-05
+to screaming mad	5.17437648763324e-05
+normal to withdrawn	5.17437648763324e-05
+from normal to	5.17437648763324e-05
+to withdrawn depressed	5.17437648763324e-05
+to excited to	5.17437648763324e-05
+to crying to	5.17437648763324e-05
+fluctuate from normal	5.17437648763324e-05
+moods fluctuate from	5.17437648763324e-05
+depressed to excited	5.17437648763324e-05
+crying to screaming	5.17437648763324e-05
+and scary irritable	5.17437648763324e-05
+screaming mad and	5.17437648763324e-05
+my moods fluctuate	5.17437648763324e-05
+excited to crying	5.17437648763324e-05
+mad and scary	5.17437648763324e-05
+withdrawn depressed to	5.17437648763324e-05
+moods fluctuate from normal	5.17437648763324e-05
+withdrawn depressed to excited	5.17437648763324e-05
+to excited to crying	5.17437648763324e-05
+from normal to withdrawn	5.17437648763324e-05
+to withdrawn depressed to	5.17437648763324e-05
+to crying to screaming	5.17437648763324e-05
+normal to withdrawn depressed	5.17437648763324e-05
+mad and scary irritable	5.17437648763324e-05
+fluctuate from normal to	5.17437648763324e-05
+depressed to excited to	5.17437648763324e-05
+excited to crying to	5.17437648763324e-05
+my moods fluctuate from	5.17437648763324e-05
+crying to screaming mad	5.17437648763324e-05
+to screaming mad and	5.17437648763324e-05
+screaming mad and scary	5.17437648763324e-05
+contemplated	5.17437648763324e-05
+contemplated suicide	5.17437648763324e-05
+probably one	5.17437648763324e-05
+and routine	5.17437648763324e-05
+bored is	5.17437648763324e-05
+is boring	5.17437648763324e-05
+being bored	5.17437648763324e-05
+is routine	5.17437648763324e-05
+routine is	5.17437648763324e-05
+worst feelings	5.17437648763324e-05
+have contemplated	5.17437648763324e-05
+being bored is	5.17437648763324e-05
+but not because	5.17437648763324e-05
+and being bored	5.17437648763324e-05
+contemplated suicide but	5.17437648763324e-05
+bored is probably	5.17437648763324e-05
+is boring and	5.17437648763324e-05
+routine and routine	5.17437648763324e-05
+life is routine	5.17437648763324e-05
+but because my	5.17437648763324e-05
+probably one of	5.17437648763324e-05
+and routine is	5.17437648763324e-05
+is routine and	5.17437648763324e-05
+is probably one	5.17437648763324e-05
+routine is boring	5.17437648763324e-05
+depressed but because	5.17437648763324e-05
+suicide but not	5.17437648763324e-05
+boring and being	5.17437648763324e-05
+because my life	5.17437648763324e-05
+the worst feelings	5.17437648763324e-05
+have contemplated suicide	5.17437648763324e-05
+i have contemplated	5.17437648763324e-05
+is routine and routine	5.17437648763324e-05
+one of the worst	5.17437648763324e-05
+depressed but because my	5.17437648763324e-05
+suicide but not because	5.17437648763324e-05
+is boring and being	5.17437648763324e-05
+my life is routine	5.17437648763324e-05
+life is routine and	5.17437648763324e-05
+is probably one of	5.17437648763324e-05
+probably one of the	5.17437648763324e-05
+have contemplated suicide but	5.17437648763324e-05
+but because my life	5.17437648763324e-05
+and routine is boring	5.17437648763324e-05
+not because i was	5.17437648763324e-05
+routine is boring and	5.17437648763324e-05
+and being bored is	5.17437648763324e-05
+because i was depressed	5.17437648763324e-05
+of the worst feelings	5.17437648763324e-05
+routine and routine is	5.17437648763324e-05
+but not because i	5.17437648763324e-05
+being bored is probably	5.17437648763324e-05
+bored is probably one	5.17437648763324e-05
+i have contemplated suicide	5.17437648763324e-05
+boring and being bored	5.17437648763324e-05
+contemplated suicide but not	5.17437648763324e-05
+was depressed but because	5.17437648763324e-05
+because my life is	5.17437648763324e-05
+girlfriend with	5.17437648763324e-05
+perfect except	5.17437648763324e-05
+cheating on his	5.17437648763324e-05
+girlfriend with me	5.17437648763324e-05
+was perfect except	5.17437648763324e-05
+perfect except the	5.17437648763324e-05
+and our relationship	5.17437648763324e-05
+on his girlfriend	5.17437648763324e-05
+relationship was a	5.17437648763324e-05
+except the fact	5.17437648763324e-05
+his girlfriend with	5.17437648763324e-05
+was a secret	5.17437648763324e-05
+was perfect except the	5.17437648763324e-05
+except the fact that	5.17437648763324e-05
+his girlfriend with me	5.17437648763324e-05
+relationship was a secret	5.17437648763324e-05
+cheating on his girlfriend	5.17437648763324e-05
+on his girlfriend with	5.17437648763324e-05
+everything was perfect except	5.17437648763324e-05
+girlfriend with me and	5.17437648763324e-05
+was cheating on his	5.17437648763324e-05
+fact that he was	5.17437648763324e-05
+with me and our	5.17437648763324e-05
+and our relationship was	5.17437648763324e-05
+me and our relationship	5.17437648763324e-05
+our relationship was a	5.17437648763324e-05
+perfect except the fact	5.17437648763324e-05
+cloud	5.17437648763324e-05
+describes	5.17437648763324e-05
+dp	5.17437648763324e-05
+improved	5.17437648763324e-05
+feeling ’	5.17437648763324e-05
+real feeling	5.17437648763324e-05
+cloud that	5.17437648763324e-05
+describes depersonalized	5.17437648763324e-05
+can ignore	5.17437648763324e-05
+thing on	5.17437648763324e-05
+improved but	5.17437648763324e-05
+life however	5.17437648763324e-05
+dr it	5.17437648763324e-05
+feel different	5.17437648763324e-05
+a black	5.17437648763324e-05
+‘ not	5.17437648763324e-05
+view reality	5.17437648763324e-05
+started off	5.17437648763324e-05
+depersonalized dp	5.17437648763324e-05
+off terrible	5.17437648763324e-05
+and view	5.17437648763324e-05
+dp dr	5.17437648763324e-05
+but may	5.17437648763324e-05
+has improved	5.17437648763324e-05
+get on	5.17437648763324e-05
+black cloud	5.17437648763324e-05
+internet describes	5.17437648763324e-05
+reality although	5.17437648763324e-05
+terrible being	5.17437648763324e-05
+not ever	5.17437648763324e-05
+improved but may	5.17437648763324e-05
+still feel different	5.17437648763324e-05
+real feeling ’	5.17437648763324e-05
+like this ‘	5.17437648763324e-05
+dr it started	5.17437648763324e-05
+that has improved	5.17437648763324e-05
+‘ not real	5.17437648763324e-05
+terrible being the	5.17437648763324e-05
+it started off	5.17437648763324e-05
+cloud that has	5.17437648763324e-05
+something has changed	5.17437648763324e-05
+depersonalized dp dr	5.17437648763324e-05
+but may not	5.17437648763324e-05
+life however i	5.17437648763324e-05
+off terrible being	5.17437648763324e-05
+if something has	5.17437648763324e-05
+started off terrible	5.17437648763324e-05
+feel as the	5.17437648763324e-05
+and get on	5.17437648763324e-05
+view reality although	5.17437648763324e-05
+dp dr it	5.17437648763324e-05
+changed the way	5.17437648763324e-05
+thing on my	5.17437648763324e-05
+the internet describes	5.17437648763324e-05
+being the only	5.17437648763324e-05
+has changed the	5.17437648763324e-05
+a black cloud	5.17437648763324e-05
+’ is a	5.17437648763324e-05
+reality although i	5.17437648763324e-05
+and view reality	5.17437648763324e-05
+black cloud that	5.17437648763324e-05
+only thing on	5.17437648763324e-05
+feel and view	5.17437648763324e-05
+although i can	5.17437648763324e-05
+has improved but	5.17437648763324e-05
+feeling ’ is	5.17437648763324e-05
+describes depersonalized dp	5.17437648763324e-05
+is a black	5.17437648763324e-05
+feel different as	5.17437648763324e-05
+mind but now	5.17437648763324e-05
+not real feeling	5.17437648763324e-05
+can ignore it	5.17437648763324e-05
+may not ever	5.17437648763324e-05
+don’t think about	5.17437648763324e-05
+ever go away	5.17437648763324e-05
+internet describes depersonalized	5.17437648763324e-05
+this ‘ not	5.17437648763324e-05
+not ever go	5.17437648763324e-05
+my life however	5.17437648763324e-05
+life i still	5.17437648763324e-05
+i can ignore	5.17437648763324e-05
+still feel different as	5.17437648763324e-05
+now i don’t think	5.17437648763324e-05
+dr it started off	5.17437648763324e-05
+i feel as the	5.17437648763324e-05
+way i feel and	5.17437648763324e-05
+improved but may not	5.17437648763324e-05
+is a black cloud	5.17437648763324e-05
+feel as the internet	5.17437648763324e-05
+life i still feel	5.17437648763324e-05
+i can ignore it	5.17437648763324e-05
+i feel and view	5.17437648763324e-05
+feel and view reality	5.17437648763324e-05
+can ignore it and	5.17437648763324e-05
+feeling ’ is a	5.17437648763324e-05
+my life i still	5.17437648763324e-05
+my mind but now	5.17437648763324e-05
+reality although i can	5.17437648763324e-05
+life however i still	5.17437648763324e-05
+cloud that has improved	5.17437648763324e-05
+able to live my	5.17437648763324e-05
+only thing on my	5.17437648763324e-05
+black cloud that has	5.17437648763324e-05
+may not ever go	5.17437648763324e-05
+’ is a black	5.17437648763324e-05
+internet describes depersonalized dp	5.17437648763324e-05
+as if something has	5.17437648763324e-05
+don’t think about it	5.17437648763324e-05
+view reality although i	5.17437648763324e-05
+still feel like this	5.17437648763324e-05
+the internet describes depersonalized	5.17437648763324e-05
+although i can ignore	5.17437648763324e-05
+i still feel different	5.17437648763324e-05
+changed the way i	5.17437648763324e-05
+this ‘ not real	5.17437648763324e-05
+it started off terrible	5.17437648763324e-05
+off terrible being the	5.17437648763324e-05
+the only thing on	5.17437648763324e-05
+dp dr it started	5.17437648763324e-05
+a black cloud that	5.17437648763324e-05
+different as if something	5.17437648763324e-05
+has improved but may	5.17437648763324e-05
+that has improved but	5.17437648763324e-05
+however i still feel	5.17437648763324e-05
+i don’t think about	5.17437648763324e-05
+mind but now i	5.17437648763324e-05
+feel different as if	5.17437648763324e-05
+real feeling ’ is	5.17437648763324e-05
+am able to live	5.17437648763324e-05
+if something has changed	5.17437648763324e-05
+like this ‘ not	5.17437648763324e-05
+started off terrible being	5.17437648763324e-05
+as the internet describes	5.17437648763324e-05
+it and i am	5.17437648763324e-05
+thing on my mind	5.17437648763324e-05
+being the only thing	5.17437648763324e-05
+depersonalized dp dr it	5.17437648763324e-05
+but may not ever	5.17437648763324e-05
+my life however i	5.17437648763324e-05
+ignore it and get	5.17437648763324e-05
+feel like this ‘	5.17437648763324e-05
+and view reality although	5.17437648763324e-05
+has changed the way	5.17437648763324e-05
+it and get on	5.17437648763324e-05
+with my life i	5.17437648763324e-05
+not real feeling ’	5.17437648763324e-05
+terrible being the only	5.17437648763324e-05
+and get on with	5.17437648763324e-05
+‘ not real feeling	5.17437648763324e-05
+on my mind but	5.17437648763324e-05
+live my life however	5.17437648763324e-05
+describes depersonalized dp dr	5.17437648763324e-05
+not ever go away	5.17437648763324e-05
+get on with my	5.17437648763324e-05
+something has changed the	5.17437648763324e-05
+great to	5.17437648763324e-05
+me in person	5.17437648763324e-05
+is great to	5.17437648763324e-05
+hello my boyfriend	5.17437648763324e-05
+boyfriend is great	5.17437648763324e-05
+great to me	5.17437648763324e-05
+boyfriend is great to	5.17437648763324e-05
+my boyfriend is great	5.17437648763324e-05
+hello my boyfriend is	5.17437648763324e-05
+is great to me	5.17437648763324e-05
+great to me in	5.17437648763324e-05
+to me in person	5.17437648763324e-05
+becoming extremely	5.17437648763324e-05
+all motivation	5.17437648763324e-05
+extremely dull	5.17437648763324e-05
+in things and	5.17437648763324e-05
+have a lack	5.17437648763324e-05
+becoming extremely dull	5.17437648763324e-05
+things and all	5.17437648763324e-05
+been becoming extremely	5.17437648763324e-05
+lost all motivation	5.17437648763324e-05
+all motivation to	5.17437648763324e-05
+in things and all	5.17437648763324e-05
+i’ve lost all motivation	5.17437648763324e-05
+do anything i have	5.17437648763324e-05
+lost all motivation to	5.17437648763324e-05
+and all of my	5.17437648763324e-05
+things and all of	5.17437648763324e-05
+anything i have a	5.17437648763324e-05
+of interest in things	5.17437648763324e-05
+all motivation to do	5.17437648763324e-05
+of my emotions have	5.17437648763324e-05
+interest in things and	5.17437648763324e-05
+i have a lack	5.17437648763324e-05
+a lack of interest	5.17437648763324e-05
+emotions have been becoming	5.17437648763324e-05
+been becoming extremely dull	5.17437648763324e-05
+have a lack of	5.17437648763324e-05
+have been becoming extremely	5.17437648763324e-05
+relaxed or	5.17437648763324e-05
+or completely	5.17437648763324e-05
+was relaxed	5.17437648763324e-05
+these pains	5.17437648763324e-05
+completely free	5.17437648763324e-05
+of these pains	5.17437648763324e-05
+free of these	5.17437648763324e-05
+was relaxed or	5.17437648763324e-05
+or completely free	5.17437648763324e-05
+relaxed or completely	5.17437648763324e-05
+completely free of	5.17437648763324e-05
+i was relaxed	5.17437648763324e-05
+completely free of these	5.17437648763324e-05
+free of these pains	5.17437648763324e-05
+relaxed or completely free	5.17437648763324e-05
+i was relaxed or	5.17437648763324e-05
+time i was relaxed	5.17437648763324e-05
+or completely free of	5.17437648763324e-05
+was relaxed or completely	5.17437648763324e-05
+last time i was	5.17437648763324e-05
+overwhelm	5.17437648763324e-05
+overwhelm me	5.17437648763324e-05
+one mean	5.17437648763324e-05
+two me	5.17437648763324e-05
+bathe in	5.17437648763324e-05
+me s	5.17437648763324e-05
+feel powerful	5.17437648763324e-05
+angry version	5.17437648763324e-05
+one kind	5.17437648763324e-05
+kind person	5.17437648763324e-05
+worse fast	5.17437648763324e-05
+this anger	5.17437648763324e-05
+it overwhelm	5.17437648763324e-05
+like those	5.17437648763324e-05
+i bathe	5.17437648763324e-05
+mean angry	5.17437648763324e-05
+two me s	5.17437648763324e-05
+worse fast it	5.17437648763324e-05
+things are getting	5.17437648763324e-05
+getting worse fast	5.17437648763324e-05
+like those things	5.17437648763324e-05
+anger and let	5.17437648763324e-05
+let it overwhelm	5.17437648763324e-05
+this anger and	5.17437648763324e-05
+feel like those	5.17437648763324e-05
+feels like there	5.17437648763324e-05
+i bathe in	5.17437648763324e-05
+overwhelm me it	5.17437648763324e-05
+are two me	5.17437648763324e-05
+myself i bathe	5.17437648763324e-05
+s one kind	5.17437648763324e-05
+one mean angry	5.17437648763324e-05
+mean angry version	5.17437648763324e-05
+version of myself	5.17437648763324e-05
+those things are	5.17437648763324e-05
+are getting worse	5.17437648763324e-05
+in this anger	5.17437648763324e-05
+it overwhelm me	5.17437648763324e-05
+and let it	5.17437648763324e-05
+me feel powerful	5.17437648763324e-05
+fast it feels	5.17437648763324e-05
+me s one	5.17437648763324e-05
+angry version of	5.17437648763324e-05
+person and one	5.17437648763324e-05
+and one mean	5.17437648763324e-05
+one kind person	5.17437648763324e-05
+bathe in this	5.17437648763324e-05
+kind person and	5.17437648763324e-05
+are two me s	5.17437648763324e-05
+me s one kind	5.17437648763324e-05
+are getting worse fast	5.17437648763324e-05
+getting worse fast it	5.17437648763324e-05
+two me s one	5.17437648763324e-05
+kind person and one	5.17437648763324e-05
+of myself i bathe	5.17437648763324e-05
+makes me feel powerful	5.17437648763324e-05
+like those things are	5.17437648763324e-05
+in this anger and	5.17437648763324e-05
+overwhelm me it makes	5.17437648763324e-05
+person and one mean	5.17437648763324e-05
+those things are getting	5.17437648763324e-05
+i bathe in this	5.17437648763324e-05
+there are two me	5.17437648763324e-05
+one mean angry version	5.17437648763324e-05
+version of myself i	5.17437648763324e-05
+bathe in this anger	5.17437648763324e-05
+one kind person and	5.17437648763324e-05
+feel like those things	5.17437648763324e-05
+it overwhelm me it	5.17437648763324e-05
+myself i bathe in	5.17437648763324e-05
+things are getting worse	5.17437648763324e-05
+it feels like there	5.17437648763324e-05
+s one kind person	5.17437648763324e-05
+and one mean angry	5.17437648763324e-05
+worse fast it feels	5.17437648763324e-05
+angry version of myself	5.17437648763324e-05
+let it overwhelm me	5.17437648763324e-05
+like there are two	5.17437648763324e-05
+this anger and let	5.17437648763324e-05
+mean angry version of	5.17437648763324e-05
+feels like there are	5.17437648763324e-05
+fast it feels like	5.17437648763324e-05
+i feel like those	5.17437648763324e-05
+anger and let it	5.17437648763324e-05
+and let it overwhelm	5.17437648763324e-05
+notion	5.17437648763324e-05
+deep and	5.17437648763324e-05
+the notion	5.17437648763324e-05
+myself faced	5.17437648763324e-05
+often consumed	5.17437648763324e-05
+powerful hatred	5.17437648763324e-05
+often find	5.17437648763324e-05
+and powerful	5.17437648763324e-05
+toward myself	5.17437648763324e-05
+notion that	5.17437648763324e-05
+hatred toward	5.17437648763324e-05
+and powerful hatred	5.17437648763324e-05
+often find myself	5.17437648763324e-05
+i deserve to	5.17437648763324e-05
+deep and powerful	5.17437648763324e-05
+also i often	5.17437648763324e-05
+mind is often	5.17437648763324e-05
+powerful hatred toward	5.17437648763324e-05
+notion that i	5.17437648763324e-05
+i often find	5.17437648763324e-05
+toward myself and	5.17437648763324e-05
+find myself faced	5.17437648763324e-05
+a deep and	5.17437648763324e-05
+myself faced with	5.17437648763324e-05
+with the notion	5.17437648763324e-05
+with a deep	5.17437648763324e-05
+the notion that	5.17437648763324e-05
+is often consumed	5.17437648763324e-05
+and my mind	5.17437648763324e-05
+deserve to die	5.17437648763324e-05
+often consumed with	5.17437648763324e-05
+hatred toward myself	5.17437648763324e-05
+faced with a deep	5.17437648763324e-05
+notion that i deserve	5.17437648763324e-05
+that i deserve to	5.17437648763324e-05
+deep and powerful hatred	5.17437648763324e-05
+often consumed with the	5.17437648763324e-05
+find myself faced with	5.17437648763324e-05
+often find myself faced	5.17437648763324e-05
+myself faced with a	5.17437648763324e-05
+also i often find	5.17437648763324e-05
+a deep and powerful	5.17437648763324e-05
+myself and my mind	5.17437648763324e-05
+i deserve to die	5.17437648763324e-05
+consumed with the notion	5.17437648763324e-05
+powerful hatred toward myself	5.17437648763324e-05
+i often find myself	5.17437648763324e-05
+with the notion that	5.17437648763324e-05
+and powerful hatred toward	5.17437648763324e-05
+the notion that i	5.17437648763324e-05
+with a deep and	5.17437648763324e-05
+hatred toward myself and	5.17437648763324e-05
+mind is often consumed	5.17437648763324e-05
+and my mind is	5.17437648763324e-05
+my mind is often	5.17437648763324e-05
+is often consumed with	5.17437648763324e-05
+toward myself and my	5.17437648763324e-05
+talke	5.17437648763324e-05
+depressed state	5.17437648763324e-05
+conversation going	5.17437648763324e-05
+not talke	5.17437648763324e-05
+room on	5.17437648763324e-05
+smoke weed	5.17437648763324e-05
+do go	5.17437648763324e-05
+talke at	5.17437648763324e-05
+weed i	5.17437648763324e-05
+drink or	5.17437648763324e-05
+now spend	5.17437648763324e-05
+laptop but	5.17437648763324e-05
+completely depressed	5.17437648763324e-05
+either drink	5.17437648763324e-05
+depressed state and	5.17437648763324e-05
+i either drink	5.17437648763324e-05
+room on my	5.17437648763324e-05
+my friends a	5.17437648763324e-05
+to keep a	5.17437648763324e-05
+i do go	5.17437648763324e-05
+but even when	5.17437648763324e-05
+state and will	5.17437648763324e-05
+do go out	5.17437648763324e-05
+not talke at	5.17437648763324e-05
+now spend a	5.17437648763324e-05
+my room on	5.17437648763324e-05
+out i find	5.17437648763324e-05
+drink or smoke	5.17437648763324e-05
+a conversation going	5.17437648763324e-05
+it very very	5.17437648763324e-05
+on my laptop	5.17437648763324e-05
+i now spend	5.17437648763324e-05
+conversation going and	5.17437648763324e-05
+of time in	5.17437648763324e-05
+will not talke	5.17437648763324e-05
+into a completely	5.17437648763324e-05
+either drink or	5.17437648763324e-05
+my laptop but	5.17437648763324e-05
+completely depressed state	5.17437648763324e-05
+keep a conversation	5.17437648763324e-05
+or smoke weed	5.17437648763324e-05
+going and if	5.17437648763324e-05
+if i either	5.17437648763324e-05
+laptop but even	5.17437648763324e-05
+weed i just	5.17437648763324e-05
+used to go	5.17437648763324e-05
+hard to keep	5.17437648763324e-05
+talke at all	5.17437648763324e-05
+friends a lot	5.17437648763324e-05
+very very hard	5.17437648763324e-05
+a completely depressed	5.17437648763324e-05
+smoke weed i	5.17437648763324e-05
+hard to keep a	5.17437648763324e-05
+my friends a lot	5.17437648763324e-05
+very hard to keep	5.17437648763324e-05
+will not talke at	5.17437648763324e-05
+but i now spend	5.17437648763324e-05
+used to go out	5.17437648763324e-05
+and will not talke	5.17437648763324e-05
+going and if i	5.17437648763324e-05
+laptop but even when	5.17437648763324e-05
+my room on my	5.17437648763324e-05
+room on my laptop	5.17437648763324e-05
+when i do go	5.17437648763324e-05
+into a completely depressed	5.17437648763324e-05
+out i find it	5.17437648763324e-05
+or smoke weed i	5.17437648763324e-05
+out with my friends	5.17437648763324e-05
+state and will not	5.17437648763324e-05
+completely depressed state and	5.17437648763324e-05
+to keep a conversation	5.17437648763324e-05
+even when i do	5.17437648763324e-05
+but even when i	5.17437648763324e-05
+with my friends a	5.17437648763324e-05
+my laptop but even	5.17437648763324e-05
+do go out i	5.17437648763324e-05
+i either drink or	5.17437648763324e-05
+and if i either	5.17437648763324e-05
+lot but i now	5.17437648763324e-05
+go out i find	5.17437648763324e-05
+i now spend a	5.17437648763324e-05
+i do go out	5.17437648763324e-05
+if i either drink	5.17437648763324e-05
+lot of time in	5.17437648763324e-05
+of time in my	5.17437648763324e-05
+i used to go	5.17437648763324e-05
+friends a lot but	5.17437648763324e-05
+a conversation going and	5.17437648763324e-05
+depressed state and will	5.17437648763324e-05
+either drink or smoke	5.17437648763324e-05
+a completely depressed state	5.17437648763324e-05
+not talke at all	5.17437648763324e-05
+in my room on	5.17437648763324e-05
+on my laptop but	5.17437648763324e-05
+drink or smoke weed	5.17437648763324e-05
+it very very hard	5.17437648763324e-05
+very very hard to	5.17437648763324e-05
+smoke weed i just	5.17437648763324e-05
+weed i just go	5.17437648763324e-05
+go into a completely	5.17437648763324e-05
+find it very very	5.17437648763324e-05
+conversation going and if	5.17437648763324e-05
+keep a conversation going	5.17437648763324e-05
+now spend a lot	5.17437648763324e-05
+time in my room	5.17437648763324e-05
+visions	5.17437648763324e-05
+of suicidal	5.17437648763324e-05
+out always	5.17437648763324e-05
+had visions	5.17437648763324e-05
+thoughts but	5.17437648763324e-05
+visions of	5.17437648763324e-05
+never carried	5.17437648763324e-05
+things happening	5.17437648763324e-05
+carried them	5.17437648763324e-05
+things happening to	5.17437648763324e-05
+of suicidal thoughts	5.17437648763324e-05
+bad things happening	5.17437648763324e-05
+thoughts but never	5.17437648763324e-05
+but never carried	5.17437648763324e-05
+always had visions	5.17437648763324e-05
+had visions of	5.17437648763324e-05
+visions of bad	5.17437648763324e-05
+of bad things	5.17437648763324e-05
+never carried them	5.17437648763324e-05
+them out always	5.17437648763324e-05
+carried them out	5.17437648763324e-05
+suicidal thoughts but	5.17437648763324e-05
+lots of suicidal	5.17437648763324e-05
+out always had	5.17437648763324e-05
+but never carried them	5.17437648763324e-05
+carried them out always	5.17437648763324e-05
+of bad things happening	5.17437648763324e-05
+always had visions of	5.17437648763324e-05
+them out always had	5.17437648763324e-05
+of suicidal thoughts but	5.17437648763324e-05
+out always had visions	5.17437648763324e-05
+had lots of suicidal	5.17437648763324e-05
+things happening to me	5.17437648763324e-05
+bad things happening to	5.17437648763324e-05
+had visions of bad	5.17437648763324e-05
+suicidal thoughts but never	5.17437648763324e-05
+lots of suicidal thoughts	5.17437648763324e-05
+visions of bad things	5.17437648763324e-05
+never carried them out	5.17437648763324e-05
+thoughts but never carried	5.17437648763324e-05
+on quite	5.17437648763324e-05
+get on quite	5.17437648763324e-05
+usually get on	5.17437648763324e-05
+on quite well	5.17437648763324e-05
+i usually get on	5.17437648763324e-05
+dad and i usually	5.17437648763324e-05
+usually get on quite	5.17437648763324e-05
+get on quite well	5.17437648763324e-05
+any values	5.17437648763324e-05
+or interests	5.17437648763324e-05
+values or	5.17437648763324e-05
+interests anymore	5.17437648763324e-05
+any values or	5.17437648763324e-05
+that i’m worried	5.17437648763324e-05
+values or interests	5.17437648763324e-05
+or interests anymore	5.17437648763324e-05
+have any values	5.17437648763324e-05
+that i’m worried that	5.17437648763324e-05
+is that i’m worried	5.17437648763324e-05
+don’t have any values	5.17437648763324e-05
+worried that i don’t	5.17437648763324e-05
+have any values or	5.17437648763324e-05
+values or interests anymore	5.17437648763324e-05
+problem is that i’m	5.17437648763324e-05
+that i don’t have	5.17437648763324e-05
+any values or interests	5.17437648763324e-05
+self hate	5.17437648763324e-05
+and compulsive	5.17437648763324e-05
+compulsive self	5.17437648763324e-05
+anxiety insomnia	5.17437648763324e-05
+constantly paranoid and	5.17437648763324e-05
+paranoid and i	5.17437648763324e-05
+compulsive self hate	5.17437648763324e-05
+suffer from severe	5.17437648763324e-05
+and compulsive self	5.17437648763324e-05
+insomnia and compulsive	5.17437648763324e-05
+anxiety insomnia and	5.17437648763324e-05
+am constantly paranoid	5.17437648763324e-05
+depression anxiety insomnia	5.17437648763324e-05
+suffer from severe depression	5.17437648763324e-05
+i suffer from severe	5.17437648763324e-05
+am constantly paranoid and	5.17437648763324e-05
+insomnia and compulsive self	5.17437648763324e-05
+from severe depression anxiety	5.17437648763324e-05
+depression anxiety insomnia and	5.17437648763324e-05
+and compulsive self hate	5.17437648763324e-05
+paranoid and i suffer	5.17437648763324e-05
+constantly paranoid and i	5.17437648763324e-05
+i am constantly paranoid	5.17437648763324e-05
+severe depression anxiety insomnia	5.17437648763324e-05
+anxiety insomnia and compulsive	5.17437648763324e-05
+restate	5.17437648763324e-05
+no response	5.17437648763324e-05
+or need	5.17437648763324e-05
+never comes	5.17437648763324e-05
+and explain	5.17437648763324e-05
+be adamant	5.17437648763324e-05
+can restate	5.17437648763324e-05
+want or	5.17437648763324e-05
+ask i	5.17437648763324e-05
+restate and	5.17437648763324e-05
+can cry	5.17437648763324e-05
+not mutual	5.17437648763324e-05
+husband if	5.17437648763324e-05
+adamant i	5.17437648763324e-05
+feelings but	5.17437648763324e-05
+mutual it	5.17437648763324e-05
+something from	5.17437648763324e-05
+comes about	5.17437648763324e-05
+can ask i	5.17437648763324e-05
+is not mutual	5.17437648763324e-05
+can restate and	5.17437648763324e-05
+husband if it	5.17437648763324e-05
+really want or	5.17437648763324e-05
+something from my	5.17437648763324e-05
+be adamant i	5.17437648763324e-05
+or need something	5.17437648763324e-05
+comes about i	5.17437648763324e-05
+and explain my	5.17437648763324e-05
+can cry i	5.17437648763324e-05
+mutual it never	5.17437648763324e-05
+about i can	5.17437648763324e-05
+ask i can	5.17437648763324e-05
+i can restate	5.17437648763324e-05
+is no response	5.17437648763324e-05
+feelings but there	5.17437648763324e-05
+not mutual it	5.17437648763324e-05
+cry i can	5.17437648763324e-05
+can be adamant	5.17437648763324e-05
+restate and explain	5.17437648763324e-05
+explain my feelings	5.17437648763324e-05
+my husband if	5.17437648763324e-05
+it never comes	5.17437648763324e-05
+i can ask	5.17437648763324e-05
+feel i really	5.17437648763324e-05
+never comes about	5.17437648763324e-05
+need something from	5.17437648763324e-05
+my feelings but	5.17437648763324e-05
+i can cry	5.17437648763324e-05
+adamant i can	5.17437648763324e-05
+want or need	5.17437648763324e-05
+ask i can cry	5.17437648763324e-05
+it is not mutual	5.17437648763324e-05
+can be adamant i	5.17437648763324e-05
+need something from my	5.17437648763324e-05
+can cry i can	5.17437648763324e-05
+be adamant i can	5.17437648763324e-05
+my feelings but there	5.17437648763324e-05
+want or need something	5.17437648763324e-05
+is not mutual it	5.17437648763324e-05
+and explain my feelings	5.17437648763324e-05
+i really want or	5.17437648763324e-05
+about i can ask	5.17437648763324e-05
+not mutual it never	5.17437648763324e-05
+i can restate and	5.17437648763324e-05
+i can ask i	5.17437648763324e-05
+can ask i can	5.17437648763324e-05
+never comes about i	5.17437648763324e-05
+i feel i really	5.17437648763324e-05
+comes about i can	5.17437648763324e-05
+feelings but there is	5.17437648763324e-05
+when i feel i	5.17437648763324e-05
+really want or need	5.17437648763324e-05
+adamant i can restate	5.17437648763324e-05
+something from my husband	5.17437648763324e-05
+feel i really want	5.17437648763324e-05
+husband if it is	5.17437648763324e-05
+restate and explain my	5.17437648763324e-05
+my husband if it	5.17437648763324e-05
+i can cry i	5.17437648763324e-05
+there is no response	5.17437648763324e-05
+from my husband if	5.17437648763324e-05
+mutual it never comes	5.17437648763324e-05
+can restate and explain	5.17437648763324e-05
+explain my feelings but	5.17437648763324e-05
+or need something from	5.17437648763324e-05
+it never comes about	5.17437648763324e-05
+cry i can be	5.17437648763324e-05
+i can be adamant	5.17437648763324e-05
+getting emotional	5.17437648763324e-05
+how stupid	5.17437648763324e-05
+tough moments	5.17437648763324e-05
+any literally	5.17437648763324e-05
+literally any	5.17437648763324e-05
+any desires	5.17437648763324e-05
+emotion but	5.17437648763324e-05
+my sense	5.17437648763324e-05
+desires needs	5.17437648763324e-05
+some tough	5.17437648763324e-05
+start getting	5.17437648763324e-05
+wants i	5.17437648763324e-05
+relationship brings	5.17437648763324e-05
+back some	5.17437648763324e-05
+emotional when	5.17437648763324e-05
+needs or	5.17437648763324e-05
+moments or	5.17437648763324e-05
+so i tend	5.17437648763324e-05
+me think how	5.17437648763324e-05
+entered a relationship	5.17437648763324e-05
+have any literally	5.17437648763324e-05
+needs or wants	5.17437648763324e-05
+or wants i	5.17437648763324e-05
+tough moments or	5.17437648763324e-05
+lost my sense	5.17437648763324e-05
+that so i	5.17437648763324e-05
+brings me back	5.17437648763324e-05
+on things my	5.17437648763324e-05
+some tough moments	5.17437648763324e-05
+desires needs or	5.17437648763324e-05
+getting emotional when	5.17437648763324e-05
+was i start	5.17437648763324e-05
+any literally any	5.17437648763324e-05
+like that so	5.17437648763324e-05
+things my relationship	5.17437648763324e-05
+moments or makes	5.17437648763324e-05
+think like that	5.17437648763324e-05
+any desires needs	5.17437648763324e-05
+a relationship a	5.17437648763324e-05
+think how stupid	5.17437648763324e-05
+me back some	5.17437648763324e-05
+tend to not	5.17437648763324e-05
+stupid i was	5.17437648763324e-05
+i start getting	5.17437648763324e-05
+but i entered	5.17437648763324e-05
+seem to focus	5.17437648763324e-05
+back some tough	5.17437648763324e-05
+literally any desires	5.17437648763324e-05
+how stupid i	5.17437648763324e-05
+my sense of	5.17437648763324e-05
+of emotion but	5.17437648763324e-05
+i think like	5.17437648763324e-05
+i entered a	5.17437648763324e-05
+focus on things	5.17437648763324e-05
+relationship brings me	5.17437648763324e-05
+sense of emotion	5.17437648763324e-05
+emotional when i	5.17437648763324e-05
+emotion but i	5.17437648763324e-05
+of years i	5.17437648763324e-05
+relationship a year	5.17437648763324e-05
+my relationship brings	5.17437648763324e-05
+wants i can’t	5.17437648763324e-05
+start getting emotional	5.17437648763324e-05
+emotion but i entered	5.17437648763324e-05
+me think how stupid	5.17437648763324e-05
+desires needs or wants	5.17437648763324e-05
+getting emotional when i	5.17437648763324e-05
+don’t have any literally	5.17437648763324e-05
+any literally any desires	5.17437648763324e-05
+sense of emotion but	5.17437648763324e-05
+now i don’t have	5.17437648763324e-05
+literally any desires needs	5.17437648763324e-05
+tough moments or makes	5.17437648763324e-05
+start getting emotional when	5.17437648763324e-05
+focus on things my	5.17437648763324e-05
+on things my relationship	5.17437648763324e-05
+relationship a year ago	5.17437648763324e-05
+my relationship brings me	5.17437648763324e-05
+any desires needs or	5.17437648763324e-05
+makes me think how	5.17437648763324e-05
+stupid i was i	5.17437648763324e-05
+can’t seem to focus	5.17437648763324e-05
+emotional when i think	5.17437648763324e-05
+moments or makes me	5.17437648763324e-05
+years i feel i	5.17437648763324e-05
+feel i have lost	5.17437648763324e-05
+relationship brings me back	5.17437648763324e-05
+ago now i don’t	5.17437648763324e-05
+how stupid i was	5.17437648763324e-05
+like that so i	5.17437648763324e-05
+but i entered a	5.17437648763324e-05
+brings me back some	5.17437648763324e-05
+couple of years i	5.17437648763324e-05
+so i tend to	5.17437648763324e-05
+or makes me think	5.17437648763324e-05
+lost my sense of	5.17437648763324e-05
+have lost my sense	5.17437648763324e-05
+think like that so	5.17437648763324e-05
+i entered a relationship	5.17437648763324e-05
+of emotion but i	5.17437648763324e-05
+from the past couple	5.17437648763324e-05
+my sense of emotion	5.17437648763324e-05
+of years i feel	5.17437648763324e-05
+wants i can’t seem	5.17437648763324e-05
+when i think like	5.17437648763324e-05
+tend to not think	5.17437648763324e-05
+to focus on things	5.17437648763324e-05
+entered a relationship a	5.17437648763324e-05
+year ago now i	5.17437648763324e-05
+i think like that	5.17437648763324e-05
+things my relationship brings	5.17437648763324e-05
+me back some tough	5.17437648763324e-05
+or wants i can’t	5.17437648763324e-05
+a relationship a year	5.17437648763324e-05
+back some tough moments	5.17437648763324e-05
+have any literally any	5.17437648763324e-05
+some tough moments or	5.17437648763324e-05
+think how stupid i	5.17437648763324e-05
+needs or wants i	5.17437648763324e-05
+i was i start	5.17437648763324e-05
+i start getting emotional	5.17437648763324e-05
+that so i tend	5.17437648763324e-05
+seem to focus on	5.17437648763324e-05
+was i start getting	5.17437648763324e-05
+i tend to not	5.17437648763324e-05
+generally hopeless	5.17437648763324e-05
+i imagined	5.17437648763324e-05
+happen the	5.17437648763324e-05
+hopeless useless	5.17437648763324e-05
+i’ll become	5.17437648763324e-05
+imagined i’ll	5.17437648763324e-05
+and feel generally	5.17437648763324e-05
+when it doesn’t	5.17437648763324e-05
+generally hopeless useless	5.17437648763324e-05
+imagined i’ll become	5.17437648763324e-05
+feel generally hopeless	5.17437648763324e-05
+doesn’t happen the	5.17437648763324e-05
+way i imagined	5.17437648763324e-05
+i imagined i’ll	5.17437648763324e-05
+depressed and feel	5.17437648763324e-05
+i’ll become depressed	5.17437648763324e-05
+happen the way	5.17437648763324e-05
+feel generally hopeless useless	5.17437648763324e-05
+happen the way i	5.17437648763324e-05
+i imagined i’ll become	5.17437648763324e-05
+become depressed and feel	5.17437648763324e-05
+doesn’t happen the way	5.17437648763324e-05
+the way i imagined	5.17437648763324e-05
+way i imagined i’ll	5.17437648763324e-05
+imagined i’ll become depressed	5.17437648763324e-05
+depressed and feel generally	5.17437648763324e-05
+when it doesn’t happen	5.17437648763324e-05
+it doesn’t happen the	5.17437648763324e-05
+i’ll become depressed and	5.17437648763324e-05
+and feel generally hopeless	5.17437648763324e-05
+failures back	5.17437648763324e-05
+space of	5.17437648763324e-05
+time years	5.17437648763324e-05
+of failures	5.17437648763324e-05
+short space	5.17437648763324e-05
+in a short	5.17437648763324e-05
+failures back to	5.17437648763324e-05
+a short space	5.17437648763324e-05
+short space of	5.17437648763324e-05
+to back in	5.17437648763324e-05
+suffered a lot	5.17437648763324e-05
+back to back	5.17437648763324e-05
+of time years	5.17437648763324e-05
+of failures back	5.17437648763324e-05
+space of time	5.17437648763324e-05
+lot of failures	5.17437648763324e-05
+space of time years	5.17437648763324e-05
+to back in a	5.17437648763324e-05
+have suffered a lot	5.17437648763324e-05
+failures back to back	5.17437648763324e-05
+in a short space	5.17437648763324e-05
+lot of failures back	5.17437648763324e-05
+short space of time	5.17437648763324e-05
+back to back in	5.17437648763324e-05
+suffered a lot of	5.17437648763324e-05
+of failures back to	5.17437648763324e-05
+a short space of	5.17437648763324e-05
+a lot of failures	5.17437648763324e-05
+back in a short	5.17437648763324e-05
+i have suffered a	5.17437648763324e-05
+hi i have suffered	5.17437648763324e-05
+gets so	5.17437648763324e-05
+derealization gets	5.17437648763324e-05
+my derealization gets	5.17437648763324e-05
+derealization gets so	5.17437648763324e-05
+at times my	5.17437648763324e-05
+so bad i	5.17437648763324e-05
+times my derealization	5.17437648763324e-05
+gets so bad	5.17437648763324e-05
+and at times my	5.17437648763324e-05
+gets so bad i	5.17437648763324e-05
+so bad i feel	5.17437648763324e-05
+at times my derealization	5.17437648763324e-05
+bad i feel like	5.17437648763324e-05
+my derealization gets so	5.17437648763324e-05
+times my derealization gets	5.17437648763324e-05
+derealization gets so bad	5.17437648763324e-05
+anxiety almost	5.17437648763324e-05
+gotten out	5.17437648763324e-05
+gotten out of	5.17437648763324e-05
+life but lately	5.17437648763324e-05
+anxiety almost all	5.17437648763324e-05
+had anxiety almost	5.17437648763324e-05
+has gotten out	5.17437648763324e-05
+had anxiety almost all	5.17437648763324e-05
+lately it has gotten	5.17437648763324e-05
+gotten out of hand	5.17437648763324e-05
+my life but lately	5.17437648763324e-05
+it has gotten out	5.17437648763324e-05
+anxiety almost all of	5.17437648763324e-05
+have had anxiety almost	5.17437648763324e-05
+all of my life	5.17437648763324e-05
+has gotten out of	5.17437648763324e-05
+almost all of my	5.17437648763324e-05
+life but lately it	5.17437648763324e-05
+but i	5.1458675262688696e-05
+myself	5.1426318466048155e-05
+them	5.121215085363036e-05
+around	5.113857464386068e-05
+not	5.108981524124447e-05
+time i	4.817522936761982e-05
+everything	4.8071626723818487e-05
+out	4.753053211286513e-05
+i’ve	4.732262040905083e-05
+this	4.7280486911853435e-05
+i am	4.7163808286525204e-05
+when	4.672384738833e-05
+state of	4.656938838869916e-05
+obsession	4.656938838869916e-05
+disappointment	4.656938838869916e-05
+last time	4.656938838869916e-05
+go	4.652191704477592e-05
+i start	4.619979006815393e-05
+attacks	4.619979006815393e-05
+all day	4.5994457667851026e-05
+feel like a	4.5994457667851026e-05
+now	4.580595579216311e-05
+state	4.5433549647511374e-05
+still	4.488615748308353e-05
+anxiety	4.460669385890724e-05
+thinking about	4.435179846542777e-05
+something	4.390380050113052e-05
+now i’m	4.357369673796413e-05
+like this	4.332036129181318e-05
+boring	4.2335807626090144e-05
+hurt or	4.139501190106592e-05
+they never	4.139501190106592e-05
+things as	4.139501190106592e-05
+new people	4.139501190106592e-05
+even know how	4.139501190106592e-05
+don’t even know how	4.139501190106592e-05
+spiraling	4.139501190106592e-05
+very sensitive to	4.139501190106592e-05
+something will	4.139501190106592e-05
+ignore it	4.139501190106592e-05
+really hard to	4.139501190106592e-05
+flat	4.139501190106592e-05
+and i start	4.139501190106592e-05
+death of	4.139501190106592e-05
+this year i	4.139501190106592e-05
+couple of years	4.139501190106592e-05
+times a day	4.139501190106592e-05
+obsessions	4.139501190106592e-05
+not real	4.139501190106592e-05
+offensive	4.139501190106592e-05
+only people	4.139501190106592e-05
+thoughts have	4.139501190106592e-05
+suck	4.139501190106592e-05
+a lot but	4.139501190106592e-05
+remember the last	4.139501190106592e-05
+remember the last time	4.139501190106592e-05
+keeps getting	4.139501190106592e-05
+i’m here	4.139501190106592e-05
+is from	4.139501190106592e-05
+had anxiety	4.139501190106592e-05
+time i do	4.139501190106592e-05
+feel i have	4.139501190106592e-05
+i feel i have	4.139501190106592e-05
+had	4.069169859206723e-05
+depressed	4.038537746445456e-05
+can	4.0284938052507927e-05
+so	4.0267521304538835e-05
+somewhere	3.942382085815802e-05
+hard	3.917051359797126e-05
+just	3.883471750593763e-05
+but sometimes	3.88078236572493e-05
+times a	3.88078236572493e-05
+to live	3.804688593847971e-05
+can’t stop	3.763182900096902e-05
+of time	3.763182900096902e-05
+worse	3.7285948219710114e-05
+any	3.707015991140232e-05
+like that	3.6959832054523144e-05
+feel i	3.599566252266602e-05
+for	3.585349561830128e-05
+me it	3.5822606452845506e-05
+when i think	3.5822606452845506e-05
+thinking about it	3.5822606452845506e-05
+also	3.5692637812653776e-05
+people	3.533720528139774e-05
+me and	3.531328029474818e-05
+went	3.5229797362609293e-05
+i can	3.51998400519268e-05
+something like that	3.4495843250888266e-05
+finding a	3.4495843250888266e-05
+just keeps	3.4495843250888266e-05
+as i thought	3.4495843250888266e-05
+have a hard	3.4495843250888266e-05
+have a hard time	3.4495843250888266e-05
+bc	3.4495843250888266e-05
+life will	3.4495843250888266e-05
+this day	3.4495843250888266e-05
+brings	3.4495843250888266e-05
+effects	3.4495843250888266e-05
+sensitive to	3.4495843250888266e-05
+worst	3.4495843250888266e-05
+i can’t stop thinking	3.4495843250888266e-05
+many more	3.4495843250888266e-05
+me so much	3.4495843250888266e-05
+now i feel	3.4495843250888266e-05
+anything i feel	3.4495843250888266e-05
+don’t have a	3.4495843250888266e-05
+about every	3.4495843250888266e-05
+through a lot	3.4495843250888266e-05
+things have	3.4495843250888266e-05
+very emotionally	3.4495843250888266e-05
+either i	3.4495843250888266e-05
+in person	3.4495843250888266e-05
+attacks and	3.4495843250888266e-05
+me and they	3.4495843250888266e-05
+out with my	3.4495843250888266e-05
+more i’m	3.4495843250888266e-05
+my self-esteem	3.4495843250888266e-05
+a disappointment	3.4495843250888266e-05
+my younger	3.4495843250888266e-05
+emotions but	3.4495843250888266e-05
+i can’t remember	3.4495843250888266e-05
+the last time	3.4495843250888266e-05
+sober	3.4495843250888266e-05
+it doesn’t	3.4495843250888266e-05
+now i don’t	3.4495843250888266e-05
+my sister she	3.4495843250888266e-05
+it very	3.4495843250888266e-05
+about it	3.414021600087911e-05
+see the	3.326384884907083e-05
+stuck	3.326384884907083e-05
+i have an	3.326384884907083e-05
+hang out	3.326384884907083e-05
+getting worse	3.326384884907083e-05
+my life i	3.311600952085274e-05
+have any	3.311600952085274e-05
+no	3.292785037584789e-05
+of my	3.27800814138022e-05
+more	3.2680272553473096e-05
+done	3.2680272553473096e-05
+anything	3.2609351823105316e-05
+with my	3.2543248349894594e-05
+nothing	3.1842316846973786e-05
+friends	3.178170329967625e-05
+it’s	3.117615959076094e-05
+a hard time	3.104625892579944e-05
+there is no	3.104625892579944e-05
+know where	3.104625892579944e-05
+i don’t even	3.104625892579944e-05
+somehow	3.104625892579944e-05
+ignore	3.104625892579944e-05
+around people	3.104625892579944e-05
+i feel very	3.104625892579944e-05
+talk to people	3.104625892579944e-05
+because	3.098887212556691e-05
+see	3.098429034510922e-05
+know	3.0877398154641245e-05
+only	3.0537303861442073e-05
+in my	3.02595116235862e-05
+and my	3.015284140275485e-05
+at	3.015284140275485e-05
+getting	3.0105463200775215e-05
+find	2.9937463964163748e-05
+days	2.982875857576809e-05
+going	2.9814264523982003e-05
+was perfect	2.9567865643618516e-05
+useless	2.9567865643618516e-05
+do i don’t	2.9567865643618516e-05
+about me i	2.9567865643618516e-05
+to think about	2.9567865643618516e-05
+go and	2.9567865643618516e-05
+chance to	2.9567865643618516e-05
+a chance	2.9567865643618516e-05
+my job	2.9567865643618516e-05
+because i can’t	2.9567865643618516e-05
+don’t know where	2.9567865643618516e-05
+because now	2.9567865643618516e-05
+everything but	2.9567865643618516e-05
+recent	2.9567865643618516e-05
+i can tell	2.9567865643618516e-05
+having problems	2.9567865643618516e-05
+alot	2.9567865643618516e-05
+couple days	2.9567865643618516e-05
+feel like this	2.9567865643618516e-05
+a couple days	2.9567865643618516e-05
+want to leave	2.9567865643618516e-05
+to talk to people	2.9567865643618516e-05
+but with	2.9567865643618516e-05
+in things	2.9567865643618516e-05
+lot but	2.9567865643618516e-05
+can’t remember	2.9567865643618516e-05
+cares about me	2.9567865643618516e-05
+sister she	2.9567865643618516e-05
+really doesn’t	2.9567865643618516e-05
+and it	2.91430399878194e-05
