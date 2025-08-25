@@ -12,6 +12,21 @@ os.chdir(project_path)
 from pygents.util import dictcount, dict_compress_with_loss, dictdict_div_dict, dictdict_mul_dictdict
 from pygents.aigents_api import tokenize_re, punct, build_ngrams
 
+def df2labeled(df,binary=False):
+    data = []
+    for _, row in df.iterrows():
+        # Text identification: first, check the 2nd column; if NaN, take the text from the 1st column
+        text = row.iloc[1] if pd.notna(row.iloc[1]) else row.iloc[0]
+        if not binary:
+            primary_distortion = row.iloc[2]  # The primary cognitive distortion from the 3rd column
+            secondary_distortion = row.iloc[3] if pd.notna(row.iloc[3]) else None  # The secondary distortion from the 4th column, if present
+        else:
+            primary_distortion = 'Distortion' if row.iloc[2] != 'No Distortion' else 'No Distortion'
+            secondary_distortion = None
+        cats = (primary_distortion,) if secondary_distortion is None else (primary_distortion,secondary_distortion)
+        data.append((text, tuple([c.replace(' ','_') for c in cats])))
+    return data
+
 
 def count_ngrams_basic(df, n_max: int, binary = False, clean_punct=True):
 
@@ -24,7 +39,7 @@ def count_ngrams_basic(df, n_max: int, binary = False, clean_punct=True):
     
     uniq_n_gram_dicts = defaultdict(lambda: defaultdict(int)) # Counts of uniq N-grams by Distortion
     uniq_all_n_grams = defaultdict(int)  # A general dictionary for all n-grams uniq by text
-    n_gram_distortions = defaultdict(lambda: defaultdict(int)) # Counts of distortiions by N-gram
+    n_gram_distortions = defaultdict(lambda: defaultdict(int)) # Counts of distortions by N-gram
 
     # Loop through the rows of the DataFrame
     for _, row in df.iterrows():
@@ -145,16 +160,16 @@ def count_ngrams_plus(df, n_max: int, binary = False, clean_punct=True):
 
 
 def count_ngrams_plus_tf_idf(df, n_max: int, binary = False, clean_punct=True):
-    N = len(df)
+    # N = 12 #numbers_of_labels
     distortions, n_gram_dicts, all_n_grams, norm_n_gram_dicts, uniq_n_gram_dicts, uniq_all_n_grams, n_gram_distortions, \
     norm_uniq_n_gram_dicts, n_gram_distortions_counts, doc_counts = count_ngrams_basic(df, n_max, binary = binary, clean_punct=clean_punct)
-
+    N = len(n_gram_dicts)
     # TF-IDF
     tfidf_dicts = defaultdict(dict)
     for distortion, ngram_dict in n_gram_dicts.items(): # For each distortion (distortion), analyze the n-grams (ngram_dict)
         for n_gram, count in ngram_dict.items(): # For each n-gram (n_gram), check its frequency of occurrence (count) for the given distortion
-            tf = count / sum(ngram_dict.values())  # Frequency of the n-gram in the text (TF): TF = (Number of occurrences of the given n-gram for the specific cognitive distortion) / (Total number of occurrences of all other n-grams for the same cognitive distortion)
-            idf = math.log(N / (1 + doc_counts[n_gram]))  # Inverse Document Frequency (IDF): IDF = Total number of documents / Number of documents containing the given n-gram
+            tf = norm_n_gram_dicts[distortion][n_gram] # frequency of N-gram per label/category denominated by total frequency of N-gram
+            idf = math.log(N / len(n_gram_distortions[n_gram]))  # total number of labels/categories (not documents) denominated by number of labels per N-gram
             tfidf_dicts[distortion][n_gram] = tf * idf  # TF-IDF
     
     return tfidf_dicts
