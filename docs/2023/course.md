@@ -79,19 +79,15 @@ https://lifeboat.com/ex/bios.anton.kolonin
 - Summary, bottom lines, question answering (1) 
 
 ## Course work and diploma thesis topics
-- Adaptive weak-supervised NLP for content moderation
-- VLSI design with LLMs for code and test generation and code verification
-- Neuro-symbolic RL for adaptive robotics
-- Decision support systems for technological process automation _(Qian_Yi_Huang)_
-- Social computing applications in social media and multi-agent systems
-  - Investigating the ability of a group of LLM agents to logically correct a set of related statements _(Litvinenko Dmitriy)_
-  - Reputation consensus for distributed ledger systems
-    - https://arxiv.org/pdf/1806.07342.pdf
-    - https://arxiv.org/abs/2108.03542
-  - Reputation systems for marketplace security
-    - https://arxiv.org/abs/1905.08036
-    - https://arxiv.org/abs/2210.02362  
+- LLM-enabled engineering
+  - LLM-enabled test-driven software development
+  - VLSI design with LLMs for code and test generation and code verification
+- Artificial General Intelligence (AGI) and Experientiall Learning (EL)
+  - Neuro-symbolic RL for adaptive robotics
+  - Decision support systems (DSS) for automatic process control systems (APCS)
 - Interpretable natural language modeling and unsupervised learning
+  - Conversation-based individual and group behavioral and psychological profiling
+  - Adaptive weak-supervised NLP for content moderation
   - Deep grammar and ontology learning for ontology extraction from natural language texts in Chinese/English/Russian
     - https://www.springerprofessional.de/en/programmatic-link-grammar-induction-for-unsupervised-language-le/17020348
     - https://www.springerprofessional.de/en/unsupervised-language-learning-in-opencog/15995030
@@ -105,6 +101,13 @@ https://lifeboat.com/ex/bios.anton.kolonin
     - https://docs.google.com/spreadsheets/d/1yzaRVYN8I4v0rqrcUpivW-YCLgaU-aNPzTuM5XsXIgw/edit?gid=2138975815#gid=2138975815
   - Social media relationship graph extraction and annotation with psycho-emotinal expressions (or other languages, may be cross-lingual)
     - https://docs.google.com/spreadsheets/d/1yzaRVYN8I4v0rqrcUpivW-YCLgaU-aNPzTuM5XsXIgw/edit?gid=2138975815#gid=2138975815
+- Social computing applications in social media and multi-agent systems
+  - Reputation consensus for distributed ledger systems
+    - https://arxiv.org/pdf/1806.07342.pdf
+    - https://arxiv.org/abs/2108.03542
+  - Reputation systems for marketplace security
+    - https://arxiv.org/abs/1905.08036
+    - https://arxiv.org/abs/2210.02362  
 
 ## Course work structure
 - Publication on medium, substack, github blog/site, etc. - covering prior art, R&D done and its results
