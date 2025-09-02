@@ -12,21 +12,6 @@ os.chdir(project_path)
 from pygents.util import dictcount, dict_compress_with_loss, dictdict_div_dict, dictdict_mul_dictdict
 from pygents.aigents_api import tokenize_re, punct, build_ngrams
 
-def df2labeled(df,binary=False):
-    data = []
-    for _, row in df.iterrows():
-        # Text identification: first, check the 2nd column; if NaN, take the text from the 1st column
-        text = row.iloc[1] if pd.notna(row.iloc[1]) else row.iloc[0]
-        if not binary:
-            primary_distortion = row.iloc[2]  # The primary cognitive distortion from the 3rd column
-            secondary_distortion = row.iloc[3] if pd.notna(row.iloc[3]) else None  # The secondary distortion from the 4th column, if present
-        else:
-            primary_distortion = 'Distortion' if row.iloc[2] != 'No Distortion' else 'No Distortion'
-            secondary_distortion = None
-        cats = (primary_distortion,) if secondary_distortion is None else (primary_distortion,secondary_distortion)
-        data.append((text, tuple([c.replace(' ','_') for c in cats])))
-    return data
-
 
 def count_ngrams_basic(df, n_max: int, binary = False, clean_punct=True):
 
@@ -160,7 +145,6 @@ def count_ngrams_plus(df, n_max: int, binary = False, clean_punct=True):
 
 
 def count_ngrams_plus_tf_idf(df, n_max: int, binary = False, clean_punct=True):
-    # N = 12 #numbers_of_labels
     distortions, n_gram_dicts, all_n_grams, norm_n_gram_dicts, uniq_n_gram_dicts, uniq_all_n_grams, n_gram_distortions, \
     norm_uniq_n_gram_dicts, n_gram_distortions_counts, doc_counts = count_ngrams_basic(df, n_max, binary = binary, clean_punct=clean_punct)
     N = len(n_gram_dicts)
