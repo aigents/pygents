@@ -1,3 +1,25 @@
+# MIT License
+# 
+# Copyright (c) 2015-2025 Aigents®, Anton Kolonin 
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 import numpy as np
 import pickle
 import math
@@ -212,7 +234,12 @@ def cosine_similarity(dict_1, dict_2):
     List1 = list(dict_1[k] for k in intersecting_keys)
     List2 = list(dict_2[k] for k in intersecting_keys)
     
-    similarity = np.dot(List1,List2) / (sqrt_sum_squares_dict_values(dict_1) * sqrt_sum_squares_dict_values(dict_2))
+    sqrt_sum_squares_dict_values_1 = sqrt_sum_squares_dict_values(dict_1)
+    sqrt_sum_squares_dict_values_2 = sqrt_sum_squares_dict_values(dict_2)
+    if sqrt_sum_squares_dict_values_1 == 0 or sqrt_sum_squares_dict_values_2 == 0:
+        return 0
+
+    similarity = np.dot(List1,List2) / (sqrt_sum_squares_dict_values_1 * sqrt_sum_squares_dict_values_2)
     return round(similarity, 2)
 
 assert cosine_similarity({"a": 1, "b": 2, "c": 3}, {"c": 5, "b": 4, "d": 6}) == 0.7
