@@ -393,7 +393,7 @@ class PygentsSentiment():
     
 
 class TextMetrics(PygentsSentiment):
-    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], encoding=None, weighted=False, debug=False):
+    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], encoding=None, weighted=False, fuzzy_matcher = None, debug=False):
         self.metric_logarithmic = metric_logarithmic
         self.tokenize_chars = tokenize_chars
         self.scrub = scrub
@@ -401,6 +401,7 @@ class TextMetrics(PygentsSentiment):
         self.gram_arity = 1
         self.metrics = {}
         self.weights = {} if weighted else None
+        self.fm = fuzzy_matcher
         for metric in metrics:
             #TODO use unsupervised tokenization!!!!
             if weighted:
@@ -429,6 +430,8 @@ class TextMetrics(PygentsSentiment):
             seq = [*input_text]
         else:
             seq = [t for t in tokenize(input_text) if not (t in punctuation or t.isnumeric())] if not punctuation is None else tokenize(input_text)
+            if not self.fm is None:
+                seq = self.fm.auto_correct_tokens(seq)
         if markup:
             backup = seq.copy()
         if debug:
