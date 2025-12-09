@@ -230,7 +230,7 @@ def build_ngrams(seq,N):
         items.append( tuple(seq[i:i+N]) )
     return items
 
-def load_ngrams(file,encoding=None,weights=None,debug=False):
+def load_lines(file,encoding=None,debug=False):
     if file.lower().startswith('http'):
         lines = url_lines(file)
         if debug:
@@ -243,6 +243,10 @@ def load_ngrams(file,encoding=None,weights=None,debug=False):
         else:
             with open(file,encoding=encoding) as f:
                 lines = f.readlines()
+    return lines
+
+def load_ngrams(file,encoding=None,weights=None,debug=False):
+    lines = load_lines(file,encoding=encoding,debug=debug)
     if not weights is None:
         ngrams = []
         for l in lines:
@@ -448,6 +452,8 @@ class TextMetrics(PygentsSentiment):
                     found = False 
                     
                     for metric in metrics:
+                        if metric == 'contradictive':
+                            continue
                         ngrams = self.metrics[metric]
                         if w in ngrams:         
                             weight = N if self.weights is None else N * self.weights[metric][w]                

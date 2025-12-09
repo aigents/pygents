@@ -80,20 +80,24 @@ assert(str(texts_item_grams_counts(["play ping pong!","sing ding dong..."],clean
 
 class FuzzyMatcher:
 
-    def __init__(self, texts):
+    def __init__(self, texts, options=('wordsonly','wordschars','chars')):
         self.idxs = {}
-        self.idxs['chars'] = texts_char_grams_counts(texts)
-        self.idxs['wordschars'] = texts_item_grams_counts(texts)
-        self.idxs['wordsonly'] = texts_item_grams_counts(texts,clean_punct=True)
+        self.idxs['chars'] = texts_char_grams_counts(texts) if 'chars' in options else None 
+        self.idxs['wordschars'] = texts_item_grams_counts(texts) if 'wordschars' in options else None
+        self.idxs['wordsonly'] = texts_item_grams_counts(texts,clean_punct=True) if 'wordsonly' in options else None
         #print(self.idxs)
         #print()
             
-    def match(self,text,options=('wordsonly','wordschars','chars'),threshold = 0.3):
+    def match(self,text,options=('wordsonly','wordschars','chars'),threshold = 0.3,debug = False):
         for option in options:
-            #print(option)
+            if debug:
+                print(option)
             if option in self.idxs:
                 idx = self.idxs[option]
-                #print(idx)
+                if debug:
+                    print(idx)
+                if idx is None: # not initialized
+                    continue
                 if option == 'wordsonly':
                     tokens = tokenize_re(text.lower())
                     tokens = [t for t in tokens if not (t in punct or t.isnumeric())]
@@ -103,7 +107,8 @@ class FuzzyMatcher:
                     sample = get_item_grams_dicts(tokens,2)
                 elif option == 'chars':
                     sample = get_char_grams_dicts(text.lower(),2)
-                #print(sample)
+                if debug:
+                    print(sample)
                 maxsim = 0
                 bestmatch = None
                 for i in idx:
@@ -116,6 +121,17 @@ class FuzzyMatcher:
                 if not bestmatch is None:
                     return bestmatch, maxsim, option
         return None, None, None
+
+    def auto_correct_tokens(self,tokens,threshold=0.8):
+        new_list = []
+        lex = self.idxs['chars']
+        for t in tokens:
+            if t in lex:
+                new_list.append(t)
+            else:
+                bestmatch, maxsim, option = self.match(t,threshold=threshold)
+                new_list.append(t if bestmatch is None else bestmatch)
+        return new_list if type(tokens) == list else tuple(new_list)
 
 fm = FuzzyMatcher(['Anton Kolonin','Evgeny Bochkov','Alexey Gluschshenko','International Business Machines'])
 
