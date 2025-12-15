@@ -416,7 +416,7 @@ class TextMetrics(PygentsSentiment):
                     self.gram_arity = l
  
  
-    def get_sentiment_words_markup(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, markup = False, metrics=None, debug=False):
+    def get_sentiment_words_markup(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, markup = False, metrics=None, correction=None, debug=False):
         """
         See original reference implementation:
         https://github.com/aigents/aigents-java/blob/master/src/main/java/net/webstructor/data/LangPack.java#L355
@@ -430,7 +430,7 @@ class TextMetrics(PygentsSentiment):
             seq = [*input_text]
         else:
             seq = [t for t in tokenize(input_text) if not (t in punctuation or t.isnumeric())] if not punctuation is None else tokenize(input_text)
-            if not self.fm is None:
+            if correction and not self.fm is None:
                 seq = self.fm.auto_correct_tokens(seq)
         if markup:
             backup = seq.copy()
@@ -508,8 +508,8 @@ class TextMetrics(PygentsSentiment):
         else:
             return counts, None
 
-    def get_sentiment_words(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, debug=False):
-        return self.get_sentiment_words_markup(input_text, lists, rounding, tokenize, punctuation, priority, False, None, debug)[0] # markup=False, metrics=None
+    def get_sentiment_words(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, correction=None, debug=False):
+        return self.get_sentiment_words_markup(input_text, lists, rounding, tokenize, punctuation, priority, False, None, correction, debug)[0] # markup=False, metrics=None
 
 def markup_words(backup,tagged):
     marked_str = ""

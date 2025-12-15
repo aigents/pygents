@@ -9,9 +9,9 @@ time_first INTEGER COMMENT 'time of the first activity',
 time_last INTEGER COMMENT 'time of the last activity',
 posts INTEGER COMMENT 'number of posts',
 role TEXT COMMENT 'system|admin/specialist|member/client',
-metrics_onoff TEXT COMMENT 'on|off',
-metrics_threshold REAL COMMENT '0.0-1.0 - for user and all his/her chats',
-metrics_destination TEXT COMMENT 'chat|admin - whether metrics are sent to chat or admin'
+onoff TEXT COMMENT 'on|off',
+threshold REAL COMMENT '0.0-1.0 - for user and all his/her chats',
+destination TEXT COMMENT 'chat|admin - whether metrics are sent to chat or admin'
 metrics  TEXT COMMENT 'list of metrics to detect',
 CONSTRAINT uuid_unique UNIQUE (uuid))
 '''
@@ -24,7 +24,7 @@ class BotMinderDB:
 
     def __init__(self,name,namespace):
         self.name = name
-        self.namespace = namespace
+        self.namespace = namespace if type(namespace) == uuid.UUID else uuid.UUID(namespace)
         
     def create(self):
         with sqlite3.connect(self.name) as conn:
@@ -61,14 +61,18 @@ class BotMinderDB:
             conn.commit()
         return ret
 
-    def get_user(self,user_id,values=('role','metrics_onoff','metrics_threshold','metrics_destination')):
+    def get_user(self,user_id,columns=('role','onoff','threshold','destination')):
         with sqlite3.connect(self.name) as conn:
             cursor = conn.cursor()
             users_uuid = uuid.uuid5(self.namespace, str(user_id))
-            values = ','.join(('id', 'uuid')+values)
+            #values = ','.join(('id', 'uuid')+columns)
+            values = ','.join(columns)
             cursor.execute(f'SELECT {str(values)} from users WHERE uuid = "{str(users_uuid)}"')
             rows = cursor.fetchall()
             for row in rows:
-                return row
-
+                user = {}
+                for col, val in zip(columns,row):
+                    user[col] = val
+                return user
+        return None
 
