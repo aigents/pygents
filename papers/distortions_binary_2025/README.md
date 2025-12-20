@@ -33,25 +33,25 @@ All experiments were performed using **Python 3.11.11** with dependencies specif
 To reproduce the experiments, the notebooks located in `./papers/distortions_binary_2025/` should be run in the following order:  
 
 1. First Phase, "Combined" dataset
-  1. `overfitting_combined*.ipynb` — overfitting experiment without punctuation removed (initial study).  
-  2. `overfitting_combined*cleaned.ipynb` — overfitting experiment with punctuation removed (cleaner and final results).  
-  3. `split_combined*.ipynb` — split cross-validation experiment without punctuation removed (initial study).  
-  4. `split_combined*cleaned.ipynb` — split cross-validation experiment with punctuation removed (cleaner and final results).  
-  5. `comparing_llms.ipynb` — detection experiment using LLMs, saving intermediate results to `llm_evaluation_results` file in `pickle` format.  
-  6. `comparing_models.ipynb` — comparison of our models against baselines and LLMs, testing on cross-validation test splits.
+    1. `overfitting_combined*.ipynb` — overfitting experiment without punctuation removed (initial study).  
+    2. `overfitting_combined*cleaned.ipynb` — overfitting experiment with punctuation removed (cleaner and final results).  
+    3. `split_combined*.ipynb` — split cross-validation experiment without punctuation removed (initial study).  
+    4. `split_combined*cleaned.ipynb` — split cross-validation experiment with punctuation removed (cleaner and final results).  
+    5. `comparing_llms.ipynb` — detection experiment using LLMs, saving intermediate results to `llm_evaluation_results` file in `pickle` format.  
+    6. `comparing_models.ipynb` — comparison of our models against baselines and LLMs, testing on cross-validation test splits.
 2. Second Phase
-  1. "Combined" dataset
-    1. `babacan_shreevastava_binary_view.ipynb` - "binary view" experiment, hyperparameter search, traning on 80%, validation on 10%.
-    2. `babacan_shreevastava_multiclass_view.ipynb` - "multi-class view" experiment, hyperparameter search, traning on 80%, validation on 10%.
-    3. `comparing_models_babacan_shreevastava.ipynb` - comparison of our models against baselines and LLMs, testing on 10%.
-  2. "Binary" dataset (Babakan, 2023) 
-    1. `babacan_binary_view.ipynb` - "binary view" experiment, hyperparameter search, traning on 80%, validation on 10%.
-    2. `comparing_llms_babacan.ipynb` - detection experiment using LLMs, saving intermediate results to `llm_evaluation_results_babacan` file in `pickle` format. 
-  3. "Multi-class" dataset (Shreevastava, 2021)
-    1. `shreevastava_binary_view.ipynb` - "binary view" experiment, hyperparameter search, traning on 80%, validation on 10%.
-    2. `shreevastava_multiclass_view.ipynb` - "multi-class view" experiment, hyperparameter search, traning on 80%, validation on 10%.
-    3. `comparing_llms_shreevastava.ipynb` - detection experiment using LLMs, saving intermediate results to `llm_evaluation_results_shreevastava` file in `pickle` format.
-    4. `comparing_models_shreevastava.ipynb` - comparison of our models against baselines and LLMs, testing on 10%.
+    1. "Combined" dataset
+        1. `babacan_shreevastava_binary_view.ipynb` - "binary view" experiment, hyperparameter search, traning on 80%, validation on 10%.
+        2. `babacan_shreevastava_multiclass_view.ipynb` - "multi-class view" experiment, hyperparameter search, traning on 80%, validation on 10%.
+        3. `comparing_models_babacan_shreevastava.ipynb` - comparison of our models against baselines and LLMs, testing on 10%.
+    2. "Binary" dataset (Babakan, 2023) 
+        1. `babacan_binary_view.ipynb` - "binary view" experiment, hyperparameter search, traning on 80%, validation on 10%.
+        2. `comparing_llms_babacan.ipynb` - detection experiment using LLMs, saving intermediate results to `llm_evaluation_results_babacan` file in `pickle` format. 
+    3. "Multi-class" dataset (Shreevastava, 2021)
+        1. `shreevastava_binary_view.ipynb` - "binary view" experiment, hyperparameter search, traning on 80%, validation on 10%.
+        2. `shreevastava_multiclass_view.ipynb` - "multi-class view" experiment, hyperparameter search, traning on 80%, validation on 10%.
+        3. `comparing_llms_shreevastava.ipynb` - detection experiment using LLMs, saving intermediate results to `llm_evaluation_results_shreevastava` file in `pickle` format.
+        4. `comparing_models_shreevastava.ipynb` - comparison of our models against baselines and LLMs, testing on 10%.
 
 ## Requirements  
 - Python 3.11.11  
