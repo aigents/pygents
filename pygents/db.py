@@ -76,3 +76,17 @@ class BotMinderDB:
                 return user
         return None
 
+    def get_users(self,user_id,columns=('role','onoff','threshold','destination')):
+        with sqlite3.connect(self.name) as conn:
+            cursor = conn.cursor()
+            users_uuid = uuid.uuid5(self.namespace, str(user_id))
+            #values = ','.join(('id', 'uuid')+columns)
+            values = ','.join(columns)
+            cursor.execute(f'SELECT {str(values)} from users WHERE uuid = "{str(users_uuid)}"')
+            rows = cursor.fetchall()
+            for row in rows:
+                user = {}
+                for col, val in zip(columns,row):
+                    user[col] = val
+                return user
+        return None
