@@ -424,7 +424,7 @@ class TextMetrics(PygentsSentiment):
         if metrics is None:
             metrics = self.metrics
         if input_text is None or len(input_text) < 1:
-            return (0, 0, 0), None
+            return {}, None
         #seq = [*input_text] if self.tokenize_chars else tokenize_re(input_text) #TODO unsupervised tokenization
         if self.tokenize_chars:
             seq = [*input_text]
@@ -437,7 +437,7 @@ class TextMetrics(PygentsSentiment):
         if debug:
             print("<{}>".format(str(seq)))
         if len(seq) < 1:
-            return 0, 0, 0
+            return {}, None
         counts = {}
         N = self.gram_arity
         while N >= 1:
