@@ -104,7 +104,7 @@ def pre_rec_f1_from_counts(true_positive, true_negative, false_positive, false_n
     recall = true_positive / (true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
     return precision, recall, 2 * precision * recall / (precision + recall) if precision > 0 or recall > 0 else 0 
 
-def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,debug=False):
+def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debug=False):
     true_positives = {}
     true_negatives = {}
     false_positives = {}
@@ -120,9 +120,13 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,debug=False):
         secondary_distortion = row.iloc[3] if pd.notna(row.iloc[3]) else 'No Distortion'  # The secondary distortion from the 4th column, if it exists
         ground_distortions = []
         if primary_distortion != 'No Distortion':
-            ground_distortions.append(primary_distortion.replace(' ','_'))
+            if encode_spaces:
+                primary_distortion = primary_distortion.replace(' ','_')
+            ground_distortions.append(primary_distortion)
         if secondary_distortion != 'No Distortion':
-            ground_distortions.append(secondary_distortion.replace(' ','_'))
+            if encode_spaces:
+                secondary_distortion = secondary_distortion.replace(' ','_')
+            ground_distortions.append(secondary_distortion)
 
         if evaluator == our_evaluator_test:
             distortions_by_metric = evaluator(all_metrics,ground_distortions,text,threshold) #hack to test metrics
