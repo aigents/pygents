@@ -9,6 +9,7 @@
 3. Notebooks for the models :
     1. _shreevastava.ipynb_ - experimental code for the first real field dataset (Shreevastava 2021) 
     2. _babacan.ipynb_ - experimental code for the second half-synthetic dataset (Babacan 2024)
+    3. _shreevastava_llm.ipynb_ - benchmarkking code (comparing with LLMs) for the first real field dataset (Shreevastava 2021)
 6. Model files
     1. _../../data/models/distortions/ours_ - baseline model created based on earlier work (Bollen et. al., 2021; Raheman et. al., 2022; Arinicheva & Kolonin, 2025)
     2. _../../data/models/distortions/shreevastava2021_ - interpretable model created in the course of our study based on the first real field dataset (Shreevastava 2021), for three independent (overlapping) train splits (80% of the entire dataset) with inclusion threshold (IT) 0 based on "FCR" selection metric (SM)
