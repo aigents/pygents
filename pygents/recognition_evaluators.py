@@ -56,15 +56,15 @@ def our_evaluator_test(all_metrics,expected_distortions,text,threshold):
         dic[m] = True if (m in expected_distortions) else False
     return dic
 
-def our_evaluator_tm(all_metrics,tm,text,threshold):
-    metrics = tm.get_sentiment_words(text)
+def our_evaluator_tm(all_metrics,tm,text,threshold,min_count=1):
+    metrics = tm.get_sentiment_words(text,min_count=min_count)
     dic = {}
     for m in all_metrics:
         dic[m] = True if m in metrics and metrics[m] > threshold else False
     return dic
 
-def our_evaluator_top(all_metrics,tm,text,threshold,top=2):
-    metrics = tm.get_sentiment_words(text)
+def our_evaluator_top(all_metrics,tm,text,threshold,top=2,min_count=1):
+    metrics = tm.get_sentiment_words(text,min_count=min_count)
     ranked_metrics = sorted(metrics.items(), key=lambda x: (x[1],x[0]),reverse=True)[:top] # "stable sort"
     dic = {}
     for rm in ranked_metrics:
@@ -72,8 +72,8 @@ def our_evaluator_top(all_metrics,tm,text,threshold,top=2):
         dic[m] = True if m in metrics and metrics[m] > threshold else False
     return dic
 
-def our_evaluator_top1(all_metrics,tm,text,threshold,top=1):
-    metrics = tm.get_sentiment_words(text)
+def our_evaluator_top1(all_metrics,tm,text,threshold,top=1,min_count=1):
+    metrics = tm.get_sentiment_words(text,min_count=min_count)
     ranked_metrics = sorted(metrics.items(), key=lambda x: (x[1],x[0]),reverse=True)[:top] # "stable sort"
     dic = {}
     for rm in ranked_metrics:
@@ -81,19 +81,19 @@ def our_evaluator_top1(all_metrics,tm,text,threshold,top=1):
         dic[m] = True if m in metrics and metrics[m] > threshold else False
     return dic
 
-def our_evaluator_true(all_metrics,tm,text,threshold):
+def our_evaluator_true(all_metrics,tm,text,threshold,min_count):
     dic = {}
     for m in all_metrics:
         dic[m] = True
     return dic
     
-def our_evaluator_false(all_metrics,tm,text,threshold):
+def our_evaluator_false(all_metrics,tm,text,threshold,min_count):
     dic = {}
     for m in all_metrics:
         dic[m] = False
     return dic
 
-def our_evaluator_random(all_metrics,tm,text,threshold):
+def our_evaluator_random(all_metrics,tm,text,threshold,min_count):
     dic = {}
     for m in all_metrics:
         dic[m] = random.choice([True, False])
@@ -104,7 +104,7 @@ def pre_rec_f1_from_counts(true_positive, true_negative, false_positive, false_n
     recall = true_positive / (true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
     return precision, recall, 2 * precision * recall / (precision + recall) if precision > 0 or recall > 0 else 0 
 
-def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debug=False):
+def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,min_count=1,debug=False):
     true_positives = {}
     true_negatives = {}
     false_positives = {}
@@ -129,9 +129,9 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debu
             ground_distortions.append(secondary_distortion)
 
         if evaluator == our_evaluator_test:
-            distortions_by_metric = evaluator(all_metrics,ground_distortions,text,threshold) #hack to test metrics
+            distortions_by_metric = evaluator(all_metrics,ground_distortions,text,threshold,min_count) #hack to test metrics
         else:
-            distortions_by_metric = evaluator(all_metrics,tm,text,threshold)
+            distortions_by_metric = evaluator(all_metrics,tm,text,threshold,min_count)
 
         if debug:
             print(ground_distortions,'=>',[m for m in distortions_by_metric if distortions_by_metric[m]])

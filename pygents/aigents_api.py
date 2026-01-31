@@ -416,7 +416,7 @@ class TextMetrics(PygentsSentiment):
                     self.gram_arity = l
  
  
-    def get_sentiment_words_markup(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, markup = False, metrics=None, correction=None, debug=False):
+    def get_sentiment_words_markup(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, markup = False, metrics=None, correction=None, min_count=1, debug=False):
         """
         See original reference implementation:
         https://github.com/aigents/aigents-java/blob/master/src/main/java/net/webstructor/data/LangPack.java#L355
@@ -486,30 +486,45 @@ class TextMetrics(PygentsSentiment):
             N -= 1
         lenseq = len(seq)
         
+        keys = list(counts)
+        for metric in keys:
+            if counts[metric] >= min_count:
+                if self.metric_logarithmic:
+                    counts[metric] = math.log10(1 + 100 * counts[metric] / lenseq)/2
+                else:
+                    counts[metric] = counts[metric] / lenseq
+                if not lists is None: # decode sets to lists
+                    lists[metric] = list(lists[metric])
+            else:
+                del counts[metric]
+                if not lists is None:
+                    del lists[metric]
+        """
         if self.metric_logarithmic:
             for metric in counts:
                 counts[metric] = math.log10(1 + 100 * counts[metric] / lenseq)/2
         else:
             for metric in counts:
                 counts[metric] = counts[metric] / lenseq
-
+        """
         if not rounding is None:
             for metric in counts:
                 counts[metric] = round(counts[metric],rounding)
         if 'positive' in counts and 'negative' in counts:
             counts['contradictive'] = round(math.sqrt(counts['positive'] * counts['negative']),2)
-
+        """
         if not lists is None: # decoded tuples to lists
             for l in lists:
                 lists[l] = list(lists[l])
+        """
 
         if markup:
             return counts, markup_blocks(backup,seq)
         else:
             return counts, None
 
-    def get_sentiment_words(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, correction=None, debug=False):
-        return self.get_sentiment_words_markup(input_text, lists, rounding, tokenize, punctuation, priority, False, None, correction, debug)[0] # markup=False, metrics=None
+    def get_sentiment_words(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, correction=None, min_count=1, debug=False):
+        return self.get_sentiment_words_markup(input_text, lists, rounding, tokenize, punctuation, priority, False, None, correction, min_count, debug)[0] # markup=False, metrics=None
 
 def markup_words(backup,tagged):
     marked_str = ""
