@@ -104,7 +104,7 @@ def pre_rec_f1_from_counts(true_positive, true_negative, false_positive, false_n
     recall = true_positive / (true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
     return precision, recall, 2 * precision * recall / (precision + recall) if precision > 0 or recall > 0 else 0 
 
-def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,min_count=1,debug=False):
+def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,min_count=1,binary=None,debug=False):
     true_positives = {}
     true_negatives = {}
     false_positives = {}
@@ -147,6 +147,19 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,min_
             if (metric in ground_distortions) and our_distortion == False:
                 dictcount(false_negatives,metric)
 
+        if not binary is None: # Binary asesssment
+            ground = len(ground_distortions) > 0
+            our = len(distortions_by_metric) > 0
+            #print(ground,our)
+            if ground and our:
+                dictcount(true_positives,binary)
+            if not ground and our:
+                dictcount(false_positives,binary)
+            if not ground and not our:
+                dictcount(true_negatives,binary)
+            if ground and not our:
+                dictcount(false_negatives,binary)
+
     if debug:
         #print()
         print('TP:',true_positives)
@@ -154,7 +167,7 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,min_
         print('TN:',true_negatives)
         print('FN:',false_negatives)
     
-    for metric in all_metrics:
+    for metric in (all_metrics if binary is None else list(all_metrics) + [binary]):
         precision, recall, f1score = pre_rec_f1_from_counts(dictval(true_positives,metric,0), dictval(true_negatives,metric,0), 
                                    dictval(false_positives,metric,0), dictval(false_negatives,metric,0))
         pre[metric] = precision
