@@ -179,7 +179,7 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,min_
 
 
 def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, n_max = 4, selection_metric = 'FN',
-                     f1_score=False, all_scores = False, averages=False, evaluator=our_evaluator_tm, accumulator=None):
+                     f1_score=False, all_scores = False, averages=False, evaluator=our_evaluator_tm, accumulator=None, binary=None):
     all_metrics = sorted(all_metrics)
     pres = [[] for i in range(len(all_metrics))]
     recs = [[] for i in range(len(all_metrics))]
@@ -188,7 +188,7 @@ def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, nam
     f1avgs = []
         
     for t in detection_thresholds:
-        pre, rec, f1, acc = evaluate_tm_df(test_df,tm,evaluator,t/100.0,all_metrics,debug=False)
+        pre, rec, f1, acc = evaluate_tm_df(test_df,tm,evaluator,t/100.0,all_metrics,binary=binary,debug=False)
         mi = 0
         for metric in all_metrics:
             pres[mi].append(pre[metric])

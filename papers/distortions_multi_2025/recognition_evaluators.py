@@ -34,15 +34,15 @@ def our_evaluator_test(all_metrics,expected_distortions,text,threshold):
         dic[m] = True if (m in expected_distortions) else False
     return dic
 
-def our_evaluator_tm(all_metrics,tm,text,threshold):
-    metrics = tm.get_sentiment_words(text)
+def our_evaluator_tm(all_metrics,tm,text,threshold,min_count=1):
+    metrics = tm.get_sentiment_words(text,min_count=min_count)
     dic = {}
     for m in all_metrics:
         dic[m] = True if m in metrics and metrics[m] > threshold else False
     return dic
 
-def our_evaluator_top(all_metrics,tm,text,threshold,top=2):
-    metrics = tm.get_sentiment_words(text)
+def our_evaluator_top(all_metrics,tm,text,threshold,top=2,min_count=1):
+    metrics = tm.get_sentiment_words(text,min_count=min_count)
     ranked_metrics = sorted(metrics.items(), key=lambda x: (x[1],x[0]),reverse=True)[:top] # "stable sort"
     dic = {}
     for rm in ranked_metrics:
@@ -50,8 +50,8 @@ def our_evaluator_top(all_metrics,tm,text,threshold,top=2):
         dic[m] = True if m in metrics and metrics[m] > threshold else False
     return dic
 
-def our_evaluator_top1(all_metrics,tm,text,threshold,top=1):
-    metrics = tm.get_sentiment_words(text)
+def our_evaluator_top1(all_metrics,tm,text,threshold,top=1,min_count=1):
+    metrics = tm.get_sentiment_words(text,min_count=min_count)
     ranked_metrics = sorted(metrics.items(), key=lambda x: (x[1],x[0]),reverse=True)[:top] # "stable sort"
     dic = {}
     for rm in ranked_metrics:
@@ -59,19 +59,19 @@ def our_evaluator_top1(all_metrics,tm,text,threshold,top=1):
         dic[m] = True if m in metrics and metrics[m] > threshold else False
     return dic
 
-def our_evaluator_true(all_metrics,tm,text,threshold):
+def our_evaluator_true(all_metrics,tm,text,threshold,min_count):
     dic = {}
     for m in all_metrics:
         dic[m] = True
     return dic
     
-def our_evaluator_false(all_metrics,tm,text,threshold):
+def our_evaluator_false(all_metrics,tm,text,threshold,min_count):
     dic = {}
     for m in all_metrics:
         dic[m] = False
     return dic
 
-def our_evaluator_random(all_metrics,tm,text,threshold):
+def our_evaluator_random(all_metrics,tm,text,threshold,min_count):
     dic = {}
     for m in all_metrics:
         dic[m] = random.choice([True, False])
@@ -82,7 +82,7 @@ def pre_rec_f1_from_counts(true_positive, true_negative, false_positive, false_n
     recall = true_positive / (true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
     return precision, recall, 2 * precision * recall / (precision + recall) if precision > 0 or recall > 0 else 0 
 
-def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debug=False):
+def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,min_count=1,binary=None,debug=False):
     true_positives = {}
     true_negatives = {}
     false_positives = {}
@@ -107,9 +107,9 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debu
             ground_distortions.append(secondary_distortion)
 
         if evaluator == our_evaluator_test:
-            distortions_by_metric = evaluator(all_metrics,ground_distortions,text,threshold) #hack to test metrics
+            distortions_by_metric = evaluator(all_metrics,ground_distortions,text,threshold,min_count) #hack to test metrics
         else:
-            distortions_by_metric = evaluator(all_metrics,tm,text,threshold)
+            distortions_by_metric = evaluator(all_metrics,tm,text,threshold,min_count)
 
         if debug:
             print(ground_distortions,'=>',[m for m in distortions_by_metric if distortions_by_metric[m]])
@@ -125,6 +125,19 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debu
             if (metric in ground_distortions) and our_distortion == False:
                 dictcount(false_negatives,metric)
 
+        if not binary is None: # Binary asesssment
+            ground = len(ground_distortions) > 0
+            our = len(distortions_by_metric) > 0
+            #print(ground,our)
+            if ground and our:
+                dictcount(true_positives,binary)
+            if not ground and our:
+                dictcount(false_positives,binary)
+            if not ground and not our:
+                dictcount(true_negatives,binary)
+            if ground and not our:
+                dictcount(false_negatives,binary)
+
     if debug:
         #print()
         print('TP:',true_positives)
@@ -132,7 +145,7 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debu
         print('TN:',true_negatives)
         print('FN:',false_negatives)
     
-    for metric in all_metrics:
+    for metric in (all_metrics if binary is None else list(all_metrics) + [binary]):
         precision, recall, f1score = pre_rec_f1_from_counts(dictval(true_positives,metric,0), dictval(true_negatives,metric,0), 
                                    dictval(false_positives,metric,0), dictval(false_negatives,metric,0))
         pre[metric] = precision
@@ -144,7 +157,7 @@ def evaluate_tm_df(df,tm,evaluator,threshold,all_metrics,encode_spaces=True,debu
 
 
 def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, name, all_metrics, n_max = 4, selection_metric = 'FN',
-                     f1_score=False, all_scores = False, averages=False, evaluator=our_evaluator_tm, accumulator=None):
+                     f1_score=False, all_scores = False, averages=False, evaluator=our_evaluator_tm, accumulator=None, binary=None):
     all_metrics = sorted(all_metrics)
     pres = [[] for i in range(len(all_metrics))]
     recs = [[] for i in range(len(all_metrics))]
@@ -153,7 +166,7 @@ def evaluate_metrics(tm, test_df, inclusion_threshold, detection_thresholds, nam
     f1avgs = []
         
     for t in detection_thresholds:
-        pre, rec, f1, acc = evaluate_tm_df(test_df,tm,evaluator,t/100.0,all_metrics,debug=False)
+        pre, rec, f1, acc = evaluate_tm_df(test_df,tm,evaluator,t/100.0,all_metrics,binary=binary,debug=False)
         mi = 0
         for metric in all_metrics:
             pres[mi].append(pre[metric])

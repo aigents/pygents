@@ -114,7 +114,7 @@ def build_ngrams(seq,N):
         items.append( tuple(seq[i:i+N]) )
     return items
 
-def load_ngrams(file,encoding=None,weights=None,debug=False):
+def load_lines(file,encoding=None,debug=False):
     if file.lower().startswith('http'):
         lines = url_lines(file)
         if debug:
@@ -127,6 +127,10 @@ def load_ngrams(file,encoding=None,weights=None,debug=False):
         else:
             with open(file,encoding=encoding) as f:
                 lines = f.readlines()
+    return lines
+
+def load_ngrams(file,encoding=None,weights=None,debug=False):
+    lines = load_lines(file,encoding=encoding,debug=debug)
     if not weights is None:
         ngrams = []
         for l in lines:
@@ -269,7 +273,7 @@ class PygentsSentiment():
     
 
 class TextMetrics(PygentsSentiment):
-    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], encoding=None, weighted=False, debug=False):
+    def __init__(self, metrics, metric_logarithmic=True, tokenize_chars=False, scrub=[], encoding=None, weighted=False, fuzzy_matcher = None, debug=False):
         self.metric_logarithmic = metric_logarithmic
         self.tokenize_chars = tokenize_chars
         self.scrub = scrub
@@ -277,6 +281,7 @@ class TextMetrics(PygentsSentiment):
         self.gram_arity = 1
         self.metrics = {}
         self.weights = {} if weighted else None
+        self.fm = fuzzy_matcher
         for metric in metrics:
             #TODO use unsupervised tokenization!!!!
             if weighted:
@@ -291,19 +296,28 @@ class TextMetrics(PygentsSentiment):
                     self.gram_arity = l
  
  
-    def get_sentiment_words(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, debug=False):
+    def get_sentiment_words_markup(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, markup = False, metrics=None, correction=None, min_count=1, debug=False):
+        """
+        See original reference implementation:
+        https://github.com/aigents/aigents-java/blob/master/src/main/java/net/webstructor/data/LangPack.java#L355
+        """
+        if metrics is None:
+            metrics = self.metrics
         if input_text is None or len(input_text) < 1:
-            return 0, 0, 0
+            return {}, None
         #seq = [*input_text] if self.tokenize_chars else tokenize_re(input_text) #TODO unsupervised tokenization
         if self.tokenize_chars:
             seq = [*input_text]
         else:
             seq = [t for t in tokenize(input_text) if not (t in punctuation or t.isnumeric())] if not punctuation is None else tokenize(input_text)
-
+            if correction and not self.fm is None:
+                seq = self.fm.auto_correct_tokens(seq)
+        if markup:
+            backup = seq.copy()
         if debug:
             print("<{}>".format(str(seq)))
         if len(seq) < 1:
-            return 0, 0, 0
+            return {}, None
         counts = {}
         N = self.gram_arity
         while N >= 1:
@@ -320,20 +334,23 @@ class TextMetrics(PygentsSentiment):
                         continue
                     found = False 
                     
-                    for metric in self.metrics:
+                    for metric in metrics:
+                        if metric == 'contradictive':
+                            continue
                         ngrams = self.metrics[metric]
                         if w in ngrams:         
                             weight = N if self.weights is None else N * self.weights[metric][w]                
                             dictcount(counts,metric,weight)
                             if not lists is None:
                                 if not metric in lists:
-                                    l = []
+                                    l = set() # unique set
                                     lists[metric] = l
                                 else:
+                                    if type(lists[metric]) == list:
+                                        lists[metric] = set(lists[metric])
                                     l = lists[metric]
-                                l.append(w);
-                                #print(lists)
-                            found = True;
+                                l.add(w) # unique set
+                            found = True
                     # remove tokens that have matched to N-gram with order n=K, so they are not attempted to get matched to N-grams with n < K
                     # (that is why we iterate them from n=N_max down to n=1)
                     # For example, the text "the weather is not good today", after matching ["not", "good"] with n=2,
@@ -349,19 +366,75 @@ class TextMetrics(PygentsSentiment):
             N -= 1
         lenseq = len(seq)
         
+        keys = list(counts)
+        for metric in keys:
+            if counts[metric] >= min_count:
+                if self.metric_logarithmic:
+                    counts[metric] = math.log10(1 + 100 * counts[metric] / lenseq)/2
+                else:
+                    counts[metric] = counts[metric] / lenseq
+                if not lists is None: # decode sets to lists
+                    lists[metric] = list(lists[metric])
+            else:
+                del counts[metric]
+                if not lists is None:
+                    del lists[metric]
+        """
         if self.metric_logarithmic:
             for metric in counts:
                 counts[metric] = math.log10(1 + 100 * counts[metric] / lenseq)/2
         else:
             for metric in counts:
                 counts[metric] = counts[metric] / lenseq
-
+        """
         if not rounding is None:
             for metric in counts:
                 counts[metric] = round(counts[metric],rounding)
         if 'positive' in counts and 'negative' in counts:
             counts['contradictive'] = round(math.sqrt(counts['positive'] * counts['negative']),2)
-        return counts
+        """
+        if not lists is None: # decoded tuples to lists
+            for l in lists:
+                lists[l] = list(lists[l])
+        """
+
+        if markup:
+            return counts, markup_blocks(backup,seq)
+        else:
+            return counts, None
+
+    def get_sentiment_words(self, input_text, lists=None, rounding=2, tokenize = tokenize_re, punctuation = None, priority = True, correction=None, min_count=1, debug=False):
+        return self.get_sentiment_words_markup(input_text, lists, rounding, tokenize, punctuation, priority, False, None, correction, min_count, debug)[0] # markup=False, metrics=None
+
+def markup_words(backup,tagged):
+    marked_str = ""
+    for backup_token, actual_token in zip(backup,tagged):
+        token = "__" + backup_token + "__" if actual_token is None else backup_token # underscore tagged
+        if not marked_str:
+            marked_str = token
+        else:
+            marked_str += ' ' + token
+    return marked_str
+
+def markup_blocks(backup,tagged):
+    marked_str = ""
+    state_tagged = False
+    for backup_token, actual_token in zip(backup,tagged):
+        token_tagged = actual_token is None
+        #print(token_tagged,state_tagged)
+        if state_tagged != token_tagged: # state changed
+            if state_tagged:
+                marked_str += '__' # close preivios state, if needed
+        if marked_str: # and space if needed
+            marked_str += ' '
+        if state_tagged != token_tagged: # state changed
+            if token_tagged:
+                marked_str += '__' # open new state, if needed
+        marked_str += backup_token
+        state_tagged = token_tagged
+    if state_tagged:
+        marked_str += '__' # close preivios state, if needed
+    return marked_str
 
 def create_int_defaultdict():
     return defaultdict(int)

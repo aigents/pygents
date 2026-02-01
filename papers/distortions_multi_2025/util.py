@@ -228,7 +228,12 @@ def cosine_similarity(dict_1, dict_2):
     List1 = list(dict_1[k] for k in intersecting_keys)
     List2 = list(dict_2[k] for k in intersecting_keys)
     
-    similarity = np.dot(List1,List2) / (sqrt_sum_squares_dict_values(dict_1) * sqrt_sum_squares_dict_values(dict_2))
+    sqrt_sum_squares_dict_values_1 = sqrt_sum_squares_dict_values(dict_1)
+    sqrt_sum_squares_dict_values_2 = sqrt_sum_squares_dict_values(dict_2)
+    if sqrt_sum_squares_dict_values_1 == 0 or sqrt_sum_squares_dict_values_2 == 0:
+        return 0
+
+    similarity = np.dot(List1,List2) / (sqrt_sum_squares_dict_values_1 * sqrt_sum_squares_dict_values_2)
     return round(similarity, 2)
 
 assert cosine_similarity({"a": 1, "b": 2, "c": 3}, {"c": 5, "b": 4, "d": 6}) == 0.7
