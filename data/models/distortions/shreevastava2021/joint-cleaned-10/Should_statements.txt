@@ -1,3 +1,4 @@
+
 be about
 be an
 be but
@@ -11,6 +12,7 @@ be taken
 be treated
 be worrying
 beat myself
+believe i
 believe this
 better i
 better or
@@ -18,13 +20,13 @@ better to
 bother me
 can put
 can turn
+can't control
 cant control
 cant cope
 cant cry
 cant get
 cant give
 cant say
-can't control
 can’t cope
 can’t cry
 can’t get
@@ -36,19 +38,18 @@ care or
 care to
 caring a
 certain situations
-change that
-changes that
-change this
-changes this
 change it
+change that
+change this
 changes it
+changes that
+changes this
 constantly being
 constantly have
 control his
 control it
 control that
 controls this
-sure i
 convinced i
 desire to
 determine
@@ -57,47 +58,24 @@ develop feelings
 do care
 do how
 do like
+do not care
+do not enjoy
+do not even
+do not seem
 do these
 do when
-dont even
+don't even
 dont care
 dont enjoy
+dont even
 dont seem
-don't even
 don’t care
 don’t enjoy
 don’t seem
+duty to
 enjoy doing
-should
-should not
-shouldn't
-should have
-ought
-ought to
-must
-must not
-must have
-must be
-have to
-has to
-i should
-i should not
-i shouldn't
-i should have
-i ought
-i ought to
-i must
-i must not
-i must have
-i must be
-i have to
-she has to
-he has to
-they has to
-it has to
 establish myself
 evening i
-morning i
 far i’ve
 fault for
 fears for
@@ -107,244 +85,250 @@ feel dumb
 feel empty
 feel extremely
 feel guilty
+feel i
 feel indifferent
+feel like
 feel nothing
 feel pressured
 feel self-conscious
 feel sorry
 feel this
-feel i
-feel like
-feels annoyed
-feels better
-feels dumb
-feels empty
-feels extremely
-feels guilty
-feels indifferent
-feels nothing
-feels pressured
-feels self-conscious
-feels sorry
-feels this
-feels i
-feels like
 feeling annoyed
 feeling better
 feeling dumb
 feeling empty
 feeling extremely
 feeling guilty
+feeling i
 feeling indifferent
+feeling like
 feeling nothing
 feeling pressured
 feeling self-conscious
 feeling sorry
 feeling this
-feeling i
-feeling like
-fight things
-fights things
+feels annoyed
+feels better
+feels dumb
+feels empty
+feels extremely
+feels guilty
+feels i
+feels indifferent
+feels like
+feels nothing
+feels pressured
+feels self-conscious
+feels sorry
+feels this
 fight agaist
+fight things
 fights agaist
-forgive him
+fights things
+force myself
 forgive her
+forgive him
 forgive it
 forgive them
-let myself
 get myself
-set myself
-put myself
-know i
-believe i
-sure i
-means i
-mean i
-force myself
-motivate myself
-make myself
-power myself
-keep control
+had to
+has to
 have control
-never control
-raise my
-raising my
+have to
+he has to
+he should
+he would
+i have to
+i must
+i must be
+i must have
+i must not
+i ought
+i ought to
+i should
+i should have
+i should not
+i shouldn't
+i would
 improve my
 improving my
-replace my
-replacing my
 increase my
 increasing my
-see i
-see if i
-support my
-supporting my
-test my
-testing my
-tests i’m
-tests i am
-test i am
-testing i am
-work hard
-should work
-must work
-it’s my duty to
-it’s your duty to
-it’s wrong to
-it’s right to
-it is my duty to
-it is your duty to
-it is wrong to
-it is right to
 is my duty to
-is your duty to
-is wrong to
 is right to
-duty to
-duty to
-wrong to
-right to
-i should
-you should
-we should
-they should
-she should
-he should
-one should
-i would
-you would
-we would
-they would
-she would
-he would
-one would
-supposed to
-supposed not to
-supposed to have
-supposedly should
-should
-should be
-should bother
-should care
-should have
-should make
-should develop
-should go
-should do
-should have
-should react
-should worry
-should write
-shouldn’t
-shouldn’t be
-shouldn’t bother
-shouldn’t care
-shouldn’t have
-shouldn’t make
-shouldn’t develop
-shouldn’t go
-shouldn't do
-shouldn’t have
-shouldn’t react
-shouldn’t worry
-shouldn’t write
-should not 
-should not be
-should not bother
-should not care
-should not have
-should not make
-should not develop
-should not go
-should not do
-should not have
-should not react
-should not worry
-should not write
+is wrong to
+is your duty to
+it has to
+it is my duty to
+it is right to
+it is wrong to
+it is your duty to
+it’s my duty to
+it’s right to
+it’s wrong to
+it’s your duty to
+keep control
+know i
+let myself
+make myself
+mean i
+means i
+morning i
+motivate myself
 must
 must be
 must bother
 must care
+must develop
+must do
+must go
 must have
 must make
-must develop
-must go
-must do
-must have
-must react
-must worry
-must write
+must not
 must not 
 must not be
 must not bother
 must not care
+must not develop
+must not do
+must not go
 must not have
 must not make
-must not develop
-must not go
-must not do
-must not have
 must not react
 must not worry
 must not write
+must react
+must work
+must worry
+must write
 mustn't 
 mustn't be
 mustn't bother
 mustn't care
+mustn't develop
+mustn't do
+mustn't go
 mustn't have
 mustn't make
-mustn't develop
-mustn't go
-mustn't do
-mustn't have
 mustn't react
 mustn't worry
 mustn't write
+need to
+needn't
+never control
+one should
+one would
+ought
+ought to
+ought to have
+oughtn't
+power myself
+put myself
+raise my
+raising my
+replace my
+replacing my
+right to
+see i
+see if i
+set myself
+she has to
+she should
+she would
+should
+should be
+should bother
+should care
+should develop
+should do
+should go
+should have
+should make
+should not
+should not 
+should not be
+should not bother
+should not care
+should not develop
+should not do
+should not go
+should not have
+should not make
+should not react
+should not worry
+should not write
+should react
+should work
+should worry
+should write
+shouldn't
+shouldn't do
+shouldn’t
+shouldn’t be
+shouldn’t bother
+shouldn’t care
+shouldn’t develop
+shouldn’t go
+shouldn’t have
+shouldn’t make
+shouldn’t react
+shouldn’t worry
+shouldn’t write
+support my
+supporting my
+supposed not to
+supposed to
+supposed to have
+supposedly should
+sure i
+test i am
+test my
+testing i am
+testing my
+tests i am
+tests i’m
+they has to
+they should
+they would
+we should
+we would
+work hard
 would
 would be
 would bother
 would care
+would develop
+would do
+would go
 would have
 would make
-would develop
-would go
-would do
-would have
-would react
-would worry
-would write
 would not 
 would not be
 would not bother
 would not care
+would not develop
+would not do
+would not go
 would not have
 would not make
-would not develop
-would not go
-would not do
-would not have
 would not react
 would not worry
 would not write
+would react
+would worry
+would write
 wouldn't 
 wouldn't be
 wouldn't bother
 wouldn't care
+wouldn't develop
+wouldn't do
+wouldn't go
 wouldn't have
 wouldn't make
-wouldn't develop
-wouldn't go
-wouldn't do
-wouldn't have
 wouldn't react
 wouldn't worry
 wouldn't write
-have to
-had to
-need to
-needn't
-ought to
-oughtn't
-ought to have
-
-
+wrong to
+you should
+you would
