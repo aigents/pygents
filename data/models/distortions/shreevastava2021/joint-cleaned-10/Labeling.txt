@@ -276,7 +276,6 @@ i am utterly
 i am weak
 i am weird
 i am worthless
-i m doomed
 i never
 i'm a burden
 i'm a failure
@@ -314,6 +313,7 @@ im broken
 im crazy
 im cruel
 im disgusting
+im doomed
 im hopeless
 im incompetent
 im insane
