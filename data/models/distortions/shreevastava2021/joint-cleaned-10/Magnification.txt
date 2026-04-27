@@ -68,8 +68,8 @@ an ugliest
 an unattainable
 an unreachable
 are not important
+aren't important
 arent important
-aren’t important
 away forever
 bad depression
 barely a problem
@@ -92,9 +92,9 @@ blows it
 blows out
 borderline
 can not even
+can't even
 cann of worms
 cant even
-can’t even
 catastrophic
 catastrophic outcome
 catastrophize
@@ -116,8 +116,8 @@ constantly day-dreaming
 constantly sad
 constantly wandering
 could not ever
+couldn't ever
 couldnt ever
-couldn’t ever
 countless
 crazy
 crisis point
@@ -151,6 +151,9 @@ does not really
 does not worth
 does not worth noting
 doesn't count
+doesn't deserve
+doesn't matter
+doesn't really
 doesn't worth
 doesn't worth noting
 doesnt count
@@ -159,11 +162,8 @@ doesnt matter
 doesnt really
 doesnt worth
 doesnt worth noting
-doesn’t deserve
-doesn’t matter
-doesn’t really
+don't deserve
 dont deserve
-don’t deserve
 emotionally drained
 enormous
 enormous distress
@@ -242,12 +242,24 @@ i am underneath
 i am years
 i have lost
 i will never
+i'll never
+i'm absolutely
+i'm afraid
+i'm completely
 i'm doomed
+i'm fully
 i'm gone
 i'm lost
+i'm mad
 i'm ruined
 i'm scared
+i'm so
+i'm sure
 i'm terrified
+i'm trapped
+i'm underneath
+i'm years
+i've lost
 idol
 idol of
 ignorance
@@ -383,18 +395,6 @@ its killing
 its ruined
 its scary
 ive lost
-i’ll never
-i’m absolutely
-i’m afraid
-i’m completely
-i’m fully
-i’m mad
-i’m so
-i’m sure
-i’m trapped
-i’m underneath
-i’m years
-i’ve lost
 just a
 just a bug
 just a hiccup
@@ -512,8 +512,8 @@ scariest
 scary
 scary to
 should not matter
+shouldn't matter
 shouldnt matter
-shouldn’t matter
 small mistake
 smallest
 smallest task
@@ -539,7 +539,7 @@ suicide
 terrific
 terrified
 terrified i am
-terrified i’m
+terrified i'm
 terrified of
 terrifying
 terrifying me
@@ -574,7 +574,7 @@ the worst possible outcome
 their beautiful
 their best
 there is nothing
-there’s nothing
+there's nothing
 this fear
 this horror
 this nightmare
@@ -646,5 +646,5 @@ worsen my
 worst
 worthless
 would not ever
+wouldn't ever
 wouldnt ever
-wouldn’t ever

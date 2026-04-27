@@ -79,8 +79,8 @@ are not required
 are poor
 are really
 are such
+aren't required
 arent required
-aren’t required
 better than
 beyond the
 biggest
@@ -210,12 +210,12 @@ is really
 is right
 is such
 is wrong
+isn't in
+isn't one
+isn't required
 isnt in
 isnt one
 isnt required
-isn’t in
-isn’t one
-isn’t required
 isolate
 isolated
 it is a great
@@ -227,7 +227,11 @@ it is the
 it is worthless
 it's a great
 it's all
+it's been
 it's great
+it's like
+it's the
+it's worthless
 its a great
 its all
 its been
@@ -235,10 +239,6 @@ its great
 its like
 its the
 its worthless
-it’s been
-it’s like
-it’s the
-it’s worthless
 killing
 largest
 last chance
@@ -377,7 +377,7 @@ very distant
 very far
 way to
 way too
-we’ve fallen
+we've fallen
 whenever
 whenever he
 whenever i

@@ -133,8 +133,8 @@ he hates me
 he is angry at me
 he's angry at me
 how is i
+how's i
 however i
-how’s i
 i always
 i am
 i am a disgusting
@@ -272,9 +272,9 @@ i do deserve
 i do not deserve
 i do not give
 i do not seem
-i don’t deserve
-i don’t give
-i don’t seem
+i don't deserve
+i don't give
+i don't seem
 i embarrassed
 i embarrassed them
 i ever
@@ -534,6 +534,7 @@ i would be the reason
 i would no
 i would not
 i'd apologize
+i'd caused
 i'd have known
 i'd have known better
 i'd have known it
@@ -565,12 +566,16 @@ i'm a terrible person
 i'm a victim
 i'm a weak
 i'm a worthless
+i'm alone
 i'm an idiot
 i'm blaming
 i'm causing
+i'm cornered
 i'm defective
 i'm disgusting
+i'm exaggerating
 i'm failing
+i'm frightened
 i'm frustrating
 i'm guilty
 i'm hated
@@ -583,9 +588,14 @@ i'm hurting them
 i'm in charge
 i'm inadequate
 i'm incompetent
+i'm lacking
+i'm making
 i'm not
 i'm not good enough
+i'm overreacting
 i'm procrastinating
+i'm questioning
+i'm really
 i'm responsible
 i'm responsible for 
 i'm responsible for her
@@ -595,6 +605,7 @@ i'm responsible for that
 i'm responsible for their
 i'm responsible for their feelings
 i'm responsible for this
+i'm so
 i'm stupid
 i'm terrible
 i'm terribly wrong
@@ -616,6 +627,7 @@ i'm the reason this failed
 i'm to blame
 i'm to blame for
 i'm to blame for everything
+i'm too
 i'm weak
 i'm worthless
 i've attracted problems
@@ -649,8 +661,10 @@ i've deserved that
 i've deserved this
 i've disappointed
 i've disappointed them
+i've don't
 i've embarrassed
 i've embarrassed them
+i've ever
 i've failed
 i've failed 
 i've failed everyone
@@ -665,9 +679,11 @@ i've internalized the problem
 i've internalized their problem
 i've invited the trouble
 i've invited this trouble
+i've kept
 i've let
 i've let everyone down
 i've let them down
+i've made
 i've made he
 i've made he angry
 i've made he cry
@@ -681,6 +697,7 @@ i've made them
 i've made them angry
 i've made them cry
 i've made them upset
+i've not
 i've offended
 i've offended her
 i've offended him
@@ -720,8 +737,8 @@ if i had tried harder
 if i have
 if i were
 if i would
-if i’m
-if i’ve
+if i'm
+if i've
 if only i had
 if only i had been
 if only i had been there
@@ -823,28 +840,11 @@ it's personal to me
 its my fault
 ive caused
 ive failed
-i’d caused
-i’m alone
-i’m cornered
-i’m exaggerating
-i’m frightened
-i’m lacking
-i’m making
-i’m overreacting
-i’m questioning
-i’m really
-i’m so
-i’m too
-i’ve don’t
-i’ve ever
-i’ve kept
-i’ve made
-i’ve not
 judging me
 kill myself
 know i
 know i am
-know i’m
+know i'm
 know my
 knowing i
 laughing at me
@@ -852,9 +852,9 @@ leave i
 like i
 like i had
 like i have
-like i’ve
+like i've
 maybe i am
-maybe i’m
+maybe i'm
 me against
 me all
 me almost
@@ -863,7 +863,7 @@ me basically
 me being
 mistake i
 mistake i have
-mistake i’ve
+mistake i've
 mistake my
 mistake that i 
 mood is my fault
@@ -954,9 +954,9 @@ so i am
 so i have
 so i should
 so i would
-so i’d
-so i’m
-so i’ve
+so i'd
+so i'm
+so i've
 something wrong with me
 stheir behavior is about me
 success depends on me
@@ -975,9 +975,9 @@ telling me
 tells me
 that i
 that i am
+that i'm
 that is because of me
 that is because of my
-that i’m
 their behavior is my fault
 their criticism proves i am at fault
 their criticism proves i'm at fault
@@ -1070,20 +1070,20 @@ whatever i
 whatever i am
 when i
 when i am
-when i’m
+when i'm
 whenever i
 whenever i am
 where i
 where i am
-where i’m
+where i'm
 wherever i
 wherever i am
 which i
 which i am
-which i’m
+which i'm
 while i
 while i am
-while i’m
+while i'm
 will be fine without me
 will be fine without my
 will blame me

@@ -11,7 +11,7 @@ could die
 could never
 could not ever
 could only
-couldn’t ever
+couldn't ever
 destined to fail
 ever be
 ever forever
@@ -34,11 +34,11 @@ he will fail
 he will get
 he will never
 he will not
-he’ll
-he’ll be
-he’ll break
-he’ll change
-he’ll get
+he'll
+he'll be
+he'll break
+he'll change
+he'll get
 i am not just
 i am sure it will
 i am sure it will fail
@@ -80,20 +80,25 @@ i will not
 i will see it happen
 i will stop
 i won't
-i won’t
-i won’t be
-i won’t get
-i won’t just
-i won’t never
-i won’t stop
+i won't be
+i won't get
+i won't just
+i won't never
+i won't stop
 i would anticipate
 i would expect
 i would forecast
 i would foresee
 i would predict
+i'll
+i'll be
+i'll get
+i'll just
+i'll never
 i'll never
 i'll never stop
 i'll see it happen
+i'll stop
 i'm not just
 i'm sure it will
 i'm sure it will fail
@@ -180,6 +185,7 @@ it will turn out
 it will turn out badly
 it will work
 it won't
+it won't
 it won't get
 it won't get better
 it won't happen
@@ -189,11 +195,15 @@ it won't work
 it wont
 it wont get better
 it wont work
-it won’t
+it'll
+it'll be
+it'll be a
 it'll be the
 it'll be the best
 it'll be the worst
 it'll never work
+it'll not
+it'll turn
 it's bound to
 it's bound to fail
 it's bound to succeed
@@ -219,17 +229,6 @@ it's only a matter of time
 its going to 
 its going to happen
 its is bound to fail
-it’ll
-it’ll be
-it’ll be a
-it’ll not
-it’ll turn
-i’ll
-i’ll be
-i’ll get
-i’ll just
-i’ll never
-i’ll stop
 just wait and see
 mark my words
 may eventually
@@ -259,11 +258,11 @@ she will fail
 she will get
 she will never
 she will not
-she’ll
-she’ll be
-she’ll break
-she’ll change
-she’ll get
+she'll
+she'll be
+she'll break
+she'll change
+she'll get
 should fail
 someone will
 something irreversible
@@ -275,35 +274,35 @@ sure it will succeed
 sure will
 surely
 that he will
-that he’ll
+that he'll
 that i will
+that i'll
 that is how it will be
 that it will
-that it’ll
-that i’ll
+that it'll
 that she will
-that she’ll
+that she'll
 that they will
-that they’ll
+that they'll
 that will be
 that will be a
 that will never
 that will not
-that won’t
+that won't
 that's how it will be
 then he will
-then he’ll
+then he'll
 then i will
+then i'll
 then it will
-then it’ll
-then i’ll
+then it'll
 then she will
-then she’ll
+then she'll
 then something
 then there
 then they
 then they will
-then they’ll
+then they'll
 they will
 they will be
 they will fail
@@ -312,26 +311,26 @@ they will hit
 they will never
 they will not
 they would
-they’ll
-they’ll be
-they’ll go
-they’ll hit
+they'll
+they'll be
+they'll go
+they'll hit
 things will
 think he will
-think he’ll
+think he'll
 think i will
+think i'll
 think it will
-think it’ll
-think i’ll
+think it'll
 think she will
-think she’ll
+think she'll
 think that will
 think they will
 think this will
 this will be
 this will be a
 this will not
-this won’t
+this won't
 we will never
 we will not
 will actually
@@ -404,15 +403,15 @@ will turn out badly
 will work
 willn't ever
 won't
+won't be
 won't ever
 won't ever happen
 won't get better
+won't hurt
 won't work
 wont
 wont get better
 wont work
-won’t be
-won’t hurt
 would allow
 would come
 would die
@@ -427,7 +426,7 @@ would still
 would suicide
 would tell
 would therapy
-wouldn’t ever
+wouldn't ever
 you will fail
 you will never
 you will not

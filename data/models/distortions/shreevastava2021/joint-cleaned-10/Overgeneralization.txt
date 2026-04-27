@@ -269,9 +269,9 @@ everyone does
 everyone does this
 everyone else
 everyone i have
+everyone i've
 everyone is
 everyone ive
-everyone i’ve
 everyone knows
 everyone talks
 everyone thinks
@@ -359,6 +359,14 @@ i will always
 i will always be
 i will never
 i will never be
+i'll always be
+i'll never be
+i'm always
+i'm crazy
+i've always
+i've ever
+i've lost
+i've never
 ill always be
 ill never be
 in almost
@@ -375,14 +383,6 @@ it is always
 it proves i
 it proves i always
 it proves i never
-i’ll always be
-i’ll never be
-i’m always
-i’m crazy
-i’ve always
-i’ve ever
-i’ve lost
-i’ve never
 killing me
 like every
 literally each

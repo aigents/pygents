@@ -63,9 +63,9 @@ believe everyone
 believe he
 believe i
 believe i am
+believe i'm
 believe iam 
 believe it
-believe i’m
 believe me
 believe my
 believe people
@@ -103,9 +103,9 @@ convinced everyone
 convinced he
 convinced i
 convinced i am
+convinced i'm
 convinced iam 
 convinced it
-convinced i’m
 convinced me
 convinced my
 convinced our
@@ -127,6 +127,16 @@ does not trust
 does not understand
 does not wanna
 does not want
+doesn't care
+doesn't express
+doesn't feel
+doesn't know
+doesn't really
+doesn't respect
+doesn't seem
+doesn't think
+doesn't trust
+doesn't understand
 doesn't wanna
 doesn't want
 doesnt care
@@ -141,16 +151,6 @@ doesnt trust
 doesnt understand
 doesnt wanna
 doesnt want
-doesn’t care
-doesn’t express
-doesn’t feel
-doesn’t know
-doesn’t really
-doesn’t respect
-doesn’t seem
-doesn’t think
-doesn’t trust
-doesn’t understand
 everybody believes
 everybody confirms
 everybody is
@@ -250,11 +250,18 @@ he does not trust
 he does not understand
 he does not wanna
 he does not want
+he doesn't care
 he doesn't confirm
+he doesn't express
+he doesn't feel
 he doesn't know
+he doesn't really
+he doesn't respect
 he doesn't say
+he doesn't seem
 he doesn't tell
 he doesn't think
+he doesn't trust
 he doesn't understand
 he doesn't wanna
 he doesn't want
@@ -273,16 +280,6 @@ he doesnt trust
 he doesnt understand
 he doesnt wanna
 he doesnt want
-he doesn’t care
-he doesn’t express
-he doesn’t feel
-he doesn’t know
-he doesn’t really
-he doesn’t respect
-he doesn’t seem
-he doesn’t think
-he doesn’t trust
-he doesn’t understand
 he expected
 he expects
 he feels
@@ -380,15 +377,15 @@ he would
 he would likely
 he would probably
 he would surely
-he wouldn’t
+he wouldn't
+he'd
+he'd likely
+he'd probably
+he'd surely
 he'll
-he’d
-he’d likely
-he’d probably
-he’d surely
-he’ll break
-he’s hearing
-he’s trying
+he'll break
+he's hearing
+he's trying
 husband bother
 husband bothers
 husband seem
@@ -534,6 +531,12 @@ i thought that she
 i thought that they
 i thought them
 i thought they
+i'm afraid he
+i'm afraid she
+i'm afraid that he
+i'm afraid that she
+i'm afraid that they
+i'm afraid they
 i'm certain he
 i'm certain she
 i'm certain they
@@ -549,6 +552,12 @@ i'm sure he
 i'm sure she
 i'm sure that
 i'm sure they
+i'm thinking he
+i'm thinking she
+i'm thinking that he
+i'm thinking that she
+i'm thinking that they
+i'm thinking they
 ignore me
 ignore my
 ignore myself
@@ -602,18 +611,6 @@ it seems that he
 it seems that she
 it seems that they
 it seems they
-i’m afraid he
-i’m afraid she
-i’m afraid that he
-i’m afraid that she
-i’m afraid that they
-i’m afraid they
-i’m thinking he
-i’m thinking she
-i’m thinking that he
-i’m thinking that she
-i’m thinking that they
-i’m thinking they
 just feel he
 just feel her
 just feel him
@@ -692,7 +689,7 @@ people thought
 people want
 people will
 people would
-people’s talking
+people's talking
 person believes
 person confirms
 person is sure
@@ -741,11 +738,18 @@ she does not trust
 she does not understand
 she does not wanna
 she does not want
+she doesn't care
 she doesn't confirm
+she doesn't express
+she doesn't feel
 she doesn't know
+she doesn't really
+she doesn't respect
 she doesn't say
+she doesn't seem
 she doesn't tell
 she doesn't think
+she doesn't trust
 she doesn't understand
 she doesn't wanna
 she doesn't want
@@ -764,16 +768,6 @@ she doesnt trust
 she doesnt understand
 she doesnt wanna
 she doesnt want
-she doesn’t care
-she doesn’t express
-she doesn’t feel
-she doesn’t know
-she doesn’t really
-she doesn’t respect
-she doesn’t seem
-she doesn’t think
-she doesn’t trust
-she doesn’t understand
 she expected
 she expects
 she feels
@@ -873,23 +867,23 @@ she would
 she would likely
 she would probably
 she would surely
-she wouldn’t
+she wouldn't
+she'd
+she'd likely
+she'd probably
+she'd surely
 she'll
-she’d
-she’d likely
-she’d probably
-she’d surely
-she’ll break
-she’s hearing
-she’s trying
+she'll break
+she's hearing
+she's trying
 sure
 sure everyone
 sure he
 sure i
 sure i am
+sure i'm
 sure iam 
 sure it
-sure i’m
 sure me
 sure my
 sure our
@@ -914,7 +908,7 @@ suspecting my
 suspecting myself
 suspicious
 that they
-that they’re
+that they're
 they all are telling
 they all are thinking
 they all telling
@@ -959,6 +953,18 @@ they do not trust
 they do not understand
 they do not wanna
 they do not want
+they don't care
+they don't express
+they don't feel
+they don't know
+they don't really
+they don't respect
+they don't seem
+they don't think
+they don't trust
+they don't understand
+they don't wanna
+they don't want
 they dont care
 they dont express
 they dont feel
@@ -971,18 +977,6 @@ they dont trust
 they dont understand
 they dont wanna
 they dont want
-they don’t care
-they don’t express
-they don’t feel
-they don’t know
-they don’t really
-they don’t respect
-they don’t seem
-they don’t think
-they don’t trust
-they don’t understand
-they don’t wanna
-they don’t want
 they expect
 they expected
 they feel
@@ -1050,10 +1044,10 @@ they would
 they would likely
 they would probably
 they would surely
-they’d
-they’d likely
-they’d probably
-they’d surely
+they'd
+they'd likely
+they'd probably
+they'd surely
 though he
 though people
 though she

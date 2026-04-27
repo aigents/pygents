@@ -289,16 +289,25 @@ i'm disgusting
 i'm doomed
 i'm hopeless
 i'm incompetent
+i'm insane
+i'm just
+i'm kinda
 i'm lazy
+i'm losing
 i'm pathetic
+i'm pathetic
+i'm self-aware
 i'm selfish
 i'm silly
+i'm strange
 i'm stupid
 i'm such
 i'm toxic
 i'm ugly
 i'm useless
+i'm utterly
 i'm weak
+i'm weird
 i'm worthless
 idiot
 idiot a
@@ -394,15 +403,6 @@ it is useless
 it is weak
 it is worthless
 it sucks
-i’m insane
-i’m just
-i’m kinda
-i’m losing
-i’m pathetic
-i’m self-aware
-i’m strange
-i’m utterly
-i’m weird
 jerk
 laziness
 literally everything
@@ -492,11 +492,11 @@ she's silly
 she's stupid
 she's such
 she's toxic
+she's toxic
 she's ugly
 she's useless
 she's weak
 she's worthless
-she’s toxic
 shitty
 silly
 silly to

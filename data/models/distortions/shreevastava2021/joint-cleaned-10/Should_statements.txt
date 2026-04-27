@@ -20,17 +20,17 @@ bother me
 can put
 can turn
 can't control
+can't cope
+can't cry
+can't get
+can't give
+can't say
 cant control
 cant cope
 cant cry
 cant get
 cant give
 cant say
-can’t cope
-can’t cry
-can’t get
-can’t give
-can’t say
 care at
 care enough
 care or
@@ -63,19 +63,19 @@ do not even
 do not seem
 do these
 do when
+don't care
+don't enjoy
 don't even
+don't seem
 dont care
 dont enjoy
 dont even
 dont seem
-don’t care
-don’t enjoy
-don’t seem
 duty to
 enjoy doing
 establish myself
 evening i
-far i’ve
+far i've
 fault for
 fears for
 feel annoyed
@@ -162,10 +162,10 @@ it is my duty to
 it is right to
 it is wrong to
 it is your duty to
-it’s my duty to
-it’s right to
-it’s wrong to
-it’s your duty to
+it's my duty to
+it's right to
+it's wrong to
+it's your duty to
 keep control
 know i
 let myself
@@ -261,18 +261,17 @@ should work
 should worry
 should write
 shouldn't
+shouldn't be
+shouldn't bother
+shouldn't care
+shouldn't develop
 shouldn't do
-shouldn’t
-shouldn’t be
-shouldn’t bother
-shouldn’t care
-shouldn’t develop
-shouldn’t go
-shouldn’t have
-shouldn’t make
-shouldn’t react
-shouldn’t worry
-shouldn’t write
+shouldn't go
+shouldn't have
+shouldn't make
+shouldn't react
+shouldn't worry
+shouldn't write
 support my
 supporting my
 supposed not to
@@ -285,7 +284,7 @@ test my
 testing i am
 testing my
 tests i am
-tests i’m
+tests i'm
 they has to
 they should
 they would

@@ -70,22 +70,22 @@ highlight the fault
 however I
 however are
 however can not
+however can't
 however cant
-however can’t
 however do not
 however does not
+however doesn't
 however doesnt
-however doesn’t
+however don't
 however dont
-however don’t
 however feel
 however have
 however i am
 however i'm
 however im
 however it does not
+however it doesn't
 however it doesnt
-however it doesn’t
 however really
 however self
 however stuck
@@ -232,14 +232,14 @@ im still
 im yet
 in spite of this
 it does not matter
-it doesn’t matter
+it doesn't matter
 it good does not matter
-it good doesn’t matter
+it good doesn't matter
 it is because
 it spoils everything
 it spoils that all
+it's because
 its because
-it’s because
 just the bad
 just the failure
 just the flaw
@@ -258,14 +258,14 @@ nevertheless
 nevertheless I
 nevertheless are
 nevertheless can not
+nevertheless can't
 nevertheless cant
-nevertheless can’t
 nevertheless do not
 nevertheless does not
+nevertheless doesn't
 nevertheless doesnt
-nevertheless doesn’t
+nevertheless don't
 nevertheless dont
-nevertheless don’t
 nevertheless feel
 nevertheless have
 nevertheless i am
@@ -359,14 +359,14 @@ stick with me
 still I
 still are
 still can not
+still can't
 still cant
-still can’t
 still do not
 still does not
+still doesn't
 still doesnt
-still doesn’t
+still don't
 still dont
-still don’t
 still feel
 still have
 still i am
@@ -374,8 +374,8 @@ still i'm
 still im
 still it
 still it does not
+still it doesn't
 still it doesnt
-still it doesn’t
 still really
 still self
 still stuck
@@ -389,13 +389,13 @@ that spoils everything
 that spoils it all
 the bad matters
 the good does not matter
-the good doesn’t matter
+the good doesn't matter
 the one mistake
 the positives do not count
-the positives don’t count
+the positives don't count
 the worst part
 they do not count
-they don’t count
+they don't count
 thing ruins everything
 thing spoils everything
 thing spoils it all
@@ -409,22 +409,22 @@ this spoils it all
 yet I
 yet are
 yet can not
+yet can't
 yet cant
-yet can’t
 yet do not
 yet does not
+yet doesn't
 yet doesnt
-yet doesn’t
+yet don't
 yet dont
-yet don’t
 yet feel
 yet have
 yet i am
 yet i'm
 yet im
 yet it does not
+yet it doesn't
 yet it doesnt
-yet it doesn’t
 yet really
 yet self
 yet stuck
