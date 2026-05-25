@@ -7,9 +7,13 @@
     4. _util.py_ - random utilities
     5. _recognition_evaluators.py_ - pipeline code for learning and recognition for hyper-parameter rearch across multiple data splits   
 3. Notebooks for the models :
-    1. _shreevastava.ipynb_ - experimental code for the first real field dataset (Shreevastava 2021) 
-    2. _babacan.ipynb_ - experimental code for the second half-synthetic dataset (Babacan 2024)
+    1. _shreevastava_test.ipynb_ - experimental code for the first real field dataset (Shreevastava 2021) with a 20% holdout split.
+    2. _babacan_test.ipynb_ - experimental code for the second semi-synthetic dataset (Babacan 2024) with a 20% holdout split.
     3. _shreevastava_llm.ipynb_ - benchmarkking code (comparing with LLMs) for the first real field dataset (Shreevastava 2021)
+    4. _shreevastava.ipynb_ - experimental code for the first real field dataset (Shreevastava 2021) on the full dataset.
+    5. _babacan.ipynb_ - experimental code for the second semi-synthetic dataset (Babacan 2024) on the full dataset.
+    6. _shreevastava_clean.ipynb_ - experimental code for the first real field dataset (Shreevastava 2021) on the full dataset with a cleaned model.
+    
 6. Model files
     1. _../../data/models/distortions/ours_ - baseline model created based on earlier work (Bollen et. al., 2021; Raheman et. al., 2022; Arinicheva & Kolonin, 2025)
     2. _../../data/models/distortions/shreevastava2021_ - interpretable model created in the course of our study based on the first real field dataset (Shreevastava 2021), for three independent (overlapping) train splits (80% of the entire dataset) with inclusion threshold (IT) 0 based on "FCR" selection metric (SM)
